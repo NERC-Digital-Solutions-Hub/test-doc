@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  id: Operations
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractCoordinateOperationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralConversionType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValuePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValueType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralTransformationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralConversionPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralTransformationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueGroupType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.SingleOperationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractCoordinateOperationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractCoordinateOperationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractCoordinateOperationType.html
+  name: AbstractCoordinateOperationType
+  nameWithType: AbstractCoordinateOperationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractCoordinateOperationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralConversionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralConversionType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralConversionType.html
+  name: AbstractGeneralConversionType
+  nameWithType: AbstractGeneralConversionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralConversionType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterPropertyType.html
+  name: AbstractGeneralOperationParameterPropertyType
+  nameWithType: AbstractGeneralOperationParameterPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterType.html
+  name: AbstractGeneralOperationParameterType
+  nameWithType: AbstractGeneralOperationParameterType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralOperationParameterType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValuePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValuePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValuePropertyType.html
+  name: AbstractGeneralParameterValuePropertyType
+  nameWithType: AbstractGeneralParameterValuePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValuePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValueType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValueType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValueType.html
+  name: AbstractGeneralParameterValueType
+  nameWithType: AbstractGeneralParameterValueType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralParameterValueType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralTransformationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralTransformationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralTransformationType.html
+  name: AbstractGeneralTransformationType
+  nameWithType: AbstractGeneralTransformationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.AbstractGeneralTransformationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationPropertyType.html
+  name: ConcatenatedOperationPropertyType
+  nameWithType: ConcatenatedOperationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationType.html
+  name: ConcatenatedOperationType
+  nameWithType: ConcatenatedOperationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConcatenatedOperationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionPropertyType.html
+  name: ConversionPropertyType
+  nameWithType: ConversionPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionType.html
+  name: ConversionType
+  nameWithType: ConversionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ConversionType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy.html
+  name: CoordinateOperationAccuracy
+  nameWithType: CoordinateOperationAccuracy
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationPropertyType.html
+  name: CoordinateOperationPropertyType
+  nameWithType: CoordinateOperationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralConversionPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralConversionPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralConversionPropertyType.html
+  name: GeneralConversionPropertyType
+  nameWithType: GeneralConversionPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralConversionPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralTransformationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralTransformationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralTransformationPropertyType.html
+  name: GeneralTransformationPropertyType
+  nameWithType: GeneralTransformationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.GeneralTransformationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodPropertyType.html
+  name: OperationMethodPropertyType
+  nameWithType: OperationMethodPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodType.html
+  name: OperationMethodType
+  nameWithType: OperationMethodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationMethodType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupPropertyType.html
+  name: OperationParameterGroupPropertyType
+  nameWithType: OperationParameterGroupPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupType.html
+  name: OperationParameterGroupType
+  nameWithType: OperationParameterGroupType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterGroupType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterPropertyType.html
+  name: OperationParameterPropertyType
+  nameWithType: OperationParameterPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterType.html
+  name: OperationParameterType
+  nameWithType: OperationParameterType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationParameterType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationPropertyType.html
+  name: OperationPropertyType
+  nameWithType: OperationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.OperationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterType.html
+  name: ParameterType
+  nameWithType: ParameterType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueGroupType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueGroupType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueGroupType.html
+  name: ParameterValueGroupType
+  nameWithType: ParameterValueGroupType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueGroupType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueType.html
+  name: ParameterValueType
+  nameWithType: ParameterValueType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.ParameterValueType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationPropertyType.html
+  name: PassThroughOperationPropertyType
+  nameWithType: PassThroughOperationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationType.html
+  name: PassThroughOperationType
+  nameWithType: PassThroughOperationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.PassThroughOperationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.SingleOperationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.SingleOperationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.SingleOperationPropertyType.html
+  name: SingleOperationPropertyType
+  nameWithType: SingleOperationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.SingleOperationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationPropertyType.html
+  name: TransformationPropertyType
+  nameWithType: TransformationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationType.html
+  name: TransformationType
+  nameWithType: TransformationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.TransformationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.html

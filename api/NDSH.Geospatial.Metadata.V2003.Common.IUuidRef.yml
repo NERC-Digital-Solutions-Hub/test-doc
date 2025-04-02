@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  id: IUuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  langs:
+  - csharp
+  - vb
+  name: IUuidRef
+  nameWithType: IUuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IUuidRef.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IUuidRef
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IUuidRef.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Defines a contract for objects that require a reference to a
+
+    universally unique identifier (UUID). This interface ensures that
+
+    implementing classes provide a structured mechanism for referencing
+
+    an existing UUID in compliance with the ISO 19115 metadata standard.
+  remarks: >-
+    <p>
+      The <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef" data-throw-if-not-resolved="false"></xref> property stores a reference to an existing UUID, allowing for linking
+      and association of metadata entities without duplicating identifier information.
+    </p>
+
+    <p>
+      <b>Considerations:</b>
+      <ul><li>The <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef" data-throw-if-not-resolved="false"></xref> property should be a valid string representing a UUID.</li><li>Designed for use when a metadata entity needs to reference another entity by its UUID.</li><li>Ensure proper validation and uniqueness constraints for the referenced UUID.</li></ul>
+    </p>
+  example: []
+  syntax:
+    content: public interface IUuidRef
+    content.vb: Public Interface IUuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  id: UuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  langs:
+  - csharp
+  - vb
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IUuidRef.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: UuidRef
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IUuidRef.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Gets or sets the reference to an existing universally unique identifier (UUID).
+
+    This property allows metadata entities to establish links using UUID references.
+  example: []
+  syntax:
+    content: string? UuidRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UuidRef As String
+  overload: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef*
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.html#NDSH_Geospatial_Metadata_V2003_Common_IUuidRef_UuidRef
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.html
+  name: IUuidRef
+  nameWithType: IUuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.html#NDSH_Geospatial_Metadata_V2003_Common_IUuidRef_UuidRef
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

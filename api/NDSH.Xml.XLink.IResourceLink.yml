@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.IResourceLink
+  commentId: T:NDSH.Xml.XLink.IResourceLink
+  id: IResourceLink
+  parent: NDSH.Xml.XLink
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IResourceLink
+  nameWithType: IResourceLink
+  fullName: NDSH.Xml.XLink.IResourceLink
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IResourceLink.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IResourceLink
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IResourceLink.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: 'public interface IResourceLink : IType, IRole, ITitle, ILabel'
+    content.vb: Public Interface IResourceLink Inherits IType, IRole, ITitle, ILabel
+  inheritedMembers:
+  - NDSH.Xml.XLink.IType.Type
+  - NDSH.Xml.XLink.IRole.Role
+  - NDSH.Xml.XLink.ITitle.Title
+  - NDSH.Xml.XLink.ILabel.Label
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IType.Type
+  commentId: P:NDSH.Xml.XLink.IType.Type
+  parent: NDSH.Xml.XLink.IType
+  href: NDSH.Xml.XLink.IType.html#NDSH_Xml_XLink_IType_Type
+  name: Type
+  nameWithType: IType.Type
+  fullName: NDSH.Xml.XLink.IType.Type
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  parent: NDSH.Xml.XLink.IRole
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: NDSH.Xml.XLink.ITitle.Title
+  commentId: P:NDSH.Xml.XLink.ITitle.Title
+  parent: NDSH.Xml.XLink.ITitle
+  href: NDSH.Xml.XLink.ITitle.html#NDSH_Xml_XLink_ITitle_Title
+  name: Title
+  nameWithType: ITitle.Title
+  fullName: NDSH.Xml.XLink.ITitle.Title
+- uid: NDSH.Xml.XLink.ILabel.Label
+  commentId: P:NDSH.Xml.XLink.ILabel.Label
+  parent: NDSH.Xml.XLink.ILabel
+  href: NDSH.Xml.XLink.ILabel.html#NDSH_Xml_XLink_ILabel_Label
+  name: Label
+  nameWithType: ILabel.Label
+  fullName: NDSH.Xml.XLink.ILabel.Label
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.ILabel
+  commentId: T:NDSH.Xml.XLink.ILabel
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ILabel.html
+  name: ILabel
+  nameWithType: ILabel
+  fullName: NDSH.Xml.XLink.ILabel

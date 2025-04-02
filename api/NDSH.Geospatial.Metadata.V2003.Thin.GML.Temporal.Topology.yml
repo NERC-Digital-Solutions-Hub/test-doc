@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  id: Topology
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.AbstractTimeTopologyPrimitiveType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgeType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodeType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyPrimitivePropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.AbstractTimeTopologyPrimitiveType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.AbstractTimeTopologyPrimitiveType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.AbstractTimeTopologyPrimitiveType.html
+  name: AbstractTimeTopologyPrimitiveType
+  nameWithType: AbstractTimeTopologyPrimitiveType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.AbstractTimeTopologyPrimitiveType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgePropertyType.html
+  name: TimeEdgePropertyType
+  nameWithType: TimeEdgePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgeType.html
+  name: TimeEdgeType
+  nameWithType: TimeEdgeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeEdgeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodePropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodePropertyType.html
+  name: TimeNodePropertyType
+  nameWithType: TimeNodePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodeType.html
+  name: TimeNodeType
+  nameWithType: TimeNodeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeNodeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexPropertyType.html
+  name: TimeTopologyComplexPropertyType
+  nameWithType: TimeTopologyComplexPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexType.html
+  name: TimeTopologyComplexType
+  nameWithType: TimeTopologyComplexType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyComplexType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyPrimitivePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyPrimitivePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyPrimitivePropertyType.html
+  name: TimeTopologyPrimitivePropertyType
+  nameWithType: TimeTopologyPrimitivePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.TimeTopologyPrimitivePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.Topology.html

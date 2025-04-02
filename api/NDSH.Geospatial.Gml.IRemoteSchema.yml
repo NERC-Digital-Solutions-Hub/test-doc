@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Gml.IRemoteSchema
+  id: IRemoteSchema
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  langs:
+  - csharp
+  - vb
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IRemoteSchema.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IRemoteSchema
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IRemoteSchema.cs
+    startLine: 55
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: >-
+    Defines an interface for referencing an external schema in a geospatial metadata context.
+
+    This interface provides a mechanism to specify a URI linking to a remote schema.
+  remarks: >-
+    <p>
+      The <xref href="NDSH.Geospatial.Gml.IRemoteSchema" data-throw-if-not-resolved="false"></xref> interface allows metadata objects to include a reference
+      to an external schema definition. This is primarily used in GML-based metadata structures.
+    </p>
+
+    <p>
+      <b>Considerations:</b>
+      <ul><li>The <xref href="NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema" data-throw-if-not-resolved="false"></xref> property is deprecated in GML specifications.</li><li>Future implementations should consider alternative schema reference mechanisms.</li><li>Ensure compatibility with XML serialization when used in legacy systems.</li></ul>
+    </p>
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Marked 'deprecated' in /gml/gmlBase.xsd.")]
+
+      public interface IRemoteSchema
+    content.vb: >-
+      <Obsolete("Marked 'deprecated' in /gml/gmlBase.xsd.")>
+
+      Public Interface IRemoteSchema
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Marked 'deprecated' in /gml/gmlBase.xsd.
+- uid: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  commentId: P:NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  id: RemoteSchema
+  parent: NDSH.Geospatial.Gml.IRemoteSchema
+  langs:
+  - csharp
+  - vb
+  name: RemoteSchema
+  nameWithType: IRemoteSchema.RemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IRemoteSchema.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: RemoteSchema
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IRemoteSchema.cs
+    startLine: 69
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: >-
+    Gets/Sets the URI reference to an external remote schema.
+
+    This property is deprecated and should be used only for backward compatibility.
+  remarks: This is an obsolete property. (Marked deprecated in /gml/gmlBase.xsd).
+  example: []
+  syntax:
+    content: string? RemoteSchema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property RemoteSchema As String
+  overload: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema*
+references:
+- uid: NDSH.Geospatial.Gml.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Gml.IRemoteSchema
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IRemoteSchema.html
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema
+- uid: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  commentId: P:NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  parent: NDSH.Geospatial.Gml.IRemoteSchema
+  href: NDSH.Geospatial.Gml.IRemoteSchema.html#NDSH_Geospatial_Gml_IRemoteSchema_RemoteSchema
+  name: RemoteSchema
+  nameWithType: IRemoteSchema.RemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema*
+  commentId: Overload:NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+  href: NDSH.Geospatial.Gml.IRemoteSchema.html#NDSH_Geospatial_Gml_IRemoteSchema_RemoteSchema
+  name: RemoteSchema
+  nameWithType: IRemoteSchema.RemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema.RemoteSchema
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

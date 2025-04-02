@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Observation
+  commentId: N:NDSH.Geospatial.Gml.Observation
+  id: Observation
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.Observation.DirectedObservationAtDistanceType
+  - NDSH.Geospatial.Gml.Observation.DirectedObservationType
+  - NDSH.Geospatial.Gml.Observation.ObservationType
+  - NDSH.Geospatial.Gml.Observation.ProcedurePropertyType
+  - NDSH.Geospatial.Gml.Observation.ResultType
+  - NDSH.Geospatial.Gml.Observation.TargetPropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Observation
+  nameWithType: NDSH.Geospatial.Gml.Observation
+  fullName: NDSH.Geospatial.Gml.Observation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Observation.DirectedObservationAtDistanceType
+  commentId: T:NDSH.Geospatial.Gml.Observation.DirectedObservationAtDistanceType
+  href: NDSH.Geospatial.Gml.Observation.DirectedObservationAtDistanceType.html
+  name: DirectedObservationAtDistanceType
+  nameWithType: DirectedObservationAtDistanceType
+  fullName: NDSH.Geospatial.Gml.Observation.DirectedObservationAtDistanceType
+- uid: NDSH.Geospatial.Gml.Observation.DirectedObservationType
+  commentId: T:NDSH.Geospatial.Gml.Observation.DirectedObservationType
+  parent: NDSH.Geospatial.Gml.Observation
+  href: NDSH.Geospatial.Gml.Observation.DirectedObservationType.html
+  name: DirectedObservationType
+  nameWithType: DirectedObservationType
+  fullName: NDSH.Geospatial.Gml.Observation.DirectedObservationType
+- uid: NDSH.Geospatial.Gml.Observation.ObservationType
+  commentId: T:NDSH.Geospatial.Gml.Observation.ObservationType
+  parent: NDSH.Geospatial.Gml.Observation
+  href: NDSH.Geospatial.Gml.Observation.ObservationType.html
+  name: ObservationType
+  nameWithType: ObservationType
+  fullName: NDSH.Geospatial.Gml.Observation.ObservationType
+- uid: NDSH.Geospatial.Gml.Observation.ProcedurePropertyType
+  commentId: T:NDSH.Geospatial.Gml.Observation.ProcedurePropertyType
+  parent: NDSH.Geospatial.Gml.Observation
+  href: NDSH.Geospatial.Gml.Observation.ProcedurePropertyType.html
+  name: ProcedurePropertyType
+  nameWithType: ProcedurePropertyType
+  fullName: NDSH.Geospatial.Gml.Observation.ProcedurePropertyType
+- uid: NDSH.Geospatial.Gml.Observation.ResultType
+  commentId: T:NDSH.Geospatial.Gml.Observation.ResultType
+  parent: NDSH.Geospatial.Gml.Observation
+  href: NDSH.Geospatial.Gml.Observation.ResultType.html
+  name: ResultType
+  nameWithType: ResultType
+  fullName: NDSH.Geospatial.Gml.Observation.ResultType
+- uid: NDSH.Geospatial.Gml.Observation.TargetPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Observation.TargetPropertyType
+  parent: NDSH.Geospatial.Gml.Observation
+  href: NDSH.Geospatial.Gml.Observation.TargetPropertyType.html
+  name: TargetPropertyType
+  nameWithType: TargetPropertyType
+  fullName: NDSH.Geospatial.Gml.Observation.TargetPropertyType
+- uid: NDSH.Geospatial.Gml.Observation
+  commentId: N:NDSH.Geospatial.Gml.Observation
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Observation
+  nameWithType: NDSH.Geospatial.Gml.Observation
+  fullName: NDSH.Geospatial.Gml.Observation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Observation
+    name: Observation
+    href: NDSH.Geospatial.Gml.Observation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Observation
+    name: Observation
+    href: NDSH.Geospatial.Gml.Observation.html

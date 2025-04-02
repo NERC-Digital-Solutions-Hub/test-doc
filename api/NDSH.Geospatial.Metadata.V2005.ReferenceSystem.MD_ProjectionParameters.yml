@@ -1,0 +1,1879 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  id: MD_ProjectionParameters
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  children:
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.xmlns
+  langs:
+  - csharp
+  - vb
+  name: MD_ProjectionParameters
+  nameWithType: MD_ProjectionParameters
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MD_ProjectionParameters
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("MD_ProjectionParameters")]
+
+      public class MD_ProjectionParameters : Model, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("MD_ProjectionParameters")>
+
+      Public Class MD_ProjectionParameters Inherits Model Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2005.Model
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2005.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MD_ProjectionParameters
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: MD_ProjectionParameters()
+  nameWithType: MD_ProjectionParameters.MD_ProjectionParameters()
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.MD_ProjectionParameters()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 49
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MD_ProjectionParameters()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor*
+  nameWithType.vb: MD_ProjectionParameters.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.xmlns
+  id: xmlns
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: xmlns
+  nameWithType: MD_ProjectionParameters.xmlns
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.xmlns
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: xmlns
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 81
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: public XmlSerializerNamespaces xmlns
+    return:
+      type: System.Xml.Serialization.XmlSerializerNamespaces
+    content.vb: Public xmlns As XmlSerializerNamespaces
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+  id: ZoneNumber
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ZoneNumber
+  nameWithType: MD_ProjectionParameters.ZoneNumber
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ZoneNumber
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("zoneNumber", Order = 0)]
+
+      public int ZoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("zoneNumber", Order:=0)>
+
+      Public Property ZoneNumber As Integer
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: zoneNumber
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+  id: StandardParallel
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: StandardParallel
+  nameWithType: MD_ProjectionParameters.StandardParallel
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: StandardParallel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 115
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("standardParallel", Order = 1)]
+
+      public List<double> StandardParallel { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Double}
+    content.vb: >-
+      <JsonProperty("standardParallel", Order:=1)>
+
+      Public Property StandardParallel As List(Of Double)
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: standardParallel
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+  id: LongitudeOfCentralMeridian
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: LongitudeOfCentralMeridian
+  nameWithType: MD_ProjectionParameters.LongitudeOfCentralMeridian
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LongitudeOfCentralMeridian
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 137
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("longitudeOfCentralMeridian", Order = 2)]
+
+      public double LongitudeOfCentralMeridian { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("longitudeOfCentralMeridian", Order:=2)>
+
+      Public Property LongitudeOfCentralMeridian As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: longitudeOfCentralMeridian
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  id: LatitudeOfProjectionOrigin
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: LatitudeOfProjectionOrigin
+  nameWithType: MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LatitudeOfProjectionOrigin
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 160
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("latitudeOfProjectionOrigin", Order = 3)]
+
+      public double LatitudeOfProjectionOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("latitudeOfProjectionOrigin", Order:=3)>
+
+      Public Property LatitudeOfProjectionOrigin As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: latitudeOfProjectionOrigin
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+  id: FalseEasting
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: FalseEasting
+  nameWithType: MD_ProjectionParameters.FalseEasting
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: FalseEasting
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 183
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("falseEasting", Order = 4)]
+
+      public double FalseEasting { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("falseEasting", Order:=4)>
+
+      Public Property FalseEasting As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: falseEasting
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+  id: FalseNorthing
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: FalseNorthing
+  nameWithType: MD_ProjectionParameters.FalseNorthing
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: FalseNorthing
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 206
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("falseNorthing", Order = 5)]
+
+      public double FalseNorthing { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("falseNorthing", Order:=5)>
+
+      Public Property FalseNorthing As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: falseNorthing
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+  id: FalseEastingNorthingUnits
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: FalseEastingNorthingUnits
+  nameWithType: MD_ProjectionParameters.FalseEastingNorthingUnits
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: FalseEastingNorthingUnits
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 229
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("falseEastingNorthingUnits", Order = 6)]
+
+      public UomLength FalseEastingNorthingUnits { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.UomLength
+    content.vb: >-
+      <JsonProperty("falseEastingNorthingUnits", Order:=6)>
+
+      Public Property FalseEastingNorthingUnits As UomLength
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: falseEastingNorthingUnits
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+  id: ScaleFactorAtEquator
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ScaleFactorAtEquator
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtEquator
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ScaleFactorAtEquator
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 251
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("scaleFactorAtEquator", Order = 7)]
+
+      public double ScaleFactorAtEquator { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("scaleFactorAtEquator", Order:=7)>
+
+      Public Property ScaleFactorAtEquator As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scaleFactorAtEquator
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  id: HeightOfProspectivePointAboveSurface
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: HeightOfProspectivePointAboveSurface
+  nameWithType: MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: HeightOfProspectivePointAboveSurface
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 274
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("heightOfProspectivePointAboveSurface", Order = 8)]
+
+      public double HeightOfProspectivePointAboveSurface { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("heightOfProspectivePointAboveSurface", Order:=8)>
+
+      Public Property HeightOfProspectivePointAboveSurface As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: heightOfProspectivePointAboveSurface
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+  id: LongitudeOfProjectionCenter
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: LongitudeOfProjectionCenter
+  nameWithType: MD_ProjectionParameters.LongitudeOfProjectionCenter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LongitudeOfProjectionCenter
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 297
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("longitudeOfProjectionCenter", Order = 9)]
+
+      public double LongitudeOfProjectionCenter { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("longitudeOfProjectionCenter", Order:=9)>
+
+      Public Property LongitudeOfProjectionCenter As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: longitudeOfProjectionCenter
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 9
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+  id: LatitudeOfProjectionCenter
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: LatitudeOfProjectionCenter
+  nameWithType: MD_ProjectionParameters.LatitudeOfProjectionCenter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LatitudeOfProjectionCenter
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 320
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("latitudeOfProjectionCenter", Order = 10)]
+
+      public double LatitudeOfProjectionCenter { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("latitudeOfProjectionCenter", Order:=10)>
+
+      Public Property LatitudeOfProjectionCenter As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: latitudeOfProjectionCenter
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 10
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+  id: ScaleFactorAtCenterLine
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ScaleFactorAtCenterLine
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtCenterLine
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ScaleFactorAtCenterLine
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 343
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("scaleFactorAtCenterLine", Order = 11)]
+
+      public double ScaleFactorAtCenterLine { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("scaleFactorAtCenterLine", Order:=11)>
+
+      Public Property ScaleFactorAtCenterLine As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scaleFactorAtCenterLine
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 11
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  id: StraightVertialLongitudeFromPole
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: StraightVertialLongitudeFromPole
+  nameWithType: MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: StraightVertialLongitudeFromPole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 366
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("straightVertialLongitudeFromPole", Order = 12)]
+
+      public double StraightVertialLongitudeFromPole { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("straightVertialLongitudeFromPole", Order:=12)>
+
+      Public Property StraightVertialLongitudeFromPole As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: straightVertialLongitudeFromPole
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 12
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  id: ScaleFactorAtProjectionOrigin
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ScaleFactorAtProjectionOrigin
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ScaleFactorAtProjectionOrigin
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 389
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      [JsonProperty("scaleFactorAtProjectionOrigin", Order = 13)]
+
+      public double ScaleFactorAtProjectionOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <Required>
+
+      <JsonProperty("scaleFactorAtProjectionOrigin", Order:=13)>
+
+      Public Property ScaleFactorAtProjectionOrigin As Double
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scaleFactorAtProjectionOrigin
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 13
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  id: ObliqueLineAzimuthParameter
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ObliqueLineAzimuthParameter
+  nameWithType: MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ObliqueLineAzimuthParameter
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 412
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("obliqueLineAzimuthParameter", Order = 14)]
+
+      public MD_ObliqueLineAzimuth ObliqueLineAzimuthParameter { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+    content.vb: >-
+      <JsonProperty("obliqueLineAzimuthParameter", Order:=14)>
+
+      Public Property ObliqueLineAzimuthParameter As MD_ObliqueLineAzimuth
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: obliqueLineAzimuthParameter
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 14
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+  id: ObliqueLinePointParameter
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: ObliqueLinePointParameter
+  nameWithType: MD_ProjectionParameters.ObliqueLinePointParameter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ObliqueLinePointParameter
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 434
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("obliqueLinePointParameter", Order = 15)]
+
+      public List<MD_ObliqueLinePoint> ObliqueLinePointParameter { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint}
+    content.vb: >-
+      <JsonProperty("obliqueLinePointParameter", Order:=15)>
+
+      Public Property ObliqueLinePointParameter As List(Of MD_ObliqueLinePoint)
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: obliqueLinePointParameter
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 15
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+  id: Id
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: MD_ProjectionParameters.Id
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Id
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 456
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("id")]
+
+      public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("id")>
+
+      Public Property Id As String
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: id
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid
+  id: Uuid
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  langs:
+  - csharp
+  - vb
+  name: Uuid
+  nameWithType: MD_ProjectionParameters.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Uuid
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/ReferenceSystem/MD_ProjectionParameters.cs
+    startLine: 479
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("uuid")]
+
+      public string Uuid { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("uuid")>
+
+      Public Property Uuid As String
+  overload: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uuid
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2005.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Model
+  parent: NDSH.Geospatial.Metadata.V2005
+  href: NDSH.Geospatial.Metadata.V2005.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2005.Model
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2005.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2005.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2005.Model
+  href: NDSH.Geospatial.Metadata.V2005.Model.html#NDSH_Geospatial_Metadata_V2005_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2005.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2005.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2005.Model.html#NDSH_Geospatial_Metadata_V2005_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2005.Model.html#NDSH_Geospatial_Metadata_V2005_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2005.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2005.Model.html#NDSH_Geospatial_Metadata_V2005_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2005
+  commentId: N:NDSH.Geospatial.Metadata.V2005
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005
+  nameWithType: NDSH.Geospatial.Metadata.V2005
+  fullName: NDSH.Geospatial.Metadata.V2005
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html
+  name: MD_ProjectionParameters
+  nameWithType: MD_ProjectionParameters
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.#ctor
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters__ctor
+  name: MD_ProjectionParameters
+  nameWithType: MD_ProjectionParameters.MD_ProjectionParameters
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.MD_ProjectionParameters
+  nameWithType.vb: MD_ProjectionParameters.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.New
+  name.vb: New
+- uid: System.Xml.Serialization.XmlSerializerNamespaces
+  commentId: T:System.Xml.Serialization.XmlSerializerNamespaces
+  parent: System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlserializernamespaces
+  name: XmlSerializerNamespaces
+  nameWithType: XmlSerializerNamespaces
+  fullName: System.Xml.Serialization.XmlSerializerNamespaces
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ZoneNumber
+  name: ZoneNumber
+  nameWithType: MD_ProjectionParameters.ZoneNumber
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ZoneNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_StandardParallel
+  name: StandardParallel
+  nameWithType: MD_ProjectionParameters.StandardParallel
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StandardParallel
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<double>
+  nameWithType: List<double>
+  fullName: System.Collections.Generic.List<double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_LongitudeOfCentralMeridian
+  name: LongitudeOfCentralMeridian
+  nameWithType: MD_ProjectionParameters.LongitudeOfCentralMeridian
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfCentralMeridian
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_LatitudeOfProjectionOrigin
+  name: LatitudeOfProjectionOrigin
+  nameWithType: MD_ProjectionParameters.LatitudeOfProjectionOrigin
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionOrigin
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_FalseEasting
+  name: FalseEasting
+  nameWithType: MD_ProjectionParameters.FalseEasting
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEasting
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_FalseNorthing
+  name: FalseNorthing
+  nameWithType: MD_ProjectionParameters.FalseNorthing
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseNorthing
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_FalseEastingNorthingUnits
+  name: FalseEastingNorthingUnits
+  nameWithType: MD_ProjectionParameters.FalseEastingNorthingUnits
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.FalseEastingNorthingUnits
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.UomLength
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.UomLength
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.UomLength.html
+  name: UomLength
+  nameWithType: UomLength
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.UomLength
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived
+    name: Derived
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived
+    name: Derived
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.UnitsOfMeasure.html
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ScaleFactorAtEquator
+  name: ScaleFactorAtEquator
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtEquator
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtEquator
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_HeightOfProspectivePointAboveSurface
+  name: HeightOfProspectivePointAboveSurface
+  nameWithType: MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.HeightOfProspectivePointAboveSurface
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_LongitudeOfProjectionCenter
+  name: LongitudeOfProjectionCenter
+  nameWithType: MD_ProjectionParameters.LongitudeOfProjectionCenter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LongitudeOfProjectionCenter
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_LatitudeOfProjectionCenter
+  name: LatitudeOfProjectionCenter
+  nameWithType: MD_ProjectionParameters.LatitudeOfProjectionCenter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.LatitudeOfProjectionCenter
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ScaleFactorAtCenterLine
+  name: ScaleFactorAtCenterLine
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtCenterLine
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtCenterLine
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_StraightVertialLongitudeFromPole
+  name: StraightVertialLongitudeFromPole
+  nameWithType: MD_ProjectionParameters.StraightVertialLongitudeFromPole
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.StraightVertialLongitudeFromPole
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ScaleFactorAtProjectionOrigin
+  name: ScaleFactorAtProjectionOrigin
+  nameWithType: MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ScaleFactorAtProjectionOrigin
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ObliqueLineAzimuthParameter
+  name: ObliqueLineAzimuthParameter
+  nameWithType: MD_ProjectionParameters.ObliqueLineAzimuthParameter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLineAzimuthParameter
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth.html
+  name: MD_ObliqueLineAzimuth
+  nameWithType: MD_ObliqueLineAzimuth
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_ObliqueLinePointParameter
+  name: ObliqueLinePointParameter
+  nameWithType: MD_ProjectionParameters.ObliqueLinePointParameter
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.ObliqueLinePointParameter
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_ObliqueLinePoint>
+  nameWithType: List<MD_ObliqueLinePoint>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint>
+  nameWithType.vb: List(Of MD_ObliqueLinePoint)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint)
+  name.vb: List(Of MD_ObliqueLinePoint)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+    name: MD_ObliqueLinePoint
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+    name: MD_ObliqueLinePoint
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_Id
+  name: Id
+  nameWithType: MD_ProjectionParameters.Id
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html#NDSH_Geospatial_Metadata_V2005_ReferenceSystem_MD_ProjectionParameters_Uuid
+  name: Uuid
+  nameWithType: MD_ProjectionParameters.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.Uuid

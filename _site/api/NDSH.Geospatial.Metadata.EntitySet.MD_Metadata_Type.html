@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MD_Metadata_Type | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MD_Metadata_Type | NDSH ">
+      
+      <meta name="description" content="Root entity which defines metadata about a resource or resources.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/new/dev/apiSpec/new?filename=NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type">
+
+
+
+  <h1 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type" class="text-break">
+Class MD_Metadata_Type  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Metadata.html">Metadata</a>.<a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.html">EntitySet</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.ISO19115.Ed2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Root entity which defines metadata about a resource or resources.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(true)]
+[Serializable]
+[JsonObject(&quot;MD_Metadata&quot;)]
+public class MD_Metadata_Type : MetadataObject, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable&lt;MD_Metadata_Type&gt;, IEquatable&lt;MD_Metadata_Type&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html">ObservableDbEntity</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.MetadataObject.html">MetadataObject</a></div>
+      <div><span class="xref">MD_Metadata_Type</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.IDbId.html">IDbId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.IObjectIdentification.html">IObjectIdentification</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.INullableId.html">INullableId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.INullableUuid.html">INullableUuid</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.ITypeReferenced.html">ITypeReferenced</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.EntitySet.MI_Metadata_Type.html">MI_Metadata_Type</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Id">MetadataObject.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Uuid">MetadataObject.Uuid</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_TypeReferenceMetadata">MetadataObject.TypeReferenceMetadata</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId">ObservableDbEntity.DbId</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type__ctor_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.#ctor*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type__ctor" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.#ctor">
+  MD_Metadata_Type()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes the <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MD_Metadata_Type()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_CharacterSet_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.CharacterSet*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_CharacterSet" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.CharacterSet">
+  CharacterSet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the full name of the character coding
+standard used for the metadata set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;characterSet&quot;, Order = 2)]
+public MD_CharacterSetCode_CodeList CharacterSet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Metadata.Identification.MD_CharacterSetCode_CodeList.html">MD_CharacterSetCode_CodeList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Contact_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Contact*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Contact" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Contact">
+  Contact
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the party responsible for the metadata information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;contact&quot;, Order = 6)]
+public ObservableCollection&lt;CI_ResponsibleParty_Type&gt; Contact { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type.html">CI_ResponsibleParty_Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DataQualityInfo_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DataQualityInfo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DataQualityInfo" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DataQualityInfo">
+  DataQualityInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L458"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the overall assessment of quality of resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dataQualityInfo&quot;, Order = 18)]
+public ObservableCollection&lt;DQ_DataQuality_Type&gt; DataQualityInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type.html">DQ_DataQuality_Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DataSetURI_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DataSetURI*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DataSetURI" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DataSetURI">
+  DataSetURI
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Uniformed Resource Identifier (URI) of the dataset to which the metadata applies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dataSetURI&quot;, Order = 10)]
+public CharacterString DataSetURI { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DateStamp_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DateStamp*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DateStamp" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DateStamp">
+  DateStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the date that the metadata was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;dateStamp&quot;, Order = 7)]
+public DateDbEntity DateStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity.html">DateDbEntity</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DistributionInfo_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DistributionInfo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_DistributionInfo" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.DistributionInfo">
+  DistributionInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the information about the distributor
+of and options for obtaining the resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;distributionInfo&quot;, Order = 17)]
+public MD_Distribution_Type DistributionInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type.html">MD_Distribution_Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_FileIdentifier_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.FileIdentifier*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_FileIdentifier" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.FileIdentifier">
+  FileIdentifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the unique identifier for this metadata file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;fileIdentifier&quot;, Order = 0)]
+public CharacterString FileIdentifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_HierarchyLevel_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.HierarchyLevel*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_HierarchyLevel" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.HierarchyLevel">
+  HierarchyLevel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the scope to which the metadata applies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;hierarchyLevel&quot;, Order = 4)]
+public ObservableCollection&lt;MD_ScopeCode_CodeList&gt; HierarchyLevel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList.html">MD_ScopeCode_CodeList</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_HierarchyLevel_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>More information about metadata hierarchy levels can be
+found in Annex H of the ISO 19115:2003 document.</p>
+</div>
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_HierarchyLevelName_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.HierarchyLevelName*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_HierarchyLevelName" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.HierarchyLevelName">
+  HierarchyLevelName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the name of the hierarchy levels for which the metadata is provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;hierarchyLevelName&quot;, Order = 5)]
+public ObservableCollection&lt;CharacterString&gt; HierarchyLevelName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_IdentificationInfo_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.IdentificationInfo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_IdentificationInfo" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.IdentificationInfo">
+  IdentificationInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the basic information about the resources to which the metadata applies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;identificationInfo&quot;, Order = 15)]
+public ObservableCollection&lt;AbstractMD_Identification_Type&gt; IdentificationInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html">AbstractMD_Identification_Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Language_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Language*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Language" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Language">
+  Language
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the language used for documenting metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;language&quot;, Order = 1)]
+public LanguageCode_CodeList Language { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Metadata.Localisation.LanguageCode_CodeList.html">LanguageCode_CodeList</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataConstraints_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataConstraints*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataConstraints" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataConstraints">
+  MetadataConstraints
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the restrictions on the access and use of metadata.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;metadataConstraints&quot;, Order = 20)]
+public ObservableCollection&lt;MD_Constraints_Type&gt; MetadataConstraints { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type.html">MD_Constraints_Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataMaintenance_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataMaintenance*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataMaintenance" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataMaintenance">
+  MetadataMaintenance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets information about the frequency of metadata updates,
+and the scope of those updates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;metadataMaintenance&quot;, Order = 22)]
+public MD_MaintenanceInformation_Type MetadataMaintenance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type.html">MD_MaintenanceInformation_Type</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataStandardName_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataStandardName*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataStandardName" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataStandardName">
+  MetadataStandardName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the name of the metadata standard (including profile name) used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;metadataStandardName&quot;, Order = 8)]
+public CharacterString MetadataStandardName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataStandardVersion_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataStandardVersion*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_MetadataStandardVersion" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.MetadataStandardVersion">
+  MetadataStandardVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the version of the metadata standard (version of the profile) used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;metadataStandardVersion&quot;, Order = 9)]
+public CharacterString MetadataStandardVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_ParentIdentifier_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.ParentIdentifier*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_ParentIdentifier" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.ParentIdentifier">
+  ParentIdentifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the file identifier of the metadata
+to which this metadata is a subset (child).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;parentIdentifier&quot;, Order = 3)]
+public CharacterString ParentIdentifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_ReferenceSystemInfo_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.ReferenceSystemInfo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_ReferenceSystemInfo" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.ReferenceSystemInfo">
+  ReferenceSystemInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets / Sets the description of the spatial and
+temporal reference systems used in the dataset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;referenceSystemInfo&quot;, Order = 13)]
+public ObservableCollection&lt;MD_ReferenceSystem_Type&gt; ReferenceSystemInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1">ObservableCollection</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type.html">MD_ReferenceSystem_Type</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_CompareTo_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.CompareTo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_CompareTo_NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.CompareTo(NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type)">
+  CompareTo(MD_Metadata_Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L666"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares this instance to another <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a> instance.
+<br>
+The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(MD_Metadata_Type? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a></dt>
+    <dd><p>The other <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> showing the result of the comparison.</p>
+<ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Equals_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Equals*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Equals_NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Equals(NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type)">
+  Equals(MD_Metadata_Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L701"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a> is equal to the current <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>.
+This will order collections before comparing them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(MD_Metadata_Type? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a></dt>
+    <dd><p>The <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a> to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Equals_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Equals*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_Equals_System_Object_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L732"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> is equal to the current <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a>.
+This will order collections before comparing them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">obj</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_GetHashCode_" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.GetHashCode*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_EntitySet_MD_Metadata_Type_GetHashCode" data-uid="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L741"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the hash code for the <a class="xref" href="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a> using <a class="xref" href="NDSH.Hashing.NdshHashCode.html">NdshHashCode</a>. This will also order
+collections before hashing them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The hash code.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/EntitySet/MD_Metadata_Type.cs/#L125" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

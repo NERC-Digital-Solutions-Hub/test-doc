@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace NDSH.Geospatial.Gml.Geometry.Basic0D1D | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace NDSH.Geospatial.Gml.Geometry.Basic0D1D | NDSH ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Gml.Geometry.Basic0D1D">
+
+  <h1 id="NDSH_Geospatial_Gml_Geometry_Basic0D1D" data-uid="NDSH.Geospatial.Gml.Geometry.Basic0D1D" class="text-break">Namespace NDSH.Geospatial.Gml.Geometry.Basic0D1D</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType.html">AbstractCurveType</a></dt>
+      <dd><p>gml:AbstractCurveType is an abstraction of a curve to support the different levels of complexity. The curve may always be viewed as a geometric primitive, i.e. is continuous.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType.html">AbstractGeometricPrimitiveType</a></dt>
+      <dd><p>gml:AbstractGeometricPrimitiveType is the abstract root type of the geometric primitives. A geometric primitive is a geometric object that is not decomposed further into other primitives in the system. All primitives are oriented in the direction implied by the sequence of their coordinate tuples.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType.html">AbstractGeometryType</a></dt>
+      <dd><p>
+All geometry elements are derived directly or indirectly from this abstract supertype.
+A geometry element may have an identifying attribute (gml:id), one or more names
+(elements identifier and name) and a description (elements description and
+descriptionReference) . It may be associated with a spatial reference system
+(attribute group gml:SRSReferenceGroup).
+</p>
+<p>
+The following rules shall be adhered to: <br>
+<ul><li>Every geometry type shall derive from this abstract type.</li><li>
+Every geometry element (i.e. an element of a geometry type) shall be
+directly or indirectly in the substitution group of AbstractGeometry.
+</li></ul>
+
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType.html">CurveArrayPropertyType</a></dt>
+      <dd><p>A container for an array of curves. The elements are always contained in the array property, referencing geometry elements or arrays of geometry elements via XLinks is not supported.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType.html">CurvePropertyType</a></dt>
+      <dd><p>A property that has a curve as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType.html">DirectPositionListType</a></dt>
+      <dd><p>posList instances (and other instances with the content model specified by
+DirectPositionListType) hold the coordinates for a sequence of direct positions
+within the same coordinate reference system (CRS). If no srsName attribute is given,
+the CRS shall be specified as part of the larger context this geometry element is part of,
+typically a geometric object like a point, curve, etc. The optional attribute count
+specifies the number of direct positions in the list. If the attribute count is present
+then the attribute srsDimension shall be present, too. The number of entries in the list
+is equal to the product of the dimensionality of the coordinate reference system
+(i.e. it is a derived value of the coordinate reference system definition)
+and the number of direct positions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType.html">DirectPositionType</a></dt>
+      <dd><p>Direct position instances hold the coordinates for a position within
+some coordinate reference system (CRS). Since direct positions,
+as data types, will often be included in larger objects
+(such as geometry elements) that have references to CRS,
+the srsName attribute will in general be missing, if this particular
+direct position is included in a larger element with such a reference to a CRS.
+In this case, the CRS is implicitly assumed to take on the value of the
+containing object's CRS. If no srsName attribute is given,
+the CRS shall be specified as part of the larger context this geometry
+element is part of, typically a geometric object like a point, curve, etc.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType.html">EnvelopeType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType.html">GeometricPrimitivePropertyType</a></dt>
+      <dd><p>A property that has a geometric primitive as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType.html">GeometryArrayPropertyType</a></dt>
+      <dd><p>If a feature has a property which takes an array of geometry elements as its value, this is called a geometry array property. A generic type for such a geometry property is GeometryArrayPropertyType.
+The elements are always contained inline in the array property, referencing geometry elements or arrays of geometry elements via XLinks is not supported.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType.html">GeometryPropertyType</a></dt>
+      <dd><p>A geometric property may either be any geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same or another document). Note that either the reference or the contained element shall be given, but not both or none.
+If a feature has a property that takes a geometry element as its value, this is called a geometry property. A generic type for such a geometry property is GeometryPropertyType.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType.html">LineStringType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType.html">PointArrayPropertyType</a></dt>
+      <dd><p>gml:PointArrayPropertyType is a container for an array of points. The elements are always contained inline in the array property, referencing geometry elements or arrays of geometry elements via XLinks is not supported.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType.html">PointPropertyType</a></dt>
+      <dd><p>A property that has a point as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType.html">PointType</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint.html">TinTypeControlPoint</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType.html">VectorType</a></dt>
+      <dd><p>For some applications the components of the position may be adjusted to yield a unit vector.</p>
+</dd>
+    </dl>
+    <h3 id="interfaces">
+Interfaces
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.html">ISrsInformation</a></dt>
+      <dd><p>The attributes UomLabels and AxisLabels are optional additional and redundant
+information for a CRS to simplify the processing of the coordinate values when
+a more complete definition of the CRS is not needed. This information shall be
+the same as included in the complete definition of the CRS, referenced by the
+srsName attribute. When the srsName attribute is included, either both or neither
+of the axisLabels and uomLabels attributes shall be included. When the srsName
+attribute is omitted, both of these attributes shall be omitted. The attribute
+axisLabels is an ordered list of labels for all the axes of this CRS.
+The gml:axisAbbrev value should be used for these axis labels, after spaces and
+forbidden characters are removed.When the srsName attribute is included,
+this attribute is optional.When the srsName attribute is omitted,
+this attribute shall also be omitted. The attribute uomLabels is an ordered list
+of unit of measure (uom) labels for all the axes of this CRS.The value of the
+string in the gml:catalogSymbol should be used for this uom labels,
+after spaces and forbidden characters are removed.
+When the axisLabels attribute is included, this attribute shall also be included.
+When the axisLabels attribute is omitted, this attribute shall also be omitted.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference.html">ISrsReference</a></dt>
+      <dd><p>The attribute group SRSReferenceGroup is an optional reference to the CRS used
+by this geometry, with optional additional information to simplify the processing
+of the coordinates when a more complete definition of the CRS is not needed.
+In general the attribute srsName points to a CRS instance of
+gml:AbstractCoordinateReferenceSystem.For well-known references it is not required
+that the CRS description exists at the location the URI points to.
+If no srsName attribute is given, the CRS shall be specified as part of the larger
+context this geometry element is part of.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration.html">CoordinatesOrPositionEnumeration</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType.html">SurfaceInterpolationType</a></dt>
+      <dd><p>SurfaceInterpolationType is a list of codes that may be used to identify
+the interpolation mechanisms specified by an application schema.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

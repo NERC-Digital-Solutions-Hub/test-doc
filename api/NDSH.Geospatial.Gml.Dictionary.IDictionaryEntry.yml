@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  id: IDictionaryEntry
+  parent: NDSH.Geospatial.Gml.Dictionary
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IDictionaryEntry
+  nameWithType: IDictionaryEntry
+  fullName: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Dictionary/IDictionaryEntry.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IDictionaryEntry
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Dictionary/IDictionaryEntry.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Dictionary
+  summary: >-
+    The <xref href="NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry" data-throw-if-not-resolved="false"></xref> allows to define the types that are allowed
+
+    to be included in <xref href="NDSH.Geospatial.Gml.Dictionary.DictionaryType?text=dictionaries" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface IDictionaryEntry
+    content.vb: Public Interface IDictionaryEntry
+references:
+- uid: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry.html
+  name: IDictionaryEntry
+  nameWithType: IDictionaryEntry
+  fullName: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+- uid: NDSH.Geospatial.Gml.Dictionary.DictionaryType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DictionaryType
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.DictionaryType.html
+  name: DictionaryType
+  nameWithType: DictionaryType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DictionaryType
+- uid: NDSH.Geospatial.Gml.Dictionary
+  commentId: N:NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Dictionary
+  nameWithType: NDSH.Geospatial.Gml.Dictionary
+  fullName: NDSH.Geospatial.Gml.Dictionary
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html

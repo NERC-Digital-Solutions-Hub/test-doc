@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  id: DateTimeEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.Date
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.DateTime
+  langs:
+  - csharp
+  - vb
+  name: DateTimeEnumeration
+  nameWithType: DateTimeEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DateTimeEnumeration
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+    startLine: 32
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  summary: The DateTimeEnumeration defines the types of DateTime used for serialization.
+  example: []
+  syntax:
+    content: public enum DateTimeEnumeration
+    content.vb: Public Enum DateTimeEnumeration
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.Date
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.Date
+  id: Date
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DateTimeEnumeration.Date
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.Date
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Date
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  summary: A date is used in serialization/deserialization.
+  example: []
+  syntax:
+    content: Date = 0
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.DateTime
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.DateTime
+  id: DateTime
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: DateTimeEnumeration.DateTime
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.DateTime
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DateTime
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/ConceptualSchema/Primitive/DateTime/DateTimeEnumeration.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  summary: A datetime is used in serialization/deserialization.
+  example: []
+  syntax:
+    content: DateTime = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<DateTimeEnumeration>(DateTimeEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumName<DateTimeEnumeration>(DateTimeEnumeration)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration>(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of DateTimeEnumeration)(DateTimeEnumeration)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  name.vb: GetXmlEnumName(Of DateTimeEnumeration)(DateTimeEnumeration)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<DateTimeEnumeration>(DateTimeEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<DateTimeEnumeration>(DateTimeEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration>(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of DateTimeEnumeration)(DateTimeEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  name.vb: GetXmlEnumAttributeOrName(Of DateTimeEnumeration)(DateTimeEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<DateTimeEnumeration>(DateTimeEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<DateTimeEnumeration>(DateTimeEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration>(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of DateTimeEnumeration)(DateTimeEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+  name.vb: GetXmlEnumAttribute(Of DateTimeEnumeration)(DateTimeEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+    name: DateTimeEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration.html
+  name: DateTimeEnumeration
+  nameWithType: DateTimeEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.DateTimeEnumeration

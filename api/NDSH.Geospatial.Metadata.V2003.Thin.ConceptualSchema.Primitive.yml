@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  id: Primitive
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  - NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+    name: Multiplicities
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities
+    name: Multiplicities
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Multiplicities.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+    name: Numerics
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics
+    name: Numerics
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Numerics.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+    name: Truth
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+    name: Truth
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_PropertyType.html
+  name: Binary_PropertyType
+  nameWithType: Binary_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_Type.html
+  name: Binary_Type
+  nameWithType: Binary_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Binary_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html

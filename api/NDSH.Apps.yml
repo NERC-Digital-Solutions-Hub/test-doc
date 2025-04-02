@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  id: Apps
+  parent: NDSH
+  children:
+  - NDSH.Apps.Benchmarks
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - NDSH.Apps.IndexedPropertiesModel
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  type: Namespace
+  assemblies:
+  - NDSH.Models
+references:
+- uid: NDSH.Apps.Benchmarks
+  commentId: N:NDSH.Apps.Benchmarks
+  href: NDSH.html
+  name: NDSH.Apps.Benchmarks
+  nameWithType: NDSH.Apps.Benchmarks
+  fullName: NDSH.Apps.Benchmarks
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  - name: .
+  - uid: NDSH.Apps.Benchmarks
+    name: Benchmarks
+    href: NDSH.Apps.Benchmarks.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  - name: .
+  - uid: NDSH.Apps.Benchmarks
+    name: Benchmarks
+    href: NDSH.Apps.Benchmarks.html
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: NDSH.Apps.IndexedPropertiesModel
+  commentId: T:NDSH.Apps.IndexedPropertiesModel
+  href: NDSH.Apps.IndexedPropertiesModel.html
+  name: IndexedPropertiesModel
+  nameWithType: IndexedPropertiesModel
+  fullName: NDSH.Apps.IndexedPropertiesModel
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html

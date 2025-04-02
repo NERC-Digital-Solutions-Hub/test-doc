@@ -1,0 +1,1185 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceEntity
+  id: ReferenceEntity
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+  langs:
+  - csharp
+  - vb
+  name: ReferenceEntity
+  nameWithType: ReferenceEntity
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceEntity.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ReferenceEntity
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceEntity.cs
+    startLine: 177
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Represents a reference to an external object within the ISO 19115 metadata framework.
+
+    It provides attributes that define relationships between metadata elements,
+
+    enabling linkage to remote resources via unique identifiers or hyperlinks.
+
+    This class incorporates elements from the XLink standard (xlink) and supports referencing
+
+    via attributes such as <code>href</code>, <code>role</code>, <code>arcrole</code>, and <code>title</code>.
+
+    Additionally, it implements mechanisms for specifying missing values through the
+
+    <code>nilReason</code> attribute, following the <code>gml:NilReasonType</code> convention.
+  remarks: >-
+    <p>
+      <b>Usage:</b>
+      <ul><li>Establish associations between metadata elements using href or uuidref.</li><li>Define the purpose of a reference with role and arcrole.</li><li>Control how linked resources are displayed or activated using show and actuate.</li><li>
+          Indicate missing or inapplicable data using nilReason, supporting standard enumerations or external URIs.
+        </li></ul>
+    </p>
+
+    <p>
+      <b>Key Features:</b>
+      <ul><li>
+          Inherits from <xref href="NDSH.Geospatial.Gml.AssociationEntity" data-throw-if-not-resolved="false"></xref> and implements <xref href="NDSH.Geospatial.Metadata.INullableUuidRef" data-throw-if-not-resolved="false"></xref>
+          interface for standardized referencing.
+        </li><li>Supports <code>xlink:simpleLink</code> attributes to define structured relationships.</li><li>Provides a deprecated <code>remoteSchema</code> attribute for backward compatibility.</li></ul>
+    </p>
+
+    <p>
+       Maps to: <code>ObjectReference_PropertyType</code> ( /2005/gco/gcoBase.xsd )
+    </p>
+  example: []
+  syntax:
+    content: >-
+      [IsoType("ObjectReference_PropertyType", IsoType = IsoTypes.ComplexType)]
+
+      [JsonObject("ObjectReference_PropertyType")]
+
+      public class ReferenceEntity : AssociationEntity, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, ITypeMetadata, IRemoteSchema, INullableUuidRef
+    content.vb: >-
+      <IsoType("ObjectReference_PropertyType", IsoType:=IsoTypes.ComplexType)>
+
+      <JsonObject("ObjectReference_PropertyType")>
+
+      Public Class ReferenceEntity Inherits AssociationEntity Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, ITypeMetadata, IRemoteSchema, INullableUuidRef
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  - NDSH.Geospatial.Gml.AssociationEntity
+  derivedClasses:
+  - NDSH.Geospatial.Common.BasicTypes.Implementation.Records.Record_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType
+  - NDSH.Geospatial.Metadata.Localisation.LocalisedCharacterString_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_CRS_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_CoordinateSystemAxis_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_CoordinateSystem_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_Datum_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_Ellipsoid_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_OperationMethod_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_OperationParameters_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_Operation_PropertyType
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.CT_PrimeMeridian_PropertyType
+  - NDSH.Geospatial.Schema.GM_Object_PropertyType
+  - NDSH.Geospatial.Schema.GM_Point_PropertyType
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Gml.IAssociation
+  - NDSH.Xml.XLink.ISimpleLink
+  - NDSH.Xml.XLink.IType
+  - NDSH.Xml.XLink.IHref
+  - NDSH.Xml.XLink.IRole
+  - NDSH.Xml.XLink.IArcRole
+  - NDSH.Xml.XLink.ITitle
+  - NDSH.Xml.XLink.IShow
+  - NDSH.Xml.XLink.IActuate
+  - NDSH.Geospatial.Gml.BasicTypes.INilReason
+  - NDSH.Geospatial.ITypeMetadata
+  - NDSH.Geospatial.Gml.IRemoteSchema
+  - NDSH.Geospatial.Metadata.INullableUuidRef
+  inheritedMembers:
+  - NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours
+  - NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours
+  - NDSH.Geospatial.Gml.AssociationEntity.NilReasons
+  - NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)
+  - NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)
+  - NDSH.Geospatial.Gml.AssociationEntity.Type
+  - NDSH.Geospatial.Gml.AssociationEntity.Href
+  - NDSH.Geospatial.Gml.AssociationEntity.Role
+  - NDSH.Geospatial.Gml.AssociationEntity.ArcRole
+  - NDSH.Geospatial.Gml.AssociationEntity.Title
+  - NDSH.Geospatial.Gml.AssociationEntity.Show
+  - NDSH.Geospatial.Gml.AssociationEntity.Actuate
+  - NDSH.Geospatial.Gml.AssociationEntity.NilReason
+  - NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NDSH.Geospatial.IsoTypeAttribute
+    ctor: NDSH.Geospatial.IsoTypeAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ObjectReference_PropertyType
+    namedArguments:
+    - name: IsoType
+      type: NDSH.Geospatial.IsoTypes
+      value: 1
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ObjectReference_PropertyType
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+  id: UuidRef
+  parent: NDSH.Geospatial.Metadata.ReferenceEntity
+  langs:
+  - csharp
+  - vb
+  name: UuidRef
+  nameWithType: ReferenceEntity.UuidRef
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceEntity.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: UuidRef
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceEntity.cs
+    startLine: 191
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: Gets/Sets a reference to another object using its UUID.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("uuidref")]
+
+      public string? UuidRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("uuidref")>
+
+      Public Property UuidRef As String
+  overload: NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef*
+  implements:
+  - NDSH.Geospatial.Metadata.INullableUuidRef.UuidRef
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: uuidref
+references:
+- uid: NDSH.Geospatial.Gml.AssociationEntity
+  commentId: T:NDSH.Geospatial.Gml.AssociationEntity
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AssociationEntity.html
+  name: AssociationEntity
+  nameWithType: AssociationEntity
+  fullName: NDSH.Geospatial.Gml.AssociationEntity
+- uid: NDSH.Geospatial.Metadata.INullableUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.INullableUuidRef
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableUuidRef.html
+  name: INullableUuidRef
+  nameWithType: INullableUuidRef
+  fullName: NDSH.Geospatial.Metadata.INullableUuidRef
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Gml.IAssociation
+  commentId: T:NDSH.Geospatial.Gml.IAssociation
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IAssociation.html
+  name: IAssociation
+  nameWithType: IAssociation
+  fullName: NDSH.Geospatial.Gml.IAssociation
+- uid: NDSH.Xml.XLink.ISimpleLink
+  commentId: T:NDSH.Xml.XLink.ISimpleLink
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ISimpleLink.html
+  name: ISimpleLink
+  nameWithType: ISimpleLink
+  fullName: NDSH.Xml.XLink.ISimpleLink
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IHref
+  commentId: T:NDSH.Xml.XLink.IHref
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IHref.html
+  name: IHref
+  nameWithType: IHref
+  fullName: NDSH.Xml.XLink.IHref
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.IArcRole
+  commentId: T:NDSH.Xml.XLink.IArcRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IArcRole.html
+  name: IArcRole
+  nameWithType: IArcRole
+  fullName: NDSH.Xml.XLink.IArcRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.IShow
+  commentId: T:NDSH.Xml.XLink.IShow
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IShow.html
+  name: IShow
+  nameWithType: IShow
+  fullName: NDSH.Xml.XLink.IShow
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IActuate.html
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate
+- uid: NDSH.Geospatial.Gml.BasicTypes.INilReason
+  commentId: T:NDSH.Geospatial.Gml.BasicTypes.INilReason
+  parent: NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.Geospatial.Gml.BasicTypes.INilReason.html
+  name: INilReason
+  nameWithType: INilReason
+  fullName: NDSH.Geospatial.Gml.BasicTypes.INilReason
+- uid: NDSH.Geospatial.ITypeMetadata
+  commentId: T:NDSH.Geospatial.ITypeMetadata
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.ITypeMetadata.html
+  name: ITypeMetadata
+  nameWithType: ITypeMetadata
+  fullName: NDSH.Geospatial.ITypeMetadata
+- uid: NDSH.Geospatial.Gml.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Gml.IRemoteSchema
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IRemoteSchema.html
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema
+- uid: NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: AssociationEntity.ActuateBehaviours
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours
+- uid: NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours
+  name: ShowBehaviours
+  nameWithType: AssociationEntity.ShowBehaviours
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours
+- uid: NDSH.Geospatial.Gml.AssociationEntity.NilReasons
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.NilReasons
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReasons
+  name: NilReasons
+  nameWithType: AssociationEntity.NilReasons
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.NilReasons
+- uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)
+  commentId: M:NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  isExternal: true
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_
+  name: GetNilReason(NilReasonEnumeration, string)
+  nameWithType: AssociationEntity.GetNilReason(NilReasonEnumeration, string)
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration, string)
+  nameWithType.vb: AssociationEntity.GetNilReason(NilReasonEnumeration, String)
+  fullName.vb: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration, String)
+  name.vb: GetNilReason(NilReasonEnumeration, String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration
+    name: NilReasonEnumeration
+    href: NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration
+    name: NilReasonEnumeration
+    href: NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)
+  commentId: M:NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  isExternal: true
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_
+  name: GetNilReason(string)
+  nameWithType: AssociationEntity.GetNilReason(string)
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(string)
+  nameWithType.vb: AssociationEntity.GetNilReason(String)
+  fullName.vb: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(String)
+  name.vb: GetNilReason(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Type
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Type
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Type
+  name: Type
+  nameWithType: AssociationEntity.Type
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Type
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Href
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Href
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Href
+  name: Href
+  nameWithType: AssociationEntity.Href
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Href
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Role
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Role
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Role
+  name: Role
+  nameWithType: AssociationEntity.Role
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Role
+- uid: NDSH.Geospatial.Gml.AssociationEntity.ArcRole
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.ArcRole
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ArcRole
+  name: ArcRole
+  nameWithType: AssociationEntity.ArcRole
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.ArcRole
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Title
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Title
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Title
+  name: Title
+  nameWithType: AssociationEntity.Title
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Title
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Show
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Show
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Show
+  name: Show
+  nameWithType: AssociationEntity.Show
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Show
+- uid: NDSH.Geospatial.Gml.AssociationEntity.Actuate
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.Actuate
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Actuate
+  name: Actuate
+  nameWithType: AssociationEntity.Actuate
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.Actuate
+- uid: NDSH.Geospatial.Gml.AssociationEntity.NilReason
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.NilReason
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason
+  name: NilReason
+  nameWithType: AssociationEntity.NilReason
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.NilReason
+- uid: NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema
+  commentId: P:NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema
+  parent: NDSH.Geospatial.Gml.AssociationEntity
+  href: NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema
+  name: RemoteSchema
+  nameWithType: AssociationEntity.RemoteSchema
+  fullName: NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Geospatial.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+- uid: NDSH.Geospatial
+  commentId: N:NDSH.Geospatial
+  href: NDSH.html
+  name: NDSH.Geospatial
+  nameWithType: NDSH.Geospatial
+  fullName: NDSH.Geospatial
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef*
+  commentId: Overload:NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+  href: NDSH.Geospatial.Metadata.ReferenceEntity.html#NDSH_Geospatial_Metadata_ReferenceEntity_UuidRef
+  name: UuidRef
+  nameWithType: ReferenceEntity.UuidRef
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity.UuidRef
+- uid: NDSH.Geospatial.Metadata.INullableUuidRef.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.INullableUuidRef.UuidRef
+  parent: NDSH.Geospatial.Metadata.INullableUuidRef
+  href: NDSH.Geospatial.Metadata.INullableUuidRef.html#NDSH_Geospatial_Metadata_INullableUuidRef_UuidRef
+  name: UuidRef
+  nameWithType: INullableUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.INullableUuidRef.UuidRef
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

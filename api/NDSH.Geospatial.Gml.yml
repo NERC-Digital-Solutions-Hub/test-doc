@@ -1,0 +1,853 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  id: Gml
+  parent: NDSH.Geospatial
+  children:
+  - NDSH.Geospatial.Gml.AbstractGMLType
+  - NDSH.Geospatial.Gml.AbstractInlineProperty
+  - NDSH.Geospatial.Gml.AbstractMemberType
+  - NDSH.Geospatial.Gml.AbstractMetaData
+  - NDSH.Geospatial.Gml.AbstractMetaDataType
+  - NDSH.Geospatial.Gml.AbstractMetadataPropertyType
+  - NDSH.Geospatial.Gml.AbstractReference
+  - NDSH.Geospatial.Gml.AggregationType
+  - NDSH.Geospatial.Gml.ArrayAssociationType
+  - NDSH.Geospatial.Gml.ArrayType
+  - NDSH.Geospatial.Gml.AssociationAndOwnership
+  - NDSH.Geospatial.Gml.AssociationEntity
+  - NDSH.Geospatial.Gml.AssociationRoleType
+  - NDSH.Geospatial.Gml.BagType
+  - NDSH.Geospatial.Gml.BasicTypes
+  - NDSH.Geospatial.Gml.Coordinate
+  - NDSH.Geospatial.Gml.Coverage
+  - NDSH.Geospatial.Gml.Dictionary
+  - NDSH.Geospatial.Gml.Direction
+  - NDSH.Geospatial.Gml.Feature
+  - NDSH.Geospatial.Gml.GenericMetaDataType
+  - NDSH.Geospatial.Gml.Geometry
+  - NDSH.Geospatial.Gml.GmlObject
+  - NDSH.Geospatial.Gml.Grids
+  - NDSH.Geospatial.Gml.IAggregation
+  - NDSH.Geospatial.Gml.IAssociated
+  - NDSH.Geospatial.Gml.IAssociation
+  - NDSH.Geospatial.Gml.IId
+  - NDSH.Geospatial.Gml.IOwnership
+  - NDSH.Geospatial.Gml.IRemoteSchema
+  - NDSH.Geospatial.Gml.IStandardObjectProperties
+  - NDSH.Geospatial.Gml.ITypeAssociated
+  - NDSH.Geospatial.Gml.InlinePropertyType
+  - NDSH.Geospatial.Gml.Measures
+  - NDSH.Geospatial.Gml.MetaDataPropertyType
+  - NDSH.Geospatial.Gml.Observation
+  - NDSH.Geospatial.Gml.ReferenceSystems
+  - NDSH.Geospatial.Gml.ReferenceType
+  - NDSH.Geospatial.Gml.StringOrRefType
+  - NDSH.Geospatial.Gml.Temporal
+  - NDSH.Geospatial.Gml.Topology
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  - NDSH.Geospatial.Gml.Units
+  - NDSH.Geospatial.Gml.ValueObjects
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+- uid: NDSH.Geospatial.Gml.Coordinate
+  isExternal: true
+- uid: NDSH.Geospatial.Gml.Coverage
+  commentId: N:NDSH.Geospatial.Gml.Coverage
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coverage
+  nameWithType: NDSH.Geospatial.Gml.Coverage
+  fullName: NDSH.Geospatial.Gml.Coverage
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coverage
+    name: Coverage
+    href: NDSH.Geospatial.Gml.Coverage.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coverage
+    name: Coverage
+    href: NDSH.Geospatial.Gml.Coverage.html
+- uid: NDSH.Geospatial.Gml.Dictionary
+  commentId: N:NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Dictionary
+  nameWithType: NDSH.Geospatial.Gml.Dictionary
+  fullName: NDSH.Geospatial.Gml.Dictionary
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html
+- uid: NDSH.Geospatial.Gml.Direction
+  commentId: N:NDSH.Geospatial.Gml.Direction
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Direction
+  nameWithType: NDSH.Geospatial.Gml.Direction
+  fullName: NDSH.Geospatial.Gml.Direction
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Gml.Direction.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Gml.Direction.html
+- uid: NDSH.Geospatial.Gml.Feature
+  commentId: N:NDSH.Geospatial.Gml.Feature
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Feature
+  nameWithType: NDSH.Geospatial.Gml.Feature
+  fullName: NDSH.Geospatial.Gml.Feature
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Gml.Feature.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Gml.Feature.html
+- uid: NDSH.Geospatial.Gml.Geometry
+  isExternal: true
+- uid: NDSH.Geospatial.Gml.Grids
+  commentId: N:NDSH.Geospatial.Gml.Grids
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Grids
+  nameWithType: NDSH.Geospatial.Gml.Grids
+  fullName: NDSH.Geospatial.Gml.Grids
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Grids
+    name: Grids
+    href: NDSH.Geospatial.Gml.Grids.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Grids
+    name: Grids
+    href: NDSH.Geospatial.Gml.Grids.html
+- uid: NDSH.Geospatial.Gml.Measures
+  commentId: N:NDSH.Geospatial.Gml.Measures
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Measures
+  nameWithType: NDSH.Geospatial.Gml.Measures
+  fullName: NDSH.Geospatial.Gml.Measures
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Measures
+    name: Measures
+    href: NDSH.Geospatial.Gml.Measures.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Measures
+    name: Measures
+    href: NDSH.Geospatial.Gml.Measures.html
+- uid: NDSH.Geospatial.Gml.Observation
+  commentId: N:NDSH.Geospatial.Gml.Observation
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Observation
+  nameWithType: NDSH.Geospatial.Gml.Observation
+  fullName: NDSH.Geospatial.Gml.Observation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Observation
+    name: Observation
+    href: NDSH.Geospatial.Gml.Observation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Observation
+    name: Observation
+    href: NDSH.Geospatial.Gml.Observation.html
+- uid: NDSH.Geospatial.Gml.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Gml.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Gml.ReferenceSystems
+  fullName: NDSH.Geospatial.Gml.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.ReferenceSystems.html
+- uid: NDSH.Geospatial.Gml.Temporal
+  commentId: N:NDSH.Geospatial.Gml.Temporal
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Temporal
+  nameWithType: NDSH.Geospatial.Gml.Temporal
+  fullName: NDSH.Geospatial.Gml.Temporal
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Gml.Temporal.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Gml.Temporal.html
+- uid: NDSH.Geospatial.Gml.Topology
+  commentId: N:NDSH.Geospatial.Gml.Topology
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Topology
+  nameWithType: NDSH.Geospatial.Gml.Topology
+  fullName: NDSH.Geospatial.Gml.Topology
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Topology
+    name: Topology
+    href: NDSH.Geospatial.Gml.Topology.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Topology
+    name: Topology
+    href: NDSH.Geospatial.Gml.Topology.html
+- uid: NDSH.Geospatial.Gml.Units
+  commentId: N:NDSH.Geospatial.Gml.Units
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Units
+  nameWithType: NDSH.Geospatial.Gml.Units
+  fullName: NDSH.Geospatial.Gml.Units
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Units
+    name: Units
+    href: NDSH.Geospatial.Gml.Units.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Units
+    name: Units
+    href: NDSH.Geospatial.Gml.Units.html
+- uid: NDSH.Geospatial.Gml.ValueObjects
+  commentId: N:NDSH.Geospatial.Gml.ValueObjects
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.ValueObjects
+  nameWithType: NDSH.Geospatial.Gml.ValueObjects
+  fullName: NDSH.Geospatial.Gml.ValueObjects
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.ValueObjects
+    name: ValueObjects
+    href: NDSH.Geospatial.Gml.ValueObjects.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.ValueObjects
+    name: ValueObjects
+    href: NDSH.Geospatial.Gml.ValueObjects.html
+- uid: NDSH.Geospatial.Gml.AbstractGMLType
+  commentId: T:NDSH.Geospatial.Gml.AbstractGMLType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AbstractGMLType.html
+  name: AbstractGMLType
+  nameWithType: AbstractGMLType
+  fullName: NDSH.Geospatial.Gml.AbstractGMLType
+- uid: NDSH.Geospatial.Gml.AbstractInlineProperty
+  commentId: T:NDSH.Geospatial.Gml.AbstractInlineProperty
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AbstractInlineProperty.html
+  name: AbstractInlineProperty
+  nameWithType: AbstractInlineProperty
+  fullName: NDSH.Geospatial.Gml.AbstractInlineProperty
+- uid: NDSH.Geospatial.Gml.AbstractMemberType
+  commentId: T:NDSH.Geospatial.Gml.AbstractMemberType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AbstractMemberType.html
+  name: AbstractMemberType
+  nameWithType: AbstractMemberType
+  fullName: NDSH.Geospatial.Gml.AbstractMemberType
+- uid: NDSH.Geospatial.Gml.AbstractMetaData
+  commentId: T:NDSH.Geospatial.Gml.AbstractMetaData
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AbstractMetaData.html
+  name: AbstractMetaData
+  nameWithType: AbstractMetaData
+  fullName: NDSH.Geospatial.Gml.AbstractMetaData
+- uid: NDSH.Geospatial.Gml.AbstractMetaDataType
+  commentId: T:NDSH.Geospatial.Gml.AbstractMetaDataType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AbstractMetaDataType.html
+  name: AbstractMetaDataType
+  nameWithType: AbstractMetaDataType
+  fullName: NDSH.Geospatial.Gml.AbstractMetaDataType
+- uid: NDSH.Geospatial.Gml.AbstractMetadataPropertyType
+  commentId: T:NDSH.Geospatial.Gml.AbstractMetadataPropertyType
+  href: NDSH.Geospatial.Gml.AbstractMetadataPropertyType.html
+  name: AbstractMetadataPropertyType
+  nameWithType: AbstractMetadataPropertyType
+  fullName: NDSH.Geospatial.Gml.AbstractMetadataPropertyType
+- uid: NDSH.Geospatial.Gml.AbstractReference
+  commentId: T:NDSH.Geospatial.Gml.AbstractReference
+  href: NDSH.Geospatial.Gml.AbstractReference.html
+  name: AbstractReference
+  nameWithType: AbstractReference
+  fullName: NDSH.Geospatial.Gml.AbstractReference
+- uid: NDSH.Geospatial.Gml.AggregationType
+  commentId: T:NDSH.Geospatial.Gml.AggregationType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AggregationType.html
+  name: AggregationType
+  nameWithType: AggregationType
+  fullName: NDSH.Geospatial.Gml.AggregationType
+- uid: NDSH.Geospatial.Gml.ArrayAssociationType
+  commentId: T:NDSH.Geospatial.Gml.ArrayAssociationType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.ArrayAssociationType.html
+  name: ArrayAssociationType
+  nameWithType: ArrayAssociationType
+  fullName: NDSH.Geospatial.Gml.ArrayAssociationType
+- uid: NDSH.Geospatial.Gml.ArrayType
+  commentId: T:NDSH.Geospatial.Gml.ArrayType
+  href: NDSH.Geospatial.Gml.ArrayType.html
+  name: ArrayType
+  nameWithType: ArrayType
+  fullName: NDSH.Geospatial.Gml.ArrayType
+- uid: NDSH.Geospatial.Gml.AssociationAndOwnership
+  commentId: T:NDSH.Geospatial.Gml.AssociationAndOwnership
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AssociationAndOwnership.html
+  name: AssociationAndOwnership
+  nameWithType: AssociationAndOwnership
+  fullName: NDSH.Geospatial.Gml.AssociationAndOwnership
+- uid: NDSH.Geospatial.Gml.AssociationEntity
+  commentId: T:NDSH.Geospatial.Gml.AssociationEntity
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AssociationEntity.html
+  name: AssociationEntity
+  nameWithType: AssociationEntity
+  fullName: NDSH.Geospatial.Gml.AssociationEntity
+- uid: NDSH.Geospatial.Gml.AssociationRoleType
+  commentId: T:NDSH.Geospatial.Gml.AssociationRoleType
+  href: NDSH.Geospatial.Gml.AssociationRoleType.html
+  name: AssociationRoleType
+  nameWithType: AssociationRoleType
+  fullName: NDSH.Geospatial.Gml.AssociationRoleType
+- uid: NDSH.Geospatial.Gml.BagType
+  commentId: T:NDSH.Geospatial.Gml.BagType
+  href: NDSH.Geospatial.Gml.BagType.html
+  name: BagType
+  nameWithType: BagType
+  fullName: NDSH.Geospatial.Gml.BagType
+- uid: NDSH.Geospatial.Gml.GenericMetaDataType
+  commentId: T:NDSH.Geospatial.Gml.GenericMetaDataType
+  href: NDSH.Geospatial.Gml.GenericMetaDataType.html
+  name: GenericMetaDataType
+  nameWithType: GenericMetaDataType
+  fullName: NDSH.Geospatial.Gml.GenericMetaDataType
+- uid: NDSH.Geospatial.Gml.GmlObject
+  commentId: T:NDSH.Geospatial.Gml.GmlObject
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.GmlObject.html
+  name: GmlObject
+  nameWithType: GmlObject
+  fullName: NDSH.Geospatial.Gml.GmlObject
+- uid: NDSH.Geospatial.Gml.IAggregation
+  commentId: T:NDSH.Geospatial.Gml.IAggregation
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IAggregation.html
+  name: IAggregation
+  nameWithType: IAggregation
+  fullName: NDSH.Geospatial.Gml.IAggregation
+- uid: NDSH.Geospatial.Gml.IAssociated
+  commentId: T:NDSH.Geospatial.Gml.IAssociated
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IAssociated.html
+  name: IAssociated
+  nameWithType: IAssociated
+  fullName: NDSH.Geospatial.Gml.IAssociated
+- uid: NDSH.Geospatial.Gml.IAssociation
+  commentId: T:NDSH.Geospatial.Gml.IAssociation
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IAssociation.html
+  name: IAssociation
+  nameWithType: IAssociation
+  fullName: NDSH.Geospatial.Gml.IAssociation
+- uid: NDSH.Geospatial.Gml.IId
+  commentId: T:NDSH.Geospatial.Gml.IId
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Gml.IId
+- uid: NDSH.Geospatial.Gml.IOwnership
+  commentId: T:NDSH.Geospatial.Gml.IOwnership
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IOwnership.html
+  name: IOwnership
+  nameWithType: IOwnership
+  fullName: NDSH.Geospatial.Gml.IOwnership
+- uid: NDSH.Geospatial.Gml.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Gml.IRemoteSchema
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IRemoteSchema.html
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Gml.IRemoteSchema
+- uid: NDSH.Geospatial.Gml.IStandardObjectProperties
+  commentId: T:NDSH.Geospatial.Gml.IStandardObjectProperties
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.IStandardObjectProperties.html
+  name: IStandardObjectProperties
+  nameWithType: IStandardObjectProperties
+  fullName: NDSH.Geospatial.Gml.IStandardObjectProperties
+- uid: NDSH.Geospatial.Gml.ITypeAssociated
+  commentId: T:NDSH.Geospatial.Gml.ITypeAssociated
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.ITypeAssociated.html
+  name: ITypeAssociated
+  nameWithType: ITypeAssociated
+  fullName: NDSH.Geospatial.Gml.ITypeAssociated
+- uid: NDSH.Geospatial.Gml.InlinePropertyType
+  commentId: T:NDSH.Geospatial.Gml.InlinePropertyType
+  href: NDSH.Geospatial.Gml.InlinePropertyType.html
+  name: InlinePropertyType
+  nameWithType: InlinePropertyType
+  fullName: NDSH.Geospatial.Gml.InlinePropertyType
+- uid: NDSH.Geospatial.Gml.MetaDataPropertyType
+  commentId: T:NDSH.Geospatial.Gml.MetaDataPropertyType
+  href: NDSH.Geospatial.Gml.MetaDataPropertyType.html
+  name: MetaDataPropertyType
+  nameWithType: MetaDataPropertyType
+  fullName: NDSH.Geospatial.Gml.MetaDataPropertyType
+- uid: NDSH.Geospatial.Gml.ReferenceType
+  commentId: T:NDSH.Geospatial.Gml.ReferenceType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.ReferenceType.html
+  name: ReferenceType
+  nameWithType: ReferenceType
+  fullName: NDSH.Geospatial.Gml.ReferenceType
+- uid: NDSH.Geospatial.Gml.StringOrRefType
+  commentId: T:NDSH.Geospatial.Gml.StringOrRefType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.StringOrRefType.html
+  name: StringOrRefType
+  nameWithType: StringOrRefType
+  fullName: NDSH.Geospatial.Gml.StringOrRefType
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata
+  nameWithType: TypeAssociationMetadata
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata.Association
+  nameWithType: TypeAssociationMetadata.Association
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+    name: Association
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association.html
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association
+    name: Association
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Association.html
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata.NilReason
+  nameWithType: TypeAssociationMetadata.NilReason
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+    name: NilReason
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason.html
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason
+    name: NilReason
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.NilReason.html
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata.Reference
+  nameWithType: TypeAssociationMetadata.Reference
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html

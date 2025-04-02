@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  id: IRole
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.IRole.Role
+  langs:
+  - csharp
+  - vb
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IRole.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IRole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IRole.cs
+    startLine: 26
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: Provides the contract for the <code>xlink:role</code> attribute.
+  example: []
+  syntax:
+    content: public interface IRole
+    content.vb: Public Interface IRole
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  id: Role
+  parent: NDSH.Xml.XLink.IRole
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IRole.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Role
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IRole.cs
+    startLine: 48
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: >-
+    <p>
+      The <code>xlink:role</code> attribute is used to describe the intended role or purpose of a linked resource.
+      Unlike <code>xlink:arcrole</code>, which defines the relationship between two resources,
+      <code>xlink:role</code> provides context about the linked resource itself.
+    </p>
+
+    <p>
+      <b>Uses:</b>
+      <ul><li>
+          It is typically used in simple links, extended links,
+          and resource definitions to describe what the linked resource represents.
+        </li><li>Used to classify linked documents, images, datasets, and multimedia.</li><li>Used in GML (Geography Markup Language) to describe geospatial data roles.</li><li>Used in XBRL (eXtensible Business Reporting Language) to define financial document roles.</li></ul>
+    </p>
+  remarks: The <code>xlink:role</code> is a semantic attribute.
+  example: []
+  syntax:
+    content: string? Role { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Role As String
+  overload: NDSH.Xml.XLink.IRole.Role*
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IRole.Role*
+  commentId: Overload:NDSH.Xml.XLink.IRole.Role
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

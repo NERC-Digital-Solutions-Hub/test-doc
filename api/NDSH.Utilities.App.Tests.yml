@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Utilities.App.Tests
+  commentId: N:NDSH.Utilities.App.Tests
+  id: Tests
+  parent: NDSH.Utilities.App
+  children:
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  - NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  - NDSH.Utilities.App.Tests.XSDClassElementTests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Utilities.App.Tests
+  nameWithType: NDSH.Utilities.App.Tests
+  fullName: NDSH.Utilities.App.Tests
+  type: Namespace
+  assemblies:
+  - NDSH.Utilities.App.Tests
+references:
+- uid: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  commentId: N:NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  href: NDSH.html
+  name: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  nameWithType: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  fullName: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+    name: ChrisXsdToCodeTests
+    href: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+    name: ChrisXsdToCodeTests
+    href: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.html
+- uid: NDSH.Utilities.App.Tests.XSDClassElementTests
+  commentId: N:NDSH.Utilities.App.Tests.XSDClassElementTests
+  href: NDSH.html
+  name: NDSH.Utilities.App.Tests.XSDClassElementTests
+  nameWithType: NDSH.Utilities.App.Tests.XSDClassElementTests
+  fullName: NDSH.Utilities.App.Tests.XSDClassElementTests
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests.XSDClassElementTests
+    name: XSDClassElementTests
+    href: NDSH.Utilities.App.Tests.XSDClassElementTests.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests.XSDClassElementTests
+    name: XSDClassElementTests
+    href: NDSH.Utilities.App.Tests.XSDClassElementTests.html
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  commentId: T:NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html
+  name: CharacherStringCheckerTests
+  nameWithType: CharacherStringCheckerTests
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests

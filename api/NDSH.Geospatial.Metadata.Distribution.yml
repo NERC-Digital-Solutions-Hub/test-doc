@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Distribution
+  commentId: N:NDSH.Geospatial.Metadata.Distribution
+  id: Distribution
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type
+  - NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList
+  - NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type
+  - NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type
+  - NDSH.Geospatial.Metadata.Distribution.MD_Format_Type
+  - NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList
+  - NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList
+  - NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type
+  - NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Distribution
+  nameWithType: NDSH.Geospatial.Metadata.Distribution
+  fullName: NDSH.Geospatial.Metadata.Distribution
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type.html
+  name: MD_DigitalTransferOptions_Type
+  nameWithType: MD_DigitalTransferOptions_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList
+  href: NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList.html
+  name: MD_DistributionUnits_CodeList
+  nameWithType: MD_DistributionUnits_CodeList
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type.html
+  name: MD_Distribution_Type
+  nameWithType: MD_Distribution_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type.html
+  name: MD_Distributor_Type
+  nameWithType: MD_Distributor_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_Format_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_Format_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_Format_Type.html
+  name: MD_Format_Type
+  nameWithType: MD_Format_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_Format_Type
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList
+  href: NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList.html
+  name: MD_MediumFormatCode_CodeList
+  nameWithType: MD_MediumFormatCode_CodeList
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList.html
+  name: MD_MediumNameCode_CodeList
+  nameWithType: MD_MediumNameCode_CodeList
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type.html
+  name: MD_Medium_Type
+  nameWithType: MD_Medium_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type.html
+  name: MD_StandardOrderProcess_Type
+  nameWithType: MD_StandardOrderProcess_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+- uid: NDSH.Geospatial.Metadata.Distribution
+  commentId: N:NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Distribution
+  nameWithType: NDSH.Geospatial.Metadata.Distribution
+  fullName: NDSH.Geospatial.Metadata.Distribution
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.Distribution.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.Distribution.html

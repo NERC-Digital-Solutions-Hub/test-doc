@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  id: Catalogues
+  parent: NDSH.Geospatial.Metadata.XmlSchema
+  children:
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CodelistCatalogue_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CrsCatalogue_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_UomCatalogue_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.html
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+    name: Codelist
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist
+    name: Codelist
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.Codelist.html
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.UnitsOfMeasure.html
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  parent: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html
+  name: AbstractCT_Catalogue_Type
+  nameWithType: AbstractCT_Catalogue_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CodelistCatalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CodelistCatalogue_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CodelistCatalogue_Type.html
+  name: CT_CodelistCatalogue_Type
+  nameWithType: CT_CodelistCatalogue_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CodelistCatalogue_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CrsCatalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CrsCatalogue_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CrsCatalogue_Type.html
+  name: CT_CrsCatalogue_Type
+  nameWithType: CT_CrsCatalogue_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_CrsCatalogue_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_UomCatalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_UomCatalogue_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_UomCatalogue_Type.html
+  name: CT_UomCatalogue_Type
+  nameWithType: CT_UomCatalogue_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CT_UomCatalogue_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html

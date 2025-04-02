@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  id: ICodeSpace
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  langs:
+  - csharp
+  - vb
+  name: ICodeSpace
+  nameWithType: ICodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/ICodeSpace.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ICodeSpace
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/ICodeSpace.cs
+    startLine: 39
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  summary: ''
+  example: []
+  syntax:
+    content: public interface ICodeSpace
+    content.vb: Public Interface ICodeSpace
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  id: CodeSpace
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  langs:
+  - csharp
+  - vb
+  name: CodeSpace
+  nameWithType: ICodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/ICodeSpace.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeSpace
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/ICodeSpace.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("codeSpace")]
+
+      [Required]
+
+      string CodeSpace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("codeSpace")>
+
+      <Required>
+
+      Property CodeSpace As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: codeSpace
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_ICodeSpace_CodeSpace
+  name: CodeSpace
+  nameWithType: ICodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Measures.IAngle
+  commentId: T:NDSH.Geospatial.Gml.Measures.IAngle
+  id: IAngle
+  parent: NDSH.Geospatial.Gml.Measures
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAngle
+  nameWithType: IAngle
+  fullName: NDSH.Geospatial.Gml.Measures.IAngle
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Measures/IAngle.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IAngle
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Measures/IAngle.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Measures
+  summary: >-
+    Defines a contract for GML angle representations within geospatial metadata. 
+
+    Classes implementing this interface can store angular measurements (e.g., 
+
+    latitude, longitude, bearing) along with relevant unit-of-measure details, 
+
+    consistent with the GML specification.
+  example: []
+  syntax:
+    content: public interface IAngle
+    content.vb: Public Interface IAngle
+references:
+- uid: NDSH.Geospatial.Gml.Measures
+  commentId: N:NDSH.Geospatial.Gml.Measures
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Measures
+  nameWithType: NDSH.Geospatial.Gml.Measures
+  fullName: NDSH.Geospatial.Gml.Measures
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Measures
+    name: Measures
+    href: NDSH.Geospatial.Gml.Measures.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Measures
+    name: Measures
+    href: NDSH.Geospatial.Gml.Measures.html

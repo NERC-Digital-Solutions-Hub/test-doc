@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  id: Dictionary
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionBaseType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionProxyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryEntryType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.IndirectEntryType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionBaseType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionBaseType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionBaseType.html
+  name: DefinitionBaseType
+  nameWithType: DefinitionBaseType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionBaseType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionProxyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionProxyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionProxyType.html
+  name: DefinitionProxyType
+  nameWithType: DefinitionProxyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionProxyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionType.html
+  name: DefinitionType
+  nameWithType: DefinitionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DefinitionType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryEntryType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryEntryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryEntryType.html
+  name: DictionaryEntryType
+  nameWithType: DictionaryEntryType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryEntryType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryType.html
+  name: DictionaryType
+  nameWithType: DictionaryType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.DictionaryType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.IndirectEntryType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.IndirectEntryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.IndirectEntryType.html
+  name: IndirectEntryType
+  nameWithType: IndirectEntryType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.IndirectEntryType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Dictionary.html

@@ -1,0 +1,2098 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  id: MetadataDatabaseController
+  parent: NDSH.Geospatial.Metadata.Utilities
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String},System.Text.Encoding)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String})
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers(System.String,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities(System.String)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes(System.String,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles(System.String,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison},System.Boolean)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics},System.Boolean)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  - NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase
+  langs:
+  - csharp
+  - vb
+  name: MetadataDatabaseController
+  nameWithType: MetadataDatabaseController
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MetadataDatabaseController
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Provides control over the metadata database.
+  example: []
+  syntax:
+    content: public class MetadataDatabaseController
+    content.vb: Public Class MetadataDatabaseController
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+  id: DatabasePath
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: DatabasePath
+  nameWithType: MetadataDatabaseController.DatabasePath
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DatabasePath
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 49
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets/Sets the file path to the database file.
+  remarks: >-
+    This is the path to a file when a file database like SQLite,
+
+    or a connection string if a database like an RDBMS.
+  example: []
+  syntax:
+    content: public string DatabasePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DatabasePath As String
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+  id: DatabaseOption
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: DatabaseOption
+  nameWithType: MetadataDatabaseController.DatabaseOption
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DatabaseOption
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 56
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets/Sets the <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public DatabaseOption DatabaseOption { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+    content.vb: Public Property DatabaseOption As DatabaseOption
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+  id: IsDbOpen
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: IsDbOpen
+  nameWithType: MetadataDatabaseController.IsDbOpen
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IsDbOpen
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 68
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets whether the database is open or not.
+  example: []
+  syntax:
+    content: public bool IsDbOpen { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDbOpen As Boolean
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+  id: Context
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: MetadataDatabaseController.Context
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Context
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 77
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets the <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MetadataContext Context { get; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+    content.vb: Public ReadOnly Property Context As MetadataContext
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  id: GetPgSqlPathFromEnvironmentVariable
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetPgSqlPathFromEnvironmentVariable
+  nameWithType: MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetPgSqlPathFromEnvironmentVariable
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 89
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets the PostgreSQL path retrieving the environment variable's 'pgSqlPath' value.
+  example: []
+  syntax:
+    content: public static string GetPgSqlPathFromEnvironmentVariable { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property GetPgSqlPathFromEnvironmentVariable As String
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable*
+  exceptions:
+  - type: System.NullReferenceException
+    commentId: T:System.NullReferenceException
+    description: Thrown when the 'pgSqlPath' environment variable isassigned a null value.
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities(System.String)
+  id: GetMetadataEntities(System.String)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetMetadataEntities(string)
+  nameWithType: MetadataDatabaseController.GetMetadataEntities(string)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities(string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetMetadataEntities
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 110
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets metadata entities from an XML file.
+  example: []
+  syntax:
+    content: public List<MetadataEntity>? GetMetadataEntities(string xmlFilePath)
+    parameters:
+    - id: xmlFilePath
+      type: System.String
+      description: The XML file path having the metadata entity records.
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity}
+      description: A List of <xref href="NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity" data-throw-if-not-resolved="false"></xref> instances.
+    content.vb: Public Function GetMetadataEntities(xmlFilePath As String) As List(Of MetadataEntity)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities*
+  nameWithType.vb: MetadataDatabaseController.GetMetadataEntities(String)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities(String)
+  name.vb: GetMetadataEntities(String)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers(System.String,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers(System.String,Serilog.Core.Logger)
+  id: GetBgsLayers(System.String,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetBgsLayers(string, Logger)
+  nameWithType: MetadataDatabaseController.GetBgsLayers(string, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers(string, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetBgsLayers
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 224
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public List<BgsLayer>? GetBgsLayers(string xmlFilePath, Logger logger)
+    parameters:
+    - id: xmlFilePath
+      type: System.String
+      description: ''
+    - id: logger
+      type: Serilog.Core.Logger
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer}
+      description: ''
+    content.vb: Public Function GetBgsLayers(xmlFilePath As String, logger As Logger) As List(Of BgsLayer)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers*
+  nameWithType.vb: MetadataDatabaseController.GetBgsLayers(String, Logger)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers(String, Serilog.Core.Logger)
+  name.vb: GetBgsLayers(String, Logger)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  id: LoadMetadataEntitiesToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadMetadataEntitiesToSqliteDb(string, MetadataContext)
+  nameWithType: MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(string, MetadataContext)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(string, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadMetadataEntitiesToSqliteDb
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 604
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Loads the metadata entities into the Sqlite database.
+  example: []
+  syntax:
+    content: public void LoadMetadataEntitiesToSqliteDb(string xmlFilePath, MetadataContext context)
+    parameters:
+    - id: xmlFilePath
+      type: System.String
+      description: The path to the XML file from which metadata entities will be loaded.
+    - id: context
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+      description: The <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub LoadMetadataEntitiesToSqliteDb(xmlFilePath As String, context As MetadataContext)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb*
+  exceptions:
+  - type: System.NullReferenceException
+    commentId: T:System.NullReferenceException
+    description: Thrown when the no metadata entities are returned.
+  nameWithType.vb: MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(String, MetadataContext)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb(String, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  name.vb: LoadMetadataEntitiesToSqliteDb(String, MetadataContext)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  id: GetAllMetadataEntitiesFileTypeInMemory(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetAllMetadataEntitiesFileTypeInMemory(string, MetadataContext)
+  nameWithType: MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(string, MetadataContext)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(string, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetAllMetadataEntitiesFileTypeInMemory
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 627
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Loads the metadata entities into the Sqlite database.
+  example: []
+  syntax:
+    content: public List<MetadataEntity> GetAllMetadataEntitiesFileTypeInMemory(string xmlFilePath, MetadataContext context)
+    parameters:
+    - id: xmlFilePath
+      type: System.String
+      description: The path to the XML file from which metadata entities will be loaded.
+    - id: context
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+      description: The <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity}
+    content.vb: Public Function GetAllMetadataEntitiesFileTypeInMemory(xmlFilePath As String, context As MetadataContext) As List(Of MetadataEntity)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory*
+  exceptions:
+  - type: System.NullReferenceException
+    commentId: T:System.NullReferenceException
+    description: ''
+  nameWithType.vb: MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(String, MetadataContext)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory(String, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext)
+  name.vb: GetAllMetadataEntitiesFileTypeInMemory(String, MetadataContext)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  id: LoadBgsLayersToSqliteDb(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadBgsLayersToSqliteDb(string, MetadataContext, Logger)
+  nameWithType: MetadataDatabaseController.LoadBgsLayersToSqliteDb(string, MetadataContext, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb(string, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadBgsLayersToSqliteDb
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 648
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Load the bgs layers into the Sqlite database
+  example: []
+  syntax:
+    content: public void LoadBgsLayersToSqliteDb(string xmlFilePath, MetadataContext context, Logger logger)
+    parameters:
+    - id: xmlFilePath
+      type: System.String
+      description: The path to the XML file from which metadata entities will be loaded.
+    - id: context
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+      description: <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext" data-throw-if-not-resolved="false"></xref>.
+    - id: logger
+      type: Serilog.Core.Logger
+      description: <xref href="Serilog.Core.Logger" data-throw-if-not-resolved="false"></xref>
+    content.vb: Public Sub LoadBgsLayersToSqliteDb(xmlFilePath As String, context As MetadataContext, logger As Logger)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb*
+  exceptions:
+  - type: System.NullReferenceException
+    commentId: T:System.NullReferenceException
+    description: ''
+  nameWithType.vb: MetadataDatabaseController.LoadBgsLayersToSqliteDb(String, MetadataContext, Logger)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb(String, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext, Serilog.Core.Logger)
+  name.vb: LoadBgsLayersToSqliteDb(String, MetadataContext, Logger)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+  id: LoadEmptyTitleComparisonRecords
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadEmptyTitleComparisonRecords()
+  nameWithType: MetadataDatabaseController.LoadEmptyTitleComparisonRecords()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadEmptyTitleComparisonRecords
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 667
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public void LoadEmptyTitleComparisonRecords()
+    content.vb: Public Sub LoadEmptyTitleComparisonRecords()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  id: LoadBgsArcGisMapServerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadBgsArcGisMapServerJsonsToSqliteDb(MetadataContext, Logger)
+  nameWithType: MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb(MetadataContext, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadBgsArcGisMapServerJsonsToSqliteDb
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 734
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public void LoadBgsArcGisMapServerJsonsToSqliteDb(MetadataContext context, Logger logger)
+    parameters:
+    - id: context
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+      description: ''
+    - id: logger
+      type: Serilog.Core.Logger
+      description: ''
+    content.vb: Public Sub LoadBgsArcGisMapServerJsonsToSqliteDb(context As MetadataContext, logger As Logger)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  id: LoadBgsArcGisLayerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadBgsArcGisLayerJsonsToSqliteDb(MetadataContext, Logger)
+  nameWithType: MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb(MetadataContext, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb(NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadBgsArcGisLayerJsonsToSqliteDb
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 796
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public void LoadBgsArcGisLayerJsonsToSqliteDb(MetadataContext context, Logger logger)
+    parameters:
+    - id: context
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+      description: ''
+    - id: logger
+      type: Serilog.Core.Logger
+      description: ''
+    content.vb: Public Sub LoadBgsArcGisLayerJsonsToSqliteDb(context As MetadataContext, logger As Logger)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles(System.String,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles(System.String,Serilog.Core.Logger)
+  id: LoadAllXmlFiles(System.String,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadAllXmlFiles(string, Logger)
+  nameWithType: MetadataDatabaseController.LoadAllXmlFiles(string, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles(string, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadAllXmlFiles
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 857
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Loads all the contents of the metadata files in the database.
+  example: []
+  syntax:
+    content: public void LoadAllXmlFiles(string directory, Logger logger)
+    parameters:
+    - id: directory
+      type: System.String
+      description: ''
+    - id: logger
+      type: Serilog.Core.Logger
+    content.vb: Public Sub LoadAllXmlFiles(directory As String, logger As Logger)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles*
+  nameWithType.vb: MetadataDatabaseController.LoadAllXmlFiles(String, Logger)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles(String, Serilog.Core.Logger)
+  name.vb: LoadAllXmlFiles(String, Logger)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes(System.String,Serilog.Core.Logger)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes(System.String,Serilog.Core.Logger)
+  id: LoadAllFileTypes(System.String,Serilog.Core.Logger)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadAllFileTypes(string, Logger)
+  nameWithType: MetadataDatabaseController.LoadAllFileTypes(string, Logger)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes(string, Serilog.Core.Logger)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadAllFileTypes
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 883
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: >-
+    Gets all the contents including FileType of the metadata files in the database.
+
+    search "// uncomment when you need to run LoadAllFileTypes" 
+
+    in MetadataDatabaseControllers.cs and MetadataEntry.cs
+  example: []
+  syntax:
+    content: public List<MetadataEntity> LoadAllFileTypes(string directory, Logger logger)
+    parameters:
+    - id: directory
+      type: System.String
+      description: ''
+    - id: logger
+      type: Serilog.Core.Logger
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity}
+    content.vb: Public Function LoadAllFileTypes(directory As String, logger As Logger) As List(Of MetadataEntity)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes*
+  nameWithType.vb: MetadataDatabaseController.LoadAllFileTypes(String, Logger)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes(String, Serilog.Core.Logger)
+  name.vb: LoadAllFileTypes(String, Logger)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics},System.Boolean)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics},System.Boolean)
+  id: LoadLevenshteinTitleStatistics(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics},System.Boolean)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadLevenshteinTitleStatistics(List<LevenshteinTitleStatistics>, bool)
+  nameWithType: MetadataDatabaseController.LoadLevenshteinTitleStatistics(List<LevenshteinTitleStatistics>, bool)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics(System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics>, bool)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadLevenshteinTitleStatistics
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 910
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Loads all the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics" data-throw-if-not-resolved="false"></xref> in the list.
+  example: []
+  syntax:
+    content: public void LoadLevenshteinTitleStatistics(List<LevenshteinTitleStatistics> levenshteinTitleStatistics, bool append = false)
+    parameters:
+    - id: levenshteinTitleStatistics
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics}
+      description: The List of <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics" data-throw-if-not-resolved="false"></xref>.
+    - id: append
+      type: System.Boolean
+      description: >-
+        Determines whether the lsit of <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics" data-throw-if-not-resolved="false"></xref> will be appended
+
+        to the rows of the table or not. If not, the previous rows will be removed from the table.
+    content.vb: Public Sub LoadLevenshteinTitleStatistics(levenshteinTitleStatistics As List(Of LevenshteinTitleStatistics), append As Boolean = False)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown when the database has not beeb opened.
+  nameWithType.vb: MetadataDatabaseController.LoadLevenshteinTitleStatistics(List(Of LevenshteinTitleStatistics), Boolean)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics(System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics), Boolean)
+  name.vb: LoadLevenshteinTitleStatistics(List(Of LevenshteinTitleStatistics), Boolean)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison},System.Boolean)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison},System.Boolean)
+  id: LoadLevenshteinTitleComparisons(System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison},System.Boolean)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: LoadLevenshteinTitleComparisons(List<LevenshteinTitleComparison>, bool)
+  nameWithType: MetadataDatabaseController.LoadLevenshteinTitleComparisons(List<LevenshteinTitleComparison>, bool)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons(System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison>, bool)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LoadLevenshteinTitleComparisons
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 938
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Loads all the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison?text=LevenshteinTitleComparisons" data-throw-if-not-resolved="false"></xref> in the list.
+  example: []
+  syntax:
+    content: public void LoadLevenshteinTitleComparisons(List<LevenshteinTitleComparison> levenshteinTitleComparisons, bool append = false)
+    parameters:
+    - id: levenshteinTitleComparisons
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison}
+      description: The List of <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+    - id: append
+      type: System.Boolean
+      description: >-
+        Determines whether the lsit of <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref> will be appended
+
+        to the rows of the table or not. If not, the previous rows will be removed from the table.
+    content.vb: Public Sub LoadLevenshteinTitleComparisons(levenshteinTitleComparisons As List(Of LevenshteinTitleComparison), append As Boolean = False)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown when the database has not beeb opened.
+  nameWithType.vb: MetadataDatabaseController.LoadLevenshteinTitleComparisons(List(Of LevenshteinTitleComparison), Boolean)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons(System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison), Boolean)
+  name.vb: LoadLevenshteinTitleComparisons(List(Of LevenshteinTitleComparison), Boolean)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase
+  id: OpenDatabase
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: OpenDatabase()
+  nameWithType: MetadataDatabaseController.OpenDatabase()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OpenDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 962
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Opens the SQLite database.
+  example: []
+  syntax:
+    content: public void OpenDatabase()
+    content.vb: Public Sub OpenDatabase()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  id: OpenDatabase(System.String,NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: OpenDatabase(string, DatabaseOption)
+  nameWithType: MetadataDatabaseController.OpenDatabase(string, DatabaseOption)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase(string, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OpenDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 971
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Opens the SQLite database.
+  example: []
+  syntax:
+    content: public void OpenDatabase(string databasePath, DatabaseOption databaseOption)
+    parameters:
+    - id: databasePath
+      type: System.String
+      description: The database path.
+    - id: databaseOption
+      type: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+      description: The <xref href="NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.%23ctor" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub OpenDatabase(databasePath As String, databaseOption As DatabaseOption)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase*
+  nameWithType.vb: MetadataDatabaseController.OpenDatabase(String, DatabaseOption)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase(String, NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption)
+  name.vb: OpenDatabase(String, DatabaseOption)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase
+  id: CloseDatabase
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: CloseDatabase()
+  nameWithType: MetadataDatabaseController.CloseDatabase()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CloseDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 980
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Closes the SQLite database.
+  example: []
+  syntax:
+    content: public void CloseDatabase()
+    content.vb: Public Sub CloseDatabase()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase
+  id: DeleteDatabase
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: DeleteDatabase()
+  nameWithType: MetadataDatabaseController.DeleteDatabase()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DeleteDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 993
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Deletes the SQLite database.
+  example: []
+  syntax:
+    content: public void DeleteDatabase()
+    content.vb: Public Sub DeleteDatabase()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase
+  id: CreateDatabase
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: CreateDatabase()
+  nameWithType: MetadataDatabaseController.CreateDatabase()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CreateDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1006
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Creates a new SQLite database.
+  example: []
+  syntax:
+    content: public void CreateDatabase()
+    content.vb: Public Sub CreateDatabase()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase
+  id: RecreateDatabase
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: RecreateDatabase()
+  nameWithType: MetadataDatabaseController.RecreateDatabase()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: RecreateDatabase
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1023
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Recreates the SQLite database.
+  example: []
+  syntax:
+    content: public void RecreateDatabase()
+    content.vb: Public Sub RecreateDatabase()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles
+  id: GetAllTitles
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetAllTitles()
+  nameWithType: MetadataDatabaseController.GetAllTitles()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetAllTitles
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1041
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets a dictionary of all the metadata titles found in the database.
+  example: []
+  syntax:
+    content: public ImmutableSortedDictionary<int, string> GetAllTitles()
+    return:
+      type: System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String}
+      description: An ImmutableSortedDictionary of int and string.
+    content.vb: Public Function GetAllTitles() As ImmutableSortedDictionary(Of Integer, String)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles*
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String},System.Text.Encoding)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String},System.Text.Encoding)
+  id: GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String},System.Text.Encoding)
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetAllTitlesInByteArray(ImmutableSortedDictionary<int, string>, Encoding)
+  nameWithType: MetadataDatabaseController.GetAllTitlesInByteArray(ImmutableSortedDictionary<int, string>, Encoding)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary<int, string>, System.Text.Encoding)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetAllTitlesInByteArray
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1067
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public byte[][] GetAllTitlesInByteArray(ImmutableSortedDictionary<int, string> titlesDictionary, Encoding encoding)
+    parameters:
+    - id: titlesDictionary
+      type: System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String}
+      description: ''
+    - id: encoding
+      type: System.Text.Encoding
+      description: ''
+    return:
+      type: System.Byte[][]
+      description: ''
+    content.vb: Public Function GetAllTitlesInByteArray(titlesDictionary As ImmutableSortedDictionary(Of Integer, String), encoding As Encoding) As Byte()()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: MetadataDatabaseController.GetAllTitlesInByteArray(ImmutableSortedDictionary(Of Integer, String), Encoding)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray(System.Collections.Immutable.ImmutableSortedDictionary(Of Integer, String), System.Text.Encoding)
+  name.vb: GetAllTitlesInByteArray(ImmutableSortedDictionary(Of Integer, String), Encoding)
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String})
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String})
+  id: GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String})
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetAllTitlesInCharArray(ImmutableSortedDictionary<int, string>)
+  nameWithType: MetadataDatabaseController.GetAllTitlesInCharArray(ImmutableSortedDictionary<int, string>)
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary<int, string>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetAllTitlesInCharArray
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1104
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: ''
+  example: []
+  syntax:
+    content: public char[][] GetAllTitlesInCharArray(ImmutableSortedDictionary<int, string> titlesDictionary)
+    parameters:
+    - id: titlesDictionary
+      type: System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String}
+      description: ''
+    return:
+      type: System.Char[][]
+      description: ''
+    content.vb: Public Function GetAllTitlesInCharArray(titlesDictionary As ImmutableSortedDictionary(Of Integer, String)) As Char()()
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: ''
+  nameWithType.vb: MetadataDatabaseController.GetAllTitlesInCharArray(ImmutableSortedDictionary(Of Integer, String))
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray(System.Collections.Immutable.ImmutableSortedDictionary(Of Integer, String))
+  name.vb: GetAllTitlesInCharArray(ImmutableSortedDictionary(Of Integer, String))
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers
+  id: GetAllBgsLayers
+  parent: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController
+  langs:
+  - csharp
+  - vb
+  name: GetAllBgsLayers()
+  nameWithType: MetadataDatabaseController.GetAllBgsLayers()
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetAllBgsLayers
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/MetadataDatabaseController.cs
+    startLine: 1136
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities
+  summary: Gets a <xref href="System.Collections.Generic.List%601" data-throw-if-not-resolved="false"></xref> of all the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer?text=BgsLayers" data-throw-if-not-resolved="false"></xref> found in the database.
+  example: []
+  syntax:
+    content: public List<BgsLayer> GetAllBgsLayers()
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer}
+    content.vb: Public Function GetAllBgsLayers() As List(Of BgsLayer)
+  overload: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers*
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities
+  commentId: N:NDSH.Geospatial.Metadata.Utilities
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities
+  nameWithType: NDSH.Geospatial.Metadata.Utilities
+  fullName: NDSH.Geospatial.Metadata.Utilities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_DatabasePath
+  name: DatabasePath
+  nameWithType: MetadataDatabaseController.DatabasePath
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabasePath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+  parent: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.html
+  name: DatabaseOption
+  nameWithType: DatabaseOption
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_DatabaseOption
+  name: DatabaseOption
+  nameWithType: MetadataDatabaseController.DatabaseOption
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DatabaseOption
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+    name: DatabaseContext
+    href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+    name: DatabaseContext
+    href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.html
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_IsDbOpen
+  name: IsDbOpen
+  nameWithType: MetadataDatabaseController.IsDbOpen
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.IsDbOpen
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+  parent: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext.html
+  name: MetadataContext
+  nameWithType: MetadataContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_Context
+  name: Context
+  nameWithType: MetadataDatabaseController.Context
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.Context
+- uid: System.NullReferenceException
+  commentId: T:System.NullReferenceException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullreferenceexception
+  name: NullReferenceException
+  nameWithType: NullReferenceException
+  fullName: System.NullReferenceException
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetPgSqlPathFromEnvironmentVariable
+  name: GetPgSqlPathFromEnvironmentVariable
+  nameWithType: MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetPgSqlPathFromEnvironmentVariable
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+  href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity.html
+  name: MetadataEntity
+  nameWithType: MetadataEntity
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetMetadataEntities_System_String_
+  name: GetMetadataEntities
+  nameWithType: MetadataDatabaseController.GetMetadataEntities
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetMetadataEntities
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MetadataEntity>
+  nameWithType: List<MetadataEntity>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity>
+  nameWithType.vb: List(Of MetadataEntity)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity)
+  name.vb: List(Of MetadataEntity)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+    name: MetadataEntity
+    href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+    name: MetadataEntity
+    href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetBgsLayers_System_String_Serilog_Core_Logger_
+  name: GetBgsLayers
+  nameWithType: MetadataDatabaseController.GetBgsLayers
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetBgsLayers
+- uid: Serilog.Core.Logger
+  commentId: T:Serilog.Core.Logger
+  parent: Serilog.Core
+  isExternal: true
+  name: Logger
+  nameWithType: Logger
+  fullName: Serilog.Core.Logger
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<BgsLayer>
+  nameWithType: List<BgsLayer>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer>
+  nameWithType.vb: List(Of BgsLayer)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer)
+  name.vb: List(Of BgsLayer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+    name: BgsLayer
+    href: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+    name: BgsLayer
+    href: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer.html
+  - name: )
+- uid: Serilog.Core
+  commentId: N:Serilog.Core
+  isExternal: true
+  name: Serilog.Core
+  nameWithType: Serilog.Core
+  fullName: Serilog.Core
+  spec.csharp:
+  - uid: Serilog
+    name: Serilog
+    isExternal: true
+  - name: .
+  - uid: Serilog.Core
+    name: Core
+    isExternal: true
+  spec.vb:
+  - uid: Serilog
+    name: Serilog
+    isExternal: true
+  - name: .
+  - uid: Serilog.Core
+    name: Core
+    isExternal: true
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadMetadataEntitiesToSqliteDb_System_String_NDSH_Geospatial_Metadata_Utilities_DatabaseContext_MetadataContext_
+  name: LoadMetadataEntitiesToSqliteDb
+  nameWithType: MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadMetadataEntitiesToSqliteDb
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetAllMetadataEntitiesFileTypeInMemory_System_String_NDSH_Geospatial_Metadata_Utilities_DatabaseContext_MetadataContext_
+  name: GetAllMetadataEntitiesFileTypeInMemory
+  nameWithType: MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllMetadataEntitiesFileTypeInMemory
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadBgsLayersToSqliteDb_System_String_NDSH_Geospatial_Metadata_Utilities_DatabaseContext_MetadataContext_Serilog_Core_Logger_
+  name: LoadBgsLayersToSqliteDb
+  nameWithType: MetadataDatabaseController.LoadBgsLayersToSqliteDb
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsLayersToSqliteDb
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadEmptyTitleComparisonRecords
+  name: LoadEmptyTitleComparisonRecords
+  nameWithType: MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadEmptyTitleComparisonRecords
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadBgsArcGisMapServerJsonsToSqliteDb_NDSH_Geospatial_Metadata_Utilities_DatabaseContext_MetadataContext_Serilog_Core_Logger_
+  name: LoadBgsArcGisMapServerJsonsToSqliteDb
+  nameWithType: MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisMapServerJsonsToSqliteDb
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadBgsArcGisLayerJsonsToSqliteDb_NDSH_Geospatial_Metadata_Utilities_DatabaseContext_MetadataContext_Serilog_Core_Logger_
+  name: LoadBgsArcGisLayerJsonsToSqliteDb
+  nameWithType: MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadBgsArcGisLayerJsonsToSqliteDb
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadAllXmlFiles_System_String_Serilog_Core_Logger_
+  name: LoadAllXmlFiles
+  nameWithType: MetadataDatabaseController.LoadAllXmlFiles
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllXmlFiles
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadAllFileTypes_System_String_Serilog_Core_Logger_
+  name: LoadAllFileTypes
+  nameWithType: MetadataDatabaseController.LoadAllFileTypes
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadAllFileTypes
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html
+  name: LevenshteinTitleStatistics
+  nameWithType: LevenshteinTitleStatistics
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadLevenshteinTitleStatistics_System_Collections_Generic_List_NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics__System_Boolean_
+  name: LoadLevenshteinTitleStatistics
+  nameWithType: MetadataDatabaseController.LoadLevenshteinTitleStatistics
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleStatistics
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<LevenshteinTitleStatistics>
+  nameWithType: List<LevenshteinTitleStatistics>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics>
+  nameWithType.vb: List(Of LevenshteinTitleStatistics)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics)
+  name.vb: List(Of LevenshteinTitleStatistics)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+    name: LevenshteinTitleStatistics
+    href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+    name: LevenshteinTitleStatistics
+    href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html
+  name: LevenshteinTitleComparison
+  nameWithType: LevenshteinTitleComparison
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_LoadLevenshteinTitleComparisons_System_Collections_Generic_List_NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison__System_Boolean_
+  name: LoadLevenshteinTitleComparisons
+  nameWithType: MetadataDatabaseController.LoadLevenshteinTitleComparisons
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.LoadLevenshteinTitleComparisons
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<LevenshteinTitleComparison>
+  nameWithType: List<LevenshteinTitleComparison>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison>
+  nameWithType.vb: List(Of LevenshteinTitleComparison)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison)
+  name.vb: List(Of LevenshteinTitleComparison)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+    name: LevenshteinTitleComparison
+    href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+    name: LevenshteinTitleComparison
+    href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_OpenDatabase
+  name: OpenDatabase
+  nameWithType: MetadataDatabaseController.OpenDatabase
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.OpenDatabase
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.#ctor
+  isExternal: true
+  name: DatabaseOption()
+  nameWithType: DatabaseOption.DatabaseOption()
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.DatabaseOption()
+  nameWithType.vb: DatabaseOption.New()
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.New()
+  name.vb: New()
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.#ctor
+    name: DatabaseOption
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - name: New
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_CloseDatabase
+  name: CloseDatabase
+  nameWithType: MetadataDatabaseController.CloseDatabase
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CloseDatabase
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_DeleteDatabase
+  name: DeleteDatabase
+  nameWithType: MetadataDatabaseController.DeleteDatabase
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.DeleteDatabase
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_CreateDatabase
+  name: CreateDatabase
+  nameWithType: MetadataDatabaseController.CreateDatabase
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.CreateDatabase
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_RecreateDatabase
+  name: RecreateDatabase
+  nameWithType: MetadataDatabaseController.RecreateDatabase
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.RecreateDatabase
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetAllTitles
+  name: GetAllTitles
+  nameWithType: MetadataDatabaseController.GetAllTitles
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitles
+- uid: System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String}
+  commentId: T:System.Collections.Immutable.ImmutableSortedDictionary{System.Int32,System.String}
+  parent: System.Collections.Immutable
+  definition: System.Collections.Immutable.ImmutableSortedDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  name: ImmutableSortedDictionary<int, string>
+  nameWithType: ImmutableSortedDictionary<int, string>
+  fullName: System.Collections.Immutable.ImmutableSortedDictionary<int, string>
+  nameWithType.vb: ImmutableSortedDictionary(Of Integer, String)
+  fullName.vb: System.Collections.Immutable.ImmutableSortedDictionary(Of Integer, String)
+  name.vb: ImmutableSortedDictionary(Of Integer, String)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableSortedDictionary`2
+    name: ImmutableSortedDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableSortedDictionary`2
+    name: ImmutableSortedDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Immutable.ImmutableSortedDictionary`2
+  commentId: T:System.Collections.Immutable.ImmutableSortedDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  name: ImmutableSortedDictionary<TKey, TValue>
+  nameWithType: ImmutableSortedDictionary<TKey, TValue>
+  fullName: System.Collections.Immutable.ImmutableSortedDictionary<TKey, TValue>
+  nameWithType.vb: ImmutableSortedDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Immutable.ImmutableSortedDictionary(Of TKey, TValue)
+  name.vb: ImmutableSortedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Immutable.ImmutableSortedDictionary`2
+    name: ImmutableSortedDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Immutable.ImmutableSortedDictionary`2
+    name: ImmutableSortedDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablesorteddictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Immutable
+  commentId: N:System.Collections.Immutable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Immutable
+  nameWithType: System.Collections.Immutable
+  fullName: System.Collections.Immutable
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Immutable
+    name: Immutable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.immutable
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetAllTitlesInByteArray_System_Collections_Immutable_ImmutableSortedDictionary_System_Int32_System_String__System_Text_Encoding_
+  name: GetAllTitlesInByteArray
+  nameWithType: MetadataDatabaseController.GetAllTitlesInByteArray
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInByteArray
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Byte[][]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[][]
+  nameWithType: byte[][]
+  fullName: byte[][]
+  nameWithType.vb: Byte()()
+  fullName.vb: Byte()()
+  name.vb: Byte()()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetAllTitlesInCharArray_System_Collections_Immutable_ImmutableSortedDictionary_System_Int32_System_String__
+  name: GetAllTitlesInCharArray
+  nameWithType: MetadataDatabaseController.GetAllTitlesInCharArray
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllTitlesInCharArray
+- uid: System.Char[][]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[][]
+  nameWithType: char[][]
+  fullName: char[][]
+  nameWithType.vb: Char()()
+  fullName.vb: Char()()
+  name.vb: Char()()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+  href: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer.html
+  name: BgsLayer
+  nameWithType: BgsLayer
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+- uid: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers
+  href: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.html#NDSH_Geospatial_Metadata_Utilities_MetadataDatabaseController_GetAllBgsLayers
+  name: GetAllBgsLayers
+  nameWithType: MetadataDatabaseController.GetAllBgsLayers
+  fullName: NDSH.Geospatial.Metadata.Utilities.MetadataDatabaseController.GetAllBgsLayers

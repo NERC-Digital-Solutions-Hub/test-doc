@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  id: TopoCurvePropertyType
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor
+  - NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged(System.String)
+  - NDSH.Geospatial.Metadata.TopoCurvePropertyType.PropertyChanged
+  - NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+  - NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+  langs:
+  - csharp
+  - vb
+  name: TopoCurvePropertyType
+  nameWithType: TopoCurvePropertyType
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TopoCurvePropertyType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51294
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TopoCurvePropertyType : INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class TopoCurvePropertyType Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  langs:
+  - csharp
+  - vb
+  name: TopoCurvePropertyType()
+  nameWithType: TopoCurvePropertyType.TopoCurvePropertyType()
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurvePropertyType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51309
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: TopoCurvePropertyType class constructor
+  example: []
+  syntax:
+    content: public TopoCurvePropertyType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor*
+  nameWithType.vb: TopoCurvePropertyType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.TopoCurvePropertyType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+  commentId: P:NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+  id: TopoCurve
+  parent: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  langs:
+  - csharp
+  - vb
+  name: TopoCurve
+  nameWithType: TopoCurvePropertyType.TopoCurve
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TopoCurve
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51315
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public TopoCurveType TopoCurve { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.TopoCurveType
+    content.vb: Public Property TopoCurve As TopoCurveType
+  overload: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve*
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+  commentId: P:NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+  id: owns
+  parent: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  langs:
+  - csharp
+  - vb
+  name: owns
+  nameWithType: TopoCurvePropertyType.owns
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: owns
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51337
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public bool owns { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property owns As Boolean
+  overload: NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns*
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.TopoCurvePropertyType.PropertyChanged
+  id: PropertyChanged
+  parent: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: TopoCurvePropertyType.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: PropertyChanged
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51355
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: Occurs when a property value changes.
+  example: []
+  syntax:
+    content: public event PropertyChangedEventHandler PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged(System.String)
+  id: OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.TopoCurvePropertyType
+  langs:
+  - csharp
+  - vb
+  name: OnPropertyChanged(string)
+  nameWithType: TopoCurvePropertyType.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged(string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OnPropertyChanged
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 51357
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public virtual void OnPropertyChanged(string propertyName)
+    parameters:
+    - id: propertyName
+      type: System.String
+    content.vb: Public Overridable Sub OnPropertyChanged(propertyName As String)
+  overload: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged*
+  nameWithType.vb: TopoCurvePropertyType.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.TopoCurvePropertyType.#ctor
+  href: NDSH.Geospatial.Metadata.TopoCurvePropertyType.html#NDSH_Geospatial_Metadata_TopoCurvePropertyType__ctor
+  name: TopoCurvePropertyType
+  nameWithType: TopoCurvePropertyType.TopoCurvePropertyType
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurvePropertyType
+  nameWithType.vb: TopoCurvePropertyType.New
+  fullName.vb: NDSH.Geospatial.Metadata.TopoCurvePropertyType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve*
+  commentId: Overload:NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+  href: NDSH.Geospatial.Metadata.TopoCurvePropertyType.html#NDSH_Geospatial_Metadata_TopoCurvePropertyType_TopoCurve
+  name: TopoCurve
+  nameWithType: TopoCurvePropertyType.TopoCurve
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.TopoCurve
+- uid: NDSH.Geospatial.Metadata.TopoCurveType
+  commentId: T:NDSH.Geospatial.Metadata.TopoCurveType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.TopoCurveType.html
+  name: TopoCurveType
+  nameWithType: TopoCurveType
+  fullName: NDSH.Geospatial.Metadata.TopoCurveType
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns*
+  commentId: Overload:NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+  href: NDSH.Geospatial.Metadata.TopoCurvePropertyType.html#NDSH_Geospatial_Metadata_TopoCurvePropertyType_owns
+  name: owns
+  nameWithType: TopoCurvePropertyType.owns
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.owns
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler
+- uid: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged*
+  commentId: Overload:NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged
+  href: NDSH.Geospatial.Metadata.TopoCurvePropertyType.html#NDSH_Geospatial_Metadata_TopoCurvePropertyType_OnPropertyChanged_System_String_
+  name: OnPropertyChanged
+  nameWithType: TopoCurvePropertyType.OnPropertyChanged
+  fullName: NDSH.Geospatial.Metadata.TopoCurvePropertyType.OnPropertyChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

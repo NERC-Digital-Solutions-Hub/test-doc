@@ -1,0 +1,446 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+  id: IObjectReference
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IObjectReference
+  nameWithType: IObjectReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IObjectReference.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IObjectReference
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IObjectReference.cs
+    startLine: 98
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Defines a contract for referencing objects within geospatial metadata,
+
+    incorporating linking capabilities and UUID-based references.
+  remarks: >-
+    <p>
+      The <xref href="NDSH.Geospatial.Metadata.V2003.Common.IObjectReference" data-throw-if-not-resolved="false"></xref> interface extends
+      <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation" data-throw-if-not-resolved="false"></xref> and <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuidRef" data-throw-if-not-resolved="false"></xref>,
+      integrating metadata linking mechanisms and UUID-based identification.
+    </p>
+
+    <p>
+      <b>Key Features:</b>
+      <ul><li>Supports linking via <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation" data-throw-if-not-resolved="false"></xref> to reference remote resources.</li><li>Provides a UUID reference mechanism via <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuidRef" data-throw-if-not-resolved="false"></xref>.</li><li>Ensures compliance with GML and ISO 19115 metadata standards.</li></ul>
+    </p>
+
+    <p>
+      <b>Considerations:</b>
+      <ul><li>
+          The implementation derives from <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation" data-throw-if-not-resolved="false"></xref> for simplicity,
+          ensuring alignment with <code>AssociationAttributeGroup</code>.
+        </li><li>Designed for referencing objects within geospatial metadata structures.</li></ul>
+    </p>
+  example: []
+  syntax:
+    content: 'public interface IObjectReference : IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, IRemoteSchema, IUuidRef'
+    content.vb: Public Interface IObjectReference Inherits IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, IRemoteSchema, IUuidRef
+  inheritedMembers:
+  - NDSH.Xml.XLink.IType.Type
+  - NDSH.Xml.XLink.IHref.Href
+  - NDSH.Xml.XLink.IRole.Role
+  - NDSH.Xml.XLink.IArcRole.ArcRole
+  - NDSH.Xml.XLink.ITitle.Title
+  - NDSH.Xml.XLink.IShow.Show
+  - NDSH.Xml.XLink.IShow.ShowBehaviours
+  - NDSH.Xml.XLink.IActuate.Actuate
+  - NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReasons
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(System.String)
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  - NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IObjectReference.html
+  name: IObjectReference
+  nameWithType: IObjectReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IObjectReference
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation.html
+  name: IAssociation
+  nameWithType: IAssociation
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.html
+  name: IUuidRef
+  nameWithType: IUuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Xml.XLink.IType.Type
+  commentId: P:NDSH.Xml.XLink.IType.Type
+  parent: NDSH.Xml.XLink.IType
+  href: NDSH.Xml.XLink.IType.html#NDSH_Xml_XLink_IType_Type
+  name: Type
+  nameWithType: IType.Type
+  fullName: NDSH.Xml.XLink.IType.Type
+- uid: NDSH.Xml.XLink.IHref.Href
+  commentId: P:NDSH.Xml.XLink.IHref.Href
+  parent: NDSH.Xml.XLink.IHref
+  href: NDSH.Xml.XLink.IHref.html#NDSH_Xml_XLink_IHref_Href
+  name: Href
+  nameWithType: IHref.Href
+  fullName: NDSH.Xml.XLink.IHref.Href
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  parent: NDSH.Xml.XLink.IRole
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: NDSH.Xml.XLink.IArcRole.ArcRole
+  commentId: P:NDSH.Xml.XLink.IArcRole.ArcRole
+  parent: NDSH.Xml.XLink.IArcRole
+  href: NDSH.Xml.XLink.IArcRole.html#NDSH_Xml_XLink_IArcRole_ArcRole
+  name: ArcRole
+  nameWithType: IArcRole.ArcRole
+  fullName: NDSH.Xml.XLink.IArcRole.ArcRole
+- uid: NDSH.Xml.XLink.ITitle.Title
+  commentId: P:NDSH.Xml.XLink.ITitle.Title
+  parent: NDSH.Xml.XLink.ITitle
+  href: NDSH.Xml.XLink.ITitle.html#NDSH_Xml_XLink_ITitle_Title
+  name: Title
+  nameWithType: ITitle.Title
+  fullName: NDSH.Xml.XLink.ITitle.Title
+- uid: NDSH.Xml.XLink.IShow.Show
+  commentId: P:NDSH.Xml.XLink.IShow.Show
+  parent: NDSH.Xml.XLink.IShow
+  href: NDSH.Xml.XLink.IShow.html#NDSH_Xml_XLink_IShow_Show
+  name: Show
+  nameWithType: IShow.Show
+  fullName: NDSH.Xml.XLink.IShow.Show
+- uid: NDSH.Xml.XLink.IShow.ShowBehaviours
+  commentId: F:NDSH.Xml.XLink.IShow.ShowBehaviours
+  parent: NDSH.Xml.XLink.IShow
+  href: NDSH.Xml.XLink.IShow.html#NDSH_Xml_XLink_IShow_ShowBehaviours
+  name: ShowBehaviours
+  nameWithType: IShow.ShowBehaviours
+  fullName: NDSH.Xml.XLink.IShow.ShowBehaviours
+- uid: NDSH.Xml.XLink.IActuate.Actuate
+  commentId: P:NDSH.Xml.XLink.IActuate.Actuate
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_Actuate
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+- uid: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  commentId: F:NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: IActuate.ActuateBehaviours
+  fullName: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_NilReason
+  name: NilReason
+  nameWithType: INilReason.NilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReasons
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReasons
+  parent: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_NilReasons
+  name: NilReasons
+  nameWithType: INilReason.NilReasons
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReasons
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_System_String_
+  name: GetNilReason(NullEnumeration, string)
+  nameWithType: INilReason.GetNilReason(NullEnumeration, string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, string)
+  nameWithType.vb: INilReason.GetNilReason(NullEnumeration, String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, String)
+  name.vb: GetNilReason(NullEnumeration, String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_System_String_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+    name: NullEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_System_String_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+    name: NullEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_System_String_
+  name: GetNilReason(string)
+  nameWithType: INilReason.GetNilReason(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(string)
+  nameWithType.vb: INilReason.GetNilReason(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(String)
+  name.vb: GetNilReason(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.GetNilReason(System.String)
+    name: GetNilReason
+    href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_GetNilReason_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_IRemoteSchema_RemoteSchema
+  name: RemoteSchema
+  nameWithType: IRemoteSchema.RemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.html#NDSH_Geospatial_Metadata_V2003_Common_IUuidRef_UuidRef
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuidRef.UuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IHref
+  commentId: T:NDSH.Xml.XLink.IHref
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IHref.html
+  name: IHref
+  nameWithType: IHref
+  fullName: NDSH.Xml.XLink.IHref
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.IArcRole
+  commentId: T:NDSH.Xml.XLink.IArcRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IArcRole.html
+  name: IArcRole
+  nameWithType: IArcRole
+  fullName: NDSH.Xml.XLink.IArcRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.IShow
+  commentId: T:NDSH.Xml.XLink.IShow
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IShow.html
+  name: IShow
+  nameWithType: IShow
+  fullName: NDSH.Xml.XLink.IShow
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IActuate.html
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html
+  name: INilReason
+  nameWithType: INilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.html
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html

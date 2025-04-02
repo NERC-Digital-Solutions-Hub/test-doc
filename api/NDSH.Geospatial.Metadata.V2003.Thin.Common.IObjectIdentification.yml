@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  id: IObjectIdentification
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IObjectIdentification.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IObjectIdentification
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IObjectIdentification.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  summary: Identification of a resource.
+  example: []
+  syntax:
+    content: 'public interface IObjectIdentification : IId, IUuid'
+    content.vb: Public Interface IObjectIdentification Inherits IId, IUuid
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.Id
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.Uuid
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_IId_Id
+  name: Id
+  nameWithType: IId.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.Id
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.Uuid
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_IUuid_Uuid
+  name: Uuid
+  nameWithType: IUuid.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.Uuid
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.html
+  name: IUuid
+  nameWithType: IUuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid

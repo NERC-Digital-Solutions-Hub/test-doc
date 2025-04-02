@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  id: EnvelopeWithTimePeriodType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeWithTimePeriodType
+  nameWithType: EnvelopeWithTimePeriodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: EnvelopeWithTimePeriodType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+    startLine: 18
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("EnvelopeWithTimePeriodType")]
+
+      public class EnvelopeWithTimePeriodType : EnvelopeType, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("EnvelopeWithTimePeriodType")>
+
+      Public Class EnvelopeWithTimePeriodType Inherits EnvelopeType Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItems
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItemsElementName
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsName
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsDimension
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: EnvelopeWithTimePeriodType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeWithTimePeriodType()
+  nameWithType: EnvelopeWithTimePeriodType.EnvelopeWithTimePeriodType()
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.EnvelopeWithTimePeriodType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  summary: EnvelopeWithTimePeriodType class constructor
+  example: []
+  syntax:
+    content: public EnvelopeWithTimePeriodType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor*
+  nameWithType.vb: EnvelopeWithTimePeriodType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+  id: beginPosition
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  langs:
+  - csharp
+  - vb
+  name: beginPosition
+  nameWithType: EnvelopeWithTimePeriodType.beginPosition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: beginPosition
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  syntax:
+    content: >-
+      [JsonProperty("beginPosition", Order = 0)]
+
+      public TimePositionType beginPosition { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType
+    content.vb: >-
+      <JsonProperty("beginPosition", Order:=0)>
+
+      Public Property beginPosition As TimePositionType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: beginPosition
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+  id: endPosition
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  langs:
+  - csharp
+  - vb
+  name: endPosition
+  nameWithType: EnvelopeWithTimePeriodType.endPosition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: endPosition
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+    startLine: 54
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  syntax:
+    content: >-
+      [JsonProperty("endPosition", Order = 1)]
+
+      public TimePositionType endPosition { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType
+    content.vb: >-
+      <JsonProperty("endPosition", Order:=1)>
+
+      Public Property endPosition As TimePositionType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: endPosition
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+  id: frame
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType
+  langs:
+  - csharp
+  - vb
+  name: frame
+  nameWithType: EnvelopeWithTimePeriodType.frame
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: frame
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Feature/EnvelopeWithTimePeriodType.cs
+    startLine: 71
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  syntax:
+    content: >-
+      [JsonProperty("frame")]
+
+      public string frame { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("frame")>
+
+      Public Property frame As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: frame
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Model
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.html
+  name: EnvelopeType
+  nameWithType: EnvelopeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItems
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItems
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_EnvelopeType_CoordinatesOrPositionItems
+  name: CoordinatesOrPositionItems
+  nameWithType: EnvelopeType.CoordinatesOrPositionItems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItems
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItemsElementName
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItemsElementName
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_EnvelopeType_CoordinatesOrPositionItemsElementName
+  name: CoordinatesOrPositionItemsElementName
+  nameWithType: EnvelopeType.CoordinatesOrPositionItemsElementName
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.CoordinatesOrPositionItemsElementName
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsName
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsName
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_EnvelopeType_SrsName
+  name: SrsName
+  nameWithType: EnvelopeType.SrsName
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsName
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsDimension
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsDimension
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_EnvelopeType_SrsDimension
+  name: SrsDimension
+  nameWithType: EnvelopeType.SrsDimension
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.EnvelopeType.SrsDimension
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Feature_EnvelopeWithTimePeriodType__ctor
+  name: EnvelopeWithTimePeriodType
+  nameWithType: EnvelopeWithTimePeriodType.EnvelopeWithTimePeriodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.EnvelopeWithTimePeriodType
+  nameWithType.vb: EnvelopeWithTimePeriodType.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Feature_EnvelopeWithTimePeriodType_beginPosition
+  name: beginPosition
+  nameWithType: EnvelopeWithTimePeriodType.beginPosition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.beginPosition
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType.html
+  name: TimePositionType
+  nameWithType: TimePositionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.TimePositionType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Temporal.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Feature_EnvelopeWithTimePeriodType_endPosition
+  name: endPosition
+  nameWithType: EnvelopeWithTimePeriodType.endPosition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.endPosition
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Feature_EnvelopeWithTimePeriodType_frame
+  name: frame
+  nameWithType: EnvelopeWithTimePeriodType.frame
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Feature.EnvelopeWithTimePeriodType.frame
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

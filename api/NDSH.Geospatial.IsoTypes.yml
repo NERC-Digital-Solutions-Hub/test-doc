@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.IsoTypes
+  commentId: T:NDSH.Geospatial.IsoTypes
+  id: IsoTypes
+  parent: NDSH.Geospatial
+  children:
+  - NDSH.Geospatial.IsoTypes.Attribute
+  - NDSH.Geospatial.IsoTypes.AttributeGroup
+  - NDSH.Geospatial.IsoTypes.ComplexType
+  - NDSH.Geospatial.IsoTypes.Element
+  - NDSH.Geospatial.IsoTypes.SimpleType
+  - NDSH.Geospatial.IsoTypes.Unknown
+  langs:
+  - csharp
+  - vb
+  name: IsoTypes
+  nameWithType: IsoTypes
+  fullName: NDSH.Geospatial.IsoTypes
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IsoTypes
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 28
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: Defines the ISO types found in an XSD definition.
+  example: []
+  syntax:
+    content: public enum IsoTypes
+    content.vb: Public Enum IsoTypes
+  extensionMethods:
+  - NDSH.Geospatial.IsoTypes.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.IsoTypes.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.IsoTypes.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+- uid: NDSH.Geospatial.IsoTypes.Unknown
+  commentId: F:NDSH.Geospatial.IsoTypes.Unknown
+  id: Unknown
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: IsoTypes.Unknown
+  fullName: NDSH.Geospatial.IsoTypes.Unknown
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Unknown
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: The type is unknown.
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.IsoTypes.ComplexType
+  commentId: F:NDSH.Geospatial.IsoTypes.ComplexType
+  id: ComplexType
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: ComplexType
+  nameWithType: IsoTypes.ComplexType
+  fullName: NDSH.Geospatial.IsoTypes.ComplexType
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ComplexType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: An XSD complexType.
+  example: []
+  syntax:
+    content: ComplexType = 1
+    return:
+      type: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.IsoTypes.SimpleType
+  commentId: F:NDSH.Geospatial.IsoTypes.SimpleType
+  id: SimpleType
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: SimpleType
+  nameWithType: IsoTypes.SimpleType
+  fullName: NDSH.Geospatial.IsoTypes.SimpleType
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SimpleType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: An XSD simpleType.
+  example: []
+  syntax:
+    content: SimpleType = 2
+    return:
+      type: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.IsoTypes.Element
+  commentId: F:NDSH.Geospatial.IsoTypes.Element
+  id: Element
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: IsoTypes.Element
+  fullName: NDSH.Geospatial.IsoTypes.Element
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Element
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 48
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: An XSD element.
+  example: []
+  syntax:
+    content: Element = 3
+    return:
+      type: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.IsoTypes.Attribute
+  commentId: F:NDSH.Geospatial.IsoTypes.Attribute
+  id: Attribute
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: Attribute
+  nameWithType: IsoTypes.Attribute
+  fullName: NDSH.Geospatial.IsoTypes.Attribute
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Attribute
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: An XSD attribute.
+  example: []
+  syntax:
+    content: Attribute = 4
+    return:
+      type: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.IsoTypes.AttributeGroup
+  commentId: F:NDSH.Geospatial.IsoTypes.AttributeGroup
+  id: AttributeGroup
+  parent: NDSH.Geospatial.IsoTypes
+  langs:
+  - csharp
+  - vb
+  name: AttributeGroup
+  nameWithType: IsoTypes.AttributeGroup
+  fullName: NDSH.Geospatial.IsoTypes.AttributeGroup
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AttributeGroup
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/IsoTypes.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial
+  summary: An XSD attributeGroup.
+  example: []
+  syntax:
+    content: AttributeGroup = 5
+    return:
+      type: NDSH.Geospatial.IsoTypes
+references:
+- uid: NDSH.Geospatial
+  commentId: N:NDSH.Geospatial
+  href: NDSH.html
+  name: NDSH.Geospatial
+  nameWithType: NDSH.Geospatial
+  fullName: NDSH.Geospatial
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+- uid: NDSH.Geospatial.IsoTypes.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<IsoTypes>(IsoTypes)
+  nameWithType: ExtensionMethods.GetXmlEnumName<IsoTypes>(IsoTypes)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.IsoTypes>(NDSH.Geospatial.IsoTypes)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of IsoTypes)(IsoTypes)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.IsoTypes)(NDSH.Geospatial.IsoTypes)
+  name.vb: GetXmlEnumName(Of IsoTypes)(IsoTypes)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+- uid: NDSH.Geospatial.IsoTypes.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<IsoTypes>(IsoTypes)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<IsoTypes>(IsoTypes)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.IsoTypes>(NDSH.Geospatial.IsoTypes)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of IsoTypes)(IsoTypes)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.IsoTypes)(NDSH.Geospatial.IsoTypes)
+  name.vb: GetXmlEnumAttributeOrName(Of IsoTypes)(IsoTypes)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+- uid: NDSH.Geospatial.IsoTypes.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<IsoTypes>(IsoTypes)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<IsoTypes>(IsoTypes)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.IsoTypes>(NDSH.Geospatial.IsoTypes)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of IsoTypes)(IsoTypes)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.IsoTypes)(NDSH.Geospatial.IsoTypes)
+  name.vb: GetXmlEnumAttribute(Of IsoTypes)(IsoTypes)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.IsoTypes)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.IsoTypes
+    name: IsoTypes
+    href: NDSH.Geospatial.IsoTypes.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.IsoTypes
+  commentId: T:NDSH.Geospatial.IsoTypes
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.IsoTypes.html
+  name: IsoTypes
+  nameWithType: IsoTypes
+  fullName: NDSH.Geospatial.IsoTypes

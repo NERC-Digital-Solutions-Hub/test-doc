@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  id: Units
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.BaseUnitType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConventionalUnitType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConversionToPreferredUnitType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivationUnitTermType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivedUnitType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.FormulaType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitConversion
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitDefinitionType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitOfMeasureType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.BaseUnitType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.BaseUnitType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.BaseUnitType.html
+  name: BaseUnitType
+  nameWithType: BaseUnitType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.BaseUnitType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConventionalUnitType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConventionalUnitType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConventionalUnitType.html
+  name: ConventionalUnitType
+  nameWithType: ConventionalUnitType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConventionalUnitType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConversionToPreferredUnitType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConversionToPreferredUnitType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConversionToPreferredUnitType.html
+  name: ConversionToPreferredUnitType
+  nameWithType: ConversionToPreferredUnitType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.ConversionToPreferredUnitType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivationUnitTermType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivationUnitTermType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivationUnitTermType.html
+  name: DerivationUnitTermType
+  nameWithType: DerivationUnitTermType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivationUnitTermType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivedUnitType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivedUnitType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivedUnitType.html
+  name: DerivedUnitType
+  nameWithType: DerivedUnitType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.DerivedUnitType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.FormulaType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.FormulaType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.FormulaType.html
+  name: FormulaType
+  nameWithType: FormulaType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.FormulaType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitConversion
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitConversion
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitConversion.html
+  name: UnitConversion
+  nameWithType: UnitConversion
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitConversion
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitDefinitionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitDefinitionType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitDefinitionType.html
+  name: UnitDefinitionType
+  nameWithType: UnitDefinitionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitDefinitionType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitOfMeasureType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitOfMeasureType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitOfMeasureType.html
+  name: UnitOfMeasureType
+  nameWithType: UnitOfMeasureType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.UnitOfMeasureType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+    name: Units
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units
+    name: Units
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Units.html

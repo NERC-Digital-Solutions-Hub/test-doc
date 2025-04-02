@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  id: ReferenceSystem
+  parent: NDSH.Geospatial.Metadata.V2005
+  children:
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_CRS
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_EllipsoidParameters
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_Identifier
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ReferenceSystem
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_Identifier
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_ReferenceSystem
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_Identifier
+  - NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_ReferenceSystem
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_CRS
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_CRS
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_CRS.html
+  name: MD_CRS
+  nameWithType: MD_CRS
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_CRS
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_EllipsoidParameters
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_EllipsoidParameters
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_EllipsoidParameters.html
+  name: MD_EllipsoidParameters
+  nameWithType: MD_EllipsoidParameters
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_EllipsoidParameters
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_Identifier
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_Identifier
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_Identifier.html
+  name: MD_Identifier
+  nameWithType: MD_Identifier
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_Identifier
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth.html
+  name: MD_ObliqueLineAzimuth
+  nameWithType: MD_ObliqueLineAzimuth
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLineAzimuth
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint.html
+  name: MD_ObliqueLinePoint
+  nameWithType: MD_ObliqueLinePoint
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ObliqueLinePoint
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters.html
+  name: MD_ProjectionParameters
+  nameWithType: MD_ProjectionParameters
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ProjectionParameters
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ReferenceSystem
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ReferenceSystem.html
+  name: MD_ReferenceSystem
+  nameWithType: MD_ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.MD_ReferenceSystem
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_Identifier
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_Identifier
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_Identifier.html
+  name: Parent_MD_Identifier
+  nameWithType: Parent_MD_Identifier
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_Identifier
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_ReferenceSystem
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_ReferenceSystem.html
+  name: Parent_MD_ReferenceSystem
+  nameWithType: Parent_MD_ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.Parent_MD_ReferenceSystem
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_Identifier
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_Identifier
+  parent: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_Identifier.html
+  name: RS_Identifier
+  nameWithType: RS_Identifier
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_Identifier
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_ReferenceSystem
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_ReferenceSystem.html
+  name: RS_ReferenceSystem
+  nameWithType: RS_ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.RS_ReferenceSystem
+- uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2005.ReferenceSystem.html

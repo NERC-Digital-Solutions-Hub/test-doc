@@ -1,0 +1,333 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  id: IActuate
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.IActuate.Actuate
+  - NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  langs:
+  - csharp
+  - vb
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IActuate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: Provides the contract for the <code>xlink:actuate</code> attribute.
+  example: []
+  syntax:
+    content: public interface IActuate
+    content.vb: Public Interface IActuate
+- uid: NDSH.Xml.XLink.IActuate.Actuate
+  commentId: P:NDSH.Xml.XLink.IActuate.Actuate
+  id: Actuate
+  parent: NDSH.Xml.XLink.IActuate
+  langs:
+  - csharp
+  - vb
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Actuate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+    startLine: 76
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: >-
+    <p>
+      The <code>xlink:actuate</code> attribute is used to communicate the desired timing of traversal
+      from the starting resource to the ending resource.
+    </p>
+
+    <p>
+      <b>Uses:</b>
+      <ul><li>
+          Use the <xref href="NDSH.Xml.XLink.IActuate.ActuateBehaviours" data-throw-if-not-resolved="false"></xref> static property to access all valid string values
+          used in the <xref href="NDSH.Xml.XLink.IActuate.Actuate" data-throw-if-not-resolved="false"></xref> property.
+          Select a valid value using as a key an <xref href="NDSH.Xml.XLink.ActuateBehaviour" data-throw-if-not-resolved="false"></xref> enumerated value.
+        </li><li>
+          The <code>xlink:actuate</code> attribute controls when and how a linked resource is loaded or activated.
+        </li></ul>
+    </p>
+
+    <p>
+
+    <b>Example:</b>
+
+    <example>
+
+      <pre><code class="lang-csharp">= []</code></pre>
+    </example>
+
+    </p>
+  remarks: The <code>xlink:actuate</code> is a behavior attribute.
+  example: []
+  syntax:
+    content: string? Actuate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Actuate As String
+  overload: NDSH.Xml.XLink.IActuate.Actuate*
+- uid: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  commentId: F:NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  id: ActuateBehaviours
+  parent: NDSH.Xml.XLink.IActuate
+  langs:
+  - csharp
+  - vb
+  name: ActuateBehaviours
+  nameWithType: IActuate.ActuateBehaviours
+  fullName: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ActuateBehaviours
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IActuate.cs
+    startLine: 90
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: >-
+    Gets the <xref href="System.Collections.ObjectModel.ReadOnlyDictionary%602" data-throw-if-not-resolved="false"></xref> of valid values
+
+    used for the <b>Actuate attribute</b> (<xref href="NDSH.Xml.XLink.IActuate.Actuate" data-throw-if-not-resolved="false"></xref> property),
+
+    which determines how a link is triggered.
+  remarks: >-
+    Implementations must provide all the <xref href="System.String" data-throw-if-not-resolved="false"></xref> representations
+
+    of the <xref href="NDSH.Xml.XLink.ActuateBehaviour" data-throw-if-not-resolved="false"></xref> enumeration values.
+  example: []
+  syntax:
+    content: public static readonly ReadOnlyDictionary<ActuateBehaviour, string> ActuateBehaviours
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+    content.vb: Public Shared ReadOnly ActuateBehaviours As ReadOnlyDictionary(Of ActuateBehaviour, String)
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  commentId: F:NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: IActuate.ActuateBehaviours
+  fullName: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+- uid: NDSH.Xml.XLink.IActuate.Actuate
+  commentId: P:NDSH.Xml.XLink.IActuate.Actuate
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_Actuate
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+- uid: NDSH.Xml.XLink.ActuateBehaviour
+  commentId: T:NDSH.Xml.XLink.ActuateBehaviour
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ActuateBehaviour.html
+  name: ActuateBehaviour
+  nameWithType: ActuateBehaviour
+  fullName: NDSH.Xml.XLink.ActuateBehaviour
+- uid: NDSH.Xml.XLink.ActuateBehaviour.None
+  commentId: F:NDSH.Xml.XLink.ActuateBehaviour.None
+  href: NDSH.Xml.XLink.ActuateBehaviour.html#NDSH_Xml_XLink_ActuateBehaviour_None
+  name: None
+  nameWithType: ActuateBehaviour.None
+  fullName: NDSH.Xml.XLink.ActuateBehaviour.None
+- uid: NDSH.Xml.XLink.IActuate.Actuate*
+  commentId: Overload:NDSH.Xml.XLink.IActuate.Actuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_Actuate
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IActuate.html
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<TKey, TValue>
+  nameWithType: ReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: ReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue)
+  name.vb: ReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<ActuateBehaviour, string>
+  nameWithType: ReadOnlyDictionary<ActuateBehaviour, string>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<NDSH.Xml.XLink.ActuateBehaviour, string>
+  nameWithType.vb: ReadOnlyDictionary(Of ActuateBehaviour, String)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of NDSH.Xml.XLink.ActuateBehaviour, String)
+  name.vb: ReadOnlyDictionary(Of ActuateBehaviour, String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - uid: NDSH.Xml.XLink.ActuateBehaviour
+    name: ActuateBehaviour
+    href: NDSH.Xml.XLink.ActuateBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Xml.XLink.ActuateBehaviour
+    name: ActuateBehaviour
+    href: NDSH.Xml.XLink.ActuateBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel

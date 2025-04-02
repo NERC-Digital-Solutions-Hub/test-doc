@@ -1,0 +1,638 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceKeys
+  id: ReferenceKeys
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Actuate
+  - NDSH.Geospatial.Metadata.ReferenceKeys.ArcRole
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Href
+  - NDSH.Geospatial.Metadata.ReferenceKeys.NilReason
+  - NDSH.Geospatial.Metadata.ReferenceKeys.RemoteSchema
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Role
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Show
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Title
+  - NDSH.Geospatial.Metadata.ReferenceKeys.Type
+  - NDSH.Geospatial.Metadata.ReferenceKeys.UuidRef
+  langs:
+  - csharp
+  - vb
+  name: ReferenceKeys
+  nameWithType: ReferenceKeys
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ReferenceKeys
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 26
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public enum ReferenceKeys
+    content.vb: Public Enum ReferenceKeys
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Type
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Type
+  id: Type
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ReferenceKeys.Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Type
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 28
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Type = 0
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Href
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Href
+  id: Href
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: ReferenceKeys.Href
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Href
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Href
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Href = 1
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Role
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Role
+  id: Role
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: ReferenceKeys.Role
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Role
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Role
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 32
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Role = 2
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.ArcRole
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.ArcRole
+  id: ArcRole
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: ArcRole
+  nameWithType: ReferenceKeys.ArcRole
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.ArcRole
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ArcRole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 34
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: ArcRole = 3
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Title
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Title
+  id: Title
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ReferenceKeys.Title
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Title
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Title
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Title = 4
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Show
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Show
+  id: Show
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Show
+  nameWithType: ReferenceKeys.Show
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Show
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Show
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Show = 5
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.Actuate
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.Actuate
+  id: Actuate
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: Actuate
+  nameWithType: ReferenceKeys.Actuate
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.Actuate
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Actuate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 40
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: Actuate = 6
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.NilReason
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.NilReason
+  id: NilReason
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: NilReason
+  nameWithType: ReferenceKeys.NilReason
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.NilReason
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: NilReason
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 42
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: NilReason = 7
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.RemoteSchema
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.RemoteSchema
+  id: RemoteSchema
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: RemoteSchema
+  nameWithType: ReferenceKeys.RemoteSchema
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.RemoteSchema
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: RemoteSchema
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: RemoteSchema = 8
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.UuidRef
+  commentId: F:NDSH.Geospatial.Metadata.ReferenceKeys.UuidRef
+  id: UuidRef
+  parent: NDSH.Geospatial.Metadata.ReferenceKeys
+  langs:
+  - csharp
+  - vb
+  name: UuidRef
+  nameWithType: ReferenceKeys.UuidRef
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys.UuidRef
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: UuidRef
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ReferenceKeys.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: UuidRef = 9
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceKeys
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<ReferenceKeys>(ReferenceKeys)
+  nameWithType: ExtensionMethods.GetXmlEnumName<ReferenceKeys>(ReferenceKeys)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.ReferenceKeys>(NDSH.Geospatial.Metadata.ReferenceKeys)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of ReferenceKeys)(ReferenceKeys)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.ReferenceKeys)(NDSH.Geospatial.Metadata.ReferenceKeys)
+  name.vb: GetXmlEnumName(Of ReferenceKeys)(ReferenceKeys)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<ReferenceKeys>(ReferenceKeys)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<ReferenceKeys>(ReferenceKeys)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.ReferenceKeys>(NDSH.Geospatial.Metadata.ReferenceKeys)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of ReferenceKeys)(ReferenceKeys)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.ReferenceKeys)(NDSH.Geospatial.Metadata.ReferenceKeys)
+  name.vb: GetXmlEnumAttributeOrName(Of ReferenceKeys)(ReferenceKeys)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<ReferenceKeys>(ReferenceKeys)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<ReferenceKeys>(ReferenceKeys)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.ReferenceKeys>(NDSH.Geospatial.Metadata.ReferenceKeys)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of ReferenceKeys)(ReferenceKeys)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.ReferenceKeys)(NDSH.Geospatial.Metadata.ReferenceKeys)
+  name.vb: GetXmlEnumAttribute(Of ReferenceKeys)(ReferenceKeys)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.ReferenceKeys)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ReferenceKeys
+    name: ReferenceKeys
+    href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.ReferenceKeys
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceKeys
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ReferenceKeys.html
+  name: ReferenceKeys
+  nameWithType: ReferenceKeys
+  fullName: NDSH.Geospatial.Metadata.ReferenceKeys

@@ -1,0 +1,2127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  id: Association
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(System.String)
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+  langs:
+  - csharp
+  - vb
+  name: Association
+  nameWithType: Association
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Association
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 73
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    Represents a generalized association in GML, providing an XLink-based mechanism for referencing
+
+    external or internal resources within geospatial metadata. This abstract class implements the
+
+    GML <code>AssociationAttributeGroup</code> pattern from <code>gmlBase.xsd</code>, enabling a standard approach
+
+    for linking GML objects and facilitating interoperability with ISO 19115:2003 metadata structures.
+  remarks: >-
+    <p>
+      In practice, GML uses “association” elements or properties to capture relationships between
+      metadata objects or geospatial features—often expressed through the <code>xlink</code> attributes
+      (<code>href</code>, <code>role</code>, <code>arcrole</code>, <code>title</code>, <code>show</code>, and <code>actuate</code>).
+      By abstracting these attributes into a single class, <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association" data-throw-if-not-resolved="false"></xref> enables a
+      consistent mechanism for referencing remote or local resources.
+    </p>
+
+    <p>
+      The class also supports a <code>nilReason</code> attribute (based on GML’s <code>NilReasonType</code>) to
+      indicate missing or inapplicable data, reflecting the requirements of ISO 19115:2003 for
+      managing incomplete or unknown metadata values. Additionally, a <code>remoteSchema</code> attribute
+      is provided to reference an external schema, though it is marked as deprecated in GML.
+    </p>
+
+    <p>
+      In ISO 19115 applications, leveraging this association pattern can help decompose or link
+      metadata elements effectively, fostering modular metadata design and allowing distributed
+      systems to reference shared resources rather than duplicating content.
+    </p>
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("Association")]
+
+      public abstract class Association : ObservableModel, IModel, IObservableModel, INotifyPropertyChanged, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, IRemoteSchema
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("Association")>
+
+      Public MustInherit Class Association Inherits ObservableModel Implements IModel, IObservableModel, INotifyPropertyChanged, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, IRemoteSchema
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  derivedClasses:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Coordinate.Operations.CoordinateOperationAccuracy
+  - NDSH.Geospatial.Metadata.V2003.Gml.ReferenceSystems.DomainOfValidity
+  - NDSH.Geospatial.Metadata.V2003.Gml.ValueObjects.BooleanPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.ValueObjects.CategoryPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.ValueObjects.QuantityPropertyType
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+  - NDSH.Xml.XLink.ISimpleLink
+  - NDSH.Xml.XLink.IType
+  - NDSH.Xml.XLink.IHref
+  - NDSH.Xml.XLink.IRole
+  - NDSH.Xml.XLink.IArcRole
+  - NDSH.Xml.XLink.ITitle
+  - NDSH.Xml.XLink.IShow
+  - NDSH.Xml.XLink.IActuate
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  inheritedMembers:
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Association
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  id: ActuateBehaviours
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: ActuateBehaviours
+  nameWithType: Association.ActuateBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ActuateBehaviours
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 85
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    Gets the <xref href="System.Collections.ObjectModel.ReadOnlyDictionary%602" data-throw-if-not-resolved="false"></xref> of valid values
+
+    used for the <b>Actuate attribute</b> (<xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate" data-throw-if-not-resolved="false"></xref> property),
+
+    which determines how a link is triggered.
+  example: []
+  syntax:
+    content: public static ReadOnlyDictionary<ActuateBehaviour, string> ActuateBehaviours { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+    content.vb: Public Shared ReadOnly Property ActuateBehaviours As ReadOnlyDictionary(Of ActuateBehaviour, String)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours*
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  id: ShowBehaviours
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: ShowBehaviours
+  nameWithType: Association.ShowBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ShowBehaviours
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    Gets the <xref href="System.Collections.ObjectModel.ReadOnlyDictionary%602" data-throw-if-not-resolved="false"></xref> of valid values
+
+    used for the <b>Show attribute</b> (<xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show" data-throw-if-not-resolved="false"></xref> property),
+
+    which determines how a linked resource should be displayed.
+  example: []
+  syntax:
+    content: public static ReadOnlyDictionary<ShowBehaviour, string> ShowBehaviours { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ShowBehaviour,System.String}
+    content.vb: Public Shared ReadOnly Property ShowBehaviours As ReadOnlyDictionary(Of ShowBehaviour, String)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours*
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+  id: NilReasons
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: NilReasons
+  nameWithType: Association.NilReasons
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: NilReasons
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 99
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    Gets a <xref href="System.Collections.ObjectModel.ReadOnlyDictionary%602" data-throw-if-not-resolved="false"></xref> where each 
+
+    <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration" data-throw-if-not-resolved="false"></xref> key maps to an explanatory string used by the 
+
+    <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason" data-throw-if-not-resolved="false"></xref> property to describe missing or voided metadata values in XML files.
+  example: []
+  syntax:
+    content: public static ReadOnlyDictionary<NullEnumeration, string> NilReasons { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String}
+    content.vb: Public Shared ReadOnly Property NilReasons As ReadOnlyDictionary(Of NullEnumeration, String)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons*
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  id: GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: GetNilReason(NullEnumeration, string)
+  nameWithType: Association.GetNilReason(NullEnumeration, string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetNilReason
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    <p>
+      Generates a NilReason <xref href="System.String" data-throw-if-not-resolved="false"></xref> based on a predefined enumeration value.
+      The method can be used to set the <xref href="System.String" data-throw-if-not-resolved="false"></xref> value of the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason" data-throw-if-not-resolved="false"></xref> property.
+    </p>
+
+    <p>
+      The procedure makes sure that rules for setting the <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+      are observed and should be preferably used rather than setting the
+      <xref href="System.String" data-throw-if-not-resolved="false"></xref> value using the property's setter. The reason for having a
+      public setter in the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason" data-throw-if-not-resolved="false"></xref> property is to allow for XML deserialization.
+    </p>
+
+    <p>
+      <b>Example:</b>
+      <example>
+
+        <pre><code class="lang-csharp">NilReason = INilReason.GetNilReason(NullEnumeration.Missing);
+        NilReason = INilReason.GetNilReason(NullEnumeration.Other, "Example reason given here");</code></pre>
+      </example>
+    </p>
+  example: []
+  syntax:
+    content: public static string GetNilReason(NullEnumeration nullEnum, string otherAdditionalReason = "Reason not in list")
+    parameters:
+    - id: nullEnum
+      type: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+      description: The <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration" data-throw-if-not-resolved="false"></xref> value.
+    - id: otherAdditionalReason
+      type: System.String
+      description: >-
+        Allows a <xref href="System.String" data-throw-if-not-resolved="false"></xref> value providing a brief reason to be appended after the
+
+        <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other" data-throw-if-not-resolved="false"></xref>. The argument's value will be used only if
+
+        the enumerated value provided is <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration" data-throw-if-not-resolved="false"></xref>; in all other cases
+
+        the argument's value will be omitted.
+    return:
+      type: System.String
+      description: A properly formatted <xref href="System.String" data-throw-if-not-resolved="false"></xref> with the NilReason.
+    content.vb: Public Shared Function GetNilReason(nullEnum As NullEnumeration, otherAdditionalReason As String = "Reason not in list") As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason*
+  nameWithType.vb: Association.GetNilReason(NullEnumeration, String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, String)
+  name.vb: GetNilReason(NullEnumeration, String)
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(System.String)
+  id: GetNilReason(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: GetNilReason(string)
+  nameWithType: Association.GetNilReason(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetNilReason
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 161
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    <p>
+      Generates a NilReason <xref href="System.String" data-throw-if-not-resolved="false"></xref> based on a URI reference.
+      The method can be used to set the <xref href="System.String" data-throw-if-not-resolved="false"></xref> value of the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason" data-throw-if-not-resolved="false"></xref> property.
+    </p>
+
+    <p>
+      <b>Example:</b>
+      <example>
+
+        <pre><code class="lang-csharp">NilReason = INilReason.GetNilReason("http://www.example.com/a-detailed-explanation-for-nilreason/";</code></pre>
+      </example>
+    </p>
+  remarks: >-
+    The URI method enables a specific or more complete explanation for the absence
+
+    of a value to be provided elsewhere and indicated by-reference in an instance document.
+  example: []
+  syntax:
+    content: public static string GetNilReason(string uriString)
+    parameters:
+    - id: uriString
+      type: System.String
+      description: >-
+        The <xref href="System.String" data-throw-if-not-resolved="false"></xref> holding a <code>URI</code> describing in detail the reason for a
+
+        <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> / <xref href="System.Void" data-throw-if-not-resolved="false"></xref> or exception.
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> with the Nil Reason.
+    content.vb: Public Shared Function GetNilReason(uriString As String) As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason*
+  nameWithType.vb: Association.GetNilReason(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason(String)
+  name.vb: GetNilReason(String)
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+  id: Type
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Association.Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 170
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: Gets/Sets the type of the reference, which is always <code>"simple"</code>.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("type")]
+
+      public string Type { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("type")>
+
+      Public ReadOnly Property Type As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type*
+  implements:
+  - NDSH.Xml.XLink.IType.Type
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: type
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+  id: Href
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: Association.Href
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Href
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 181
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: Gets/Sets a reference to a remote resource via a URI.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("href")]
+
+      public string Href { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("href")>
+
+      Public Property Href As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href*
+  implements:
+  - NDSH.Xml.XLink.IHref.Href
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: href
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  id: Role
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Role
+  nameWithType: Association.Role
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Role
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 203
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: Gets/Sets the role of the link, specifying its function within an association.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("role")]
+
+      public string Role { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("role")>
+
+      Public Property Role As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role*
+  implements:
+  - NDSH.Xml.XLink.IRole.Role
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: role
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+  id: ArcRole
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: ArcRole
+  nameWithType: Association.ArcRole
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ArcRole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 226
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    Gets/Sets a more detailed function of the link,
+
+    similar to the value of <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role" data-throw-if-not-resolved="false"></xref> but more specialized.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("arcrole")]
+
+      public string ArcRole { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("arcrole")>
+
+      Public Property ArcRole As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole*
+  implements:
+  - NDSH.Xml.XLink.IArcRole.ArcRole
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: arcrole
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+  id: Title
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Association.Title
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Title
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 248
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: Gets/Sets the descriptive title of the linked resource.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("title")]
+
+      public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("title")>
+
+      Public Property Title As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title*
+  implements:
+  - NDSH.Xml.XLink.ITitle.Title
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: title
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  id: Show
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Show
+  nameWithType: Association.Show
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Show
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 291
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    <p>
+      Gets/Sets the Show attribute which is used to communicate the desired presentation
+      of the ending resource on traversal from the starting resource.
+    </p>
+
+    <p>
+      Use the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours" data-throw-if-not-resolved="false"></xref> static property to access all valid string values
+      used in the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show" data-throw-if-not-resolved="false"></xref> property.
+      Select a valid value using as a key an <xref href="NDSH.Xml.XLink.ShowBehaviour" data-throw-if-not-resolved="false"></xref> enumerated value.
+    </p>
+
+    <p>
+
+    <b>Example:</b>
+
+    <example>
+
+      <pre><code class="lang-csharp">= []</code></pre>
+    </example>
+
+    </p>
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("show")]
+
+      public string Show { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("show")>
+
+      Public Property Show As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: >-
+      The exception is thrown when the property is attempted to be set to a <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+
+      value that is not in the list of the accepted values.
+  implements:
+  - NDSH.Xml.XLink.IShow.Show
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: show
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  id: Actuate
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: Actuate
+  nameWithType: Association.Actuate
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Actuate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 335
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    <p>
+      Gets/Sets the Actuate attribute which is used to communicate the desired timing
+      of traversal from the starting resource to the ending resource.
+    </p>
+
+    <p>
+      Use the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours" data-throw-if-not-resolved="false"></xref> static property to access all valid string values
+      used in the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate" data-throw-if-not-resolved="false"></xref> property.
+      Select a valid value using as a key an <xref href="NDSH.Xml.XLink.ActuateBehaviour" data-throw-if-not-resolved="false"></xref> enumerated value.
+    </p>
+
+    <p>
+
+    <b>Example:</b>
+
+    <example>
+
+      <pre><code class="lang-csharp">= []</code></pre>
+    </example>
+
+    </p>
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("actuate")]
+
+      public string Actuate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("actuate")>
+
+      Public Property Actuate As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: >-
+      The exception is thrown when the property is attempted to be set to a <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+
+      value that is not in the list of the accepted values.
+  implements:
+  - NDSH.Xml.XLink.IActuate.Actuate
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: actuate
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  id: NilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: NilReason
+  nameWithType: Association.NilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: NilReason
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 413
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: >-
+    <p>
+      Gets/Sets an explanation for why a value is missing.
+    </p>
+
+    <p>
+      The NilReason is a <xref href="System.String" data-throw-if-not-resolved="false"></xref> value of one of the following three options:
+    </p>
+
+    <p>
+      <ol><li>
+          The value is a low case <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of one of the
+          values of the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration" data-throw-if-not-resolved="false"></xref>,
+          except the value <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other" data-throw-if-not-resolved="false"></xref>
+        </li><li>
+          The value is a combination of the low case <xref href="System.String" data-throw-if-not-resolved="false"></xref> representation of the
+          value <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other" data-throw-if-not-resolved="false"></xref> followed by <b>:</b>
+          and then by a string providing a brief explanation,
+          where text is a string of two or more characters with no included spaces.
+          <br />
+          <b>Example:</b>
+          <example>
+          other:brief explanation goes here
+          </example>
+          <br />
+          The entire <xref href="System.String" data-throw-if-not-resolved="false"></xref> must be valid against the following regular expression:
+          <br />
+          <code>other:\w{2,}</code>
+        </li><li>
+          The value is a Uniform Resource Identifier <b>(URI)</b>.<br />
+          A particular community may choose to assign more detailed semantics to the
+          standard values provided by the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration" data-throw-if-not-resolved="false"></xref>.
+          Alternatively, the URI method enables a specific or more complete explanation
+          for the absence of a value to be provided elsewhere and indicated by-reference
+          in an instance document.
+        </li></ol>
+    </p>
+
+    <p>
+      <b>Example:</b>
+      <example>
+
+        <pre><code class="lang-csharp">NilReason = INilReason.GetNilReason(NullEnumeration.Missing);
+        NilReason = INilReason.GetNilReason(NullEnumeration.Other, "Example reason give here");
+        NilReason = INilReason.GetNilReason("http://www.example.com/a-detailed-explanation-for-nilreason/";</code></pre>
+      </example>
+    </p>
+  remarks: >-
+    The <b>default</b> <xref href="NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason" data-throw-if-not-resolved="false"></xref> value is: <code>"unknown"</code>,
+
+    the XML enum value of the <xref href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Unknown" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("nilReason")]
+
+      public string NilReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("nilReason")>
+
+      Public Property NilReason As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason*
+  implements:
+  - NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+  id: RemoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  langs:
+  - csharp
+  - vb
+  name: RemoteSchema
+  nameWithType: Association.RemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: RemoteSchema
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Base/Association.cs
+    startLine: 436
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  summary: Gets/Sets a reference to an external remote schema.
+  remarks: This is an obsolete property. (Marked deprecated in gml/gmlBase.xsd)
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("RemoteSchema is marked as deprecated in gml/gmlBase.xsd")]
+
+      [JsonProperty("remoteSchema")]
+
+      [JsonIgnore]
+
+      public string? RemoteSchema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obsolete("RemoteSchema is marked as deprecated in gml/gmlBase.xsd")>
+
+      <JsonProperty("remoteSchema")>
+
+      <JsonIgnore>
+
+      Public Property RemoteSchema As String
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema*
+  implements:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: RemoteSchema is marked as deprecated in gml/gmlBase.xsd
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: remoteSchema
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html
+  name: Association
+  nameWithType: Association
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation.html
+  name: IAssociation
+  nameWithType: IAssociation
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IAssociation
+- uid: NDSH.Xml.XLink.ISimpleLink
+  commentId: T:NDSH.Xml.XLink.ISimpleLink
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ISimpleLink.html
+  name: ISimpleLink
+  nameWithType: ISimpleLink
+  fullName: NDSH.Xml.XLink.ISimpleLink
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IHref
+  commentId: T:NDSH.Xml.XLink.IHref
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IHref.html
+  name: IHref
+  nameWithType: IHref
+  fullName: NDSH.Xml.XLink.IHref
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.IArcRole
+  commentId: T:NDSH.Xml.XLink.IArcRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IArcRole.html
+  name: IArcRole
+  nameWithType: IArcRole
+  fullName: NDSH.Xml.XLink.IArcRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.IShow
+  commentId: T:NDSH.Xml.XLink.IShow
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IShow.html
+  name: IShow
+  nameWithType: IShow
+  fullName: NDSH.Xml.XLink.IShow
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IActuate.html
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html
+  name: INilReason
+  nameWithType: INilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.html
+  name: IRemoteSchema
+  nameWithType: IRemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<TKey, TValue>
+  nameWithType: ReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: ReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue)
+  name.vb: ReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Actuate
+  name: Actuate
+  nameWithType: Association.Actuate
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: Association.ActuateBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ActuateBehaviour,System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<ActuateBehaviour, string>
+  nameWithType: ReadOnlyDictionary<ActuateBehaviour, string>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<NDSH.Xml.XLink.ActuateBehaviour, string>
+  nameWithType.vb: ReadOnlyDictionary(Of ActuateBehaviour, String)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of NDSH.Xml.XLink.ActuateBehaviour, String)
+  name.vb: ReadOnlyDictionary(Of ActuateBehaviour, String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - uid: NDSH.Xml.XLink.ActuateBehaviour
+    name: ActuateBehaviour
+    href: NDSH.Xml.XLink.ActuateBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Xml.XLink.ActuateBehaviour
+    name: ActuateBehaviour
+    href: NDSH.Xml.XLink.ActuateBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Show
+  name: Show
+  nameWithType: Association.Show
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_ShowBehaviours
+  name: ShowBehaviours
+  nameWithType: Association.ShowBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ShowBehaviour,System.String}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Xml.XLink.ShowBehaviour,System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<ShowBehaviour, string>
+  nameWithType: ReadOnlyDictionary<ShowBehaviour, string>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<NDSH.Xml.XLink.ShowBehaviour, string>
+  nameWithType.vb: ReadOnlyDictionary(Of ShowBehaviour, String)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of NDSH.Xml.XLink.ShowBehaviour, String)
+  name.vb: ReadOnlyDictionary(Of ShowBehaviour, String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - uid: NDSH.Xml.XLink.ShowBehaviour
+    name: ShowBehaviour
+    href: NDSH.Xml.XLink.ShowBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Xml.XLink.ShowBehaviour
+    name: ShowBehaviour
+    href: NDSH.Xml.XLink.ShowBehaviour.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  name: NullEnumeration
+  nameWithType: NullEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_NilReason
+  name: NilReason
+  nameWithType: Association.NilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_NilReasons
+  name: NilReasons
+  nameWithType: Association.NilReasons
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReasons
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyDictionary{NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  name: ReadOnlyDictionary<NullEnumeration, string>
+  nameWithType: ReadOnlyDictionary<NullEnumeration, string>
+  fullName: System.Collections.ObjectModel.ReadOnlyDictionary<NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, string>
+  nameWithType.vb: ReadOnlyDictionary(Of NullEnumeration, String)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyDictionary(Of NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration, String)
+  name.vb: ReadOnlyDictionary(Of NullEnumeration, String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+    name: NullEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2
+    name: ReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+    name: NullEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Other
+  name: Other
+  nameWithType: NullEnumeration.Other
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Other
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_GetNilReason_NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_System_String_
+  name: GetNilReason
+  nameWithType: Association.GetNilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.GetNilReason
+- uid: System.Void
+  commentId: T:System.Void
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.void
+  name: void
+  nameWithType: void
+  fullName: void
+  nameWithType.vb: Void
+  fullName.vb: Void
+  name.vb: Void
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Type
+  name: Type
+  nameWithType: Association.Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Type
+- uid: NDSH.Xml.XLink.IType.Type
+  commentId: P:NDSH.Xml.XLink.IType.Type
+  parent: NDSH.Xml.XLink.IType
+  href: NDSH.Xml.XLink.IType.html#NDSH_Xml_XLink_IType_Type
+  name: Type
+  nameWithType: IType.Type
+  fullName: NDSH.Xml.XLink.IType.Type
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Href
+  name: Href
+  nameWithType: Association.Href
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Href
+- uid: NDSH.Xml.XLink.IHref.Href
+  commentId: P:NDSH.Xml.XLink.IHref.Href
+  parent: NDSH.Xml.XLink.IHref
+  href: NDSH.Xml.XLink.IHref.html#NDSH_Xml_XLink_IHref_Href
+  name: Href
+  nameWithType: IHref.Href
+  fullName: NDSH.Xml.XLink.IHref.Href
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Role
+  name: Role
+  nameWithType: Association.Role
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  parent: NDSH.Xml.XLink.IRole
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Role
+  name: Role
+  nameWithType: Association.Role
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Role
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_ArcRole
+  name: ArcRole
+  nameWithType: Association.ArcRole
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ArcRole
+- uid: NDSH.Xml.XLink.IArcRole.ArcRole
+  commentId: P:NDSH.Xml.XLink.IArcRole.ArcRole
+  parent: NDSH.Xml.XLink.IArcRole
+  href: NDSH.Xml.XLink.IArcRole.html#NDSH_Xml_XLink_IArcRole_ArcRole
+  name: ArcRole
+  nameWithType: IArcRole.ArcRole
+  fullName: NDSH.Xml.XLink.IArcRole.ArcRole
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Title
+  name: Title
+  nameWithType: Association.Title
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Title
+- uid: NDSH.Xml.XLink.ITitle.Title
+  commentId: P:NDSH.Xml.XLink.ITitle.Title
+  parent: NDSH.Xml.XLink.ITitle
+  href: NDSH.Xml.XLink.ITitle.html#NDSH_Xml_XLink_ITitle_Title
+  name: Title
+  nameWithType: ITitle.Title
+  fullName: NDSH.Xml.XLink.ITitle.Title
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_ShowBehaviours
+  name: ShowBehaviours
+  nameWithType: Association.ShowBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ShowBehaviours
+- uid: NDSH.Xml.XLink.ShowBehaviour
+  commentId: T:NDSH.Xml.XLink.ShowBehaviour
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ShowBehaviour.html
+  name: ShowBehaviour
+  nameWithType: ShowBehaviour
+  fullName: NDSH.Xml.XLink.ShowBehaviour
+- uid: NDSH.Xml.XLink.ShowBehaviour.None
+  commentId: F:NDSH.Xml.XLink.ShowBehaviour.None
+  href: NDSH.Xml.XLink.ShowBehaviour.html#NDSH_Xml_XLink_ShowBehaviour_None
+  name: None
+  nameWithType: ShowBehaviour.None
+  fullName: NDSH.Xml.XLink.ShowBehaviour.None
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Show
+  name: Show
+  nameWithType: Association.Show
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Show
+- uid: NDSH.Xml.XLink.IShow.Show
+  commentId: P:NDSH.Xml.XLink.IShow.Show
+  parent: NDSH.Xml.XLink.IShow
+  href: NDSH.Xml.XLink.IShow.html#NDSH_Xml_XLink_IShow_Show
+  name: Show
+  nameWithType: IShow.Show
+  fullName: NDSH.Xml.XLink.IShow.Show
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: Association.ActuateBehaviours
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.ActuateBehaviours
+- uid: NDSH.Xml.XLink.ActuateBehaviour
+  commentId: T:NDSH.Xml.XLink.ActuateBehaviour
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ActuateBehaviour.html
+  name: ActuateBehaviour
+  nameWithType: ActuateBehaviour
+  fullName: NDSH.Xml.XLink.ActuateBehaviour
+- uid: NDSH.Xml.XLink.ActuateBehaviour.None
+  commentId: F:NDSH.Xml.XLink.ActuateBehaviour.None
+  href: NDSH.Xml.XLink.ActuateBehaviour.html#NDSH_Xml_XLink_ActuateBehaviour_None
+  name: None
+  nameWithType: ActuateBehaviour.None
+  fullName: NDSH.Xml.XLink.ActuateBehaviour.None
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_Actuate
+  name: Actuate
+  nameWithType: Association.Actuate
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.Actuate
+- uid: NDSH.Xml.XLink.IActuate.Actuate
+  commentId: P:NDSH.Xml.XLink.IActuate.Actuate
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_Actuate
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Unknown
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Unknown
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Unknown
+  name: Unknown
+  nameWithType: NullEnumeration.Unknown
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.Unknown
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_NilReason
+  name: NilReason
+  nameWithType: Association.NilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.NilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Common.INilReason
+  href: NDSH.Geospatial.Metadata.V2003.Common.INilReason.html#NDSH_Geospatial_Metadata_V2003_Common_INilReason_NilReason
+  name: NilReason
+  nameWithType: INilReason.NilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.INilReason.NilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_Association_RemoteSchema
+  name: RemoteSchema
+  nameWithType: Association.RemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.Association.RemoteSchema
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_IRemoteSchema_RemoteSchema
+  name: RemoteSchema
+  nameWithType: IRemoteSchema.RemoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.IRemoteSchema.RemoteSchema

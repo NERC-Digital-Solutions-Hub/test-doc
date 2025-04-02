@@ -1,0 +1,1038 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  id: CI_PresentationFormCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableHardcopy
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoDigital
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoHardcopy
+  langs:
+  - csharp
+  - vb
+  name: CI_PresentationFormCodeValue
+  nameWithType: CI_PresentationFormCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CI_PresentationFormCodeValue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: The mode in which the data is represented.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum CI_PresentationFormCodeValue
+    content.vb: >-
+      <Serializable>
+
+      Public Enum CI_PresentationFormCodeValue
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentDigital
+  id: DocumentDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: DocumentDigital
+  nameWithType: CI_PresentationFormCodeValue.DocumentDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DocumentDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Digital representation of a primarily textual item (can contain illustrations also).
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "documentDigital")]
+
+      DocumentDigital = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="documentDigital")>
+
+      DocumentDigital = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: documentDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentHardcopy
+  id: DocumentHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: DocumentHardcopy
+  nameWithType: CI_PresentationFormCodeValue.DocumentHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.DocumentHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DocumentHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: >-
+    Representation of a primarily textual item (can contain illustrations also) on paper,
+
+    photographic material, or other media.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "documentHardcopy")]
+
+      DocumentHardcopy = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="documentHardcopy")>
+
+      DocumentHardcopy = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: documentHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageDigital
+  id: ImageDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ImageDigital
+  nameWithType: CI_PresentationFormCodeValue.ImageDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ImageDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: >-
+    Likeness of natural or man-made features, objects, and activities acquired through
+
+    the sensing of visual or any other segment of the electromagnetic spectrum by sensors,
+
+    such as thermal infrared, and high resolution radar and stored in digital format.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "imageDigital")]
+
+      ImageDigital = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="imageDigital")>
+
+      ImageDigital = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: imageDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageHardcopy
+  id: ImageHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ImageHardcopy
+  nameWithType: CI_PresentationFormCodeValue.ImageHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ImageHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ImageHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 70
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: >-
+    Likeness of natural or man-made features, objects, and activities acquired through
+
+    the sensing of visual or any other segment of the electromagnetic spectrum by sensors,
+
+    such as thermal infrared, and high resolution radar and reproduced on paper,
+
+    photographic material, or other media for use directly by the human user.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "imageHardcopy")]
+
+      ImageHardcopy = 4
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="imageHardcopy")>
+
+      ImageHardcopy = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: imageHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapDigital
+  id: MapDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: MapDigital
+  nameWithType: CI_PresentationFormCodeValue.MapDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MapDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 77
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Map represented in raster or vector form.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "mapDigital")]
+
+      MapDigital = 5
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="mapDigital")>
+
+      MapDigital = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: mapDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapHardcopy
+  id: MapHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: MapHardcopy
+  nameWithType: CI_PresentationFormCodeValue.MapHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.MapHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MapHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 84
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Map printed on paper, photographic material, or other media for use directly by the human user.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "mapHardcopy")]
+
+      MapHardcopy = 6
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="mapHardcopy")>
+
+      MapHardcopy = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: mapHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelDigital
+  id: ModelDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ModelDigital
+  nameWithType: CI_PresentationFormCodeValue.ModelDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 91
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Multi-dimensional digital representation of a feature, process, etc.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "modelDigital")]
+
+      ModelDigital = 7
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="modelDigital")>
+
+      ModelDigital = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: modelDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelHardcopy
+  id: ModelHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ModelHardcopy
+  nameWithType: CI_PresentationFormCodeValue.ModelHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ModelHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 98
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: 3-dimensional, physical model.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "modelHardcopy")]
+
+      ModelHardcopy = 8
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="modelHardcopy")>
+
+      ModelHardcopy = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: modelHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileDigital
+  id: ProfileDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ProfileDigital
+  nameWithType: CI_PresentationFormCodeValue.ProfileDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ProfileDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 105
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Vertical cross-section in digital form.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "profileDigital")]
+
+      ProfileDigital = 9
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="profileDigital")>
+
+      ProfileDigital = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: profileDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileHardcopy
+  id: ProfileHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ProfileHardcopy
+  nameWithType: CI_PresentationFormCodeValue.ProfileHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.ProfileHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ProfileHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 112
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Vertical cross-section printed on paper, etc.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "profileHardcopy")]
+
+      ProfileHardcopy = 10
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="profileHardcopy")>
+
+      ProfileHardcopy = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: profileHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableDigital
+  id: TableDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: TableDigital
+  nameWithType: CI_PresentationFormCodeValue.TableDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TableDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 119
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Digital representation of facts or figures systematically displayed, especially in columns.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "tableDigital")]
+
+      TableDigital = 11
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="tableDigital")>
+
+      TableDigital = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: tableDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableHardcopy
+  id: TableHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: TableHardcopy
+  nameWithType: CI_PresentationFormCodeValue.TableHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.TableHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TableHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 127
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: >-
+    Representation of facts or figures systematically displayed, especially in columns,
+
+    printed on paper, photographic material, or other media.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "tableHardcopy")]
+
+      TableHardcopy = 12
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="tableHardcopy")>
+
+      TableHardcopy = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: tableHardcopy
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoDigital
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoDigital
+  id: VideoDigital
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: VideoDigital
+  nameWithType: CI_PresentationFormCodeValue.VideoDigital
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoDigital
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: VideoDigital
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Digital video recording.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "videoDigital")]
+
+      VideoDigital = 13
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="videoDigital")>
+
+      VideoDigital = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: videoDigital
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoHardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoHardcopy
+  id: VideoHardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  langs:
+  - csharp
+  - vb
+  name: VideoHardcopy
+  nameWithType: CI_PresentationFormCodeValue.VideoHardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.VideoHardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: VideoHardcopy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_PresentationFormCodeValue.cs
+    startLine: 141
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Video recording on film.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "videoHardcopy")]
+
+      VideoHardcopy = 14
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    content.vb: >-
+      <EnumMember(Value:="videoHardcopy")>
+
+      VideoHardcopy = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: videoHardcopy
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumName<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  name.vb: GetXmlEnumName(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  name.vb: GetXmlEnumAttributeOrName(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<CI_PresentationFormCodeValue>(CI_PresentationFormCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+  name.vb: GetXmlEnumAttribute(Of CI_PresentationFormCodeValue)(CI_PresentationFormCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+    name: CI_PresentationFormCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  name: CI_PresentationFormCodeValue
+  nameWithType: CI_PresentationFormCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue

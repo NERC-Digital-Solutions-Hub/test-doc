@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution
+  id: Distribution
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDigitalTransferOptionsXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributionXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributorXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdFormatXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdStandardOrderProcessXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDigitalTransferOptionsXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDigitalTransferOptionsXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDigitalTransferOptionsXmlReader.html
+  name: MdDigitalTransferOptionsXmlReader
+  nameWithType: MdDigitalTransferOptionsXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDigitalTransferOptionsXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributionXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributionXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributionXmlReader.html
+  name: MdDistributionXmlReader
+  nameWithType: MdDistributionXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributionXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributorXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributorXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributorXmlReader.html
+  name: MdDistributorXmlReader
+  nameWithType: MdDistributorXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdDistributorXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdFormatXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdFormatXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdFormatXmlReader.html
+  name: MdFormatXmlReader
+  nameWithType: MdFormatXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdFormatXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdStandardOrderProcessXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdStandardOrderProcessXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdStandardOrderProcessXmlReader.html
+  name: MdStandardOrderProcessXmlReader
+  nameWithType: MdStandardOrderProcessXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Distribution.MdStandardOrderProcessXmlReader

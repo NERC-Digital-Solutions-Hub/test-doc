@@ -1,0 +1,1064 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  id: MD_MetadataExtensionInformation_Type
+  parent: NDSH.Geospatial.Metadata.Extension
+  children:
+  - NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor
+  - NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  - NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  langs:
+  - csharp
+  - vb
+  name: MD_MetadataExtensionInformation_Type
+  nameWithType: MD_MetadataExtensionInformation_Type
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MD_MetadataExtensionInformation_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+    startLine: 57
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Extension
+  summary: Information describing metadata extensions.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("MD_MetadataExtensionInformation")]
+
+      public class MD_MetadataExtensionInformation_Type : MetadataObject, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("MD_MetadataExtensionInformation")>
+
+      Public Class MD_MetadataExtensionInformation_Type Inherits MetadataObject Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  - NDSH.Geospatial.Metadata.MetadataObject
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Metadata.IObjectIdentification
+  - NDSH.Geospatial.Metadata.INullableId
+  - NDSH.Geospatial.Metadata.INullableUuid
+  - NDSH.Geospatial.Metadata.ITypeReferenced
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.MetadataObject.Id
+  - NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  - NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MD_MetadataExtensionInformation
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  langs:
+  - csharp
+  - vb
+  name: MD_MetadataExtensionInformation_Type()
+  nameWithType: MD_MetadataExtensionInformation_Type.MD_MetadataExtensionInformation_Type()
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.MD_MetadataExtensionInformation_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+    startLine: 68
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Extension
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MD_MetadataExtensionInformation_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor*
+  nameWithType.vb: MD_MetadataExtensionInformation_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  commentId: P:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  id: ExtensionOnLineResource
+  parent: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  langs:
+  - csharp
+  - vb
+  name: ExtensionOnLineResource
+  nameWithType: MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ExtensionOnLineResource
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+    startLine: 86
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Extension
+  summary: >-
+    Information about on-line sources containing the community profile name and the extended metadata elements.
+
+    Information for all new metadata element.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("extensionOnLineResource", Order = 0)]
+
+      public CI_OnlineResource_Type? ExtensionOnLineResource { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type
+    content.vb: >-
+      <JsonProperty("extensionOnLineResource", Order:=0)>
+
+      Public Property ExtensionOnLineResource As CI_OnlineResource_Type
+  overload: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: extensionOnLineResource
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  commentId: P:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  id: ExtendedElementInformation
+  parent: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  langs:
+  - csharp
+  - vb
+  name: ExtendedElementInformation
+  nameWithType: MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ExtendedElementInformation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Extension/MD_MetadataExtensionInformation_Type.cs
+    startLine: 100
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Extension
+  summary: >-
+    Provides information about a new metadata element, not found in ISO 19115,
+
+    which is required to describe geographic data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("extendedElementInformation", Order = 1)]
+
+      public ObservableCollection<MD_ExtendedElementInformation_Type>? ExtendedElementInformation { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type}
+    content.vb: >-
+      <JsonProperty("extendedElementInformation", Order:=1)>
+
+      Public Property ExtendedElementInformation As ObservableCollection(Of MD_ExtendedElementInformation_Type)
+  overload: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: extendedElementInformation
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+references:
+- uid: NDSH.Geospatial.Metadata.Extension
+  commentId: N:NDSH.Geospatial.Metadata.Extension
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Extension
+  nameWithType: NDSH.Geospatial.Metadata.Extension
+  fullName: NDSH.Geospatial.Metadata.Extension
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Extension
+    name: Extension
+    href: NDSH.Geospatial.Metadata.Extension.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Extension
+    name: Extension
+    href: NDSH.Geospatial.Metadata.Extension.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Geospatial.Metadata.MetadataObject
+  commentId: T:NDSH.Geospatial.Metadata.MetadataObject
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MetadataObject.html
+  name: MetadataObject
+  nameWithType: MetadataObject
+  fullName: NDSH.Geospatial.Metadata.MetadataObject
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Metadata.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.INullableId
+  commentId: T:NDSH.Geospatial.Metadata.INullableId
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableId.html
+  name: INullableId
+  nameWithType: INullableId
+  fullName: NDSH.Geospatial.Metadata.INullableId
+- uid: NDSH.Geospatial.Metadata.INullableUuid
+  commentId: T:NDSH.Geospatial.Metadata.INullableUuid
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableUuid.html
+  name: INullableUuid
+  nameWithType: INullableUuid
+  fullName: NDSH.Geospatial.Metadata.INullableUuid
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced
+  commentId: T:NDSH.Geospatial.Metadata.ITypeReferenced
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ITypeReferenced.html
+  name: ITypeReferenced
+  nameWithType: ITypeReferenced
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Id
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Id
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Id
+  name: Id
+  nameWithType: MetadataObject.Id
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Id
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Uuid
+  name: Uuid
+  nameWithType: MetadataObject.Uuid
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+- uid: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_TypeReferenceMetadata
+  name: TypeReferenceMetadata
+  nameWithType: MetadataObject.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+  href: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.html
+  name: MD_MetadataExtensionInformation_Type
+  nameWithType: MD_MetadataExtensionInformation_Type
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.#ctor
+  href: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.html#NDSH_Geospatial_Metadata_Extension_MD_MetadataExtensionInformation_Type__ctor
+  name: MD_MetadataExtensionInformation_Type
+  nameWithType: MD_MetadataExtensionInformation_Type.MD_MetadataExtensionInformation_Type
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.MD_MetadataExtensionInformation_Type
+  nameWithType.vb: MD_MetadataExtensionInformation_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource*
+  commentId: Overload:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  href: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.html#NDSH_Geospatial_Metadata_Extension_MD_MetadataExtensionInformation_Type_ExtensionOnLineResource
+  name: ExtensionOnLineResource
+  nameWithType: MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtensionOnLineResource
+- uid: NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  href: NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type.html
+  name: CI_OnlineResource_Type
+  nameWithType: CI_OnlineResource_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type
+- uid: NDSH.Geospatial.Metadata.Citation
+  commentId: N:NDSH.Geospatial.Metadata.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Citation
+  nameWithType: NDSH.Geospatial.Metadata.Citation
+  fullName: NDSH.Geospatial.Metadata.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+- uid: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation*
+  commentId: Overload:NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  href: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.html#NDSH_Geospatial_Metadata_Extension_MD_MetadataExtensionInformation_Type_ExtendedElementInformation
+  name: ExtendedElementInformation
+  nameWithType: MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+  fullName: NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type.ExtendedElementInformation
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<MD_ExtendedElementInformation_Type>
+  nameWithType: ObservableCollection<MD_ExtendedElementInformation_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type>
+  nameWithType.vb: ObservableCollection(Of MD_ExtendedElementInformation_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type)
+  name.vb: ObservableCollection(Of MD_ExtendedElementInformation_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type
+    name: MD_ExtendedElementInformation_Type
+    href: NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type
+    name: MD_ExtendedElementInformation_Type
+    href: NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type.html
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel

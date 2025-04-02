@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  id: MD_SpatialRepresentationTypeCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Identification
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Grid
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.StereoModel
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.TextTable
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Tin
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Vector
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Video
+  langs:
+  - csharp
+  - vb
+  name: MD_SpatialRepresentationTypeCodeValue
+  nameWithType: MD_SpatialRepresentationTypeCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MD_SpatialRepresentationTypeCodeValue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Method used to represent geographic information in the dataset.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MD_SpatialRepresentationTypeCodeValue
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Vector
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Vector
+  id: Vector
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.Vector
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Vector
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Vector
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Vector data is used to represent geographic data.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "vector")]
+
+      Vector = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="vector")>
+
+      Vector = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: vector
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Grid
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Grid
+  id: Grid
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Grid
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.Grid
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Grid
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Grid
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Grid data is used to represent geographic data.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "grid")]
+
+      Grid = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="grid")>
+
+      Grid = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: grid
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.TextTable
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.TextTable
+  id: TextTable
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: TextTable
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.TextTable
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.TextTable
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TextTable
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Textual or tabular data is used to represent geographic data.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "textTable")]
+
+      TextTable = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="textTable")>
+
+      TextTable = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: textTable
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Tin
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Tin
+  id: Tin
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Tin
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.Tin
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Tin
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Tin
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 65
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Triangulated irregular network.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "tin")]
+
+      Tin = 4
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="tin")>
+
+      Tin = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: tin
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.StereoModel
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.StereoModel
+  id: StereoModel
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: StereoModel
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.StereoModel
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.StereoModel
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: StereoModel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 72
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "stereoModel")]
+
+      StereoModel = 5
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="stereoModel")>
+
+      StereoModel = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: stereoModel
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Video
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Video
+  id: Video
+  parent: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: MD_SpatialRepresentationTypeCodeValue.Video
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.Video
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Video
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Identification/MD_SpatialRepresentationTypeCodeValue.cs
+    startLine: 79
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Identification
+  summary: Scene from a video recording.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "video")]
+
+      Video = 6
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="video")>
+
+      Video = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: video
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Identification
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2005.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2005.Identification.html
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumName<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  name.vb: GetXmlEnumName(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  name.vb: GetXmlEnumAttributeOrName(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<MD_SpatialRepresentationTypeCodeValue>(MD_SpatialRepresentationTypeCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+  name.vb: GetXmlEnumAttribute(Of MD_SpatialRepresentationTypeCodeValue)(MD_SpatialRepresentationTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+    name: MD_SpatialRepresentationTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Identification
+  href: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue.html
+  name: MD_SpatialRepresentationTypeCodeValue
+  nameWithType: MD_SpatialRepresentationTypeCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Identification.MD_SpatialRepresentationTypeCodeValue

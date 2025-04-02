@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  id: ReferenceSystem
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractCRSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_ReferenceSystem_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.SC_CRS_PropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractCRSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractCRSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractCRSType.html
+  name: AbstractCRSType
+  nameWithType: AbstractCRSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractCRSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractRS_ReferenceSystem_Type.html
+  name: AbstractRS_ReferenceSystem_Type
+  nameWithType: AbstractRS_ReferenceSystem_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_PropertyType.html
+  name: MD_Identifier_PropertyType
+  nameWithType: MD_Identifier_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_Type.html
+  name: MD_Identifier_Type
+  nameWithType: MD_Identifier_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_Identifier_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_PropertyType.html
+  name: MD_ReferenceSystem_PropertyType
+  nameWithType: MD_ReferenceSystem_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_Type.html
+  name: MD_ReferenceSystem_Type
+  nameWithType: MD_ReferenceSystem_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.MD_ReferenceSystem_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_PropertyType.html
+  name: RS_Identifier_PropertyType
+  nameWithType: RS_Identifier_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_Type.html
+  name: RS_Identifier_Type
+  nameWithType: RS_Identifier_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_Identifier_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_ReferenceSystem_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_ReferenceSystem_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_ReferenceSystem_PropertyType.html
+  name: RS_ReferenceSystem_PropertyType
+  nameWithType: RS_ReferenceSystem_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.RS_ReferenceSystem_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.SC_CRS_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.SC_CRS_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.SC_CRS_PropertyType.html
+  name: SC_CRS_PropertyType
+  nameWithType: SC_CRS_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.SC_CRS_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ReferenceSystem.html

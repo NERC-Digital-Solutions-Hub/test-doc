@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  id: Aggregates
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurvePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurveType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfacePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.html
+  name: AbstractGeometricAggregateType
+  nameWithType: AbstractGeometricAggregateType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurvePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurvePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurvePropertyType.html
+  name: MultiCurvePropertyType
+  nameWithType: MultiCurvePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurvePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurveType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurveType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurveType.html
+  name: MultiCurveType
+  nameWithType: MultiCurveType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiCurveType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryPropertyType.html
+  name: MultiGeometryPropertyType
+  nameWithType: MultiGeometryPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryType.html
+  name: MultiGeometryType
+  nameWithType: MultiGeometryType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiGeometryType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointPropertyType.html
+  name: MultiPointPropertyType
+  nameWithType: MultiPointPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointType.html
+  name: MultiPointType
+  nameWithType: MultiPointType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiPointType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidPropertyType.html
+  name: MultiSolidPropertyType
+  nameWithType: MultiSolidPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidType.html
+  name: MultiSolidType
+  nameWithType: MultiSolidType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSolidType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfacePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfacePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfacePropertyType.html
+  name: MultiSurfacePropertyType
+  nameWithType: MultiSurfacePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfacePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.html
+  name: MultiSurfaceType
+  nameWithType: MultiSurfaceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+    name: Aggregates
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+    name: Aggregates
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.html

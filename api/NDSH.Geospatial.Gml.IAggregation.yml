@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.IAggregation
+  commentId: T:NDSH.Geospatial.Gml.IAggregation
+  id: IAggregation
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.IAggregation.AggregationType
+  langs:
+  - csharp
+  - vb
+  name: IAggregation
+  nameWithType: IAggregation
+  fullName: NDSH.Geospatial.Gml.IAggregation
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IAggregation.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IAggregation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IAggregation.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: Defines attributes for a GML Object Collection to provide information about grouping and indexing.
+  remarks: 'Maps to: <code>AggregationAttributeGroup</code> ( /2005/gml/gmlBase.xsd )'
+  example: []
+  syntax:
+    content: public interface IAggregation
+    content.vb: Public Interface IAggregation
+- uid: NDSH.Geospatial.Gml.IAggregation.AggregationType
+  commentId: P:NDSH.Geospatial.Gml.IAggregation.AggregationType
+  id: AggregationType
+  parent: NDSH.Geospatial.Gml.IAggregation
+  langs:
+  - csharp
+  - vb
+  name: AggregationType
+  nameWithType: IAggregation.AggregationType
+  fullName: NDSH.Geospatial.Gml.IAggregation.AggregationType
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IAggregation.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AggregationType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/IAggregation.cs
+    startLine: 70
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: Gets or sets the aggregation type, specifying how the collection is structured.
+  remarks: >-
+    The aggregation type follows the values defined in
+
+    <xref href="NDSH.Geospatial.Gml.AggregationType?text=AggregationType" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("aggregationType")]
+
+      AggregationType AggregationType { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Gml.AggregationType
+    content.vb: >-
+      <JsonProperty("aggregationType")>
+
+      Property AggregationType As AggregationType
+  overload: NDSH.Geospatial.Gml.IAggregation.AggregationType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: aggregationType
+references:
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: NDSH.Geospatial.Gml.AggregationType
+  commentId: T:NDSH.Geospatial.Gml.AggregationType
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AggregationType.html
+  name: AggregationType
+  nameWithType: AggregationType
+  fullName: NDSH.Geospatial.Gml.AggregationType
+- uid: NDSH.Geospatial.Gml.IAggregation.AggregationType*
+  commentId: Overload:NDSH.Geospatial.Gml.IAggregation.AggregationType
+  href: NDSH.Geospatial.Gml.IAggregation.html#NDSH_Geospatial_Gml_IAggregation_AggregationType
+  name: AggregationType
+  nameWithType: IAggregation.AggregationType
+  fullName: NDSH.Geospatial.Gml.IAggregation.AggregationType

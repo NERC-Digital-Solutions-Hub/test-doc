@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ICodeList
+  commentId: T:NDSH.Geospatial.Metadata.ICodeList
+  id: ICodeList
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ICodeList.CodeList
+  langs:
+  - csharp
+  - vb
+  name: ICodeList
+  nameWithType: ICodeList
+  fullName: NDSH.Geospatial.Metadata.ICodeList
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ICodeList.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ICodeList
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ICodeList.cs
+    startLine: 35
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Defines a contract for objects that require a code list reference as per
+
+    the ISO 19115 metadata standard. This interface ensures that implementing
+
+    classes provide a structured mechanism to reference external code lists.
+  example: []
+  syntax:
+    content: public interface ICodeList
+    content.vb: Public Interface ICodeList
+- uid: NDSH.Geospatial.Metadata.ICodeList.CodeList
+  commentId: P:NDSH.Geospatial.Metadata.ICodeList.CodeList
+  id: CodeList
+  parent: NDSH.Geospatial.Metadata.ICodeList
+  langs:
+  - csharp
+  - vb
+  name: CodeList
+  nameWithType: ICodeList.CodeList
+  fullName: NDSH.Geospatial.Metadata.ICodeList.CodeList
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ICodeList.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeList
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ICodeList.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Gets/Sets the URI reference to an external code list.
+
+    This property is required and must be a valid URI,
+
+    ensuring compliance with metadata schema definitions.
+  example: []
+  syntax:
+    content: string CodeList { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CodeList As String
+  overload: NDSH.Geospatial.Metadata.ICodeList.CodeList*
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.ICodeList.CodeList*
+  commentId: Overload:NDSH.Geospatial.Metadata.ICodeList.CodeList
+  href: NDSH.Geospatial.Metadata.ICodeList.html#NDSH_Geospatial_Metadata_ICodeList_CodeList
+  name: CodeList
+  nameWithType: ICodeList.CodeList
+  fullName: NDSH.Geospatial.Metadata.ICodeList.CodeList
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

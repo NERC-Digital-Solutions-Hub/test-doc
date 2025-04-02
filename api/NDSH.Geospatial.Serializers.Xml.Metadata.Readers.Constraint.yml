@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint
+  id: Constraint
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdConstraintsXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdLegalConstraintsXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdConstraintsXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdConstraintsXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdConstraintsXmlReader.html
+  name: MdConstraintsXmlReader
+  nameWithType: MdConstraintsXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdConstraintsXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdLegalConstraintsXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdLegalConstraintsXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdLegalConstraintsXmlReader.html
+  name: MdLegalConstraintsXmlReader
+  nameWithType: MdLegalConstraintsXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Constraint.MdLegalConstraintsXmlReader

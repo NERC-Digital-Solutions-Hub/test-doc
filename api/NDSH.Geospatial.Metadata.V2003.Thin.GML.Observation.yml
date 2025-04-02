@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  id: Observation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationAtDistanceType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ObservationType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ProcedurePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ResultType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.TargetPropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationAtDistanceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationAtDistanceType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationAtDistanceType.html
+  name: DirectedObservationAtDistanceType
+  nameWithType: DirectedObservationAtDistanceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationAtDistanceType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationType.html
+  name: DirectedObservationType
+  nameWithType: DirectedObservationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.DirectedObservationType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ObservationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ObservationType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ObservationType.html
+  name: ObservationType
+  nameWithType: ObservationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ObservationType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ProcedurePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ProcedurePropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ProcedurePropertyType.html
+  name: ProcedurePropertyType
+  nameWithType: ProcedurePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ProcedurePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ResultType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ResultType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ResultType.html
+  name: ResultType
+  nameWithType: ResultType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.ResultType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.TargetPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.TargetPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.TargetPropertyType.html
+  name: TargetPropertyType
+  nameWithType: TargetPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.TargetPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+    name: Observation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation
+    name: Observation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Observation.html

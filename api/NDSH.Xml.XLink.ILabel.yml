@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.ILabel
+  commentId: T:NDSH.Xml.XLink.ILabel
+  id: ILabel
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.ILabel.Label
+  langs:
+  - csharp
+  - vb
+  name: ILabel
+  nameWithType: ILabel
+  fullName: NDSH.Xml.XLink.ILabel
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/ILabel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ILabel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/ILabel.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: public interface ILabel
+    content.vb: Public Interface ILabel
+- uid: NDSH.Xml.XLink.ILabel.Label
+  commentId: P:NDSH.Xml.XLink.ILabel.Label
+  id: Label
+  parent: NDSH.Xml.XLink.ILabel
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: ILabel.Label
+  fullName: NDSH.Xml.XLink.ILabel.Label
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/ILabel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Label
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/ILabel.cs
+    startLine: 24
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Label As String
+  overload: NDSH.Xml.XLink.ILabel.Label*
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.ILabel.Label*
+  commentId: Overload:NDSH.Xml.XLink.ILabel.Label
+  href: NDSH.Xml.XLink.ILabel.html#NDSH_Xml_XLink_ILabel_Label
+  name: Label
+  nameWithType: ILabel.Label
+  fullName: NDSH.Xml.XLink.ILabel.Label
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  id: DirectionVectorEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.HorizontalAngle
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.Vector
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.VerticalAngle
+  langs:
+  - csharp
+  - vb
+  name: DirectionVectorEnumeration
+  nameWithType: DirectionVectorEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DirectionVectorEnumeration
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+    startLine: 32
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum DirectionVectorEnumeration
+    content.vb: >-
+      <Serializable>
+
+      Public Enum DirectionVectorEnumeration
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.HorizontalAngle
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.HorizontalAngle
+  id: HorizontalAngle
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  langs:
+  - csharp
+  - vb
+  name: HorizontalAngle
+  nameWithType: DirectionVectorEnumeration.HorizontalAngle
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.HorizontalAngle
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: HorizontalAngle
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+    startLine: 39
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "horizontalAngle")]
+
+      HorizontalAngle = 0
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    content.vb: >-
+      <EnumMember(Value:="horizontalAngle")>
+
+      HorizontalAngle = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: horizontalAngle
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.Vector
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.Vector
+  id: Vector
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: DirectionVectorEnumeration.Vector
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.Vector
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Vector
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "vector")]
+
+      Vector = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    content.vb: >-
+      <EnumMember(Value:="vector")>
+
+      Vector = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: vector
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.VerticalAngle
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.VerticalAngle
+  id: VerticalAngle
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  langs:
+  - csharp
+  - vb
+  name: VerticalAngle
+  nameWithType: DirectionVectorEnumeration.VerticalAngle
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.VerticalAngle
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: VerticalAngle
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Direction/DirectionVectorEnumeration.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "verticalAngle")]
+
+      VerticalAngle = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    content.vb: >-
+      <EnumMember(Value:="verticalAngle")>
+
+      VerticalAngle = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: verticalAngle
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumName<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration>(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  name.vb: GetXmlEnumName(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration>(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  name.vb: GetXmlEnumAttributeOrName(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<DirectionVectorEnumeration>(DirectionVectorEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration>(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+  name.vb: GetXmlEnumAttribute(Of DirectionVectorEnumeration)(DirectionVectorEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+    name: DirectionVectorEnumeration
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Direction
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration.html
+  name: DirectionVectorEnumeration
+  nameWithType: DirectionVectorEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Direction.DirectionVectorEnumeration

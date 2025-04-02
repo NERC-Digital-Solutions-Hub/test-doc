@@ -1,0 +1,1379 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  commentId: T:NDSH.Geospatial.Gml.BasicTypes.CodeType
+  id: CodeType
+  parent: NDSH.Geospatial.Gml.BasicTypes
+  children:
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(System.Object)
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode
+  - NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+  langs:
+  - csharp
+  - vb
+  name: CodeType
+  nameWithType: CodeType
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: >-
+    The <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref> is a generalized type to be used for a term, keyword or name.
+
+    It adds a XML attribute codeSpace to a term, where the value of the codeSpace
+
+    attribute (if present) shall indicate a dictionary, thesaurus, classification scheme,
+
+    authority, or pattern for the term.
+  remarks: 'Maps to: <code>CodeType</code> ( /2005/gml/gmlBase.xsd )'
+  example: []
+  syntax:
+    content: >-
+      [IsoType("CodeType", IsoType = IsoTypes.ComplexType)]
+
+      [JsonObject("CodeType")]
+
+      public class CodeType : ObservableDbEntity, IModel, IObservableModel, INotifyPropertyChanged, IDbId, INullableCodeSpace, INullableRefValue<string>, IComparable<CodeType>, IEquatable<CodeType>
+    content.vb: >-
+      <IsoType("CodeType", IsoType:=IsoTypes.ComplexType)>
+
+      <JsonObject("CodeType")>
+
+      Public Class CodeType Inherits ObservableDbEntity Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, INullableCodeSpace, INullableRefValue(Of String), IComparable(Of CodeType), IEquatable(Of CodeType)
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  derivedClasses:
+  - NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName
+  - NDSH.Geospatial.Gml.BasicTypes.CodeWithAuthorityType
+  - NDSH.Geospatial.Gml.ValueObjects.Category
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Metadata.INullableCodeSpace
+  - NDSH.Geospatial.Metadata.INullableRefValue{System.String}
+  - System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  - System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  inheritedMembers:
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: NDSH.Geospatial.IsoTypeAttribute
+    ctor: NDSH.Geospatial.IsoTypeAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CodeType
+    namedArguments:
+    - name: IsoType
+      type: NDSH.Geospatial.IsoTypes
+      value: 1
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CodeType
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+  commentId: P:NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+  id: CodeSpace
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: CodeSpace
+  nameWithType: CodeType.CodeSpace
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeSpace
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 80
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: >-
+    Gets or sets the URI reference to the code space authority.
+
+    This property is required and must be a valid URI,
+
+    ensuring compliance with metadata schema definitions.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("codeSpace")]
+
+      public string? CodeSpace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("codeSpace")>
+
+      Public Property CodeSpace As String
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace*
+  implements:
+  - NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: codeSpace
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+  commentId: P:NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+  id: Value
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: CodeType.Value
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Value
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 103
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: >-
+    Gets or sets the value associated with a metadata entity.
+
+    This property is designed for XML and JSON serialization and represents
+
+    a standardized textual representation of geospatial metadata values.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("Value")]
+
+      public string? Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("Value")>
+
+      Public Property Value As String
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.Value*
+  implements:
+  - NDSH.Geospatial.Metadata.INullableRefValue{System.String}.Value
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Value
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  commentId: M:NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  id: CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(CodeType?)
+  nameWithType: CodeType.CompareTo(CodeType?)
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CompareTo
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 126
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: >-
+    Compares this instance to another <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref> instance.
+
+    <br />
+
+    The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.
+  example: []
+  syntax:
+    content: public virtual int CompareTo(CodeType? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Gml.BasicTypes.CodeType
+      description: The other <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Int32
+      description: >-
+        An <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> showing the result of the comparison.
+
+        <ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+    content.vb: Public Overridable Function CompareTo(other As CodeType) As Integer
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo*
+  implements:
+  - System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  nameWithType.vb: CodeType.CompareTo(CodeType)
+  fullName.vb: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  name.vb: CompareTo(CodeType)
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  commentId: M:NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  id: Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: Equals(CodeType?)
+  nameWithType: CodeType.Equals(CodeType?)
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Equals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 146
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: Determines whether the <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public virtual bool Equals(CodeType? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Gml.BasicTypes.CodeType
+      description: The <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Overridable Function Equals(other As CodeType) As Boolean
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals*
+  implements:
+  - System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  nameWithType.vb: CodeType.Equals(CodeType)
+  fullName.vb: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  name.vb: Equals(CodeType)
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(System.Object)
+  commentId: M:NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: CodeType.Equals(object?)
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Equals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 163
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: Determines whether the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">obj</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals*
+  nameWithType.vb: CodeType.Equals(Object)
+  fullName.vb: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode
+  commentId: M:NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode
+  id: GetHashCode
+  parent: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CodeType.GetHashCode()
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetHashCode
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/BasicTypes/CodeType.cs
+    startLine: 169
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.BasicTypes
+  summary: Gets the hash code for the <xref href="NDSH.Geospatial.Gml.BasicTypes.CodeType" data-throw-if-not-resolved="false"></xref> using <xref href="NDSH.Hashing.NdshHashCode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode*
+references:
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+  commentId: T:NDSH.Geospatial.Gml.BasicTypes.CodeType
+  parent: NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  name: CodeType
+  nameWithType: CodeType
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType
+- uid: NDSH.Geospatial.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Metadata.INullableCodeSpace
+  commentId: T:NDSH.Geospatial.Metadata.INullableCodeSpace
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableCodeSpace.html
+  name: INullableCodeSpace
+  nameWithType: INullableCodeSpace
+  fullName: NDSH.Geospatial.Metadata.INullableCodeSpace
+- uid: NDSH.Geospatial.Metadata.INullableRefValue{System.String}
+  commentId: T:NDSH.Geospatial.Metadata.INullableRefValue{System.String}
+  parent: NDSH.Geospatial.Metadata
+  definition: NDSH.Geospatial.Metadata.INullableRefValue`1
+  href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  name: INullableRefValue<string>
+  nameWithType: INullableRefValue<string>
+  fullName: NDSH.Geospatial.Metadata.INullableRefValue<string>
+  nameWithType.vb: INullableRefValue(Of String)
+  fullName.vb: NDSH.Geospatial.Metadata.INullableRefValue(Of String)
+  name.vb: INullableRefValue(Of String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.INullableRefValue`1
+    name: INullableRefValue
+    href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.INullableRefValue`1
+    name: INullableRefValue
+    href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  commentId: T:System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<CodeType>
+  nameWithType: IComparable<CodeType>
+  fullName: System.IComparable<NDSH.Geospatial.Gml.BasicTypes.CodeType>
+  nameWithType.vb: IComparable(Of CodeType)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  name.vb: IComparable(Of CodeType)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+- uid: System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<CodeType>
+  nameWithType: IEquatable<CodeType>
+  fullName: System.IEquatable<NDSH.Geospatial.Gml.BasicTypes.CodeType>
+  nameWithType.vb: IEquatable(Of CodeType)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  name.vb: IEquatable(Of CodeType)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.INullableRefValue`1
+  commentId: T:NDSH.Geospatial.Metadata.INullableRefValue`1
+  href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  name: INullableRefValue<T>
+  nameWithType: INullableRefValue<T>
+  fullName: NDSH.Geospatial.Metadata.INullableRefValue<T>
+  nameWithType.vb: INullableRefValue(Of T)
+  fullName.vb: NDSH.Geospatial.Metadata.INullableRefValue(Of T)
+  name.vb: INullableRefValue(Of T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.INullableRefValue`1
+    name: INullableRefValue
+    href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.INullableRefValue`1
+    name: INullableRefValue
+    href: NDSH.Geospatial.Metadata.INullableRefValue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace*
+  commentId: Overload:NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html#NDSH_Geospatial_Gml_BasicTypes_CodeType_CodeSpace
+  name: CodeSpace
+  nameWithType: CodeType.CodeSpace
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.CodeSpace
+- uid: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  commentId: P:NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  parent: NDSH.Geospatial.Metadata.INullableCodeSpace
+  href: NDSH.Geospatial.Metadata.INullableCodeSpace.html#NDSH_Geospatial_Metadata_INullableCodeSpace_CodeSpace
+  name: CodeSpace
+  nameWithType: INullableCodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.Value*
+  commentId: Overload:NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html#NDSH_Geospatial_Gml_BasicTypes_CodeType_Value
+  name: Value
+  nameWithType: CodeType.Value
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.Value
+- uid: NDSH.Geospatial.Metadata.INullableRefValue{System.String}.Value
+  commentId: P:NDSH.Geospatial.Metadata.INullableRefValue{System.String}.Value
+  parent: NDSH.Geospatial.Metadata.INullableRefValue{System.String}
+  definition: NDSH.Geospatial.Metadata.INullableRefValue`1.Value
+  href: NDSH.Geospatial.Metadata.INullableRefValue-1.html#NDSH_Geospatial_Metadata_INullableRefValue_1_Value
+  name: Value
+  nameWithType: INullableRefValue<string>.Value
+  fullName: NDSH.Geospatial.Metadata.INullableRefValue<string>.Value
+  nameWithType.vb: INullableRefValue(Of String).Value
+  fullName.vb: NDSH.Geospatial.Metadata.INullableRefValue(Of String).Value
+- uid: NDSH.Geospatial.Metadata.INullableRefValue`1.Value
+  commentId: P:NDSH.Geospatial.Metadata.INullableRefValue`1.Value
+  href: NDSH.Geospatial.Metadata.INullableRefValue-1.html#NDSH_Geospatial_Metadata_INullableRefValue_1_Value
+  name: Value
+  nameWithType: INullableRefValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.INullableRefValue<T>.Value
+  nameWithType.vb: INullableRefValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.INullableRefValue(Of T).Value
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo*
+  commentId: Overload:NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html#NDSH_Geospatial_Gml_BasicTypes_CodeType_CompareTo_NDSH_Geospatial_Gml_BasicTypes_CodeType_
+  name: CompareTo
+  nameWithType: CodeType.CompareTo
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.CompareTo
+- uid: System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  commentId: M:System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  parent: System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(CodeType)
+  nameWithType: IComparable<CodeType>.CompareTo(CodeType)
+  fullName: System.IComparable<NDSH.Geospatial.Gml.BasicTypes.CodeType>.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  nameWithType.vb: IComparable(Of CodeType).CompareTo(CodeType)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Gml.BasicTypes.CodeType).CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  spec.csharp:
+  - uid: System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.CompareTo(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals*
+  commentId: Overload:NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html#NDSH_Geospatial_Gml_BasicTypes_CodeType_Equals_NDSH_Geospatial_Gml_BasicTypes_CodeType_
+  name: Equals
+  nameWithType: CodeType.Equals
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.Equals
+- uid: System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  commentId: M:System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  parent: System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(CodeType)
+  nameWithType: IEquatable<CodeType>.Equals(CodeType)
+  fullName: System.IEquatable<NDSH.Geospatial.Gml.BasicTypes.CodeType>.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  nameWithType.vb: IEquatable(Of CodeType).Equals(CodeType)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Gml.BasicTypes.CodeType).Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+  spec.csharp:
+  - uid: System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NDSH.Geospatial.Gml.BasicTypes.CodeType}.Equals(NDSH.Geospatial.Gml.BasicTypes.CodeType)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Gml.BasicTypes.CodeType
+    name: CodeType
+    href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NDSH.Hashing.NdshHashCode
+  commentId: T:NDSH.Hashing.NdshHashCode
+  href: NDSH.Hashing.NdshHashCode.html
+  name: NdshHashCode
+  nameWithType: NdshHashCode
+  fullName: NDSH.Hashing.NdshHashCode
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode*
+  commentId: Overload:NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode
+  href: NDSH.Geospatial.Gml.BasicTypes.CodeType.html#NDSH_Geospatial_Gml_BasicTypes_CodeType_GetHashCode
+  name: GetHashCode
+  nameWithType: CodeType.GetHashCode
+  fullName: NDSH.Geospatial.Gml.BasicTypes.CodeType.GetHashCode

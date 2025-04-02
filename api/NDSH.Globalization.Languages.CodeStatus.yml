@@ -1,0 +1,428 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Globalization.Languages.CodeStatus
+  commentId: T:NDSH.Globalization.Languages.CodeStatus
+  id: CodeStatus
+  parent: NDSH.Globalization.Languages
+  children:
+  - NDSH.Globalization.Languages.CodeStatus.Active
+  - NDSH.Globalization.Languages.CodeStatus.Retired
+  langs:
+  - csharp
+  - vb
+  name: CodeStatus
+  nameWithType: CodeStatus
+  fullName: NDSH.Globalization.Languages.CodeStatus
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeStatus
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+    startLine: 18
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The status of an ISO 639-3 code.
+  example: []
+  syntax:
+    content: public enum CodeStatus
+    content.vb: Public Enum CodeStatus
+  extensionMethods:
+  - NDSH.Globalization.Languages.CodeStatus.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Globalization.Languages.CodeStatus.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Globalization.Languages.CodeStatus.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+- uid: NDSH.Globalization.Languages.CodeStatus.Active
+  commentId: F:NDSH.Globalization.Languages.CodeStatus.Active
+  id: Active
+  parent: NDSH.Globalization.Languages.CodeStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: CodeStatus.Active
+  fullName: NDSH.Globalization.Languages.CodeStatus.Active
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Active
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+    startLine: 23
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The code is active.
+  example: []
+  syntax:
+    content: Active = 0
+    return:
+      type: NDSH.Globalization.Languages.CodeStatus
+- uid: NDSH.Globalization.Languages.CodeStatus.Retired
+  commentId: F:NDSH.Globalization.Languages.CodeStatus.Retired
+  id: Retired
+  parent: NDSH.Globalization.Languages.CodeStatus
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: CodeStatus.Retired
+  fullName: NDSH.Globalization.Languages.CodeStatus.Retired
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Retired
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Globalization/src/Globalization/Languages/CodeStatus.cs
+    startLine: 28
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The code is retired.
+  example: []
+  syntax:
+    content: Retired = 1
+    return:
+      type: NDSH.Globalization.Languages.CodeStatus
+references:
+- uid: NDSH.Globalization.Languages
+  commentId: N:NDSH.Globalization.Languages
+  href: NDSH.html
+  name: NDSH.Globalization.Languages
+  nameWithType: NDSH.Globalization.Languages
+  fullName: NDSH.Globalization.Languages
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html
+- uid: NDSH.Globalization.Languages.CodeStatus.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<CodeStatus>(CodeStatus)
+  nameWithType: ExtensionMethods.GetXmlEnumName<CodeStatus>(CodeStatus)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Globalization.Languages.CodeStatus>(NDSH.Globalization.Languages.CodeStatus)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of CodeStatus)(CodeStatus)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Globalization.Languages.CodeStatus)(NDSH.Globalization.Languages.CodeStatus)
+  name.vb: GetXmlEnumName(Of CodeStatus)(CodeStatus)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+- uid: NDSH.Globalization.Languages.CodeStatus.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<CodeStatus>(CodeStatus)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<CodeStatus>(CodeStatus)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Globalization.Languages.CodeStatus>(NDSH.Globalization.Languages.CodeStatus)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of CodeStatus)(CodeStatus)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Globalization.Languages.CodeStatus)(NDSH.Globalization.Languages.CodeStatus)
+  name.vb: GetXmlEnumAttributeOrName(Of CodeStatus)(CodeStatus)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+- uid: NDSH.Globalization.Languages.CodeStatus.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<CodeStatus>(CodeStatus)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<CodeStatus>(CodeStatus)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Globalization.Languages.CodeStatus>(NDSH.Globalization.Languages.CodeStatus)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of CodeStatus)(CodeStatus)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Globalization.Languages.CodeStatus)(NDSH.Globalization.Languages.CodeStatus)
+  name.vb: GetXmlEnumAttribute(Of CodeStatus)(CodeStatus)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Globalization.Languages.CodeStatus)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+  - name: (
+  - uid: NDSH.Globalization.Languages.CodeStatus
+    name: CodeStatus
+    href: NDSH.Globalization.Languages.CodeStatus.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Globalization.Languages.CodeStatus
+  commentId: T:NDSH.Globalization.Languages.CodeStatus
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.CodeStatus.html
+  name: CodeStatus
+  nameWithType: CodeStatus
+  fullName: NDSH.Globalization.Languages.CodeStatus

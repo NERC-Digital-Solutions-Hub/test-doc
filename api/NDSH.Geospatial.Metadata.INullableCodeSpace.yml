@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.INullableCodeSpace
+  commentId: T:NDSH.Geospatial.Metadata.INullableCodeSpace
+  id: INullableCodeSpace
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  langs:
+  - csharp
+  - vb
+  name: INullableCodeSpace
+  nameWithType: INullableCodeSpace
+  fullName: NDSH.Geospatial.Metadata.INullableCodeSpace
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableCodeSpace.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: INullableCodeSpace
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableCodeSpace.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Defines a contract for objects that require a reference to a code space.
+
+    This interface ensures that implementing classes provide a structured mechanism
+
+    for referencing a code space as per the ISO 19115 metadata standard.
+  example: []
+  syntax:
+    content: public interface INullableCodeSpace
+    content.vb: Public Interface INullableCodeSpace
+- uid: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  commentId: P:NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  id: CodeSpace
+  parent: NDSH.Geospatial.Metadata.INullableCodeSpace
+  langs:
+  - csharp
+  - vb
+  name: CodeSpace
+  nameWithType: INullableCodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableCodeSpace.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeSpace
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableCodeSpace.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Gets/Sets the URI reference to the code space authority.
+
+    This property must be a valid URI, ensuring compliance with metadata schema definitions.
+  example: []
+  syntax:
+    content: string? CodeSpace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CodeSpace As String
+  overload: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace*
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace*
+  commentId: Overload:NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+  href: NDSH.Geospatial.Metadata.INullableCodeSpace.html#NDSH_Geospatial_Metadata_INullableCodeSpace_CodeSpace
+  name: CodeSpace
+  nameWithType: INullableCodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.INullableCodeSpace.CodeSpace
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

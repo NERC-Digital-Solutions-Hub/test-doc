@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MetaDataPropertyType | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MetaDataPropertyType | NDSH ">
+      
+      <meta name="description" content="Represents a metadata property in GML, which allows associating metadata with a GML object. The metadata can be in-line or a reference to external metadata.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/new/dev/apiSpec/new?filename=NDSH_Geospatial_Gml_MetaDataPropertyType.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Gml.MetaDataPropertyType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType">
+
+
+
+  <h1 id="NDSH_Geospatial_Gml_MetaDataPropertyType" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType" class="text-break">
+Class MetaDataPropertyType  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/MetaDataPropertyType.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Gml.html">Gml</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.ISO19115.Ed2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a metadata property in GML, which allows associating metadata with a GML object.
+The metadata can be <b>in-line</b> or a <b>reference</b> to external metadata.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Marked &#39;deprecated&#39; in /gml/gmlBase.xsd&quot;)]
+[IsoType(&quot;MetaDataPropertyType&quot;, IsoType = IsoTypes.ComplexType)]
+[JsonObject(&quot;MetaDataPropertyType&quot;)]
+public class MetaDataPropertyType : AssociationEntity, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, ITypeMetadata, IRemoteSchema</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html">ObservableDbEntity</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html">AssociationEntity</a></div>
+      <div><span class="xref">MetaDataPropertyType</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.IDbId.html">IDbId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IAssociation.html">IAssociation</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ISimpleLink.html">ISimpleLink</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IType.html">IType</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IHref.html">IHref</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IRole.html">IRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IArcRole.html">IArcRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ITitle.html">ITitle</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IShow.html">IShow</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IActuate.html">IActuate</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.INilReason.html">INilReason</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.ITypeMetadata.html">ITypeMetadata</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IRemoteSchema.html">IRemoteSchema</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours">AssociationEntity.ActuateBehaviours</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours">AssociationEntity.ShowBehaviours</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReasons">AssociationEntity.NilReasons</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_">AssociationEntity.GetNilReason(NilReasonEnumeration, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_">AssociationEntity.GetNilReason(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Type">AssociationEntity.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Href">AssociationEntity.Href</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Role">AssociationEntity.Role</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ArcRole">AssociationEntity.ArcRole</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Title">AssociationEntity.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Show">AssociationEntity.Show</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Actuate">AssociationEntity.Actuate</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">AssociationEntity.NilReason</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema">AssociationEntity.RemoteSchema</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId">ObservableDbEntity.DbId</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Gml_MetaDataPropertyType_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>Maps to: <code>MetaDataPropertyType</code> ( /2005/gml/gmlBase.xsd )</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NDSH_Geospatial_Gml_MetaDataPropertyType__ctor_" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.#ctor*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_MetaDataPropertyType__ctor" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.#ctor">
+  MetaDataPropertyType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/MetaDataPropertyType.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes the <a class="xref" href="NDSH.Geospatial.Gml.MetaDataPropertyType.html">MetaDataPropertyType</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MetaDataPropertyType()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Gml_MetaDataPropertyType_About_" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.About*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_MetaDataPropertyType_About" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.About">
+  About
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/MetaDataPropertyType.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the <b>URI reference</b> for this metadata property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;about&quot;)]
+public string? About { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representing a <b>URI reference</b>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_MetaDataPropertyType_About_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property provides a <b>unique reference</b> to an external metadata resource.
+The value should be a <b>valid URI</b>.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uriformatexception">UriFormatException</a></dt>
+    <dd><p>Thrown when an invalid URI is assigned to this property.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDSH_Geospatial_Gml_MetaDataPropertyType_AbstractMetaData_" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.AbstractMetaData*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_MetaDataPropertyType_AbstractMetaData" data-uid="NDSH.Geospatial.Gml.MetaDataPropertyType.AbstractMetaData">
+  AbstractMetaData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/MetaDataPropertyType.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the <b>metadata content</b> associated with the GML object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;AbstractMetaData&quot;, Order = 0)]
+public AbstractMetaDataType? AbstractMetaData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDSH.Geospatial.Gml.AbstractMetaDataType.html">AbstractMetaDataType</a></dt>
+    <dd><p>An instance of <a class="xref" href="NDSH.Geospatial.Gml.AbstractMetaDataType.html">AbstractMetaDataType</a> containing metadata information.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_MetaDataPropertyType_AbstractMetaData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property contains an <b>optional metadata object</b> that may describe the associated GML element.
+It can be <b>in-line metadata</b> or <b>a reference to external metadata</b>.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/MetaDataPropertyType.cs/#L65" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  id: SpatialRepresentation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_CellGeometryCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_SpatialRepresentation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_TopologyLevelCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type.html
+  name: AbstractMD_SpatialRepresentation_Type
+  nameWithType: AbstractMD_SpatialRepresentation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_CellGeometryCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_CellGeometryCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_CellGeometryCode_PropertyType.html
+  name: MD_CellGeometryCode_PropertyType
+  nameWithType: MD_CellGeometryCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_CellGeometryCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType.html
+  name: MD_DimensionNameTypeCode_PropertyType
+  nameWithType: MD_DimensionNameTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_PropertyType.html
+  name: MD_Dimension_PropertyType
+  nameWithType: MD_Dimension_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_Type.html
+  name: MD_Dimension_Type
+  nameWithType: MD_Dimension_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Dimension_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType.html
+  name: MD_GeometricObjectTypeCode_PropertyType
+  nameWithType: MD_GeometricObjectTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_PropertyType.html
+  name: MD_GeometricObjects_PropertyType
+  nameWithType: MD_GeometricObjects_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_Type.html
+  name: MD_GeometricObjects_Type
+  nameWithType: MD_GeometricObjects_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GeometricObjects_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_PropertyType.html
+  name: MD_Georectified_PropertyType
+  nameWithType: MD_Georectified_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_Type.html
+  name: MD_Georectified_Type
+  nameWithType: MD_Georectified_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georectified_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_PropertyType.html
+  name: MD_Georeferenceable_PropertyType
+  nameWithType: MD_Georeferenceable_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_Type.html
+  name: MD_Georeferenceable_Type
+  nameWithType: MD_Georeferenceable_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_Georeferenceable_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_PropertyType.html
+  name: MD_GridSpatialRepresentation_PropertyType
+  nameWithType: MD_GridSpatialRepresentation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_Type.html
+  name: MD_GridSpatialRepresentation_Type
+  nameWithType: MD_GridSpatialRepresentation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_GridSpatialRepresentation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_PropertyType.html
+  name: MD_PixelOrientationCode_PropertyType
+  nameWithType: MD_PixelOrientationCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_Type.html
+  name: MD_PixelOrientationCode_Type
+  nameWithType: MD_PixelOrientationCode_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_PixelOrientationCode_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_SpatialRepresentation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_SpatialRepresentation_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_SpatialRepresentation_PropertyType.html
+  name: MD_SpatialRepresentation_PropertyType
+  nameWithType: MD_SpatialRepresentation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_SpatialRepresentation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_TopologyLevelCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_TopologyLevelCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_TopologyLevelCode_PropertyType.html
+  name: MD_TopologyLevelCode_PropertyType
+  nameWithType: MD_TopologyLevelCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_TopologyLevelCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_PropertyType.html
+  name: MD_VectorSpatialRepresentation_PropertyType
+  nameWithType: MD_VectorSpatialRepresentation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_Type.html
+  name: MD_VectorSpatialRepresentation_Type
+  nameWithType: MD_VectorSpatialRepresentation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.MD_VectorSpatialRepresentation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.SpatialRepresentation.html

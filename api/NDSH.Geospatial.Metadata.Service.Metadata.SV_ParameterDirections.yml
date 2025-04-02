@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  id: SV_ParameterDirections
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.In
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.InOut
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.Out
+  langs:
+  - csharp
+  - vb
+  name: SV_ParameterDirections
+  nameWithType: SV_ParameterDirections
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SV_ParameterDirections
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+    startLine: 49
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum SV_ParameterDirections
+    content.vb: >-
+      <Serializable>
+
+      Public Enum SV_ParameterDirections
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.In
+  commentId: F:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.In
+  id: In
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  langs:
+  - csharp
+  - vb
+  name: In
+  nameWithType: SV_ParameterDirections.In
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.In
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: In
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+    startLine: 55
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [EnumMember(Value = "in")]
+
+      In = 1
+    return:
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    content.vb: >-
+      <EnumMember(Value:="in")>
+
+      In = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: in
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.Out
+  commentId: F:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.Out
+  id: Out
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  langs:
+  - csharp
+  - vb
+  name: Out
+  nameWithType: SV_ParameterDirections.Out
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.Out
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Out
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+    startLine: 59
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [EnumMember(Value = "out")]
+
+      Out = 2
+    return:
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    content.vb: >-
+      <EnumMember(Value:="out")>
+
+      Out = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: out
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.InOut
+  commentId: F:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.InOut
+  id: InOut
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  langs:
+  - csharp
+  - vb
+  name: InOut
+  nameWithType: SV_ParameterDirections.InOut
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.InOut
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: InOut
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ParameterDirections.cs
+    startLine: 63
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [EnumMember(Value = "in/out")]
+
+      InOut = 3
+    return:
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    content.vb: >-
+      <EnumMember(Value:="in/out")>
+
+      InOut = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: in/out
+references:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata
+  commentId: N:NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Service.Metadata
+  nameWithType: NDSH.Geospatial.Metadata.Service.Metadata
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<SV_ParameterDirections>(SV_ParameterDirections)
+  nameWithType: ExtensionMethods.GetXmlEnumName<SV_ParameterDirections>(SV_ParameterDirections)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections>(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of SV_ParameterDirections)(SV_ParameterDirections)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  name.vb: GetXmlEnumName(Of SV_ParameterDirections)(SV_ParameterDirections)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<SV_ParameterDirections>(SV_ParameterDirections)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<SV_ParameterDirections>(SV_ParameterDirections)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections>(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of SV_ParameterDirections)(SV_ParameterDirections)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  name.vb: GetXmlEnumAttributeOrName(Of SV_ParameterDirections)(SV_ParameterDirections)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<SV_ParameterDirections>(SV_ParameterDirections)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<SV_ParameterDirections>(SV_ParameterDirections)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections>(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of SV_ParameterDirections)(SV_ParameterDirections)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+  name.vb: GetXmlEnumAttribute(Of SV_ParameterDirections)(SV_ParameterDirections)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+    name: SV_ParameterDirections
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  name: SV_ParameterDirections
+  nameWithType: SV_ParameterDirections
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections

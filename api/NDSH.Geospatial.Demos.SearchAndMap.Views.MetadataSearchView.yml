@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  id: MetadataSearchView
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Views
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchView
+  nameWithType: MetadataSearchView
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Views/MetadataSearchView.xaml.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MetadataSearchView
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Views/MetadataSearchView.xaml.cs
+    startLine: 26
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Views
+  summary: The metadata serch view of the application.
+  example: []
+  syntax:
+    content: 'public class MetadataSearchView : UserControl'
+    content.vb: Public Class MetadataSearchView Inherits UserControl
+  inheritance:
+  - System.Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchView()
+  nameWithType: MetadataSearchView.MetadataSearchView()
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.MetadataSearchView()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Views/MetadataSearchView.xaml.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Views/MetadataSearchView.xaml.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Views
+  summary: Initializes the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MetadataSearchView()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor*
+  nameWithType.vb: MetadataSearchView.New()
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.New()
+  name.vb: New()
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Views
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Views
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Views
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  href: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.html
+  name: MetadataSearchView
+  nameWithType: MetadataSearchView
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.#ctor
+  href: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.html#NDSH_Geospatial_Demos_SearchAndMap_Views_MetadataSearchView__ctor
+  name: MetadataSearchView
+  nameWithType: MetadataSearchView.MetadataSearchView
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.MetadataSearchView
+  nameWithType.vb: MetadataSearchView.New
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.New
+  name.vb: New

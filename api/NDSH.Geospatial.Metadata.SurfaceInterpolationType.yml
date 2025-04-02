@@ -1,0 +1,650 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  commentId: T:NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  id: SurfaceInterpolationType
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.conic
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.elliptical
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.none
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.parametricCurve
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.planar
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.polynomialSpline
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.rationalSpline
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.spherical
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.tin
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.triangulatedSpline
+  langs:
+  - csharp
+  - vb
+  name: SurfaceInterpolationType
+  nameWithType: SurfaceInterpolationType
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SurfaceInterpolationType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9208
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: gml:SurfaceInterpolationType is a list of codes that may be used to identify the interpolation mechanisms specified by an application schema.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum SurfaceInterpolationType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum SurfaceInterpolationType
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.none
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.none
+  id: none
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: none
+  nameWithType: SurfaceInterpolationType.none
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.none
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: none
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9213
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: none = 0
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.planar
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.planar
+  id: planar
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: planar
+  nameWithType: SurfaceInterpolationType.planar
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.planar
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: planar
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9214
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: planar = 1
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.spherical
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.spherical
+  id: spherical
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: spherical
+  nameWithType: SurfaceInterpolationType.spherical
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.spherical
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: spherical
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9215
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: spherical = 2
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.elliptical
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.elliptical
+  id: elliptical
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: elliptical
+  nameWithType: SurfaceInterpolationType.elliptical
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.elliptical
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: elliptical
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9216
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: elliptical = 3
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.conic
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.conic
+  id: conic
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: conic
+  nameWithType: SurfaceInterpolationType.conic
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.conic
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: conic
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9217
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: conic = 4
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.tin
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.tin
+  id: tin
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: tin
+  nameWithType: SurfaceInterpolationType.tin
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.tin
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: tin
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9218
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: tin = 5
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.parametricCurve
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.parametricCurve
+  id: parametricCurve
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: parametricCurve
+  nameWithType: SurfaceInterpolationType.parametricCurve
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.parametricCurve
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: parametricCurve
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9219
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: parametricCurve = 6
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.polynomialSpline
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.polynomialSpline
+  id: polynomialSpline
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: polynomialSpline
+  nameWithType: SurfaceInterpolationType.polynomialSpline
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.polynomialSpline
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: polynomialSpline
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9220
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: polynomialSpline = 7
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.rationalSpline
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.rationalSpline
+  id: rationalSpline
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: rationalSpline
+  nameWithType: SurfaceInterpolationType.rationalSpline
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.rationalSpline
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: rationalSpline
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9221
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: rationalSpline = 8
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.triangulatedSpline
+  commentId: F:NDSH.Geospatial.Metadata.SurfaceInterpolationType.triangulatedSpline
+  id: triangulatedSpline
+  parent: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  langs:
+  - csharp
+  - vb
+  name: triangulatedSpline
+  nameWithType: SurfaceInterpolationType.triangulatedSpline
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType.triangulatedSpline
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: triangulatedSpline
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 9222
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: triangulatedSpline = 9
+    return:
+      type: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<SurfaceInterpolationType>(SurfaceInterpolationType)
+  nameWithType: ExtensionMethods.GetXmlEnumName<SurfaceInterpolationType>(SurfaceInterpolationType)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.SurfaceInterpolationType>(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.SurfaceInterpolationType)(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  name.vb: GetXmlEnumName(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<SurfaceInterpolationType>(SurfaceInterpolationType)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<SurfaceInterpolationType>(SurfaceInterpolationType)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.SurfaceInterpolationType>(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.SurfaceInterpolationType)(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  name.vb: GetXmlEnumAttributeOrName(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<SurfaceInterpolationType>(SurfaceInterpolationType)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<SurfaceInterpolationType>(SurfaceInterpolationType)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.SurfaceInterpolationType>(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.SurfaceInterpolationType)(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+  name.vb: GetXmlEnumAttribute(Of SurfaceInterpolationType)(SurfaceInterpolationType)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.SurfaceInterpolationType)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+    name: SurfaceInterpolationType
+    href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  commentId: T:NDSH.Geospatial.Metadata.SurfaceInterpolationType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.SurfaceInterpolationType.html
+  name: SurfaceInterpolationType
+  nameWithType: SurfaceInterpolationType
+  fullName: NDSH.Geospatial.Metadata.SurfaceInterpolationType

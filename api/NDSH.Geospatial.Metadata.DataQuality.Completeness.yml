@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Completeness
+  id: Completeness
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.Completeness.AbstractDQ_Completeness_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessCommission_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessOmission_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness.AbstractDQ_Completeness_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Completeness.AbstractDQ_Completeness_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  href: NDSH.Geospatial.Metadata.DataQuality.Completeness.AbstractDQ_Completeness_Type.html
+  name: AbstractDQ_Completeness_Type
+  nameWithType: AbstractDQ_Completeness_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness.AbstractDQ_Completeness_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessCommission_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessCommission_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessCommission_Type.html
+  name: DQ_CompletenessCommission_Type
+  nameWithType: DQ_CompletenessCommission_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessCommission_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessOmission_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessOmission_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessOmission_Type.html
+  name: DQ_CompletenessOmission_Type
+  nameWithType: DQ_CompletenessOmission_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness.DQ_CompletenessOmission_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Completeness
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+    name: Completeness
+    href: NDSH.Geospatial.Metadata.DataQuality.Completeness.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+    name: Completeness
+    href: NDSH.Geospatial.Metadata.DataQuality.Completeness.html

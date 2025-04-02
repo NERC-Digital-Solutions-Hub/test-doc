@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Localisation
+  id: Localisation
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.ILocale_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty
+  - NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeValue
+  - NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_Type
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_Type
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Localisation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Localisation
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType.html
+  name: Country_PropertyType
+  nameWithType: Country_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.ILocale_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.ILocale_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.ILocale_PropertyType.html
+  name: ILocale_PropertyType
+  nameWithType: ILocale_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.ILocale_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty.html
+  name: LanguageCodeProperty
+  nameWithType: LanguageCodeProperty
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeValue
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeValue.html
+  name: LanguageCodeValue
+  nameWithType: LanguageCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeValue
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCode_PropertyType.html
+  name: LanguageCode_PropertyType
+  nameWithType: LanguageCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_PropertyType.html
+  name: LocalisedCharacterString_PropertyType
+  nameWithType: LocalisedCharacterString_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_Type.html
+  name: LocalisedCharacterString_Type
+  nameWithType: LocalisedCharacterString_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.LocalisedCharacterString_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_PropertyType.html
+  name: PT_FreeText_PropertyType
+  nameWithType: PT_FreeText_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type.html
+  name: PT_FreeText_Type
+  nameWithType: PT_FreeText_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_PropertyType.html
+  name: PT_LocaleContainer_PropertyType
+  nameWithType: PT_LocaleContainer_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_Type.html
+  name: PT_LocaleContainer_Type
+  nameWithType: PT_LocaleContainer_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_LocaleContainer_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType.html
+  name: PT_Locale_PropertyType
+  nameWithType: PT_Locale_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type.html
+  name: PT_Locale_Type
+  nameWithType: PT_Locale_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Localisation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Localisation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Localisation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Localisation
+  fullName: NDSH.Geospatial.Metadata.V2003.Localisation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Localisation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Localisation.html

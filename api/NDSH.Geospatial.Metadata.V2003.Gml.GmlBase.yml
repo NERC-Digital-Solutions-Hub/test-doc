@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  id: GmlBase
+  parent: NDSH.Geospatial.Metadata.V2003.Gml
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AbstractMemberType
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.BagType
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.InlinePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.ReferenceType
+  - NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.StringOrRefType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AbstractMemberType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AbstractMemberType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AbstractMemberType.html
+  name: AbstractMemberType
+  nameWithType: AbstractMemberType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AbstractMemberType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType.html
+  name: AggregationType
+  nameWithType: AggregationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.BagType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.BagType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.BagType.html
+  name: BagType
+  nameWithType: BagType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.BagType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.InlinePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.InlinePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.InlinePropertyType.html
+  name: InlinePropertyType
+  nameWithType: InlinePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.InlinePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.ReferenceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.ReferenceType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.ReferenceType.html
+  name: ReferenceType
+  nameWithType: ReferenceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.ReferenceType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.StringOrRefType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.StringOrRefType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.StringOrRefType.html
+  name: StringOrRefType
+  nameWithType: StringOrRefType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.StringOrRefType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+    name: GmlBase
+    href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+    name: GmlBase
+    href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.html

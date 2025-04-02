@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  id: Bootstrapper
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup(StartupEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: Bootstrapper
+  nameWithType: Bootstrapper
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Bootstrapper.xaml.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Bootstrapper
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Bootstrapper.xaml.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap
+  summary: The Bootstrapper of the application.
+  example: []
+  syntax:
+    content: 'public class Bootstrapper : Application'
+    content.vb: Public Class Bootstrapper Inherits Application
+  inheritance:
+  - System.Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup(StartupEventArgs)
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup(StartupEventArgs)
+  id: OnStartup(StartupEventArgs)
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  langs:
+  - csharp
+  - vb
+  name: OnStartup(StartupEventArgs)
+  nameWithType: Bootstrapper.OnStartup(StartupEventArgs)
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup(StartupEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Bootstrapper.xaml.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OnStartup
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Bootstrapper.xaml.cs
+    startLine: 35
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap
+  summary: Occurs on application startup.
+  example: []
+  syntax:
+    content: protected override void OnStartup(StartupEventArgs e)
+    parameters:
+    - id: e
+      type: StartupEventArgs
+      description: The StartupEventArgs.
+    content.vb: Protected Overrides Sub OnStartup(e As StartupEventArgs)
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup*
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup
+  href: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.html#NDSH_Geospatial_Demos_SearchAndMap_Bootstrapper_OnStartup_StartupEventArgs_
+  name: OnStartup
+  nameWithType: Bootstrapper.OnStartup
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.OnStartup
+- uid: StartupEventArgs
+  commentId: '!:StartupEventArgs'
+  isExternal: true
+  name: StartupEventArgs
+  nameWithType: StartupEventArgs
+  fullName: StartupEventArgs

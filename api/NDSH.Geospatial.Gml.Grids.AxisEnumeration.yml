@@ -1,0 +1,470 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  commentId: T:NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  id: AxisEnumeration
+  parent: NDSH.Geospatial.Gml.Grids
+  children:
+  - NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisLabels
+  - NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisName
+  langs:
+  - csharp
+  - vb
+  name: AxisEnumeration
+  nameWithType: AxisEnumeration
+  fullName: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AxisEnumeration
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+    startLine: 21
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Grids
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum AxisEnumeration
+    content.vb: >-
+      <Serializable>
+
+      Public Enum AxisEnumeration
+  extensionMethods:
+  - NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisLabels
+  commentId: F:NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisLabels
+  id: AxisLabels
+  parent: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  langs:
+  - csharp
+  - vb
+  name: AxisLabels
+  nameWithType: AxisEnumeration.AxisLabels
+  fullName: NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisLabels
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AxisLabels
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+    startLine: 25
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Grids
+  syntax:
+    content: >-
+      [EnumMember(Value = "axisLabels")]
+
+      AxisLabels = 0
+    return:
+      type: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    content.vb: >-
+      <EnumMember(Value:="axisLabels")>
+
+      AxisLabels = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: axisLabels
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisName
+  commentId: F:NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisName
+  id: AxisName
+  parent: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  langs:
+  - csharp
+  - vb
+  name: AxisName
+  nameWithType: AxisEnumeration.AxisName
+  fullName: NDSH.Geospatial.Gml.Grids.AxisEnumeration.AxisName
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AxisName
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Grids/AxisEnumeration.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Grids
+  syntax:
+    content: >-
+      [EnumMember(Value = "axisName")]
+
+      AxisName = 1
+    return:
+      type: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    content.vb: >-
+      <EnumMember(Value:="axisName")>
+
+      AxisName = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: axisName
+references:
+- uid: NDSH.Geospatial.Gml.Grids
+  commentId: N:NDSH.Geospatial.Gml.Grids
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Grids
+  nameWithType: NDSH.Geospatial.Gml.Grids
+  fullName: NDSH.Geospatial.Gml.Grids
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Grids
+    name: Grids
+    href: NDSH.Geospatial.Gml.Grids.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Grids
+    name: Grids
+    href: NDSH.Geospatial.Gml.Grids.html
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<AxisEnumeration>(AxisEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumName<AxisEnumeration>(AxisEnumeration)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Gml.Grids.AxisEnumeration>(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of AxisEnumeration)(AxisEnumeration)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Gml.Grids.AxisEnumeration)(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  name.vb: GetXmlEnumName(Of AxisEnumeration)(AxisEnumeration)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<AxisEnumeration>(AxisEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<AxisEnumeration>(AxisEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Gml.Grids.AxisEnumeration>(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of AxisEnumeration)(AxisEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Gml.Grids.AxisEnumeration)(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  name.vb: GetXmlEnumAttributeOrName(Of AxisEnumeration)(AxisEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<AxisEnumeration>(AxisEnumeration)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<AxisEnumeration>(AxisEnumeration)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Gml.Grids.AxisEnumeration>(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of AxisEnumeration)(AxisEnumeration)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Gml.Grids.AxisEnumeration)(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+  name.vb: GetXmlEnumAttribute(Of AxisEnumeration)(AxisEnumeration)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Gml.Grids.AxisEnumeration)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+    name: AxisEnumeration
+    href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  commentId: T:NDSH.Geospatial.Gml.Grids.AxisEnumeration
+  parent: NDSH.Geospatial.Gml.Grids
+  href: NDSH.Geospatial.Gml.Grids.AxisEnumeration.html
+  name: AxisEnumeration
+  nameWithType: AxisEnumeration
+  fullName: NDSH.Geospatial.Gml.Grids.AxisEnumeration

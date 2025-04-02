@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration
+  id: CiCitationConfiguration
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  langs:
+  - csharp
+  - vb
+  name: CiCitationConfiguration
+  nameWithType: CiCitationConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB/src/Geospatial/MetadataDB/Relational/Configurations/Common/Citation/CiCitationConfiguration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CiCitationConfiguration
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB/src/Geospatial/MetadataDB/Relational/Configurations/Common/Citation/CiCitationConfiguration.cs
+    startLine: 10
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+  namespace: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  summary: The <xref href="Microsoft.EntityFrameworkCore.IEntityTypeConfiguration%601" data-throw-if-not-resolved="false"></xref> for the <xref href="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed class CiCitationConfiguration : IEntityTypeConfiguration<CI_Citation_Type>'
+    content.vb: Public NotInheritable Class CiCitationConfiguration Implements IEntityTypeConfiguration(Of CI_Citation_Type)
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  commentId: M:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  id: Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Configure(EntityTypeBuilder<CI_Citation_Type>)
+  nameWithType: CiCitationConfiguration.Configure(EntityTypeBuilder<CI_Citation_Type>)
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB/src/Geospatial/MetadataDB/Relational/Configurations/Common/Citation/CiCitationConfiguration.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Configure
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB/src/Geospatial/MetadataDB/Relational/Configurations/Common/Citation/CiCitationConfiguration.cs
+    startLine: 20
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+  namespace: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  summary: Configures the entity of type <xref href="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public void Configure(EntityTypeBuilder<CI_Citation_Type> builder)
+    parameters:
+    - id: builder
+      type: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+      description: The builder to be used to configure the entity type.
+    content.vb: Public Sub Configure(builder As EntityTypeBuilder(Of CI_Citation_Type))
+  overload: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure*
+  implements:
+  - Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  nameWithType.vb: CiCitationConfiguration.Configure(EntityTypeBuilder(Of CI_Citation_Type))
+  fullName.vb: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type))
+  name.vb: Configure(EntityTypeBuilder(Of CI_Citation_Type))
+references:
+- uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+  commentId: T:Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  name: IEntityTypeConfiguration<TEntity>
+  nameWithType: IEntityTypeConfiguration<TEntity>
+  fullName: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration<TEntity>
+  nameWithType.vb: IEntityTypeConfiguration(Of TEntity)
+  fullName.vb: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration(Of TEntity)
+  name.vb: IEntityTypeConfiguration(Of TEntity)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+    name: IEntityTypeConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+    name: IEntityTypeConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  commentId: T:Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  parent: Microsoft.EntityFrameworkCore
+  definition: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  name: IEntityTypeConfiguration<CI_Citation_Type>
+  nameWithType: IEntityTypeConfiguration<CI_Citation_Type>
+  fullName: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>
+  nameWithType.vb: IEntityTypeConfiguration(Of CI_Citation_Type)
+  fullName.vb: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  name.vb: IEntityTypeConfiguration(Of CI_Citation_Type)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+    name: IEntityTypeConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1
+    name: IEntityTypeConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation
+  commentId: N:NDSH.Geospatial.Metadata.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Citation
+  nameWithType: NDSH.Geospatial.Metadata.Citation
+  fullName: NDSH.Geospatial.Metadata.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.EntityFrameworkCore
+  commentId: N:Microsoft.EntityFrameworkCore
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore
+  nameWithType: Microsoft.EntityFrameworkCore
+  fullName: Microsoft.EntityFrameworkCore
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure*
+  commentId: Overload:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.html#NDSH_Geospatial_MetadataDB_Relational_Configurations_Common_Citation_CiCitationConfiguration_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_NDSH_Geospatial_Metadata_Citation_CI_Citation_Type__
+  name: Configure
+  nameWithType: CiCitationConfiguration.Configure
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.CiCitationConfiguration.Configure
+- uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  commentId: M:Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+  parent: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  definition: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  name: Configure(EntityTypeBuilder<CI_Citation_Type>)
+  nameWithType: IEntityTypeConfiguration<CI_Citation_Type>.Configure(EntityTypeBuilder<CI_Citation_Type>)
+  fullName: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>)
+  nameWithType.vb: IEntityTypeConfiguration(Of CI_Citation_Type).Configure(EntityTypeBuilder(Of CI_Citation_Type))
+  fullName.vb: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type).Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type))
+  name.vb: Configure(EntityTypeBuilder(Of CI_Citation_Type))
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+    name: Configure
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  - name: (
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type})
+    name: Configure
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  - name: (
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: )
+  - name: )
+- uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  commentId: T:Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  parent: Microsoft.EntityFrameworkCore.Metadata.Builders
+  definition: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  name: EntityTypeBuilder<CI_Citation_Type>
+  nameWithType: EntityTypeBuilder<CI_Citation_Type>
+  fullName: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>
+  nameWithType.vb: EntityTypeBuilder(Of CI_Citation_Type)
+  fullName.vb: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  name.vb: EntityTypeBuilder(Of CI_Citation_Type)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+  - name: )
+- uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})
+  commentId: M:Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  name: Configure(EntityTypeBuilder<TEntity>)
+  nameWithType: IEntityTypeConfiguration<TEntity>.Configure(EntityTypeBuilder<TEntity>)
+  fullName: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration<TEntity>.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>)
+  nameWithType.vb: IEntityTypeConfiguration(Of TEntity).Configure(EntityTypeBuilder(Of TEntity))
+  fullName.vb: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration(Of TEntity).Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of TEntity))
+  name.vb: Configure(EntityTypeBuilder(Of TEntity))
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})
+    name: Configure
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  - name: (
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.IEntityTypeConfiguration`1.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{`0})
+    name: Configure
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.ientitytypeconfiguration-1.configure
+  - name: (
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+  - name: )
+- uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+  commentId: T:Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  name: EntityTypeBuilder<TEntity>
+  nameWithType: EntityTypeBuilder<TEntity>
+  fullName: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<TEntity>
+  nameWithType.vb: EntityTypeBuilder(Of TEntity)
+  fullName.vb: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of TEntity)
+  name.vb: EntityTypeBuilder(Of TEntity)
+  spec.csharp:
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: <
+  - name: TEntity
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1
+    name: EntityTypeBuilder
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders.entitytypebuilder-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEntity
+  - name: )
+- uid: Microsoft.EntityFrameworkCore.Metadata.Builders
+  commentId: N:Microsoft.EntityFrameworkCore.Metadata.Builders
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.EntityFrameworkCore.Metadata.Builders
+  nameWithType: Microsoft.EntityFrameworkCore.Metadata.Builders
+  fullName: Microsoft.EntityFrameworkCore.Metadata.Builders
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore.Metadata
+    name: Metadata
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders
+    name: Builders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore
+    name: EntityFrameworkCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore.Metadata
+    name: Metadata
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata
+  - name: .
+  - uid: Microsoft.EntityFrameworkCore.Metadata.Builders
+    name: Builders
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.metadata.builders

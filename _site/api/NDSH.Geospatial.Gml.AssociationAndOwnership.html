@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AssociationAndOwnership | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AssociationAndOwnership | NDSH ">
+      
+      <meta name="description" content="Represents a generalized association in GML, providing an XLink-based mechanism for referencing   external or internal resources within geospatial metadata. This abstract class implements the   GML AssociationAttributeGroup pattern from gmlBase.xsd, enabling a standard approach   for linking GML objects and facilitating interoperability with ISO 19115:2003 metadata structures.     Encoding a GML property in-line vs by-reference shall not imply anything about   the “ownership” of the contained or referenced GML Object, i.e. the encoding style   shall not imply any “deep-copy” or “deep-delete” semantics.To express ownership over   the contained or referenced GML Object, the gml:OwnershipAttributeGroup attribute group   may be added to object-valued property elements.If the attribute group is not part of the   content model of such a property element, then the value may not be “owned”.   When the value of the owns attribute is true, the existence of in-line or   referenced object(s) depends upon the existence of the parent object.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/new/dev/apiSpec/new?filename=NDSH_Geospatial_Gml_AssociationAndOwnership.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Gml.AssociationAndOwnership%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Gml.AssociationAndOwnership">
+
+
+
+  <h1 id="NDSH_Geospatial_Gml_AssociationAndOwnership" data-uid="NDSH.Geospatial.Gml.AssociationAndOwnership" class="text-break">
+Class AssociationAndOwnership  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationAndOwnership.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Gml.html">Gml</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.ISO19115.Ed2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>
+  Represents a generalized association in GML, providing an XLink-based mechanism for referencing
+  external or internal resources within geospatial metadata. This abstract class implements the
+  GML <code>AssociationAttributeGroup</code> pattern from <code>gmlBase.xsd</code>, enabling a standard approach
+  for linking GML objects and facilitating interoperability with ISO 19115:2003 metadata structures.
+</p>
+<p>
+  Encoding a GML property in-line vs by-reference shall not imply anything about
+  the “ownership” of the contained or referenced GML Object, i.e. the encoding style
+  shall not imply any “deep-copy” or “deep-delete” semantics.To express ownership over
+  the contained or referenced GML Object, the <code>gml:OwnershipAttributeGroup</code> attribute group
+  may be added to object-valued property elements.If the attribute group is not part of the
+  content model of such a property element, then the value may not be “owned”.
+  When the value of the owns attribute is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>, the existence of in-line or
+  referenced object(s) depends upon the existence of the parent object.
+</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IsoType(&quot;AssociationAttributeGroup,OwnershipAttributeGroup&quot;, IsoType = IsoTypes.AttributeGroup)]
+public abstract class AssociationAndOwnership : AssociationEntity, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, ITypeMetadata, IRemoteSchema, IOwnership</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html">ObservableDbEntity</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html">AssociationEntity</a></div>
+      <div><span class="xref">AssociationAndOwnership</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.IDbId.html">IDbId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IAssociation.html">IAssociation</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ISimpleLink.html">ISimpleLink</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IType.html">IType</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IHref.html">IHref</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IRole.html">IRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IArcRole.html">IArcRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ITitle.html">ITitle</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IShow.html">IShow</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IActuate.html">IActuate</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.INilReason.html">INilReason</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.ITypeMetadata.html">ITypeMetadata</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IRemoteSchema.html">IRemoteSchema</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IOwnership.html">IOwnership</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.AssociationRoleType.html">AssociationRoleType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.ReferenceType.html">ReferenceType</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours">AssociationEntity.ActuateBehaviours</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours">AssociationEntity.ShowBehaviours</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReasons">AssociationEntity.NilReasons</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_">AssociationEntity.GetNilReason(NilReasonEnumeration, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_">AssociationEntity.GetNilReason(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Type">AssociationEntity.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Href">AssociationEntity.Href</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Role">AssociationEntity.Role</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ArcRole">AssociationEntity.ArcRole</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Title">AssociationEntity.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Show">AssociationEntity.Show</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Actuate">AssociationEntity.Actuate</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">AssociationEntity.NilReason</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema">AssociationEntity.RemoteSchema</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId">ObservableDbEntity.DbId</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Gml_AssociationAndOwnership_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  In practice, GML uses “association” elements or properties to capture relationships between
+  metadata objects or geospatial features—often expressed through the <code>xlink</code> attributes
+  (<code>href</code>, <code>role</code>, <code>arcrole</code>, <code>title</code>, <code>show</code>, and <code>actuate</code>).
+  By abstracting these attributes into a single class, Association enables a
+  consistent mechanism for referencing remote or local resources.
+</p>
+<p>
+  The class also supports a <code>nilReason</code> attribute (based on GML’s <code>NilReasonType</code>) to
+  indicate missing or inapplicable data, reflecting the requirements of ISO 19115:2003 for
+  managing incomplete or unknown metadata values. Additionally, a <code>remoteSchema</code> attribute
+  is provided to reference an external schema, though it is marked as deprecated in GML.
+</p>
+<p>
+  In ISO 19115 applications, leveraging this association pattern can help decompose or link
+  metadata elements effectively, fostering modular metadata design and allowing distributed
+  systems to reference shared resources rather than duplicating content.
+</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationAndOwnership_Owns_" data-uid="NDSH.Geospatial.Gml.AssociationAndOwnership.Owns*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationAndOwnership_Owns" data-uid="NDSH.Geospatial.Gml.AssociationAndOwnership.Owns">
+  Owns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationAndOwnership.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> value indicating whether the existence of the contained or referenced
+GML object depends on the existence of the parent object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Owns { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> value representing ownership semantics. The default value is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_AssociationAndOwnership_Owns_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>owns</code> attribute, as defined in the <code>gml:OwnershipAttributeGroup</code>, specifies whether
+the parent object holds ownership over the contained or referenced GML object.</p>
+<ul><li>
+  If set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a>, the life-cycle of the contained or referenced object
+  is tied to the parent object, meaning that if the parent object is deleted,
+  the owned object(s) should also be deleted.
+</li><li>
+  If set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> (default), the contained or referenced object
+  exists independently of the parent.
+</li></ul>
+This attribute does not imply any specific encoding style (in-line vs. by-reference).
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationAndOwnership.cs/#L84" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

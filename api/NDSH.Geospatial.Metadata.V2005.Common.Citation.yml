@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  id: Citation
+  parent: NDSH.Geospatial.Metadata.V2005.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Address
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Citation
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Contact
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Date
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCode
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCode
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCodeValue
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnlineResource
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCode
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_ResponsibleParty
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCode
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Series
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Telephone
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Address
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Address
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Address.html
+  name: CI_Address
+  nameWithType: CI_Address
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Address
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Citation
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Citation
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Citation.html
+  name: CI_Citation
+  nameWithType: CI_Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Citation
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Contact
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Contact
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Contact.html
+  name: CI_Contact
+  nameWithType: CI_Contact
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Contact
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Date
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Date
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Date.html
+  name: CI_Date
+  nameWithType: CI_Date
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Date
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCode
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCode
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCode.html
+  name: CI_DateTypeCode
+  nameWithType: CI_DateTypeCode
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCode
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  name: CI_DateTypeCodeValue
+  nameWithType: CI_DateTypeCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCode
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCode
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCode.html
+  name: CI_OnLineFunctionCode
+  nameWithType: CI_OnLineFunctionCode
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCode
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCodeValue.html
+  name: CI_OnLineFunctionCodeValue
+  nameWithType: CI_OnLineFunctionCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnLineFunctionCodeValue
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnlineResource
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnlineResource
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnlineResource.html
+  name: CI_OnlineResource
+  nameWithType: CI_OnlineResource
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_OnlineResource
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCode
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCode
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCode.html
+  name: CI_PresentationFormCode
+  nameWithType: CI_PresentationFormCode
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCode
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue.html
+  name: CI_PresentationFormCodeValue
+  nameWithType: CI_PresentationFormCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_PresentationFormCodeValue
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_ResponsibleParty
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_ResponsibleParty
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_ResponsibleParty.html
+  name: CI_ResponsibleParty
+  nameWithType: CI_ResponsibleParty
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_ResponsibleParty
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCode
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCode
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCode.html
+  name: CI_RoleCode
+  nameWithType: CI_RoleCode
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCode
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  name: CI_RoleCodeValue
+  nameWithType: CI_RoleCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Series
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Series
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Series.html
+  name: CI_Series
+  nameWithType: CI_Series
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Series
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Telephone
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Telephone
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Telephone.html
+  name: CI_Telephone
+  nameWithType: CI_Telephone
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_Telephone
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html

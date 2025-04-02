@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  id: Common
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.CodeListConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Citation.html
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  href: NDSH.html
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations
+    name: Configurations
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+    name: Common
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.html
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.CodeListConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.CodeListConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.CodeListConfiguration.html
+  name: CodeListConfiguration
+  nameWithType: CodeListConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.CodeListConfiguration

@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  id: Measures
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleChoiceType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AreaType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DMSAngleType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesTypeDirection
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.GridLengthType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.LengthType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MeasureType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MinutesSecondsValueType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.ScaleType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.SpeedType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.TimeType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.VolumeType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleChoiceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleChoiceType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleChoiceType.html
+  name: AngleChoiceType
+  nameWithType: AngleChoiceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleChoiceType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleType.html
+  name: AngleType
+  nameWithType: AngleType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AngleType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AreaType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AreaType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AreaType.html
+  name: AreaType
+  nameWithType: AreaType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.AreaType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DMSAngleType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DMSAngleType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DMSAngleType.html
+  name: DMSAngleType
+  nameWithType: DMSAngleType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DMSAngleType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesType.html
+  name: DegreesType
+  nameWithType: DegreesType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesTypeDirection
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesTypeDirection
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesTypeDirection.html
+  name: DegreesTypeDirection
+  nameWithType: DegreesTypeDirection
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.DegreesTypeDirection
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.GridLengthType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.GridLengthType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.GridLengthType.html
+  name: GridLengthType
+  nameWithType: GridLengthType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.GridLengthType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.LengthType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.LengthType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.LengthType.html
+  name: LengthType
+  nameWithType: LengthType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.LengthType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MeasureType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MeasureType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MeasureType.html
+  name: MeasureType
+  nameWithType: MeasureType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MeasureType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MinutesSecondsValueType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MinutesSecondsValueType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MinutesSecondsValueType.html
+  name: MinutesSecondsValueType
+  nameWithType: MinutesSecondsValueType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.MinutesSecondsValueType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.ScaleType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.ScaleType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.ScaleType.html
+  name: ScaleType
+  nameWithType: ScaleType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.ScaleType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.SpeedType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.SpeedType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.SpeedType.html
+  name: SpeedType
+  nameWithType: SpeedType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.SpeedType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.TimeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.TimeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.TimeType.html
+  name: TimeType
+  nameWithType: TimeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.TimeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.VolumeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.VolumeType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.VolumeType.html
+  name: VolumeType
+  nameWithType: VolumeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.VolumeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+    name: Measures
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures
+    name: Measures
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Measures.html

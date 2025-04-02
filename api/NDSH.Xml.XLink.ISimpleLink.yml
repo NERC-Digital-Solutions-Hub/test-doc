@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.ISimpleLink
+  commentId: T:NDSH.Xml.XLink.ISimpleLink
+  id: ISimpleLink
+  parent: NDSH.Xml.XLink
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ISimpleLink
+  nameWithType: ISimpleLink
+  fullName: NDSH.Xml.XLink.ISimpleLink
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/ISimpleLink.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ISimpleLink
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/ISimpleLink.cs
+    startLine: 72
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: >-
+    <p>
+      Provides the contract for the <code>xlink:href</code> attribute.
+    </p>
+
+    <p>
+      The <code>xlink:simpleLink</code> attribute group defines a set of standard attributes for simple links
+      in XML-based documents. It provides metadata and behavior control for linked resources.
+    </p>
+
+    <p>
+      <b>Uses:</b>
+      <ul></ul>
+    </p>
+  example: []
+  syntax:
+    content: 'public interface ISimpleLink : IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate'
+    content.vb: Public Interface ISimpleLink Inherits IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate
+  inheritedMembers:
+  - NDSH.Xml.XLink.IType.Type
+  - NDSH.Xml.XLink.IHref.Href
+  - NDSH.Xml.XLink.IRole.Role
+  - NDSH.Xml.XLink.IArcRole.ArcRole
+  - NDSH.Xml.XLink.ITitle.Title
+  - NDSH.Xml.XLink.IShow.Show
+  - NDSH.Xml.XLink.IShow.ShowBehaviours
+  - NDSH.Xml.XLink.IActuate.Actuate
+  - NDSH.Xml.XLink.IActuate.ActuateBehaviours
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IType.Type
+  commentId: P:NDSH.Xml.XLink.IType.Type
+  parent: NDSH.Xml.XLink.IType
+  href: NDSH.Xml.XLink.IType.html#NDSH_Xml_XLink_IType_Type
+  name: Type
+  nameWithType: IType.Type
+  fullName: NDSH.Xml.XLink.IType.Type
+- uid: NDSH.Xml.XLink.IHref.Href
+  commentId: P:NDSH.Xml.XLink.IHref.Href
+  parent: NDSH.Xml.XLink.IHref
+  href: NDSH.Xml.XLink.IHref.html#NDSH_Xml_XLink_IHref_Href
+  name: Href
+  nameWithType: IHref.Href
+  fullName: NDSH.Xml.XLink.IHref.Href
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  parent: NDSH.Xml.XLink.IRole
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: NDSH.Xml.XLink.IArcRole.ArcRole
+  commentId: P:NDSH.Xml.XLink.IArcRole.ArcRole
+  parent: NDSH.Xml.XLink.IArcRole
+  href: NDSH.Xml.XLink.IArcRole.html#NDSH_Xml_XLink_IArcRole_ArcRole
+  name: ArcRole
+  nameWithType: IArcRole.ArcRole
+  fullName: NDSH.Xml.XLink.IArcRole.ArcRole
+- uid: NDSH.Xml.XLink.ITitle.Title
+  commentId: P:NDSH.Xml.XLink.ITitle.Title
+  parent: NDSH.Xml.XLink.ITitle
+  href: NDSH.Xml.XLink.ITitle.html#NDSH_Xml_XLink_ITitle_Title
+  name: Title
+  nameWithType: ITitle.Title
+  fullName: NDSH.Xml.XLink.ITitle.Title
+- uid: NDSH.Xml.XLink.IShow.Show
+  commentId: P:NDSH.Xml.XLink.IShow.Show
+  parent: NDSH.Xml.XLink.IShow
+  href: NDSH.Xml.XLink.IShow.html#NDSH_Xml_XLink_IShow_Show
+  name: Show
+  nameWithType: IShow.Show
+  fullName: NDSH.Xml.XLink.IShow.Show
+- uid: NDSH.Xml.XLink.IShow.ShowBehaviours
+  commentId: F:NDSH.Xml.XLink.IShow.ShowBehaviours
+  parent: NDSH.Xml.XLink.IShow
+  href: NDSH.Xml.XLink.IShow.html#NDSH_Xml_XLink_IShow_ShowBehaviours
+  name: ShowBehaviours
+  nameWithType: IShow.ShowBehaviours
+  fullName: NDSH.Xml.XLink.IShow.ShowBehaviours
+- uid: NDSH.Xml.XLink.IActuate.Actuate
+  commentId: P:NDSH.Xml.XLink.IActuate.Actuate
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_Actuate
+  name: Actuate
+  nameWithType: IActuate.Actuate
+  fullName: NDSH.Xml.XLink.IActuate.Actuate
+- uid: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  commentId: F:NDSH.Xml.XLink.IActuate.ActuateBehaviours
+  parent: NDSH.Xml.XLink.IActuate
+  href: NDSH.Xml.XLink.IActuate.html#NDSH_Xml_XLink_IActuate_ActuateBehaviours
+  name: ActuateBehaviours
+  nameWithType: IActuate.ActuateBehaviours
+  fullName: NDSH.Xml.XLink.IActuate.ActuateBehaviours
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IHref
+  commentId: T:NDSH.Xml.XLink.IHref
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IHref.html
+  name: IHref
+  nameWithType: IHref
+  fullName: NDSH.Xml.XLink.IHref
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.IArcRole
+  commentId: T:NDSH.Xml.XLink.IArcRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IArcRole.html
+  name: IArcRole
+  nameWithType: IArcRole
+  fullName: NDSH.Xml.XLink.IArcRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.IShow
+  commentId: T:NDSH.Xml.XLink.IShow
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IShow.html
+  name: IShow
+  nameWithType: IShow
+  fullName: NDSH.Xml.XLink.IShow
+- uid: NDSH.Xml.XLink.IActuate
+  commentId: T:NDSH.Xml.XLink.IActuate
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IActuate.html
+  name: IActuate
+  nameWithType: IActuate
+  fullName: NDSH.Xml.XLink.IActuate

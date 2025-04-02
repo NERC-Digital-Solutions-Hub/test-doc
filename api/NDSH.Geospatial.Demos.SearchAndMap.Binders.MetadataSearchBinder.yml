@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  id: MetadataSearchBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchBinder
+  nameWithType: MetadataSearchBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MetadataSearchBinder
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 21
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: >-
+    The <xref href="NDSH.Geospatial.Demos.SearchAndMap.IBinder" data-throw-if-not-resolved="false"></xref> of the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView" data-throw-if-not-resolved="false"></xref> and
+
+    the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed class MetadataSearchBinder : IBinder'
+    content.vb: Public NotInheritable Class MetadataSearchBinder Implements IBinder
+  inheritance:
+  - System.Object
+  implements:
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)
+  id: '#ctor(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)'
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchBinder(MetadataSearchModel)
+  nameWithType: MetadataSearchBinder.MetadataSearchBinder(MetadataSearchModel)
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchBinder(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: Initializes the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MetadataSearchBinder(MetadataSearchModel metadataSearchModel)
+    parameters:
+    - id: metadataSearchModel
+      type: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel
+      description: ''
+    content.vb: Public Sub New(metadataSearchModel As MetadataSearchModel)
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor*
+  nameWithType.vb: MetadataSearchBinder.New(MetadataSearchModel)
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.New(NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel)
+  name.vb: New(MetadataSearchModel)
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+  id: MetadataSearchModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchModel
+  nameWithType: MetadataSearchBinder.MetadataSearchModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MetadataSearchModel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 42
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public MetadataSearchModel MetadataSearchModel { get; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel
+    content.vb: Public ReadOnly Property MetadataSearchModel As MetadataSearchModel
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  id: SubmitQueryCommand
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  langs:
+  - csharp
+  - vb
+  name: SubmitQueryCommand
+  nameWithType: MetadataSearchBinder.SubmitQueryCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SubmitQueryCommand
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand?text=command" data-throw-if-not-resolved="false"></xref> to post a query to the metadata search service.
+  example: []
+  syntax:
+    content: public ICommand SubmitQueryCommand { get; }
+    parameters: []
+    return:
+      type: ICommand
+    content.vb: Public ReadOnly Property SubmitQueryCommand As ICommand
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+  id: AddLayersCommand
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  langs:
+  - csharp
+  - vb
+  name: AddLayersCommand
+  nameWithType: MetadataSearchBinder.AddLayersCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AddLayersCommand
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 67
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Commands.AddLayersCommand?text=command" data-throw-if-not-resolved="false"></xref> to add layers to the map.
+  example: []
+  syntax:
+    content: public ICommand AddLayersCommand { get; }
+    parameters: []
+    return:
+      type: ICommand
+    content.vb: Public ReadOnly Property AddLayersCommand As ICommand
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+  id: BinderName
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  langs:
+  - csharp
+  - vb
+  name: BinderName
+  nameWithType: MetadataSearchBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: BinderName
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Binders/MetadataSearchBinder.cs
+    startLine: 83
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder" data-throw-if-not-resolved="false"></xref> 's name.
+  example: []
+  syntax:
+    content: public string BinderName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BinderName As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName*
+  implements:
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html
+  name: IBinder
+  nameWithType: IBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+  href: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView.html
+  name: MetadataSearchView
+  nameWithType: MetadataSearchView
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.MetadataSearchView
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel.html
+  name: MetadataSearchModel
+  nameWithType: MetadataSearchModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.MetadataSearchModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Binders
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Binders.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Binders.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html
+  name: MetadataSearchBinder
+  nameWithType: MetadataSearchBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.#ctor
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder__ctor_NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_MetadataSearchModel_
+  name: MetadataSearchBinder
+  nameWithType: MetadataSearchBinder.MetadataSearchBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchBinder
+  nameWithType.vb: MetadataSearchBinder.New
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.New
+  name.vb: New
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder_MetadataSearchModel
+  name: MetadataSearchModel
+  nameWithType: MetadataSearchBinder.MetadataSearchModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.MetadataSearchModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder_SubmitQueryCommand
+  name: SubmitQueryCommand
+  nameWithType: MetadataSearchBinder.SubmitQueryCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder_SubmitQueryCommand
+  name: SubmitQueryCommand
+  nameWithType: MetadataSearchBinder.SubmitQueryCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.SubmitQueryCommand
+- uid: ICommand
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: ICommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Commands.AddLayersCommand
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Commands.AddLayersCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Commands.AddLayersCommand.html
+  name: AddLayersCommand
+  nameWithType: AddLayersCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Commands.AddLayersCommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder_AddLayersCommand
+  name: AddLayersCommand
+  nameWithType: MetadataSearchBinder.AddLayersCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.AddLayersCommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+  href: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Binders_MetadataSearchBinder_BinderName
+  name: BinderName
+  nameWithType: MetadataSearchBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders.MetadataSearchBinder.BinderName
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  parent: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html#NDSH_Geospatial_Demos_SearchAndMap_IBinder_BinderName
+  name: BinderName
+  nameWithType: IBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes
+  id: Common.BasicTypes
+  parent: NDSH.Geospatial
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  - NDSH.Geospatial.Common.BasicTypes.Implementation
+  - NDSH.Geospatial.Common.BasicTypes.Primitive
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Common.BasicTypes
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Implementation
+  isExternal: true
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived
+    name: Derived
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived
+    name: Derived
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.html

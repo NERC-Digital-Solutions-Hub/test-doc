@@ -1,0 +1,1299 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  id: MD_TopicCategoryCode_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Biota
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Boundaries
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ClimatologyMeteorologyAtmosphere
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Economy
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Elevation
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Environment
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Farming
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.GeoscientificInformation
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Health
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ImageryBaseMapsEarthCover
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.InlandWaters
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.IntelligenceMilitary
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Location
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Oceans
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.PlanningCadastre
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Society
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Structure
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Transportation
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.UtilitiesCommunication
+  langs:
+  - csharp
+  - vb
+  name: MD_TopicCategoryCode_Type
+  nameWithType: MD_TopicCategoryCode_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MD_TopicCategoryCode_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 39
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: >-
+    High-level geographic data thematic classification to assist in the grouping and search
+
+    of available geographic data sets. Can be used to group keywords as well.
+
+    Listed examples are not exhaustive.
+  remarks: >-
+    It is understood there are overlaps between general categories and the user
+
+    is encouraged to select the one most appropriate.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MD_TopicCategoryCode_Type
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MD_TopicCategoryCode_Type
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Farming
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Farming
+  id: Farming
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Farming
+  nameWithType: MD_TopicCategoryCode_Type.Farming
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Farming
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Farming
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Rearing of animals and/or cultivation of plants.
+  example:
+  - >-
+    agriculture, irrigation, aquaculture, plantations, herding,
+
+    pests and diseases affecting crops and livestock.
+  syntax:
+    content: >-
+      [EnumMember(Value = "farming")]
+
+      Farming = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="farming")>
+
+      Farming = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: farming
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Biota
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Biota
+  id: Biota
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Biota
+  nameWithType: MD_TopicCategoryCode_Type.Biota
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Biota
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Biota
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 61
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Flora and/or fauna in natural environment.
+  example:
+  - wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat.
+  syntax:
+    content: >-
+      [EnumMember(Value = "biota")]
+
+      Biota = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="biota")>
+
+      Biota = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: biota
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Boundaries
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Boundaries
+  id: Boundaries
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Boundaries
+  nameWithType: MD_TopicCategoryCode_Type.Boundaries
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Boundaries
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Boundaries
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 71
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Legal land descriptions.
+  example:
+  - political and administrative boundaries.
+  syntax:
+    content: >-
+      [EnumMember(Value = "boundaries")]
+
+      Boundaries = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="boundaries")>
+
+      Boundaries = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: boundaries
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ClimatologyMeteorologyAtmosphere
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ClimatologyMeteorologyAtmosphere
+  id: ClimatologyMeteorologyAtmosphere
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: ClimatologyMeteorologyAtmosphere
+  nameWithType: MD_TopicCategoryCode_Type.ClimatologyMeteorologyAtmosphere
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ClimatologyMeteorologyAtmosphere
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ClimatologyMeteorologyAtmosphere
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 81
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Processes and phenomena of the atmosphere.
+  example:
+  - cloud cover, weather, climate, atmospheric conditions, climate change, precipitation.
+  syntax:
+    content: >-
+      [EnumMember(Value = "climatologyMeteorologyAtmosphere")]
+
+      ClimatologyMeteorologyAtmosphere = 4
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="climatologyMeteorologyAtmosphere")>
+
+      ClimatologyMeteorologyAtmosphere = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: climatologyMeteorologyAtmosphere
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Economy
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Economy
+  id: Economy
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Economy
+  nameWithType: MD_TopicCategoryCode_Type.Economy
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Economy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Economy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Economic activities, conditions and employment.
+  example:
+  - >-
+    production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries,
+
+    commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas.
+  syntax:
+    content: >-
+      [EnumMember(Value = "economy")]
+
+      Economy = 5
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="economy")>
+
+      Economy = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: economy
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Elevation
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Elevation
+  id: Elevation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Elevation
+  nameWithType: MD_TopicCategoryCode_Type.Elevation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Elevation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Elevation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 102
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Height above or below sea level.
+  example:
+  - altitude, bathymetry, digital elevation models, slope, derived products.
+  syntax:
+    content: >-
+      [EnumMember(Value = "elevation")]
+
+      Elevation = 6
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="elevation")>
+
+      Elevation = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: elevation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Environment
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Environment
+  id: Environment
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: MD_TopicCategoryCode_Type.Environment
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Environment
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Environment
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 113
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Environmental resources, protection and conservation.
+  example:
+  - >-
+    environmental pollution, waste storage and treatment, environmental impact assessment,
+
+    monitoring environmental risk, nature reserves, landscape.
+  syntax:
+    content: >-
+      [EnumMember(Value = "environment")]
+
+      Environment = 7
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="environment")>
+
+      Environment = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: environment
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.GeoscientificInformation
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.GeoscientificInformation
+  id: GeoscientificInformation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: GeoscientificInformation
+  nameWithType: MD_TopicCategoryCode_Type.GeoscientificInformation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.GeoscientificInformation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GeoscientificInformation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 125
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Information pertaining to earth sciences.
+  example:
+  - >-
+    geophysical features and processes, geology, minerals, sciences dealing with the composition,
+
+    structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides,
+
+    gravity information, soils, permafrost, hydrogeology, erosion.
+  syntax:
+    content: >-
+      [EnumMember(Value = "geoscientificInformation")]
+
+      GeoscientificInformation = 8
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="geoscientificInformation")>
+
+      GeoscientificInformation = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: geoscientificInformation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Health
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Health
+  id: Health
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: MD_TopicCategoryCode_Type.Health
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Health
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Health
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 136
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Health, health services, human ecology, and safety.
+  example:
+  - >-
+    disease and illness, factors affecting health, hygiene, substance abuse,
+
+    mental and physical health, health services.
+  syntax:
+    content: >-
+      [EnumMember(Value = "health")]
+
+      Health = 9
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="health")>
+
+      Health = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: health
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ImageryBaseMapsEarthCover
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ImageryBaseMapsEarthCover
+  id: ImageryBaseMapsEarthCover
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: ImageryBaseMapsEarthCover
+  nameWithType: MD_TopicCategoryCode_Type.ImageryBaseMapsEarthCover
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.ImageryBaseMapsEarthCover
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ImageryBaseMapsEarthCover
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 146
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Base maps.
+  example:
+  - land cover, topographic maps, imagery, unclassified images, annotations.
+  syntax:
+    content: >-
+      [EnumMember(Value = "imageryBaseMapsEarthCover")]
+
+      ImageryBaseMapsEarthCover = 10
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="imageryBaseMapsEarthCover")>
+
+      ImageryBaseMapsEarthCover = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: imageryBaseMapsEarthCover
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.IntelligenceMilitary
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.IntelligenceMilitary
+  id: IntelligenceMilitary
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: IntelligenceMilitary
+  nameWithType: MD_TopicCategoryCode_Type.IntelligenceMilitary
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.IntelligenceMilitary
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IntelligenceMilitary
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 156
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Military bases, structures, activities.
+  example:
+  - barracks, training grounds, military transportation, information collection.
+  syntax:
+    content: >-
+      [EnumMember(Value = "intelligenceMilitary")]
+
+      IntelligenceMilitary = 11
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="intelligenceMilitary")>
+
+      IntelligenceMilitary = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: intelligenceMilitary
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.InlandWaters
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.InlandWaters
+  id: InlandWaters
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: InlandWaters
+  nameWithType: MD_TopicCategoryCode_Type.InlandWaters
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.InlandWaters
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: InlandWaters
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 167
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Inland water features, drainage systems and their characteristics.
+  example:
+  - >-
+    Rivers and glaciers, salt lakes, water utilization plans, dams, currents,
+
+    floods, water quality, hydrographic charts.
+  syntax:
+    content: >-
+      [EnumMember(Value = "inlandWaters")]
+
+      InlandWaters = 12
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="inlandWaters")>
+
+      InlandWaters = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: inlandWaters
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Location
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Location
+  id: Location
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: MD_TopicCategoryCode_Type.Location
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Location
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Location
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 177
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Positional information and services.
+  example:
+  - addresses, geodetic networks, control points, postal zones and services, place names.
+  syntax:
+    content: >-
+      [EnumMember(Value = "location")]
+
+      Location = 13
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="location")>
+
+      Location = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: location
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Oceans
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Oceans
+  id: Oceans
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Oceans
+  nameWithType: MD_TopicCategoryCode_Type.Oceans
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Oceans
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Oceans
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 187
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Features and characteristics of salt water bodies (excluding inland waters).
+  example:
+  - tides, tidal waves, coastal information, reefs.
+  syntax:
+    content: >-
+      [EnumMember(Value = "oceans")]
+
+      Oceans = 14
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="oceans")>
+
+      Oceans = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: oceans
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.PlanningCadastre
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.PlanningCadastre
+  id: PlanningCadastre
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: PlanningCadastre
+  nameWithType: MD_TopicCategoryCode_Type.PlanningCadastre
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.PlanningCadastre
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: PlanningCadastre
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 197
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Information used for appropriate actions for future use of the land.
+  example:
+  - land use maps, zoning maps, cadastral surveys, land ownership.
+  syntax:
+    content: >-
+      [EnumMember(Value = "planningCadastre")]
+
+      PlanningCadastre = 15
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="planningCadastre")>
+
+      PlanningCadastre = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: planningCadastre
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Society
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Society
+  id: Society
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Society
+  nameWithType: MD_TopicCategoryCode_Type.Society
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Society
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Society
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 208
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Characteristics of society and cultures.
+  example:
+  - >-
+    settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data,
+
+    recreational areas and activities, social impact assessments, crime and justice, census information.
+  syntax:
+    content: >-
+      [EnumMember(Value = "society")]
+
+      Society = 16
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="society")>
+
+      Society = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: society
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Structure
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Structure
+  id: Structure
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Structure
+  nameWithType: MD_TopicCategoryCode_Type.Structure
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Structure
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Structure
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 218
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Man-made construction.
+  example:
+  - buildings, museums, churches, factories, housing, monuments, shops, towers.
+  syntax:
+    content: >-
+      [EnumMember(Value = "structure")]
+
+      Structure = 17
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="structure")>
+
+      Structure = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: structure
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Transportation
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Transportation
+  id: Transportation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: Transportation
+  nameWithType: MD_TopicCategoryCode_Type.Transportation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.Transportation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Transportation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 229
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Means and aids for conveying persons and/or goods.
+  example:
+  - >-
+    roads, airports/airstrips, shipping routes, tunnels, nautical charts,
+
+    vehicle or vessel location, aeronautical charts, railways.
+  syntax:
+    content: >-
+      [EnumMember(Value = "transportation")]
+
+      Transportation = 18
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="transportation")>
+
+      Transportation = 18
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: transportation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.UtilitiesCommunication
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.UtilitiesCommunication
+  id: UtilitiesCommunication
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: UtilitiesCommunication
+  nameWithType: MD_TopicCategoryCode_Type.UtilitiesCommunication
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.UtilitiesCommunication
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: UtilitiesCommunication
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/MD_TopicCategoryCode_Type.cs
+    startLine: 241
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Energy, water and waste systems and communications infrastructure and services.
+  example:
+  - >-
+    hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution,
+
+    sewage collection and disposal, electricity and gas distribution, data communication, telecommunication,
+
+    radio, communication networks.
+  syntax:
+    content: >-
+      [EnumMember(Value = "utilitiesCommunication")]
+
+      UtilitiesCommunication = 19
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    content.vb: >-
+      <EnumMember(Value:="utilitiesCommunication")>
+
+      UtilitiesCommunication = 19
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: utilitiesCommunication
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumAttributeOrName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumAttribute(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type.html
+  name: MD_TopicCategoryCode_Type
+  nameWithType: MD_TopicCategoryCode_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_TopicCategoryCode_Type

@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution
+  id: Distribution
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDigitalTransferOptionsConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributionConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributorConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdFormatConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdStandardOrderProcessConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDigitalTransferOptionsConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDigitalTransferOptionsConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDigitalTransferOptionsConfiguration.html
+  name: MdDigitalTransferOptionsConfiguration
+  nameWithType: MdDigitalTransferOptionsConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDigitalTransferOptionsConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributionConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributionConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributionConfiguration.html
+  name: MdDistributionConfiguration
+  nameWithType: MdDistributionConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributionConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributorConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributorConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributorConfiguration.html
+  name: MdDistributorConfiguration
+  nameWithType: MdDistributorConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdDistributorConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdFormatConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdFormatConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdFormatConfiguration.html
+  name: MdFormatConfiguration
+  nameWithType: MdFormatConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdFormatConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdStandardOrderProcessConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdStandardOrderProcessConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdStandardOrderProcessConfiguration.html
+  name: MdStandardOrderProcessConfiguration
+  nameWithType: MdStandardOrderProcessConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Distribution.MdStandardOrderProcessConfiguration

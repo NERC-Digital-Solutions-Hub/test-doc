@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  id: DateTime
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateTimeDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_PeriodDuration_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity.html
+  name: DateDbEntity
+  nameWithType: DateDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateTimeDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateTimeDbEntity
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateTimeDbEntity.html
+  name: DateTimeDbEntity
+  nameWithType: DateTimeDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateTimeDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  name: DateVariant
+  nameWithType: DateVariant
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_PeriodDuration_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_PeriodDuration_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_PeriodDuration_PropertyType.html
+  name: TM_PeriodDuration_PropertyType
+  nameWithType: TM_PeriodDuration_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_PeriodDuration_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType.html
+  name: TM_Primitive_PropertyType
+  nameWithType: TM_Primitive_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.TM_Primitive_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html

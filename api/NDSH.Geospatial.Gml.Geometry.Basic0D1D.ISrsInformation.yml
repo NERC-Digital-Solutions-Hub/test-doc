@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  id: ISrsInformation
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  children:
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels
+  langs:
+  - csharp
+  - vb
+  name: ISrsInformation
+  nameWithType: ISrsInformation
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ISrsInformation
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+    startLine: 67
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  summary: >-
+    The attributes UomLabels and AxisLabels are optional additional and redundant
+
+    information for a CRS to simplify the processing of the coordinate values when
+
+    a more complete definition of the CRS is not needed. This information shall be
+
+    the same as included in the complete definition of the CRS, referenced by the
+
+    srsName attribute. When the srsName attribute is included, either both or neither
+
+    of the axisLabels and uomLabels attributes shall be included. When the srsName
+
+    attribute is omitted, both of these attributes shall be omitted. The attribute
+
+    axisLabels is an ordered list of labels for all the axes of this CRS.
+
+    The gml:axisAbbrev value should be used for these axis labels, after spaces and
+
+    forbidden characters are removed.When the srsName attribute is included,
+
+    this attribute is optional.When the srsName attribute is omitted,
+
+    this attribute shall also be omitted. The attribute uomLabels is an ordered list
+
+    of unit of measure (uom) labels for all the axes of this CRS.The value of the
+
+    string in the gml:catalogSymbol should be used for this uom labels,
+
+    after spaces and forbidden characters are removed.
+
+    When the axisLabels attribute is included, this attribute shall also be included.
+
+    When the axisLabels attribute is omitted, this attribute shall also be omitted.
+  example: []
+  syntax:
+    content: public interface ISrsInformation
+    content.vb: Public Interface ISrsInformation
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+  commentId: P:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+  id: AxisLabel
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  langs:
+  - csharp
+  - vb
+  name: AxisLabel
+  nameWithType: ISrsInformation.AxisLabel
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AxisLabel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+    startLine: 76
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  summary: ''
+  example: []
+  syntax:
+    content: List<string> AxisLabel { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Property AxisLabel As List(Of String)
+  overload: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel*
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels
+  commentId: P:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels
+  id: UomLabels
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  langs:
+  - csharp
+  - vb
+  name: UomLabels
+  nameWithType: ISrsInformation.UomLabels
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: UomLabels
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Geometry/Basic0D1D/ISrsInformation.cs
+    startLine: 86
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  summary: ''
+  example: []
+  syntax:
+    content: List<string> UomLabels { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Property UomLabels As List(Of String)
+  overload: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels*
+references:
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  commentId: N:NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  nameWithType: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.html
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel*
+  commentId: Overload:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.html#NDSH_Geospatial_Gml_Geometry_Basic0D1D_ISrsInformation_AxisLabel
+  name: AxisLabel
+  nameWithType: ISrsInformation.AxisLabel
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.AxisLabel
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels*
+  commentId: Overload:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.html#NDSH_Geospatial_Gml_Geometry_Basic0D1D_ISrsInformation_UomLabels
+  name: UomLabels
+  nameWithType: ISrsInformation.UomLabels
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.UomLabels

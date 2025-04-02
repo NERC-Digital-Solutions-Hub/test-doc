@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Database
+  commentId: N:NDSH.Database
+  id: Database
+  parent: NDSH
+  children:
+  - NDSH.Database.DatabaseConnectionInfo
+  - NDSH.Database.Entities
+  - NDSH.Database.PostgreSqlConnectionInfo
+  - NDSH.Database.SqliteConnectionInfo
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Database
+  nameWithType: NDSH.Database
+  fullName: NDSH.Database
+  type: Namespace
+  assemblies:
+  - NDSH.Database
+references:
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: NDSH.Database.DatabaseConnectionInfo
+  commentId: T:NDSH.Database.DatabaseConnectionInfo
+  parent: NDSH.Database
+  href: NDSH.Database.DatabaseConnectionInfo.html
+  name: DatabaseConnectionInfo
+  nameWithType: DatabaseConnectionInfo
+  fullName: NDSH.Database.DatabaseConnectionInfo
+- uid: NDSH.Database.PostgreSqlConnectionInfo
+  commentId: T:NDSH.Database.PostgreSqlConnectionInfo
+  href: NDSH.Database.PostgreSqlConnectionInfo.html
+  name: PostgreSqlConnectionInfo
+  nameWithType: PostgreSqlConnectionInfo
+  fullName: NDSH.Database.PostgreSqlConnectionInfo
+- uid: NDSH.Database.SqliteConnectionInfo
+  commentId: T:NDSH.Database.SqliteConnectionInfo
+  href: NDSH.Database.SqliteConnectionInfo.html
+  name: SqliteConnectionInfo
+  nameWithType: SqliteConnectionInfo
+  fullName: NDSH.Database.SqliteConnectionInfo
+- uid: NDSH.Database
+  commentId: N:NDSH.Database
+  href: NDSH.html
+  name: NDSH.Database
+  nameWithType: NDSH.Database
+  fullName: NDSH.Database
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html

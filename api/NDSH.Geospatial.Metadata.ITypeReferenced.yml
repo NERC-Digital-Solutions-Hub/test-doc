@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced
+  commentId: T:NDSH.Geospatial.Metadata.ITypeReferenced
+  id: ITypeReferenced
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata
+  langs:
+  - csharp
+  - vb
+  name: ITypeReferenced
+  nameWithType: ITypeReferenced
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ITypeReferenced.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ITypeReferenced
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ITypeReferenced.cs
+    startLine: 32
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Indicates if a <xref href="NDSH.Geospatial.Metadata.MetadataObject" data-throw-if-not-resolved="false"></xref> provides a
+
+    <xref href="NDSH.Geospatial.Metadata.TypeReferenceMetadata?text=union+reference" data-throw-if-not-resolved="false"></xref> of
+
+    <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref> or <xref href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface ITypeReferenced
+    content.vb: Public Interface ITypeReferenced
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata
+  commentId: P:NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata
+  id: TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata.ITypeReferenced
+  langs:
+  - csharp
+  - vb
+  name: TypeReferenceMetadata
+  nameWithType: ITypeReferenced.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ITypeReferenced.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TypeReferenceMetadata
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/ITypeReferenced.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: Gets/Sets the <xref href="NDSH.Geospatial.Metadata.TypeReferenceMetadata?text=union+reference" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: TypeReferenceMetadata? TypeReferenceMetadata { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.TypeReferenceMetadata
+    content.vb: Property TypeReferenceMetadata As TypeReferenceMetadata
+  overload: NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata*
+references:
+- uid: NDSH.Geospatial.Metadata.MetadataObject
+  commentId: T:NDSH.Geospatial.Metadata.MetadataObject
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MetadataObject.html
+  name: MetadataObject
+  nameWithType: MetadataObject
+  fullName: NDSH.Geospatial.Metadata.MetadataObject
+- uid: NDSH.Geospatial.Metadata.TypeReferenceMetadata
+  commentId: T:NDSH.Geospatial.Metadata.TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.TypeReferenceMetadata.html
+  name: TypeReferenceMetadata
+  nameWithType: TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.TypeReferenceMetadata
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceEntity
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ReferenceEntity.html
+  name: ReferenceEntity
+  nameWithType: ReferenceEntity
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity
+- uid: NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity
+  commentId: T:NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity
+  parent: NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity.html
+  name: NilReasonEntity
+  nameWithType: NilReasonEntity
+  fullName: NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Gml.BasicTypes.html
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata*
+  commentId: Overload:NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata
+  href: NDSH.Geospatial.Metadata.ITypeReferenced.html#NDSH_Geospatial_Metadata_ITypeReferenced_TypeReferenceMetadata
+  name: TypeReferenceMetadata
+  nameWithType: ITypeReferenced.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced.TypeReferenceMetadata

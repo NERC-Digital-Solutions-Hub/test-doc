@@ -1,0 +1,2151 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  id: CI_Citation_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  children:
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals(System.Object)
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+  - NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+  langs:
+  - csharp
+  - vb
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CI_Citation_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 80
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Standardized resource reference.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("CI_Citation")]
+
+      public class CI_Citation_Type : MetadataObject, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable<CI_Citation_Type>
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("CI_Citation")>
+
+      Public Class CI_Citation_Type Inherits MetadataObject Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable(Of CI_Citation_Type)
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  - NDSH.Geospatial.Metadata.MetadataObject
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Metadata.IObjectIdentification
+  - NDSH.Geospatial.Metadata.INullableId
+  - NDSH.Geospatial.Metadata.INullableUuid
+  - NDSH.Geospatial.Metadata.ITypeReferenced
+  - System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.MetadataObject.Id
+  - NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  - NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CI_Citation
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: CI_Citation_Type()
+  nameWithType: CI_Citation_Type.CI_Citation_Type()
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CI_Citation_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 91
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public CI_Citation_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor*
+  nameWithType.vb: CI_Citation_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+  id: Title
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: CI_Citation_Type.Title
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Title
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 119
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Name by which the cited resource is known.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("title", Order = 0)]
+
+      public CharacterString Title { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("title", Order:=0)>
+
+      Public Property Title As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: title
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+  id: AlternateTitle
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: AlternateTitle
+  nameWithType: CI_Citation_Type.AlternateTitle
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AlternateTitle
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Short name or other language name by which the cited information is known.
+  example:
+  - "\"DCW\" as an alternative title for \"Digital Chart of the World”"
+  syntax:
+    content: >-
+      [JsonProperty("alternateTitle", Order = 1)]
+
+      public ObservableCollection<CharacterString>? AlternateTitle { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+    content.vb: >-
+      <JsonProperty("alternateTitle", Order:=1)>
+
+      Public Property AlternateTitle As ObservableCollection(Of CharacterString)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alternateTitle
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+  id: Date
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: CI_Citation_Type.Date
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Date
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 148
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Reference date for the cited resource.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("date", Order = 2)]
+
+      public ObservableCollection<CI_Date_Type> Date { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_Date_Type}
+    content.vb: >-
+      <JsonProperty("date", Order:=2)>
+
+      Public Property [Date] As ObservableCollection(Of CI_Date_Type)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: date
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+  id: Edition
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Edition
+  nameWithType: CI_Citation_Type.Edition
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Edition
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 162
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Version of the cited resource.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("edition", Order = 3)]
+
+      public CharacterString? Edition { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("edition", Order:=3)>
+
+      Public Property Edition As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: edition
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+  id: EditionDate
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: EditionDate
+  nameWithType: CI_Citation_Type.EditionDate
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: EditionDate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 176
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Date of the edition.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("editionDate", Order = 4)]
+
+      public DateDbEntity? EditionDate { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+    content.vb: >-
+      <JsonProperty("editionDate", Order:=4)>
+
+      Public Property EditionDate As DateDbEntity
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: editionDate
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+  id: Identifier
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: CI_Citation_Type.Identifier
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Identifier
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 190
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Value uniquely identifying an object within a namespace.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("identifier", Order = 5)]
+
+      public ObservableCollection<MD_Identifier_Type>? Identifier { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type}
+    content.vb: >-
+      <JsonProperty("identifier", Order:=5)>
+
+      Public Property Identifier As ObservableCollection(Of MD_Identifier_Type)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: identifier
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+  id: CitedResponsibleParty
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: CitedResponsibleParty
+  nameWithType: CI_Citation_Type.CitedResponsibleParty
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CitedResponsibleParty
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 204
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Name and position information for an individual or organization that is responsible for the resource.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("citedResponsibleParty", Order = 6)]
+
+      public ObservableCollection<CI_ResponsibleParty_Type>? CitedResponsibleParty { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type}
+    content.vb: >-
+      <JsonProperty("citedResponsibleParty", Order:=6)>
+
+      Public Property CitedResponsibleParty As ObservableCollection(Of CI_ResponsibleParty_Type)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: citedResponsibleParty
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+  id: PresentationForm
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: PresentationForm
+  nameWithType: CI_Citation_Type.PresentationForm
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: PresentationForm
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 218
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Mode in which the resource is represented.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("presentationForm", Order = 7)]
+
+      public ObservableCollection<CI_PresentationFormCode_CodeList>? PresentationForm { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList}
+    content.vb: >-
+      <JsonProperty("presentationForm", Order:=7)>
+
+      Public Property PresentationForm As ObservableCollection(Of CI_PresentationFormCode_CodeList)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: presentationForm
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+  id: Series
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Series
+  nameWithType: CI_Citation_Type.Series
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Series
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 232
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Information about the series, or aggregate dataset, of which the dataset is a part.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("series", Order = 8)]
+
+      public CI_Series_Type? Series { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Citation.CI_Series_Type
+    content.vb: >-
+      <JsonProperty("series", Order:=8)>
+
+      Public Property Series As CI_Series_Type
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: series
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+  id: OtherCitationDetails
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: OtherCitationDetails
+  nameWithType: CI_Citation_Type.OtherCitationDetails
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OtherCitationDetails
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 246
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Other information required to complete the citation that is not recorded elsewhere.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("otherCitationDetails", Order = 9)]
+
+      public CharacterString? OtherCitationDetails { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("otherCitationDetails", Order:=9)>
+
+      Public Property OtherCitationDetails As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: otherCitationDetails
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 9
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+  id: CollectiveTitle
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: CollectiveTitle
+  nameWithType: CI_Citation_Type.CollectiveTitle
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CollectiveTitle
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 264
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Common title with holdings note.
+  remarks: >-
+    Title identifies elements of a series collectively, 
+
+    combined with information about what volumes are available at the source cited.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("collectiveTitle", Order = 10)]
+
+      public CharacterString? CollectiveTitle { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("collectiveTitle", Order:=10)>
+
+      Public Property CollectiveTitle As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: collectiveTitle
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 10
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+  id: ISBN
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: ISBN
+  nameWithType: CI_Citation_Type.ISBN
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ISBN
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 278
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: International Standard Book Number.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("ISBN", Order = 11)]
+
+      public CharacterString? ISBN { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("ISBN", Order:=11)>
+
+      Public Property ISBN As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ISBN
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 11
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+  commentId: P:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+  id: ISSN
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: ISSN
+  nameWithType: CI_Citation_Type.ISSN
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ISSN
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 292
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: International Standard Serial Number.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("ISSN", Order = 12)]
+
+      public CharacterString? ISSN { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("ISSN", Order:=12)>
+
+      Public Property ISSN As CharacterString
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ISSN
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 12
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  commentId: M:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  id: CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(CI_Citation_Type?)
+  nameWithType: CI_Citation_Type.CompareTo(CI_Citation_Type?)
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CompareTo
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 316
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: >-
+    Compares this instance to another <xref href="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type" data-throw-if-not-resolved="false"></xref> instance.
+
+    <br />
+
+    The two instances are considered <b>equal</b> if all their properties are <b>equal</b>.
+  example: []
+  syntax:
+    content: public int CompareTo(CI_Citation_Type? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+      description: The other <xref href="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type" data-throw-if-not-resolved="false"></xref> to compare with.
+    return:
+      type: System.Int32
+      description: >-
+        An <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> representing the result of the comparison:
+
+        <ul><li><span class="term">0</span></li><li><span class="term">1</span></li><li><span class="term">-1</span></li></ul>
+    content.vb: Public Function CompareTo(other As CI_Citation_Type) As Integer
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo*
+  implements:
+  - System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  nameWithType.vb: CI_Citation_Type.CompareTo(CI_Citation_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  name.vb: CompareTo(CI_Citation_Type)
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals(System.Object)
+  commentId: M:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: CI_Citation_Type.Equals(object?)
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Equals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 338
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Determines whether the specified object is equal to the current object.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to compare with the current object.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals*
+  nameWithType.vb: CI_Citation_Type.Equals(Object)
+  fullName.vb: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode
+  commentId: M:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode
+  id: GetHashCode
+  parent: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: CI_Citation_Type.GetHashCode()
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetHashCode
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Citation/CI_Citation_Type.cs
+    startLine: 358
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Citation
+  summary: Serves as the default hash function.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: A hash code for the current object.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode*
+references:
+- uid: NDSH.Geospatial.Metadata.Citation
+  commentId: N:NDSH.Geospatial.Metadata.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Citation
+  nameWithType: NDSH.Geospatial.Metadata.Citation
+  fullName: NDSH.Geospatial.Metadata.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Geospatial.Metadata.MetadataObject
+  commentId: T:NDSH.Geospatial.Metadata.MetadataObject
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MetadataObject.html
+  name: MetadataObject
+  nameWithType: MetadataObject
+  fullName: NDSH.Geospatial.Metadata.MetadataObject
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Metadata.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.INullableId
+  commentId: T:NDSH.Geospatial.Metadata.INullableId
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableId.html
+  name: INullableId
+  nameWithType: INullableId
+  fullName: NDSH.Geospatial.Metadata.INullableId
+- uid: NDSH.Geospatial.Metadata.INullableUuid
+  commentId: T:NDSH.Geospatial.Metadata.INullableUuid
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableUuid.html
+  name: INullableUuid
+  nameWithType: INullableUuid
+  fullName: NDSH.Geospatial.Metadata.INullableUuid
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced
+  commentId: T:NDSH.Geospatial.Metadata.ITypeReferenced
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ITypeReferenced.html
+  name: ITypeReferenced
+  nameWithType: ITypeReferenced
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced
+- uid: System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  commentId: T:System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<CI_Citation_Type>
+  nameWithType: IComparable<CI_Citation_Type>
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>
+  nameWithType.vb: IComparable(Of CI_Citation_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  name.vb: IComparable(Of CI_Citation_Type)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Id
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Id
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Id
+  name: Id
+  nameWithType: MetadataObject.Id
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Id
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Uuid
+  name: Uuid
+  nameWithType: MetadataObject.Uuid
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+- uid: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_TypeReferenceMetadata
+  name: TypeReferenceMetadata
+  nameWithType: MetadataObject.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.#ctor
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type__ctor
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type.CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CI_Citation_Type
+  nameWithType.vb: CI_Citation_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Title
+  name: Title
+  nameWithType: CI_Citation_Type.Title
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Title
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  name: CharacterString
+  nameWithType: CharacterString
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_AlternateTitle
+  name: AlternateTitle
+  nameWithType: CI_Citation_Type.AlternateTitle
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.AlternateTitle
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CharacterString>
+  nameWithType: ObservableCollection<CharacterString>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString>
+  nameWithType.vb: ObservableCollection(Of CharacterString)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString)
+  name.vb: ObservableCollection(Of CharacterString)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Date
+  name: Date
+  nameWithType: CI_Citation_Type.Date
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Date
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_Date_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_Date_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CI_Date_Type>
+  nameWithType: ObservableCollection<CI_Date_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Citation.CI_Date_Type>
+  nameWithType.vb: ObservableCollection(Of CI_Date_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Citation.CI_Date_Type)
+  name.vb: ObservableCollection(Of CI_Date_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Date_Type
+    name: CI_Date_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Date_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Date_Type
+    name: CI_Date_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Date_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Edition
+  name: Edition
+  nameWithType: CI_Citation_Type.Edition
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Edition
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_EditionDate
+  name: EditionDate
+  nameWithType: CI_Citation_Type.EditionDate
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.EditionDate
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity.html
+  name: DateDbEntity
+  nameWithType: DateDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Identifier
+  name: Identifier
+  nameWithType: CI_Citation_Type.Identifier
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Identifier
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<MD_Identifier_Type>
+  nameWithType: ObservableCollection<MD_Identifier_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type>
+  nameWithType.vb: ObservableCollection(Of MD_Identifier_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type)
+  name.vb: ObservableCollection(Of MD_Identifier_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+    name: MD_Identifier_Type
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+    name: MD_Identifier_Type
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_CitedResponsibleParty
+  name: CitedResponsibleParty
+  nameWithType: CI_Citation_Type.CitedResponsibleParty
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CitedResponsibleParty
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CI_ResponsibleParty_Type>
+  nameWithType: ObservableCollection<CI_ResponsibleParty_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type>
+  nameWithType.vb: ObservableCollection(Of CI_ResponsibleParty_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type)
+  name.vb: ObservableCollection(Of CI_ResponsibleParty_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type
+    name: CI_ResponsibleParty_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type
+    name: CI_ResponsibleParty_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_PresentationForm
+  name: PresentationForm
+  nameWithType: CI_Citation_Type.PresentationForm
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.PresentationForm
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CI_PresentationFormCode_CodeList>
+  nameWithType: ObservableCollection<CI_PresentationFormCode_CodeList>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList>
+  nameWithType.vb: ObservableCollection(Of CI_PresentationFormCode_CodeList)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList)
+  name.vb: ObservableCollection(Of CI_PresentationFormCode_CodeList)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList
+    name: CI_PresentationFormCode_CodeList
+    href: NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList
+    name: CI_PresentationFormCode_CodeList
+    href: NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Series
+  name: Series
+  nameWithType: CI_Citation_Type.Series
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Series
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Series_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_Series_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  href: NDSH.Geospatial.Metadata.Citation.CI_Series_Type.html
+  name: CI_Series_Type
+  nameWithType: CI_Series_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Series_Type
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_OtherCitationDetails
+  name: OtherCitationDetails
+  nameWithType: CI_Citation_Type.OtherCitationDetails
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.OtherCitationDetails
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_CollectiveTitle
+  name: CollectiveTitle
+  nameWithType: CI_Citation_Type.CollectiveTitle
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CollectiveTitle
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_ISBN
+  name: ISBN
+  nameWithType: CI_Citation_Type.ISBN
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISBN
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_ISSN
+  name: ISSN
+  nameWithType: CI_Citation_Type.ISSN
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.ISSN
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_CompareTo_NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_
+  name: CompareTo
+  nameWithType: CI_Citation_Type.CompareTo
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.CompareTo
+- uid: System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  commentId: M:System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  parent: System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(CI_Citation_Type)
+  nameWithType: IComparable<CI_Citation_Type>.CompareTo(CI_Citation_Type)
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.Citation.CI_Citation_Type>.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  nameWithType.vb: IComparable(Of CI_Citation_Type).CompareTo(CI_Citation_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.Citation.CI_Citation_Type).CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+  spec.csharp:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.Citation.CI_Citation_Type}.CompareTo(NDSH.Geospatial.Metadata.Citation.CI_Citation_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    name: CI_Citation_Type
+    href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  - name: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_Equals_System_Object_
+  name: Equals
+  nameWithType: CI_Citation_Type.Equals
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode*
+  commentId: Overload:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html#NDSH_Geospatial_Metadata_Citation_CI_Citation_Type_GetHashCode
+  name: GetHashCode
+  nameWithType: CI_Citation_Type.GetHashCode
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.GetHashCode

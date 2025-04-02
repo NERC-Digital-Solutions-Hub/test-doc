@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  id: IImageCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IImageCoordinateSystem
+  nameWithType: IImageCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Coordinate/Systems/IImageCoordinateSystem.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IImageCoordinateSystem
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Coordinate/Systems/IImageCoordinateSystem.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Coordinate.Systems
+  summary: >-
+    The <xref href="NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem" data-throw-if-not-resolved="false"></xref> is used to define planar or grid-based coordinate systems
+
+    commonly used in engineering or image-related coordinate reference systems.
+  example: []
+  syntax:
+    content: public interface IImageCoordinateSystem
+    content.vb: Public Interface IImageCoordinateSystem
+references:
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem.html
+  name: IImageCoordinateSystem
+  nameWithType: IImageCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Systems
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html

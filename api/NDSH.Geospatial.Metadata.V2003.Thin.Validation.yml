@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Validation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Validation
+  id: Validation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Validation.FractionDigitsAttribute
+  - NDSH.Geospatial.Metadata.V2003.Thin.Validation.MaxDigitsAttribute
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Validation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Validation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Validation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Validation.FractionDigitsAttribute
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Validation.FractionDigitsAttribute
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Validation.FractionDigitsAttribute.html
+  name: FractionDigitsAttribute
+  nameWithType: FractionDigitsAttribute
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Validation.FractionDigitsAttribute
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Validation.MaxDigitsAttribute
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Validation.MaxDigitsAttribute
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Validation.MaxDigitsAttribute.html
+  name: MaxDigitsAttribute
+  nameWithType: MaxDigitsAttribute
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Validation.MaxDigitsAttribute

@@ -1,0 +1,2458 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  id: SV_ServiceIdentification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(System.Object)
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+  langs:
+  - csharp
+  - vb
+  name: SV_ServiceIdentification_Type
+  nameWithType: SV_ServiceIdentification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SV_ServiceIdentification_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 78
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: See 19119 for further info.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("SV_ServiceIdentification")]
+
+      public class SV_ServiceIdentification_Type : AbstractMD_Identification_Type, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable<AbstractMD_Identification_Type>, IEquatable<AbstractMD_Identification_Type>, IComparable<SV_ServiceIdentification_Type>, IEquatable<SV_ServiceIdentification_Type>
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("SV_ServiceIdentification")>
+
+      Public Class SV_ServiceIdentification_Type Inherits AbstractMD_Identification_Type Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable(Of AbstractMD_Identification_Type), IEquatable(Of AbstractMD_Identification_Type), IComparable(Of SV_ServiceIdentification_Type), IEquatable(Of SV_ServiceIdentification_Type)
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  - NDSH.Geospatial.Metadata.MetadataObject
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Metadata.IObjectIdentification
+  - NDSH.Geospatial.Metadata.INullableId
+  - NDSH.Geospatial.Metadata.INullableUuid
+  - NDSH.Geospatial.Metadata.ITypeReferenced
+  - System.IComparable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  - System.IEquatable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  - System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  - System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Citation
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Abstract
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Purpose
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Credit
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Status
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.PointOfContact
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GraphicOverview
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceFormat
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.AggregationInfo
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  - NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  - NDSH.Geospatial.Metadata.MetadataObject.Id
+  - NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  - NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: SV_ServiceIdentification
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: SV_ServiceIdentification_Type()
+  nameWithType: SV_ServiceIdentification_Type.SV_ServiceIdentification_Type()
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.SV_ServiceIdentification_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 89
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public SV_ServiceIdentification_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor*
+  nameWithType.vb: SV_ServiceIdentification_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+  id: ServiceType
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: ServiceType
+  nameWithType: SV_ServiceIdentification_Type.ServiceType
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ServiceType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 109
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("serviceType", Order = 0)]
+
+      public GenericName ServiceType { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName
+    content.vb: >-
+      <JsonProperty("serviceType", Order:=0)>
+
+      Public Property ServiceType As GenericName
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: serviceType
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+  id: ServiceTypeVersion
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: ServiceTypeVersion
+  nameWithType: SV_ServiceIdentification_Type.ServiceTypeVersion
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ServiceTypeVersion
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 118
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("serviceTypeVersion", Order = 1)]
+
+      public ObservableCollection<CharacterString> ServiceTypeVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+    content.vb: >-
+      <JsonProperty("serviceTypeVersion", Order:=1)>
+
+      Public Property ServiceTypeVersion As ObservableCollection(Of CharacterString)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: serviceTypeVersion
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+  id: AccessProperties
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: AccessProperties
+  nameWithType: SV_ServiceIdentification_Type.AccessProperties
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AccessProperties
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 127
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("accessProperties", Order = 2)]
+
+      public MD_StandardOrderProcess_Type AccessProperties { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+    content.vb: >-
+      <JsonProperty("accessProperties", Order:=2)>
+
+      Public Property AccessProperties As MD_StandardOrderProcess_Type
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: accessProperties
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+  id: Restrictions
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: SV_ServiceIdentification_Type.Restrictions
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Restrictions
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 136
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("restrictions", Order = 3)]
+
+      public ObservableCollection<MD_Constraints_Type> Restrictions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type}
+    content.vb: >-
+      <JsonProperty("restrictions", Order:=3)>
+
+      Public Property Restrictions As ObservableCollection(Of MD_Constraints_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: restrictions
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+  id: Keywords
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: Keywords
+  nameWithType: SV_ServiceIdentification_Type.Keywords
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Keywords
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 145
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("keywords", Order = 4)]
+
+      public ObservableCollection<MD_Keywords_Type> Keywords { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type}
+    content.vb: >-
+      <JsonProperty("keywords", Order:=4)>
+
+      Public Property Keywords As ObservableCollection(Of MD_Keywords_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: keywords
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+  id: Extent
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: Extent
+  nameWithType: SV_ServiceIdentification_Type.Extent
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Extent
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 154
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("extent", Order = 5)]
+
+      public ObservableCollection<EX_Extent_Type> Extent { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+    content.vb: >-
+      <JsonProperty("extent", Order:=5)>
+
+      Public Property Extent As ObservableCollection(Of EX_Extent_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: extent
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+  id: CouplingType
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: CouplingType
+  nameWithType: SV_ServiceIdentification_Type.CouplingType
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CouplingType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 163
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("couplingType", Order = 6)]
+
+      public SV_CouplingType_CodeList CouplingType { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+    content.vb: >-
+      <JsonProperty("couplingType", Order:=6)>
+
+      Public Property CouplingType As SV_CouplingType_CodeList
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: couplingType
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+  id: CoupledResource
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: CoupledResource
+  nameWithType: SV_ServiceIdentification_Type.CoupledResource
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CoupledResource
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 172
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("coupledResource", Order = 7)]
+
+      public ObservableCollection<SV_CoupledResource_Type> CoupledResource { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type}
+    content.vb: >-
+      <JsonProperty("coupledResource", Order:=7)>
+
+      Public Property CoupledResource As ObservableCollection(Of SV_CoupledResource_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: coupledResource
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+  id: ContainsOperations
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: ContainsOperations
+  nameWithType: SV_ServiceIdentification_Type.ContainsOperations
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ContainsOperations
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 181
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("containsOperations", Order = 8)]
+
+      public ObservableCollection<SV_OperationMetadata_Type> ContainsOperations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type}
+    content.vb: >-
+      <JsonProperty("containsOperations", Order:=8)>
+
+      Public Property ContainsOperations As ObservableCollection(Of SV_OperationMetadata_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: containsOperations
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+  commentId: P:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+  id: OperatesOn
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: OperatesOn
+  nameWithType: SV_ServiceIdentification_Type.OperatesOn
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: OperatesOn
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 190
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  syntax:
+    content: >-
+      [JsonProperty("operatesOn", Order = 9)]
+
+      public ObservableCollection<MD_DataIdentification_Type> OperatesOn { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type}
+    content.vb: >-
+      <JsonProperty("operatesOn", Order:=9)>
+
+      Public Property OperatesOn As ObservableCollection(Of MD_DataIdentification_Type)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: operatesOn
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 9
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  commentId: M:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  id: CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(SV_ServiceIdentification_Type?)
+  nameWithType: SV_ServiceIdentification_Type.CompareTo(SV_ServiceIdentification_Type?)
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CompareTo
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 216
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: >-
+    Compares this instance to another <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref> instance.
+
+    <br />
+
+    The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.
+  example: []
+  syntax:
+    content: public int CompareTo(SV_ServiceIdentification_Type? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+      description: The other <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Int32
+      description: >-
+        An <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> showing the result of the comparison.
+
+        <ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+    content.vb: Public Function CompareTo(other As SV_ServiceIdentification_Type) As Integer
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo*
+  implements:
+  - System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  nameWithType.vb: SV_ServiceIdentification_Type.CompareTo(SV_ServiceIdentification_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  name.vb: CompareTo(SV_ServiceIdentification_Type)
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  commentId: M:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  id: Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: Equals(SV_ServiceIdentification_Type?)
+  nameWithType: SV_ServiceIdentification_Type.Equals(SV_ServiceIdentification_Type?)
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Equals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 244
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: >-
+    Determines whether the <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref>.
+
+    This will order collections before comparing them.
+  example: []
+  syntax:
+    content: public bool Equals(SV_ServiceIdentification_Type? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+      description: The <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Function Equals(other As SV_ServiceIdentification_Type) As Boolean
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals*
+  implements:
+  - System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  nameWithType.vb: SV_ServiceIdentification_Type.Equals(SV_ServiceIdentification_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  name.vb: Equals(SV_ServiceIdentification_Type)
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(System.Object)
+  commentId: M:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: SV_ServiceIdentification_Type.Equals(object?)
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Equals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 268
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: >-
+    Determines whether the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref>.
+
+    This will order collections before comparing them.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">obj</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(System.Object)
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals*
+  nameWithType.vb: SV_ServiceIdentification_Type.Equals(Object)
+  fullName.vb: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode
+  commentId: M:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode
+  id: GetHashCode
+  parent: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SV_ServiceIdentification_Type.GetHashCode()
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetHashCode
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/Service/Metadata/SV_ServiceIdentification_Type.cs
+    startLine: 277
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.Service.Metadata
+  summary: >-
+    Gets the hash code for the <xref href="NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type" data-throw-if-not-resolved="false"></xref> using <xref href="NDSH.Hashing.NdshHashCode" data-throw-if-not-resolved="false"></xref>. This will also order 
+
+    collections before hashing them.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode
+  overload: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode*
+references:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata
+  commentId: N:NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Service.Metadata
+  nameWithType: NDSH.Geospatial.Metadata.Service.Metadata
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Geospatial.Metadata.MetadataObject
+  commentId: T:NDSH.Geospatial.Metadata.MetadataObject
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MetadataObject.html
+  name: MetadataObject
+  nameWithType: MetadataObject
+  fullName: NDSH.Geospatial.Metadata.MetadataObject
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  parent: NDSH.Geospatial.Metadata.Identification
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  name: AbstractMD_Identification_Type
+  nameWithType: AbstractMD_Identification_Type
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Metadata.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.INullableId
+  commentId: T:NDSH.Geospatial.Metadata.INullableId
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableId.html
+  name: INullableId
+  nameWithType: INullableId
+  fullName: NDSH.Geospatial.Metadata.INullableId
+- uid: NDSH.Geospatial.Metadata.INullableUuid
+  commentId: T:NDSH.Geospatial.Metadata.INullableUuid
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableUuid.html
+  name: INullableUuid
+  nameWithType: INullableUuid
+  fullName: NDSH.Geospatial.Metadata.INullableUuid
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced
+  commentId: T:NDSH.Geospatial.Metadata.ITypeReferenced
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ITypeReferenced.html
+  name: ITypeReferenced
+  nameWithType: ITypeReferenced
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced
+- uid: System.IComparable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  commentId: T:System.IComparable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<AbstractMD_Identification_Type>
+  nameWithType: IComparable<AbstractMD_Identification_Type>
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type>
+  nameWithType.vb: IComparable(Of AbstractMD_Identification_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  name.vb: IComparable(Of AbstractMD_Identification_Type)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+- uid: System.IEquatable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<AbstractMD_Identification_Type>
+  nameWithType: IEquatable<AbstractMD_Identification_Type>
+  fullName: System.IEquatable<NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type>
+  nameWithType.vb: IEquatable(Of AbstractMD_Identification_Type)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  name.vb: IEquatable(Of AbstractMD_Identification_Type)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+- uid: System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  commentId: T:System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<SV_ServiceIdentification_Type>
+  nameWithType: IComparable<SV_ServiceIdentification_Type>
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type>
+  nameWithType.vb: IComparable(Of SV_ServiceIdentification_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  name.vb: IComparable(Of SV_ServiceIdentification_Type)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+- uid: System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SV_ServiceIdentification_Type>
+  nameWithType: IEquatable<SV_ServiceIdentification_Type>
+  fullName: System.IEquatable<NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type>
+  nameWithType.vb: IEquatable(Of SV_ServiceIdentification_Type)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  name.vb: IEquatable(Of SV_ServiceIdentification_Type)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Citation
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Citation
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Citation
+  name: Citation
+  nameWithType: AbstractMD_Identification_Type.Citation
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Citation
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Abstract
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Abstract
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Abstract
+  name: Abstract
+  nameWithType: AbstractMD_Identification_Type.Abstract
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Abstract
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Purpose
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Purpose
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Purpose
+  name: Purpose
+  nameWithType: AbstractMD_Identification_Type.Purpose
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Purpose
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Credit
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Credit
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Credit
+  name: Credit
+  nameWithType: AbstractMD_Identification_Type.Credit
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Credit
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Status
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Status
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Status
+  name: Status
+  nameWithType: AbstractMD_Identification_Type.Status
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Status
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.PointOfContact
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.PointOfContact
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_PointOfContact
+  name: PointOfContact
+  nameWithType: AbstractMD_Identification_Type.PointOfContact
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.PointOfContact
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_ResourceMaintenance
+  name: ResourceMaintenance
+  nameWithType: AbstractMD_Identification_Type.ResourceMaintenance
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GraphicOverview
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GraphicOverview
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_GraphicOverview
+  name: GraphicOverview
+  nameWithType: AbstractMD_Identification_Type.GraphicOverview
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GraphicOverview
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceFormat
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceFormat
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_ResourceFormat
+  name: ResourceFormat
+  nameWithType: AbstractMD_Identification_Type.ResourceFormat
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceFormat
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_DescriptiveKeywords
+  name: DescriptiveKeywords
+  nameWithType: AbstractMD_Identification_Type.DescriptiveKeywords
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_ResourceSpecificUsage
+  name: ResourceSpecificUsage
+  nameWithType: AbstractMD_Identification_Type.ResourceSpecificUsage
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_ResourceConstraints
+  name: ResourceConstraints
+  nameWithType: AbstractMD_Identification_Type.ResourceConstraints
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.ResourceConstraints
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.AggregationInfo
+  commentId: P:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.AggregationInfo
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_AggregationInfo
+  name: AggregationInfo
+  nameWithType: AbstractMD_Identification_Type.AggregationInfo
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.AggregationInfo
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  commentId: M:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_CompareTo_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  name: CompareTo(AbstractMD_Identification_Type)
+  nameWithType: AbstractMD_Identification_Type.CompareTo(AbstractMD_Identification_Type)
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+    name: CompareTo
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_CompareTo_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.CompareTo(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+    name: CompareTo
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_CompareTo_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  commentId: M:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  name: Equals(AbstractMD_Identification_Type)
+  nameWithType: AbstractMD_Identification_Type.Equals(AbstractMD_Identification_Type)
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+    name: Equals
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type)
+    name: Equals
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+    name: AbstractMD_Identification_Type
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Id
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Id
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Id
+  name: Id
+  nameWithType: MetadataObject.Id
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Id
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Uuid
+  name: Uuid
+  nameWithType: MetadataObject.Uuid
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+- uid: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_TypeReferenceMetadata
+  name: TypeReferenceMetadata
+  nameWithType: MetadataObject.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.Identification
+  commentId: N:NDSH.Geospatial.Metadata.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Identification
+  nameWithType: NDSH.Geospatial.Metadata.Identification
+  fullName: NDSH.Geospatial.Metadata.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.Identification.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  name: SV_ServiceIdentification_Type
+  nameWithType: SV_ServiceIdentification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.#ctor
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type__ctor
+  name: SV_ServiceIdentification_Type
+  nameWithType: SV_ServiceIdentification_Type.SV_ServiceIdentification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.SV_ServiceIdentification_Type
+  nameWithType.vb: SV_ServiceIdentification_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_ServiceType
+  name: ServiceType
+  nameWithType: SV_ServiceIdentification_Type.ServiceType
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceType
+- uid: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName
+  parent: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  href: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName.html
+  name: GenericName
+  nameWithType: GenericName
+  fullName: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.GenericName
+- uid: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  fullName: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Implementation
+    name: Implementation
+    href: NDSH.Geospatial.Common.BasicTypes.Implementation.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+    name: Names
+    href: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Implementation
+    name: Implementation
+    href: NDSH.Geospatial.Common.BasicTypes.Implementation.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Implementation.Names
+    name: Names
+    href: NDSH.Geospatial.Common.BasicTypes.Implementation.Names.html
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_ServiceTypeVersion
+  name: ServiceTypeVersion
+  nameWithType: SV_ServiceIdentification_Type.ServiceTypeVersion
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ServiceTypeVersion
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<CharacterString>
+  nameWithType: ObservableCollection<CharacterString>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString>
+  nameWithType.vb: ObservableCollection(Of CharacterString)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString)
+  name.vb: ObservableCollection(Of CharacterString)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_AccessProperties
+  name: AccessProperties
+  nameWithType: SV_ServiceIdentification_Type.AccessProperties
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.AccessProperties
+- uid: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+  commentId: T:NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+  parent: NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type.html
+  name: MD_StandardOrderProcess_Type
+  nameWithType: MD_StandardOrderProcess_Type
+  fullName: NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type
+- uid: NDSH.Geospatial.Metadata.Distribution
+  commentId: N:NDSH.Geospatial.Metadata.Distribution
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Distribution
+  nameWithType: NDSH.Geospatial.Metadata.Distribution
+  fullName: NDSH.Geospatial.Metadata.Distribution
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.Distribution.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.Distribution.html
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_Restrictions
+  name: Restrictions
+  nameWithType: SV_ServiceIdentification_Type.Restrictions
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Restrictions
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<MD_Constraints_Type>
+  nameWithType: ObservableCollection<MD_Constraints_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type>
+  nameWithType.vb: ObservableCollection(Of MD_Constraints_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type)
+  name.vb: ObservableCollection(Of MD_Constraints_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type
+    name: MD_Constraints_Type
+    href: NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type
+    name: MD_Constraints_Type
+    href: NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_Keywords
+  name: Keywords
+  nameWithType: SV_ServiceIdentification_Type.Keywords
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Keywords
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<MD_Keywords_Type>
+  nameWithType: ObservableCollection<MD_Keywords_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type>
+  nameWithType.vb: ObservableCollection(Of MD_Keywords_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type)
+  name.vb: ObservableCollection(Of MD_Keywords_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type
+    name: MD_Keywords_Type
+    href: NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type
+    name: MD_Keywords_Type
+    href: NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_Extent
+  name: Extent
+  nameWithType: SV_ServiceIdentification_Type.Extent
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Extent
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<EX_Extent_Type>
+  nameWithType: ObservableCollection<EX_Extent_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Extent.EX_Extent_Type>
+  nameWithType.vb: ObservableCollection(Of EX_Extent_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Extent.EX_Extent_Type)
+  name.vb: ObservableCollection(Of EX_Extent_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type
+    name: EX_Extent_Type
+    href: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type
+    name: EX_Extent_Type
+    href: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_CouplingType
+  name: CouplingType
+  nameWithType: SV_ServiceIdentification_Type.CouplingType
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CouplingType
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList.html
+  name: SV_CouplingType_CodeList
+  nameWithType: SV_CouplingType_CodeList
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_CoupledResource
+  name: CoupledResource
+  nameWithType: SV_ServiceIdentification_Type.CoupledResource
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CoupledResource
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<SV_CoupledResource_Type>
+  nameWithType: ObservableCollection<SV_CoupledResource_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type>
+  nameWithType.vb: ObservableCollection(Of SV_CoupledResource_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type)
+  name.vb: ObservableCollection(Of SV_CoupledResource_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+    name: SV_CoupledResource_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+    name: SV_CoupledResource_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_ContainsOperations
+  name: ContainsOperations
+  nameWithType: SV_ServiceIdentification_Type.ContainsOperations
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.ContainsOperations
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<SV_OperationMetadata_Type>
+  nameWithType: ObservableCollection<SV_OperationMetadata_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type>
+  nameWithType.vb: ObservableCollection(Of SV_OperationMetadata_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type)
+  name.vb: ObservableCollection(Of SV_OperationMetadata_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+    name: SV_OperationMetadata_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+    name: SV_OperationMetadata_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_OperatesOn
+  name: OperatesOn
+  nameWithType: SV_ServiceIdentification_Type.OperatesOn
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.OperatesOn
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<MD_DataIdentification_Type>
+  nameWithType: ObservableCollection<MD_DataIdentification_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type>
+  nameWithType.vb: ObservableCollection(Of MD_DataIdentification_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type)
+  name.vb: ObservableCollection(Of MD_DataIdentification_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type
+    name: MD_DataIdentification_Type
+    href: NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type
+    name: MD_DataIdentification_Type
+    href: NDSH.Geospatial.Metadata.Identification.MD_DataIdentification_Type.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_CompareTo_NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_
+  name: CompareTo
+  nameWithType: SV_ServiceIdentification_Type.CompareTo
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.CompareTo
+- uid: System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  commentId: M:System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  parent: System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(SV_ServiceIdentification_Type)
+  nameWithType: IComparable<SV_ServiceIdentification_Type>.CompareTo(SV_ServiceIdentification_Type)
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type>.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  nameWithType.vb: IComparable(Of SV_ServiceIdentification_Type).CompareTo(SV_ServiceIdentification_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type).CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  spec.csharp:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.CompareTo(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_Equals_NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_
+  name: Equals
+  nameWithType: SV_ServiceIdentification_Type.Equals
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.Equals
+- uid: System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  commentId: M:System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  parent: System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(SV_ServiceIdentification_Type)
+  nameWithType: IEquatable<SV_ServiceIdentification_Type>.Equals(SV_ServiceIdentification_Type)
+  fullName: System.IEquatable<NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type>.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  nameWithType.vb: IEquatable(Of SV_ServiceIdentification_Type).Equals(SV_ServiceIdentification_Type)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type).Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+  spec.csharp:
+  - uid: System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type}.Equals(NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+    name: SV_ServiceIdentification_Type
+    href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(System.Object)
+  commentId: M:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(System.Object)
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_System_Object_
+  name: Equals(object)
+  nameWithType: AbstractMD_Identification_Type.Equals(object)
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(object)
+  nameWithType.vb: AbstractMD_Identification_Type.Equals(Object)
+  fullName.vb: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(System.Object)
+    name: Equals
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.Equals(System.Object)
+    name: Equals
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_Equals_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NDSH.Hashing.NdshHashCode
+  commentId: T:NDSH.Hashing.NdshHashCode
+  href: NDSH.Hashing.NdshHashCode.html
+  name: NdshHashCode
+  nameWithType: NdshHashCode
+  fullName: NDSH.Hashing.NdshHashCode
+- uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode
+  commentId: M:NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode
+  parent: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type
+  href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_GetHashCode
+  name: GetHashCode()
+  nameWithType: AbstractMD_Identification_Type.GetHashCode()
+  fullName: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode()
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode
+    name: GetHashCode
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_GetHashCode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.GetHashCode
+    name: GetHashCode
+    href: NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_Identification_AbstractMD_Identification_Type_GetHashCode
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode*
+  commentId: Overload:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html#NDSH_Geospatial_Metadata_Service_Metadata_SV_ServiceIdentification_Type_GetHashCode
+  name: GetHashCode
+  nameWithType: SV_ServiceIdentification_Type.GetHashCode
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.GetHashCode

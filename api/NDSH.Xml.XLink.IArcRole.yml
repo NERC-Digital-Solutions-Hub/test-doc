@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.IArcRole
+  commentId: T:NDSH.Xml.XLink.IArcRole
+  id: IArcRole
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.IArcRole.ArcRole
+  langs:
+  - csharp
+  - vb
+  name: IArcRole
+  nameWithType: IArcRole
+  fullName: NDSH.Xml.XLink.IArcRole
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IArcRole.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IArcRole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IArcRole.cs
+    startLine: 26
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: Provides the contract for the <code>xlink:arcrole</code> attribute.
+  example: []
+  syntax:
+    content: public interface IArcRole
+    content.vb: Public Interface IArcRole
+- uid: NDSH.Xml.XLink.IArcRole.ArcRole
+  commentId: P:NDSH.Xml.XLink.IArcRole.ArcRole
+  id: ArcRole
+  parent: NDSH.Xml.XLink.IArcRole
+  langs:
+  - csharp
+  - vb
+  name: ArcRole
+  nameWithType: IArcRole.ArcRole
+  fullName: NDSH.Xml.XLink.IArcRole.ArcRole
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IArcRole.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ArcRole
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IArcRole.cs
+    startLine: 54
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  summary: >-
+    <p>
+      The <code>xlink:arcrole</code> attribute is used to classify or specify the function
+      of a link in a machine-readable way. It holds a URI that provides semantic meaning
+      to the relationship between resources.
+    </p>
+
+    <p>
+      <b>Uses:</b>
+      <ul><li>
+          The <code>xlink:arcrole</code>attribute is typically used in extended links and arcs
+          to define the nature of relationships between linked resources.
+        </li><li>
+          Used to categorize links in structured XML documents, like financial data,
+          legal references, or scientific publications.
+        </li><li>
+          Used in GIS applications to define topological relationships
+          (e.g., "is next to," "contains," "overlaps").
+        </li><li>Used in financial reporting to define relationships between accounting concepts.</li></ul>
+    </p>
+  remarks: The <code>xlink:arcrole</code> is a semantic attribute.
+  example: []
+  syntax:
+    content: string? ArcRole { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ArcRole As String
+  overload: NDSH.Xml.XLink.IArcRole.ArcRole*
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IArcRole.ArcRole*
+  commentId: Overload:NDSH.Xml.XLink.IArcRole.ArcRole
+  href: NDSH.Xml.XLink.IArcRole.html#NDSH_Xml_XLink_IArcRole_ArcRole
+  name: ArcRole
+  nameWithType: IArcRole.ArcRole
+  fullName: NDSH.Xml.XLink.IArcRole.ArcRole
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

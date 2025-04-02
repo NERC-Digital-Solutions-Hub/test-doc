@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IValue
+  id: IValue
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  langs:
+  - csharp
+  - vb
+  name: IValue
+  nameWithType: IValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IValue
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IValue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IValue.cs
+    startLine: 47
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Represents an interface for defining a standard value property in geospatial metadata.
+
+    This interface ensures that implementing classes provide a structured and serializable
+
+    mechanism for handling values in compliance with the ISO 19115 standard.
+  remarks: >-
+    <p>
+      The <xref href="NDSH.Geospatial.Metadata.V2003.Common.IValue.Value" data-throw-if-not-resolved="false"></xref> property is designed to store textual data that represents
+      a value associated with a metadata entity.
+    </p>
+
+    <p>
+      <b>Considerations:</b>
+      <ul><li>
+          The <xref href="NDSH.Geospatial.Metadata.V2003.Common.IValue.Value" data-throw-if-not-resolved="false"></xref> property is a string and may require validation depending on usage.
+        </li></ul>
+    </p>
+  example: []
+  syntax:
+    content: public interface IValue
+    content.vb: Public Interface IValue
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  id: Value
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IValue
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IValue.Value
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Value
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IValue.cs
+    startLine: 56
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Gets or sets the value associated with a metadata entity.
+
+    This property is designed for XML and JSON serialization and represents a
+
+    standardized textual representation of geospatial metadata values.
+  example: []
+  syntax:
+    content: string? Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Value As String
+  overload: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value*
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IValue
+  href: NDSH.Geospatial.Metadata.V2003.Common.IValue.html#NDSH_Geospatial_Metadata_V2003_Common_IValue_Value
+  name: Value
+  nameWithType: IValue.Value
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IValue
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IValue.html
+  name: IValue
+  nameWithType: IValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IValue
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+  href: NDSH.Geospatial.Metadata.V2003.Common.IValue.html#NDSH_Geospatial_Metadata_V2003_Common_IValue_Value
+  name: Value
+  nameWithType: IValue.Value
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IValue.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

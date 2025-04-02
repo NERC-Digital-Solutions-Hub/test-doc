@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue
+  id: ICodeListValue
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+  langs:
+  - csharp
+  - vb
+  name: ICodeListValue
+  nameWithType: ICodeListValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/ICodeListValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ICodeListValue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/ICodeListValue.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Defines a contract for objects that require a reference to a specific value
+
+    from an external code list. This interface ensures that implementing classes
+
+    provide a structured mechanism for referencing standardized code list values,
+
+    following the ISO 19115 metadata standard.
+  example: []
+  syntax:
+    content: public interface ICodeListValue
+    content.vb: Public Interface ICodeListValue
+- uid: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+  id: CodeListValue
+  parent: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue
+  langs:
+  - csharp
+  - vb
+  name: CodeListValue
+  nameWithType: ICodeListValue.CodeListValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/ICodeListValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CodeListValue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/ICodeListValue.cs
+    startLine: 48
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Gets/Sets the URI reference to a specific value in an external code list.
+
+    This property is required and must be a valid URI,
+
+    ensuring compliance with metadata schema definitions.
+  example: []
+  syntax:
+    content: >-
+      [Required]
+
+      string CodeListValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Property CodeListValue As String
+  overload: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+  href: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.html#NDSH_Geospatial_Metadata_V2003_Common_ICodeListValue_CodeListValue
+  name: CodeListValue
+  nameWithType: ICodeListValue.CodeListValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.ICodeListValue.CodeListValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  id: Coverage
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractContinuousCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractDiscreteCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.CoverageFunctionType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DataBlockType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DomainSetType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileEnumeration
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileValueModelType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridFunctionType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.IncrementOrder
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MappingRuleType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeParametersType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeSetType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridCoverageType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridDomainType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleEnumeration
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractContinuousCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractContinuousCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractContinuousCoverageType.html
+  name: AbstractContinuousCoverageType
+  nameWithType: AbstractContinuousCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractContinuousCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractCoverageType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractCoverageType.html
+  name: AbstractCoverageType
+  nameWithType: AbstractCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractDiscreteCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractDiscreteCoverageType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractDiscreteCoverageType.html
+  name: AbstractDiscreteCoverageType
+  nameWithType: AbstractDiscreteCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.AbstractDiscreteCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.CoverageFunctionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.CoverageFunctionType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.CoverageFunctionType.html
+  name: CoverageFunctionType
+  nameWithType: CoverageFunctionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.CoverageFunctionType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DataBlockType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DataBlockType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DataBlockType.html
+  name: DataBlockType
+  nameWithType: DataBlockType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DataBlockType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DomainSetType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DomainSetType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DomainSetType.html
+  name: DomainSetType
+  nameWithType: DomainSetType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.DomainSetType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileEnumeration.html
+  name: FileEnumeration
+  nameWithType: FileEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileType.html
+  name: FileType
+  nameWithType: FileType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileValueModelType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileValueModelType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileValueModelType.html
+  name: FileValueModelType
+  nameWithType: FileValueModelType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.FileValueModelType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridCoverageType.html
+  name: GridCoverageType
+  nameWithType: GridCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridDomainType.html
+  name: GridDomainType
+  nameWithType: GridDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridFunctionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridFunctionType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridFunctionType.html
+  name: GridFunctionType
+  nameWithType: GridFunctionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.GridFunctionType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.IncrementOrder
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.IncrementOrder
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.IncrementOrder.html
+  name: IncrementOrder
+  nameWithType: IncrementOrder
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.IncrementOrder
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MappingRuleType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MappingRuleType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MappingRuleType.html
+  name: MappingRuleType
+  nameWithType: MappingRuleType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MappingRuleType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveCoverageType.html
+  name: MultiCurveCoverageType
+  nameWithType: MultiCurveCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveDomainType.html
+  name: MultiCurveDomainType
+  nameWithType: MultiCurveDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiCurveDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointCoverageType.html
+  name: MultiPointCoverageType
+  nameWithType: MultiPointCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointDomainType.html
+  name: MultiPointDomainType
+  nameWithType: MultiPointDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiPointDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidCoverageType.html
+  name: MultiSolidCoverageType
+  nameWithType: MultiSolidCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidDomainType.html
+  name: MultiSolidDomainType
+  nameWithType: MultiSolidDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSolidDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceCoverageType.html
+  name: MultiSurfaceCoverageType
+  nameWithType: MultiSurfaceCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceDomainType.html
+  name: MultiSurfaceDomainType
+  nameWithType: MultiSurfaceDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.MultiSurfaceDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeParametersType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeParametersType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeParametersType.html
+  name: RangeParametersType
+  nameWithType: RangeParametersType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeParametersType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeSetType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeSetType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeSetType.html
+  name: RangeSetType
+  nameWithType: RangeSetType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RangeSetType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridCoverageType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridCoverageType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridCoverageType.html
+  name: RectifiedGridCoverageType
+  nameWithType: RectifiedGridCoverageType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridCoverageType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridDomainType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridDomainType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridDomainType.html
+  name: RectifiedGridDomainType
+  nameWithType: RectifiedGridDomainType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.RectifiedGridDomainType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleEnumeration.html
+  name: SequenceRuleEnumeration
+  nameWithType: SequenceRuleEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleType.html
+  name: SequenceRuleType
+  nameWithType: SequenceRuleType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.SequenceRuleType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+    name: Coverage
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage
+    name: Coverage
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coverage.html

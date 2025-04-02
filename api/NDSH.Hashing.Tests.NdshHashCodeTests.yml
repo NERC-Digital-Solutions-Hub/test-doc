@@ -1,0 +1,542 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests
+  commentId: T:NDSH.Hashing.Tests.NdshHashCodeTests
+  id: NdshHashCodeTests
+  parent: NDSH.Hashing.Tests
+  children:
+  - NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  - NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  - NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  - NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  - NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  langs:
+  - csharp
+  - vb
+  name: NdshHashCodeTests
+  nameWithType: NdshHashCodeTests
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: NdshHashCodeTests
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 8
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: Tests for the <xref href="NDSH.Hashing.NdshHashCode" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public class NdshHashCodeTests
+    content.vb: Public Class NdshHashCodeTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  commentId: M:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  id: ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  parent: NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual()
+  nameWithType: NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual()
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 13
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: Tests if two models have the same hash code when their values are the same.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual()
+  overload: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  commentId: M:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  id: ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  parent: NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual()
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual()
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: Tests if two models have different hash code when their values are different.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual()
+  overload: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  commentId: M:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  id: ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  parent: NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual()
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual()
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 42
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: >-
+    Tests if two models have the same hash code when their values are the same but in different order.
+
+    While model a and model b have the same values, they are not equal because the order of the values is different.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual()
+  overload: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  commentId: M:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  id: ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  parent: NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual()
+  nameWithType: NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual()
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 56
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: Tests if two models have the same hash code when their values are reference types with the same values.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual()
+  overload: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  commentId: M:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  id: ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  parent: NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual()
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual()
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Hashing/tests/Hashing/Tests/NdshHashCodeTests.cs
+    startLine: 77
+  assemblies:
+  - NDSH.Hashing.Tests
+  namespace: NDSH.Hashing.Tests
+  summary: Tests if two models have different hash code when their values are reference types with different values.
+  example: []
+  syntax:
+    content: >-
+      [Fact]
+
+      public void ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual()
+    content.vb: >-
+      <Fact>
+
+      Public Sub ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual()
+  overload: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Hashing.NdshHashCode
+  commentId: T:NDSH.Hashing.NdshHashCode
+  href: NDSH.Hashing.NdshHashCode.html
+  name: NdshHashCode
+  nameWithType: NdshHashCode
+  fullName: NDSH.Hashing.NdshHashCode
+- uid: NDSH.Hashing.Tests
+  commentId: N:NDSH.Hashing.Tests
+  href: NDSH.html
+  name: NDSH.Hashing.Tests
+  nameWithType: NDSH.Hashing.Tests
+  fullName: NDSH.Hashing.Tests
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual*
+  commentId: Overload:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html#NDSH_Hashing_Tests_NdshHashCodeTests_ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  name: ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  nameWithType: NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreTheSame_IsEqual
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual*
+  commentId: Overload:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html#NDSH_Hashing_Tests_NdshHashCodeTests_ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  name: ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesDifferent_IsNotEqual
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual*
+  commentId: Overload:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html#NDSH_Hashing_Tests_NdshHashCodeTests_ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  name: ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreSameButOrderIsDifferent_IsNotEqual
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual*
+  commentId: Overload:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html#NDSH_Hashing_Tests_NdshHashCodeTests_ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  name: ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  nameWithType: NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveSameHashCode_WhenValuesAreReferenceTypesWithSameValues_IsEqual
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual*
+  commentId: Overload:NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html#NDSH_Hashing_Tests_NdshHashCodeTests_ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  name: ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  nameWithType: NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests.ModelsHaveDifferentHashCode_WhenValuesAreReferenceTypesWithDifferentValues_IsNotEqual

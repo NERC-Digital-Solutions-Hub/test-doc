@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  id: IObjectIdentification
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IObjectIdentification.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IObjectIdentification
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IObjectIdentification.cs
+    startLine: 55
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Provides a standardized interface for identifying metadata objects with both
+
+    a unique local identifier and a globally unique UUID, ensuring interoperability
+
+    across different datasets and systems.
+  remarks: >-
+    <p>
+      This interface extends both <xref href="NDSH.Geospatial.Metadata.V2003.Common.IId" data-throw-if-not-resolved="false"></xref> and <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuid" data-throw-if-not-resolved="false"></xref>, integrating
+      both a locally unique XML identifier and a universally unique identifier (UUID)
+      for metadata objects following the ISO 19115 standard.
+    </p>
+
+    <p>
+      <b>Key Features:</b>
+      <ul><li>Combines local XML ID uniqueness with a globally unique UUID.</li><li>Facilitates interoperability across metadata repositories.</li><li>Ensures compliance with the gcoBase XSD schema.</li></ul>
+    </p>
+
+    <p>
+      <b>Considerations:</b>
+      <ul><li>
+          Implementing classes must provide valid values for both
+          <xref href="NDSH.Geospatial.Metadata.V2003.Common.IId.Id" data-throw-if-not-resolved="false"></xref> and <xref href="NDSH.Geospatial.Metadata.V2003.Common.IUuid.Uuid" data-throw-if-not-resolved="false"></xref>.
+        </li><li>
+          The <code>id</code> attribute must be unique within an XML document,
+          while <code>uuid</code> should be globally unique.
+        </li></ul>
+    </p>
+  example: []
+  syntax:
+    content: 'public interface IObjectIdentification : IId, IUuid'
+    content.vb: Public Interface IObjectIdentification Inherits IId, IUuid
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  - NDSH.Geospatial.Metadata.V2003.Common.IUuid.Uuid
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IId
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuid.html
+  name: IUuid
+  nameWithType: IUuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuid
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IId
+  href: NDSH.Geospatial.Metadata.V2003.Common.IId.html#NDSH_Geospatial_Metadata_V2003_Common_IId_Id
+  name: Id
+  nameWithType: IId.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuid.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IUuid.Uuid
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuid.html#NDSH_Geospatial_Metadata_V2003_Common_IUuid_Uuid
+  name: Uuid
+  nameWithType: IUuid.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuid.Uuid
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html

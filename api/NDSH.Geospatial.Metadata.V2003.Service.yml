@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Service
+  id: Service
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  - NDSH.Geospatial.Metadata.V2003.Service.Model
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Service
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  fullName: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.V2003.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.V2003.Service.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.V2003.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.V2003.Service.Metadata.html
+- uid: NDSH.Geospatial.Metadata.V2003.Service.Model
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Service.Model
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Service.Model
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Service.Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Service.Model
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.V2003.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.V2003.Service.Model.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.V2003.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Service.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.V2003.Service.Model.html

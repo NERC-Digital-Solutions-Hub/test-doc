@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  id: Extended
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema
+  children:
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType.html
+  name: Anchor_PropertyType
+  nameWithType: Anchor_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_Type.html
+  name: Anchor_Type
+  nameWithType: Anchor_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType.html
+  name: FileName_PropertyType
+  nameWithType: FileName_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_Type.html
+  name: FileName_Type
+  nameWithType: FileName_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType.html
+  name: MimeFileType_PropertyType
+  nameWithType: MimeFileType_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_Type.html
+  name: MimeFileType_Type
+  nameWithType: MimeFileType_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+    name: Extended
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended
+    name: Extended
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.html

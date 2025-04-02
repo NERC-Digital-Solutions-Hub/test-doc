@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  id: BasicTypes
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.Boolean
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeWithAuthorityType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CoordinatesType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.MeasureListType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.NilReasonEnumeration
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.Boolean
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.Boolean
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.Boolean.html
+  name: Boolean
+  nameWithType: Boolean
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.Boolean
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeType.html
+  name: CodeType
+  nameWithType: CodeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeWithAuthorityType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeWithAuthorityType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeWithAuthorityType.html
+  name: CodeWithAuthorityType
+  nameWithType: CodeWithAuthorityType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CodeWithAuthorityType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CoordinatesType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CoordinatesType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CoordinatesType.html
+  name: CoordinatesType
+  nameWithType: CoordinatesType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.CoordinatesType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.MeasureListType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.MeasureListType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.MeasureListType.html
+  name: MeasureListType
+  nameWithType: MeasureListType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.MeasureListType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.NilReasonEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.NilReasonEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.NilReasonEnumeration.html
+  name: NilReasonEnumeration
+  nameWithType: NilReasonEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.NilReasonEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType.html
+  name: SignType
+  nameWithType: SignType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.html

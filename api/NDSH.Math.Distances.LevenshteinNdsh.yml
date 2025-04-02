@@ -1,0 +1,1249 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Math.Distances.LevenshteinNdsh
+  commentId: T:NDSH.Math.Distances.LevenshteinNdsh
+  id: LevenshteinNdsh
+  parent: NDSH.Math.Distances
+  children:
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Byte[],System.Byte[])
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Char[],System.Char[])
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Byte},System.Span{System.Byte})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Char},System.Span{System.Char})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.Span{System.Char},System.Span{System.Char})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.String,System.String)
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Byte[],System.Byte[])
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Span{System.Byte},System.Span{System.Byte})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Byte[],System.Byte[])
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  - NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Span{System.Byte},System.Span{System.Byte})
+  langs:
+  - csharp
+  - vb
+  name: LevenshteinNdsh
+  nameWithType: LevenshteinNdsh
+  fullName: NDSH.Math.Distances.LevenshteinNdsh
+  type: Struct
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LevenshteinNdsh
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 18
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public struct LevenshteinNdsh
+    content.vb: Public Structure LevenshteinNdsh
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Byte[],System.Byte[])
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Byte[],System.Byte[])
+  id: DistanceUtf8(System.Byte[],System.Byte[])
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8(byte[], byte[])
+  nameWithType: LevenshteinNdsh.DistanceUtf8(byte[], byte[])
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 27
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8(byte[] s, byte[] t)
+    parameters:
+    - id: s
+      type: System.Byte[]
+      description: ''
+    - id: t
+      type: System.Byte[]
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8(s As Byte(), t As Byte()) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8(Byte(), Byte())
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(Byte(), Byte())
+  name.vb: DistanceUtf8(Byte(), Byte())
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  id: DistanceUtf8(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf8(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.ReadOnlySpan<byte>, System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 84
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8(ReadOnlySpan<byte> s, ReadOnlySpan<byte> t)
+    parameters:
+    - id: s
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    - id: t
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8(s As ReadOnlySpan(Of Byte), t As ReadOnlySpan(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.ReadOnlySpan(Of Byte), System.ReadOnlySpan(Of Byte))
+  name.vb: DistanceUtf8(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Span{System.Byte},System.Span{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Span{System.Byte},System.Span{System.Byte})
+  id: DistanceUtf8(System.Span{System.Byte},System.Span{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8(Span<byte>, Span<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf8(Span<byte>, Span<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Span<byte>, System.Span<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 140
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8(Span<byte> s, Span<byte> t)
+    parameters:
+    - id: s
+      type: System.Span{System.Byte}
+      description: ''
+    - id: t
+      type: System.Span{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8(s As Span(Of Byte), t As Span(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8(Span(Of Byte), Span(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8(System.Span(Of Byte), System.Span(Of Byte))
+  name.vb: DistanceUtf8(Span(Of Byte), Span(Of Byte))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Byte[],System.Byte[])
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Byte[],System.Byte[])
+  id: DistanceUtf16(System.Byte[],System.Byte[])
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(byte[], byte[])
+  nameWithType: LevenshteinNdsh.DistanceUtf16(byte[], byte[])
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 197
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(byte[] s, byte[] t)
+    parameters:
+    - id: s
+      type: System.Byte[]
+      description: ''
+    - id: t
+      type: System.Byte[]
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As Byte(), t As Byte()) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(Byte(), Byte())
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(Byte(), Byte())
+  name.vb: DistanceUtf16(Byte(), Byte())
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  id: DistanceUtf16(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan<byte>, System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 271
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(ReadOnlySpan<byte> s, ReadOnlySpan<byte> t)
+    parameters:
+    - id: s
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    - id: t
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As ReadOnlySpan(Of Byte), t As ReadOnlySpan(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan(Of Byte), System.ReadOnlySpan(Of Byte))
+  name.vb: DistanceUtf16(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Byte},System.Span{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Byte},System.Span{System.Byte})
+  id: DistanceUtf16(System.Span{System.Byte},System.Span{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(Span<byte>, Span<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16(Span<byte>, Span<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span<byte>, System.Span<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 342
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(Span<byte> s, Span<byte> t)
+    parameters:
+    - id: s
+      type: System.Span{System.Byte}
+      description: ''
+    - id: t
+      type: System.Span{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As Span(Of Byte), t As Span(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(Span(Of Byte), Span(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span(Of Byte), System.Span(Of Byte))
+  name.vb: DistanceUtf16(Span(Of Byte), Span(Of Byte))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Char[],System.Char[])
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Char[],System.Char[])
+  id: DistanceUtf16(System.Char[],System.Char[])
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(char[], char[])
+  nameWithType: LevenshteinNdsh.DistanceUtf16(char[], char[])
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(char[], char[])
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 412
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(char[] s, char[] t)
+    parameters:
+    - id: s
+      type: System.Char[]
+      description: ''
+    - id: t
+      type: System.Char[]
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As Char(), t As Char()) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(Char(), Char())
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(Char(), Char())
+  name.vb: DistanceUtf16(Char(), Char())
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  id: DistanceUtf16(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(ReadOnlySpan<char>, ReadOnlySpan<char>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16(ReadOnlySpan<char>, ReadOnlySpan<char>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan<char>, System.ReadOnlySpan<char>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 469
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(ReadOnlySpan<char> s, ReadOnlySpan<char> t)
+    parameters:
+    - id: s
+      type: System.ReadOnlySpan{System.Char}
+      description: ''
+    - id: t
+      type: System.ReadOnlySpan{System.Char}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As ReadOnlySpan(Of Char), t As ReadOnlySpan(Of Char)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.ReadOnlySpan(Of Char), System.ReadOnlySpan(Of Char))
+  name.vb: DistanceUtf16(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Char},System.Span{System.Char})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span{System.Char},System.Span{System.Char})
+  id: DistanceUtf16(System.Span{System.Char},System.Span{System.Char})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16(Span<char>, Span<char>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16(Span<char>, Span<char>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span<char>, System.Span<char>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 521
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16(Span<char> s, Span<char> t)
+    parameters:
+    - id: s
+      type: System.Span{System.Char}
+      description: ''
+    - id: t
+      type: System.Span{System.Char}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16(s As Span(Of Char), t As Span(Of Char)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16(Span(Of Char), Span(Of Char))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16(System.Span(Of Char), System.Span(Of Char))
+  name.vb: DistanceUtf16(Span(Of Char), Span(Of Char))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.String,System.String)
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.String,System.String)
+  id: DistanceUtf16BitShift(System.String,System.String)
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16BitShift(string, string)
+  nameWithType: LevenshteinNdsh.DistanceUtf16BitShift(string, string)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(string, string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 573
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16BitShift(string s, string t)
+    parameters:
+    - id: s
+      type: System.String
+      description: ''
+    - id: t
+      type: System.String
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16BitShift(s As String, t As String) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16BitShift(String, String)
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(String, String)
+  name.vb: DistanceUtf16BitShift(String, String)
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  id: DistanceUtf16BitShift(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16BitShift(ReadOnlySpan<char>, ReadOnlySpan<char>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16BitShift(ReadOnlySpan<char>, ReadOnlySpan<char>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.ReadOnlySpan<char>, System.ReadOnlySpan<char>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 610
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16BitShift(ReadOnlySpan<char> s, ReadOnlySpan<char> t)
+    parameters:
+    - id: s
+      type: System.ReadOnlySpan{System.Char}
+      description: ''
+    - id: t
+      type: System.ReadOnlySpan{System.Char}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16BitShift(s As ReadOnlySpan(Of Char), t As ReadOnlySpan(Of Char)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16BitShift(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.ReadOnlySpan(Of Char), System.ReadOnlySpan(Of Char))
+  name.vb: DistanceUtf16BitShift(ReadOnlySpan(Of Char), ReadOnlySpan(Of Char))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.Span{System.Char},System.Span{System.Char})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.Span{System.Char},System.Span{System.Char})
+  id: DistanceUtf16BitShift(System.Span{System.Char},System.Span{System.Char})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf16BitShift(Span<char>, Span<char>)
+  nameWithType: LevenshteinNdsh.DistanceUtf16BitShift(Span<char>, Span<char>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.Span<char>, System.Span<char>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf16BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 647
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf16BitShift(Span<char> s, Span<char> t)
+    parameters:
+    - id: s
+      type: System.Span{System.Char}
+      description: ''
+    - id: t
+      type: System.Span{System.Char}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf16BitShift(s As Span(Of Char), t As Span(Of Char)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf16BitShift(Span(Of Char), Span(Of Char))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift(System.Span(Of Char), System.Span(Of Char))
+  name.vb: DistanceUtf16BitShift(Span(Of Char), Span(Of Char))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Byte[],System.Byte[])
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Byte[],System.Byte[])
+  id: DistanceUtf8BitShift(System.Byte[],System.Byte[])
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8BitShift(byte[], byte[])
+  nameWithType: LevenshteinNdsh.DistanceUtf8BitShift(byte[], byte[])
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(byte[], byte[])
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 684
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8BitShift(byte[] s, byte[] t)
+    parameters:
+    - id: s
+      type: System.Byte[]
+      description: ''
+    - id: t
+      type: System.Byte[]
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8BitShift(s As Byte(), t As Byte()) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8BitShift(Byte(), Byte())
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(Byte(), Byte())
+  name.vb: DistanceUtf8BitShift(Byte(), Byte())
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  id: DistanceUtf8BitShift(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8BitShift(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf8BitShift(ReadOnlySpan<byte>, ReadOnlySpan<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.ReadOnlySpan<byte>, System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 736
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8BitShift(ReadOnlySpan<byte> s, ReadOnlySpan<byte> t)
+    parameters:
+    - id: s
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    - id: t
+      type: System.ReadOnlySpan{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8BitShift(s As ReadOnlySpan(Of Byte), t As ReadOnlySpan(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8BitShift(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.ReadOnlySpan(Of Byte), System.ReadOnlySpan(Of Byte))
+  name.vb: DistanceUtf8BitShift(ReadOnlySpan(Of Byte), ReadOnlySpan(Of Byte))
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Span{System.Byte},System.Span{System.Byte})
+  commentId: M:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Span{System.Byte},System.Span{System.Byte})
+  id: DistanceUtf8BitShift(System.Span{System.Byte},System.Span{System.Byte})
+  parent: NDSH.Math.Distances.LevenshteinNdsh
+  langs:
+  - csharp
+  - vb
+  name: DistanceUtf8BitShift(Span<byte>, Span<byte>)
+  nameWithType: LevenshteinNdsh.DistanceUtf8BitShift(Span<byte>, Span<byte>)
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Span<byte>, System.Span<byte>)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: DistanceUtf8BitShift
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH/src/Math/Distances/LevenshteinNdsh.cs
+    startLine: 788
+  assemblies:
+  - NDSH
+  namespace: NDSH.Math.Distances
+  summary: ''
+  example: []
+  syntax:
+    content: public static int DistanceUtf8BitShift(Span<byte> s, Span<byte> t)
+    parameters:
+    - id: s
+      type: System.Span{System.Byte}
+      description: ''
+    - id: t
+      type: System.Span{System.Byte}
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function DistanceUtf8BitShift(s As Span(Of Byte), t As Span(Of Byte)) As Integer
+  overload: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift*
+  nameWithType.vb: LevenshteinNdsh.DistanceUtf8BitShift(Span(Of Byte), Span(Of Byte))
+  fullName.vb: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift(System.Span(Of Byte), System.Span(Of Byte))
+  name.vb: DistanceUtf8BitShift(Span(Of Byte), Span(Of Byte))
+references:
+- uid: NDSH.Math.Distances
+  commentId: N:NDSH.Math.Distances
+  href: NDSH.html
+  name: NDSH.Math.Distances
+  nameWithType: NDSH.Math.Distances
+  fullName: NDSH.Math.Distances
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Math
+    name: Math
+    href: NDSH.Math.html
+  - name: .
+  - uid: NDSH.Math.Distances
+    name: Distances
+    href: NDSH.Math.Distances.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Math
+    name: Math
+    href: NDSH.Math.html
+  - name: .
+  - uid: NDSH.Math.Distances
+    name: Distances
+    href: NDSH.Math.Distances.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8*
+  commentId: Overload:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8
+  href: NDSH.Math.Distances.LevenshteinNdsh.html#NDSH_Math_Distances_LevenshteinNdsh_DistanceUtf8_System_Byte___System_Byte___
+  name: DistanceUtf8
+  nameWithType: LevenshteinNdsh.DistanceUtf8
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Span{System.Byte}
+  commentId: T:System.Span{System.Byte}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<byte>
+  nameWithType: Span<byte>
+  fullName: System.Span<byte>
+  nameWithType.vb: Span(Of Byte)
+  fullName.vb: System.Span(Of Byte)
+  name.vb: Span(Of Byte)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentexception
+  name: ArgumentException
+  nameWithType: ArgumentException
+  fullName: System.ArgumentException
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16*
+  commentId: Overload:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16
+  href: NDSH.Math.Distances.LevenshteinNdsh.html#NDSH_Math_Distances_LevenshteinNdsh_DistanceUtf16_System_Byte___System_Byte___
+  name: DistanceUtf16
+  nameWithType: LevenshteinNdsh.DistanceUtf16
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16
+- uid: System.Char[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char[]
+  nameWithType: char[]
+  fullName: char[]
+  nameWithType.vb: Char()
+  fullName.vb: Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: (
+  - name: )
+- uid: System.ReadOnlySpan{System.Char}
+  commentId: T:System.ReadOnlySpan{System.Char}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<char>
+  nameWithType: ReadOnlySpan<char>
+  fullName: System.ReadOnlySpan<char>
+  nameWithType.vb: ReadOnlySpan(Of Char)
+  fullName.vb: System.ReadOnlySpan(Of Char)
+  name.vb: ReadOnlySpan(Of Char)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: System.Span{System.Char}
+  commentId: T:System.Span{System.Char}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<char>
+  nameWithType: Span<char>
+  fullName: System.Span<char>
+  nameWithType.vb: Span(Of Char)
+  fullName.vb: System.Span(Of Char)
+  name.vb: Span(Of Char)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.Char
+    name: char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Char
+    name: Char
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.char
+  - name: )
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift*
+  commentId: Overload:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift
+  href: NDSH.Math.Distances.LevenshteinNdsh.html#NDSH_Math_Distances_LevenshteinNdsh_DistanceUtf16BitShift_System_String_System_String_
+  name: DistanceUtf16BitShift
+  nameWithType: LevenshteinNdsh.DistanceUtf16BitShift
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf16BitShift
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift*
+  commentId: Overload:NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift
+  href: NDSH.Math.Distances.LevenshteinNdsh.html#NDSH_Math_Distances_LevenshteinNdsh_DistanceUtf8BitShift_System_Byte___System_Byte___
+  name: DistanceUtf8BitShift
+  nameWithType: LevenshteinNdsh.DistanceUtf8BitShift
+  fullName: NDSH.Math.Distances.LevenshteinNdsh.DistanceUtf8BitShift

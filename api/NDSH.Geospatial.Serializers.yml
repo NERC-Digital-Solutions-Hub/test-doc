@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers
+  id: Serializers
+  parent: NDSH.Geospatial
+  children:
+  - NDSH.Geospatial.Serializers.Json
+  - NDSH.Geospatial.Serializers.Xml
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Serializers.Json
+  commentId: N:NDSH.Geospatial.Serializers.Json
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Json
+  nameWithType: NDSH.Geospatial.Serializers.Json
+  fullName: NDSH.Geospatial.Serializers.Json
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json
+    name: Json
+    href: NDSH.Geospatial.Serializers.Json.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json
+    name: Json
+    href: NDSH.Geospatial.Serializers.Json.html
+- uid: NDSH.Geospatial.Serializers.Xml
+  commentId: N:NDSH.Geospatial.Serializers.Xml
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml
+  nameWithType: NDSH.Geospatial.Serializers.Xml
+  fullName: NDSH.Geospatial.Serializers.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html

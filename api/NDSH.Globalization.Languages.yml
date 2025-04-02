@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Globalization.Languages
+  commentId: N:NDSH.Globalization.Languages
+  id: Globalization.Languages
+  parent: NDSH
+  children:
+  - NDSH.Globalization.Languages.CodeScope
+  - NDSH.Globalization.Languages.CodeStatus
+  - NDSH.Globalization.Languages.CodeType
+  - NDSH.Globalization.Languages.IIso639
+  - NDSH.Globalization.Languages.Iso639Part3CodeSet
+  - NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  - NDSH.Globalization.Languages.Iso639Part3NameIndex
+  - NDSH.Globalization.Languages.Iso639Part3Retirement
+  - NDSH.Globalization.Languages.RetirementReason
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Globalization.Languages
+  nameWithType: NDSH.Globalization.Languages
+  fullName: NDSH.Globalization.Languages
+  type: Namespace
+  assemblies:
+  - NDSH.Globalization
+references:
+- uid: NDSH.Globalization.Languages.CodeScope
+  commentId: T:NDSH.Globalization.Languages.CodeScope
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.CodeScope.html
+  name: CodeScope
+  nameWithType: CodeScope
+  fullName: NDSH.Globalization.Languages.CodeScope
+- uid: NDSH.Globalization.Languages.CodeStatus
+  commentId: T:NDSH.Globalization.Languages.CodeStatus
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.CodeStatus.html
+  name: CodeStatus
+  nameWithType: CodeStatus
+  fullName: NDSH.Globalization.Languages.CodeStatus
+- uid: NDSH.Globalization.Languages.CodeType
+  commentId: T:NDSH.Globalization.Languages.CodeType
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.CodeType.html
+  name: CodeType
+  nameWithType: CodeType
+  fullName: NDSH.Globalization.Languages.CodeType
+- uid: NDSH.Globalization.Languages.IIso639
+  commentId: T:NDSH.Globalization.Languages.IIso639
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.IIso639.html
+  name: IIso639
+  nameWithType: IIso639
+  fullName: NDSH.Globalization.Languages.IIso639
+- uid: NDSH.Globalization.Languages.Iso639Part3CodeSet
+  commentId: T:NDSH.Globalization.Languages.Iso639Part3CodeSet
+  href: NDSH.Globalization.Languages.Iso639Part3CodeSet.html
+  name: Iso639Part3CodeSet
+  nameWithType: Iso639Part3CodeSet
+  fullName: NDSH.Globalization.Languages.Iso639Part3CodeSet
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  commentId: T:NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  href: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.html
+  name: Iso639Part3Macrolanguage
+  nameWithType: Iso639Part3Macrolanguage
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+- uid: NDSH.Globalization.Languages.Iso639Part3NameIndex
+  commentId: T:NDSH.Globalization.Languages.Iso639Part3NameIndex
+  href: NDSH.Globalization.Languages.Iso639Part3NameIndex.html
+  name: Iso639Part3NameIndex
+  nameWithType: Iso639Part3NameIndex
+  fullName: NDSH.Globalization.Languages.Iso639Part3NameIndex
+- uid: NDSH.Globalization.Languages.Iso639Part3Retirement
+  commentId: T:NDSH.Globalization.Languages.Iso639Part3Retirement
+  href: NDSH.Globalization.Languages.Iso639Part3Retirement.html
+  name: Iso639Part3Retirement
+  nameWithType: Iso639Part3Retirement
+  fullName: NDSH.Globalization.Languages.Iso639Part3Retirement
+- uid: NDSH.Globalization.Languages.RetirementReason
+  commentId: T:NDSH.Globalization.Languages.RetirementReason
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.RetirementReason.html
+  name: RetirementReason
+  nameWithType: RetirementReason
+  fullName: NDSH.Globalization.Languages.RetirementReason
+- uid: NDSH.Globalization.Languages
+  commentId: N:NDSH.Globalization.Languages
+  href: NDSH.html
+  name: NDSH.Globalization.Languages
+  nameWithType: NDSH.Globalization.Languages
+  fullName: NDSH.Globalization.Languages
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html

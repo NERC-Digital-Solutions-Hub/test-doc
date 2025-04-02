@@ -1,0 +1,647 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  commentId: T:NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  id: SetPropertyBenchmarks
+  parent: NDSH.Apps.Benchmarks
+  children:
+  - NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+  - NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty
+  - NDSH.Apps.Benchmarks.SetPropertyBenchmarks.Cities
+  - NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+  langs:
+  - csharp
+  - vb
+  name: SetPropertyBenchmarks
+  nameWithType: SetPropertyBenchmarks
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SetPropertyBenchmarks
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+    startLine: 7
+  assemblies:
+  - NDSH.Apps.Benchmarks
+  namespace: NDSH.Apps.Benchmarks
+  summary: The benchmarks for property setters.
+  example: []
+  syntax:
+    content: public class SetPropertyBenchmarks
+    content.vb: Public Class SetPropertyBenchmarks
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.Cities
+  commentId: F:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.Cities
+  id: Cities
+  parent: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  langs:
+  - csharp
+  - vb
+  name: Cities
+  nameWithType: SetPropertyBenchmarks.Cities
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.Cities
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Cities
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+    startLine: 20
+  assemblies:
+  - NDSH.Apps.Benchmarks
+  namespace: NDSH.Apps.Benchmarks
+  summary: The cities to use for the benchmark.
+  example: []
+  syntax:
+    content: >-
+      [ParamsSource("CitiesParams")]
+
+      public string?[] Cities
+    return:
+      type: System.String[]
+    content.vb: >-
+      <ParamsSource("CitiesParams")>
+
+      Public Cities As String()
+  attributes:
+  - type: BenchmarkDotNet.Attributes.ParamsSourceAttribute
+    ctor: BenchmarkDotNet.Attributes.ParamsSourceAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CitiesParams
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+  commentId: P:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+  id: CitiesParams
+  parent: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  langs:
+  - csharp
+  - vb
+  name: CitiesParams
+  nameWithType: SetPropertyBenchmarks.CitiesParams
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CitiesParams
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+    startLine: 25
+  assemblies:
+  - NDSH.Apps.Benchmarks
+  namespace: NDSH.Apps.Benchmarks
+  summary: The cities parameters to use for the benchmark.
+  example: []
+  syntax:
+    content: public IEnumerable<string?[]> CitiesParams { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String[]}
+    content.vb: Public ReadOnly Property CitiesParams As IEnumerable(Of String())
+  overload: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams*
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+  commentId: M:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+  id: CI_Address_Type1_NotNullAndEquals
+  parent: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  langs:
+  - csharp
+  - vb
+  name: CI_Address_Type1_NotNullAndEquals()
+  nameWithType: SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals()
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CI_Address_Type1_NotNullAndEquals
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Apps.Benchmarks
+  namespace: NDSH.Apps.Benchmarks
+  summary: >-
+    The benchmark for setting a property which first checks if the value is not null or the same as the current value
+
+    using <xref href="System.Object.Equals(System.Object)" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [Benchmark(37, "C:\\NDSH\\GitHub\\ndsh-dotnet-temp\\dev\\Proj\\src\\src\\NDSH.Apps\\benchmarks\\Apps\\Benchmarks\\SetPropertyBenchmarks.cs")]
+
+      public void CI_Address_Type1_NotNullAndEquals()
+    content.vb: >-
+      <Benchmark(37, "C:\NDSH\GitHub\ndsh-dotnet-temp\dev\Proj\src\src\NDSH.Apps\benchmarks\Apps\Benchmarks\SetPropertyBenchmarks.cs")>
+
+      Public Sub CI_Address_Type1_NotNullAndEquals()
+  overload: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals*
+  attributes:
+  - type: BenchmarkDotNet.Attributes.BenchmarkAttribute
+    ctor: BenchmarkDotNet.Attributes.BenchmarkAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 37
+    - type: System.String
+      value: C:\NDSH\GitHub\ndsh-dotnet-temp\dev\Proj\src\src\NDSH.Apps\benchmarks\Apps\Benchmarks\SetPropertyBenchmarks.cs
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty
+  commentId: M:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty
+  id: CI_Address_Type2_ObservableModel_SetProperty
+  parent: NDSH.Apps.Benchmarks.SetPropertyBenchmarks
+  langs:
+  - csharp
+  - vb
+  name: CI_Address_Type2_ObservableModel_SetProperty()
+  nameWithType: SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty()
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CI_Address_Type2_ObservableModel_SetProperty
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Apps/benchmarks/Apps/Benchmarks/SetPropertyBenchmarks.cs
+    startLine: 48
+  assemblies:
+  - NDSH.Apps.Benchmarks
+  namespace: NDSH.Apps.Benchmarks
+  summary: >-
+    The benchmark for setting a property using ObservableModel.SetProperty&lt;T&gt;(ref T, T, string).
+
+    This approach uses the <xref href="System.Collections.Generic.EqualityComparer%601" data-throw-if-not-resolved="false"></xref> to compare the current value with the new value.
+  example: []
+  syntax:
+    content: >-
+      [Benchmark(49, "C:\\NDSH\\GitHub\\ndsh-dotnet-temp\\dev\\Proj\\src\\src\\NDSH.Apps\\benchmarks\\Apps\\Benchmarks\\SetPropertyBenchmarks.cs")]
+
+      public void CI_Address_Type2_ObservableModel_SetProperty()
+    content.vb: >-
+      <Benchmark(49, "C:\NDSH\GitHub\ndsh-dotnet-temp\dev\Proj\src\src\NDSH.Apps\benchmarks\Apps\Benchmarks\SetPropertyBenchmarks.cs")>
+
+      Public Sub CI_Address_Type2_ObservableModel_SetProperty()
+  overload: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty*
+  attributes:
+  - type: BenchmarkDotNet.Attributes.BenchmarkAttribute
+    ctor: BenchmarkDotNet.Attributes.BenchmarkAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 49
+    - type: System.String
+      value: C:\NDSH\GitHub\ndsh-dotnet-temp\dev\Proj\src\src\NDSH.Apps\benchmarks\Apps\Benchmarks\SetPropertyBenchmarks.cs
+references:
+- uid: NDSH.Apps.Benchmarks
+  commentId: N:NDSH.Apps.Benchmarks
+  href: NDSH.html
+  name: NDSH.Apps.Benchmarks
+  nameWithType: NDSH.Apps.Benchmarks
+  fullName: NDSH.Apps.Benchmarks
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  - name: .
+  - uid: NDSH.Apps.Benchmarks
+    name: Benchmarks
+    href: NDSH.Apps.Benchmarks.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  - name: .
+  - uid: NDSH.Apps.Benchmarks
+    name: Benchmarks
+    href: NDSH.Apps.Benchmarks.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams*
+  commentId: Overload:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+  href: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.html#NDSH_Apps_Benchmarks_SetPropertyBenchmarks_CitiesParams
+  name: CitiesParams
+  nameWithType: SetPropertyBenchmarks.CitiesParams
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CitiesParams
+- uid: System.Collections.Generic.IEnumerable{System.String[]}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String[]}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string[]>
+  nameWithType: IEnumerable<string[]>
+  fullName: System.Collections.Generic.IEnumerable<string[]>
+  nameWithType.vb: IEnumerable(Of String())
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String())
+  name.vb: IEnumerable(Of String())
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals*
+  commentId: Overload:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+  href: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.html#NDSH_Apps_Benchmarks_SetPropertyBenchmarks_CI_Address_Type1_NotNullAndEquals
+  name: CI_Address_Type1_NotNullAndEquals
+  nameWithType: SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type1_NotNullAndEquals
+- uid: System.Collections.Generic.EqualityComparer`1
+  commentId: T:System.Collections.Generic.EqualityComparer`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1
+  name: EqualityComparer<T>
+  nameWithType: EqualityComparer<T>
+  fullName: System.Collections.Generic.EqualityComparer<T>
+  nameWithType.vb: EqualityComparer(Of T)
+  fullName.vb: System.Collections.Generic.EqualityComparer(Of T)
+  name.vb: EqualityComparer(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.EqualityComparer`1
+    name: EqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.EqualityComparer`1
+    name: EqualityComparer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.equalitycomparer-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty*
+  commentId: Overload:NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty
+  href: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.html#NDSH_Apps_Benchmarks_SetPropertyBenchmarks_CI_Address_Type2_ObservableModel_SetProperty
+  name: CI_Address_Type2_ObservableModel_SetProperty
+  nameWithType: SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty
+  fullName: NDSH.Apps.Benchmarks.SetPropertyBenchmarks.CI_Address_Type2_ObservableModel_SetProperty

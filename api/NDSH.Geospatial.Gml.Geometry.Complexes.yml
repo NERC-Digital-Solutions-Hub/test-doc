@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes
+  commentId: N:NDSH.Geospatial.Gml.Geometry.Complexes
+  id: Complexes
+  parent: NDSH.Geospatial.Gml.Geometry
+  children:
+  - NDSH.Geospatial.Gml.Geometry.Complexes.CompositeCurveType
+  - NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSolidType
+  - NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSurfaceType
+  - NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Geometry.Complexes
+  nameWithType: NDSH.Geospatial.Gml.Geometry.Complexes
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeCurveType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Complexes.CompositeCurveType
+  href: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeCurveType.html
+  name: CompositeCurveType
+  nameWithType: CompositeCurveType
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeCurveType
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSolidType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSolidType
+  href: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSolidType.html
+  name: CompositeSolidType
+  nameWithType: CompositeSolidType
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSolidType
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSurfaceType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSurfaceType
+  href: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSurfaceType.html
+  name: CompositeSurfaceType
+  nameWithType: CompositeSurfaceType
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes.CompositeSurfaceType
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexPropertyType
+  href: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexPropertyType.html
+  name: GeometricComplexPropertyType
+  nameWithType: GeometricComplexPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexType
+  href: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexType.html
+  name: GeometricComplexType
+  nameWithType: GeometricComplexType
+  fullName: NDSH.Geospatial.Gml.Geometry.Complexes.GeometricComplexType

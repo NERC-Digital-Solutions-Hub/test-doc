@@ -1,0 +1,975 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  id: GF_FeatureType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+  langs:
+  - csharp
+  - vb
+  name: GF_FeatureType
+  nameWithType: GF_FeatureType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GF_FeatureType
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 41
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class GF_FeatureType
+    content.vb: >-
+      <Serializable>
+
+      Public Class GF_FeatureType
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_AssociationType
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+  id: TypeName
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: TypeName
+  nameWithType: GF_FeatureType.TypeName
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: TypeName
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public LocalName_PropertyType TypeName { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.LocalName_PropertyType
+    content.vb: Public Property TypeName As LocalName_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName*
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+  id: Definition
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: GF_FeatureType.Definition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Definition
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 67
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public CharacterString Definition { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+    content.vb: Public Property Definition As CharacterString
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition*
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+  id: IsAbstract
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: IsAbstract
+  nameWithType: GF_FeatureType.IsAbstract
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IsAbstract
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 81
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public Boolean_PropertyType IsAbstract { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.Boolean_PropertyType
+    content.vb: Public Property IsAbstract As Boolean_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract*
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+  id: ConstrainedBy
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: ConstrainedBy
+  nameWithType: GF_FeatureType.ConstrainedBy
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ConstrainedBy
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 95
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public List<GF_Constraint_PropertyType> ConstrainedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType}
+    content.vb: Public Property ConstrainedBy As List(Of GF_Constraint_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy*
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+  id: LinkBetween
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: LinkBetween
+  nameWithType: GF_FeatureType.LinkBetween
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: LinkBetween
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 109
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public List<GF_Association_PropertyType> LinkBetween { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType}
+    content.vb: Public Property LinkBetween As List(Of GF_Association_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween*
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+  id: CarrierOfCharacteristics
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType
+  langs:
+  - csharp
+  - vb
+  name: CarrierOfCharacteristics
+  nameWithType: GF_FeatureType.CarrierOfCharacteristics
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CarrierOfCharacteristics
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Features/Model/GF_FeatureType.cs
+    startLine: 125
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  summary: ''
+  example: []
+  syntax:
+    content: public List<GF_Property_PropertyType> CarrierOfCharacteristics { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType}
+    content.vb: Public Property CarrierOfCharacteristics As List(Of GF_Property_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics*
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features
+    name: Features
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features
+    name: Features
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_TypeName
+  name: TypeName
+  nameWithType: GF_FeatureType.TypeName
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.TypeName
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.LocalName_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.LocalName_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.LocalName_PropertyType.html
+  name: LocalName_PropertyType
+  nameWithType: LocalName_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.LocalName_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation
+    name: Implementation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+    name: Names
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation
+    name: Implementation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names
+    name: Names
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Implementation.Names.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_Definition
+  name: Definition
+  nameWithType: GF_FeatureType.Definition
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.Definition
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString.html
+  name: CharacterString
+  nameWithType: CharacterString
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_IsAbstract
+  name: IsAbstract
+  nameWithType: GF_FeatureType.IsAbstract
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.IsAbstract
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.Boolean_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.Boolean_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.Boolean_PropertyType.html
+  name: Boolean_PropertyType
+  nameWithType: Boolean_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.Boolean_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+    name: Truth
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth
+    name: Truth
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Truth.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_ConstrainedBy
+  name: ConstrainedBy
+  nameWithType: GF_FeatureType.ConstrainedBy
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.ConstrainedBy
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GF_Constraint_PropertyType>
+  nameWithType: List<GF_Constraint_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType>
+  nameWithType.vb: List(Of GF_Constraint_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType)
+  name.vb: List(Of GF_Constraint_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType
+    name: GF_Constraint_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType
+    name: GF_Constraint_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Constraint_PropertyType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_LinkBetween
+  name: LinkBetween
+  nameWithType: GF_FeatureType.LinkBetween
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.LinkBetween
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GF_Association_PropertyType>
+  nameWithType: List<GF_Association_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType>
+  nameWithType.vb: List(Of GF_Association_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType)
+  name.vb: List(Of GF_Association_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType
+    name: GF_Association_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType
+    name: GF_Association_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Association_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.html#NDSH_Geospatial_Metadata_V2003_Thin_Features_Model_GF_FeatureType_CarrierOfCharacteristics
+  name: CarrierOfCharacteristics
+  nameWithType: GF_FeatureType.CarrierOfCharacteristics
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_FeatureType.CarrierOfCharacteristics
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GF_Property_PropertyType>
+  nameWithType: List<GF_Property_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType>
+  nameWithType.vb: List(Of GF_Property_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType)
+  name.vb: List(Of GF_Property_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType
+    name: GF_Property_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType
+    name: GF_Property_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Features.Model.GF_Property_PropertyType.html
+  - name: )

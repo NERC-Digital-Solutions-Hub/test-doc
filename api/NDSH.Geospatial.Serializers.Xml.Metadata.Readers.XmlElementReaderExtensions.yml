@@ -1,0 +1,671 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions
+  id: XmlElementReaderExtensions
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  langs:
+  - csharp
+  - vb
+  name: XmlElementReaderExtensions
+  nameWithType: XmlElementReaderExtensions
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: XmlElementReaderExtensions
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+    startLine: 12
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+  namespace: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  summary: Extension methods for <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementReader" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static class XmlElementReaderExtensions
+    content.vb: Public Module XmlElementReaderExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  commentId: M:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  id: Get``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  isExtensionMethod: true
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions
+  langs:
+  - csharp
+  - vb
+  name: Get<T>(XmlElementReader, string, XElement, XmlElementSerializerOptions)
+  nameWithType: XmlElementReaderExtensions.Get<T>(XmlElementReader, string, XElement, XmlElementSerializerOptions)
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get<T>(NDSH.Geospatial.Serializers.Xml.XmlElementReader, string, System.Xml.Linq.XElement, NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Get
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+  namespace: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  summary: >-
+    Gets the value of an element from an <xref href="System.Xml.Linq.XElement" data-throw-if-not-resolved="false"></xref> children. This is designed for reading ISO 19115
+
+    elements. Therefore, it will use <xref href="NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)" data-throw-if-not-resolved="false"></xref> to get the
+
+    first child element of the specified element.
+  remarks: >-
+    Since this method is designed specifically for reading ISO 19115 elements, it is added as an extension 
+
+    method to the <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementReader" data-throw-if-not-resolved="false"></xref> class, rather than in the class itself.
+  example: []
+  syntax:
+    content: public static T? Get<T>(this XmlElementReader reader, string elementName, XElement element, XmlElementSerializerOptions options)
+    parameters:
+    - id: reader
+      type: NDSH.Geospatial.Serializers.Xml.XmlElementReader
+      description: The <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementReader" data-throw-if-not-resolved="false"></xref> instance.
+    - id: elementName
+      type: System.String
+      description: The name of the element.
+    - id: element
+      type: System.Xml.Linq.XElement
+      description: >-
+        The element to read. This is the element which should contain the child element with the 
+
+        <code class="paramref">elementName</code>.
+    - id: options
+      type: NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions
+      description: The <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions" data-throw-if-not-resolved="false"></xref> instance.
+    typeParameters:
+    - id: T
+      description: The element <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: '{T}'
+      description: An instance of <code class="typeparamref">T</code> or <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if the element was not found.
+    content.vb: Public Shared Function [Get](Of T)(reader As XmlElementReader, elementName As String, element As XElement, options As XmlElementSerializerOptions) As T
+  overload: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get*
+  nameWithType.vb: XmlElementReaderExtensions.Get(Of T)(XmlElementReader, String, XElement, XmlElementSerializerOptions)
+  fullName.vb: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get(Of T)(NDSH.Geospatial.Serializers.Xml.XmlElementReader, String, System.Xml.Linq.XElement, NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  name.vb: Get(Of T)(XmlElementReader, String, XElement, XmlElementSerializerOptions)
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  commentId: M:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  id: GetCollection``1(NDSH.Geospatial.Serializers.Xml.XmlElementReader,System.String,System.Xml.Linq.XElement,NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  isExtensionMethod: true
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCollection<TCollection>(XmlElementReader, string, XElement, XmlElementSerializerOptions)
+  nameWithType: XmlElementReaderExtensions.GetCollection<TCollection>(XmlElementReader, string, XElement, XmlElementSerializerOptions)
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection<TCollection>(NDSH.Geospatial.Serializers.Xml.XmlElementReader, string, System.Xml.Linq.XElement, NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: GetCollection
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization/src/Geospatial/Serializers/Xml/Metadata/Readers/XmlElementReaderExtensions.cs
+    startLine: 65
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+  namespace: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  summary: >-
+    Gets a <xref href="System.Collections.ICollection" data-throw-if-not-resolved="false"></xref> of read elements from an <xref href="System.Xml.Linq.XElement" data-throw-if-not-resolved="false"></xref> children. This is designed
+
+    for reading ISO 19115 elements. Therefore, it will use <xref href="NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)" data-throw-if-not-resolved="false"></xref> to get the
+
+    first child element of the specified elements.
+  remarks: >-
+    Since this method is designed specifically for reading ISO 19115 elements, it is added as an extension 
+
+    method to the <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementReader" data-throw-if-not-resolved="false"></xref> class, rather than in the class itself.
+  example: []
+  syntax:
+    content: 'public static TCollection GetCollection<TCollection>(this XmlElementReader reader, string elementName, XElement element, XmlElementSerializerOptions options) where TCollection : IList, new()'
+    parameters:
+    - id: reader
+      type: NDSH.Geospatial.Serializers.Xml.XmlElementReader
+      description: The <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementReader" data-throw-if-not-resolved="false"></xref> instance.
+    - id: elementName
+      type: System.String
+      description: The name of the elements to added to the collection.
+    - id: element
+      type: System.Xml.Linq.XElement
+      description: >-
+        The element to read. This is the element which should contain the child elements with the 
+
+        <code class="paramref">elementName</code>.
+    - id: options
+      type: NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions
+      description: The <xref href="NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions" data-throw-if-not-resolved="false"></xref> instance.
+    typeParameters:
+    - id: TCollection
+      description: The collection <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: '{TCollection}'
+      description: An instance of <code class="typeparamref">TCollection</code> containing read elements with the <code class="paramref">elementName</code>.
+    content.vb: Public Shared Function GetCollection(Of TCollection As {IList, New})(reader As XmlElementReader, elementName As String, element As XElement, options As XmlElementSerializerOptions) As TCollection
+  overload: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection*
+  nameWithType.vb: XmlElementReaderExtensions.GetCollection(Of TCollection)(XmlElementReader, String, XElement, XmlElementSerializerOptions)
+  fullName.vb: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection(Of TCollection)(NDSH.Geospatial.Serializers.Xml.XmlElementReader, String, System.Xml.Linq.XElement, NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions)
+  name.vb: GetCollection(Of TCollection)(XmlElementReader, String, XElement, XmlElementSerializerOptions)
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.XmlElementReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.XmlElementReader
+  parent: NDSH.Geospatial.Serializers.Xml
+  href: NDSH.Geospatial.Serializers.Xml.XmlElementReader.html
+  name: XmlElementReader
+  nameWithType: XmlElementReader
+  fullName: NDSH.Geospatial.Serializers.Xml.XmlElementReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Serializers.Xml
+  commentId: N:NDSH.Geospatial.Serializers.Xml
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml
+  nameWithType: NDSH.Geospatial.Serializers.Xml
+  fullName: NDSH.Geospatial.Serializers.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Xml.Linq.XElement
+  commentId: T:System.Xml.Linq.XElement
+  parent: System.Xml.Linq
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.linq.xelement
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)
+  commentId: M:NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)
+  isExternal: true
+  href: NDSH.Geospatial.Serializers.Xml.XElementExtensions.html#NDSH_Geospatial_Serializers_Xml_XElementExtensions_GetPropertyElement_System_Xml_Linq_XElement_
+  name: GetPropertyElement(XElement)
+  nameWithType: XElementExtensions.GetPropertyElement(XElement)
+  fullName: NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)
+    name: GetPropertyElement
+    href: NDSH.Geospatial.Serializers.Xml.XElementExtensions.html#NDSH_Geospatial_Serializers_Xml_XElementExtensions_GetPropertyElement_System_Xml_Linq_XElement_
+  - name: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.linq.xelement
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Serializers.Xml.XElementExtensions.GetPropertyElement(System.Xml.Linq.XElement)
+    name: GetPropertyElement
+    href: NDSH.Geospatial.Serializers.Xml.XElementExtensions.html#NDSH_Geospatial_Serializers_Xml_XElementExtensions_GetPropertyElement_System_Xml_Linq_XElement_
+  - name: (
+  - uid: System.Xml.Linq.XElement
+    name: XElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.linq.xelement
+  - name: )
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions
+  commentId: T:NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions
+  parent: NDSH.Geospatial.Serializers.Xml
+  href: NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions.html
+  name: XmlElementSerializerOptions
+  nameWithType: XmlElementSerializerOptions
+  fullName: NDSH.Geospatial.Serializers.Xml.XmlElementSerializerOptions
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get*
+  commentId: Overload:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.html#NDSH_Geospatial_Serializers_Xml_Metadata_Readers_XmlElementReaderExtensions_Get__1_NDSH_Geospatial_Serializers_Xml_XmlElementReader_System_String_System_Xml_Linq_XElement_NDSH_Geospatial_Serializers_Xml_XmlElementSerializerOptions_
+  name: Get
+  nameWithType: XmlElementReaderExtensions.Get
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Xml.Linq
+  commentId: N:System.Xml.Linq
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Linq
+  nameWithType: System.Xml.Linq
+  fullName: System.Xml.Linq
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.linq
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Linq
+    name: Linq
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.linq
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Collections.ICollection
+  commentId: T:System.Collections.ICollection
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection*
+  commentId: Overload:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.html#NDSH_Geospatial_Serializers_Xml_Metadata_Readers_XmlElementReaderExtensions_GetCollection__1_NDSH_Geospatial_Serializers_Xml_XmlElementReader_System_String_System_Xml_Linq_XElement_NDSH_Geospatial_Serializers_Xml_XmlElementSerializerOptions_
+  name: GetCollection
+  nameWithType: XmlElementReaderExtensions.GetCollection
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlElementReaderExtensions.GetCollection
+- uid: '{TCollection}'
+  commentId: '!:TCollection'
+  definition: TCollection
+  name: TCollection
+  nameWithType: TCollection
+  fullName: TCollection
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: TCollection
+  commentId: '!:TCollection'
+  name: TCollection
+  nameWithType: TCollection
+  fullName: TCollection

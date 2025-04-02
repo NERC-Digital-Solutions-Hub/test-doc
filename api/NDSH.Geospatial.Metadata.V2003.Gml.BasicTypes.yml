@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  id: BasicTypes
+  parent: NDSH.Geospatial.Metadata.V2003.Gml
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeType
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeWithAuthorityType
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CoordinatesType
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.MeasureListType
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+  - NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.SignType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean.html
+  name: Boolean
+  nameWithType: Boolean
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeType.html
+  name: CodeType
+  nameWithType: CodeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeWithAuthorityType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeWithAuthorityType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeWithAuthorityType.html
+  name: CodeWithAuthorityType
+  nameWithType: CodeWithAuthorityType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CodeWithAuthorityType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CoordinatesType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CoordinatesType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CoordinatesType.html
+  name: CoordinatesType
+  nameWithType: CoordinatesType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.CoordinatesType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.MeasureListType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.MeasureListType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.MeasureListType.html
+  name: MeasureListType
+  nameWithType: MeasureListType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.MeasureListType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html
+  name: NullEnumeration
+  nameWithType: NullEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.SignType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.SignType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.SignType.html
+  name: SignType
+  nameWithType: SignType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.SignType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.html

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NilReasonModel | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NilReasonModel | NDSH ">
+      
+      <meta name="description" content="Represents a standardized way to document the reason for a missing or null value in geospatial metadata. It is based on the gml:NilReasonType definition in the GML schema and supports enumerated reasons  as well as custom user-defined explanations. The class ensures that nil reasons are properly structured, validated, and serialized for interoperability with XML and JSON-based metadata systems.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/new/dev/apiSpec/new?filename=NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel">
+
+
+
+  <h1 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel" class="text-break">
+Class NilReasonModel  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Metadata.html">Metadata</a>.<a class="xref" href="NDSH.Geospatial.Metadata.V2003.html">V2003</a>.<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.html">Common</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.V2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a standardized way to document the reason for a missing or null value in geospatial metadata.
+It is based on the <code>gml:NilReasonType</code> definition in the GML schema and supports enumerated reasons
+<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a> as well as custom user-defined explanations.
+The class ensures that nil reasons are properly structured, validated,
+and serialized for interoperability with XML and JSON-based metadata systems.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public abstract class NilReasonModel : ObservableModel, IModel, IObservableModel, INotifyPropertyChanged, INilReason</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><span class="xref">NilReasonModel</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.INilReason.html">INilReason</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_DateTypeCode_PropertyType.html">CI_DateTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_OnLineFunctionCode_PropertyType.html">CI_OnLineFunctionCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_PresentationFormCode_PropertyType.html">CI_PresentationFormCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_RoleCode_PropertyType.html">CI_RoleCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.URL_PropertyType.html">URL_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Derived.UnitsOfMeasure.Angle_PropertyType.html">Angle_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Derived.UnitsOfMeasure.Distance_PropertyType.html">Distance_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Derived.UnitsOfMeasure.Length_PropertyType.html">Length_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Derived.UnitsOfMeasure.Measure_PropertyType.html">Measure_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Derived.UnitsOfMeasure.Scale_PropertyType.html">Scale_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Names.GenericName_PropertyType.html">GenericName_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Names.LocalName_PropertyType.html">LocalName_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Names.ScopedName_PropertyType.html">ScopedName_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Records.RecordType_PropertyType.html">RecordType_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Binary_PropertyType.html">Binary_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.DateTime_PropertyType.html">DateTime_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType.html">Date_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.TM_PeriodDuration_PropertyType.html">TM_PeriodDuration_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Numerics.Decimal_PropertyType.html">Decimal_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Numerics.Integer_PropertyType.html">Integer_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Numerics.Number_PropertyType.html">Number_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Numerics.Real_PropertyType.html">Real_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Numerics.UnlimitedInteger_PropertyType.html">UnlimitedInteger_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString.html">CharacterString</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.SubstitutableText.html">SubstitutableText</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Truth.Boolean_PropertyType.html">Boolean_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType.html">MD_ClassificationCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType.html">MD_RestrictionCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Content.MD_CoverageContentTypeCode_PropertyType.html">MD_CoverageContentTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Content.MD_ImagingConditionCode_PropertyType.html">MD_ImagingConditionCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.DQ_EvaluationMethodTypeCode_PropertyType.html">DQ_EvaluationMethodTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_MediumFormatCode_PropertyType.html">MD_MediumFormatCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_MediumNameCode_PropertyType.html">MD_MediumNameCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType.html">MD_DatatypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType.html">MD_ObligationCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.Base.NilReasonRemoteSchemaModel.html">NilReasonRemoteSchemaModel</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.Boolean.html">Boolean</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType.html">DS_AssociationTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType.html">DS_InitiativeTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType.html">MD_CharacterSetCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType.html">MD_KeywordTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType.html">MD_ProgressCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType.html">MD_Resolution_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType.html">MD_SpatialRepresentationTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType.html">MD_TopicCategoryCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_ContextCode_PropertyType.html">MI_ContextCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_GeometryTypeCode_PropertyType.html">MI_GeometryTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_ObjectiveTypeCode_PropertyType.html">MI_ObjectiveTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_OperationTypeCode_PropertyType.html">MI_OperationTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_PriorityCode_PropertyType.html">MI_PriorityCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_SensorTypeCode_PropertyType.html">MI_SensorTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_SequenceCode_PropertyType.html">MI_SequenceCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_TriggerCode_PropertyType.html">MI_TriggerCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Content.MI_BandDefinition_PropertyType.html">MI_BandDefinition_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Content.MI_PolarisationOrientationCode_PropertyType.html">MI_PolarisationOrientationCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Content.MI_TransferFunctionTypeCode_PropertyType.html">MI_TransferFunctionTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.LE_NominalResolution_PropertyType.html">LE_NominalResolution_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Localisation.Country_PropertyType.html">Country_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Localisation.LanguageCodeProperty.html">LanguageCodeProperty</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Maintenance.MD_MaintenanceFrequencyCode_PropertyType.html">MD_MaintenanceFrequencyCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Maintenance.MD_ScopeCode_PropertyType.html">MD_ScopeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Maintenance.MD_ScopeDescription_PropertyType.html">MD_ScopeDescription_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.DCPList_PropertyType.html">DCPList_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_CouplingType_PropertyType.html">SV_CouplingType_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_ServiceType_PropertyType.html">SV_ServiceType_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_CellGeometryCode_PropertyType.html">MD_CellGeometryCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_DimensionNameTypeCode_PropertyType.html">MD_DimensionNameTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_GeometricObjectTypeCode_PropertyType.html">MD_GeometricObjectTypeCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_PixelOrientationCode_PropertyType.html">MD_PixelOrientationCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_TopologyLevelCode_PropertyType.html">MD_TopologyLevelCode_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.Anchor_PropertyType.html">Anchor_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.FileName_PropertyType.html">FileName_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.Extended.MimeFileType_PropertyType.html">MimeFileType_PropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.MX_ScopeCode_PropertyType.html">MX_ScopeCode_PropertyType</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <b>Usage:</b>
+  <ul><li>Used in geospatial metadata to indicate why a value is missing or inapplicable.</li><li>
+      Supports both predefined enumeration values (NullEnumeration)
+      and free-text reasons prefixed with "other:".
+    </li><li>Can reference an external explanation using a URI.</li></ul>
+
+<p>
+  <b>Key Features:</b>
+  <ul><li>
+      Implements the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.INilReason.html">INilReason</a> interface to standardize the handling of missing values.
+    </li><li>Ensures valid nil reasons using predefined values or structured custom reasons.</li><li>Provides static helper methods to retrieve correctly formatted nil reason values.</li></ul>
+
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.NilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.NilReason">
+  NilReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Gets/Sets an explanation for why a value is missing.
+</p>
+<p>
+  The NilReason is a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of one of the following three options:
+</p>
+<p>
+  <ol><li>
+      The value is a low case <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representation of one of the
+      values of the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a>,
+      except the value <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Other">Other</a>
+    </li><li>
+      The value is a combination of the low case <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representation of the
+      value <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Other">Other</a> followed by <b>:</b>
+      and then by a string providing a brief explanation,
+      where text is a string of two or more characters with no included spaces.
+      <br>
+      <b>Example:</b>
+      <example>
+      other:brief explanation goes here
+      </example>
+      <br>
+      The entire <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> must be valid against the following regular expression:
+      <br>
+      <code>other:\w{2,}</code>
+    </li><li>
+      The value is a Uniform Resource Identifier <code>(URI)</code>.<br>
+      A particular community may choose to assign more detailed semantics to the
+      standard values provided by the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a>.
+      Alternatively, the URI method enables a specific or more complete explanation
+      for the absence of a value to be provided elsewhere and indicated by-reference
+      in an instance document.
+    </li></ol>
+
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(NullEnumeration.Missing);
+NilReason = INilReason.GetNilReason(NullEnumeration.Other, &quot;Example reason give here&quot;);
+NilReason = INilReason.GetNilReason(&quot;http://www.example.com/a-detailed-explanation-for-nilreason/&quot;;&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;nilReason&quot;)]
+public string NilReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <b>default</b> <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.html#NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason">NilReason</a> value is: <code>&quot;unknown&quot;</code>,
+the XML enum value of the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Unknown">Unknown</a>.</p>
+</div>
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReasons_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.NilReasons*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReasons" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.NilReasons">
+  NilReasons
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary&lt;TKey, TValue&gt;</a> where each
+<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a> key maps to an explanatory string used by the
+<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.html#NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason">NilReason</a> property to describe missing or voided metadata values in XML files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyDictionary&lt;NullEnumeration, string&gt; NilReasons { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_GetNilReason_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.GetNilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_GetNilReason_NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_System_String_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.GetNilReason(NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration,System.String)">
+  GetNilReason(NullEnumeration, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Generates a NilReason <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> based on a predefined enumeration value.
+  The method can be used to set the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.html#NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason">NilReason</a> property.
+</p>
+<p>
+  The procedure makes sure that rules for setting the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+  are observed and should be preferably used rather than setting the
+  <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value using the property's setter. The reason for having a
+  public setter in the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.html#NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason">NilReason</a> property is to allow for XML deserialization.
+</p>
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(NullEnumeration.Missing);
+NilReason = INilReason.GetNilReason(NullEnumeration.Other, &quot;Example reason given here&quot;);&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNilReason(NullEnumeration nullEnum, string otherAdditionalReason = &quot;Reason not in list&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nullEnum</code> <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a></dt>
+    <dd><p>The <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a> value.</p>
+</dd>
+    <dt><code>otherAdditionalReason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Allows a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value providing a brief reason to be appended after the
+<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html#NDSH_Geospatial_Metadata_V2003_Gml_BasicTypes_NullEnumeration_Other">Other</a>. The argument's value will be used only if
+the enumerated value provided is <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Gml.BasicTypes.NullEnumeration.html">NullEnumeration</a>; in all other cases
+the argument's value will be omitted.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A properly formatted <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> with the NilReason.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_GetNilReason_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.GetNilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_GetNilReason_System_String_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.GetNilReason(System.String)">
+  GetNilReason(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Generates a NilReason <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> based on a URI reference.
+  The method can be used to set the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.NilReasonModel.html#NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_NilReason">NilReason</a> property.
+</p>
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(&quot;http://www.example.com/a-detailed-explanation-for-nilreason/&quot;;&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNilReason(string uriString)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uriString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> holding a <code>URI</code> describing in detail the reason for a
+<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> / <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.void">void</a> or exception.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> with the Nil Reason.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Metadata_V2003_Common_NilReasonModel_GetNilReason_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The URI method enables a specific or more complete explanation for the absence
+of a value to be provided elsewhere and indicated by-reference in an instance document.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/NilReasonModel.cs/#L89" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended
+  id: XmlSchema.Extended
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended.AnchorConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended.AnchorConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended.AnchorConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended.AnchorConfiguration.html
+  name: AnchorConfiguration
+  nameWithType: AnchorConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.XmlSchema.Extended.AnchorConfiguration

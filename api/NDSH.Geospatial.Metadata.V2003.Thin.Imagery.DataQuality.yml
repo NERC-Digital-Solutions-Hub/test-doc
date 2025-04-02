@@ -1,0 +1,216 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  id: DataQuality
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_PropertyType.html
+  name: LE_Algorithm_PropertyType
+  nameWithType: LE_Algorithm_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_Type.html
+  name: LE_Algorithm_Type
+  nameWithType: LE_Algorithm_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Algorithm_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_PropertyType.html
+  name: LE_NominalResolution_PropertyType
+  nameWithType: LE_NominalResolution_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_Type
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_Type.html
+  name: LE_NominalResolution_Type
+  nameWithType: LE_NominalResolution_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_NominalResolution_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_PropertyType.html
+  name: LE_ProcessStepReport_PropertyType
+  nameWithType: LE_ProcessStepReport_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_Type.html
+  name: LE_ProcessStepReport_Type
+  nameWithType: LE_ProcessStepReport_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStepReport_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_PropertyType.html
+  name: LE_ProcessStep_PropertyType
+  nameWithType: LE_ProcessStep_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_Type.html
+  name: LE_ProcessStep_Type
+  nameWithType: LE_ProcessStep_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_ProcessStep_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_PropertyType.html
+  name: LE_Processing_PropertyType
+  nameWithType: LE_Processing_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_Type.html
+  name: LE_Processing_Type
+  nameWithType: LE_Processing_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Processing_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_PropertyType.html
+  name: LE_Source_PropertyType
+  nameWithType: LE_Source_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_Type.html
+  name: LE_Source_Type
+  nameWithType: LE_Source_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.LE_Source_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_PropertyType.html
+  name: MX_ImgDataFile_PropertyType
+  nameWithType: MX_ImgDataFile_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_Type.html
+  name: MX_ImgDataFile_Type
+  nameWithType: MX_ImgDataFile_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.MX_ImgDataFile_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_PropertyType.html
+  name: QE_CoverageResult_PropertyType
+  nameWithType: QE_CoverageResult_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_Type.html
+  name: QE_CoverageResult_Type
+  nameWithType: QE_CoverageResult_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_CoverageResult_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_PropertyType.html
+  name: QE_Usability_PropertyType
+  nameWithType: QE_Usability_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_Type.html
+  name: QE_Usability_Type
+  nameWithType: QE_Usability_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.QE_Usability_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Imagery.DataQuality.html

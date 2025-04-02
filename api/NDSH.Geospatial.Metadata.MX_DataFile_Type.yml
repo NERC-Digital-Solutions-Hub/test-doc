@@ -1,0 +1,740 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  commentId: T:NDSH.Geospatial.Metadata.MX_DataFile_Type
+  id: MX_DataFile_Type
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor
+  - NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+  - NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+  - NDSH.Geospatial.Metadata.MX_DataFile_Type.xmlns
+  langs:
+  - csharp
+  - vb
+  name: MX_DataFile_Type
+  nameWithType: MX_DataFile_Type
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: MX_DataFile_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 46667
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class MX_DataFile_Type : AbstractMX_File_Type, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class MX_DataFile_Type Inherits AbstractMX_File_Type Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.AbstractObject_Type
+  - NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileName
+  - NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileDescription
+  - NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileType
+  - NDSH.Geospatial.Metadata.AbstractObject_Type.id
+  - NDSH.Geospatial.Metadata.AbstractObject_Type.uuid
+  - NDSH.Geospatial.Metadata.AbstractObject_Type.PropertyChanged
+  - NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.MX_DataFile_Type.xmlns
+  id: xmlns
+  parent: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  langs:
+  - csharp
+  - vb
+  name: xmlns
+  nameWithType: MX_DataFile_Type.xmlns
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.xmlns
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: xmlns
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 46679
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public XmlSerializerNamespaces xmlns
+    return:
+      type: System.Xml.Serialization.XmlSerializerNamespaces
+    content.vb: Public xmlns As XmlSerializerNamespaces
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  langs:
+  - csharp
+  - vb
+  name: MX_DataFile_Type()
+  nameWithType: MX_DataFile_Type.MX_DataFile_Type()
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.MX_DataFile_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 46685
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: MX_DataFile_Type class constructor
+  example: []
+  syntax:
+    content: public MX_DataFile_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor*
+  nameWithType.vb: MX_DataFile_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.MX_DataFile_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+  commentId: P:NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+  id: featureTypes
+  parent: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  langs:
+  - csharp
+  - vb
+  name: featureTypes
+  nameWithType: MX_DataFile_Type.featureTypes
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: featureTypes
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 46691
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public List<GenericName_PropertyType> featureTypes { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.GenericName_PropertyType}
+    content.vb: Public Property featureTypes As List(Of GenericName_PropertyType)
+  overload: NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes*
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+  commentId: P:NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+  id: fileFormat
+  parent: NDSH.Geospatial.Metadata.MX_DataFile_Type
+  langs:
+  - csharp
+  - vb
+  name: fileFormat
+  nameWithType: MX_DataFile_Type.fileFormat
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: fileFormat
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 46713
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public MD_Format_PropertyType fileFormat { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.MD_Format_PropertyType
+    content.vb: Public Property fileFormat As MD_Format_PropertyType
+  overload: NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat*
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.AbstractObject_Type
+  commentId: T:NDSH.Geospatial.Metadata.AbstractObject_Type
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.AbstractObject_Type.html
+  name: AbstractObject_Type
+  nameWithType: AbstractObject_Type
+  fullName: NDSH.Geospatial.Metadata.AbstractObject_Type
+- uid: NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  commentId: T:NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.AbstractMX_File_Type.html
+  name: AbstractMX_File_Type
+  nameWithType: AbstractMX_File_Type
+  fullName: NDSH.Geospatial.Metadata.AbstractMX_File_Type
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileName
+  commentId: P:NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileName
+  parent: NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  href: NDSH.Geospatial.Metadata.AbstractMX_File_Type.html#NDSH_Geospatial_Metadata_AbstractMX_File_Type_fileName
+  name: fileName
+  nameWithType: AbstractMX_File_Type.fileName
+  fullName: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileName
+- uid: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileDescription
+  commentId: P:NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileDescription
+  parent: NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  href: NDSH.Geospatial.Metadata.AbstractMX_File_Type.html#NDSH_Geospatial_Metadata_AbstractMX_File_Type_fileDescription
+  name: fileDescription
+  nameWithType: AbstractMX_File_Type.fileDescription
+  fullName: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileDescription
+- uid: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileType
+  commentId: P:NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileType
+  parent: NDSH.Geospatial.Metadata.AbstractMX_File_Type
+  href: NDSH.Geospatial.Metadata.AbstractMX_File_Type.html#NDSH_Geospatial_Metadata_AbstractMX_File_Type_fileType
+  name: fileType
+  nameWithType: AbstractMX_File_Type.fileType
+  fullName: NDSH.Geospatial.Metadata.AbstractMX_File_Type.fileType
+- uid: NDSH.Geospatial.Metadata.AbstractObject_Type.id
+  commentId: P:NDSH.Geospatial.Metadata.AbstractObject_Type.id
+  parent: NDSH.Geospatial.Metadata.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_id
+  name: id
+  nameWithType: AbstractObject_Type.id
+  fullName: NDSH.Geospatial.Metadata.AbstractObject_Type.id
+- uid: NDSH.Geospatial.Metadata.AbstractObject_Type.uuid
+  commentId: P:NDSH.Geospatial.Metadata.AbstractObject_Type.uuid
+  parent: NDSH.Geospatial.Metadata.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_uuid
+  name: uuid
+  nameWithType: AbstractObject_Type.uuid
+  fullName: NDSH.Geospatial.Metadata.AbstractObject_Type.uuid
+- uid: NDSH.Geospatial.Metadata.AbstractObject_Type.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.AbstractObject_Type.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_PropertyChanged
+  name: PropertyChanged
+  nameWithType: AbstractObject_Type.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.AbstractObject_Type.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.AbstractObject_Type
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: AbstractObject_Type.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(string)
+  nameWithType.vb: AbstractObject_Type.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.AbstractObject_Type.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractObject_Type.html#NDSH_Geospatial_Metadata_AbstractObject_Type_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System.Xml.Serialization.XmlSerializerNamespaces
+  commentId: T:System.Xml.Serialization.XmlSerializerNamespaces
+  parent: System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlserializernamespaces
+  name: XmlSerializerNamespaces
+  nameWithType: XmlSerializerNamespaces
+  fullName: System.Xml.Serialization.XmlSerializerNamespaces
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.MX_DataFile_Type.#ctor
+  href: NDSH.Geospatial.Metadata.MX_DataFile_Type.html#NDSH_Geospatial_Metadata_MX_DataFile_Type__ctor
+  name: MX_DataFile_Type
+  nameWithType: MX_DataFile_Type.MX_DataFile_Type
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.MX_DataFile_Type
+  nameWithType.vb: MX_DataFile_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.MX_DataFile_Type.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes*
+  commentId: Overload:NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+  href: NDSH.Geospatial.Metadata.MX_DataFile_Type.html#NDSH_Geospatial_Metadata_MX_DataFile_Type_featureTypes
+  name: featureTypes
+  nameWithType: MX_DataFile_Type.featureTypes
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.featureTypes
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.GenericName_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.GenericName_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<GenericName_PropertyType>
+  nameWithType: List<GenericName_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.GenericName_PropertyType>
+  nameWithType.vb: List(Of GenericName_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.GenericName_PropertyType)
+  name.vb: List(Of GenericName_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.GenericName_PropertyType
+    name: GenericName_PropertyType
+    href: NDSH.Geospatial.Metadata.GenericName_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.GenericName_PropertyType
+    name: GenericName_PropertyType
+    href: NDSH.Geospatial.Metadata.GenericName_PropertyType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat*
+  commentId: Overload:NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+  href: NDSH.Geospatial.Metadata.MX_DataFile_Type.html#NDSH_Geospatial_Metadata_MX_DataFile_Type_fileFormat
+  name: fileFormat
+  nameWithType: MX_DataFile_Type.fileFormat
+  fullName: NDSH.Geospatial.Metadata.MX_DataFile_Type.fileFormat
+- uid: NDSH.Geospatial.Metadata.MD_Format_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.MD_Format_PropertyType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MD_Format_PropertyType.html
+  name: MD_Format_PropertyType
+  nameWithType: MD_Format_PropertyType
+  fullName: NDSH.Geospatial.Metadata.MD_Format_PropertyType

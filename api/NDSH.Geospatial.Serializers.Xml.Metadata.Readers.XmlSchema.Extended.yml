@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended
+  id: XmlSchema.Extended
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended.AnchorXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended.AnchorXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended.AnchorXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended.AnchorXmlReader.html
+  name: AnchorXmlReader
+  nameWithType: AnchorXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.XmlSchema.Extended.AnchorXmlReader

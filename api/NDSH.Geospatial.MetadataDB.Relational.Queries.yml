@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Queries
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Queries
+  id: Queries
+  parent: NDSH.Geospatial.MetadataDB.Relational
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Queries.MetadataDatabaseFetcher
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Queries
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Queries
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Queries
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Queries.MetadataDatabaseFetcher
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Queries.MetadataDatabaseFetcher
+  href: NDSH.Geospatial.MetadataDB.Relational.Queries.MetadataDatabaseFetcher.html
+  name: MetadataDatabaseFetcher
+  nameWithType: MetadataDatabaseFetcher
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Queries.MetadataDatabaseFetcher

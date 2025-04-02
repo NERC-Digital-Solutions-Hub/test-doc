@@ -1,0 +1,113 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.IFrom
+  commentId: T:NDSH.Xml.XLink.IFrom
+  id: IFrom
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.IFrom.From
+  langs:
+  - csharp
+  - vb
+  name: IFrom
+  nameWithType: IFrom
+  fullName: NDSH.Xml.XLink.IFrom
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IFrom.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: IFrom
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IFrom.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: public interface IFrom
+    content.vb: Public Interface IFrom
+- uid: NDSH.Xml.XLink.IFrom.From
+  commentId: P:NDSH.Xml.XLink.IFrom.From
+  id: From
+  parent: NDSH.Xml.XLink.IFrom
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: IFrom.From
+  fullName: NDSH.Xml.XLink.IFrom.From
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/IFrom.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: From
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/IFrom.cs
+    startLine: 24
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: string From { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property From As String
+  overload: NDSH.Xml.XLink.IFrom.From*
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IFrom.From*
+  commentId: Overload:NDSH.Xml.XLink.IFrom.From
+  href: NDSH.Xml.XLink.IFrom.html#NDSH_Xml_XLink_IFrom_From
+  name: From
+  nameWithType: IFrom.From
+  fullName: NDSH.Xml.XLink.IFrom.From
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

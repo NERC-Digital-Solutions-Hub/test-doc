@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  id: ShellBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+  langs:
+  - csharp
+  - vb
+  name: ShellBinder
+  nameWithType: ShellBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ShellBinder
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 23
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: The <xref href="NDSH.Geospatial.Demos.SearchAndMap.IBinder" data-throw-if-not-resolved="false"></xref> of the Views.ShellView and the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed class ShellBinder : IBinder'
+    content.vb: Public NotInheritable Class ShellBinder Implements IBinder
+  inheritance:
+  - System.Object
+  implements:
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)
+  id: '#ctor(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)'
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  langs:
+  - csharp
+  - vb
+  name: ShellBinder(ShellModel)
+  nameWithType: ShellBinder.ShellBinder(ShellModel)
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellBinder(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: Initializes the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ShellBinder(ShellModel shellModel)
+    parameters:
+    - id: shellModel
+      type: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+      description: ''
+    content.vb: Public Sub New(shellModel As ShellModel)
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor*
+  nameWithType.vb: ShellBinder.New(ShellModel)
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.New(NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel)
+  name.vb: New(ShellModel)
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+  id: ShellModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  langs:
+  - csharp
+  - vb
+  name: ShellModel
+  nameWithType: ShellBinder.ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ShellModel
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: ''
+  example: []
+  syntax:
+    content: public ShellModel ShellModel { get; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+    content.vb: Public ReadOnly Property ShellModel As ShellModel
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+  id: ToggleMetadataSearchCardCommand
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  langs:
+  - csharp
+  - vb
+  name: ToggleMetadataSearchCardCommand
+  nameWithType: ShellBinder.ToggleMetadataSearchCardCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ToggleMetadataSearchCardCommand
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 55
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: ''
+  example: []
+  syntax:
+    content: public ICommand ToggleMetadataSearchCardCommand { get; }
+    parameters: []
+    return:
+      type: ICommand
+    content.vb: Public ReadOnly Property ToggleMetadataSearchCardCommand As ICommand
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+  id: ToggleAppConfigurationCardCommand
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  langs:
+  - csharp
+  - vb
+  name: ToggleAppConfigurationCardCommand
+  nameWithType: ShellBinder.ToggleAppConfigurationCardCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ToggleAppConfigurationCardCommand
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 69
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: ''
+  example: []
+  syntax:
+    content: public ICommand ToggleAppConfigurationCardCommand { get; }
+    parameters: []
+    return:
+      type: ICommand
+    content.vb: Public ReadOnly Property ToggleAppConfigurationCardCommand As ICommand
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+  id: BinderName
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  langs:
+  - csharp
+  - vb
+  name: BinderName
+  nameWithType: ShellBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: BinderName
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Blazor/src/Binders/ShellBinder.cs
+    startLine: 85
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder" data-throw-if-not-resolved="false"></xref> 's name.
+  example: []
+  syntax:
+    content: public string BinderName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BinderName As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName*
+  implements:
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html
+  name: IBinder
+  nameWithType: IBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel.html
+  name: ShellModel
+  nameWithType: ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html
+  name: ShellBinder
+  nameWithType: ShellBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.#ctor
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Blazor_Binders_ShellBinder__ctor_NDSH_Geospatial_Demos_SearchAndMap_Blazor_Models_Presentation_ShellModel_
+  name: ShellBinder
+  nameWithType: ShellBinder.ShellBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellBinder
+  nameWithType.vb: ShellBinder.New
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.New
+  name.vb: New
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Blazor_Binders_ShellBinder_ShellModel
+  name: ShellModel
+  nameWithType: ShellBinder.ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ShellModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Blazor_Binders_ShellBinder_ToggleMetadataSearchCardCommand
+  name: ToggleMetadataSearchCardCommand
+  nameWithType: ShellBinder.ToggleMetadataSearchCardCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleMetadataSearchCardCommand
+- uid: ICommand
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: ICommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Blazor_Binders_ShellBinder_ToggleAppConfigurationCardCommand
+  name: ToggleAppConfigurationCardCommand
+  nameWithType: ShellBinder.ToggleAppConfigurationCardCommand
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.ToggleAppConfigurationCardCommand
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.html#NDSH_Geospatial_Demos_SearchAndMap_Blazor_Binders_ShellBinder_BinderName
+  name: BinderName
+  nameWithType: ShellBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Binders.ShellBinder.BinderName
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  parent: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html#NDSH_Geospatial_Demos_SearchAndMap_IBinder_BinderName
+  name: BinderName
+  nameWithType: IBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

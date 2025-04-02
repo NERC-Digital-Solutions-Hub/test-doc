@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Xml.XLink.ILocatorLink
+  commentId: T:NDSH.Xml.XLink.ILocatorLink
+  id: ILocatorLink
+  parent: NDSH.Xml.XLink
+  children:
+  - NDSH.Xml.XLink.ILocatorLink.Href
+  langs:
+  - csharp
+  - vb
+  name: ILocatorLink
+  nameWithType: ILocatorLink
+  fullName: NDSH.Xml.XLink.ILocatorLink
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/ILocatorLink.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: ILocatorLink
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/ILocatorLink.cs
+    startLine: 40
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: 'public interface ILocatorLink : IType, IHref, IRole, ITitle, ILabel'
+    content.vb: Public Interface ILocatorLink Inherits IType, IHref, IRole, ITitle, ILabel
+  inheritedMembers:
+  - NDSH.Xml.XLink.IType.Type
+  - NDSH.Xml.XLink.IRole.Role
+  - NDSH.Xml.XLink.ITitle.Title
+  - NDSH.Xml.XLink.ILabel.Label
+- uid: NDSH.Xml.XLink.ILocatorLink.Href
+  commentId: P:NDSH.Xml.XLink.ILocatorLink.Href
+  id: Href
+  parent: NDSH.Xml.XLink.ILocatorLink
+  langs:
+  - csharp
+  - vb
+  name: Href
+  nameWithType: ILocatorLink.Href
+  fullName: NDSH.Xml.XLink.ILocatorLink.Href
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Xml/src/Xml/XLink/ILocatorLink.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Href
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Xml/src/Xml/XLink/ILocatorLink.cs
+    startLine: 50
+  assemblies:
+  - NDSH.Xml
+  namespace: NDSH.Xml.XLink
+  syntax:
+    content: >-
+      [Required]
+
+      string Href { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Required>
+
+      Property Href As String
+  overload: NDSH.Xml.XLink.ILocatorLink.Href*
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.RequiredAttribute
+    ctor: System.ComponentModel.DataAnnotations.RequiredAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Xml.XLink
+  commentId: N:NDSH.Xml.XLink
+  href: NDSH.html
+  name: NDSH.Xml.XLink
+  nameWithType: NDSH.Xml.XLink
+  fullName: NDSH.Xml.XLink
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  - name: .
+  - uid: NDSH.Xml.XLink
+    name: XLink
+    href: NDSH.Xml.XLink.html
+- uid: NDSH.Xml.XLink.IType.Type
+  commentId: P:NDSH.Xml.XLink.IType.Type
+  parent: NDSH.Xml.XLink.IType
+  href: NDSH.Xml.XLink.IType.html#NDSH_Xml_XLink_IType_Type
+  name: Type
+  nameWithType: IType.Type
+  fullName: NDSH.Xml.XLink.IType.Type
+- uid: NDSH.Xml.XLink.IRole.Role
+  commentId: P:NDSH.Xml.XLink.IRole.Role
+  parent: NDSH.Xml.XLink.IRole
+  href: NDSH.Xml.XLink.IRole.html#NDSH_Xml_XLink_IRole_Role
+  name: Role
+  nameWithType: IRole.Role
+  fullName: NDSH.Xml.XLink.IRole.Role
+- uid: NDSH.Xml.XLink.ITitle.Title
+  commentId: P:NDSH.Xml.XLink.ITitle.Title
+  parent: NDSH.Xml.XLink.ITitle
+  href: NDSH.Xml.XLink.ITitle.html#NDSH_Xml_XLink_ITitle_Title
+  name: Title
+  nameWithType: ITitle.Title
+  fullName: NDSH.Xml.XLink.ITitle.Title
+- uid: NDSH.Xml.XLink.ILabel.Label
+  commentId: P:NDSH.Xml.XLink.ILabel.Label
+  parent: NDSH.Xml.XLink.ILabel
+  href: NDSH.Xml.XLink.ILabel.html#NDSH_Xml_XLink_ILabel_Label
+  name: Label
+  nameWithType: ILabel.Label
+  fullName: NDSH.Xml.XLink.ILabel.Label
+- uid: NDSH.Xml.XLink.IType
+  commentId: T:NDSH.Xml.XLink.IType
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IType.html
+  name: IType
+  nameWithType: IType
+  fullName: NDSH.Xml.XLink.IType
+- uid: NDSH.Xml.XLink.IRole
+  commentId: T:NDSH.Xml.XLink.IRole
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.IRole.html
+  name: IRole
+  nameWithType: IRole
+  fullName: NDSH.Xml.XLink.IRole
+- uid: NDSH.Xml.XLink.ITitle
+  commentId: T:NDSH.Xml.XLink.ITitle
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ITitle.html
+  name: ITitle
+  nameWithType: ITitle
+  fullName: NDSH.Xml.XLink.ITitle
+- uid: NDSH.Xml.XLink.ILabel
+  commentId: T:NDSH.Xml.XLink.ILabel
+  parent: NDSH.Xml.XLink
+  href: NDSH.Xml.XLink.ILabel.html
+  name: ILabel
+  nameWithType: ILabel
+  fullName: NDSH.Xml.XLink.ILabel
+- uid: NDSH.Xml.XLink.ILocatorLink.Href*
+  commentId: Overload:NDSH.Xml.XLink.ILocatorLink.Href
+  href: NDSH.Xml.XLink.ILocatorLink.html#NDSH_Xml_XLink_ILocatorLink_Href
+  name: Href
+  nameWithType: ILocatorLink.Href
+  fullName: NDSH.Xml.XLink.ILocatorLink.Href
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

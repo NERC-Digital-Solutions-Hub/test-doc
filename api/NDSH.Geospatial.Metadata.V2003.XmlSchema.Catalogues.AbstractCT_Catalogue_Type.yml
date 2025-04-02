@@ -1,0 +1,1681 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  id: AbstractCT_Catalogue_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  children:
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.xmlns
+  langs:
+  - csharp
+  - vb
+  name: AbstractCT_Catalogue_Type
+  nameWithType: AbstractCT_Catalogue_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: AbstractCT_Catalogue_Type
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 40
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class AbstractCT_Catalogue_Type : AbstractObject_Type, IModel, IObservableModel, INotifyPropertyChanged, IObjectIdentification, IId, IUuid
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class AbstractCT_Catalogue_Type Inherits AbstractObject_Type Implements IModel, IObservableModel, INotifyPropertyChanged, IObjectIdentification, IId, IUuid
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+  derivedClasses:
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_CodelistCatalogue_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_CrsCatalogue_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_UomCatalogue_Type
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  - NDSH.Geospatial.Metadata.V2003.Common.IId
+  - NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id
+  - NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: AbstractCT_Catalogue_Type()
+  nameWithType: AbstractCT_Catalogue_Type.AbstractCT_Catalogue_Type()
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.AbstractCT_Catalogue_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: .ctor
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public AbstractCT_Catalogue_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor*
+  nameWithType.vb: AbstractCT_Catalogue_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.xmlns
+  id: xmlns
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: xmlns
+  nameWithType: AbstractCT_Catalogue_Type.xmlns
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.xmlns
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: xmlns
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 78
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: public XmlSerializerNamespaces xmlns
+    return:
+      type: System.Xml.Serialization.XmlSerializerNamespaces
+    content.vb: Public xmlns As XmlSerializerNamespaces
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+  id: Name
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AbstractCT_Catalogue_Type.Name
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Name
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 89
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("name", Order = 0)]
+
+      public CharacterString_PropertyType Name { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+    content.vb: >-
+      <JsonProperty("name", Order:=0)>
+
+      Public Property Name As CharacterString_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: name
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+  id: Scope
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: Scope
+  nameWithType: AbstractCT_Catalogue_Type.Scope
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Scope
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 111
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("scope", Order = 1)]
+
+      public List<CharacterString_PropertyType> Scope { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType}
+    content.vb: >-
+      <JsonProperty("scope", Order:=1)>
+
+      Public Property Scope As List(Of CharacterString_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scope
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+  id: FieldOfApplication
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: FieldOfApplication
+  nameWithType: AbstractCT_Catalogue_Type.FieldOfApplication
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: FieldOfApplication
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 133
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("fieldOfApplication", Order = 2)]
+
+      public List<CharacterString_PropertyType> FieldOfApplication { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType}
+    content.vb: >-
+      <JsonProperty("fieldOfApplication", Order:=2)>
+
+      Public Property FieldOfApplication As List(Of CharacterString_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: fieldOfApplication
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+  id: VersionNumber
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: VersionNumber
+  nameWithType: AbstractCT_Catalogue_Type.VersionNumber
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: VersionNumber
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 155
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("versionNumber", Order = 3)]
+
+      public CharacterString_PropertyType VersionNumber { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+    content.vb: >-
+      <JsonProperty("versionNumber", Order:=3)>
+
+      Public Property VersionNumber As CharacterString_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: versionNumber
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+  id: VersionDate
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: VersionDate
+  nameWithType: AbstractCT_Catalogue_Type.VersionDate
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: VersionDate
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 177
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("versionDate", Order = 4)]
+
+      public Date_PropertyType VersionDate { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType
+    content.vb: >-
+      <JsonProperty("versionDate", Order:=4)>
+
+      Public Property VersionDate As Date_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: versionDate
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+  id: Language
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: AbstractCT_Catalogue_Type.Language
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Language
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 199
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("language", Order = 5)]
+
+      public CharacterString_PropertyType Language { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+    content.vb: >-
+      <JsonProperty("language", Order:=5)>
+
+      Public Property Language As CharacterString_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: language
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+  id: CharacterSet
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: AbstractCT_Catalogue_Type.CharacterSet
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: CharacterSet
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 221
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("characterSet", Order = 6)]
+
+      public MD_CharacterSetCode_PropertyType CharacterSet { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+    content.vb: >-
+      <JsonProperty("characterSet", Order:=6)>
+
+      Public Property CharacterSet As MD_CharacterSetCode_PropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: characterSet
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+  id: Locale
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: Locale
+  nameWithType: AbstractCT_Catalogue_Type.Locale
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: Locale
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 243
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("locale", Order = 7)]
+
+      public List<PT_Locale_PropertyType> Locale { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType}
+    content.vb: >-
+      <JsonProperty("locale", Order:=7)>
+
+      Public Property Locale As List(Of PT_Locale_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: locale
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+  commentId: P:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+  id: SubCatalogue
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  langs:
+  - csharp
+  - vb
+  name: SubCatalogue
+  nameWithType: AbstractCT_Catalogue_Type.SubCatalogue
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/ndsh-dotnet-temp.git
+    id: SubCatalogue
+    path: ../../../GitHub/ndsh-dotnet-temp/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/XmlSchema/Catalogues/AbstractCT_Catalogue_Type.cs
+    startLine: 265
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("subCatalogue", Order = 8)]
+
+      public List<CT_Catalogue_PropertyType> SubCatalogue { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType}
+    content.vb: >-
+      <JsonProperty("subCatalogue", Order:=8)>
+
+      Public Property SubCatalogue As List(Of CT_Catalogue_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: subCatalogue
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.html
+  name: AbstractObject_Type
+  nameWithType: AbstractObject_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IId
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IUuid
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.Geospatial.Metadata.V2003.Common.IUuid.html
+  name: IUuid
+  nameWithType: IUuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IUuid
+- uid: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.html#NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Id
+  name: Id
+  nameWithType: AbstractObject_Type.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id
+- uid: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid
+  parent: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.html#NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Uuid
+  name: Uuid
+  nameWithType: AbstractObject_Type.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html
+  name: AbstractCT_Catalogue_Type
+  nameWithType: AbstractCT_Catalogue_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type__ctor
+  name: AbstractCT_Catalogue_Type
+  nameWithType: AbstractCT_Catalogue_Type.AbstractCT_Catalogue_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.AbstractCT_Catalogue_Type
+  nameWithType.vb: AbstractCT_Catalogue_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.New
+  name.vb: New
+- uid: System.Xml.Serialization.XmlSerializerNamespaces
+  commentId: T:System.Xml.Serialization.XmlSerializerNamespaces
+  parent: System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlserializernamespaces
+  name: XmlSerializerNamespaces
+  nameWithType: XmlSerializerNamespaces
+  fullName: System.Xml.Serialization.XmlSerializerNamespaces
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_Name
+  name: Name
+  nameWithType: AbstractCT_Catalogue_Type.Name
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Name
+- uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType.html
+  name: CharacterString_PropertyType
+  nameWithType: CharacterString_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_Scope
+  name: Scope
+  nameWithType: AbstractCT_Catalogue_Type.Scope
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Scope
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CharacterString_PropertyType>
+  nameWithType: List<CharacterString_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType>
+  nameWithType.vb: List(Of CharacterString_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType)
+  name.vb: List(Of CharacterString_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+    name: CharacterString_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType
+    name: CharacterString_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Text.CharacterString_PropertyType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_FieldOfApplication
+  name: FieldOfApplication
+  nameWithType: AbstractCT_Catalogue_Type.FieldOfApplication
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.FieldOfApplication
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_VersionNumber
+  name: VersionNumber
+  nameWithType: AbstractCT_Catalogue_Type.VersionNumber
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionNumber
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_VersionDate
+  name: VersionDate
+  nameWithType: AbstractCT_Catalogue_Type.VersionDate
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.VersionDate
+- uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType.html
+  name: Date_PropertyType
+  nameWithType: Date_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.Date_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  fullName: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_Language
+  name: Language
+  nameWithType: AbstractCT_Catalogue_Type.Language
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Language
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_CharacterSet
+  name: CharacterSet
+  nameWithType: AbstractCT_Catalogue_Type.CharacterSet
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.CharacterSet
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType.html
+  name: MD_CharacterSetCode_PropertyType
+  nameWithType: MD_CharacterSetCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Identification
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Identification.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_Locale
+  name: Locale
+  nameWithType: AbstractCT_Catalogue_Type.Locale
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.Locale
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<PT_Locale_PropertyType>
+  nameWithType: List<PT_Locale_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType>
+  nameWithType.vb: List(Of PT_Locale_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType)
+  name.vb: List(Of PT_Locale_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+    name: PT_Locale_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType
+    name: PT_Locale_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html#NDSH_Geospatial_Metadata_V2003_XmlSchema_Catalogues_AbstractCT_Catalogue_Type_SubCatalogue
+  name: SubCatalogue
+  nameWithType: AbstractCT_Catalogue_Type.SubCatalogue
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.SubCatalogue
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CT_Catalogue_PropertyType>
+  nameWithType: List<CT_Catalogue_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType>
+  nameWithType.vb: List(Of CT_Catalogue_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType)
+  name.vb: List(Of CT_Catalogue_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType
+    name: CT_Catalogue_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType
+    name: CT_Catalogue_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CT_Catalogue_PropertyType.html
+  - name: )

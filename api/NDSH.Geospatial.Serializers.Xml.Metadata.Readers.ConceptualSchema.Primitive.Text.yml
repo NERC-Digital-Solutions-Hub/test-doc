@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  id: Text
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.CharacterStringXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.CharacterStringXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.CharacterStringXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.CharacterStringXmlReader.html
+  name: CharacterStringXmlReader
+  nameWithType: CharacterStringXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.CharacterStringXmlReader

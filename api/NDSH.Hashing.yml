@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Hashing
+  commentId: N:NDSH.Hashing
+  id: Hashing
+  parent: NDSH
+  children:
+  - NDSH.Hashing.NdshHashCode
+  - NDSH.Hashing.Tests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Hashing
+  nameWithType: NDSH.Hashing
+  fullName: NDSH.Hashing
+  type: Namespace
+  assemblies:
+  - NDSH.Hashing
+references:
+- uid: NDSH.Hashing.Tests
+  commentId: N:NDSH.Hashing.Tests
+  href: NDSH.html
+  name: NDSH.Hashing.Tests
+  nameWithType: NDSH.Hashing.Tests
+  fullName: NDSH.Hashing.Tests
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+- uid: NDSH.Hashing.NdshHashCode
+  commentId: T:NDSH.Hashing.NdshHashCode
+  href: NDSH.Hashing.NdshHashCode.html
+  name: NdshHashCode
+  nameWithType: NdshHashCode
+  fullName: NDSH.Hashing.NdshHashCode
