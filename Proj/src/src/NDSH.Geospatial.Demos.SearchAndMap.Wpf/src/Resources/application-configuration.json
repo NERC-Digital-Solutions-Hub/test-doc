@@ -1,0 +1,59 @@
+{
+  "$type": "NDSH.Geospatial.Demos.SearchAndMap.Models.ApplicationModel, NDSH.Geospatial.Demos.SearchAndMap.Wpf",
+  "ApiKey": "your-api-key",
+  "DatabaseConnectionsInfo": [
+    {
+      "$type": "NDSH.Database.SqliteConnectionInfo, NDSH.Database",
+      "FilePath": "path-to-sqlite.db",
+      "Name": "SQLite"
+    },
+    {
+      "$type": "NDSH.Database.PostgreSqlConnectionInfo, NDSH.Database",
+      "Host": "host",
+      "Database": "database",
+      "Username": "username",
+      "Password": "password",
+      "Schemas": [ "schema1", "public" ],
+      "UsedSchema": "public",
+      "Name": "PostgreSQL"
+    }
+  ],
+  "Service": {
+    "$type": "NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service, NDSH.Geospatial.Demos.SearchAndMap",
+    "Url": "metadata-search-api-url",
+    "Content": {
+      "$type": "NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content, NDSH.Geospatial.Demos.SearchAndMap",
+      "Encoding": "UTF-8",
+      "MediaType": "application/json"
+    },
+    "Requests": [
+      {
+        "$type": "NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request, NDSH.Geospatial.Demos.SearchAndMap",
+        "Query": null,
+        "QueryField": "title",
+        "TopNumberOfRecords": 20,
+        "ReturnedFields": [
+          "identifier",
+          "recordId",
+          "title",
+          "scores"
+        ],
+        "IsUsed": true
+      },
+      {
+        "$type": "NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request, NDSH.Geospatial.Demos.SearchAndMap",
+        "Query": null,
+        "QueryField": "abstract",
+        "TopNumberOfRecords": 20,
+        "ReturnedFields": [
+          "identifier",
+          "recordId",
+          "title",
+          "scores"
+        ],
+        "IsUsed": true
+      }
+    ],
+    "Result": null
+  }
+}

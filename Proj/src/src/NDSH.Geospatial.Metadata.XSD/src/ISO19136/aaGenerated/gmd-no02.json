@@ -1,0 +1,43 @@
+{
+  "TargetFramework": "NetStandard",
+  "NameSpace": "NDSH.Geospatial.Metadata",
+  "GenerateUnusedComplexType": true,
+  "GenerateUnusedSimpleType": true,
+  "Properties": {
+    "NotifyPropertyChanged": true
+  },
+  "XmlAttribute": {
+    "Enabled": true,
+    "GenerateOrderXmlAttributes": true
+  },
+  "JsonAttribute": {
+    "Enabled": true,
+    "MemberName": 1
+  },
+  "DataAnnotationsAttribute": {
+    "StringLengthAttribute": true,
+    "RequiredAttribute": true,
+    "MaxLengthAttribute": true,
+    "MinLengthAttribute": true,
+    "RegularExpressionAttribute": true,
+    "RangeAttribute": true,
+    "MaxDigitsAttribute": true,
+    "FractionDigitsAttribute": true,
+    "DefautValueAttribute": true,
+    "ValidatePropertyInSetter": true,
+    "Enabled": true
+  },
+  "ClassParams": {
+    "PartialClass": false,
+    "GenerateInSeparateFilesDirectory": "C:\\NDSH\\SoftDev\\CodeGeneration\\NDSH.Geospatial.Metadata\\Generated"
+  },
+  "TrackingChanges": {
+    "Enabled": true,
+    "GenerateTrackingClasses": true
+  },
+  "Miscellaneous": {
+    "EnableSummaryComment": true
+  }
+}{
+
+}

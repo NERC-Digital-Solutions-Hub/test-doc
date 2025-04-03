@@ -1,0 +1,35 @@
+﻿
+================================================================================
+Name / Role name Short Name Definition Obligation / Condition Maximum occurrence Data type Domain
+1 MD_Metadata Metadata root entity which defines metadata about a resource or resources M 1 Class Lines 2-22
+--------------------------------------------------------------------------------
+2    | fileIdentifier | mdFileID | unique identifier for this metadata file O 1 CharacterString Free text
+3    | language | mdLang | language used for documenting metadata C / not defined by encoding? 1 CharacterString ISO 639-2, other parts may be used
+4    | characterSet | mdChar | full name of the character coding standard used for the metadata set C / ISO/IEC 10646-1 not used and not defined by encoding? 1 Class MD_CharacterSetCode <<CodeList>> (B.5.10)
+5    | parentIdentifier | mdParentID | file identifier of the metadata to which this metadata is a subset (child) 1 CharacterString Free text
+6    | hierarchyLevel | mdHrLv | scope to which the metadata applies (see Annex H for more information about metadata hierarchy levels) C / hierarchyLevel is not equal to "dataset"? N Class MD_ScopeCode <<CodeList>> (B.5.25)
+7    | hierarchyLevelName | mdHrLvName | name of the hierarchy levels for which the metadata is provided / hierarchyLevel is not equal to "dataset"? N CharacterString Free text
+8    | contact | mdContact | party responsible for the metadata information M N Class CI_ResponsibleParty (B.3.2) <<DataType>>
+9    | dateStamp | mdDateSt | date that the metadata was created M 1 Class Date (B.4.2)
+10   | metadataStandardName | mdStanName | name of the metadata standard (including profile name) used O 1 CharacterString Free text
+11   | metadataStandardVersion | mdStanVer | O 1 CharacterString Free text ˆ ‰ C / If there is an upper hierarchy level ˆ ‰ version of the metadata standard (version of the profile) used
+11.1 | dataSetURI | dataSetURI | Uniformed Resource Identifier (URI) of the dataset to which the metadata applies O 1 CharacterString Free text
+11.2 | locate | loc | Provides information about an alternatively used localized character string for a linguistic extension O N Class PT_Locale BS EN ISO 19115:
+12   | Role name: spatialRepresentationInfo | spatRepInfo | digital representation of spatial information in the dataset O N Association MD_SpatialRepresentation <<Abstract>> (B.2.6)
+13   | Role name: referenceSystemInfo | refSysInfo | description of the spatial and temporal reference systems used in the dataset O N Association MD_ReferenceSystem (B.2.7)
+14   | Role name: metadataExtensionInfo | mdExtInfo | information describing metadata extensions O N Association MD_MetadataExtension Information (B.2.11)
+15   | Role name: identificationInfo | dataIdInfo | basic information about the resource(s) to which the metadata applies M N Association MD_Identification <<Abstract>> (B.2.2)
+16   | Role name: contentInfo | contInfo | provides information about the feature catalogue and describes the coverage and image data characteristics O N Association MD_ContentInformation <<Abstract>> (B.2.8)
+17   | Role name: distributionInfo | distInfo | provides information about the distributor of and options for obtaining the resource(s) O 1 Association MD_Distribution (B.2.10
+18   | Role name: dataQualityInfo | dqInfo | provides overall assessment of quality of a resource(s) O N Association DQ_DataQuality (B.2.4)
+19   | Role name: portrayalCatalogueInfo | porCatInfo | provides information about the catalogue of rules defined for the portrayal of a resource(s) O N Association MD_PortrayalCatalogue Reference (B.2.9)
+20   | Role name: metadataConstraints | mdConst | provides restrictions on the access and use of metadata O N Association MD_Constraints (B.2.3)
+21   | Role name: applicationSchemaInfo | appSchInfo | provides information about the conceptual schema of a dataset O N Association MD_ApplicationSchema Information (B.2.12)
+22   | Role name: metadataMaintenance | mdMaint | provides information about the frequency of metadata updates, and the scope of those updates O 1 Association MD_MaintenanceInformation (B.2.5) ISO 19115:2003(E) ˆ ‰
+
+
+
+
+
+
+

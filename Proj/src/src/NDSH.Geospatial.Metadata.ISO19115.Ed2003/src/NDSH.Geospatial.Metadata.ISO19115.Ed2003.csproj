@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\bin</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\..\..\doc\NDSH.Geospatial.Metadata.ISO19115.Ed2003.xml</DocumentationFile>
+    <RootNamespace>NDSH</RootNamespace>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Geospatial\Metadata\ReferenceSystem\AbstractCRSType.cs" />
+    <Compile Remove="Geospatial\Metadata\ReferenceSystem\SC_CRS_PropertyType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Geospatial\Metadata\MetadataObject.cs" />
+    <None Include="Geospatial\Metadata\ReferenceSystem\AbstractCRSType.cs" />
+    <None Include="Geospatial\Metadata\ReferenceSystem\SC_CRS_PropertyType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NDSH.Hashing\src\NDSH.Hashing.csproj" />
+    <ProjectReference Include="..\..\NDSH.Models\src\NDSH.Models.csproj" />
+    <ProjectReference Include="..\..\NDSH.Resources\src\NDSH.Resources.csproj" />
+    <ProjectReference Include="..\..\NDSH.Xml\src\NDSH.Xml.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Geospatial\XSD\ISO\2005\resources\Codelist\gmiCodelists.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\Codelist\gmxCodelists.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\Codelist\ML_gmxCodelists.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\crs\gmxCrs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\crs\ML_gmxCrs.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\uom\gmxUom.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Geospatial\XSD\ISO\2005\resources\uom\ML_gmxUom.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

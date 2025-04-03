@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>..\..\..\..\bin</BaseOutputPath>
+    <RootNamespace>NDSH</RootNamespace>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Checker.cs" />
+    <Compile Remove="Examples\CharacterString.cs" />
+    <Compile Remove="Examples\CI_Telephone.cs" />
+    <Compile Remove="XmlIncludeChecker.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\application-configuration.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\application-configuration.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Checker.cs" />
+    <None Include="Examples\CharacterString.cs" />
+    <None Include="Examples\CI_Telephone.cs" />
+    <None Include="XmlIncludeChecker.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.Serializers\src\NDSH.Geospatial.Metadata.Serializers.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.Utilities\src\NDSH.Geospatial.Metadata.Utilities.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.V2003.Thin\src\NDSH.Geospatial.Metadata.V2003.Thin.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.V2003\src\NDSH.Geospatial.Metadata.V2003.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.V2003\tests.content\NDSH.Geospatial.Metadata.V2003.Tests.Content.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.V2005\src\NDSH.Geospatial.Metadata.V2005.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.V2005\tests.content\NDSH.Geospatial.Metadata.V2005.Tests.Content.csproj" />
+    <ProjectReference Include="..\..\NDSH\src\NDSH.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

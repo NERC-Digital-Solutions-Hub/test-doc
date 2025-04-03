@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.AbstractEX_GeographicExtent_Type">
+    <Position X="8.5" Y="12" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\AbstractEX_GeographicExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.IdentifiableObject">
+    <Position X="14" Y="8.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAIAQAABBAABAAAQAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\IdentifiableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Database.Entities.ObservableDbEntity">
+    <Position X="14" Y="5.75" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.ObservableModel">
+    <Position X="14.5" Y="3" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.Model">
+    <Position X="14" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_BoundingPolygon_Type">
+    <Position X="5.25" Y="16.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_BoundingPolygon_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_Extent_Type">
+    <Position X="12.5" Y="12" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACRCAAAAAgAAAEAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_Extent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_GeographicBoundingBox_Type">
+    <Position X="8.5" Y="16.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIAAAAAAQAAgAAAgAAAIAQAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_GeographicBoundingBox_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_GeographicDescription_Type">
+    <Position X="12" Y="16.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_GeographicDescription_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_SpatialTemporalExtent_Type">
+    <Position X="16" Y="16.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_SpatialTemporalExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_TemporalExtent_Type">
+    <Position X="16.25" Y="12" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_TemporalExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_VerticalExtent_Type">
+    <Position X="19.5" Y="12" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAEAAAAAAQAAAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_VerticalExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NDSH.Geospatial.Metadata.Common.IObjectIdentification" Collapsed="true">
+    <Position X="10.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\IObjectIdentification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.Common.IId">
+    <Position X="9.75" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\IId.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.Common.IUuid">
+    <Position X="12.25" Y="7.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\IUuid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Database.Entities.IDbId">
+    <Position X="12.25" Y="5.75" Width="1.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IObservableModel" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IModel">
+    <Position X="11.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

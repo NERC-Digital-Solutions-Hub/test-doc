@@ -1,0 +1,3 @@
+\Imagery\Content\MI_Band_Type.cs                   inherit from [MD_Band_Type]                   not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\Content\MI_CoverageDescription_Type.cs    inherit from [MD_CoverageDescription_Type]    not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\Content\MI_ImageDescription_Type.cs       inherit from [MD_ImageDescription_Type]       not AbstractObject_Type    DONE - NEEDS XmlIncludes

@@ -1,0 +1,4 @@
+
+// WARNING: Imagery/EntitySet - CORRECT The following files
+
+\Imagery\EntitySet\MI_Metadata_Type.cs    inherit from [MD_Metadata_Type]    not AbstractObject_Type    DONE - NEEDS XmlIncludes

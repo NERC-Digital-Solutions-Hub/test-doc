@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CharacterString" xml:space="preserve">
+    <value>&lt;gco:CharacterString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco"&gt;This is a character string&lt;/gco:CharacterString&gt;</value>
+  </data>
+  <data name="CharacterString_Compact" xml:space="preserve">
+    <value>&lt;gco:CharacterString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco"&gt;This is a character string&lt;/gco:CharacterString&gt;</value>
+  </data>
+  <data name="CharacterString_Entity" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gco:CharacterString&gt;This is a character string&lt;/gco:CharacterString&gt;
+&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="CharacterString_Entity_Compact" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gco:CharacterString&gt;This is a character string&lt;/gco:CharacterString&gt;&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="CI_Address_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Address_Type" xml:space="preserve">
+    <value>&lt;gmd:CI_Address xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gmd:deliveryPoint&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;
+  &lt;/gmd:deliveryPoint&gt;
+  &lt;gmd:city&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+  &lt;/gmd:city&gt;
+  &lt;gmd:administrativeArea&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+  &lt;/gmd:administrativeArea&gt;
+  &lt;gmd:postalCode&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+  &lt;/gmd:postalCode&gt;
+  &lt;gmd:country&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;United Kingdom&lt;/gco:CharacterString&gt;
+  &lt;/gmd:country&gt;
+  &lt;gmd:electronicMailAddress&gt;
+    &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+  &lt;/gmd:electronicMailAddress&gt;
+&lt;/gmd:CI_Address&gt;</value>
+  </data>
+  <data name="CI_Address_Type_Compact" xml:space="preserve">
+    <value>&lt;gmd:CI_Address xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gmd:deliveryPoint&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;&lt;/gmd:deliveryPoint&gt;&lt;gmd:city&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;&lt;/gmd:city&gt;&lt;gmd:administrativeArea&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;&lt;/gmd:administrativeArea&gt;&lt;gmd:postalCode&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NG12 5GG&lt;/gco:CharacterString&gt;&lt;/gmd:postalCode&gt;&lt;gmd:country&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;United Kingdom&lt;/gco:CharacterString&gt;&lt;/gmd:country&gt;&lt;gmd:electronicMailAddress&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;&lt;/gmd:electronicMailAddress&gt;&lt;/gmd:CI_Address&gt;</value>
+  </data>
+  <data name="CI_Address_Type_Entity" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gmd:CI_Address xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+    &lt;gmd:deliveryPoint&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;
+    &lt;/gmd:deliveryPoint&gt;
+    &lt;gmd:city&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+    &lt;/gmd:city&gt;
+    &lt;gmd:administrativeArea&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+    &lt;/gmd:administrativeArea&gt;
+    &lt;gmd:postalCode&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+    &lt;/gmd:postalCode&gt;
+    &lt;gmd:country&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;United Kingdom&lt;/gco:CharacterString&gt;
+    &lt;/gmd:country&gt;
+    &lt;gmd:electronicMailAddress&gt;
+      &lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+    &lt;/gmd:electronicMailAddress&gt;
+  &lt;/gmd:CI_Address&gt;
+&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="CI_Address_Type_Entity_Compact" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gmd:CI_Address xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gmd:deliveryPoint&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;&lt;/gmd:deliveryPoint&gt;&lt;gmd:city&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;&lt;/gmd:city&gt;&lt;gmd:administrativeArea&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;&lt;/gmd:administrativeArea&gt;&lt;gmd:postalCode&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;NG12 5GG&lt;/gco:CharacterString&gt;&lt;/gmd:postalCode&gt;&lt;gmd:country&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;United Kingdom&lt;/gco:CharacterString&gt;&lt;/gmd:country&gt;&lt;gmd:electronicMailAddress&gt;&lt;gco:CharacterString xmlns:gmd="http://www.isotc211.org/2005/gco"&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;&lt;/gmd:electronicMailAddress&gt;&lt;/gmd:CI_Address&gt;&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="CI_Citation_Type" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;Geological Indicators of Flooding Great Britain&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2006&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+  &lt;gmd:identifier&gt;
+    &lt;gmd:MD_Identifier&gt;
+      &lt;gmd:code&gt;
+        &lt;gco:CharacterString&gt;http://data.bgs.ac.uk/id/dataHolding/13603094&lt;/gco:CharacterString&gt;
+      &lt;/gmd:code&gt;
+    &lt;/gmd:MD_Identifier&gt;
+  &lt;/gmd:identifier&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="CI_Contact_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Contact_Type" xml:space="preserve">
+    <value>&lt;gmd:CI_Contact&gt;
+  &lt;gmd:phone&gt;
+    &lt;gmd:CI_Telephone&gt;
+      &lt;gmd:voice&gt;
+        &lt;gco:CharacterString&gt;+44 115 936 3100&lt;/gco:CharacterString&gt;
+      &lt;/gmd:voice&gt;
+    &lt;/gmd:CI_Telephone&gt;
+  &lt;/gmd:phone&gt;
+  &lt;gmd:address&gt;
+    &lt;gmd:CI_Address&gt;
+      &lt;gmd:deliveryPoint&gt;
+        &lt;gco:CharacterString&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;
+      &lt;/gmd:deliveryPoint&gt;
+      &lt;gmd:city&gt;
+        &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+      &lt;/gmd:city&gt;
+      &lt;gmd:administrativeArea&gt;
+        &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+      &lt;/gmd:administrativeArea&gt;
+      &lt;gmd:postalCode&gt;
+        &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+      &lt;/gmd:postalCode&gt;
+      &lt;gmd:country&gt;
+        &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+      &lt;/gmd:country&gt;
+      &lt;gmd:electronicMailAddress&gt;
+        &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+      &lt;/gmd:electronicMailAddress&gt;
+    &lt;/gmd:CI_Address&gt;
+  &lt;/gmd:address&gt;
+&lt;/gmd:CI_Contact&gt;</value>
+  </data>
+  <data name="CI_DateTypeCode_PropertyType" xml:space="preserve">
+    <value>&lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;</value>
+  </data>
+  <data name="CI_Date_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Date_Type" xml:space="preserve">
+    <value>&lt;gmd:CI_Date&gt;
+  &lt;gmd:date&gt;
+    &lt;gco:Date&gt;2006&lt;/gco:Date&gt;
+  &lt;/gmd:date&gt;
+  &lt;gmd:dateType&gt;
+    &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+  &lt;/gmd:dateType&gt;
+&lt;/gmd:CI_Date&gt;</value>
+  </data>
+  <data name="CI_Individual_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Individual_Type" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_OnLineFunctionCode_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_OnlineResource_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_OnlineResource_Type" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Organisation_Type" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_PresentationFormCode_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Responsibility_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Responsibility_Type" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_ResponsiblePartyType" xml:space="preserve">
+    <value>&lt;gmd:CI_ResponsibleParty&gt;
+  &lt;gmd:organisationName&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey&lt;/gco:CharacterString&gt;
+  &lt;/gmd:organisationName&gt;
+  &lt;gmd:contactInfo&gt;
+    &lt;gmd:CI_Contact&gt;
+      &lt;gmd:phone&gt;
+        &lt;gmd:CI_Telephone&gt;
+          &lt;gmd:voice&gt;
+            &lt;gco:CharacterString&gt;+44 115 936 3100&lt;/gco:CharacterString&gt;
+          &lt;/gmd:voice&gt;
+        &lt;/gmd:CI_Telephone&gt;
+      &lt;/gmd:phone&gt;
+      &lt;gmd:address&gt;
+        &lt;gmd:CI_Address&gt;
+          &lt;gmd:deliveryPoint&gt;
+            &lt;gco:CharacterString&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;
+          &lt;/gmd:deliveryPoint&gt;
+          &lt;gmd:city&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+          &lt;/gmd:city&gt;
+          &lt;gmd:administrativeArea&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+          &lt;/gmd:administrativeArea&gt;
+          &lt;gmd:postalCode&gt;
+            &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+          &lt;/gmd:postalCode&gt;
+          &lt;gmd:country&gt;
+            &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+          &lt;/gmd:country&gt;
+          &lt;gmd:electronicMailAddress&gt;
+            &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+          &lt;/gmd:electronicMailAddress&gt;
+        &lt;/gmd:CI_Address&gt;
+      &lt;/gmd:address&gt;
+    &lt;/gmd:CI_Contact&gt;
+  &lt;/gmd:contactInfo&gt;
+  &lt;gmd:role&gt;
+    &lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"&gt;pointOfContact&lt;/gmd:CI_RoleCode&gt;
+  &lt;/gmd:role&gt;
+&lt;/gmd:CI_ResponsibleParty&gt;</value>
+  </data>
+  <data name="CI_RoleCode_PropertyType" xml:space="preserve">
+    <value>&lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"&gt;pointOfContact&lt;/gmd:CI_RoleCode&gt;</value>
+  </data>
+  <data name="CI_Series_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Series_Type" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_TelephoneTypeCode_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Telephone_PropertyType" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CI_Telephone_Type" xml:space="preserve">
+    <value>&lt;gmd:CI_Telephone xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gmd:voice&gt;
+    &lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;0115 936 3143&lt;/gco:CharacterString&gt;
+  &lt;/gmd:voice&gt;
+  &lt;gmd:facsimile&gt;
+    &lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;0115 936 3276&lt;/gco:CharacterString&gt;
+  &lt;/gmd:facsimile&gt;
+&lt;/gmd:CI_Telephone&gt;</value>
+  </data>
+  <data name="CI_Telephone_Type2" xml:space="preserve">
+    <value>&lt;gmd:CI_Telephone xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+  &lt;gmd:voice&gt;
+    &lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;+44 115 936 3100&lt;/gco:CharacterString&gt;
+  &lt;/gmd:voice&gt;
+&lt;/gmd:CI_Telephone&gt;</value>
+  </data>
+  <data name="CI_Telephone_Type2_Compact" xml:space="preserve">
+    <value>&lt;gmd:CI_Telephone xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gmd:voice&gt;&lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;+44 115 936 3100&lt;/gco:CharacterString&gt;&lt;/gmd:voice&gt;&lt;/gmd:CI_Telephone&gt;</value>
+  </data>
+  <data name="CI_Telephone_Type_Compact" xml:space="preserve">
+    <value>&lt;gmd:CI_Telephone xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;&lt;gmd:voice&gt;&lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;0115 936 3143&lt;/gco:CharacterString&gt;&lt;/gmd:voice&gt;&lt;gmd:facsimile&gt;&lt;gco:CharacterString xmlns:gco="http://www.isotc211.org/2005/gco"&gt;0115 936 3276&lt;/gco:CharacterString&gt;&lt;/gmd:facsimile&gt;&lt;/gmd:CI_Telephone&gt;</value>
+  </data>
+  <data name="Entity" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" /&gt;</value>
+  </data>
+  <data name="Entity_Compact" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" /&gt;</value>
+  </data>
+  <data name="Entity_Placeholder" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;
+&lt;Item&gt;@@@@&lt;/Item&gt;
+&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="Entity_Placeholder_Compact" xml:space="preserve">
+    <value>&lt;gmd:Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"&gt;@@@@&lt;/gmd:Entity&gt;</value>
+  </data>
+  <data name="X_CI_Citation1" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;Geological Indicators of Flooding Great Britain&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2006&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+  &lt;gmd:identifier&gt;
+    &lt;gmd:MD_Identifier&gt;
+      &lt;gmd:code&gt;
+        &lt;gco:CharacterString&gt;http://data.bgs.ac.uk/id/dataHolding/13603094&lt;/gco:CharacterString&gt;
+      &lt;/gmd:code&gt;
+    &lt;/gmd:MD_Identifier&gt;
+  &lt;/gmd:identifier&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation2" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;GEMET - INSPIRE themes&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2008-06-01&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"&gt;publication&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation3" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;BGS Thesaurus of Geosciences&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2011&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"&gt;revision&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation4" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;ISO 3166_1 alpha-3&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2009&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"&gt;revision&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation5" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey Gazetteer: Geographical hierarchy from Geosaurus&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;1979&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation6" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey Gazetteer: Geographical hierarchy from Geosaurus&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;1979&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation7" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;ISO 3166_1 alpha-3&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2009&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"&gt;revision&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation8" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey Gazetteer: Geographical hierarchy from Geosaurus&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;1979&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"&gt;creation&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Citation9" xml:space="preserve">
+    <value>&lt;gmd:CI_Citation&gt;
+  &lt;gmd:title&gt;
+    &lt;gco:CharacterString&gt;ISO 3166_1 alpha-3&lt;/gco:CharacterString&gt;
+  &lt;/gmd:title&gt;
+  &lt;gmd:date&gt;
+    &lt;gmd:CI_Date&gt;
+      &lt;gmd:date&gt;
+        &lt;gco:Date&gt;2009&lt;/gco:Date&gt;
+      &lt;/gmd:date&gt;
+      &lt;gmd:dateType&gt;
+        &lt;gmd:CI_DateTypeCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"&gt;revision&lt;/gmd:CI_DateTypeCode&gt;
+      &lt;/gmd:dateType&gt;
+    &lt;/gmd:CI_Date&gt;
+  &lt;/gmd:date&gt;
+&lt;/gmd:CI_Citation&gt;</value>
+  </data>
+  <data name="X_CI_Online_Resource1" xml:space="preserve">
+    <value>&lt;gmd:CI_OnlineResource&gt;
+  &lt;gmd:linkage&gt;
+    &lt;gmd:URL&gt;http://ogc.bgs.ac.uk/dppp/wmc/gif.xml&lt;/gmd:URL&gt;
+  &lt;/gmd:linkage&gt;
+  &lt;gmd:protocol&gt;
+    &lt;gco:CharacterString&gt;http&lt;/gco:CharacterString&gt;
+  &lt;/gmd:protocol&gt;
+  &lt;gmd:name&gt;
+    &lt;gco:CharacterString&gt;Web map context for GIF&lt;/gco:CharacterString&gt;
+  &lt;/gmd:name&gt;
+  &lt;gmd:description&gt;
+    &lt;gco:CharacterString&gt;Web map context for GIF&lt;/gco:CharacterString&gt;
+  &lt;/gmd:description&gt;
+  &lt;gmd:function&gt;
+    &lt;gmd:CI_OnLineFunctionCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"&gt;download&lt;/gmd:CI_OnLineFunctionCode&gt;
+  &lt;/gmd:function&gt;
+&lt;/gmd:CI_OnlineResource&gt;</value>
+  </data>
+  <data name="X_CI_Online_Resource2" xml:space="preserve">
+    <value>&lt;gmd:CI_OnlineResource&gt;
+  &lt;gmd:linkage&gt;
+    &lt;gmd:URL&gt;http://ogc.bgs.ac.uk/dppp/kml/gif.kml&lt;/gmd:URL&gt;
+  &lt;/gmd:linkage&gt;
+  &lt;gmd:protocol&gt;
+    &lt;gco:CharacterString&gt;http&lt;/gco:CharacterString&gt;
+  &lt;/gmd:protocol&gt;
+  &lt;gmd:name&gt;
+    &lt;gco:CharacterString&gt;KML resource for GIF&lt;/gco:CharacterString&gt;
+  &lt;/gmd:name&gt;
+  &lt;gmd:description&gt;
+    &lt;gco:CharacterString&gt;KML resource for GIF&lt;/gco:CharacterString&gt;
+  &lt;/gmd:description&gt;
+  &lt;gmd:function&gt;
+    &lt;gmd:CI_OnLineFunctionCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download"&gt;download&lt;/gmd:CI_OnLineFunctionCode&gt;
+  &lt;/gmd:function&gt;
+&lt;/gmd:CI_OnlineResource&gt;</value>
+  </data>
+  <data name="X_CI_Online_Resource3" xml:space="preserve">
+    <value>&lt;gmd:CI_OnlineResource&gt;
+  &lt;gmd:linkage&gt;
+    &lt;gmd:URL&gt;http://www.bgs.ac.uk/products/hydrogeology/indicatorsOfFlooding.html&lt;/gmd:URL&gt;
+  &lt;/gmd:linkage&gt;
+  &lt;gmd:description&gt;
+    &lt;gco:CharacterString&gt;Geological Indicators of Flooding Homepage.&lt;/gco:CharacterString&gt;
+  &lt;/gmd:description&gt;
+  &lt;gmd:function&gt;
+    &lt;gmd:CI_OnLineFunctionCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"&gt;information&lt;/gmd:CI_OnLineFunctionCode&gt;
+  &lt;/gmd:function&gt;
+&lt;/gmd:CI_OnlineResource&gt;</value>
+  </data>
+  <data name="X_CI_ResponsibleParty1" xml:space="preserve">
+    <value>&lt;gmd:CI_ResponsibleParty&gt;
+  &lt;gmd:individualName&gt;
+    &lt;gco:CharacterString&gt;Enquiries&lt;/gco:CharacterString&gt;
+  &lt;/gmd:individualName&gt;
+  &lt;gmd:organisationName&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey&lt;/gco:CharacterString&gt;
+  &lt;/gmd:organisationName&gt;
+  &lt;gmd:contactInfo&gt;
+    &lt;gmd:CI_Contact&gt;
+      &lt;gmd:phone&gt;
+        &lt;gmd:CI_Telephone&gt;
+          &lt;gmd:voice&gt;
+            &lt;gco:CharacterString&gt;0115 936 3143&lt;/gco:CharacterString&gt;
+          &lt;/gmd:voice&gt;
+          &lt;gmd:facsimile&gt;
+            &lt;gco:CharacterString&gt;0115 936 3276&lt;/gco:CharacterString&gt;
+          &lt;/gmd:facsimile&gt;
+        &lt;/gmd:CI_Telephone&gt;
+      &lt;/gmd:phone&gt;
+      &lt;gmd:address&gt;
+        &lt;gmd:CI_Address&gt;
+          &lt;gmd:deliveryPoint&gt;
+            &lt;gco:CharacterString&gt;Environmental Science Centre, Nicker Hill, Keyworth&lt;/gco:CharacterString&gt;
+          &lt;/gmd:deliveryPoint&gt;
+          &lt;gmd:city&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+          &lt;/gmd:city&gt;
+          &lt;gmd:administrativeArea&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+          &lt;/gmd:administrativeArea&gt;
+          &lt;gmd:postalCode&gt;
+            &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+          &lt;/gmd:postalCode&gt;
+          &lt;gmd:country&gt;
+            &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+          &lt;/gmd:country&gt;
+          &lt;gmd:electronicMailAddress&gt;
+            &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+          &lt;/gmd:electronicMailAddress&gt;
+        &lt;/gmd:CI_Address&gt;
+      &lt;/gmd:address&gt;
+    &lt;/gmd:CI_Contact&gt;
+  &lt;/gmd:contactInfo&gt;
+  &lt;gmd:role&gt;
+    &lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"&gt;distributor&lt;/gmd:CI_RoleCode&gt;
+  &lt;/gmd:role&gt;
+&lt;/gmd:CI_ResponsibleParty&gt;</value>
+  </data>
+  <data name="X_CI_ResponsibleParty2" xml:space="preserve">
+    <value>&lt;gmd:CI_ResponsibleParty&gt;
+  &lt;gmd:individualName&gt;
+    &lt;gco:CharacterString&gt;Enquiries&lt;/gco:CharacterString&gt;
+  &lt;/gmd:individualName&gt;
+  &lt;gmd:organisationName&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey&lt;/gco:CharacterString&gt;
+  &lt;/gmd:organisationName&gt;
+  &lt;gmd:contactInfo&gt;
+    &lt;gmd:CI_Contact&gt;
+      &lt;gmd:phone&gt;
+        &lt;gmd:CI_Telephone&gt;
+          &lt;gmd:voice&gt;
+            &lt;gco:CharacterString&gt;0115 936 3143&lt;/gco:CharacterString&gt;
+          &lt;/gmd:voice&gt;
+          &lt;gmd:facsimile&gt;
+            &lt;gco:CharacterString&gt;0115 936 3276&lt;/gco:CharacterString&gt;
+          &lt;/gmd:facsimile&gt;
+        &lt;/gmd:CI_Telephone&gt;
+      &lt;/gmd:phone&gt;
+      &lt;gmd:address&gt;
+        &lt;gmd:CI_Address&gt;
+          &lt;gmd:deliveryPoint&gt;
+            &lt;gco:CharacterString&gt;Environmental Science Centre, Nicker Hill, Keyworth&lt;/gco:CharacterString&gt;
+          &lt;/gmd:deliveryPoint&gt;
+          &lt;gmd:city&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+          &lt;/gmd:city&gt;
+          &lt;gmd:administrativeArea&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+          &lt;/gmd:administrativeArea&gt;
+          &lt;gmd:postalCode&gt;
+            &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+          &lt;/gmd:postalCode&gt;
+          &lt;gmd:country&gt;
+            &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+          &lt;/gmd:country&gt;
+          &lt;gmd:electronicMailAddress&gt;
+            &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+          &lt;/gmd:electronicMailAddress&gt;
+        &lt;/gmd:CI_Address&gt;
+      &lt;/gmd:address&gt;
+    &lt;/gmd:CI_Contact&gt;
+  &lt;/gmd:contactInfo&gt;
+  &lt;gmd:role&gt;
+    &lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"&gt;distributor&lt;/gmd:CI_RoleCode&gt;
+  &lt;/gmd:role&gt;
+&lt;/gmd:CI_ResponsibleParty&gt;</value>
+  </data>
+  <data name="X_CI_ResponsibleParty3" xml:space="preserve">
+    <value>&lt;gmd:CI_ResponsibleParty&gt;
+  &lt;gmd:individualName&gt;
+    &lt;gco:CharacterString&gt;Enquiries&lt;/gco:CharacterString&gt;
+  &lt;/gmd:individualName&gt;
+  &lt;gmd:organisationName&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey&lt;/gco:CharacterString&gt;
+  &lt;/gmd:organisationName&gt;
+  &lt;gmd:contactInfo&gt;
+    &lt;gmd:CI_Contact&gt;
+      &lt;gmd:phone&gt;
+        &lt;gmd:CI_Telephone&gt;
+          &lt;gmd:voice&gt;
+            &lt;gco:CharacterString&gt;0115 936 3143&lt;/gco:CharacterString&gt;
+          &lt;/gmd:voice&gt;
+          &lt;gmd:facsimile&gt;
+            &lt;gco:CharacterString&gt;0115 936 3276&lt;/gco:CharacterString&gt;
+          &lt;/gmd:facsimile&gt;
+        &lt;/gmd:CI_Telephone&gt;
+      &lt;/gmd:phone&gt;
+      &lt;gmd:address&gt;
+        &lt;gmd:CI_Address&gt;
+          &lt;gmd:deliveryPoint&gt;
+            &lt;gco:CharacterString&gt;Environmental Science Centre, Nicker Hill, Keyworth&lt;/gco:CharacterString&gt;
+          &lt;/gmd:deliveryPoint&gt;
+          &lt;gmd:city&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+          &lt;/gmd:city&gt;
+          &lt;gmd:administrativeArea&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+          &lt;/gmd:administrativeArea&gt;
+          &lt;gmd:postalCode&gt;
+            &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+          &lt;/gmd:postalCode&gt;
+          &lt;gmd:country&gt;
+            &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+          &lt;/gmd:country&gt;
+          &lt;gmd:electronicMailAddress&gt;
+            &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+          &lt;/gmd:electronicMailAddress&gt;
+        &lt;/gmd:CI_Address&gt;
+      &lt;/gmd:address&gt;
+    &lt;/gmd:CI_Contact&gt;
+  &lt;/gmd:contactInfo&gt;
+  &lt;gmd:role&gt;
+    &lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"&gt;pointOfContact&lt;/gmd:CI_RoleCode&gt;
+  &lt;/gmd:role&gt;
+&lt;/gmd:CI_ResponsibleParty&gt;</value>
+  </data>
+  <data name="X_CI_ResponsibleParty4" xml:space="preserve">
+    <value>&lt;gmd:CI_ResponsibleParty&gt;
+  &lt;gmd:organisationName&gt;
+    &lt;gco:CharacterString&gt;British Geological Survey&lt;/gco:CharacterString&gt;
+  &lt;/gmd:organisationName&gt;
+  &lt;gmd:contactInfo&gt;
+    &lt;gmd:CI_Contact&gt;
+      &lt;gmd:phone&gt;
+        &lt;gmd:CI_Telephone&gt;
+          &lt;gmd:voice&gt;
+            &lt;gco:CharacterString&gt;+44 115 936 3100&lt;/gco:CharacterString&gt;
+          &lt;/gmd:voice&gt;
+        &lt;/gmd:CI_Telephone&gt;
+      &lt;/gmd:phone&gt;
+      &lt;gmd:address&gt;
+        &lt;gmd:CI_Address&gt;
+          &lt;gmd:deliveryPoint&gt;
+            &lt;gco:CharacterString&gt;Environmental Science Centre, Keyworth&lt;/gco:CharacterString&gt;
+          &lt;/gmd:deliveryPoint&gt;
+          &lt;gmd:city&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAM&lt;/gco:CharacterString&gt;
+          &lt;/gmd:city&gt;
+          &lt;gmd:administrativeArea&gt;
+            &lt;gco:CharacterString&gt;NOTTINGHAMSHIRE&lt;/gco:CharacterString&gt;
+          &lt;/gmd:administrativeArea&gt;
+          &lt;gmd:postalCode&gt;
+            &lt;gco:CharacterString&gt;NG12 5GG&lt;/gco:CharacterString&gt;
+          &lt;/gmd:postalCode&gt;
+          &lt;gmd:country&gt;
+            &lt;gco:CharacterString&gt;United Kingdom&lt;/gco:CharacterString&gt;
+          &lt;/gmd:country&gt;
+          &lt;gmd:electronicMailAddress&gt;
+            &lt;gco:CharacterString&gt;enquiries@bgs.ac.uk&lt;/gco:CharacterString&gt;
+          &lt;/gmd:electronicMailAddress&gt;
+        &lt;/gmd:CI_Address&gt;
+      &lt;/gmd:address&gt;
+    &lt;/gmd:CI_Contact&gt;
+  &lt;/gmd:contactInfo&gt;
+  &lt;gmd:role&gt;
+    &lt;gmd:CI_RoleCode codeList="https://schemas.isotc211.org/schemas/19139/resources/codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"&gt;pointOfContact&lt;/gmd:CI_RoleCode&gt;
+  &lt;/gmd:role&gt;
+&lt;/gmd:CI_ResponsibleParty&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,437 @@
+﻿
+================================================================================
+@@@@ B.5.2 CI_DateTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name | Domain code | Definition
+1 | CI_DateTypeCode | DateTypCd | identification of when a given event occurred
+--------------------------------------------------------------------------------
+2 | creation | 001 | date identifies when the resource was brought into existence
+3 | publication | 002 | date identifies when the resource was issued
+4 | revision | 003 | date identifies when the resource was examined or re-examined and improved or amended
+
+================================================================================
+@@@@ B.5.3 CI_OnLineFunctionCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name | Domain code | Definition
+1 | CI_OnLineFunctionCode | OnFunctCd | function performed by the resource
+--------------------------------------------------------------------------------
+2 | download | 001 | online instructions for transferring data from one storage device or system to another
+3 | information | 002 | online information about the resource
+4 | offlineAccess | 003 | online instructions for requesting the resource from the provider
+5 | order | 004 | online order process for obtaining the resource
+6 | search | 005 | online search interface for seeking out information about the resource
+
+================================================================================
+@@@@ B.5.4 CI_PresentationFormCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name | Domain code | Definition
+1 | CI_PresentationFormCode | PresFormCd | mode in which the data is represented
+--------------------------------------------------------------------------------
+2 | documentDigital | 001 | digital representation of a primarily textual item (can contain illustrations also)
+3 | documentHardcopy | 002 | representation of a primarily textual item (can contain illustrations also) on paper, photographic material, or other media
+4 | imageDigital | 003 | likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and stored in digital format
+5 | imageHardcopy | 004 | likeness of natural or man-made features, objects, and activities acquired through the sensing of visual or any other segment of the electromagnetic spectrum by sensors, such as thermal infrared, and high resolution radar and reproduced on paper, photographic material, or other media for use directly by the human user
+6 | mapDigital | 005 | map represented in raster or vector form
+7 | mapHardcopy | 006 | map printed on paper, photographic material, or other media for use directly by the human user
+8 | modelDigital | 007 | multi-dimensional digital representation of a feature, process, etc.
+9 | modelHardcopy | 008 | 3-dimensional, physical model
+10 | profileDigital | 009 | vertical cross-section in digital form
+11 | profileHardcopy | 010 | vertical cross-section printed on paper, etc.
+12 | tableDigital | 011 | digital representation of facts or figures systematically displayed, especially in columns
+13 | tableHardcopy | 012 | representation of facts or figures systematically displayed, especially in columns, printed on paper, photographic material, or other media
+14 | videoDigital | 013 | digital video recording
+15 | videoHardcopy | 014 | video recording on film
+
+================================================================================
+@@@@ B.5.5 CI_RoleCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name | Domain code | Definition
+1. CI_RoleCode | RoleCd | function performed by the responsible party
+--------------------------------------------------------------------------------
+2. resourceProvider | 001 | party that supplies the resource
+3. custodian | 002 | party that accepts accountability and responsibility for the data and ensures appropriate care and maintenance of the resource
+4. owner | 003 | party that owns the resource
+5. user | 004 | party who uses the resource
+6. distributor | 005 | party who distributes the resource
+7. originator | 006 | party who created the resource
+8. pointOfContact | 007 | party who can be contacted for acquiring knowledge about or acquisition of the resource
+9. principalInvestigator | 008 | key party responsible for gathering information and conducting research
+10. processor | 009 | party who has processed the data in a manner such that the resource has been modified
+11. publisher | 010 | party who published the resource
+12. author | 011 | party who authored the resource
+
+================================================================================
+@@@@ B.5.6 DQ_EvaluationMethodTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | DQ_EvaluationMethodTypeCode | EvalMethTypeCd | type of method for evaluating an identified data quality measure
+--------------------------------------------------------------------------------
+2 | directInternal | 001 | method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required is internal to the dataset being evaluated
+3 | directExternal | 002 | method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated is required
+4 | indirect | 003 | method of evaluating the quality of a dataset based on external knowledge
+
+================================================================================
+@@@@ B.5.7 DS_AssociationTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | DS_AssociationTypeCode | AscTypeCd | justification for the correlation of two datasets
+--------------------------------------------------------------------------------
+2 | crossReference | 001 | reference from one dataset to another
+3 | largerWorkCitation | 002 | reference to a master dataset of which this one is a part
+4 | partOfSeamlessDatabase | 003 | part of same structured set of data held in a computer
+5 | source | 004 | mapping and charting information from which the dataset content originates
+6 | stereoMate | 005 | part of a set of imagery that when used together, provides three-dimensional images
+
+================================================================================
+@@@@ B.5.8 DS_InitiativeTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | DS_InitiativeTypeCode | InitTypCd | type of aggregation activity in which datasets are related
+--------------------------------------------------------------------------------
+2 | campaign | 001 | series of organized planned actions
+3 | collection | 002 | accumulation of datasets assembled for a specific purpose
+4 | exercise | 003 | specific performance of a function or group of functions
+5 | experiment | 004 | process designed to find if something is effective or valid
+6 | investigation | 005 | search or systematic inquiry
+7 | mission | 006 | specific operation of a data collection system
+8 | sensor | 007 | device or piece of equipment which detects or records
+9 | operation | 008 | action that is part of a series of actions
+10 | platform | 009 | vehicle or other support base that holds a sensor
+11 | process | 010 | method of doing something involving a number of steps
+12 | program | 011 | specific planned activity
+13 | project | 012 | organized undertaking, research, or development
+14 | study | 013 | examination or investigation
+15 | task | 014 | piece of work
+16 | trial | 015 | process of testing to discover or demonstrate something
+
+================================================================================
+@@@@ B.5.9 MD_CellGeometryCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_CellGeometryCode | CellGeoCd | code indicating whether grid data is point or area
+--------------------------------------------------------------------------------
+2 | point | 001 | each cell represents a point
+3 | area | 002 | each cell represents an area
+
+================================================================================
+@@@@ B.5.10 MD_CharacterSetCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name | Domain code | Definition
+1 | MD_CharacterSetCode | CharSetCd | name of the character coding standard used for the resource
+--------------------------------------------------------------------------------
+2 | ucs2 | 001 | 16-bit fixed size Universal Character Set, based on ISO/IEC 10646
+3 | ucs4 | 002 | 32-bit fixed size Universal Character Set, based on ISO/IEC 10646
+4 | utf7 | 003 | 7-bit variable size UCS Transfer Format, based on ISO/IEC 10646
+5 | utf8 | 004 | 8-bit variable size UCS Transfer Format, based on ISO/IEC 10646
+6 | utf16 | 005 | 16-bit variable size UCS Transfer Format, based on ISO/IEC 10646
+7 | 8859part1 | 006 | ISO/IEC 8859-1, Information technology – 8-bit single-byte coded graphic character sets – Part 1: Latin alphabet No. 1
+8 | 8859part2 | 007 | ISO/IEC 8859-2, Information technology – 8-bit single-byte coded graphic character sets – Part 2: Latin alphabet No. 2
+9 | 8859part3 | 008 | ISO/IEC 8859-3, Information technology – 8-bit single-byte coded graphic character sets – Part 3: Latin alphabet No. 3
+10 | 8859part4 | 009 | ISO/IEC 8859-4, Information technology – 8-bit single-byte coded graphic character sets – Part 4: Latin alphabet No. 4
+11 | 8859part5 | 010 | ISO/IEC 8859-51, Information technology – 8-bit single-byte coded graphic character sets – Part 5: Latin/Cyrillic alphabet
+12 | 8859part6 | 011 | ISO/IEC 8859-6, Information technology – 8-bit single-byte coded graphic character sets – Part 6: Latin/Arabic alphabet
+13 | 8859part7 | 012 | ISO/IEC 8859-7, Information technology – 8-bit single-byte coded graphic character sets – Part 7: Latin/Greek alphabet
+14 | 8859part8 | 013 | ISO/IEC 8859-8, Information technology – 8-bit single-byte coded graphic character sets – Part 8: Latin/Hebrew alphabet
+15 | 8859part9 | 014 | ISO/IEC8859-9, Information technology – 8-bit single-byte coded graphic character sets – Part 9: Latin alphabet No. 5
+16 | 8859part10 | 015 | ISO/IEC 8859-10, Information technology – 8-bit single-byte coded graphic character sets – Part 10: Latin alphabet No. 6
+17 | 8859part11 | 016 | ISO/IEC 8859-11, Information technology – 8-bit single-byte coded graphic character sets – Part 11: Latin/Thai alphabet
+19 | 8859part13 | 018 | ISO/IEC 8859-13, Information technology – 8-bit single-byte coded graphic character sets – Part 13: Latin alphabet No. 7
+20 | 8859part14 | 019 | ISO/IEC 8859-14, Information technology – 8-bit single-byte coded graphic character sets – Part 14: Latin alphabet No. 8 (Celtic)
+21 | 8859part15 | 020 | ISO/IEC 8859-15, Information technology – 8-bit single-byte coded graphic character sets – Part 15: Latin alphabet No. 9
+22 | 8859part16 | 021 | ISO/IEC 8859-16, Information technology – 8-bit single-byte coded graphic character sets – Part 16: Latin alphabet No. 10
+23 | jis | 022 | japanese code set used for electronic transmission
+24 | shiftJIS | 023 | japanese code set used on MS-DOS based machines
+25 | eucJP | 024 | japanese code set used on UNIX based machines
+26 | usAscii | 025 | united states ASCII code set (ISO 646 US)
+27 | ebcdic | 026 | ibm mainframe code set
+28 | eucKR | 027 | korean code set
+29 | big5 | 028 | traditional Chinese code set used in Taiwan, Hong Kong of China and other areas
+30 | GB2312 | 029 | simplified Chinese code set
+
+================================================================================
+@@@@ B.5.11 MD_ClassificationCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_ClassificationCode | ClasscationCd | name of the handling restrictions on the dataset
+--------------------------------------------------------------------------------
+2 | unclassified | 001 | available for general disclosure
+3 | restricted | 002 | not for general disclosure
+4 | confidential | 003 | available for someone who can be entrusted with information
+5 | secret | 004 | kept or meant to be kept private, unknown, or hidden from all but a select group of people
+6 | topSecret | 005 | of the highest secrecy
+
+================================================================================
+@@@@ B.5.12 MD_CoverageContentTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_CoverageContentTypeCode | ContentTypCd | specific type of information represented in the cell
+--------------------------------------------------------------------------------
+2 | image | 001 | meaningful numerical representation of a physical parameter that is not the actual value of the physical parameter
+3 | thematicClassification | 002 | code value with no quantitative meaning, used to represent a physical quantity
+4 | physicalMeasurement | 003 | value in physical units of the quantity being measured
+
+================================================================================
+@@@@ B.5.13 MD_DatatypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_DatatypeCode | DatatypeCd | datatype of element or entity
+--------------------------------------------------------------------------------
+2 | class | 001 | descriptor of a set of objects that share the same attributes, operations, methods, relationships, and behavior
+3 | codelist | 002 | flexible enumeration useful for expressing a long list of values, can be extended
+4 | enumeration | 003 | data type whose instances form a list of named literal values, not extendable
+5 | codelistElement | 004 | permissible value for a codelist or enumeration
+6 | abstractClass | 005 | class that cannot be directly instantiated
+7 | aggregateClass | 006 | class that is composed of classes it is connected to by an aggregate relationship
+8 | specifiedClass | 007 | subclass that may be substituted for its superclass
+9 | datatypeClass | 008 | class with few or no operations whose primary purpose is to hold the abstract state of another class for transmittal, storage, encoding or persistent storage
+10 | interfaceClass | 009 | named set of operations that characterize the behavior of an element
+11 | unionClass | 010 | class describing a selection of one of the specified types
+12 | metaClass | 011 | class whose instances are classes
+13 | typeClass | 012 | class used for specification of a domain of instances (objects), together with the operations applicable to the objects. A type may have attributes and associations
+14 | characterString | 013 | free text field
+15 | integer | 014 | numerical field
+16 | association | 015 | semantic relationship between two classes that involves connections among their instances
+
+================================================================================
+@@@@ B.5.14 MD_DimensionNameTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_DimensionNameTypeCode | DimNameTypCd | name of the dimension
+--------------------------------------------------------------------------------
+2 | row | 001 | ordinate (y) axis
+3 | column | 002 | abscissa (x) axis
+4 | vertical | 003 | vertical (z) axis
+5 | track | 004 | along the direction of motion of the scan point
+6 | crossTrack | 005 | perpendicular to the direction of motion of the scan point
+7 | line | 006 | scan line of a sensor
+8 | sample | 007 | element along a scan line
+9 | time | 008 | duration
+
+================================================================================
+@@@@ B.5.15 MD_GeometricObjectTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_GeometricObjectTypeCode | GeoObjTypCd | name of point or vector objects used to locate zero-, one-, two-, or threedimensional spatial locations in the dataset
+--------------------------------------------------------------------------------
+2 | complex | 001 | set of geometric primitives such that their boundaries can be represented as a union of other primitives
+3 | composite | 002 | connected set of curves, solids or surfaces
+4 | curve | 003 | bounded, 1-dimensional geometric primitive, representing the continuous image of a line
+5 | point | 004 | zero-dimensional geometric primitive, representing a position but not having an extent
+6 | solid | 005 | bounded, connected 3-dimensional geometric primitive, representing the continuous image of a region of space
+7 | surface | 006 | bounded, connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane
+
+================================================================================
+@@@@ B.5.16 MD_ImagingConditionCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_ImagingConditionCode | ImgCondCd | code which indicates conditions which may affect the image
+--------------------------------------------------------------------------------
+2 | blurredImage | 001 | portion of the image is blurred
+3 | cloud | 002 | portion of the image is partially obscured by cloud cover
+4 | degradingObliquity | 003 | acute angle between the plane of the ecliptic (the plane of the Earth’s orbit) and the plane of the celestial equator
+5 | fog | 004 | portion of the image is partially obscured by fog
+6 | heavySmokeOrDust | 005 | portion of the image is partially obscured by heavy smoke or dust
+7 | night | 006 | image was taken at night
+8 | rain | 007 | image was taken during rainfall
+9 | semiDarkness | 008 | image was taken during semi-dark conditions—twilight conditions
+10 | shadow | 009 | portion of the image is obscured by shadow
+11 | snow | 010 | portion of the image is obscured by snow
+12 | terrainMasking | 011 | the absence of collection data of a given point or area caused by the relative location of topographic features which obstruct the collection path between the collector(s) and the subject(s) of interest
+
+================================================================================
+@@@@ B.5.17 MD_KeywordTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_KeywordTypeCode | KeyTypCd | methods used to group similar keywords
+--------------------------------------------------------------------------------
+2 | discipline | 001 | keyword identifies a branch of instruction or specialized learning
+3 | place | 002 | keyword identifies a location
+4 | stratum | 003 | keyword identifies the layer(s) of any deposited substance
+5 | temporal | 004 | keyword identifies a time period related to the dataset
+6 | theme | 005 | keyword identifies a particular subject or topic
+
+================================================================================
+@@@@ B.5.18 MD_MaintenanceFrequencyCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_MaintenanceFrequencyCode | MaintFreqCd | frequency with which modifications and deletions are made to the data after it is first produced
+--------------------------------------------------------------------------------
+2 | continual | 001 | data is repeatedly and frequently updated
+3 | daily | 002 | data is updated each day
+4 | weekly | 003 | data is updated on a weekly basis
+5 | fortnightly | 004 | data is updated every two weeks
+6 | monthly | 005 | data is updated each month
+7 | quarterly | 006 | data is updated every three months
+8 | biannually | 007 | data is updated twice each year
+9 | annually | 008 | data is updated every year
+10 | asNeeded | 009 | data is updated as deemed necessary
+11 | irregular | 010 | data is updated in intervals that are uneven in duration
+12 | notPlanned | 011 | there are no plans to update the data
+13 | unknown | 012 | frequency of maintenance for the data is not known
+
+================================================================================
+@@@@ B.5.19 MD_MediumFormatCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_MediumFormatCode | MedFormCd | method used to write to the medium
+--------------------------------------------------------------------------------
+2 | cpio | 001 | CoPy In / Out (UNIX file format and command)
+3 | tar | 002 | Tape Archive
+4 | highSierra | 003 | high sierra file system
+5 | iso9660 | 004 | information processing – volume and file structure of CD-ROM
+6 | iso9660RockRidge | 005 | rock ridge interchange protocol (UNIX)
+7 | iso9660AppleHFS | 006 | hierarchical file system (Macintosh)
+
+================================================================================
+@@@@ B.5.20 MD_MediumNameCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_MediumNameCode | MedNameCd | name of the medium
+--------------------------------------------------------------------------------
+2 | cdRom | 001 | read-only optical disk
+3 | dvd | 002 | digital versatile disk
+4 | dvdRom | 003 | digital versatile disk, read only
+5 | 3halfInchFloppy | 004 | 3,5 inch magnetic disk
+6 | 5quarterInchFloppy | 005 | 5,25 inch magnetic disk
+7 | 7trackTape | 006 | 7 track magnetic tape
+8 | 9trackTape | 007 | 9 track magnetic tape
+9 | 3480Cartridge | 008 | 3480 cartridge tape drive
+10 | 3490Cartridge | 009 | 3490 cartridge tape drive
+11 | 3580Cartridge | 010 | 3580 cartridge tape drive
+12 | 4mmCartridgeTape | 011 | 4 millimetre magnetic tape
+13 | 8mmCartridgeTape | 012 | 8 millimetre magnetic tape
+14 | 1quarterInchCartridgeTape | 013 | 0,25 inch magnetic tape
+15 | digitalLinearTape | 014 | half inch cartridge streaming tape drive
+16 | onLine | 015 | direct computer linkage
+17 | satellite | 016 | linkage through a satellite communication system
+18 | telephoneLink | 017 | communication through a telephone network
+19 | hardcopy | 018 | pamphlet or leaflet giving descriptive information
+
+================================================================================
+@@@@ B.5.21 MD_ObligationCode <<Enumeration>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_ObligationCode | ObCd | obligation of the element or entity
+--------------------------------------------------------------------------------
+2 | mandatory | 001 | element is always required
+3 | optional | 002 | element is not required
+4 | conditional | 003 | element is required when a specific condition is met
+
+================================================================================
+@@@@ B.5.22 MD_PixelOrientationCode <<Enumeration>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_PixelOrientationCode | PixOrientCd | point in a pixel corresponding to the Earth location of the pixel
+--------------------------------------------------------------------------------
+2 | center | 001 | point halfway between the lower left and the upper right of the pixel
+3 | lowerLeft | 002 | the corner in the pixel closest to the origin of the SRS; if two are at the same distance from the origin, the one with the smallest x-value
+4 | lowerRight | 003 | next corner counterclockwise from the lower left
+5 | upperRight | 004 | next corner counterclockwise from the lower right
+6 | upperLeft | 005 | next corner counterclockwise from the upper right
+
+================================================================================
+@@@@ B.5.23 MD_ProgressCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_ProgressCode | ProgCd | status of the dataset or progress of a review
+--------------------------------------------------------------------------------
+2 | completed | 001 | production of the data has been completed
+3 | historicalArchive | 002 | data has been stored in an offline storage facility
+4 | obsolete | 003 | data is no longer relevant
+5 | onGoing | 004 | data is continually being updated
+6 | planned | 005 | fixed date has been established upon or by which the data will be created or updated
+7 | required | 006 | data needs to be generated or updated
+8 | underDevelopment | 007 | data is currently in the process of being created
+
+================================================================================
+@@@@ B.5.24 MD_RestrictionCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_RestrictionCode | RestrictCd | limitation(s) placed upon the access or use of the data
+--------------------------------------------------------------------------------
+2 | copyright | 001 | exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor
+3 | patent | 002 | government has granted exclusive right to make, sell, use or license an invention or discovery
+4 | patentPending | 003 | produced or sold information awaiting a patent
+5 | trademark | 004 | a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer
+6 | license | 005 | formal permission to do something
+7 | intellectualPropertyRights | 006 | rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity
+8 | restricted | 007 | withheld from general circulation or disclosure
+9 | otherRestrictions | 008 | limitation not listed
+
+================================================================================
+@@@@ B.5.25 MD_ScopeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_ScopeCode | ScopeCd | class of information to which the referencing entity applies
+--------------------------------------------------------------------------------
+2 | attribute | 001 | information applies to the attribute value
+3 | attributeType | 002 | information applies to the characteristic of a feature
+4 | collectionHardware | 003 | information applies to the collection hardware class
+5 | collectionSession | 004 | information applies to the collection session
+6 | dataset | 005 | information applies to the dataset
+7 | series | 006 | information applies to the series. Note: “series” applies to any DS_Aggregate.
+8 | nonGeographicDataset | 007 | information applies to non-geographic data
+9 | dimensionGroup | 008 | information applies to a dimension group
+10 | feature | 009 | information applies to a feature
+11 | featureType | 010 | information applies to a feature type
+12 | propertyType | 011 | information applies to a property type
+13 | fieldSession | 012 | information applies to a field session
+14 | software | 013 | information applies to a computer program or routine
+15 | service | 014 | information applies to a capability which a service provider entity makes available to a service user entity through a set of interfaces that define a behaviour, such as a use case
+16 | model | 015 | information applies to a copy or imitation of an existing or hypothetical object
+17 | tile | 016 | information applies to a tile, a spatial subset of geographic data
+
+================================================================================
+@@@@ B.5.26 MD_SpatialRepresentationTypeCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_SpatialRepresentationTypeCode | SpatRepTypCd | method used to represent geographic information in the dataset
+--------------------------------------------------------------------------------
+2 | vector | 001 | vector data is used to represent geographic data
+3 | grid | 002 | grid data is used to represent geographic data
+4 | textTable | 003 | textual or tabular data is used to represent geographic data
+5 | tin | 004 | triangulated irregular network
+6 | stereoModel | 005 | three-dimensional view formed by the intersecting homologous rays of an overlapping pair of images
+7 | video | 006 | scene from a video recording
+
+================================================================================
+B.5.27 MD_TopicCategoryCode << Enumeration>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_TopicCategoryCode | TopicCatCd | high-level geographic data thematic classification to assist in the grouping and search of available geographic data sets. Can be used to group keywords as well. Listed examples are not exhaustive. NOTE It is understood there are overlaps between general categories and the user is encouraged to select the one most appropriate.
+--------------------------------------------------------------------------------
+2 | farming | 001 | rearing of animals and/or cultivation of plants Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock
+3 | biota | 002 | flora and/or fauna in natural environment Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat
+4 | boundaries | 003 | legal land descriptions Examples: political and administrative boundaries
+5 | climatologyMeteorologyAtmosphere | 004 | processes and phenomena of the atmosphere Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation
+6 | economy | 005 | economic activities, conditions and employment Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas
+7 | elevation | 006 | height above or below sea level Examples: altitude, bathymetry, digital elevation models, slope, derived products
+8 | environment | 007 | environmental resources, protection and conservation Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape
+9 | geoscientificInformation | 008 | information pertaining to earth sciences Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion
+10 | health | 009 | health, health services, human ecology, and safety Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services
+11 | imageryBaseMapsEarthCover | 010 | base maps Examples: land cover, topographic maps, imagery, unclassified images, annotations
+12 | intelligenceMilitary | 011 | military bases, structures, activities Examples: barracks, training grounds, military transportation, information collection
+13 | inlandWaters | 012 | inland water features, drainage systems and their characteristics Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts
+14 | location | 013 | positional information and services Examples: addresses, geodetic networks, control points, postal zones and services, place names
+15 | oceans | 014 | features and characteristics of salt water bodies (excluding inland waters) Examples: tides, tidal waves, coastal information, reefs
+16 | planningCadastre | 015 | information used for appropriate actions for future use of the land Examples: land use maps, zoning maps, cadastral surveys, land ownership
+17 | society | 016 | characteristics of society and cultures Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information
+18 | structure | 017 | man-made construction Examples: buildings, museums, churches, factories, housing, monuments, shops, towers
+19 | transportation | 018 | means and aids for conveying persons and/or goods Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways
+20 | utilitiesCommunication | 019 | energy, water and waste systems and communications infrastructure and services Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks
+
+================================================================================
+@@@@ B.5.28 MD_TopologyLevelCode <<CodeList>>
+--------------------------------------------------------------------------------
+Name Domain code Definition
+1 | MD_TopologyLevelCode | TopoLevCd | degree of complexity of the spatial relationships
+--------------------------------------------------------------------------------
+2 | geometryOnly | 001 | geometry objects without any additional structure which describes topology
+3 | topology1D | 002 | 1-dimensional topological complex – commonly called “chain-node” topology
+4 | planarGraph | 003 | 1-dimensional topological complex that is planar. (A planar graph is a graph that can be drawn in a plane in such a way that no two edges intersect except at avertex.)
+5 | fullPlanarGraph | 004 | 2-dimensional topological complex that is planar. (A 2-dimensional topological complex is commonly called “full topology” in a cartographic 2D environment.)
+6 | surfaceGraph | 005 | 1-dimensional topological complex that is isomorphic to a subset of a surface. (A geometric complex is isomorphic to a topological complex if their elements are in a one-to-one, dimensional-and boundry-preserving correspondence to one another.)
+7 | fullSurfaceGraph | 006 | 2-dimensional topological complex that is isomorphic to a subset of a surface
+8 | topology3D | 007 | 3-dimensional topological complex. (A topological complex is a collection of topological primitives that are closed under the boundary operations.)
+9 | fullTopology3D | 008 | complete coverage of a 3D Euclidean coordinate space
+10 | abstract | 009 | topological complex without any specified geometric realisation

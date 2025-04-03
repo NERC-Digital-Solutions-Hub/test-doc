@@ -1,0 +1,6 @@
+\Imagery\DataQuality\LE_ProcessStep_Type.cs          inherit from [LE_ProcessStep_Type]       not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\DataQuality\QE_CoverageResult_Type.cs       inherit from [QE_CoverageResult_Type]    not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\DataQuality\LE_Source_Type.cs               inherit from [LE_Source_Type]            not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\DataQuality\QE_Usability_Type.cs            inherit from [QE_Usability_Type]         not AbstractObject_Type    - Implementation is complete nonsence
+\Imagery\DataQuality\LE_NominalResolution_Type.cs    inherit from [???]                       not AbstractObject_Type    - Implementation is complete nonsence
+

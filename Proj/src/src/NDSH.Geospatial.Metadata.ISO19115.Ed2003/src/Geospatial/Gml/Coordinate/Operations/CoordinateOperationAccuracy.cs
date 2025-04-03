@@ -1,0 +1,81 @@
+﻿
+#region Header
+// ---------------------------------------------------------------------------------------------------------------------
+// Member of         : NDSH.Geospatial.Metadata.ISO19115.Ed2003.csproj
+// Created           : 30/01/2023, @gisvlasta
+// History           : 
+// GitHub Repository : https://github.com/NERC-Digital-Solutions-Hub/ndsh
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+// ---------------------------------------------------------------------------------------------------------------------
+// XSD               : /2005/gml/coordinateOperations.xsd
+// ---------------------------------------------------------------------------------------------------------------------
+// <element name="coordinateOperationAccuracy">
+//   <complexType>
+//     <sequence minOccurs="0">
+//       <element ref="gmd:AbstractDQ_PositionalAccuracy"/>
+//     </sequence>
+//     <attributeGroup ref="gml:AssociationAttributeGroup"/>
+//   </complexType>
+// </element>
+// ---------------------------------------------------------------------------------------------------------------------
+#endregion
+
+#region Imported Namespaces
+
+using NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+#endregion
+
+namespace NDSH.Geospatial.Gml.Coordinate.Operations {
+
+  /// <summary>
+  /// CoordinateOperationAccuracy is an association role to a DQ_PositionalAccuracy object as encoded
+  /// in ISO/TS 19139, either referencing or containing the definition of that positional accuracy.
+  /// That object contains an estimate of the impact of this coordinate operation on point accuracy.
+  /// That is, it gives position error estimates for the target coordinates of this coordinate operation,
+  /// assuming no errors in the source coordinates.
+  /// </summary>
+  [Serializable]
+  [XmlType("coordinateOperationAccuracy", AnonymousType = true, Namespace = "http://www.opengis.net/gml")]
+  [JsonObject("coordinateOperationAccuracy")]
+  public class CoordinateOperationAccuracy : AssociationEntity {
+
+    #region Public Properties
+
+    private AbstractDQ_PositionalAccuracy_Type _abstractDQ_PositionalAccuracy;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [XmlElement("AbstractDQ_PositionalAccuracy", Namespace = "http://www.isotc211.org/2005/gmd", Order = 0)]
+    [JsonProperty("AbstractDQ_PositionalAccuracy", Order = 0)]
+    public AbstractDQ_PositionalAccuracy_Type AbstractDQ_PositionalAccuracy {
+      get {
+        return _abstractDQ_PositionalAccuracy;
+      }
+      set {
+        if (_abstractDQ_PositionalAccuracy == value) {
+          return;
+        }
+        if (_abstractDQ_PositionalAccuracy == null || _abstractDQ_PositionalAccuracy.Equals(value) != true) {
+          _abstractDQ_PositionalAccuracy = value;
+          OnPropertyChanged();
+        }
+      }
+    }
+
+    #endregion
+
+  }
+
+}

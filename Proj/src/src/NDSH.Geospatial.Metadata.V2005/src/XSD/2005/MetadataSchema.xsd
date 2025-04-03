@@ -1,0 +1,3026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0.1">
+  <!--
+    ================================================================
+      ISO Metadata for geographic information.
+      School of Civil engineering and Geosciences.
+      Geomatics Laboratory.
+      March 2007
+    ================================================================
+      This is a list with the CORE METADATA for Geographic datasets.
+      The entire Metadata Model including these as well as other
+      classes is defined further below.
+    ================================================================
+      
+      Dataset title (M)
+        (MD_Metadata > MD_DataIdentification.citation > CI_Citation.title)
+      
+      Spatial representation type (O)
+        (MD_Metadata > MD_DataIdentification.spatialRepresentationType)
+      
+      Dataset reference date (M)
+        (MD_Metadata > MD_DataIdentification.citation > CI_Citation.date)
+
+      Reference system (O)
+        (MD_Metadata > MD_ReferenceSystem)
+      
+      Dataset responsible party (O)
+        (MD_Metadata > MD_DataIdentification.pointOfContact > CI_ResponsibleParty)
+
+      Lineage (O)
+        (MD_Metadata > DQ_DataQuality.lineage > LI_Lineage)
+      
+      Geographic location of the dataset
+      (by four coordinates or by geographic identifier) (C)
+        (MD_Metadata > MD_DataIdentification.extent > EX_Extent >
+         EX_GeographicExtent > EX_GeographicBoundingBox or
+                               EX_GeographicDescription)
+
+      On-line resource (O)
+        (MD_Metadata > MD_Distribution > MD_DigitalTransferOption.onLine >
+         CI_OnlineResource)
+       
+      Dataset language (M)
+        (MD_Metadata > MD_DataIdentification.language)
+       
+      Metadata file identifier (O)
+        (MD_Metadata.fileIdentifier)
+       
+      Dataset character set (C)
+        (MD_Metadata > MD_DataIdentification.characterSet)
+       
+      Metadata standard name (O)
+        (MD_Metadata.metadataStandardName)
+       
+      Dataset topic category (M)
+        (MD_Metadata > MD_DataIdentification.topicCategory)
+       
+      Metadata standard version (O)
+        (MD_Metadata.metadataStandardVersion)
+       
+      Spatial resolution of the dataset (O)
+        (MD_Metadata > MD_DataIdentification.spatialResolution >
+         MD_Resolution.equivalentScale or MD_Resolution.distance)
+        
+      Metadata language (C)
+        (MD_Metadata.language)
+        
+      Abstract describing the dataset (M)
+        (MD_Metadata > MD_DataIdentification.abstract)
+        
+      Metadata character set (C)
+        (MD_Metadata.characterSet)
+        
+      Distribution format (O)
+        (MD_Metadata > MD_Distribution > MD_Format.name and
+         MD_Format.version)
+         
+      Metadata point of contact (M)
+        (MD_Metadata.contact > CI_ResponsibleParty)
+         
+      Additional extent information for the dataset
+      (vertical and temporal) (O)
+        (MD_Metadata > MD_DataIdentification.extent > EX_Extent >
+         EX_TemporalExtent or EX_VerticalExtent)
+          
+      Metadata date stamp (M)
+        (MD_Metadata.dateStamp)
+  -->
+  <!--***
+      Metadata
+      ***-->
+  <xs:complexType name="languageCode">
+    <xs:attribute name="value" type="languageCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="languageCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="aa" />
+      <xs:enumeration value="ab" />
+      <xs:enumeration value="af" />
+      <xs:enumeration value="am" />
+      <xs:enumeration value="ar" />
+      <xs:enumeration value="as" />
+      <xs:enumeration value="ay" />
+      <xs:enumeration value="az" />
+      <xs:enumeration value="ba" />
+      <xs:enumeration value="be" />
+      <xs:enumeration value="bg" />
+      <xs:enumeration value="bh" />
+      <xs:enumeration value="bi" />
+      <xs:enumeration value="bn" />
+      <xs:enumeration value="bo" />
+      <xs:enumeration value="br" />
+      <xs:enumeration value="ca" />
+      <xs:enumeration value="co" />
+      <xs:enumeration value="cs" />
+      <xs:enumeration value="cy" />
+      <xs:enumeration value="da" />
+      <xs:enumeration value="de" />
+      <xs:enumeration value="dz" />
+      <xs:enumeration value="el" />
+      <xs:enumeration value="en" />
+      <xs:enumeration value="eo" />
+      <xs:enumeration value="es" />
+      <xs:enumeration value="et" />
+      <xs:enumeration value="eu" />
+      <xs:enumeration value="fa" />
+      <xs:enumeration value="fi" />
+      <xs:enumeration value="fj" />
+      <xs:enumeration value="fo" />
+      <xs:enumeration value="fr" />
+      <xs:enumeration value="fy" />
+      <xs:enumeration value="ga" />
+      <xs:enumeration value="gd" />
+      <xs:enumeration value="gl" />
+      <xs:enumeration value="gn" />
+      <xs:enumeration value="gu" />
+      <xs:enumeration value="ha" />
+      <xs:enumeration value="hi" />
+      <xs:enumeration value="hr" />
+      <xs:enumeration value="hu" />
+      <xs:enumeration value="hy" />
+      <xs:enumeration value="ia" />
+      <xs:enumeration value="ie" />
+      <xs:enumeration value="ik" />
+      <xs:enumeration value="in" />
+      <xs:enumeration value="is" />
+      <xs:enumeration value="it" />
+      <xs:enumeration value="iw" />
+      <xs:enumeration value="ja" />
+      <xs:enumeration value="ji" />
+      <xs:enumeration value="jw" />
+      <xs:enumeration value="ka" />
+      <xs:enumeration value="kk" />
+      <xs:enumeration value="kl" />
+      <xs:enumeration value="km" />
+      <xs:enumeration value="kn" />
+      <xs:enumeration value="ko" />
+      <xs:enumeration value="ks" />
+      <xs:enumeration value="ku" />
+      <xs:enumeration value="ky" />
+      <xs:enumeration value="la" />
+      <xs:enumeration value="ln" />
+      <xs:enumeration value="lo" />
+      <xs:enumeration value="lt" />
+      <xs:enumeration value="lv" />
+      <xs:enumeration value="mg" />
+      <xs:enumeration value="mi" />
+      <xs:enumeration value="mk" />
+      <xs:enumeration value="ml" />
+      <xs:enumeration value="mn" />
+      <xs:enumeration value="mo" />
+      <xs:enumeration value="fr" />
+      <xs:enumeration value="ms" />
+      <xs:enumeration value="mt" />
+      <xs:enumeration value="my" />
+      <xs:enumeration value="na" />
+      <xs:enumeration value="ne" />
+      <xs:enumeration value="nl" />
+      <xs:enumeration value="no" />
+      <xs:enumeration value="oc" />
+      <xs:enumeration value="om" />
+      <xs:enumeration value="or" />
+      <xs:enumeration value="pa" />
+      <xs:enumeration value="pl" />
+      <xs:enumeration value="ps" />
+      <xs:enumeration value="pt" />
+      <xs:enumeration value="qu" />
+      <xs:enumeration value="rm" />
+      <xs:enumeration value="rn" />
+      <xs:enumeration value="ro" />
+      <xs:enumeration value="ru" />
+      <xs:enumeration value="rw" />
+      <xs:enumeration value="sa" />
+      <xs:enumeration value="sd" />
+      <xs:enumeration value="sg" />
+      <xs:enumeration value="sh" />
+      <xs:enumeration value="si" />
+      <xs:enumeration value="sk" />
+      <xs:enumeration value="sl" />
+      <xs:enumeration value="sm" />
+      <xs:enumeration value="sn" />
+      <xs:enumeration value="so" />
+      <xs:enumeration value="sq" />
+      <xs:enumeration value="sr" />
+      <xs:enumeration value="ss" />
+      <xs:enumeration value="st" />
+      <xs:enumeration value="su" />
+      <xs:enumeration value="sv" />
+      <xs:enumeration value="sw" />
+      <xs:enumeration value="ta" />
+      <xs:enumeration value="te" />
+      <xs:enumeration value="tg" />
+      <xs:enumeration value="th" />
+      <xs:enumeration value="ti" />
+      <xs:enumeration value="tk" />
+      <xs:enumeration value="tl" />
+      <xs:enumeration value="tn" />
+      <xs:enumeration value="to" />
+      <xs:enumeration value="tr" />
+      <xs:enumeration value="ts" />
+      <xs:enumeration value="tt" />
+      <xs:enumeration value="tw" />
+      <xs:enumeration value="uk" />
+      <xs:enumeration value="ur" />
+      <xs:enumeration value="uz" />
+      <xs:enumeration value="vi" />
+      <xs:enumeration value="vo" />
+      <xs:enumeration value="wo" />
+      <xs:enumeration value="xh" />
+      <xs:enumeration value="yo" />
+      <xs:enumeration value="zh" />
+      <xs:enumeration value="zu" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata Elements-->
+  <xs:element name="languageCode" type="languageCode" />
+  <xs:element name="languageCodeValue" type="languageCodeValue" />
+  <!--***
+      Metadata.ConceptualSchema.Derived.UnitsOfMeasure
+      ***-->
+  <xs:complexType name="Angle">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomAngle" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="AngularVelocity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="time" type="UomTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="angle" type="UomAngle" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomVelocity" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Area">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomArea" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Currency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomCurrency" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Distance">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomLength" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Length">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomLength" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Measure">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MeasureType">
+    <xs:attribute name="value" type="MeasureTypeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MeasureTypeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="area" />
+      <xs:enumeration value="length" />
+      <xs:enumeration value="angle" />
+      <xs:enumeration value="time" />
+      <xs:enumeration value="velocity" />
+      <xs:enumeration value="volume" />
+      <xs:enumeration value="scale" />
+      <xs:enumeration value="weight" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Scale">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomScale" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceUnits" type="UomLength" />
+      <xs:element minOccurs="0" maxOccurs="1" name="targetUnits" type="UomLength" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="StandardUnits">
+    <xs:attribute name="value" type="StandardUnitsValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="StandardUnitsValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="meter" />
+      <xs:enumeration value="second" />
+      <xs:enumeration value="radian" />
+      <xs:enumeration value="squareMeter" />
+      <xs:enumeration value="cubicMeter" />
+      <xs:enumeration value="meters_per_second" />
+      <xs:enumeration value="meter_per_meter" />
+      <xs:enumeration value="kilogram" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Time">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UnitsList">
+    <xs:attribute name="value" type="UnitsListValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="UnitsListValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="meter" />
+      <xs:enumeration value="second" />
+      <xs:enumeration value="radian" />
+      <xs:enumeration value="squareMeter" />
+      <xs:enumeration value="cubicMeter" />
+      <xs:enumeration value="meters_per_second" />
+      <xs:enumeration value="meter_per_meter" />
+      <xs:enumeration value="kilogram" />
+      <xs:enumeration value="foot" />
+      <xs:enumeration value="squareFoot" />
+      <xs:enumeration value="cubicYard" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="UnitOfMeasure">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomAngle">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomArea">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomCurrency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomLength">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomScale">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomTime">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomVelocity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomVolume">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="UomWeight">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="uomName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="conversionToISOstandarUnit" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Velocity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="time" type="UomTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="distance" type="UomLength" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomVelocity" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Volume">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomVolume" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Weight">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="value" />
+      <xs:element minOccurs="0" maxOccurs="1" name="uom" type="UomWeight" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.ConceptualSchema.Derived.UnitsOfMeasure Elements-->
+  <xs:element name="Angle" type="Angle" />
+  <xs:element name="AngularVelocity" type="AngularVelocity" />
+  <xs:element name="Area" type="Area" />
+  <xs:element name="Currency" type="Currency" />
+  <xs:element name="Distance" type="Distance" />
+  <xs:element name="Length" type="Length" />
+  <xs:element name="Measure" type="Measure" />
+  <xs:element name="MeasureType" type="MeasureType" />
+  <xs:element name="MeasureTypeValue" type="MeasureTypeValue" />
+  <xs:element name="Scale" type="Scale" />
+  <xs:element name="StandardUnits" type="StandardUnits" />
+  <xs:element name="StandardUnitsValue" type="StandardUnitsValue" />
+  <xs:element name="Time" type="Time" />
+  <xs:element name="UnitsList" type="UnitsList" />
+  <xs:element name="UnitsListValue" type="UnitsListValue" />
+  <xs:element name="UnitOfMeasure" type="UnitOfMeasure" />
+  <xs:element name="UomAngle" type="UomAngle" />
+  <xs:element name="UomArea" type="UomArea" />
+  <xs:element name="UomCurrency" type="UomCurrency" />
+  <xs:element name="UomLength" type="UomLength" />
+  <xs:element name="UomScale" type="UomScale" />
+  <xs:element name="UomTime" type="UomTime" />
+  <xs:element name="UomVelocity" type="UomVelocity" />
+  <xs:element name="UomVolume" type="UomVolume" />
+  <xs:element name="UomWeight" type="UomWeight" />
+  <xs:element name="Velocity" type="Velocity" />
+  <xs:element name="Volume" type="Volume" />
+  <xs:element name="Weight" type="Weight" />
+  <!--***
+      Metadata.ConceptualSchema.Implementation.Names
+      ***-->
+  <xs:complexType name="GenericName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="LocalName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MemberName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+      <xs:element minOccurs="0" maxOccurs="1" name="aName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="attributeType" type="TypeName" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="NameSpace">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="isGlobal" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="namespace" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="ScopedName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="TypeName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+      <xs:element minOccurs="0" maxOccurs="1" name="aName" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.ConceptualSchema.Implementation.Names Elements-->
+  <xs:element name="GenericName" type="GenericName" />
+  <xs:element name="LocalName" type="LocalName" />
+  <xs:element name="MemberName" type="MemberName" />
+  <xs:element name="NameSpace" type="NameSpace" />
+  <xs:element name="ScopedName" type="ScopedName" />
+  <xs:element name="TypeName" type="TypeName" />
+  <!--***
+      Metadata.ConceptualSchema.Implementation.Records
+      ***-->
+  <xs:complexType name="AttributeName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+      <xs:element minOccurs="0" maxOccurs="1" name="aName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="attributeType" type="AttributeType" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="AttributeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="NameSpace" />
+      <xs:element minOccurs="0" maxOccurs="1" name="aName" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="ArrayOfRecord">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Record" nillable="true" type="Record" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Record">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="attribute" type="AttributeName" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="recordType" type="RecordType" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="RecordType">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="typeName" type="TypeName" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.ConceptualSchema.Implementation.Records-->
+  <xs:element name="AttributeName" type="AttributeName" />
+  <xs:element name="AttributeType" type="AttributeType" />
+  <xs:element name="Record" type="Record" />
+  <xs:element name="RecordType" type="RecordType" />
+  <!--***
+      Metadata.ConceptualSchema.Primitive.Enumerations
+      ***-->
+  <xs:complexType name="Bit">
+    <xs:attribute name="value" type="BitValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="BitValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="zero" />
+      <xs:enumeration value="one" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Digit">
+    <xs:attribute name="value" type="DigitValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="DigitValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="zero" />
+      <xs:enumeration value="one" />
+      <xs:enumeration value="two" />
+      <xs:enumeration value="three" />
+      <xs:enumeration value="four" />
+      <xs:enumeration value="five" />
+      <xs:enumeration value="six" />
+      <xs:enumeration value="seven" />
+      <xs:enumeration value="eight" />
+      <xs:enumeration value="nine" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Sign">
+    <xs:attribute name="value" type="SignValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="SignValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Positive" />
+      <xs:enumeration value="Negative" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.ConceptualSchema.Primitive.Enumerations-->
+  <xs:element name="Bit" type="Bit" />
+  <xs:element name="BitValue" type="BitValue" />
+  <xs:element name="Digit" type="Digit" />
+  <xs:element name="DigitValue" type="DigitValue" />
+  <xs:element name="Sign" type="Sign" />
+  <xs:element name="SignValue" type="SignValue" />
+  <!--***
+      Metadata.ConceptualSchema.Primitive.Enumerations
+      ***-->
+  <xs:complexType name="value">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="Integer" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Real" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Number" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Decimal" type="xs:string" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="ValueChoiceType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Integer" />
+      <xs:enumeration value="Number" />
+      <xs:enumeration value="Real" />
+      <xs:enumeration value="Decimal" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.ConceptualSchema.Primitive.Enumerations-->
+  <xs:element name="value" type="value" />
+  <xs:element name="ValueChoiceType" type="ValueChoiceType" />
+  <!--***
+      Metadata.ConceptualSchema.Primitive.Text
+      ***-->
+  <xs:complexType name="MD_CharacterSetCode">
+    <xs:attribute name="value" type="MD_CharacterSetCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_CharacterSetCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ucs2" />
+      <xs:enumeration value="ucs4" />
+      <xs:enumeration value="utf7" />
+      <xs:enumeration value="utf8" />
+      <xs:enumeration value="utf16" />
+      <xs:enumeration value="8859part1" />
+      <xs:enumeration value="8859part2" />
+      <xs:enumeration value="8859part3" />
+      <xs:enumeration value="8859part4" />
+      <xs:enumeration value="8859part5" />
+      <xs:enumeration value="8859part6" />
+      <xs:enumeration value="8859part7" />
+      <xs:enumeration value="8859part8" />
+      <xs:enumeration value="8859part9" />
+      <xs:enumeration value="8859part11" />
+      <xs:enumeration value="8859part14" />
+      <xs:enumeration value="8859part15" />
+      <xs:enumeration value="jis" />
+      <xs:enumeration value="shiftJIS" />
+      <xs:enumeration value="eucJP" />
+      <xs:enumeration value="usAscii" />
+      <xs:enumeration value="ebcdic" />
+      <xs:enumeration value="eucKR" />
+      <xs:enumeration value="big5" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.ConceptualSchema.Primitive.Text Elements-->
+  <xs:element name="MD_CharacterSetCode" type="MD_CharacterSetCode" />
+  <xs:element name="MD_CharacterSetCodeValue" type="MD_CharacterSetCodeValue" />
+  <!--***
+      Metadata.ConceptualSchema.Primitive.Time
+      ***-->
+  <xs:complexType name="TM_PeriodDuration">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="from" type="xs:dateTime" />
+      <xs:element minOccurs="1" maxOccurs="1" name="to" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <!--Metadata.ConceptualSchema.Primitive.Time Elements-->
+  <xs:element name="TM_PeriodDuration" type="TM_PeriodDuration" />
+  <!--***
+      Metadata.ConceptualSchema.Primmitive.Truth
+      ***-->
+  <xs:complexType name="Boolean">
+    <xs:attribute name="value" type="BooleanValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="BooleanValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="no" />
+      <xs:enumeration value="yes" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Logical">
+    <xs:attribute name="value" type="LogicalValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="LogicalValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="no" />
+      <xs:enumeration value="yes" />
+      <xs:enumeration value="maybe" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Probability">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <!--Metadata.ConceptualSchema.Primmitive.Truth Elements-->
+  <xs:element name="Boolean" type="Boolean" />
+  <xs:element name="BooleanValue" type="BooleanValue" />
+  <xs:element name="Logical" type="Logical" />
+  <xs:element name="LogicalValue" type="LogicalValue" />
+  <xs:element name="Probability" type="Probability" />
+  <!--***
+      Metadata.DataType.Citation
+      ***
+      This package of datatypes provides a standardized method (CI_Citation)
+      for citing a resource (dataset, feature, source, publication, etc.),
+      as well as information about the party responsible (CI_ResponsibleParty)
+      for a resource. The CI_ResponsibleParty datatype contains the identity
+      of person(s), and/or position, and/or organization(s) associated with
+      the resource. The location (CI_Address) of the responsible person or
+      organization is also defined here.
+      ***-->
+  <xs:complexType name="CI_Citation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="alternateTitle" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="date" type="CI_Date" />
+      <xs:element minOccurs="0" maxOccurs="1" name="edition" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="editionDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identifier" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identifierType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="citedResponsibleParty" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="presentationForm" type="CI_PresentationFormCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="series" type="CI_Series" />
+      <xs:element minOccurs="0" maxOccurs="1" name="otherCitationDetails" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="collectiveTitle" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ISBN" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ISSN" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_Date">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="date" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dateType" type="CI_DateTypeCode" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_DateTypeCode">
+    <xs:attribute name="value" type="CI_DateTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="CI_DateTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="creation" />
+      <xs:enumeration value="publication" />
+      <xs:enumeration value="revision" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="CI_ResponsibleParty">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="individualName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="organisationName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="positionName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contactInfo" type="CI_Contact" />
+      <xs:element minOccurs="0" maxOccurs="1" name="role" type="CI_RoleCode" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_Contact">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="phone" type="CI_Telephone" />
+      <xs:element minOccurs="0" maxOccurs="1" name="address" type="CI_Address" />
+      <xs:element minOccurs="0" maxOccurs="1" name="onlineResource" type="CI_OnlineResource" />
+      <xs:element minOccurs="0" maxOccurs="1" name="hoursOfService" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contactInstructions" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_Telephone">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="voice" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="facsimile" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_Address">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="deliveryPoint" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="city" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="administrativeArea" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="postalCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="country" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="electronicMailAddress" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_OnlineResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="linkage" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="protocol" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="applicationProfile" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="function" type="CI_OnLineFunctionCode" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="CI_OnLineFunctionCode">
+    <xs:attribute name="value" type="CI_OnLineFunctionCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="CI_OnLineFunctionCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="download" />
+      <xs:enumeration value="information" />
+      <xs:enumeration value="offlineAccess" />
+      <xs:enumeration value="order" />
+      <xs:enumeration value="search" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="CI_RoleCode">
+    <xs:attribute name="value" type="CI_RoleCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="CI_RoleCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="resourceProvider" />
+      <xs:enumeration value="custodian" />
+      <xs:enumeration value="owner" />
+      <xs:enumeration value="user" />
+      <xs:enumeration value="distributor" />
+      <xs:enumeration value="originator" />
+      <xs:enumeration value="pointOfContact" />
+      <xs:enumeration value="principalInvestigator" />
+      <xs:enumeration value="processor" />
+      <xs:enumeration value="publisher" />
+      <xs:enumeration value="author" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="CI_PresentationFormCode">
+    <xs:attribute name="value" type="CI_PresentationFormCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="CI_PresentationFormCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="documentDigital" />
+      <xs:enumeration value="documentHardcopy" />
+      <xs:enumeration value="imageDigital" />
+      <xs:enumeration value="imageHardcopy" />
+      <xs:enumeration value="mapDigital" />
+      <xs:enumeration value="mapHardcopy" />
+      <xs:enumeration value="modelDigital" />
+      <xs:enumeration value="modelHardcopy" />
+      <xs:enumeration value="profileDigital" />
+      <xs:enumeration value="profileHardcopy" />
+      <xs:enumeration value="tableDigital" />
+      <xs:enumeration value="tableHardcopy" />
+      <xs:enumeration value="videoDigital" />
+      <xs:enumeration value="videoHardcopy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="CI_Series">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="issueIdentification" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="page" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.DataType.Citation Elements-->
+  <xs:element name="CI_Citation" type="CI_Citation" />
+  <xs:element name="CI_Date" type="CI_Date" />
+  <xs:element name="CI_DateTypeCode" type="CI_DateTypeCode" />
+  <xs:element name="CI_DateTypeCodeValue" type="CI_DateTypeCodeValue" />
+  <xs:element name="CI_ResponsibleParty" type="CI_ResponsibleParty" />
+  <xs:element name="CI_Contact" type="CI_Contact" />
+  <xs:element name="CI_Telephone" type="CI_Telephone" />
+  <xs:element name="CI_Address" type="CI_Address" />
+  <xs:element name="CI_OnlineResource" type="CI_OnlineResource" />
+  <xs:element name="CI_OnLineFunctionCode" type="CI_OnLineFunctionCode" />
+  <xs:element name="CI_OnLineFunctionCodeValue" type="CI_OnLineFunctionCodeValue" />
+  <xs:element name="CI_RoleCode" type="CI_RoleCode" />
+  <xs:element name="CI_RoleCodeValue" type="CI_RoleCodeValue" />
+  <xs:element name="CI_PresentationFormCode" type="CI_PresentationFormCode" />
+  <xs:element name="CI_PresentationFormCodeValue" type="CI_PresentationFormCodeValue" />
+  <xs:element name="CI_Series" type="CI_Series" />
+  <!--***
+      Metadata.DataType.Extent
+      ***
+      The datatype in this package is an aggregate of the metadata elements
+      that describe the spatial and temporal extent of the referring entity.
+      The EX_Extent entity contains information about the geographic
+      (EX_GeographicExtent), temporal (EX_TemporalExtent) and the vertical
+      (EX_VerticalExtent) extent of the referring entity. EX_GeographicExtent
+      can be subclassed as EX_BoundingPolygon, EX_GeographicBoundingBox
+      and EX_GeographicDescription. The combined spatial and temporal extent
+      (EX_SpatialTemporalExtent) is an aggregate of EX_GeographicExtent.
+      EX_SpatialTemporalExtent is a subclass of EX_TemporalExtent.
+      
+      The EX_Extent entity has three optional roles named “geographicElement”,
+      “temporalElement”, and “verticalElement” and an element called
+      “description”. At least one of the four shall be used.
+      ***-->
+  <xs:complexType name="EX_Extent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="geographicElement" type="Parent_EX_GeographicExtent" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="temporalElement" type="Parent_EX_TemporalExtent" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="verticalElement" type="EX_VerticalExtent" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="EX_VerticalExtent">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="minimumValue" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="maximumValue" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="unitOfMeasure" type="UomLength" />
+      <xs:element minOccurs="0" maxOccurs="1" name="verticalDatum" type="SC_VerticalDatum" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Parent_EX_GeographicExtent">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_GeographicExtent" type="EX_GeographicExtent" />
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_BoundingPolygon" type="EX_BoundingPolygon" />
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_GeographicBoundingBox" type="EX_GeographicBoundingBox" />
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_GeographicDescription" type="EX_GeographicDescription" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EX_GeographicDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extentTypeCode" type="EX_ExtentTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="geographicIdentifier" type="Parent_MD_Identifier" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="EX_ExtentTypeCode">
+    <xs:attribute name="value" type="EX_ExtentTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="EX_ExtentTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="exclusion" />
+      <xs:enumeration value="inclusion" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="EX_GeographicBoundingBox">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extentTypeCode" type="EX_ExtentTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="westBoundLongitude" type="Angle" />
+      <xs:element minOccurs="0" maxOccurs="1" name="eastBoundLongitude" type="Angle" />
+      <xs:element minOccurs="0" maxOccurs="1" name="southBoundLatitude" type="Angle" />
+      <xs:element minOccurs="0" maxOccurs="1" name="northBoundLatitude" type="Angle" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="EX_GeographicExtent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extentTypeCode" type="EX_ExtentTypeCode" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="EX_BoundingPolygon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extentTypeCode" type="EX_ExtentTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="polygon" type="GM_Object" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Parent_EX_TemporalExtent">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_SpatialTemporalExtent" type="EX_SpatialTemporalExtent" />
+        <xs:element minOccurs="0" maxOccurs="1" name="EX_TemporalExtent" type="EX_TemporalExtent" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="EX_SpatialTemporalExtent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extent" type="TM_PeriodDuration" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spatialExtent" type="Parent_EX_GeographicExtent" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="EX_TemporalExtent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extent" type="TM_PeriodDuration" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SC_VerticalDatum">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="anchorDefinition" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="realizationEpoch" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="domainOfValidity" type="EX_Extent" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="scope" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="alias" type="GenericName" />
+      <xs:element minOccurs="0" maxOccurs="1" name="remarks" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.DataType.Extent Elements-->
+  <xs:element name="EX_VerticalExtent" type="EX_VerticalExtent" />
+  <xs:element name="EX_Extent" type="EX_Extent" />
+  <xs:element name="Parent_EX_GeographicExtent" type="Parent_EX_GeographicExtent" />
+  <xs:element name="EX_GeographicDescription" type="EX_GeographicDescription" />
+  <xs:element name="EX_ExtentTypeCode" type="EX_ExtentTypeCode" />
+  <xs:element name="EX_ExtentTypeCodeValue" type="EX_ExtentTypeCodeValue" />
+  <xs:element name="EX_GeographicBoundingBox" type="EX_GeographicBoundingBox" />
+  <xs:element name="EX_GeographicExtent" type="EX_GeographicExtent" />
+  <xs:element name="EX_BoundingPolygon" type="EX_BoundingPolygon" />
+  <xs:element name="Parent_EX_TemporalExtent" type="Parent_EX_TemporalExtent" />
+  <xs:element name="EX_SpatialTemporalExtent" type="EX_SpatialTemporalExtent" />
+  <xs:element name="EX_TemporalExtent" type="EX_TemporalExtent" />
+  <xs:element name="SC_VerticalDatum" type="SC_VerticalDatum" />
+  <!--***
+      Metadata.DataType.SpatialSchema
+      ***-->
+  <xs:complexType name="GM_Object">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="GM_Polygon" type="GM_Polygon" />
+        <xs:element minOccurs="0" maxOccurs="1" name="GM_Point" type="GM_Point" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="GM_Point">
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+    <xs:attribute name="x" type="xs:double" use="required" />
+    <xs:attribute name="y" type="xs:double" use="required" />
+    <xs:attribute name="z" type="xs:double" use="required" />
+  </xs:complexType>
+  <xs:complexType name="GM_Polygon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="points" type="GM_Point" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.DataType.SpatialSchema Elements-->
+  <xs:element name="GM_Object" type="GM_Object" />
+  <xs:element name="GM_Point" type="GM_Point" />
+  <xs:element name="GM_Polygon" type="GM_Polygon" />
+  <!--***
+      Metadata.Feature
+      ***-->
+  <xs:complexType name="FC_RoleType">
+    <xs:attribute name="value" type="FC_RoleTypeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="FC_RoleTypeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ordinary" />
+      <xs:enumeration value="aggregation" />
+      <xs:enumeration value="composition" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Multiplicity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="range" type="MultiplicityRange" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MultiplicityRange">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="lower" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="upper" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <!--Metadata.Feature Elements-->
+  <xs:element name="FC_RoleType" type="FC_RoleType" />
+  <xs:element name="FC_RoleTypeValue" type="FC_RoleTypeValue" />
+  <xs:element name="Multiplicity" type="Multiplicity" />
+  <xs:element name="MultiplicityRange" type="MultiplicityRange" />
+  <!--***
+      Metadata.Package.ApplicationSchema
+      ***
+      This package contains information about the application schema
+      used to build a dataset. It contains the optional entity
+      MD_ApplicationSchemaInformation. The entity contains mandatory
+      and optional elements.
+      ***-->
+  <xs:complexType name="MD_ApplicationSchemaInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="schemaLanguage" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="constraintLanguage" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="schemaAscii" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="graphicsFile" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="softwareDevelopmentFile" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="softwareDevelopmentFileFormat" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:element name="MD_ApplicationSchemaInformation" type="MD_ApplicationSchemaInformation" />
+  <!--***
+      Metadata.Package.Constraint
+      ***
+      This package contains information concerning the restrictions placed
+      on data. The MD_Constraints entity is optional and may be specified as
+      MD_LegalConstraints and/or MD_SecurityConstraints.
+      The otherConstraint element of MD_LegalConstraints shall be non-zero
+      (used) only if accessConstraints and/or useConstraints elements have
+      a value of “otherRestrictions”, which is found in the MD_RestrictionCode
+      codelist.
+      ***-->
+  <xs:complexType name="MD_ClassificationCode">
+    <xs:attribute name="value" type="MD_ClassificationCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_ClassificationCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="unclassified" />
+      <xs:enumeration value="restricted" />
+      <xs:enumeration value="confidential" />
+      <xs:enumeration value="secret" />
+      <xs:enumeration value="topsecret" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_Constraints">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="useLimitation" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_LegalConstraints">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="useLimitation" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="accessConstraints" type="MD_RestrictionCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="useConstraints" type="MD_RestrictionCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="otherConstraints" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_RestrictionCode">
+    <xs:attribute name="value" type="MD_RestrictionCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_RestrictionCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="copyright" />
+      <xs:enumeration value="patent" />
+      <xs:enumeration value="patentPending" />
+      <xs:enumeration value="trademark" />
+      <xs:enumeration value="license" />
+      <xs:enumeration value="intellectualPropertyRights" />
+      <xs:enumeration value="restricted" />
+      <xs:enumeration value="otherRestictions" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_SecurityConstraints">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="useLimitation" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="classification" type="MD_ClassificationCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="userNote" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="classificationSystem" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="handlingDescription" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Parent_MD_Constraints">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_SecurityConstraints" type="MD_SecurityConstraints" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Constraints" type="MD_Constraints" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_LegalConstraints" type="MD_LegalConstraints" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <!--Metadata.Package.Constraint Elements-->
+  <xs:element name="MD_ClassificationCode" type="MD_ClassificationCode" />
+  <xs:element name="MD_ClassificationCodeValue" type="MD_ClassificationCodeValue" />
+  <xs:element name="MD_Constraints" type="MD_Constraints" />
+  <xs:element name="MD_LegalConstraints" type="MD_LegalConstraints" />
+  <xs:element name="MD_RestrictionCode" type="MD_RestrictionCode" />
+  <xs:element name="MD_RestrictionCodeValue" type="MD_RestrictionCodeValue" />
+  <xs:element name="MD_SecurityConstraints" type="MD_SecurityConstraints" />
+  <xs:element name="Parent_MD_Constraints" type="Parent_MD_Constraints" />
+  <!--***
+      Metadata.Package.Content
+      ***
+      This package contains information identifying the feature catalogue
+      used (MD_FeatureCatalogueDescription) and/or information describing
+      the content of a coverage dataset (MD_CoverageDescription). Both
+      description entities are subclasses of the MD_ContentInformation
+      entity. MD_CoverageDescription may be subclassed as MD_ImageDescription,
+      and has an aggregate of MD_RangeDimension. MD_RangeDimension may
+      additionally be subclassed as MD_Band.
+      ***-->
+  <xs:complexType name="ComplianceCode">
+    <xs:attribute name="value" type="ComplianceCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="ComplianceCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="notCompliant" />
+      <xs:enumeration value="compliant" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_Band">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="sequenceIdentifier" type="MemberName" />
+      <xs:element minOccurs="0" maxOccurs="1" name="descriptor" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="maxValue" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="minValue" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="units" type="UomLength" />
+      <xs:element minOccurs="1" maxOccurs="1" name="peakResponse" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="bitsPerValue" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="toneGradation" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="scaleFactor" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="offset" type="xs:double" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ContentInformation">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_CoverageDescription" type="MD_CoverageDescription" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_ImageDescription" type="MD_ImageDescription" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_FeatureCatalogueDescription" type="MD_FeatureCatalogueDescription" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_CoverageContentTypeCode">
+    <xs:attribute name="value" type="MD_CoverageContentTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_CoverageContentTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="image" />
+      <xs:enumeration value="thematicClassification" />
+      <xs:enumeration value="physicalMeasurement" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_CoverageDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="attributeDescription" type="RecordType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contentType" type="MD_CoverageContentTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dimension" type="Parent_MD_RangeDimension" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_FeatureCatalogueDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="complianceCode" type="ComplianceCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="language" type="languageCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="includedWithDataset" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="featureTypes" type="GenericName" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="featureCatalogueCitation" type="CI_Citation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ImageDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="attributeDescription" type="RecordType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="contentType" type="MD_CoverageContentTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dimension" type="Parent_MD_RangeDimension" />
+      <xs:element minOccurs="1" maxOccurs="1" name="illuminationElevationAngle" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="illuminationAzimuthAngle" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="imagingCondition" type="MD_ImagingConditionCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="imageQualityCode" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="1" maxOccurs="1" name="cloudCoverPercentage" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="processingLevelCode" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="1" maxOccurs="1" name="compressionGenerationQuantity" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="triangulationIndicator" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="radiometricCalibrationDataAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cameraCalibrationInformationAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="filmDistortionInformationAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lensDistortionInformationAvailability" type="Boolean" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ImagingConditionCode">
+    <xs:attribute name="value" type="MD_ImagingConditionCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_ImagingConditionCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="blurredImage" />
+      <xs:enumeration value="cloud" />
+      <xs:enumeration value="degradingObliquity" />
+      <xs:enumeration value="fog" />
+      <xs:enumeration value="heavySmokeOrDust" />
+      <xs:enumeration value="night" />
+      <xs:enumeration value="rain" />
+      <xs:enumeration value="semiDarkness" />
+      <xs:enumeration value="shadow" />
+      <xs:enumeration value="snow" />
+      <xs:enumeration value="terrainMasking" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Parent_MD_RangeDimension">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_RangeDimension" type="MD_RangeDimension" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Band" type="MD_Band" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MD_RangeDimension">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="sequenceIdentifier" type="MemberName" />
+      <xs:element minOccurs="0" maxOccurs="1" name="descriptor" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Content Elements-->
+  <xs:element name="ComplianceCode" type="ComplianceCode" />
+  <xs:element name="ComplianceCodeValue" type="ComplianceCodeValue" />
+  <xs:element name="MD_Band" type="MD_Band" />
+  <xs:element name="MD_ContentInformation" type="MD_ContentInformation" />
+  <xs:element name="MD_CoverageContentTypeCode" type="MD_CoverageContentTypeCode" />
+  <xs:element name="MD_CoverageContentTypeCodeValue" type="MD_CoverageContentTypeCodeValue" />
+  <xs:element name="MD_CoverageDescription" type="MD_CoverageDescription" />
+  <xs:element name="MD_FeatureCatalogueDescription" type="MD_FeatureCatalogueDescription" />
+  <xs:element name="MD_ImageDescription" type="MD_ImageDescription" />
+  <xs:element name="MD_ImagingConditionCode" type="MD_ImagingConditionCode" />
+  <xs:element name="MD_ImagingConditionCodeValue" type="MD_ImagingConditionCodeValue" />
+  <xs:element name="Parent_MD_RangeDimension" type="Parent_MD_RangeDimension" />
+  <xs:element name="MD_RangeDimension" type="MD_RangeDimension" />
+  <!--***
+      Metadata.Package.Distribution
+      ***
+      This package contains information about the distributor of, and
+      options for obtaining, a resource. It contains the optional
+      MD_Distribution entity. MD_Distribution is an aggregate of the
+      options for the digital distribution of a dataset
+      (MD_DigitalTransferOptions), identification of the distributor
+      (MD_Distributor) and the format of the distribution (MD_Format),
+      which contains mandatory and optional elements.
+      MD_DigitalTransferOptions contains the medium used for the
+      distribution (MD_Medium) of a dataset, and is an aggregate of
+      MD_Distributor. MD_Distributor’s other aggregate is the process
+      for ordering a distribution (MD_StandardOrderProcess).
+      
+      The “distributionFormat” role of MD_Distribution is mandatory
+      if the “distributorFormat” role of MD_Distributor is not documented.
+      
+      The “distributorFormat” role of MD_Distributor is mandatory if the
+      “distributionFormat” role of MD_Distribution is not documented.
+      ***-->
+  <xs:complexType name="MD_DigitalTransferOptions">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="unitsOfDistribution" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="transferSize" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="onLine" type="CI_OnlineResource" />
+      <xs:element minOccurs="0" maxOccurs="1" name="offline" type="MD_Medium" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Distribution">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="distributionFormat" type="MD_Format" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="transferOptions" type="MD_DigitalTransferOptions" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="distributor" type="MD_Distributor" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Distributor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="distributorContact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="distributionOrderProcess" type="MD_StandardOrderProcess" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="distributorFormat" type="MD_Format" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="distributorTransferOptions" type="MD_DigitalTransferOptions" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Format">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="version" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="amendmentNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="specification" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fileDecompressionTechnique" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="formatDistributor" type="MD_Distributor" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Medium">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="MD_MediumNameCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="density" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="densityUnits" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="volumes" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="mediumFormat" type="MD_MediumFormatCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="mediumNote" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_MediumFormatCode">
+    <xs:attribute name="value" type="MD_MediumFormatCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_MediumFormatCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="cpio" />
+      <xs:enumeration value="tar" />
+      <xs:enumeration value="highSierra" />
+      <xs:enumeration value="iso9660" />
+      <xs:enumeration value="iso9660RockRidge" />
+      <xs:enumeration value="iso9660AppleHFS" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_MediumNameCode">
+    <xs:attribute name="value" type="MD_MediumNameCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_MediumNameCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="cdRom" />
+      <xs:enumeration value="dvd" />
+      <xs:enumeration value="dvdRom" />
+      <xs:enumeration value="3halfInchFloppy" />
+      <xs:enumeration value="5quarterInchFloppy" />
+      <xs:enumeration value="7trackTape" />
+      <xs:enumeration value="9trackTape" />
+      <xs:enumeration value="3480Cartridge" />
+      <xs:enumeration value="3490Cartridge" />
+      <xs:enumeration value="3580Cartridge" />
+      <xs:enumeration value="4mmCartridgeTape" />
+      <xs:enumeration value="8mmCartridgeTape" />
+      <xs:enumeration value="1quarterInchCartridgeTape" />
+      <xs:enumeration value="digitalLinearTape" />
+      <xs:enumeration value="online" />
+      <xs:enumeration value="satellite" />
+      <xs:enumeration value="telephoneLink" />
+      <xs:enumeration value="hardcopy" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_StandardOrderProcess">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="fees" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="plannedAvailableDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="orderingInstructions" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="turnaround" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Distribution Elements-->
+  <xs:element name="MD_DigitalTransferOptions" type="MD_DigitalTransferOptions" />
+  <xs:element name="MD_Distribution" type="MD_Distribution" />
+  <xs:element name="MD_Distributor" type="MD_Distributor" />
+  <xs:element name="MD_Format" type="MD_Format" />
+  <xs:element name="MD_Medium" type="MD_Medium" />
+  <xs:element name="MD_MediumFormatCode" type="MD_MediumFormatCode" />
+  <xs:element name="MD_MediumFormatCodeValue" type="MD_MediumFormatCodeValue" />
+  <xs:element name="MD_MediumNameCode" type="MD_MediumNameCode" />
+  <xs:element name="MD_MediumNameCodeValue" type="MD_MediumNameCodeValue" />
+  <xs:element name="MD_StandardOrderProcess" type="MD_StandardOrderProcess" />
+  <!--***
+      Metadata.Package.EntitySet
+      ***
+      Metadata entity set information consists of the entity (UML class)
+      MD_Metadata, which is mandatory. The MD_Metadata entity contains
+      both mandatory and optional metadata elements (UML attributes).
+      The MD_Metadata entity is an aggregate of the following entities
+      (which are further explained in the following subclauses):
+      
+      • MD_Identification
+      • MD_Constraints
+      • DQ_DataQuality
+      • MD_MaintenanceInformation
+      • MD_SpatialRepresentation
+      • MD_ReferenceSystem
+      • MD_ContentInformation
+      • MD_PortrayalCatalogueReference
+      • MD_Distribution
+      • MD_MetadataExtensionInformation
+      • MD_ApplicationSchemaInformation
+      
+      ***-->
+  <xs:complexType name="MD_Metadata">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="fileIdentifier" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="language" type="languageCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="characterSet" type="MD_CharacterSetCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="parentIdentifier" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="hierarchyLevel" type="MD_ScopeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="hierarchyLevelName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="contact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="1" maxOccurs="1" name="dateStamp" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="metadataStandardName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="metadataStandardVersion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="datasetURI" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spatialRepresentationInfo" type="MD_SpatialRepresentation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="referenceSystemInfo" type="Parent_MD_ReferenceSystem" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="metadataExtensionInfo" type="MD_MetadataExtensionInformation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="identificationInfo" type="Parent_MD_Identification" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="contentInfo" type="MD_ContentInformation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="distributionInfo" type="MD_Distribution" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dataQualityInfo" type="DQ_DataQuality" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="metadataConstraints" type="Parent_MD_Constraints" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="applicationSchemaInfo" type="MD_ApplicationSchemaInformation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="metadataMaintenance" type="MD_MaintenanceInformation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_MetadataSet">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MD_MetadataSet" type="MD_Metadata" />
+    </xs:sequence>
+  </xs:complexType>
+  <!--***
+      Metadata.Package.EntitySet Eelements
+      ***-->
+  <xs:element name="MD_Metadata" type="MD_Metadata" />
+  <xs:element name="MD_MetadataSet" type="MD_MetadataSet" />
+  <!--***
+      Metadata.Package.Enumerations
+      ***-->
+  <xs:complexType name="DS_InitiativeTypeCode">
+    <xs:attribute name="value" type="DS_InitiativeTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="DS_InitiativeTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="campaign" />
+      <xs:enumeration value="collection" />
+      <xs:enumeration value="exercise" />
+      <xs:enumeration value="experiment" />
+      <xs:enumeration value="investigation" />
+      <xs:enumeration value="mission" />
+      <xs:enumeration value="sensor" />
+      <xs:enumeration value="operation" />
+      <xs:enumeration value="platform" />
+      <xs:enumeration value="process" />
+      <xs:enumeration value="program" />
+      <xs:enumeration value="project" />
+      <xs:enumeration value="study" />
+      <xs:enumeration value="task" />
+      <xs:enumeration value="trial" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="DS_AssociationTypeCode">
+    <xs:attribute name="value" type="DS_AssociationTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="DS_AssociationTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="crossReference" />
+      <xs:enumeration value="largerWorkeCitation" />
+      <xs:enumeration value="partOfSeamlessDatabase" />
+      <xs:enumeration value="source" />
+      <xs:enumeration value="stereoMate" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_DatatypeCode">
+    <xs:attribute name="value" type="MD_DatatypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_DatatypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="class" />
+      <xs:enumeration value="codelist" />
+      <xs:enumeration value="enumeration" />
+      <xs:enumeration value="codelistElement" />
+      <xs:enumeration value="abstractClass" />
+      <xs:enumeration value="aggregateClass" />
+      <xs:enumeration value="specifiedClass" />
+      <xs:enumeration value="datatypeClass" />
+      <xs:enumeration value="interfaceClass" />
+      <xs:enumeration value="unionClass" />
+      <xs:enumeration value="metaclass" />
+      <xs:enumeration value="typeClass" />
+      <xs:enumeration value="characterString" />
+      <xs:enumeration value="integer" />
+      <xs:enumeration value="association" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_ObligationCode">
+    <xs:attribute name="value" type="MD_ObligationCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_ObligationCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="mandatory" />
+      <xs:enumeration value="optional" />
+      <xs:enumeration value="conditional" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_ProgressCode">
+    <xs:attribute name="value" type="MD_ProgressCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_ProgressCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="completed" />
+      <xs:enumeration value="historicalArchive" />
+      <xs:enumeration value="obsolete" />
+      <xs:enumeration value="onGoing" />
+      <xs:enumeration value="planned" />
+      <xs:enumeration value="required" />
+      <xs:enumeration value="underdevelopment" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_ScopeCode">
+    <xs:attribute name="value" type="MD_ScopeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_ScopeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="attribute" />
+      <xs:enumeration value="attributeType" />
+      <xs:enumeration value="collectionhardware" />
+      <xs:enumeration value="collectionSession" />
+      <xs:enumeration value="dataset" />
+      <xs:enumeration value="series" />
+      <xs:enumeration value="nonGeographicDataset" />
+      <xs:enumeration value="dimensionGroup" />
+      <xs:enumeration value="feature" />
+      <xs:enumeration value="featureType" />
+      <xs:enumeration value="propertyType" />
+      <xs:enumeration value="fieldSession" />
+      <xs:enumeration value="software" />
+      <xs:enumeration value="service" />
+      <xs:enumeration value="model" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.Package.Enumerations Elements-->
+  <xs:element name="DS_InitiativeTypeCode" type="DS_InitiativeTypeCode" />
+  <xs:element name="DS_InitiativeTypeCodeValue" type="DS_InitiativeTypeCodeValue" />
+  <xs:element name="DS_AssociationTypeCode" type="DS_AssociationTypeCode" />
+  <xs:element name="DS_AssociationTypeCodeValue" type="DS_AssociationTypeCodeValue" />
+  <xs:element name="MD_DatatypeCode" type="MD_DatatypeCode" />
+  <xs:element name="MD_DatatypeCodeValue" type="MD_DatatypeCodeValue" />
+  <xs:element name="MD_ObligationCode" type="MD_ObligationCode" />
+  <xs:element name="MD_ObligationCodeValue" type="MD_ObligationCodeValue" />
+  <xs:element name="MD_ProgressCode" type="MD_ProgressCode" />
+  <xs:element name="MD_ProgressCodeValue" type="MD_ProgressCodeValue" />
+  <xs:element name="MD_ScopeCode" type="MD_ScopeCode" />
+  <xs:element name="MD_ScopeCodeValue" type="MD_ScopeCodeValue" />
+  <!--***
+      Metadata.Package.Extension
+      ***
+      This package contains information about user specified extensions.
+      It contains the optional MD_MetadataExtensionInformation entity.
+      MD_MetadataExtensionInformation is an aggregate of information
+      describing the extended metadata elements (MD_ExtendedElementInformation).
+      
+      If the “dataType” element of MD_ExtendedElementInformation does not
+      have a value of ‘codelist’, ‘enumeration’ or ‘codelistElement’;
+      then the “obligation”, “maximumOccurence” and “domainValue” elements
+      are mandatory.
+      
+      If the “dataType” element of MD_ExtendedElementInformation has a value
+      of ‘codelistElement’, then the “domainCode” element is mandatory.
+      
+      If the “dataType” element of MD_ExtendedElementInformation does not
+      have a value of ‘codelistElement’, then the “shortName” element is
+      mandatory.
+      
+      If the “obligation” element of MD_ExtendedElementInformation has a
+      value of ‘conditional’, then the “condition” element is mandatory.
+      ***-->
+  <xs:complexType name="MD_ExtendedElementInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="shortName" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="domainCode" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="definition" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="obligation" type="MD_ObligationCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="condition" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="dataType" type="MD_DatatypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="maximumOccurence" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="domainValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="parentEntity" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rule" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="rationale" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="source" type="CI_ResponsibleParty" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_MetadataExtensionInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="extensionOnLineResource" type="CI_OnlineResource" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="extendedElementInformation" type="MD_ExtendedElementInformation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Extension Elements-->
+  <xs:element name="MD_ExtendedElementInformation" type="MD_ExtendedElementInformation" />
+  <xs:element name="MD_MetadataExtensionInformation" type="MD_MetadataExtensionInformation" />
+  <!--***
+      Metadata.Package.Identification
+      ***
+      Identification information contains information to uniquely identify
+      the data. Identification information includes information about the
+      citation for the resource, an abstract, the purpose, credit, the status
+      and points of contact. The MD_Identification entity is mandatory.
+      It contains mandatory, conditional, and optional elements.
+      The MD_Identification entity may be specified (subclassed) as
+      MD_DataIdentification when used to identify data and as
+      MD_ServiceIdentification when used to identify a service.
+      MD_ServiceIdentification provides a high level description of a
+      service, for further information see ISO 19119. MD_Identification
+      is an aggregate of the following entities:
+      
+      • MD_Format, format of the data
+      • MD_BrowseGraphic, graphic overview of the data
+      • MD_Usage, specific uses of the data
+      • MD_Constraints, constraints placed on the resource
+      • MD_Keywords, keywords describing the resource
+      • MD_MaintenanceInformation, how often the data is scheduled to be
+        updated and the scope of the update
+      • MD_AggregateInformation, information about datasets that are
+        aggregate parts of the dataset that the metadata describes
+        
+      The extent element of MD_DataIdentification is conditional;
+      either the EX_GeographicBoundingBox or the EX_GeographicDescription
+      subclass of extent’s geographicElement Role shall be included if the
+      dataset is spatially referenced. If necessary both may be used.
+      ***-->
+  <xs:complexType name="MD_AggregateInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="aggregateDatasetName" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="aggregateDataSetIdentifier" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="associationType" type="DS_AssociationTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="initiativeType" type="DS_InitiativeTypeCode" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_BrowseGraphic">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="fileName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fileDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="fileType" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_DataIdentification">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="citation" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="abstract" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="purpose" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="credit" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="status" type="MD_ProgressCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pointOfContact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceMaintenance" type="MD_MaintenanceInformation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="graphicOverview" type="MD_BrowseGraphic" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceFormat" type="MD_Format" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="descriptiveKeywords" type="MD_Keywords" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceSpecificUsage" type="MD_Usage" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceConstraints" type="Parent_MD_Constraints" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aggregationInfo" type="MD_AggregateInformation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spatialRepresentationType" type="MD_SpatialRepresentationTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="spatialResolution" type="MD_Resolution" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="language" type="languageCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="characterSet" type="MD_CharacterSetCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="topicCategory" type="MD_TopicCategoryCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="environmentDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="extent" type="EX_Extent" />
+      <xs:element minOccurs="0" maxOccurs="1" name="supplementalInformation" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Identification">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="citation" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="abstract" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="purpose" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="credit" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="status" type="MD_ProgressCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pointOfContact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceMaintenance" type="MD_MaintenanceInformation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="graphicOverview" type="MD_BrowseGraphic" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceFormat" type="MD_Format" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="descriptiveKeywords" type="MD_Keywords" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceSpecificUsage" type="MD_Usage" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceConstraints" type="Parent_MD_Constraints" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aggregationInfo" type="MD_AggregateInformation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Parent_MD_Identification">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_DataIdentification" type="MD_DataIdentification" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Identification" type="MD_Identification" />
+        <xs:element minOccurs="0" maxOccurs="1" name="SV_ServiceIdentification" type="SV_ServiceIdentification" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MD_Keywords">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="keyword" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="type" type="MD_KeywordTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="thesaurusName" type="CI_Citation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_KeywordTypeCode">
+    <xs:attribute name="value" type="MD_KeywordTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_KeywordTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="discipline" />
+      <xs:enumeration value="place" />
+      <xs:enumeration value="stratum" />
+      <xs:enumeration value="temporal" />
+      <xs:enumeration value="theme" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_RepresentativeFraction">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="denominator" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Resolution">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="equivalentScale" type="MD_RepresentativeFraction" />
+      <xs:element minOccurs="0" maxOccurs="1" name="distance" type="Distance" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_TopicCategoryCode">
+    <xs:attribute name="value" type="MD_TopicCategoryCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_TopicCategoryCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="farming" />
+      <xs:enumeration value="biota" />
+      <xs:enumeration value="boundaries" />
+      <xs:enumeration value="climatologyMeteorologyAtmosphere" />
+      <xs:enumeration value="economy" />
+      <xs:enumeration value="elevation" />
+      <xs:enumeration value="environment" />
+      <xs:enumeration value="geoscientificInformation" />
+      <xs:enumeration value="health" />
+      <xs:enumeration value="imageryBaseMapsEarthCover" />
+      <xs:enumeration value="intelligenceMilitary" />
+      <xs:enumeration value="inlandWaters" />
+      <xs:enumeration value="location" />
+      <xs:enumeration value="oceans" />
+      <xs:enumeration value="planningCadastre" />
+      <xs:enumeration value="society" />
+      <xs:enumeration value="structure" />
+      <xs:enumeration value="transportation" />
+      <xs:enumeration value="utilitiesCommunication" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_Usage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="specificUsage" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="usageDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="userDeterminedLimitations" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="userContactInfo" type="CI_ResponsibleParty" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Identification-->
+  <xs:element name="MD_AggregateInformation" type="MD_AggregateInformation" />
+  <xs:element name="MD_BrowseGraphic" type="MD_BrowseGraphic" />
+  <xs:element name="MD_DataIdentification" type="MD_DataIdentification" />
+  <xs:element name="MD_Identification" type="MD_Identification" />
+  <xs:element name="Parent_MD_Identification" type="Parent_MD_Identification" />
+  <xs:element name="MD_Keywords" type="MD_Keywords" />
+  <xs:element name="MD_KeywordTypeCode" type="MD_KeywordTypeCode" />
+  <xs:element name="MD_KeywordTypeCodeValue" type="MD_KeywordTypeCodeValue" />
+  <xs:element name="MD_RepresentativeFraction" type="MD_RepresentativeFraction" />
+  <xs:element name="MD_Resolution" type="MD_Resolution" />
+  <xs:element name="MD_TopicCategoryCode" type="MD_TopicCategoryCode" />
+  <xs:element name="MD_TopicCategoryCodeValue" type="MD_TopicCategoryCodeValue" />
+  <xs:element name="MD_Usage" type="MD_Usage" />
+  <!--***
+      Metadata.Package.Maintenance
+      ***
+      This package contains information about the scope and frequency
+      of updating data. The MD_MaintenanceInformation entity is optional
+      and contains mandatory and optional metadata elements.
+      ***-->
+  <xs:complexType name="MD_MaintenanceInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="maintenanceAndUpdateFrequency" type="MD_MaintenanceFrequencyCode" />
+      <xs:element minOccurs="1" maxOccurs="1" name="dateOfNextUpdate" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="userDefinedMaintenanceFrequency" type="TM_PeriodDuration" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="updateScope" type="MD_ScopeCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="updateScopeDescription" type="MD_ScopeDescription" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="maintenanceNote" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="contact" type="CI_ResponsibleParty" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ScopeDescription">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="dataset" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="other" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_MaintenanceFrequencyCode">
+    <xs:attribute name="value" type="MD_MaintenanceFrequencyCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_MaintenanceFrequencyCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="continual" />
+      <xs:enumeration value="daily" />
+      <xs:enumeration value="weekly" />
+      <xs:enumeration value="fortnightly" />
+      <xs:enumeration value="monthly" />
+      <xs:enumeration value="quarterly" />
+      <xs:enumeration value="biannually" />
+      <xs:enumeration value="annually" />
+      <xs:enumeration value="asNeeded" />
+      <xs:enumeration value="irregular" />
+      <xs:enumeration value="notPlanned" />
+      <xs:enumeration value="unknown" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.Package.Maintenance Elements-->
+  <xs:element name="MD_MaintenanceInformation" type="MD_MaintenanceInformation" />
+  <xs:element name="MD_ScopeDescription" type="MD_ScopeDescription" />
+  <xs:element name="MD_MaintenanceFrequencyCode" type="MD_MaintenanceFrequencyCode" />
+  <xs:element name="MD_MaintenanceFrequencyCodeValue" type="MD_MaintenanceFrequencyCodeValue" />
+  <!--***
+      Metadata.Package.PortrayalCatalogue
+      ***
+      This package contains information identifying the portrayal
+      catalogue used. It consists of the optional entity
+      MD_PortrayalCatalogueReference. This entity contains the
+      mandatory element used to specify which portrayal catalogue
+      is used by the dataset.
+      ***-->
+  <xs:complexType name="MD_PortrayalCatalogueReference">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="portrayalCatalogueCitation" type="CI_Citation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.PortrayalCatalogue Elements-->
+  <xs:element name="MD_PortrayalCatalogueReference" type="MD_PortrayalCatalogueReference" />
+  <!--***
+      Metadata.Package.Quality
+      ***
+      This package contains a general assessment of the quality of the dataset.
+      The DQ_DataQuality entity is optional and contains the scope of the
+      quality assessment. DQ_DataQuality is an aggregate of LI_Lineage
+      and DQ_Element. DQ_Element can be specified as DQ_Completeness,
+      DQ_LogicalConsistency, DQ_PositionalAccuracy, DQ_ThematicAccuracy
+      and DQ_TemporalAccuracy. Those five entities represent Elements
+      of data quality and can be further subclassed to the sub-Elements
+      of data quality. Users may add additional elements and sub-elements
+      of data quality by sub-classing DQ_Element or the appropriate subelement.
+      
+      This package also contains information about the sources and
+      production processes used in producing a dataset. The LI_Lineage
+      entity is optional and contains a statement about the lineage.
+      LI_Lineage is an aggregate of LI_ProcessStep and LI_Source.
+      
+      Either the “report” or “lineage” roles of DQ_DataQuality must be
+      present if DQ_DataQuality.scope.DQ_Scope.level has a value of “dataset”.
+      
+      The “levelDescription” element of DQ_Scope is mandatory if the “level”
+      element of DQ_Scope does not have a value of “dataset” or “series”.
+      
+      The “statement” element of LI_Lineage is mandatory if
+      DQ_DataQuality.scope.DQ_Scope.level has a value of “dataset” or
+      “series” and the LI_Lineage roles of “source” and “processStep”
+      are not documented.
+      
+      The “source” role of LI_Lineage is mandatory if the “statement”
+      element and the “processStep” role of LI_Lineage are not documented.
+      
+      The “processStep” role of LI_Lineage is mandatory if the “statement”
+      element and the “source” role of LI_Lineage are not documented.
+      
+      Either the “description” or “sourceExtent” element of LI_Source must
+      be documented.
+      ***-->
+  <xs:complexType name="Parent_DQ_Element">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_GriddedDataPositionalAccuracy" type="DQ_GriddedDataPositionalAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_RelativeInternalPositionalAccuracy" type="DQ_RelativeInternalPositionalAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_AccuracyOfATimeMeasurement" type="DQ_AccuracyOfATimeMeasurement" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_TemporalConsistency" type="DQ_TemporalConsistency" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_TemporalValidity" type="DQ_TemporalValidity" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_ThematicClassificationCorrectness" type="DQ_ThematicClassificationCorrectness" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_NonQuantitativeAttributeAccuracy" type="DQ_NonQuantitativeAttributeAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_QuantitativeAttributeAccuracy" type="DQ_QuantitativeAttributeAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_FormatConsistency" type="DQ_FormatConsistency" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_AbsoluteExternalPositionalAccuracy" type="DQ_AbsoluteExternalPositionalAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_TopologicalConsistency" type="DQ_TopologicalConsistency" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_Element" type="DQ_Element" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_Completeness" type="DQ_Completeness" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_LogicalConsistency" type="DQ_LogicalConsistency" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_PositionalAccuracy" type="DQ_PositionalAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_TemporalAccuracy" type="DQ_TemporalAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_ThematicAccuracy" type="DQ_ThematicAccuracy" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_CompletenessCommission" type="DQ_CompletenessCommission" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_CompletenessOmission" type="DQ_CompletenessOmission" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_ConceptualConsistency" type="DQ_ConceptualConsistency" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_DomainConsistency" type="DQ_DomainConsistency" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DQ_DataQuality">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="scope" type="DQ_Scope" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="report" type="Parent_DQ_Element" />
+      <xs:element minOccurs="0" maxOccurs="1" name="lineage" type="LI_Lineage" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="LI_Lineage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="statement" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="processStep" type="LI_ProcessStep" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="source" type="LI_Source" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="LI_ProcessStep">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="rationale" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="processor" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="source" type="LI_Source" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="LI_Source">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="scaleDenominator" type="MD_RepresentativeFraction" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceReferenceSystem" type="Parent_MD_ReferenceSystem" />
+      <xs:element minOccurs="0" maxOccurs="1" name="sourceCitation" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="sourceExtent" type="EX_Extent" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="sourceStep" type="LI_ProcessStep" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_Element">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethod" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_Completeness">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_CompletenessCommission">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_CompletenessOmission">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_LogicalConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_ConceptualConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_DomainConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_FormatConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_TopologicalConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_PositionalAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_AbsoluteExternalPositionalAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_GriddedDataPositionalAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_RelativeInternalPositionalAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_TemporalAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_AccuracyOfATimeMeasurement">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_TemporalConsistency">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_TemporalValidity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_ThematicAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_ThematicClassificationCorrectness">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_NonQuantitativeAttributeAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_QuantitativeAttributeAccuracy">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="nameOfMeasure" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureIdentification" type="Parent_MD_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="measureDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodType" type="DQ_EvaluationMethodTypeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationMethodDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="evaluationProcedure" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="result" type="DQ_Result" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_Result">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_QuantitativeResult" type="DQ_QuantitativeResult" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DQ_ConformanceResult" type="DQ_ConformanceResult" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_ConformanceResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="specification" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="explanation" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pass" type="Boolean" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_QuantitativeResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="valueType" type="RecordType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="valueUnit" type="UnitOfMeasure" />
+      <xs:element minOccurs="0" maxOccurs="1" name="errorStatistic" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="value" type="ArrayOfRecord" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_Scope">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="level" type="MD_ScopeCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="extent" type="EX_Extent" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="levelDescription" type="MD_ScopeDescription" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="DQ_EvaluationMethodTypeCode">
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+    <xs:attribute name="value" type="DQ_EvaluationMethodTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="DQ_EvaluationMethodTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="directInternal" />
+      <xs:enumeration value="directExternal" />
+      <xs:enumeration value="indirect" />
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Metadata.Package.Quality Elements-->
+  <xs:element name="DQ_DataQuality" type="DQ_DataQuality" />
+  <xs:element name="LI_Lineage" type="LI_Lineage" />
+  <xs:element name="LI_ProcessStep" type="LI_ProcessStep" />
+  <xs:element name="LI_Source" type="LI_Source" />
+  <xs:element name="DQ_Element" type="DQ_Element" />
+  <xs:element name="DQ_Completeness" type="DQ_Completeness" />
+  <xs:element name="DQ_CompletenessCommission" type="DQ_CompletenessCommission" />
+  <xs:element name="DQ_CompletenessOmission" type="DQ_CompletenessOmission" />
+  <xs:element name="DQ_LogicalConsistency" type="DQ_LogicalConsistency" />
+  <xs:element name="DQ_ConceptualConsistency" type="DQ_ConceptualConsistency" />
+  <xs:element name="DQ_DomainConsistency" type="DQ_DomainConsistency" />
+  <xs:element name="DQ_FormatConsistency" type="DQ_FormatConsistency" />
+  <xs:element name="DQ_TopologicalConsistency" type="DQ_TopologicalConsistency" />
+  <xs:element name="DQ_PositionalAccuracy" type="DQ_PositionalAccuracy" />
+  <xs:element name="DQ_AbsoluteExternalPositionalAccuracy" type="DQ_AbsoluteExternalPositionalAccuracy" />
+  <xs:element name="DQ_GriddedDataPositionalAccuracy" type="DQ_GriddedDataPositionalAccuracy" />
+  <xs:element name="DQ_RelativeInternalPositionalAccuracy" type="DQ_RelativeInternalPositionalAccuracy" />
+  <xs:element name="DQ_TemporalAccuracy" type="DQ_TemporalAccuracy" />
+  <xs:element name="DQ_AccuracyOfATimeMeasurement" type="DQ_AccuracyOfATimeMeasurement" />
+  <xs:element name="DQ_TemporalConsistency" type="DQ_TemporalConsistency" />
+  <xs:element name="DQ_TemporalValidity" type="DQ_TemporalValidity" />
+  <xs:element name="DQ_ThematicAccuracy" type="DQ_ThematicAccuracy" />
+  <xs:element name="DQ_ThematicClassificationCorrectness" type="DQ_ThematicClassificationCorrectness" />
+  <xs:element name="DQ_NonQuantitativeAttributeAccuracy" type="DQ_NonQuantitativeAttributeAccuracy" />
+  <xs:element name="DQ_QuantitativeAttributeAccuracy" type="DQ_QuantitativeAttributeAccuracy" />
+  <xs:element name="DQ_Result" type="DQ_Result" />
+  <xs:element name="DQ_ConformanceResult" type="DQ_ConformanceResult" />
+  <xs:element name="DQ_QuantitativeResult" type="DQ_QuantitativeResult" />
+  <xs:element name="DQ_Scope" type="DQ_Scope" />
+  <xs:element name="DQ_EvaluationMethodTypeCodeValue" type="DQ_EvaluationMethodTypeCodeValue" />
+  <xs:element name="DQ_EvaluationMethodTypeCode" type="DQ_EvaluationMethodTypeCode" />
+  <!--***
+      Metadata.Package.ReferenceSystem
+      ***
+      This package contains the description of the spatial and temporal
+      reference system(s) used in a dataset. MD_ReferenceSystem contains
+      an element to identify the reference system used. MD_ReferenceSystem is
+      subclassed as MD_CRS, which is an aggregate of MD_ProjectionParameters
+      and MD_EllipsoidParameters. MD_ProjectionParameters is an aggregate
+      of MD_ObliqueLineAzimuth and MD_ObliqueLinePoint.
+      ***-->
+  <xs:complexType name="MD_ReferenceSystem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="referenceSystemIdentifier" type="RS_Identifier" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_CRS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="referenceSystemIdentifier" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="projection" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ellipsoid" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="datum" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="projectionParameters" type="MD_EllipsoidParameters" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ellipsoidParameters" type="MD_ProjectionParameters" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_EllipsoidParameters">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="semiMajorAxis" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="axisUnits" type="UomLength" />
+      <xs:element minOccurs="1" maxOccurs="1" name="denominatorOfFlatteningRatio" type="xs:double" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Identifier">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="authority" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="code" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ObliqueLineAzimuth">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="azimuthAngle" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="azimuthMeasurePointLongitude" type="xs:double" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ObliqueLinePoint">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="obliqueLineLatitude" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="obliqueLineLongitude" type="xs:double" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_ProjectionParameters">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="zoneNumber" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="standardParallel" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="longitudeOfCentralMeridian" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="latitudeOfProjectionOrigin" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="falseEasting" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="falseNorthing" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="falseEastingNorthingUnits" type="UomLength" />
+      <xs:element minOccurs="1" maxOccurs="1" name="scaleFactorAtEquator" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="heightOfProspectivePointAboveSurface" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="longitudeOfProjectionCenter" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="latitudeOfProjectionCenter" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="scaleFactorAtCenterLine" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="straightVertialLongitudeFromPole" type="xs:double" />
+      <xs:element minOccurs="1" maxOccurs="1" name="scaleFactorAtProjectionOrigin" type="xs:double" />
+      <xs:element minOccurs="0" maxOccurs="1" name="obliqueLineAzimuthParameter" type="MD_ObliqueLineAzimuth" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="obliqueLinePointParameter" type="MD_ObliqueLinePoint" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Parent_MD_Identifier">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="RS_Identifier" type="RS_Identifier" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Identifier" type="MD_Identifier" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Parent_MD_ReferenceSystem">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_CRS" type="MD_CRS" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_ReferenceSystem" type="MD_ReferenceSystem" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RS_Identifier">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="authority" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="code" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="codeSpace" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="version" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="RS_ReferenceSystem">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="RS_Identifier" />
+      <xs:element minOccurs="0" maxOccurs="1" name="domainOfValidity" type="EX_Extent" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.ReferenceSystem Elements-->
+  <xs:element name="MD_ReferenceSystem" type="MD_ReferenceSystem" />
+  <xs:element name="MD_CRS" type="MD_CRS" />
+  <xs:element name="MD_EllipsoidParameters" type="MD_EllipsoidParameters" />
+  <xs:element name="MD_Identifier" type="MD_Identifier" />
+  <xs:element name="MD_ObliqueLineAzimuth" type="MD_ObliqueLineAzimuth" />
+  <xs:element name="MD_ObliqueLinePoint" type="MD_ObliqueLinePoint" />
+  <xs:element name="MD_ProjectionParameters" type="MD_ProjectionParameters" />
+  <xs:element name="Parent_MD_Identifier" type="Parent_MD_Identifier" />
+  <xs:element name="Parent_MD_ReferenceSystem" type="Parent_MD_ReferenceSystem" />
+  <xs:element name="RS_Identifier" type="RS_Identifier" />
+  <xs:element name="RS_ReferenceSystem" type="RS_ReferenceSystem" />
+  <!--***
+      Metadata.Package.Service.Model
+      ***-->
+  <xs:complexType name="SV_Message">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="MemberName" />
+      <xs:element minOccurs="0" maxOccurs="1" name="direction" type="SV_ParameterDirection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="optionality" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="repeatability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="operationMetadata" type="SV_OperationMetadata" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SV_MessageUse">
+    <xs:attribute name="value" type="SV_MessageUseValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="SV_MessageUseValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="request" />
+      <xs:enumeration value="responseServer" />
+      <xs:enumeration value="solicitation" />
+      <xs:enumeration value="responseClient" />
+      <xs:enumeration value="broadcast" />
+      <xs:enumeration value="notification" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SV_OperationModel">
+    <xs:attribute name="value" type="SV_OperationModelValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="SV_OperationModelValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="object" />
+      <xs:enumeration value="message" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SV_OperationSpecification">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="operationName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="operationDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="invocationName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="parameter" type="SV_Parameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SV_Port">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="portNumber" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="portAddress" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_PortSpecification">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="binding" type="DCPList" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Address" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Service.Model Elements-->
+  <xs:element name="SV_Message" type="SV_Message" />
+  <xs:element name="SV_MessageUse" type="SV_MessageUse" />
+  <xs:element name="SV_MessageUseValue" type="SV_MessageUseValue" />
+  <xs:element name="SV_OperationModel" type="SV_OperationModel" />
+  <xs:element name="SV_OperationModelValue" type="SV_OperationModelValue" />
+  <xs:element name="SV_OperationSpecification" type="SV_OperationSpecification" />
+  <xs:element name="SV_Port" type="SV_Port" />
+  <xs:element name="SV_PortSpecification" type="SV_PortSpecification" />
+  <!--***
+      Metadata.Package.Service
+      ***-->
+  <xs:complexType name="DCPList">
+    <xs:attribute name="value" type="DCPListValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="DCPListValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="COM" />
+      <xs:enumeration value="CORBA" />
+      <xs:enumeration value="JAVA" />
+      <xs:enumeration value="SQL" />
+      <xs:enumeration value="WebServices" />
+      <xs:enumeration value="XML" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="DistinguishedName">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="nameSpace" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_CoupledResource">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="identifier" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="operationName" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_CouplingType">
+    <xs:attribute name="value" type="SV_CouplingTypeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="SV_CouplingTypeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="loose" />
+      <xs:enumeration value="mixed" />
+      <xs:enumeration value="tight" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SV_OperationChain">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="operation" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_OperationChainMetadata">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="operation" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_OperationMetadata">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="operationName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DCP" type="DCPList" />
+      <xs:element minOccurs="0" maxOccurs="1" name="operationDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="invocationName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="parameters" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="connectPoint" type="CI_OnlineResource" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="dependsOn" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_Parameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="name" type="MemberName" />
+      <xs:element minOccurs="0" maxOccurs="1" name="direction" type="SV_ParameterDirection" />
+      <xs:element minOccurs="0" maxOccurs="1" name="description" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="optionality" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="repeatability" type="Boolean" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_ParameterDirection">
+    <xs:attribute name="value" type="SV_ParameterDirectionValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="SV_ParameterDirectionValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="in" />
+      <xs:enumeration value="out" />
+      <xs:enumeration value="in_out" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="SV_ServiceIdentification">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="citation" type="CI_Citation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="abstract" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="purpose" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="credit" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="status" type="MD_ProgressCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="pointOfContact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceMaintenance" type="MD_MaintenanceInformation" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="graphicOverview" type="MD_BrowseGraphic" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceFormat" type="MD_Format" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="descriptiveKeywords" type="MD_Keywords" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceSpecificUsage" type="MD_Usage" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="resourceConstraints" type="Parent_MD_Constraints" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aggregationInfo" type="MD_AggregateInformation" />
+      <xs:element minOccurs="0" maxOccurs="1" name="serviceType" type="GenericName" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="serviceTypeVersion" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="accessProperties" type="MD_StandardOrderProcess" />
+      <xs:element minOccurs="0" maxOccurs="1" name="restrictions" type="Parent_MD_Constraints" />
+      <xs:element minOccurs="0" maxOccurs="1" name="extent" type="EX_Extent" />
+      <xs:element minOccurs="0" maxOccurs="1" name="couplingType" type="SV_CouplingType" />
+      <xs:element minOccurs="0" maxOccurs="1" name="coupledResource" type="SV_CoupledResource" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="containsOperations" type="SV_OperationMetadata" />
+      <xs:element minOccurs="0" maxOccurs="1" name="operatesOn">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="provider" type="SV_ServiceProvider" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="SV_ServiceProvider">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="serviceContact" type="CI_ResponsibleParty" />
+      <xs:element minOccurs="0" maxOccurs="1" name="providerName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="services" type="SV_ServiceIdentification" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.Service Elements-->
+  <xs:element name="DCPList" type="DCPList" />
+  <xs:element name="DCPListValue" type="DCPListValue" />
+  <xs:element name="DistinguishedName" type="DistinguishedName" />
+  <xs:element name="SV_CoupledResource" type="SV_CoupledResource" />
+  <xs:element name="SV_CouplingType" type="SV_CouplingType" />
+  <xs:element name="SV_CouplingTypeValue" type="SV_CouplingTypeValue" />
+  <xs:element name="SV_OperationChain" type="SV_OperationChain" />
+  <xs:element name="SV_OperationChainMetadata" type="SV_OperationChainMetadata" />
+  <xs:element name="SV_OperationMetadata" type="SV_OperationMetadata" />
+  <xs:element name="SV_Parameter" type="SV_Parameter" />
+  <xs:element name="SV_ParameterDirection" type="SV_ParameterDirection" />
+  <xs:element name="SV_ParameterDirectionValue" type="SV_ParameterDirectionValue" />
+  <xs:element name="SV_ServiceIdentification" type="SV_ServiceIdentification" />
+  <xs:element name="SV_ServiceProvider" type="SV_ServiceProvider" />
+  <!--***
+      Metadata.Package.SpatialRepresentation
+      ***
+      This package contains information concerning the mechanisms used
+      to represent spatial information in a dataset. The
+      MD_SpatialRepresentation entity is optional and can be specified as
+      MD_GridSpatialRepresentation and MD_VectorSpatialRepresentation.
+      Each of the specified entities contains mandatory and optional
+      metadata elements. When further description is necessary,
+      MD_GridSpatialRepresentation may be specified as MD_Georectified
+      and/or MD_Georeferenceable. Metadata for Spatial data representation
+      are derived from ISO 19107.
+      ***-->
+  <xs:complexType name="MD_CellGeometryCode">
+    <xs:attribute name="value" type="MD_CellGeometryCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_CellGeometryCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="point" />
+      <xs:enumeration value="area" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_Dimension">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="dimensionName" type="MD_DimensionNameTypeCode" />
+      <xs:element minOccurs="1" maxOccurs="1" name="dimensionSize" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="resolution" type="Measure" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_DimensionNameTypeCode">
+    <xs:attribute name="value" type="MD_DimensionNameTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_DimensionNameTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="row" />
+      <xs:enumeration value="column" />
+      <xs:enumeration value="vertical" />
+      <xs:enumeration value="track" />
+      <xs:enumeration value="crossTrack" />
+      <xs:enumeration value="line" />
+      <xs:enumeration value="sample" />
+      <xs:enumeration value="time" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_GeometricObjects">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="geometricObjectType" type="MD_GeometricObjectTypeCode" />
+      <xs:element minOccurs="1" maxOccurs="1" name="geometricObjectCount" type="xs:int" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_GeometricObjectTypeCode">
+    <xs:attribute name="value" type="MD_GeometricObjectTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_GeometricObjectTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="complex" />
+      <xs:enumeration value="composite" />
+      <xs:enumeration value="curve" />
+      <xs:enumeration value="point" />
+      <xs:enumeration value="solid" />
+      <xs:enumeration value="surface" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_Georectified">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="numberOfDimensions" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="axisDimensionProperties" type="MD_Dimension" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cellGeometry" type="MD_CellGeometryCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transformationParameterAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="checkPointAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="checkPointDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cornerPoints" type="GM_Point" />
+      <xs:element minOccurs="0" maxOccurs="1" name="centerPoint" type="GM_Point" />
+      <xs:element minOccurs="0" maxOccurs="1" name="pointInPixel" type="MD_PixelOrientationCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transformationDimensionDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="transformationDimensionMapping" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_Georeferenceable">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="numberOfDimensions" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="axisDimensionProperties" type="MD_Dimension" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cellGeometry" type="MD_CellGeometryCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transformationParameterAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="controlPointAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="orientationParameterAvailability" type="Boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="orientationParameterDescription" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="georeferencedParameters" type="Record" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="parameterCitation" type="CI_Citation" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_GridSpatialRepresentation">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="numberOfDimensions" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="axisDimensionProperties" type="MD_Dimension" />
+      <xs:element minOccurs="0" maxOccurs="1" name="cellGeometry" type="MD_CellGeometryCode" />
+      <xs:element minOccurs="0" maxOccurs="1" name="transformationParameterAvailability" type="Boolean" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_PixelOrientationCode">
+    <xs:attribute name="value" type="MD_PixelOrientationCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_PixelOrientationCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="center" />
+      <xs:enumeration value="lowerLeft" />
+      <xs:enumeration value="lowerRight" />
+      <xs:enumeration value="upperRight" />
+      <xs:enumeration value="upperLeft" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_SpatialRepresentation">
+    <xs:sequence>
+      <xs:choice minOccurs="1" maxOccurs="1">
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Georeferenceable" type="MD_Georeferenceable" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_GridSpatialRepresentation" type="MD_GridSpatialRepresentation" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_VectorSpatialRepresentation" type="MD_VectorSpatialRepresentation" />
+        <xs:element minOccurs="0" maxOccurs="1" name="MD_Georectified" type="MD_Georectified" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="MD_SpatialRepresentationTypeCode">
+    <xs:attribute name="value" type="MD_SpatialRepresentationTypeCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_SpatialRepresentationTypeCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="vector" />
+      <xs:enumeration value="grid" />
+      <xs:enumeration value="textTable" />
+      <xs:enumeration value="tin" />
+      <xs:enumeration value="stereoModel" />
+      <xs:enumeration value="video" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_TopologyLevelCode">
+    <xs:attribute name="value" type="MD_TopologyLevelCodeValue" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="MD_TopologyLevelCodeValue">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="geometryOnly" />
+      <xs:enumeration value="topology1D" />
+      <xs:enumeration value="planarGraph" />
+      <xs:enumeration value="fullPlanarGraph" />
+      <xs:enumeration value="surfaceGraph" />
+      <xs:enumeration value="fullSurfaceGraph" />
+      <xs:enumeration value="topology3D" />
+      <xs:enumeration value="fullTopology3D" />
+      <xs:enumeration value="abstract" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="MD_VectorSpatialRepresentation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="topologyLevel" type="MD_TopologyLevelCode" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="geometricObjects" type="MD_GeometricObjects" />
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" />
+    <xs:attribute name="uuid" type="xs:string" />
+  </xs:complexType>
+  <!--Metadata.Package.SpatialRepresentation Elements-->
+  <xs:element name="MD_CellGeometryCode" type="MD_CellGeometryCode" />
+  <xs:element name="MD_CellGeometryCodeValue" type="MD_CellGeometryCodeValue" />
+  <xs:element name="MD_Dimension" type="MD_Dimension" />
+  <xs:element name="MD_DimensionNameTypeCode" type="MD_DimensionNameTypeCode" />
+  <xs:element name="MD_DimensionNameTypeCodeValue" type="MD_DimensionNameTypeCodeValue" />
+  <xs:element name="MD_GeometricObjects" type="MD_GeometricObjects" />
+  <xs:element name="MD_GeometricObjectTypeCode" type="MD_GeometricObjectTypeCode" />
+  <xs:element name="MD_GeometricObjectTypeCodeValue" type="MD_GeometricObjectTypeCodeValue" />
+  <xs:element name="MD_Georectified" type="MD_Georectified" />
+  <xs:element name="MD_Georeferenceable" type="MD_Georeferenceable" />
+  <xs:element name="MD_GridSpatialRepresentation" type="MD_GridSpatialRepresentation" />
+  <xs:element name="MD_PixelOrientationCode" type="MD_PixelOrientationCode" />
+  <xs:element name="MD_PixelOrientationCodeValue" type="MD_PixelOrientationCodeValue" />
+  <xs:element name="MD_SpatialRepresentation" type="MD_SpatialRepresentation" />
+  <xs:element name="MD_SpatialRepresentationTypeCode" type="MD_SpatialRepresentationTypeCode" />
+  <xs:element name="MD_SpatialRepresentationTypeCodeValue" type="MD_SpatialRepresentationTypeCodeValue" />
+  <xs:element name="MD_TopologyLevelCode" type="MD_TopologyLevelCode" />
+  <xs:element name="MD_TopologyLevelCodeValue" type="MD_TopologyLevelCodeValue" />
+  <xs:element name="MD_VectorSpatialRepresentation" type="MD_VectorSpatialRepresentation" />
+</xs:schema>
