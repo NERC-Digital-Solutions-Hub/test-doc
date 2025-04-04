@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../../Proj/src/src",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "categoryLayout": "nested",
+      "allowCompilationErrors": true,
+      "namespaceLayout": "nested"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "../doc/_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "../doc/_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "NDSH",
+      "_appTitle": "NDSH",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
