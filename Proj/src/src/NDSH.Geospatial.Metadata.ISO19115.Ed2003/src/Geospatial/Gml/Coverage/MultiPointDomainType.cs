@@ -1,0 +1,53 @@
+
+#region Header
+// ---------------------------------------------------------------------------------------------------------------------
+// Member of         : NDSH.Geospatial.Metadata.ISO19115.Ed2003.csproj
+// Created           : date, @gisvlasta
+// History           : 
+// GitHub Repository : https://github.com/NERC-Digital-Solutions-Hub/ndsh
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+// ---------------------------------------------------------------------------------------------------------------------
+// XSD               : /2005/gml/coverage.xsd
+// ---------------------------------------------------------------------------------------------------------------------
+// <element name="multiPointDomain" type="gml:MultiPointDomainType" substitutionGroup="gml:domainSet"/>
+// <complexType name="MultiPointDomainType">
+//   <complexContent>
+//     <restriction base="gml:DomainSetType">
+//       <sequence minOccurs="0">
+//         <element ref="gml:MultiPoint"/>
+//       </sequence>
+//     </restriction>
+//   </complexContent>
+// </complexType>
+// ---------------------------------------------------------------------------------------------------------------------
+#endregion
+
+#region Imported Namespaces
+
+
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+#endregion
+
+namespace NDSH.Geospatial.Gml.Coverage {
+
+  [IsoType("MultiPointDomainType", IsoType = IsoTypes.ComplexType)]
+  [XmlType(Namespace = "http://www.opengis.net/gml")]
+  [JsonObject("MultiPointDomainType")]
+  public class MultiPointDomainType : DomainSetType {
+
+  }
+
+}
+

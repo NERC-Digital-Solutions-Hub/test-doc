@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\bin</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\..\..\doc\NDSH.Geospatial.Metadata.XSD.xml</DocumentationFile>
+    <RootNamespace>NDSH</RootNamespace>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AbstractObject_Type.cs" />
+    <Compile Remove="Abstract_Metadata_Type.cs" />
+    <Compile Remove="EntityBase{T}.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no01.Designer.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no02.Designer.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Current.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit01.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit02.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit03.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit04.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit05.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit06.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmd-no03.Designer.Edit07.cs" />
+    <Compile Remove="ISO19136\aaGenerated\gmx-no01.Designer.Current.cs" />
+    <Compile Remove="MD_Metadata_Type.cs" />
+    <Compile Remove="ZzQuickTest.cs" />
+    <Compile Remove="ZZ\mdb.Designer.NetCore_List.cs" />
+    <Compile Remove="ZZ\mdb.Designer.NetCore_ObservableCollection.cs" />
+    <Compile Remove="ZZ\mdb.Designer.NetStandard_List.cs" />
+    <Compile Remove="ZZ\mdb.Designer.NetStandard_ObservableCollection.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="AbstractObject_Type.cs" />
+    <None Include="Abstract_Metadata_Type.cs" />
+    <None Include="EntityBase{T}.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no01.Designer.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no02.Designer.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Current.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit01.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit02.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit03.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit04.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit05.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit06.cs" />
+    <None Include="ISO19136\aaGenerated\gmd-no03.Designer.Edit07.cs" />
+    <None Include="ISO19136\aaGenerated\gmx-no01.Designer.Current.cs" />
+    <None Include="MD_Metadata_Type.cs" />
+    <None Include="ZzQuickTest.cs" />
+    <None Include="ZZ\mdb.Designer.NetCore_List.cs" />
+    <None Include="ZZ\mdb.Designer.NetCore_ObservableCollection.cs" />
+    <None Include="ZZ\mdb.Designer.NetStandard_List.cs" />
+    <None Include="ZZ\mdb.Designer.NetStandard_ObservableCollection.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MsgPack.Cli" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Schemas\OGC\" />
+  </ItemGroup>
+
+</Project>

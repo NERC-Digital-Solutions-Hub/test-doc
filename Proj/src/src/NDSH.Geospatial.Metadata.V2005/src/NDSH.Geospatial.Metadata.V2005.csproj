@@ -1,0 +1,486 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\bin</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\..\..\doc\NDSH.Geospatial.Metadata.V2005.xml</DocumentationFile>
+    <RootNamespace>NDSH</RootNamespace>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConceptualSchema\AbstractObject.cs" />
+    <Compile Remove="ConceptualSchema\CodeListValue_Type.cs" />
+    <Compile Remove="ConceptualSchema\Implementation\Names\TypeName_PropertyType.cs" />
+    <Compile Remove="ConceptualSchema\Implementation\Names\TypeName_Type.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\Bit.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\BitValue.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\Digit.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\DigitValue.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\Sign.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Enumerations\SignValue.cs" />
+    <Compile Remove="ConceptualSchema\Primitive\Text\CharacterString_PropertyType.cs" />
+    <Compile Remove="Constraint\MD_ClassificationCode.cs" />
+    <Compile Remove="Constraint\MD_ClassificationCodeValue.cs" />
+    <Compile Remove="Constraint\MD_Constraints.cs" />
+    <Compile Remove="Constraint\MD_LegalConstraints.cs" />
+    <Compile Remove="Constraint\MD_RestrictionCode.cs" />
+    <Compile Remove="Constraint\MD_RestrictionCodeValue.cs" />
+    <Compile Remove="Constraint\MD_SecurityConstraints.cs" />
+    <Compile Remove="Constraint\Parent_MD_Constraints.cs" />
+    <Compile Remove="Content\ComplianceCode.cs" />
+    <Compile Remove="Content\ComplianceCodeValue.cs" />
+    <Compile Remove="Content\MD_Band.cs" />
+    <Compile Remove="Content\MD_ContentInformation.cs" />
+    <Compile Remove="Content\MD_CoverageContentTypeCode.cs" />
+    <Compile Remove="Content\MD_CoverageContentTypeCodeValue.cs" />
+    <Compile Remove="Content\MD_CoverageDescription.cs" />
+    <Compile Remove="Content\MD_FeatureCatalogueDescription.cs" />
+    <Compile Remove="Content\MD_ImageDescription.cs" />
+    <Compile Remove="Content\MD_ImagingConditionCode.cs" />
+    <Compile Remove="Content\MD_ImagingConditionCodeValue.cs" />
+    <Compile Remove="Content\MD_RangeDimension.cs" />
+    <Compile Remove="Content\Parent_MD_RangeDimension.cs" />
+    <Compile Remove="DataQuality\DQ_AbsoluteExternalPositionalAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_AccuracyOfATimeMeasurement.cs" />
+    <Compile Remove="DataQuality\DQ_Completeness.cs" />
+    <Compile Remove="DataQuality\DQ_CompletenessCommission.cs" />
+    <Compile Remove="DataQuality\DQ_CompletenessOmission.cs" />
+    <Compile Remove="DataQuality\DQ_ConceptualConsistency.cs" />
+    <Compile Remove="DataQuality\DQ_ConformanceResult.cs" />
+    <Compile Remove="DataQuality\DQ_DataQuality.cs" />
+    <Compile Remove="DataQuality\DQ_DomainConsistency.cs" />
+    <Compile Remove="DataQuality\DQ_Element.cs" />
+    <Compile Remove="DataQuality\DQ_EvaluationMethodTypeCode.cs" />
+    <Compile Remove="DataQuality\DQ_EvaluationMethodTypeCodeValue.cs" />
+    <Compile Remove="DataQuality\DQ_FormatConsistency.cs" />
+    <Compile Remove="DataQuality\DQ_GriddedDataPositionalAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_LogicalConsistency.cs" />
+    <Compile Remove="DataQuality\DQ_NonQuantitativeAttributeAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_PositionalAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_QuantitativeAttributeAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_QuantitativeResult.cs" />
+    <Compile Remove="DataQuality\DQ_RelativeInternalPositionalAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_Result.cs" />
+    <Compile Remove="DataQuality\DQ_Scope.cs" />
+    <Compile Remove="DataQuality\DQ_TemporalAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_TemporalConsistency.cs" />
+    <Compile Remove="DataQuality\DQ_TemporalValidity.cs" />
+    <Compile Remove="DataQuality\DQ_ThematicAccuracy.cs" />
+    <Compile Remove="DataQuality\DQ_ThematicClassificationCorrectness.cs" />
+    <Compile Remove="DataQuality\DQ_TopologicalConsistency.cs" />
+    <Compile Remove="DataQuality\LI_Lineage.cs" />
+    <Compile Remove="DataQuality\LI_ProcessStep.cs" />
+    <Compile Remove="DataQuality\LI_Source.cs" />
+    <Compile Remove="DataQuality\Parent_DQ_Element.cs" />
+    <Compile Remove="EntitySet\EntityBase{T}.cs" />
+    <Compile Remove="EntitySet\MD_MetadataSet.cs" />
+    <Compile Remove="Extension\MD_DataTypeCode.cs" />
+    <Compile Remove="Extension\MD_DatatypeCodeValue.cs" />
+    <Compile Remove="Extension\MD_ExtendedElementInformation.cs" />
+    <Compile Remove="Extension\MD_MetadataExtensionInformation.cs" />
+    <Compile Remove="Extension\MD_ObligationCode.cs" />
+    <Compile Remove="Extension\MD_ObligationCodeValue.cs" />
+    <Compile Remove="Identification\DS_AssociationTypeCode.cs" />
+    <Compile Remove="Identification\DS_AssociationTypeCodeValue.cs" />
+    <Compile Remove="Identification\DS_InitiativeTypeCode.cs" />
+    <Compile Remove="Identification\DS_InitiativeTypeCodeValue.cs" />
+    <Compile Remove="Identification\MD_AggregateInformation.cs" />
+    <Compile Remove="Identification\MD_BrowseGraphic.cs" />
+    <Compile Remove="Identification\MD_CharacterSetCode.cs" />
+    <Compile Remove="Identification\MD_CharacterSetCodeValue.cs" />
+    <Compile Remove="Identification\MD_DataIdentification.cs" />
+    <Compile Remove="Identification\MD_Identification.cs" />
+    <Compile Remove="Identification\MD_Keywords.cs" />
+    <Compile Remove="Identification\MD_KeywordTypeCode.cs" />
+    <Compile Remove="Identification\MD_KeywordTypeCodeValue.cs" />
+    <Compile Remove="Identification\MD_ProgressCode.cs" />
+    <Compile Remove="Identification\MD_ProgressCodeValue.cs" />
+    <Compile Remove="Identification\MD_RepresetantiveFraction.cs" />
+    <Compile Remove="Identification\MD_Resolution.cs" />
+    <Compile Remove="Identification\MD_TopicCategoryCode.cs" />
+    <Compile Remove="Identification\MD_TopicCategoryCodeValue.cs" />
+    <Compile Remove="Identification\MD_Usage.cs" />
+    <Compile Remove="Identification\Parent_MD_Identification.cs" />
+    <Compile Remove="Maintenance\MD_MaintenanceFrequencyCode.cs" />
+    <Compile Remove="Maintenance\MD_MaintenanceFrequencyCodeValue.cs" />
+    <Compile Remove="Maintenance\MD_MaintenanceInformation.cs" />
+    <Compile Remove="Maintenance\MD_ScopeCode.cs" />
+    <Compile Remove="Maintenance\MD_ScopeCodeValue.cs" />
+    <Compile Remove="Maintenance\MD_ScopeDescription.cs" />
+    <Compile Remove="Other\Feature\AttributeName.cs" />
+    <Compile Remove="Other\Feature\attributes.cs" />
+    <Compile Remove="Other\Feature\attributeType.cs" />
+    <Compile Remove="Other\Feature\Cataloguing\FC_RoleType.cs" />
+    <Compile Remove="Other\Feature\Cataloguing\FC_RoleTypeValue.cs" />
+    <Compile Remove="Other\Feature\FC_AssociationRole.cs" />
+    <Compile Remove="Other\Feature\FC_Binding.cs" />
+    <Compile Remove="Other\Feature\FC_BoundFeatureAttribute.cs" />
+    <Compile Remove="Other\Feature\FC_Constraint.cs" />
+    <Compile Remove="Other\Feature\FC_DefinitionReference.cs" />
+    <Compile Remove="Other\Feature\FC_DefinitionSource.cs" />
+    <Compile Remove="Other\Feature\FC_FeatureAssociation.cs" />
+    <Compile Remove="Other\Feature\FC_FeatureAttribute.cs" />
+    <Compile Remove="Other\Feature\FC_FeatureCatalogue.cs" />
+    <Compile Remove="Other\Feature\FC_FeatureOperation.cs" />
+    <Compile Remove="Other\Feature\FC_FeatureType.cs" />
+    <Compile Remove="Other\Feature\FC_InheritanceRelation.cs" />
+    <Compile Remove="Other\Feature\FC_ListedValue.cs" />
+    <Compile Remove="Other\Feature\FC_PropertyType.cs" />
+    <Compile Remove="Other\Feature\FC_RoleType.cs" />
+    <Compile Remove="Other\Feature\FC_RoleTypeValue.cs" />
+    <Compile Remove="Other\Feature\featureCatalogueInfo.cs" />
+    <Compile Remove="Other\Feature\featureTypes.cs" />
+    <Compile Remove="Other\Feature\Model\GF_AssociationRole.cs" />
+    <Compile Remove="Other\Feature\Model\GF_AssociationType.cs" />
+    <Compile Remove="Other\Feature\Model\GF_AttributeType.cs" />
+    <Compile Remove="Other\Feature\Model\GF_Constraint.cs" />
+    <Compile Remove="Other\Feature\Model\GF_FeatureType.cs" />
+    <Compile Remove="Other\Feature\Model\GF_PropertyType.cs" />
+    <Compile Remove="Other\Feature\Multiplicity.cs" />
+    <Compile Remove="Other\Feature\MultiplicityRange.cs" />
+    <Compile Remove="PortrayalCatalogue\MD_PortrayalCatalogueReference.cs" />
+    <Compile Remove="Service\DCPList.cs" />
+    <Compile Remove="Service\DCPListValue.cs" />
+    <Compile Remove="Service\DistinguishedName.cs" />
+    <Compile Remove="Service\Model\aSV_Client.cs" />
+    <Compile Remove="Service\Model\aSV_IntelligentUser.cs" />
+    <Compile Remove="Service\Model\aSV_Interface.cs" />
+    <Compile Remove="Service\Model\aSV_InterfaceSpecification.cs" />
+    <Compile Remove="Service\Model\aSV_MsgOperation.cs" />
+    <Compile Remove="Service\Model\aSV_ObjOperation.cs" />
+    <Compile Remove="Service\Model\aSV_Operation.cs" />
+    <Compile Remove="Service\Model\aSV_ParameterSpecification.cs" />
+    <Compile Remove="Service\Model\aSV_PlatformNeutralServiceSpecification.cs" />
+    <Compile Remove="Service\Model\aSV_PlatformSpecificServiceSpecification.cs" />
+    <Compile Remove="Service\Model\aSV_Service.cs" />
+    <Compile Remove="Service\Model\aSV_ServiceSpecification.cs" />
+    <Compile Remove="Service\Model\aSV_ServiceType.cs" />
+    <Compile Remove="Service\Model\SV_Message.cs" />
+    <Compile Remove="Service\Model\SV_MessageUse.cs" />
+    <Compile Remove="Service\Model\SV_MessageUseValue.cs" />
+    <Compile Remove="Service\Model\SV_OperationModel.cs" />
+    <Compile Remove="Service\Model\SV_OperationModelValue.cs" />
+    <Compile Remove="Service\Model\SV_OperationSpecification.cs" />
+    <Compile Remove="Service\Model\SV_Port.cs" />
+    <Compile Remove="Service\Model\SV_PortSpecification.cs" />
+    <Compile Remove="Service\SV_CoupledResource.cs" />
+    <Compile Remove="Service\SV_CouplingType.cs" />
+    <Compile Remove="Service\SV_CouplingTypeValue.cs" />
+    <Compile Remove="Service\SV_OperationChain.cs" />
+    <Compile Remove="Service\SV_OperationChainMetadata.cs" />
+    <Compile Remove="Service\SV_OperationMetadata.cs" />
+    <Compile Remove="Service\SV_Parameter.cs" />
+    <Compile Remove="Service\SV_ParameterDirection.cs" />
+    <Compile Remove="Service\SV_ParameterDirectionValue.cs" />
+    <Compile Remove="Service\SV_ServiceIdentification.cs" />
+    <Compile Remove="Service\SV_ServiceProvider.cs" />
+    <Compile Remove="SpatialRepresentation\MD_CellGeometryCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_CellGeometryCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_Dimension.cs" />
+    <Compile Remove="SpatialRepresentation\MD_DimensionNameTypeCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_DimensionNameTypeCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_GeometricObjects.cs" />
+    <Compile Remove="SpatialRepresentation\MD_GeometricObjectTypeCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_GeometricObjectTypeCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_Georectified.cs" />
+    <Compile Remove="SpatialRepresentation\MD_Georeferenceable.cs" />
+    <Compile Remove="SpatialRepresentation\MD_GridSpatialRepresentation.cs" />
+    <Compile Remove="SpatialRepresentation\MD_PixelOrientationCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_PixelOrientationCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_SpatialRepresentation.cs" />
+    <Compile Remove="SpatialRepresentation\MD_SpatialRepresentationTypeCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_SpatialRepresentationTypeCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_TopologyLevelCode.cs" />
+    <Compile Remove="SpatialRepresentation\MD_TopologyLevelCodeValue.cs" />
+    <Compile Remove="SpatialRepresentation\MD_VectorSpatialRepresentation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ConceptualSchema\AbstractObject.cs" />
+    <None Include="ConceptualSchema\CodeListValue_Type.cs" />
+    <None Include="ConceptualSchema\Implementation\Names\TypeName_PropertyType.cs" />
+    <None Include="ConceptualSchema\Implementation\Names\TypeName_Type.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\Bit.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\BitValue.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\Digit.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\DigitValue.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\Sign.cs" />
+    <None Include="ConceptualSchema\Primitive\Enumerations\SignValue.cs" />
+    <None Include="ConceptualSchema\Primitive\Text\CharacterString_PropertyType.cs" />
+    <None Include="Constraint\MD_ClassificationCode.cs" />
+    <None Include="Constraint\MD_ClassificationCodeValue.cs" />
+    <None Include="Constraint\MD_Constraints.cs" />
+    <None Include="Constraint\MD_LegalConstraints.cs" />
+    <None Include="Constraint\MD_RestrictionCode.cs" />
+    <None Include="Constraint\MD_RestrictionCodeValue.cs" />
+    <None Include="Constraint\MD_SecurityConstraints.cs" />
+    <None Include="Constraint\Parent_MD_Constraints.cs" />
+    <None Include="Content\ComplianceCode.cs" />
+    <None Include="Content\ComplianceCodeValue.cs" />
+    <None Include="Content\MD_Band.cs" />
+    <None Include="Content\MD_ContentInformation.cs" />
+    <None Include="Content\MD_CoverageContentTypeCode.cs" />
+    <None Include="Content\MD_CoverageContentTypeCodeValue.cs" />
+    <None Include="Content\MD_CoverageDescription.cs" />
+    <None Include="Content\MD_FeatureCatalogueDescription.cs" />
+    <None Include="Content\MD_ImageDescription.cs" />
+    <None Include="Content\MD_ImagingConditionCode.cs" />
+    <None Include="Content\MD_ImagingConditionCodeValue.cs" />
+    <None Include="Content\MD_RangeDimension.cs" />
+    <None Include="Content\Parent_MD_RangeDimension.cs" />
+    <None Include="DataQuality\DQ_AbsoluteExternalPositionalAccuracy.cs" />
+    <None Include="DataQuality\DQ_AccuracyOfATimeMeasurement.cs" />
+    <None Include="DataQuality\DQ_Completeness.cs" />
+    <None Include="DataQuality\DQ_CompletenessCommission.cs" />
+    <None Include="DataQuality\DQ_CompletenessOmission.cs" />
+    <None Include="DataQuality\DQ_ConceptualConsistency.cs" />
+    <None Include="DataQuality\DQ_ConformanceResult.cs" />
+    <None Include="DataQuality\DQ_DataQuality.cs" />
+    <None Include="DataQuality\DQ_DomainConsistency.cs" />
+    <None Include="DataQuality\DQ_Element.cs" />
+    <None Include="DataQuality\DQ_EvaluationMethodTypeCode.cs" />
+    <None Include="DataQuality\DQ_EvaluationMethodTypeCodeValue.cs" />
+    <None Include="DataQuality\DQ_FormatConsistency.cs" />
+    <None Include="DataQuality\DQ_GriddedDataPositionalAccuracy.cs" />
+    <None Include="DataQuality\DQ_LogicalConsistency.cs" />
+    <None Include="DataQuality\DQ_NonQuantitativeAttributeAccuracy.cs" />
+    <None Include="DataQuality\DQ_PositionalAccuracy.cs" />
+    <None Include="DataQuality\DQ_QuantitativeAttributeAccuracy.cs" />
+    <None Include="DataQuality\DQ_QuantitativeResult.cs" />
+    <None Include="DataQuality\DQ_RelativeInternalPositionalAccuracy.cs" />
+    <None Include="DataQuality\DQ_Result.cs" />
+    <None Include="DataQuality\DQ_Scope.cs" />
+    <None Include="DataQuality\DQ_TemporalAccuracy.cs" />
+    <None Include="DataQuality\DQ_TemporalConsistency.cs" />
+    <None Include="DataQuality\DQ_TemporalValidity.cs" />
+    <None Include="DataQuality\DQ_ThematicAccuracy.cs" />
+    <None Include="DataQuality\DQ_ThematicClassificationCorrectness.cs" />
+    <None Include="DataQuality\DQ_TopologicalConsistency.cs" />
+    <None Include="DataQuality\LI_Lineage.cs" />
+    <None Include="DataQuality\LI_ProcessStep.cs" />
+    <None Include="DataQuality\LI_Source.cs" />
+    <None Include="DataQuality\Parent_DQ_Element.cs" />
+    <None Include="EntitySet\EntityBase{T}.cs" />
+    <None Include="EntitySet\MD_MetadataSet.cs" />
+    <None Include="Extension\MD_DataTypeCode.cs" />
+    <None Include="Extension\MD_DatatypeCodeValue.cs" />
+    <None Include="Extension\MD_ExtendedElementInformation.cs" />
+    <None Include="Extension\MD_MetadataExtensionInformation.cs" />
+    <None Include="Extension\MD_ObligationCode.cs" />
+    <None Include="Extension\MD_ObligationCodeValue.cs" />
+    <None Include="Identification\DS_AssociationTypeCode.cs" />
+    <None Include="Identification\DS_AssociationTypeCodeValue.cs" />
+    <None Include="Identification\DS_InitiativeTypeCode.cs" />
+    <None Include="Identification\DS_InitiativeTypeCodeValue.cs" />
+    <None Include="Identification\MD_AggregateInformation.cs" />
+    <None Include="Identification\MD_BrowseGraphic.cs" />
+    <None Include="Identification\MD_CharacterSetCode.cs" />
+    <None Include="Identification\MD_CharacterSetCodeValue.cs" />
+    <None Include="Identification\MD_DataIdentification.cs" />
+    <None Include="Identification\MD_Identification.cs" />
+    <None Include="Identification\MD_Keywords.cs" />
+    <None Include="Identification\MD_KeywordTypeCode.cs" />
+    <None Include="Identification\MD_KeywordTypeCodeValue.cs" />
+    <None Include="Identification\MD_ProgressCode.cs" />
+    <None Include="Identification\MD_ProgressCodeValue.cs" />
+    <None Include="Identification\MD_RepresetantiveFraction.cs" />
+    <None Include="Identification\MD_Resolution.cs" />
+    <None Include="Identification\MD_TopicCategoryCode.cs" />
+    <None Include="Identification\MD_TopicCategoryCodeValue.cs" />
+    <None Include="Identification\MD_Usage.cs" />
+    <None Include="Identification\Parent_MD_Identification.cs" />
+    <None Include="Maintenance\MD_MaintenanceFrequencyCode.cs" />
+    <None Include="Maintenance\MD_MaintenanceFrequencyCodeValue.cs" />
+    <None Include="Maintenance\MD_MaintenanceInformation.cs" />
+    <None Include="Maintenance\MD_ScopeCode.cs" />
+    <None Include="Maintenance\MD_ScopeCodeValue.cs" />
+    <None Include="Maintenance\MD_ScopeDescription.cs" />
+    <None Include="Other\Feature\AttributeName.cs" />
+    <None Include="Other\Feature\attributes.cs" />
+    <None Include="Other\Feature\attributeType.cs" />
+    <None Include="Other\Feature\Cataloguing\FC_RoleType.cs" />
+    <None Include="Other\Feature\Cataloguing\FC_RoleTypeValue.cs" />
+    <None Include="Other\Feature\FC_AssociationRole.cs" />
+    <None Include="Other\Feature\FC_Binding.cs" />
+    <None Include="Other\Feature\FC_BoundFeatureAttribute.cs" />
+    <None Include="Other\Feature\FC_Constraint.cs" />
+    <None Include="Other\Feature\FC_DefinitionReference.cs" />
+    <None Include="Other\Feature\FC_DefinitionSource.cs" />
+    <None Include="Other\Feature\FC_FeatureAssociation.cs" />
+    <None Include="Other\Feature\FC_FeatureAttribute.cs" />
+    <None Include="Other\Feature\FC_FeatureCatalogue.cs" />
+    <None Include="Other\Feature\FC_FeatureOperation.cs" />
+    <None Include="Other\Feature\FC_FeatureType.cs" />
+    <None Include="Other\Feature\FC_InheritanceRelation.cs" />
+    <None Include="Other\Feature\FC_ListedValue.cs" />
+    <None Include="Other\Feature\FC_PropertyType.cs" />
+    <None Include="Other\Feature\FC_RoleType.cs" />
+    <None Include="Other\Feature\FC_RoleTypeValue.cs" />
+    <None Include="Other\Feature\featureCatalogueInfo.cs" />
+    <None Include="Other\Feature\featureTypes.cs" />
+    <None Include="Other\Feature\Model\GF_AssociationRole.cs" />
+    <None Include="Other\Feature\Model\GF_AssociationType.cs" />
+    <None Include="Other\Feature\Model\GF_AttributeType.cs" />
+    <None Include="Other\Feature\Model\GF_Constraint.cs" />
+    <None Include="Other\Feature\Model\GF_FeatureType.cs" />
+    <None Include="Other\Feature\Model\GF_PropertyType.cs" />
+    <None Include="Other\Feature\Multiplicity.cs" />
+    <None Include="Other\Feature\MultiplicityRange.cs" />
+    <None Include="PortrayalCatalogue\MD_PortrayalCatalogueReference.cs" />
+    <None Include="Service\DCPList.cs" />
+    <None Include="Service\DCPListValue.cs" />
+    <None Include="Service\DistinguishedName.cs" />
+    <None Include="Service\Model\aSV_Client.cs" />
+    <None Include="Service\Model\aSV_IntelligentUser.cs" />
+    <None Include="Service\Model\aSV_Interface.cs" />
+    <None Include="Service\Model\aSV_InterfaceSpecification.cs" />
+    <None Include="Service\Model\aSV_MsgOperation.cs" />
+    <None Include="Service\Model\aSV_ObjOperation.cs" />
+    <None Include="Service\Model\aSV_Operation.cs" />
+    <None Include="Service\Model\aSV_ParameterSpecification.cs" />
+    <None Include="Service\Model\aSV_PlatformNeutralServiceSpecification.cs" />
+    <None Include="Service\Model\aSV_PlatformSpecificServiceSpecification.cs" />
+    <None Include="Service\Model\aSV_Service.cs" />
+    <None Include="Service\Model\aSV_ServiceSpecification.cs" />
+    <None Include="Service\Model\aSV_ServiceType.cs" />
+    <None Include="Service\Model\SV_Message.cs" />
+    <None Include="Service\Model\SV_MessageUse.cs" />
+    <None Include="Service\Model\SV_MessageUseValue.cs" />
+    <None Include="Service\Model\SV_OperationModel.cs" />
+    <None Include="Service\Model\SV_OperationModelValue.cs" />
+    <None Include="Service\Model\SV_OperationSpecification.cs" />
+    <None Include="Service\Model\SV_Port.cs" />
+    <None Include="Service\Model\SV_PortSpecification.cs" />
+    <None Include="Service\SV_CoupledResource.cs" />
+    <None Include="Service\SV_CouplingType.cs" />
+    <None Include="Service\SV_CouplingTypeValue.cs" />
+    <None Include="Service\SV_OperationChain.cs" />
+    <None Include="Service\SV_OperationChainMetadata.cs" />
+    <None Include="Service\SV_OperationMetadata.cs" />
+    <None Include="Service\SV_Parameter.cs" />
+    <None Include="Service\SV_ParameterDirection.cs" />
+    <None Include="Service\SV_ParameterDirectionValue.cs" />
+    <None Include="Service\SV_ServiceIdentification.cs" />
+    <None Include="Service\SV_ServiceProvider.cs" />
+    <None Include="SpatialRepresentation\MD_CellGeometryCode.cs" />
+    <None Include="SpatialRepresentation\MD_CellGeometryCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_Dimension.cs" />
+    <None Include="SpatialRepresentation\MD_DimensionNameTypeCode.cs" />
+    <None Include="SpatialRepresentation\MD_DimensionNameTypeCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_GeometricObjects.cs" />
+    <None Include="SpatialRepresentation\MD_GeometricObjectTypeCode.cs" />
+    <None Include="SpatialRepresentation\MD_GeometricObjectTypeCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_Georectified.cs" />
+    <None Include="SpatialRepresentation\MD_Georeferenceable.cs" />
+    <None Include="SpatialRepresentation\MD_GridSpatialRepresentation.cs" />
+    <None Include="SpatialRepresentation\MD_PixelOrientationCode.cs" />
+    <None Include="SpatialRepresentation\MD_PixelOrientationCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_SpatialRepresentation.cs" />
+    <None Include="Identification\MD_SpatialRepresentationTypeCode.cs" />
+    <None Include="Identification\MD_SpatialRepresentationTypeCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_TopologyLevelCode.cs" />
+    <None Include="SpatialRepresentation\MD_TopologyLevelCodeValue.cs" />
+    <None Include="SpatialRepresentation\MD_VectorSpatialRepresentation.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MsgPack.Cli" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="XSD\2005\1.1\gfc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\basicTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\basicTypes_Edit.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\gco.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\gcoBase.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\gcoBase_Edit.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gco\gcoSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\applicationSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\citation.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\constraints.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\content.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\dataQuality.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\distribution.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\extent.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\freeText.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\gmd.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\identification.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\maintenance.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\metadataApplication.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\metadataEntity.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\metadataExtension.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\portrayalCatalogue.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\referenceSystem.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\gmd\spatialRepresentation.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="XSD\2005\MetadataSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+
+</Project>

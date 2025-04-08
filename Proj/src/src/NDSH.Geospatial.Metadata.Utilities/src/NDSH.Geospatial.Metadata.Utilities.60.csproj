@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\Bin</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\..\..\Doc\NDSH.Geospatial.Metadata.Utilities.60.xml</DocumentationFile>
+    <AssemblyName>NDSH.Geospatial.Metadata.Utilities</AssemblyName>
+    <RootNamespace>NDSH.Geospatial.Metadata.Utilities</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DatabaseContext\MetadataDbContext.cs" />
+    <Compile Remove="DatabaseContext\MetadataThinContext.cs" />
+    <Compile Remove="Utils\MetadataThinDatabaseController.cs" />
+    <Compile Remove="Utils\StringDistanceComparer.cs" />
+    <Compile Remove="Utils\StringDistanceComparerFast.cs" />
+    <Compile Remove="Utils\TitlesClusterer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DatabaseContext\MetadataDbContext.cs" />
+    <None Include="DatabaseContext\MetadataThinContext.cs" />
+    <None Include="Utils\MetadataThinDatabaseController.cs" />
+    <None Include="Utils\StringDistanceComparer.cs" />
+    <None Include="Utils\StringDistanceComparerFast.cs" />
+    <None Include="Utils\TitlesClusterer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="7.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.3" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NDSH\src\NDSH.60.csproj" />
+  </ItemGroup>
+
+</Project>

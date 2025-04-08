@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NDSH.Geospatial.Metadata.Common.AbstractObject_Type">
+    <Position X="10.5" Y="6" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAIAQAABAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\AbstractObject_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Application.AbstractDS_Aggregate_Type">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAIAAAAAGEAAAAAAAAAAAAAEAAEQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Application\AbstractDS_Aggregate_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Application.DS_DataSet_Type">
+    <Position X="16" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAACAAAAACAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Application\DS_DataSet_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ApplicationSchema.MD_ApplicationSchemaInformation_Type">
+    <Position X="18.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAQQCQAIAAAAAAAgSCAAAAAgAAAAAAgAAEAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ApplicationSchema\MD_ApplicationSchemaInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Address_Type">
+    <Position X="20.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAIIEAAgABAAAIAAAARAAAAAAESAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Address_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Citation_Type">
+    <Position X="22.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IIAAQAAAAYCAAkBABAAAgAAAAAQAABgBhAZAaAAAAAE=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Citation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Contact_Type">
+    <Position X="25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAIEAAAAAAAAAACIBAAIEAACBA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Contact_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Date_Type">
+    <Position X="27.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAhIAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Date_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_OnlineResource_Type">
+    <Position X="29.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIBAEAAAgAAAUAAAAAAZBQAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_OnlineResource_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_ResponsibleParty_Type">
+    <Position X="31.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAAAEAAAAAIAAAAAAAAAAIIBKgAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_ResponsibleParty_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Series_Type">
+    <Position X="34" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAABAAAQAAAAAAAAAAQAAAAAIAAAAAAAAAAAACA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Series_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Citation.CI_Telephone_Type">
+    <Position X="36.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAQAgAAAg=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Citation\CI_Telephone_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.AbstractEX_GeographicExtent_Type">
+    <Position X="38.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\AbstractEX_GeographicExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_Extent_Type">
+    <Position X="40.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACRCAAAAAgAAAEAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_Extent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_TemporalExtent_Type">
+    <Position X="43" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_TemporalExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Common.Extent.EX_VerticalExtent_Type">
+    <Position X="45.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAgAAEAAAAAAQAAAAAAAAAAAQAAQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Common\Extent\EX_VerticalExtent_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ConceptualSchema.Implementation.Names.MemberName_Type">
+    <Position X="47.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAgAIAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ConceptualSchema\Implementation\Names\MemberName_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ConceptualSchema.Implementation.Names.TypeName_Type">
+    <Position X="49.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ConceptualSchema\Implementation\Names\TypeName_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ConceptualSchema.Primitive.Multiplicities.Multiplicity_Type">
+    <Position X="52" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ConceptualSchema\Primitive\Multiplicities\Multiplicity_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ConceptualSchema.Primitive.Multiplicities.MultiplicityRange_Type">
+    <Position X="54.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAIAAAAACAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ConceptualSchema\Primitive\Multiplicities\MultiplicityRange_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Constraint.MD_Constraints_Type">
+    <Position X="56.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Constraint\MD_Constraints_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Content.AbstractMD_ContentInformation_Type" Collapsed="true">
+    <Position X="58.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Content\AbstractMD_ContentInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Content.MD_RangeDimension_Type">
+    <Position X="61" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAEAAAAAAAAAAAAAAAAAAAAAAACAABAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Content\MD_RangeDimension_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type">
+    <Position X="63.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAACEBAAkAACAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\Lineage\LI_Lineage_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type">
+    <Position X="65.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQAkAgAAAEAQAAAAAAAAAAAAxAAAAAAAAEAAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\Lineage\LI_ProcessStep_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type">
+    <Position X="67.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAgAAAVAsAAAAAQAAACACAAAAAAAAAAQAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\Lineage\LI_Source_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type">
+    <Position X="70" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAEAQAAAAAAAiBAAAAAQBAAAgQAQAABgAECCAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\AbstractDQ_Element_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type" Collapsed="true">
+    <Position X="72.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\AbstractDQ_Result_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type">
+    <Position X="74.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAEEAQAAABCAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\DQ_DataQuality_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type">
+    <Position X="76.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAIAAAAQAAAAAQAACAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\DataQuality\DQ_Scope_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_DigitalTransferOptions_Type">
+    <Position X="79" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgEIAAAAAEAAIAECAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_DigitalTransferOptions_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_Distribution_Type">
+    <Position X="81.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAkAAAAAAAAAAAAgAAAAAAAAAAAAAIAAQAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_Distribution_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_Distributor_Type">
+    <Position X="83.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAAAEAgAAgAAAAAAAIAAAABAAAAAAgIAAACAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_Distributor_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_Format_Type">
+    <Position X="85.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAACIEAAACBAIBAAAAAAAARAAAAAASAEAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_Format_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_Medium_Type">
+    <Position X="88" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAEABAACgAAQAAQBABCAgAAAAAAAAAACAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_Medium_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Distribution.MD_StandardOrderProcess_Type">
+    <Position X="90.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEDAEAAAAAAABAAAAAAAAAAAAgAAAAAAAAAIQACAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Distribution\MD_StandardOrderProcess_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.EntitySet.MD_Metadata_Type">
+    <Position X="92.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAQAEAAAAABAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Geospatial\Metadata\EntitySet\MD_Metadata_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Extension.MD_ExtendedElementInformation_Type">
+    <Position X="94.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIMAAAmKgCAAQAQAAAEQKAAgAEIBASAABAAAQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Extension\MD_ExtendedElementInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Extension.MD_MetadataExtensionInformation_Type">
+    <Position X="97" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAACI=</HashCode>
+      <FileName>Geospatial\Metadata\Extension\MD_MetadataExtensionInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.AbstractMD_Identification_Type">
+    <Position X="99.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IEQAAkAFACASBABBIAAAAgkIACABgBAIoAAAABAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\AbstractMD_Identification_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.DS_Association_Type" Collapsed="true">
+    <Position X="101.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\DS_Association_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.MD_AggregateInformation_Type">
+    <Position X="103.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAQAAAAYAAAgAwAAAAAQAAAAAACAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\MD_AggregateInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.MD_BrowseGraphic_Type">
+    <Position X="106" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GAAAAkAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\MD_BrowseGraphic_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.MD_Keywords_Type">
+    <Position X="108.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAQAACAAAAAAAAAAAQAAAQAAQAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\MD_Keywords_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type">
+    <Position X="110.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\MD_RepresentativeFraction_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Identification.MD_Usage_Type">
+    <Position X="112.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAAAEAAAAABBAAAAAAAABAAAAQBAAAACAAAAAAAQAA=</HashCode>
+      <FileName>Geospatial\Metadata\Identification\MD_Usage_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_AcquisitionInformation_Type">
+    <Position X="115" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAEACAECIAAAAACAABAIACAAAAECACgEAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_AcquisitionInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_EnvironmentalRecord_Type">
+    <Position X="117.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAIAAAIAAAAgAAAICAEACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_EnvironmentalRecord_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Event_Type">
+    <Position X="119.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAgAgFJQAIAABgAAAAAAAAACQAAAAQAEAQQA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Event_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Instrument_Type">
+    <Position X="121.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgBgQEAAAAgAAAAAAAwAAAAQAAQAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Instrument_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Objective_Type">
+    <Position X="124" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EQAAAEIAAAQAAAQEAAgAgAIACACIAAABAQAgQAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Objective_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Operation_Type">
+    <Position X="126.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BUAAAEAMAUAgBAQEACAAgAAAAAAAgACBCQAAQAAAAEA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Operation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Plan_Type">
+    <Position X="128.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAEAEAAAABAQAAAAABAAAAAAAgAAACREAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Plan_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Platform_Type">
+    <Position X="130.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAEACAAAgBAAEAAAAgAAACAAAgAAAAAAAQAAAEAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Platform_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_PlatformPass_Type">
+    <Position X="133" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAAAAAAgBAACAAAAAAAAAAEQAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_PlatformPass_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_RequestedDate_Type">
+    <Position X="135.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_RequestedDate_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_Requirement_Type">
+    <Position X="137.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAECEAAAAAAhAAEAAgAgASAAAAAgAAAAAEAUQAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Acquisition\MI_Requirement_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.Content.MI_RangeElementDescription_Type">
+    <Position X="139.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAACAAAAAAAAAQAAAAAEAAIAAAAAAAIAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\Content\MI_RangeElementDescription_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_Algorithm_Type">
+    <Position X="142" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAgBAAEAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\DataQuality\LE_Algorithm_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_NominalResolution_Type">
+    <Position X="144.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAACAEAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\DataQuality\LE_NominalResolution_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_Processing_Type">
+    <Position X="146.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEBAAAAAAAQAEAAAhAAAAIEEQAAAAAAAQAQQAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\DataQuality\LE_Processing_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_ProcessStepReport_Type">
+    <Position X="148.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAIkAAAAAgAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\DataQuality\LE_ProcessStepReport_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.DataQuality.MX_ImgDataFile_Type">
+    <Position X="151" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\DataQuality\MX_ImgDataFile_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type">
+    <Position X="153.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\SpatialRepresentation\AbstractMI_GeolocationInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type">
+    <Position X="155.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAABABA=</HashCode>
+      <FileName>Geospatial\Metadata\Imagery\SpatialRepresentation\MI_GCP_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Localisation.PT_FreeText_Type">
+    <Position X="157.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Localisation\PT_FreeText_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Localisation.PT_Locale_Type">
+    <Position X="160" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQAAAEAAAAAQAAIAAAIAAAAAAAAEAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Localisation\PT_Locale_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type">
+    <Position X="162.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEgFCAAAIAACgACAAAAAAoIAAIAAAAgAAAAAgAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Maintenance\MD_MaintenanceInformation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type">
+    <Position X="164.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\PortrayalCatalogue\MD_PortrayalCatalogueReference_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type">
+    <Position X="166.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIEAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ReferenceSystem\AbstractRS_ReferenceSystem_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type">
+    <Position X="169" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAgAAAAABAAAAAABAAAAAAgAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ReferenceSystem\MD_Identifier_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type">
+    <Position X="171.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ReferenceSystem\MD_ReferenceSystem_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type">
+    <Position X="173.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Metadata\SV_CoupledResource_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type">
+    <Position X="175.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAAEAAAABAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Metadata\SV_OperationChain_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type">
+    <Position X="178" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAAAEAAAABAQAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Metadata\SV_OperationChainMetadata_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type">
+    <Position X="180.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAAAECAAAAgDAEAAAADAAAAgEAIACAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Metadata\SV_OperationMetadata_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type">
+    <Position X="182.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAIAABAAAgAAAEACAAgAQAAAAAAAAAAAIIAAIAEAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Metadata\SV_Parameter_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type">
+    <Position X="184.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAEAAAAAAAAAAAAQAAIAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\AbstractSV_AbstractServiceSpecification_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type">
+    <Position X="187" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAQABAAAABAAAAAAAABAAAAEAAAAAAEA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\SV_Interface_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type">
+    <Position X="189.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAgEAAAAAAAAAAAAAAEAAAABAQAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\SV_Operation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type">
+    <Position X="191.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\SV_Port_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type">
+    <Position X="193.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAEAAAAAAAAAAAAAAAABAAAAABAACAAAAAEAAACA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\SV_PortSpecification_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type">
+    <Position X="196" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAEAAAAAAABAAAAAAAAAAAAAABCAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Service\Model\SV_Service_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type" Collapsed="true">
+    <Position X="198.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\SpatialRepresentation\AbstractMD_SpatialRepresentation_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_Dimension_Type">
+    <Position X="200.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAAEQAAAAAAAAIAAAAAAAAAAAggAAAAAAAAAACAAA=</HashCode>
+      <FileName>Geospatial\Metadata\SpatialRepresentation\MD_Dimension_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_GeometricObjects_Type">
+    <Position X="202.75" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAAlAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\SpatialRepresentation\MD_GeometricObjects_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.XmlSchema.Catalogues.AbstractCT_Catalogue_Type">
+    <Position X="205" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAIYEABCAAAAGAgAAAAAAQAAABAAAAAEABECAQAEAA=</HashCode>
+      <FileName>Geospatial\Metadata\XmlSchema\Catalogues\AbstractCT_Catalogue_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.XmlSchema.AbstractMX_File_Type">
+    <Position X="207.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>GAAAAgAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\XmlSchema\AbstractMX_File_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

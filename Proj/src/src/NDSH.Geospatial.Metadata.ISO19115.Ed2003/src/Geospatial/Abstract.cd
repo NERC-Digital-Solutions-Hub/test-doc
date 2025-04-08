@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NDSH.Geospatial.Gml.ReferenceSystems.AbstractCRSType">
+    <Position X="30.25" Y="26" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAACAAACAAAAAAAAAEAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Geospatial\Gml\ReferenceSystems\AbstractCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.ReferenceSystems.IdentifiedObjectType" Collapsed="true">
+    <Position X="36" Y="24" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\ReferenceSystems\IdentifiedObjectType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Dictionary.DefinitionType">
+    <Position X="36" Y="21.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Dictionary\DefinitionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType">
+    <Position X="36" Y="19.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Dictionary\DefinitionBaseType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.AbstractGMLType">
+    <Position X="35.5" Y="15.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAgAgAAAEAABAgAQAAABAAAAAAAAAQAAIACA=</HashCode>
+      <FileName>Geospatial\Gml\AbstractGMLType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Database.Entities.ObservableDbEntity">
+    <Position X="44" Y="10.75" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.ObservableModel">
+    <Position X="44.5" Y="8" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.Model">
+    <Position X="44" Y="5.75" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType">
+    <Position X="33.25" Y="29.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAEIAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\VerticalCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS">
+    <Position X="27.5" Y="29.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\AbstractSingleCRS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Association">
+    <Position X="48.25" Y="15.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAIAAFEAAEgAAABAKAAAEAAFBARgBgAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\Association.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ReferencedObject">
+    <Position X="48.25" Y="20.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ReferencedObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.MetadataObject">
+    <Position X="52.75" Y="13.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAIAQAABAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\MetadataObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity">
+    <Position X="40.5" Y="15.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAIAAAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\NilReasonEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.GmlObject" Collapsed="true">
+    <Position X="36" Y="13.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\GmlObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType">
+    <Position X="38.75" Y="26" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAQAAAAAAAgAAAAAEAAAAAAAAAAAAAQQ=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\Systems\AbstractCoordinateSystemType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString">
+    <Position X="44" Y="25.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAQAgAAAAEAAABAAAIQBAAAgAAAAAAA=</HashCode>
+      <FileName>Geospatial\Common\BasicTypes\Primitive\Text\CharacterString.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.BasicTypes.NilReasonRemoteSchemaEntity">
+    <Position X="40.5" Y="18.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\NilReasonRemoteSchemaEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NDSH.Geospatial.Gml.IAssociation" Collapsed="true">
+    <Position X="20.25" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\IAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.ISimpleLink" Collapsed="true">
+    <Position X="18.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.BasicTypes.INilReason">
+    <Position X="20.5" Y="7.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAARAAAAAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\INilReason.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.IRemoteSchema">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\IRemoteSchema.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IType">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IHref">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IRole">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IArcRole">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.ITitle">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IShow">
+    <Position X="23" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IActuate">
+    <Position X="25.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

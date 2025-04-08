@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\Bin</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>..\..\..\..\Doc\NDSH.Geospatial.Demos.SearchAndMap.60.xml</DocumentationFile>
+    <AssemblyName>NDSH.Geospatial.Demos.SearchAndMap</AssemblyName>
+    <RootNamespace>NDSH.Geospatial.Demos.SearchAndMap</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Binders\" />
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NDSH.Database\src\NDSH.Database.60.csproj" />
+    <ProjectReference Include="..\..\NDSH.Geospatial.Metadata.Utilities\src\NDSH.Geospatial.Metadata.Utilities.60.csproj" />
+  </ItemGroup>
+
+</Project>

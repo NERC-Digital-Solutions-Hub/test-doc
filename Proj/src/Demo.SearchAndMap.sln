@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C0AAD99-87B0-4263-8C97-B129E649197B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{C0654050-18CA-4D3A-8F6E-135342589846}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Geospatial.Metadata.Utilities", "src\NDSH.Geospatial.Metadata.Utilities\src\NDSH.Geospatial.Metadata.Utilities.csproj", "{9D092B92-33F9-485A-B52E-35764823D4A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH", "src\NDSH\src\NDSH.csproj", "{933F043E-8806-4324-A7BB-1816BD1E6614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Geospatial.Demos.SearchAndMap.Blazor", "src\NDSH.Geospatial.Demos.SearchAndMap.Blazor\src\NDSH.Geospatial.Demos.SearchAndMap.Blazor.csproj", "{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Geospatial.Demos.SearchAndMap.Api", "src\NDSH.Geospatial.Demos.SearchAndMap.Api\src\NDSH.Geospatial.Demos.SearchAndMap.Api.csproj", "{DD02F43E-30E5-4C06-875E-E4E18F7D056E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Geospatial.Demos.SearchAndMap.Wpf", "src\NDSH.Geospatial.Demos.SearchAndMap.Wpf\src\NDSH.Geospatial.Demos.SearchAndMap.Wpf.csproj", "{F503A1DA-D641-4C1C-8105-3B592515D6C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Geospatial.Demos.SearchAndMap", "src\NDSH.Geospatial.Demos.SearchAndMap\src\NDSH.Geospatial.Demos.SearchAndMap.csproj", "{F5D498D0-F617-4772-8540-46EF5FB1CF95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDSH.Database", "src\NDSH.Database\src\NDSH.Database.csproj", "{1209050C-1E6A-4387-8833-A7C2FF989BD7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NDSH.Geospatial.Demos.SearchAndMap.Shared", "src\NDSH.Geospatial.Demos.SearchAndMap.Shared\src\NDSH.Geospatial.Demos.SearchAndMap.Shared.shproj", "{F37623C9-AAA7-4578-996E-B0A3BC11AA13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug600|Any CPU = Debug600|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release600|Any CPU = Release600|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{9D092B92-33F9-485A-B52E-35764823D4A0}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{933F043E-8806-4324-A7BB-1816BD1E6614}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{433CA401-EC4A-44E1-98D3-B7B4C21A48BB}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{DD02F43E-30E5-4C06-875E-E4E18F7D056E}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{F503A1DA-D641-4C1C-8105-3B592515D6C9}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D498D0-F617-4772-8540-46EF5FB1CF95}.Release600|Any CPU.Build.0 = Release|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Debug600|Any CPU.ActiveCfg = Debug|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Debug600|Any CPU.Build.0 = Debug|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Release600|Any CPU.ActiveCfg = Release|Any CPU
+		{1209050C-1E6A-4387-8833-A7C2FF989BD7}.Release600|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5964DCB5-DC75-447C-A382-D16854128D45}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\NDSH.Geospatial.Demos.SearchAndMap.Shared\src\NDSH.Geospatial.Demos.SearchAndMap.Shared.projitems*{f37623c9-aaa7-4578-996e-b0a3bc11aa13}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

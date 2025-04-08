@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType">
+    <Position X="6.25" Y="7" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\AbstractGeneralDerivedCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS" Collapsed="true">
+    <Position X="16.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\AbstractSingleCRS.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType">
+    <Position X="8.25" Y="10" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAAAAAAAAQAAAAAAAAAAAAgAABAAAAACA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\DerivedCRSType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType">
+    <Position X="10.5" Y="7" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAAAAQAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\EngineeringCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType">
+    <Position X="18.5" Y="7" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAEABAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\GeocentricCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType">
+    <Position X="4.5" Y="10" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\ProjectedCRSType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType">
+    <Position X="23.25" Y="7" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAIEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\TemporalCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType">
+    <Position X="25.5" Y="10" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAEIAEgAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\VerticalCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.ReferenceSystems.AbstractCRSType">
+    <Position X="15" Y="3.75" Width="4" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Geospatial\Gml\ReferenceSystems\AbstractCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType">
+    <Position X="13.25" Y="10" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\GeodeticCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType">
+    <Position X="17" Y="10" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAgAAAAAAAAAAACAAAAAAAACAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\GeographicCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType">
+    <Position X="21.25" Y="10" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgQAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\ImageCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType">
+    <Position X="20.5" Y="3.75" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\CompoundCRSType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\Coordinate\ReferenceSystems\ISingleCRS.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

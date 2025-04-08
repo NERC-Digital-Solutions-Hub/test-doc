@@ -1,0 +1,30 @@
+{
+  "$type": "NDSH.Utilities.App.Models.ApplicationModel, NDSH.Utilities.App",
+  "DatabaseConnectionsInfo": [
+    {
+      "$type": "NDSH.Database.SqliteConnectionInfo, NDSH",
+      "FilePath": "path-to-the-sqlite-file.db",
+      "Name": "SQLite"
+    },
+    {
+      "$type": "NDSH.Database.PostgreSqlConnectionInfo, NDSH",
+      "Host": "host",
+      "Database": "database",
+      "Username": "username",
+      "Password": "password",
+      "Schemas": [ "schema1", "public" ],
+      "UsedSchema": "public",
+      "Name": "PostgreSQL-AWS"
+    },
+    {
+      "$type": "NDSH.Database.PostgreSqlConnectionInfo, NDSH",
+      "Host": "host",
+      "Database": "database",
+      "Username": "username",
+      "Password": "password",
+      "Schemas": [ "schema1", "public" ],
+      "UsedSchema": "public",
+      "Name": "PostgreSQL-Local"
+    }
+  ]
+}

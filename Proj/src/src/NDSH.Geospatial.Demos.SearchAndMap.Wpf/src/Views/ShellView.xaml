@@ -1,0 +1,250 @@
+﻿<Window x:Class="NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView"
+        x:Name="shellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:binders="clr-namespace:NDSH.Geospatial.Demos.SearchAndMap.Binders"
+        xmlns:converters="clr-namespace:NDSH.Geospatial.Demos.SearchAndMap.Converters"
+        xmlns:models="clr-namespace:NDSH.Geospatial.Demos.SearchAndMap.Models"
+        xmlns:prModels="clr-namespace:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation"
+        xmlns:views="clr-namespace:NDSH.Geospatial.Demos.SearchAndMap.Views"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="15"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        d:DesignHeight="550"
+        d:DesignWidth="800"
+        Height="700"
+        Width="1200"
+        >
+
+  <!--d:DataContext="{d:DesignInstance Type=models:SearchDatasetsModel}"-->
+
+  <Window.Resources>
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    
+    <!--<Storyboard x:Key="ShowRectangleStoryboard">
+      <DoubleAnimation Storyboard.TargetName="resultsRectangle"
+                       Storyboard.TargetProperty="(FrameworkElement.Width)"
+                       To="200"
+                       Duration="0:0:0.3"/>
+      <DoubleAnimation Storyboard.TargetName="resultsRectangle"
+                       Storyboard.TargetProperty="(FrameworkElement.Height)"
+                       To="200"
+                       Duration="0:0:0.3"/>
+    </Storyboard>-->
+    <!--<Storyboard x:Key="ShowRectangleStoryboard">
+      <DoubleAnimation Storyboard.TargetName="resultsRectangle"
+                       Storyboard.TargetProperty="Width"
+                       To="{Binding ActualHeight, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Grid, AncestorLevel=1}, Converter={StaticResource subtractConverter}, ConverterParameter=60}"
+                       Duration="0:0:0.5"/>
+      <DoubleAnimation Storyboard.TargetName="myRectangle"
+                       Storyboard.TargetProperty="Height"
+                       To="{Binding ActualHeight, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Grid, AncestorLevel=1}, Converter={StaticResource subtractConverter}, ConverterParameter=60}"
+                       Duration="0:0:0.5"/>
+    </Storyboard>
+    <converters:SubtractConverter x:Key="subtractConverter" />-->
+  </Window.Resources>
+
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="30"/>
+    </Grid.RowDefinitions>
+
+    <materialDesign:ColorZone x:Name="AppCaptionBar"
+                              Grid.Row="0"
+                              MouseLeftButtonDown="AppCaptionBar_LeftMouseDown">
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0"
+                   Margin="16,0,0,0"
+                   Text="{Binding Path=ShellModel.Title, Mode=TwoWay}"
+                   VerticalAlignment="Center"/>
+        
+        <Button x:Name="MinimizeButton"
+                Grid.Column="1"
+                Command="{Binding MinimizeWindowCommand}"
+                CommandParameter="{Binding ElementName=shellView}"
+                Content="{materialDesign:PackIcon Kind=Minimize, Size=12}"
+                Height="24"
+                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="Minimize"
+                Width="44" />
+
+        <Button x:Name="MaximizeButton"
+                Grid.Column="2"
+                Command="{Binding MaximizeWindowCommand}"
+                CommandParameter="{Binding ElementName=shellView}"
+                Height="24"
+                Content="{materialDesign:PackIcon Kind=Maximize, Size=12}"
+                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="Maximize"
+                Width="44" />
+
+        <Button x:Name="CloseButton"
+                Grid.Column="3"
+                Command="{Binding CloseWindowCommand}"
+                CommandParameter="{Binding ElementName=shellView}"
+                Content="{materialDesign:PackIcon Kind=Close, Size=12}"
+                Height="24"
+                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                ToolTip="Close"
+                Width="44" />
+
+      </Grid>
+      
+      <!--<materialDesign:PackIcon Grid.Column="0"
+                                 Grid.Row="0"
+                                 Height="36"
+                                 Kind="Search"
+                                 VerticalAlignment="Center"
+                                 Width="36"/>-->
+
+    </materialDesign:ColorZone>
+
+    <materialDesign:ColorZone x:Name="appToolbar"
+                              Grid.Row="1"
+                              Mode="PrimaryMid"
+                              Padding="12">
+
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}" />
+        
+        <!--<TextBlock Grid.Column="1"
+                   Margin="16,0,0,0"
+                   Text="{Binding Path=ShellModel.Title, Mode=TwoWay}"
+                   VerticalAlignment="Center"/>-->
+
+        <Button x:Name="toggleMetadataSearchWindowButton"
+                Command="{Binding ToggleMetadataSearchWindowCommand}"
+                CommandParameter="{Binding ShellModel}"
+                Content="{Binding ShellModel.ToggleMetadataSearchWindowButtonText}"
+                Grid.Column="2"
+                Margin="4,0,8,0"
+                Style="{StaticResource MaterialDesignRaisedLightButton}">
+
+        </Button>
+
+        <ToggleButton x:Name="toggleAppSettingsButton"
+                      Command="{Binding ToggleAppConfigurationWindowCommand}"
+                      CommandParameter="{Binding ShellModel}"
+                      Content="{materialDesign:PackIcon Kind=gear}"
+                      Grid.Column="3"
+                      Height="34"
+                      IsChecked="True"
+                      Margin="4,0,12,0"
+                      Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}"
+                      ToolTip="Toggle Application Configuration"
+                      Width="34"/>
+
+        <!--<Button x:Name="toggleAppSettingsButton"
+                Command="{Binding ToggleApplicationSettingsCommand}"
+                CommandParameter="{Binding ShellModel}"
+                Grid.Column="3"
+                Margin="4,0,12,0"
+                Style="{StaticResource MaterialDesignRaisedLightButton}">
+          <materialDesign:PackIcon Kind="Gear"
+                                   VerticalAlignment="Center"/>
+        </Button>-->
+
+      </Grid>
+      
+    </materialDesign:ColorZone>
+
+    <esri:MapView x:Name="mapView"
+                  Grid.Row="2"
+                  Margin="4"
+                  Map="{Binding Path=ShellModel.Map}" />
+
+    <!--<materialDesign:Card x:Name="appConfigurationCard"
+                         Grid.Row="2"
+                         Margin="36"
+                         Padding="12"
+                         Visibility="{Binding ShellModel.AppConfigurationWindowVisibility}">-->
+    <materialDesign:Card x:Name="appConfigurationCard"
+                         Grid.Row="2"
+                         Margin="36"
+                         Padding="12"
+                         Visibility="{Binding ShellModel.AppConfigurationWindowVisibility}">
+      
+    </materialDesign:Card>
+    
+    <!--<materialDesign:Card x:Name="metadataSearchCard"
+                         Grid.Row="2"
+                         Margin="36"
+                         Opacity="0.7"
+                         Padding="12"
+                         Visibility="{Binding ShellModel.MetadataSearchWindowVisibility}">-->
+    <materialDesign:Card x:Name="metadataSearchCard"
+                         Grid.Row="2"
+                         Margin="36"
+                         Opacity="0.7"
+                         Padding="12"
+                         Visibility="{Binding ShellModel.MetadataSearchWindowVisibility}">
+
+      <views:MetadataSearchView x:Name="metadataSearchView" />
+      
+    </materialDesign:Card>
+    
+  </Grid>
+
+</Window>
+
+
+<!--<Grid x:Name="searchGrid"
+          Grid.Row="1">-->
+
+  <!--<Rectangle x:Name="resultsRectangle"
+                 Fill="Bisque"
+                 Height="0"
+                 HorizontalAlignment="Center"
+                 Margin="30"
+                 Opacity="0.4"
+                 VerticalAlignment="Center"
+                 Visibility="Hidden"
+                 Width="0">
+        
+      </Rectangle>-->
+
+  <!--<views:SearchDatasetsView x:Name="searchDatasetsView"
+                                Margin="50,50,50,50"
+                                >
+        
+      </views:SearchDatasetsView>-->
+
+  <!--<views:SearchDatasetsView x:Name="searchDatasetsView"
+                                Margin="50,50,16,50">
+        
+      </views:SearchDatasetsView>-->
+  <!--Visibility="{Binding Path=ShellModel.SearchDatasetsVisibility, UpdateSourceTrigger=PropertyChanged}"-->
+
+<!--</Grid>-->
+  
+  

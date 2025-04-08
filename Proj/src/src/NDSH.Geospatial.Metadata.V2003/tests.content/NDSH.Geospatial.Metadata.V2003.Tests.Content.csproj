@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\..\..\..\bin</BaseOutputPath>
+    <RootNamespace>NDSH</RootNamespace>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>8</WarningLevel>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <Deterministic>True</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CatalogueResources.resx~RF347d744.TMP" />
+    <None Remove="NERC\gmd_metadata_01.xml" />
+    <None Remove="NERC\gmd_metadata_01_deserialize_01.xml" />
+    <None Remove="NERC\gmd_metadata_02.xml" />
+    <None Remove="NERC\gmd_metadata_03.xml" />
+    <None Remove="NERC\nerc00001.xml" />
+    <None Remove="NERC\nerc00101.xml" />
+    <None Remove="NERC\nerc00201.xml" />
+    <None Remove="NERC\nerc00301.xml" />
+    <None Remove="NERC\nerc00401.xml" />
+    <None Remove="NERC\nerc00501.xml" />
+    <None Remove="NERC\nerc00601.xml" />
+    <None Remove="NERC\nerc00701.xml" />
+    <None Remove="NERC\nerc00801.xml" />
+    <None Remove="NERC\nerc00901.xml" />
+    <None Remove="NERC\nerc01001.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="NERC\gmd_metadata_01.xml" />
+    <EmbeddedResource Include="NERC\gmd_metadata_01_deserialize_01.xml" />
+    <EmbeddedResource Include="NERC\gmd_metadata_02.xml" />
+    <EmbeddedResource Include="NERC\gmd_metadata_03.xml" />
+    <EmbeddedResource Include="NERC\nerc00001.xml" />
+    <EmbeddedResource Include="NERC\nerc00101.xml" />
+    <EmbeddedResource Include="NERC\nerc00201.xml" />
+    <EmbeddedResource Include="NERC\nerc00301.xml" />
+    <EmbeddedResource Include="NERC\nerc00401.xml" />
+    <EmbeddedResource Include="NERC\nerc00501.xml" />
+    <EmbeddedResource Include="NERC\nerc00601.xml" />
+    <EmbeddedResource Include="NERC\nerc00701.xml" />
+    <EmbeddedResource Include="NERC\nerc00801.xml" />
+    <EmbeddedResource Include="NERC\nerc00901.xml" />
+    <EmbeddedResource Include="NERC\nerc01001.xml" />
+    <EmbeddedResource Include="Schemas\acquisitionInformation.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\contentInformation.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\dataQualityInformation.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\gmi.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\metadataEntitySet.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schemas\spatialRepresentationInformation.xsd">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CatalogueResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CatalogueResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CatalogueResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CatalogueResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

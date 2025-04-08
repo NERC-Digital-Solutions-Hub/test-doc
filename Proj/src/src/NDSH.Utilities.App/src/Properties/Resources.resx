@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClassTemplatePropertyType1" xml:space="preserve">
+    <value>
+#region Header
+// Title Name        : 
+// Member of         : 
+// Description       : 
+// Created by        : @@dd@@/01/2023, @@hh@@:@@mm@@, @@Coder@@.
+// Updated by        : 
+// Version           : 1.0.0
+// GitHub Repository : https://github.com/UoMResearchIT/nerc-digital-solutions-hub
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+#endregion
+
+#region Imported Namespaces
+
+using NDSH.Geospatial.Metadata.V19136.Common;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+#endregion
+
+namespace NDSH.Geospatial.Metadata.V19136.Imagery.@@Namespace@@ {
+
+  /// &lt;summary&gt;
+  /// 
+  /// &lt;/summary&gt;
+  [Serializable]
+  [XmlType("@@Element@@_PropertyType", Namespace = "@@XmlNamespace@@")]
+  [JsonObject("@@Element@@_PropertyType")]
+  public class @@Element@@_PropertyType : ObjectReference_PropertyType {
+
+    #region Constructors - Destructors
+
+    /// &lt;summary&gt;
+    /// Initializes the &lt;see cref="@@Element@@_PropertyType"/&gt;.
+    /// &lt;/summary&gt;
+    public @@Element@@_PropertyType() {
+      _@@ElementVariable@@ = default; // new @@Element@@_Type();
+    }
+
+    #endregion
+
+    #region Public Properties
+
+    private @@Element@@_Type _@@ElementVariable@@;
+
+    /// &lt;summary&gt;
+    /// 
+    /// &lt;/summary&gt;
+    [XmlElement("@@Element@@", Order = 0)]
+    [JsonProperty("@@Element@@", Order = 0)]
+    public @@Element@@_Type @@Element@@ {
+      get {
+        return _@@ElementVariable@@;
+      }
+      set {
+        if (_@@ElementVariable@@ == value) {
+          return;
+        }
+        if (_@@ElementVariable@@ == null || _@@ElementVariable@@.Equals(value) != true) {
+          _@@ElementVariable@@ = value;
+          OnPropertyChanged();
+        }
+      }
+    }
+
+    #endregion
+
+  }
+
+}
+</value>
+  </data>
+  <data name="ClassTemplatePropertyType2" xml:space="preserve">
+    <value>
+#region Header
+
+// Title Name        : 
+// Member of         : 
+// Description       : 
+// Created by        : @@dd@@/01/2023, @@hh@@:@@mm@@, @@Coder@@.
+// Updated by        : 
+// Version           : 1.0.0
+// GitHub Repository : https://github.com/UoMResearchIT/nerc-digital-solutions-hub
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+#endregion
+
+#region Imported Namespaces
+
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+#endregion
+
+namespace NDSH.Geospatial.Metadata.V19136.Imagery.@@Namespace@@ {
+
+  /// &lt;summary&gt;
+  /// 
+  /// &lt;/summary&gt;
+  [Serializable]
+  [XmlType("@@Element@@_PropertyType", Namespace = "@@XmlNamespace@@")]
+  [JsonObject("@@Element@@_PropertyType")]
+  public class @@Element@@_PropertyType : NilReasonModel {
+
+    #region Constructors - Destructors
+
+    /// &lt;summary&gt;
+    /// Initializes the &lt;see cref="@@Element@@_PropertyType"/&gt;.
+    /// &lt;/summary&gt;
+    public @@Element@@_PropertyType() {
+      _@@ElementVariable@@ = default; //  new CodeListValue_Type();
+    }
+
+    #endregion
+
+    #region Public Properties
+
+    private CodeListValue_Type _@@ElementVariable@@;
+
+    /// &lt;summary&gt;
+    /// 
+    /// &lt;/summary&gt;
+    [XmlElement("@@Element@@", Order = 0)]
+    [JsonProperty("@@Element@@", Order = 0)]
+    public CodeListValue_Type @@Element@@ {
+      get {
+        return _@@ElementVariable@@;
+      }
+      set {
+        if (_@@ElementVariable@@ == value) {
+          return;
+        }
+        if (_@@ElementVariable@@ == null || _@@ElementVariable@@.Equals(value) != true) {
+          _@@ElementVariable@@ = value;
+          OnPropertyChanged();
+        }
+      }
+    }
+
+    #endregion
+
+  }
+
+}
+</value>
+  </data>
+  <data name="ClassTemplateType" xml:space="preserve">
+    <value>
+#region Header
+// Title Name        : 
+// Member of         : 
+// Description       : 
+// Created by        : @@dd@@/01/2023, @@hh@@:@@mm@@, @@Coder@@.
+// Updated by        : 
+// Version           : 1.0.0
+// GitHub Repository : https://github.com/UoMResearchIT/nerc-digital-solutions-hub
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+#endregion
+
+#region Imported Namespaces
+
+using NDSH.Geospatial.Metadata.V19136.Common;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Serialization;
+
+#endregion
+
+namespace NDSH.Geospatial.Metadata.V19136.Imagery.@@Namespace@@ {
+
+  /// &lt;summary&gt;
+  /// 
+  /// &lt;/summary&gt;
+  [Serializable]
+  [XmlType("@@Element@@", Namespace = "@@XmlNamespace@@")]
+  [XmlRoot("@@Element@@", Namespace = "@@XmlNamespace@@", IsNullable = false)]
+  [JsonObject("@@Element@@")]
+  public class @@Element@@_Type : AbstractObject_Type {
+
+    #region Constructors - Destructors
+
+    /// &lt;summary&gt;
+    /// Initializes the &lt;see cref="@@Element@@_Type"/&gt;
+    /// &lt;/summary&gt;
+    public @@Element@@_Type() {
+
+      xmlns = new XmlSerializerNamespaces();
+      xmlns.Add("@@Prefix@@", "@@XmlNamespace@@");
+
+      @@PrivateVariablesList@@
+
+    }
+
+    #endregion
+
+    #region Public Fields
+
+    /// &lt;summary&gt;
+    /// 
+    /// &lt;/summary&gt;
+    [XmlNamespaceDeclarations()]
+    public XmlSerializerNamespaces xmlns;
+
+    #endregion
+
+    #region Public Properties
+
+    @@PropertiesList@@
+
+    #endregion
+
+  }
+
+}
+</value>
+  </data>
+  <data name="PropertyListTemplate" xml:space="preserve">
+    <value>private List&lt;@@Type@@&gt; _@@Element@@;
+    
+    /// &lt;summary&gt;
+    /// 
+    /// &lt;/summary&gt;
+    [XmlElement("@@Element@@", Order = @@Order@@)]
+    [JsonProperty("@@Element@@", Order = @@Order@@)]
+    public List&lt;@@Type@@&gt; @@Property@@ {
+      get {
+        return _@@Element@@;
+      }
+      set {
+        if (_@@Element@@ == value) {
+          return;
+        }
+        if (_@@Element@@ == null || _@@Element@@.Equals(value) != true) {
+          _@@Element@@ = value;
+          OnPropertyChanged();
+        }
+      }
+    }</value>
+  </data>
+  <data name="PropertyObjectTemplate" xml:space="preserve">
+    <value>private @@Type@@ _@@Element@@;
+
+    /// &lt;summary&gt;
+    /// 
+    /// &lt;/summary&gt;
+    [XmlElement("@@Element@@", Order = @@Order@@)]
+    [JsonProperty("@@Element@@", Order = @@Order@@)]
+    public @@Type@@ @@Property@@ {
+      get {
+        return _@@Element@@;
+      }
+      set {
+        if (_@@Element@@ == value) {
+          return;
+        }
+        if (_@@Element@@ == null || _@@Element@@.Equals(value) != true) {
+          _@@Element@@ = value;
+          OnPropertyChanged();
+        }
+      }
+    }</value>
+  </data>
+  <data name="TestXsdString0" xml:space="preserve">
+    <value>&lt;xs:complexType name="MI_Requirement_Type"&gt;
+		&lt;xs:annotation&gt;
+			&lt;xs:documentation&gt;Description: requirement to be satisfied by the planned data acquisition - shortName: Requirement&lt;/xs:documentation&gt;
+		&lt;/xs:annotation&gt;
+		&lt;xs:complexContent&gt;
+			&lt;xs:extension base="gco:AbstractObject_Type"&gt;
+				&lt;xs:sequence&gt;
+					&lt;xs:element name="citation" type="gmd:CI_Citation_PropertyType" minOccurs="0"/&gt;
+					&lt;xs:element name="identifier" type="gmd:MD_Identifier_PropertyType"/&gt;
+					&lt;xs:element name="requestor" type="gmd:CI_ResponsibleParty_PropertyType" maxOccurs="unbounded"/&gt;
+					&lt;xs:element name="recipient" type="gmd:CI_ResponsibleParty_PropertyType" maxOccurs="unbounded"/&gt;
+					&lt;xs:element name="priority" type="gmi:MI_PriorityCode_PropertyType"/&gt;
+					&lt;xs:element name="requestedDate" type="gmi:MI_RequestedDate_PropertyType"/&gt;
+					&lt;xs:element name="expiryDate" type="gco:DateTime_PropertyType"/&gt;
+					&lt;xs:element name="satisifiedPlan" type="gmi:MI_Plan_PropertyType" minOccurs="0" maxOccurs="unbounded"/&gt;
+				&lt;/xs:sequence&gt;
+			&lt;/xs:extension&gt;
+		&lt;/xs:complexContent&gt;
+	&lt;/xs:complexType&gt;
+	&lt;!-- ........................................................................ --&gt;
+	&lt;xs:element name="MI_Requirement" type="gmi:MI_Requirement_Type"/&gt;
+	&lt;!-- ........................................................................ --&gt;</value>
+  </data>
+</root>

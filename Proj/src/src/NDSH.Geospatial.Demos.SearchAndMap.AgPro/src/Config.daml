@@ -1,0 +1,46 @@
+﻿<ArcGIS defaultAssembly="NDSH.Geospatial.Demos.SearchAndMap.AgPro.dll" defaultNamespace="NDSH.Geospatial.Demos.SearchAndMap.AgPro" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{253643ef-55a2-402b-be5d-c8161dca06ed}" version="1.0" desktopVersion="3.0.36056">
+    <Name>NDSH.Geospatial.Demos.SearchAndMap.AgPro</Name>
+    <Description>NDSH.Geospatial.Demos.SearchAndMap.AgPro description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>mzdssvv2</Author>
+    <Company>The University of Manchester</Company>
+    <Date>5/25/2023 5:24:18 PM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="NDSH.Geospatial.Demos.SearchAndMap.AgPro_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="NDSH.Geospatial.Demos.SearchAndMap.AgPro_Tab1" caption="New Tab">
+          <group refID="NDSH.Geospatial.Demos.SearchAndMap.AgPro_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="NDSH.Geospatial.Demos.SearchAndMap.AgPro_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="NDSH_Geospatial_Demos_SearchAndMap_AgPro_60_Dockpane1_ShowButton" size="large" />
+          <button refID="NDSH_Geospatial_Demos_SearchAndMap_AgPro_Dockpane1_ShowButton" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="NDSH_Geospatial_Demos_SearchAndMap_AgPro_60_Dockpane1_ShowButton" caption="Show Dockpane 1" className="NDSH.Geospatial.Demos.SearchAndMap.AgPro.60.Dockpane1_ShowButton" loadOnClick="true" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonPurple16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonPurple32.png">
+          <tooltip heading="Show Dockpane">Show Dockpane<disabledText /></tooltip>
+        </button>
+        <button id="NDSH_Geospatial_Demos_SearchAndMap_AgPro_Dockpane1_ShowButton" caption="Show Dockpane 1" className="Dockpane1_ShowButton" loadOnClick="true" smallImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonPurple16.png" largeImage="pack://application:,,,/ArcGIS.Desktop.Resources;component/Images/GenericButtonPurple32.png">
+          <tooltip heading="Show Dockpane">Show Dockpane<disabledText /></tooltip>
+        </button>
+      </controls>
+      <dockPanes>
+        <dockPane id="NDSH_Geospatial_Demos_SearchAndMap_AgPro_Dockpane1" caption="Dockpane 1" className="Dockpane1ViewModel" dock="group" dockWith="esri_core_projectDockPane">
+          <content className="Dockpane1View" />
+        </dockPane>
+      </dockPanes>
+    </insertModule>
+  </modules>
+</ArcGIS>

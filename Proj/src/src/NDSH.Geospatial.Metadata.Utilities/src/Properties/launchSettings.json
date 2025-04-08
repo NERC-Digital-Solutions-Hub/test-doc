@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NDSH.Geospatial.Metadata.Utilities": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "pgSqlPath": ""
+      }
+    }
+  }
+}

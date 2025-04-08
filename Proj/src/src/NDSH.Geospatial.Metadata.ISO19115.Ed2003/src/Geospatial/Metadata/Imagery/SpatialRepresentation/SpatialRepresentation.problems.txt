@@ -1,0 +1,6 @@
+
+// WARNING: Imagery/SpatialRepresentation - CORRECT The following files
+
+\Imagery\SpatialRepresentation\MI_Georeferenceable_Type.cs    inherit from [MD_Georeferenceable_Type]                  not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\SpatialRepresentation\MI_GCPCollection_Type.cs       inherit from [AbstractMI_GeolocationInformation_Type]    not AbstractObject_Type    DONE - NEEDS XmlIncludes
+\Imagery\SpatialRepresentation\MI_Georectified_Type.cs        inherit from [MD_Georectified_Type]                      not AbstractObject_Type    DONE - NEEDS XmlIncludes

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="NDSH.Database.Entities.ObservableDbEntity">
+    <Position X="34.5" Y="15" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.ObservableModel">
+    <Position X="33.5" Y="11.75" Width="4.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.Model">
+    <Position X="34" Y="9" Width="3.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.ReferenceEntity">
+    <Position X="34.75" Y="23.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ReferenceEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.AssociationEntity">
+    <Position X="32.25" Y="18" Width="7.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BAAABAAAAIAAFEAAEgAAABAKAAAEAAFBARgBgAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\AssociationEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NDSH.Xml.XLink.ISimpleLink" Collapsed="true">
+    <Position X="16.75" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IType">
+    <Position X="9.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IHref">
+    <Position X="12" Y="9.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IRole">
+    <Position X="14.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IArcRole">
+    <Position X="16.5" Y="9.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.ITitle">
+    <Position X="19" Y="9.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IShow">
+    <Position X="21.5" Y="9.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Xml.XLink.IActuate">
+    <Position X="24" Y="9.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Database.Entities.IDbId">
+    <Position X="29.75" Y="13.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IObservableModel" Collapsed="true">
+    <Position X="29.75" Y="12.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IModel">
+    <Position X="29" Y="10.75" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.BasicTypes.INilReason">
+    <Position X="19" Y="13.25" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAARAAAAAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\INilReason.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.IRemoteSchema">
+    <Position X="26.25" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\IRemoteSchema.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.IAssociation" Collapsed="true">
+    <Position X="21.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Gml\IAssociation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.INullableUuidRef">
+    <Position X="24" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\INullableUuidRef.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.IObjectReference" Collapsed="true">
+    <Position X="22.75" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\IObjectReference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.ITypeMetadata" Collapsed="true">
+    <Position X="21.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\ITypeMetadata.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

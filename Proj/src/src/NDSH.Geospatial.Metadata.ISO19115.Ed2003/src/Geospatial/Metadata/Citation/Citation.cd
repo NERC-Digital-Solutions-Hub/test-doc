@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="NDSH.Database.Entities.ObservableDbEntity">
+    <Position X="59.5" Y="11.25" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.ObservableModel">
+    <Position X="58.25" Y="8.5" Width="4.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Apps.Model">
+    <Position X="58.5" Y="6" Width="4.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.IdentifiableObject">
+    <Position X="49.5" Y="14" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACCAAAAAAAAIAQAABBAABAAAQAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\IdentifiableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Address_Type">
+    <Position X="41" Y="18" Width="4" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAQIoEAAgABAAAIAAIARAAAAAAESAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Address_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Citation_Type">
+    <Position X="46" Y="18" Width="5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IIAAQAAAAYCAAkRAhAAAgAAAAAQAAJgBhAZAaAAAAAE=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Citation_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Gml.BasicTypes.NilReasonEntity">
+    <Position X="61.5" Y="14" Width="7.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAIAAAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\NilReasonEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString">
+    <Position X="66.5" Y="17.5" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="NDSH.Database.Entities.ObservableDbEntity" ManuallyRouted="true">
+      <Path>
+        <Point X="60.625" Y="13.127" />
+        <Point X="60.625" Y="16.433" />
+        <Point X="68.625" Y="16.433" />
+        <Point X="68.625" Y="17.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAQAgAAAAEAAABAAAIAAAAAgAAAAAAA=</HashCode>
+      <FileName>Geospatial\Common\BasicTypes\Primitive\Text\CharacterString.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.URL_PropertyType">
+    <Position X="62.75" Y="17.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgAAAAAAAAAQAAIAACAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\URL_PropertyType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Date_Type">
+    <Position X="57.5" Y="18" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAhAAAAAAAAAAAAIAhIAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Date_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Contact_Type">
+    <Position X="52.75" Y="18" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQggAAIEAAAAAAAAIACIBAAIEAACBA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Contact_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.CodeListValue_Type">
+    <Position X="67" Y="22.25" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEACAQAgAAAEAAAAAAAAMAAAAQAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\CodeListValue_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_OnlineResource_Type">
+    <Position X="43" Y="25.25" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIBAEAAAgAAQUgAAAAAZBQAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_OnlineResource_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_ResponsibleParty_Type">
+    <Position X="47.75" Y="25.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAQAkAAAAAIAAAAAAIAAAIIBKgAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_ResponsibleParty_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Series_Type">
+    <Position X="52.5" Y="25.25" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAABAAAQAAQAgAAAAAQAAAAAIIAAAAAAAAAAACA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Series_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_Telephone_Type">
+    <Position X="57" Y="25.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgEAAAAAAAAAAAIAAAAAAQAgAAAg=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_Telephone_Type.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_DateTypeCode_CodeList">
+    <Position X="62" Y="26.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_DateTypeCode_CodeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_OnLineFunctionCode_CodeList">
+    <Position X="65.5" Y="26.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_OnLineFunctionCode_CodeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList">
+    <Position X="69.25" Y="26.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_PresentationFormCode_CodeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NDSH.Geospatial.Metadata.Citation.CI_RoleCode_CodeList">
+    <Position X="73.25" Y="26.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\Citation\CI_RoleCode_CodeList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="NDSH.Database.Entities.IDbId">
+    <Position X="55.25" Y="11.25" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IObservableModel" Collapsed="true">
+    <Position X="55.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Apps.IModel">
+    <Position X="54" Y="6" Width="3.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.INullableId">
+    <Position X="43.5" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\INullableId.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.INullableUuid">
+    <Position X="46" Y="14" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\INullableUuid.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.IObjectIdentification" Collapsed="true">
+    <Position X="44.75" Y="16" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\IObjectIdentification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Gml.BasicTypes.INilReason">
+    <Position X="69.5" Y="14" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAARAAAAAAAAABAAAAAAAAgAA=</HashCode>
+      <FileName>Geospatial\Gml\BasicTypes\INilReason.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.INullableValue&lt;T&gt;">
+    <Position X="71.25" Y="17.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\INullableValue{T}.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.ICodeList">
+    <Position X="76.25" Y="21.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ICodeList.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.ICodeListValue">
+    <Position X="73.75" Y="21.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ICodeListValue.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NDSH.Geospatial.Metadata.ICodeSpace">
+    <Position X="71.25" Y="21.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Geospatial\Metadata\ICodeSpace.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

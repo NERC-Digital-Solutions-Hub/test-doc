@@ -1,0 +1,90 @@
+﻿@inject MetadataSearchBinder metadataSearchBinder
+@inject ShellBinder shellBinder
+
+<Card>
+    <CardBody>
+        <Addons>
+            <Addon AddonType="AddonType.Body">
+                <TextEdit Placeholder="Search" @bind-Text="@metadataSearchBinder.MetadataSearchModel.Question" />
+            </Addon>
+            <Addon AddonType="AddonType.End">
+                <Button Color="Color.Primary" Command="@metadataSearchBinder.SubmitQueryCommand" CommandParameter="@metadataSearchBinder.MetadataSearchModel">
+                    Sumbit
+                </Button>
+            </Addon>
+        </Addons>
+
+        <DataGrid TItem="ResultRecord"
+                  Data="@metadataSearchBinder.MetadataSearchModel.ResultRecords"
+                  SelectionMode="DataGridSelectionMode.Multiple"
+                  Responsive
+                  ShowPager
+                  ShowPageSizes
+                  PagerPosition="DataGridPagerPosition.TopAndBottom"
+                  RowSelectable="RowSelectableHandler">
+            <DataGridMultiSelectColumn Width="30px"></DataGridMultiSelectColumn>
+
+            <DataGridColumn Field="@nameof(ResultRecord.Identifier)" Caption="FID" />
+            <DataGridColumn Field="@nameof(ResultRecord.Id)" Caption="RecordID" />
+            <DataGridColumn Field="@nameof(ResultRecord.Title)" Caption="Title" />
+            <DataGridColumn Field="@nameof(ResultRecord.Score)" Caption="Score">
+                <DisplayTemplate>
+                    @{
+                        @($"{(context as ResultRecord)!.Score:P2}")
+                    }
+                </DisplayTemplate>
+            </DataGridColumn>
+            <DataGridColumn Field="@nameof(ResultRecord.HasGeoServices)" Caption="HasGeoServices">
+                <DisplayTemplate>
+                    @{
+                        bool? hasGeoService = (context as ResultRecord)?.HasGeoServices;
+                        if (hasGeoService == true) {
+                            @("YES")
+
+                        }
+                        else if (hasGeoService == false) {
+                            @("NO")
+
+                        }
+                        else {
+                            @("NULL")
+                        }
+                    }
+                </DisplayTemplate>
+            </DataGridColumn>
+
+        </DataGrid>
+
+        <Div Flex="Flex.Row.JustifyContent.End" Margin="Margin.Is3.OnY">
+            <Button Color="Color.Primary" Size="Size.Large" Margin="Margin.Is1.OnX" Command="metadataSearchBinder.AddLayersCommand" CommandParameter="metadataSearchBinder.MetadataSearchModel">
+                Add
+            </Button>
+            <Button Color="Color.Secondary" Size="Size.Large" Margin="Margin.Is1.OnX" Command="shellBinder.ToggleMetadataSearchCardCommand" CommandParameter="shellBinder.ShellModel">
+                Close
+            </Button>
+        </Div>
+    </CardBody>
+</Card>
+
+
+@code {
+    private async void OnPropertyChangedHandler(object sender, System.ComponentModel.PropertyChangedEventArgs e) {
+        await InvokeAsync(() => { StateHasChanged(); });
+    }
+
+    protected override async Task OnInitializedAsync() {
+        metadataSearchBinder.MetadataSearchModel.PropertyChanged += OnPropertyChangedHandler;
+        await base.OnInitializedAsync();
+    }
+
+    private bool RowSelectableHandler(RowSelectableEventArgs<ResultRecord> rowSelectableEventArgs) {
+        var r = rowSelectableEventArgs.Item as ResultRecord;
+        if (r is null) {
+            throw new Exception("r is null");
+        }
+        r.IsSelected = !r.IsSelected;
+        return true;
+
+    }
+
+} 

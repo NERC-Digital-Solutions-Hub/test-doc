@@ -1,0 +1,17 @@
+﻿@page "/"
+
+
+<SearchButton/>
+
+<MapView @ref="shellBinder.ShellModel.MapView" Longitude="_longitude" Latitude="_latitude" Zoom="11" Style="flex: 1; width: 100%; position: relative">
+    <Map ArcGISDefaultBasemap="arcgis-topographic" >
+    </Map>
+    <ScaleBarWidget Position="OverlayPosition.BottomLeft" />
+    <Div Position="Position.Absolute.Top.Is0.Start.Is0" Padding="Padding.Is5.OnX.Is5.OnY" Width="Width.Is100" Height="Height.Is100" Visibility=@shellBinder.ShellModel.MetadataSearchCardVisibility Style="opacity: 0.8;">
+        <MetadataSearchView />
+    </Div>
+</MapView>
+
+
+
+ 

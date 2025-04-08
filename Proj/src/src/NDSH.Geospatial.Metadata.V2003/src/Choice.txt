@@ -1,0 +1,89 @@
+
+Find all "<xs:choice", Subfolders, "C:\NDSH\GitHub\nerc-digital-solutions-hub\Hub\DotNet\Proj\src\NDSH.Geospatial.Metadata\src\Schemas\ISO\2005", "*.xsd"
+
+Date_PropertyType
+MD_Resolution_Type
+MD_ScopeDescription_Type
+MD_ScopeDescription_Enum
+LE_NominalResolution_Type
+
+\gco\basicTypes.xsd(317):<xs:choice minOccurs="0">
+\gco\basicTypes.xsd(327):<xs:choice minOccurs="0">
+\gmd\identification.xsd(243):<xs:choice>
+\gmd\maintenance.xsd(54):<xs:choice>
+\gmi\dataQualityInformation.xsd(210):<xs:choice>
+
+Find all "<choice", Subfolders, "C:\NDSH\GitHub\nerc-digital-solutions-hub\Hub\DotNet\Proj\src\NDSH.Geospatial.Metadata\src\Schemas\ISO\2005", "*.xsd"
+
+\gml\coordinateOperations.xsd(388):<choice>
+\gml\coordinateReferenceSystems.xsd(107):<choice>
+\gml\coordinateReferenceSystems.xsd(225):<choice>
+\gml\coordinateReferenceSystems.xsd(358):<choice>
+\gml\coordinateReferenceSystems.xsd(416):<choice>
+\gml\coordinateReferenceSystems.xsd(508):<choice>
+\gml\coverage.xsd(80):<choice>
+\gml\coverage.xsd(96):<choice>
+\gml\coverage.xsd(112):<choice>
+\gml\coverage.xsd(155):<choice>
+\gml\coverage.xsd(177):<choice>
+\gml\coverage.xsd(191):<choice>
+\gml\coverage.xsd(424):<choice>
+\gml\coverage.xsd(425):<choice>
+\gml\coverage.xsd(428):<choice/>
+\gml\datums.xsd(155):<choice>
+\gml\dictionary.xsd(68):<choice minOccurs="0" maxOccurs="unbounded">
+\gml\direction.xsd(22):<choice>
+\gml\direction.xsd(37):<choice>
+\gml\direction.xsd(56):<choice>
+\gml\dynamicFeature.xsd(106):<choice>
+\gml\feature.xsd(43):<choice>
+\gml\feature.xsd(77):<choice>
+\gml\geometryBasic0d1d.xsd(133):<choice>
+\gml\geometryBasic0d1d.xsd(144):<choice>
+\gml\geometryBasic0d1d.xsd(166):<choice>
+\gml\geometryBasic0d1d.xsd(213):<choice>
+\gml\geometryBasic0d1d.xsd(306):<choice>
+\gml\geometryBasic0d1d.xsd(307):<choice minOccurs="2" maxOccurs="unbounded">
+\gml\geometryBasic2d.xsd(102):<choice>
+\gml\geometryBasic2d.xsd(103):<choice minOccurs="4" maxOccurs="unbounded">
+\gml\geometryComplexes.xsd(33):<choice>
+\gml\geometryPrimitives.xsd(101):<choice>
+\gml\geometryPrimitives.xsd(102):<choice minOccurs="2" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(125):<choice>
+\gml\geometryPrimitives.xsd(126):<choice minOccurs="3" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(150):<choice>
+\gml\geometryPrimitives.xsd(151):<choice minOccurs="3" maxOccurs="3">
+\gml\geometryPrimitives.xsd(183):<choice>
+\gml\geometryPrimitives.xsd(184):<choice minOccurs="2" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(212):<choice>
+\gml\geometryPrimitives.xsd(213):<choice minOccurs="2" maxOccurs="2">
+\gml\geometryPrimitives.xsd(238):<choice>
+\gml\geometryPrimitives.xsd(239):<choice>
+\gml\geometryPrimitives.xsd(271):<choice>
+\gml\geometryPrimitives.xsd(272):<choice>
+\gml\geometryPrimitives.xsd(294):<choice>
+\gml\geometryPrimitives.xsd(295):<choice minOccurs="2" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(324):<choice>
+\gml\geometryPrimitives.xsd(325):<choice minOccurs="0" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(388):<choice>
+\gml\geometryPrimitives.xsd(389):<choice minOccurs="0" maxOccurs="unbounded">
+\gml\geometryPrimitives.xsd(477):<choice>
+\gml\geometryPrimitives.xsd(791):<choice>
+\gml\grids.xsd(27):<choice>
+\gml\measures.xsd(80):<choice minOccurs="0">
+\gml\measures.xsd(168):<choice>
+\gml\observation.xsd(51):<choice minOccurs="0">
+\gml\temporal.xsd(143):<choice>
+\gml\temporal.xsd(147):<choice>
+\gml\temporal.xsd(222):<choice>
+\gml\temporalReferenceSystems.xsd(42):<choice>
+\gml\topology.xsd(47):<choice>
+\gml\topology.xsd(62):<choice>
+\gml\units.xsd(117):<choice>
+\gml\units.xsd(146):<choice>
+\gml\valueObjects.xsd(89):<choice>
+
+
+
+
+

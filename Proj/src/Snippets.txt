@@ -1,0 +1,37 @@
+Snippets
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+#region Header
+// ---------------------------------------------------------------------------------------------------------------------
+// Member of         : NDSH.xxx.xxx.csproj
+// Created           : dd/MM/yyyy, @gisvlasta
+// GitHub Repository : https://github.com/NERC-Digital-Solutions-Hub/ndsh
+// License           : MIT Licence
+// Copyright         : 
+//
+// Comments          : 
+// ---------------------------------------------------------------------------------------------------------------------
+#endregion
+
+
+#region Header
+// ---------------------------------------------------------------------------------------------------------------------
+// Title Name        : Name goes here
+// Member of         : NDSH.xxx.xxx.csproj
+// Description       : Description goes here
+// Created by        : dd/MM/yyyy, hh:mm, @gisvlasta.
+// Updated by        : 
+// Version           : Major.Minor.Revision
+// GitHub Repository :
+// License           : 
+// Copyright         : 
+//
+// Comments          : 
+// ---------------------------------------------------------------------------------------------------------------------
+#endregion
+
