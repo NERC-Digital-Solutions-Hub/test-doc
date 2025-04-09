@@ -23,7 +23,7 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "../doc/_site/**"
+          "../doc/**"
         ]
       }
     ],
@@ -34,7 +34,7 @@
         ]
       }
     ],
-    "output": "../doc/_site",
+    "output": "../doc/",
     "template": [
       "default",
       "modern"
