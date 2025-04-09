@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  id: Models
+  parent: NDSH.Geospatial.Metadata.Utilities
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisLayerJson
+  - NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisMapServerJson
+  - NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  - NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+  - NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileType
+  - NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileTypeSource
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  - NDSH.Geospatial.Metadata.Utilities.Models.TitleComparison
+  - NDSH.Geospatial.Metadata.Utilities.Models.TitleRecord
+  - NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileType
+  - NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileTypeSource
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisLayerJson
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisLayerJson
+  href: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisLayerJson.html
+  name: BgsArcGisLayerJson
+  nameWithType: BgsArcGisLayerJson
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisLayerJson
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisMapServerJson
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisMapServerJson
+  href: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisMapServerJson.html
+  name: BgsArcGisMapServerJson
+  nameWithType: BgsArcGisMapServerJson
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.BgsArcGisMapServerJson
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+  href: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer.html
+  name: BgsLayer
+  nameWithType: BgsLayer
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.BgsLayer
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html
+  name: LevenshteinTitleComparison
+  nameWithType: LevenshteinTitleComparison
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html
+  name: LevenshteinTitleStatistics
+  nameWithType: LevenshteinTitleStatistics
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+  href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity.html
+  name: MetadataEntity
+  nameWithType: MetadataEntity
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntity
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileType
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileType
+  href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileType.html
+  name: MetadataEntityFileType
+  nameWithType: MetadataEntityFileType
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileType
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileTypeSource
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileTypeSource
+  href: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileTypeSource.html
+  name: MetadataEntityFileTypeSource
+  nameWithType: MetadataEntityFileTypeSource
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.MetadataEntityFileTypeSource
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html
+  name: NgdcDataset
+  nameWithType: NgdcDataset
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.TitleComparison
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.TitleComparison
+  href: NDSH.Geospatial.Metadata.Utilities.Models.TitleComparison.html
+  name: TitleComparison
+  nameWithType: TitleComparison
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.TitleComparison
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.TitleRecord
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.TitleRecord
+  href: NDSH.Geospatial.Metadata.Utilities.Models.TitleRecord.html
+  name: TitleRecord
+  nameWithType: TitleRecord
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.TitleRecord
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileType
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileType
+  href: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileType.html
+  name: UniqueFileType
+  nameWithType: UniqueFileType
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileType
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileTypeSource
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileTypeSource
+  href: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileTypeSource.html
+  name: UniqueFileTypeSource
+  nameWithType: UniqueFileTypeSource
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.UniqueFileTypeSource
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html

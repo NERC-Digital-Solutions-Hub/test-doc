@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  id: Text
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  name: CharacterString
+  nameWithType: CharacterString
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html

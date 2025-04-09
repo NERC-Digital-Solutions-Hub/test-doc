@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  id: IUuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+  langs:
+  - csharp
+  - vb
+  name: IUuidRef
+  nameWithType: IUuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IUuidRef.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IUuidRef
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IUuidRef.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  summary: ''
+  example: []
+  syntax:
+    content: public interface IUuidRef
+    content.vb: Public Interface IUuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+  id: UuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  langs:
+  - csharp
+  - vb
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IUuidRef.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: UuidRef
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Common/IUuidRef.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  summary: ''
+  example: []
+  syntax:
+    content: string UuidRef { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UuidRef As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef*
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_IUuidRef_UuidRef
+  name: UuidRef
+  nameWithType: IUuidRef.UuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.UuidRef
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

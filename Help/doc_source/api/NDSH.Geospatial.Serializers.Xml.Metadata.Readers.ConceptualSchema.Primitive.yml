@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+  id: Primitive
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.ConceptualSchema.Primitive.Text.html

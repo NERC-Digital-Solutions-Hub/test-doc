@@ -1,0 +1,1917 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  id: LI_Source_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(System.Object)
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+  langs:
+  - csharp
+  - vb
+  name: LI_Source_Type
+  nameWithType: LI_Source_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LI_Source_Type
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("LI_Source")]
+
+      public class LI_Source_Type : MetadataObject, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable<LI_Source_Type>, IEquatable<LI_Source_Type>
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("LI_Source")>
+
+      Public Class LI_Source_Type Inherits MetadataObject Implements IModel, IObservableModel, INotifyPropertyChanged, IDbId, IObjectIdentification, INullableId, INullableUuid, ITypeReferenced, IComparable(Of LI_Source_Type), IEquatable(Of LI_Source_Type)
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Database.Entities.ObservableDbEntity
+  - NDSH.Geospatial.Metadata.MetadataObject
+  derivedClasses:
+  - NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_Source_Type
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Geospatial.Metadata.IObjectIdentification
+  - NDSH.Geospatial.Metadata.INullableId
+  - NDSH.Geospatial.Metadata.INullableUuid
+  - NDSH.Geospatial.Metadata.ITypeReferenced
+  - System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  - System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.MetadataObject.Id
+  - NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  - NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  - NDSH.Database.Entities.ObservableDbEntity.DbId
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LI_Source
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: LI_Source_Type()
+  nameWithType: LI_Source_Type.LI_Source_Type()
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.LI_Source_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 71
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public LI_Source_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor*
+  nameWithType.vb: LI_Source_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+  id: Description
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: LI_Source_Type.Description
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Description
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Detailed description of the level of the source data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("description", Order = 0)]
+
+      public CharacterString? Description { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("description", Order:=0)>
+
+      Public Property Description As CharacterString
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: description
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+  id: ScaleDenominator
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: ScaleDenominator
+  nameWithType: LI_Source_Type.ScaleDenominator
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ScaleDenominator
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 106
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Denominator of the representative fraction on a source map.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("scaleDenominator", Order = 1)]
+
+      public MD_RepresentativeFraction_Type? ScaleDenominator { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type
+    content.vb: >-
+      <JsonProperty("scaleDenominator", Order:=1)>
+
+      Public Property ScaleDenominator As MD_RepresentativeFraction_Type
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scaleDenominator
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+  id: SourceReferenceSystem
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: SourceReferenceSystem
+  nameWithType: LI_Source_Type.SourceReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SourceReferenceSystem
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 120
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Spatial reference system used by the source data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("sourceReferenceSystem", Order = 2)]
+
+      public MD_ReferenceSystem_Type? SourceReferenceSystem { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+    content.vb: >-
+      <JsonProperty("sourceReferenceSystem", Order:=2)>
+
+      Public Property SourceReferenceSystem As MD_ReferenceSystem_Type
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sourceReferenceSystem
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+  id: SourceCitation
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: SourceCitation
+  nameWithType: LI_Source_Type.SourceCitation
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SourceCitation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Recommended reference to be used for the source data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("sourceCitation", Order = 3)]
+
+      public CI_Citation_Type? SourceCitation { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+    content.vb: >-
+      <JsonProperty("sourceCitation", Order:=3)>
+
+      Public Property SourceCitation As CI_Citation_Type
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sourceCitation
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+  id: SourceExtent
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: SourceExtent
+  nameWithType: LI_Source_Type.SourceExtent
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SourceExtent
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 148
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Information about the spatial, vertical, and temporal extent of the source data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("sourceExtent", Order = 4)]
+
+      public ObservableCollection<EX_Extent_Type>? SourceExtent { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+    content.vb: >-
+      <JsonProperty("sourceExtent", Order:=4)>
+
+      Public Property SourceExtent As ObservableCollection(Of EX_Extent_Type)
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sourceExtent
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+  commentId: P:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+  id: SourceStep
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: SourceStep
+  nameWithType: LI_Source_Type.SourceStep
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SourceStep
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 162
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: Information about an event in the creation process for the source data.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("sourceStep", Order = 5)]
+
+      public ObservableCollection<LI_ProcessStep_Type>? SourceStep { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type}
+    content.vb: >-
+      <JsonProperty("sourceStep", Order:=5)>
+
+      Public Property SourceStep As ObservableCollection(Of LI_ProcessStep_Type)
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sourceStep
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  commentId: M:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  id: CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(LI_Source_Type?)
+  nameWithType: LI_Source_Type.CompareTo(LI_Source_Type?)
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CompareTo
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 185
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: >-
+    Compares this instance to another <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref> instance.
+
+    <br />
+
+    The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.
+  example: []
+  syntax:
+    content: public int CompareTo(LI_Source_Type? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+      description: The other <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref>.
+    return:
+      type: System.Int32
+      description: >-
+        An <xref href="System.Int32" data-throw-if-not-resolved="false"></xref> showing the result of the comparison.
+
+        <ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+    content.vb: Public Function CompareTo(other As LI_Source_Type) As Integer
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo*
+  implements:
+  - System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  nameWithType.vb: LI_Source_Type.CompareTo(LI_Source_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  name.vb: CompareTo(LI_Source_Type)
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  commentId: M:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  id: Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: Equals(LI_Source_Type?)
+  nameWithType: LI_Source_Type.Equals(LI_Source_Type?)
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Equals
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 209
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: >-
+    Determines whether the <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref>.
+
+    This will order collections before comparing them.
+  example: []
+  syntax:
+    content: public bool Equals(LI_Source_Type? other)
+    parameters:
+    - id: other
+      type: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+      description: The <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Function Equals(other As LI_Source_Type) As Boolean
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals*
+  implements:
+  - System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  nameWithType.vb: LI_Source_Type.Equals(LI_Source_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  name.vb: Equals(LI_Source_Type)
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(System.Object)
+  commentId: M:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: LI_Source_Type.Equals(object?)
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Equals
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 229
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: >-
+    Determines whether the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to the current <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref>.
+
+    This will order collections before comparing them.
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to compare.
+    return:
+      type: System.Boolean
+      description: <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">obj</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals*
+  nameWithType.vb: LI_Source_Type.Equals(Object)
+  fullName.vb: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals(Object)
+  name.vb: Equals(Object)
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode
+  commentId: M:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode
+  id: GetHashCode
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: LI_Source_Type.GetHashCode()
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: GetHashCode
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/DataQuality/Lineage/LI_Source_Type.cs
+    startLine: 238
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  summary: >-
+    Gets the hash code for the <xref href="NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type" data-throw-if-not-resolved="false"></xref> using <xref href="NDSH.Hashing.NdshHashCode" data-throw-if-not-resolved="false"></xref>. This will also order 
+
+    collections before hashing them.
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+      description: The hash code.
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode*
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Geospatial.Metadata.MetadataObject
+  commentId: T:NDSH.Geospatial.Metadata.MetadataObject
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MetadataObject.html
+  name: MetadataObject
+  nameWithType: MetadataObject
+  fullName: NDSH.Geospatial.Metadata.MetadataObject
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Geospatial.Metadata.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.INullableId
+  commentId: T:NDSH.Geospatial.Metadata.INullableId
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableId.html
+  name: INullableId
+  nameWithType: INullableId
+  fullName: NDSH.Geospatial.Metadata.INullableId
+- uid: NDSH.Geospatial.Metadata.INullableUuid
+  commentId: T:NDSH.Geospatial.Metadata.INullableUuid
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.INullableUuid.html
+  name: INullableUuid
+  nameWithType: INullableUuid
+  fullName: NDSH.Geospatial.Metadata.INullableUuid
+- uid: NDSH.Geospatial.Metadata.ITypeReferenced
+  commentId: T:NDSH.Geospatial.Metadata.ITypeReferenced
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ITypeReferenced.html
+  name: ITypeReferenced
+  nameWithType: ITypeReferenced
+  fullName: NDSH.Geospatial.Metadata.ITypeReferenced
+- uid: System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  commentId: T:System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  parent: System
+  definition: System.IComparable`1
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<LI_Source_Type>
+  nameWithType: IComparable<LI_Source_Type>
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type>
+  nameWithType.vb: IComparable(Of LI_Source_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  name.vb: IComparable(Of LI_Source_Type)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+- uid: System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<LI_Source_Type>
+  nameWithType: IEquatable<LI_Source_Type>
+  fullName: System.IEquatable<NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type>
+  nameWithType.vb: IEquatable(Of LI_Source_Type)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  name.vb: IEquatable(Of LI_Source_Type)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Id
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Id
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Id
+  name: Id
+  nameWithType: MetadataObject.Id
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Id
+- uid: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.Uuid
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_Uuid
+  name: Uuid
+  nameWithType: MetadataObject.Uuid
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.Uuid
+- uid: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  commentId: P:NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+  parent: NDSH.Geospatial.Metadata.MetadataObject
+  href: NDSH.Geospatial.Metadata.MetadataObject.html#NDSH_Geospatial_Metadata_MetadataObject_TypeReferenceMetadata
+  name: TypeReferenceMetadata
+  nameWithType: MetadataObject.TypeReferenceMetadata
+  fullName: NDSH.Geospatial.Metadata.MetadataObject.TypeReferenceMetadata
+- uid: NDSH.Database.Entities.ObservableDbEntity.DbId
+  commentId: P:NDSH.Database.Entities.ObservableDbEntity.DbId
+  parent: NDSH.Database.Entities.ObservableDbEntity
+  href: NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId
+  name: DbId
+  nameWithType: ObservableDbEntity.DbId
+  fullName: NDSH.Database.Entities.ObservableDbEntity.DbId
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  name: LI_Source_Type
+  nameWithType: LI_Source_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.#ctor
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type__ctor
+  name: LI_Source_Type
+  nameWithType: LI_Source_Type.LI_Source_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.LI_Source_Type
+  nameWithType.vb: LI_Source_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_Description
+  name: Description
+  nameWithType: LI_Source_Type.Description
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Description
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html
+  name: CharacterString
+  nameWithType: CharacterString
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_ScaleDenominator
+  name: ScaleDenominator
+  nameWithType: LI_Source_Type.ScaleDenominator
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.ScaleDenominator
+- uid: NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type
+  commentId: T:NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type
+  parent: NDSH.Geospatial.Metadata.Identification
+  href: NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type.html
+  name: MD_RepresentativeFraction_Type
+  nameWithType: MD_RepresentativeFraction_Type
+  fullName: NDSH.Geospatial.Metadata.Identification.MD_RepresentativeFraction_Type
+- uid: NDSH.Geospatial.Metadata.Identification
+  commentId: N:NDSH.Geospatial.Metadata.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Identification
+  nameWithType: NDSH.Geospatial.Metadata.Identification
+  fullName: NDSH.Geospatial.Metadata.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.Identification.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_SourceReferenceSystem
+  name: SourceReferenceSystem
+  nameWithType: LI_Source_Type.SourceReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceReferenceSystem
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+  parent: NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type.html
+  name: MD_ReferenceSystem_Type
+  nameWithType: MD_ReferenceSystem_Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_SourceCitation
+  name: SourceCitation
+  nameWithType: LI_Source_Type.SourceCitation
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceCitation
+- uid: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+  parent: NDSH.Geospatial.Metadata.Citation
+  href: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type.html
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.Citation.CI_Citation_Type
+- uid: NDSH.Geospatial.Metadata.Citation
+  commentId: N:NDSH.Geospatial.Metadata.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Citation
+  nameWithType: NDSH.Geospatial.Metadata.Citation
+  fullName: NDSH.Geospatial.Metadata.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.Citation.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_SourceExtent
+  name: SourceExtent
+  nameWithType: LI_Source_Type.SourceExtent
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceExtent
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.Extent.EX_Extent_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<EX_Extent_Type>
+  nameWithType: ObservableCollection<EX_Extent_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.Extent.EX_Extent_Type>
+  nameWithType.vb: ObservableCollection(Of EX_Extent_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.Extent.EX_Extent_Type)
+  name.vb: ObservableCollection(Of EX_Extent_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type
+    name: EX_Extent_Type
+    href: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type
+    name: EX_Extent_Type
+    href: NDSH.Geospatial.Metadata.Extent.EX_Extent_Type.html
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_SourceStep
+  name: SourceStep
+  nameWithType: LI_Source_Type.SourceStep
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.SourceStep
+- uid: System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<LI_ProcessStep_Type>
+  nameWithType: ObservableCollection<LI_ProcessStep_Type>
+  fullName: System.Collections.ObjectModel.ObservableCollection<NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type>
+  nameWithType.vb: ObservableCollection(Of LI_ProcessStep_Type)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type)
+  name.vb: ObservableCollection(Of LI_ProcessStep_Type)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+    name: LI_ProcessStep_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+    name: LI_ProcessStep_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_CompareTo_NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_
+  name: CompareTo
+  nameWithType: LI_Source_Type.CompareTo
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.CompareTo
+- uid: System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  commentId: M:System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  parent: System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  definition: System.IComparable`1.CompareTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(LI_Source_Type)
+  nameWithType: IComparable<LI_Source_Type>.CompareTo(LI_Source_Type)
+  fullName: System.IComparable<NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type>.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  nameWithType.vb: IComparable(Of LI_Source_Type).CompareTo(LI_Source_Type)
+  fullName.vb: System.IComparable(Of NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type).CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  spec.csharp:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+  spec.vb:
+  - uid: System.IComparable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.CompareTo(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_Equals_NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_
+  name: Equals
+  nameWithType: LI_Source_Type.Equals
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.Equals
+- uid: System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  commentId: M:System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  parent: System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(LI_Source_Type)
+  nameWithType: IEquatable<LI_Source_Type>.Equals(LI_Source_Type)
+  fullName: System.IEquatable<NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type>.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  nameWithType.vb: IEquatable(Of LI_Source_Type).Equals(LI_Source_Type)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type).Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+  spec.csharp:
+  - uid: System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type}.Equals(NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+    name: LI_Source_Type
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NDSH.Hashing.NdshHashCode
+  commentId: T:NDSH.Hashing.NdshHashCode
+  href: NDSH.Hashing.NdshHashCode.html
+  name: NdshHashCode
+  nameWithType: NdshHashCode
+  fullName: NDSH.Hashing.NdshHashCode
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode*
+  commentId: Overload:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html#NDSH_Geospatial_Metadata_DataQuality_Lineage_LI_Source_Type_GetHashCode
+  name: GetHashCode
+  nameWithType: LI_Source_Type.GetHashCode
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.GetHashCode

@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  id: SpatialSchema
+  parent: NDSH.Geospatial.Metadata.V2005.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Object
+  - NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Point
+  - NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Polygon
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Object
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Object
+  href: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Object.html
+  name: GM_Object
+  nameWithType: GM_Object
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Object
+- uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Point
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Point
+  href: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Point.html
+  name: GM_Point
+  nameWithType: GM_Point
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Point
+- uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Polygon
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Polygon
+  href: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Polygon.html
+  name: GM_Polygon
+  nameWithType: GM_Polygon
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.GM_Polygon

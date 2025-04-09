@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+  id: Coordinate
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Datums.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.ReferenceSystems.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.html

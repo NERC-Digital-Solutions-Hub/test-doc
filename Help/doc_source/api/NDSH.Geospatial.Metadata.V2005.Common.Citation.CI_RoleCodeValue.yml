@@ -1,0 +1,891 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  id: CI_RoleCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Author
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Custodian
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Distributor
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Originator
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Owner
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PointOfContact
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PrincipalInvestigator
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Processor
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Publisher
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.ResourceProvider
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.User
+  langs:
+  - csharp
+  - vb
+  name: CI_RoleCodeValue
+  nameWithType: CI_RoleCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CI_RoleCodeValue
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: The function performed by the responsible party.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum CI_RoleCodeValue
+    content.vb: >-
+      <Serializable>
+
+      Public Enum CI_RoleCodeValue
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.ResourceProvider
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.ResourceProvider
+  id: ResourceProvider
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: ResourceProvider
+  nameWithType: CI_RoleCodeValue.ResourceProvider
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.ResourceProvider
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ResourceProvider
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party that supplies the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "resourceProvider")]
+
+      ResourceProvider = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="resourceProvider")>
+
+      ResourceProvider = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: resourceProvider
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Custodian
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Custodian
+  id: Custodian
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Custodian
+  nameWithType: CI_RoleCodeValue.Custodian
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Custodian
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Custodian
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: >-
+    Party that accepts accountability and responsibility for the data and
+
+    ensures appropriate care and maintenance of the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "custodian")]
+
+      Custodian = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="custodian")>
+
+      Custodian = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: custodian
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Owner
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Owner
+  id: Owner
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: CI_RoleCodeValue.Owner
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Owner
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Owner
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party that owns the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "owner")]
+
+      Owner = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="owner")>
+
+      Owner = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: owner
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.User
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.User
+  id: User
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: CI_RoleCodeValue.User
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.User
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: User
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 65
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who uses the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "user")]
+
+      User = 4
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="user")>
+
+      User = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: user
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Distributor
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Distributor
+  id: Distributor
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Distributor
+  nameWithType: CI_RoleCodeValue.Distributor
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Distributor
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Distributor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 72
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who distributes the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "distributor")]
+
+      Distributor = 5
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="distributor")>
+
+      Distributor = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: distributor
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Originator
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Originator
+  id: Originator
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Originator
+  nameWithType: CI_RoleCodeValue.Originator
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Originator
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Originator
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 79
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who created the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "originator")]
+
+      Originator = 6
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="originator")>
+
+      Originator = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: originator
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PointOfContact
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PointOfContact
+  id: PointOfContact
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: PointOfContact
+  nameWithType: CI_RoleCodeValue.PointOfContact
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PointOfContact
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: PointOfContact
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 86
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who can be contacted for acquiring knowledge about or acquisition of the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "pointOfContact")]
+
+      PointOfContact = 7
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="pointOfContact")>
+
+      PointOfContact = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: pointOfContact
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PrincipalInvestigator
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PrincipalInvestigator
+  id: PrincipalInvestigator
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: PrincipalInvestigator
+  nameWithType: CI_RoleCodeValue.PrincipalInvestigator
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.PrincipalInvestigator
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: PrincipalInvestigator
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 93
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Key party responsible for gathering information and conducting research.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "principalInvestigator")]
+
+      PrincipalInvestigator = 8
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="principalInvestigator")>
+
+      PrincipalInvestigator = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: principalInvestigator
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Processor
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Processor
+  id: Processor
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Processor
+  nameWithType: CI_RoleCodeValue.Processor
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Processor
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Processor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 100
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who has processed the data in a manner such that the resource has been modified.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "processor")]
+
+      Processor = 9
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="processor")>
+
+      Processor = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: processor
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Publisher
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Publisher
+  id: Publisher
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Publisher
+  nameWithType: CI_RoleCodeValue.Publisher
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Publisher
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Publisher
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 107
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who published the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "publisher")]
+
+      Publisher = 10
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="publisher")>
+
+      Publisher = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: publisher
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Author
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Author
+  id: Author
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: CI_RoleCodeValue.Author
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.Author
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Author
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_RoleCodeValue.cs
+    startLine: 114
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Party who authored the resource.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "author")]
+
+      Author = 11
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    content.vb: >-
+      <EnumMember(Value:="author")>
+
+      Author = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: author
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<CI_RoleCodeValue>(CI_RoleCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumName<CI_RoleCodeValue>(CI_RoleCodeValue)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  name.vb: GetXmlEnumName(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<CI_RoleCodeValue>(CI_RoleCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<CI_RoleCodeValue>(CI_RoleCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  name.vb: GetXmlEnumAttributeOrName(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<CI_RoleCodeValue>(CI_RoleCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<CI_RoleCodeValue>(CI_RoleCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+  name.vb: GetXmlEnumAttribute(Of CI_RoleCodeValue)(CI_RoleCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+    name: CI_RoleCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue.html
+  name: CI_RoleCodeValue
+  nameWithType: CI_RoleCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_RoleCodeValue

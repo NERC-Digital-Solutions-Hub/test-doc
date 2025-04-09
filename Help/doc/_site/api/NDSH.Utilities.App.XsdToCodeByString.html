@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XsdToCodeByString | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XsdToCodeByString | NDSH ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/test-doc/new/dev/apiSpec/new?filename=NDSH_Utilities_App_XsdToCodeByString.md&amp;value=---%0Auid%3A%20NDSH.Utilities.App.XsdToCodeByString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Utilities.App.XsdToCodeByString">
+
+
+
+  <h1 id="NDSH_Utilities_App_XsdToCodeByString" data-uid="NDSH.Utilities.App.XsdToCodeByString" class="text-break">
+Class XsdToCodeByString  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Utilities.html">Utilities</a>.<a class="xref" href="NDSH.Utilities.App.html">App</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Utilities.App.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class XsdToCodeByString</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XsdToCodeByString</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString__ctor_" data-uid="NDSH.Utilities.App.XsdToCodeByString.#ctor*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString__ctor_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.#ctor(System.String)">
+  XsdToCodeByString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XsdToCodeByString(string logFilePath = &quot;&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>logFilePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_AbstractObject_Type_FP_" data-uid="NDSH.Utilities.App.XsdToCodeByString.AbstractObject_Type_FP*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_AbstractObject_Type_FP" data-uid="NDSH.Utilities.App.XsdToCodeByString.AbstractObject_Type_FP">
+  AbstractObject_Type_FP
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AbstractObject_Type_FP { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_Author_" data-uid="NDSH.Utilities.App.XsdToCodeByString.Author*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_Author" data-uid="NDSH.Utilities.App.XsdToCodeByString.Author">
+  Author
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Author { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_LogFilePath_" data-uid="NDSH.Utilities.App.XsdToCodeByString.LogFilePath*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_LogFilePath" data-uid="NDSH.Utilities.App.XsdToCodeByString.LogFilePath">
+  LogFilePath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LogFilePath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_XsdClasses_" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdClasses*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_XsdClasses" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdClasses">
+  XsdClasses
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;XsdToCodeByString.XSDClass&gt; XsdClasses { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.html">XsdToCodeByString</a>.<a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.XSDClass.html">XSDClass</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_XsdFilePath_" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdFilePath*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_XsdFilePath" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdFilePath">
+  XsdFilePath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string XsdFilePath { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_XsdString_" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdString*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_XsdString" data-uid="NDSH.Utilities.App.XsdToCodeByString.XsdString">
+  XsdString
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string XsdString { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_AddXmlIncludeAttribute_" data-uid="NDSH.Utilities.App.XsdToCodeByString.AddXmlIncludeAttribute*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_AddXmlIncludeAttribute_NDSH_Utilities_App_XsdToCodeByString_XSDClass_System_String_System_Boolean_" data-uid="NDSH.Utilities.App.XsdToCodeByString.AddXmlIncludeAttribute(NDSH.Utilities.App.XsdToCodeByString.XSDClass,System.String,System.Boolean)">
+  AddXmlIncludeAttribute(XSDClass, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L435"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add XmlInclude Attribute to AbstractObject_Type.cs if <code class="paramref">xsdClass</code> <a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.XSDClass.html#NDSH_Utilities_App_XsdToCodeByString_XSDClass_Inheritance">Inheritance</a> is &quot;AbstractObject_Type&quot;
+Otherwise Log the <code class="paramref">xsdClass</code> <a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.XSDClass.html#NDSH_Utilities_App_XsdToCodeByString_XSDClass_Name">Name</a> for the record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddXmlIncludeAttribute(XsdToCodeByString.XSDClass xsdClass, string @namespace = &quot;&quot;, bool writeToFile = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsdClass</code> <a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.html">XsdToCodeByString</a>.<a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.XSDClass.html">XSDClass</a></dt>
+    <dd></dd>
+    <dt><code>namespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>writeToFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_BeginTag_" data-uid="NDSH.Utilities.App.XsdToCodeByString.BeginTag*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_BeginTag_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.BeginTag(System.String)">
+  BeginTag(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>returns begin tag of <code class="paramref">tagName</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BeginTag(string tagName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tagName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_EndTag_" data-uid="NDSH.Utilities.App.XsdToCodeByString.EndTag*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_EndTag_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.EndTag(System.String)">
+  EndTag(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>return end tag of <code class="paramref">tagName</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EndTag(string tagName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tagName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_FindTagIdx_" data-uid="NDSH.Utilities.App.XsdToCodeByString.FindTagIdx*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_FindTagIdx_System_String_System_String_System_Int32_System_Int32_System_Boolean_" data-uid="NDSH.Utilities.App.XsdToCodeByString.FindTagIdx(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+  FindTagIdx(string, string, int, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>returns the <code class="paramref">tag</code> index from <code class="paramref">startIdx</code>, returns -1 if not found</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int FindTagIdx(string tag, string xsdString, int startIdx = 0, int endIdx = -1, bool lastIdx = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xsdString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>startIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>endIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>lastIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_GetEmbeddedXsdFileResourceString_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetEmbeddedXsdFileResourceString*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_GetEmbeddedXsdFileResourceString_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetEmbeddedXsdFileResourceString(System.String)">
+  GetEmbeddedXsdFileResourceString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string? GetEmbeddedXsdFileResourceString(string xsdResourceFile)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsdResourceFile</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_GetTagAttribute_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetTagAttribute*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_GetTagAttribute_System_String_System_String_System_String_System_Int32_System_Int32_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetTagAttribute(System.String,System.String,System.String,System.Int32,System.Int32)">
+  GetTagAttribute(string, string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTagAttribute(string tagName, string attrName, string xsdString, int startIdx = 0, int endIdx = -1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tagName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>attrName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xsdString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>startIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>endIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_GetTagValue_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetTagValue*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_GetTagValue_System_String_System_String_System_Int32_System_Int32_" data-uid="NDSH.Utilities.App.XsdToCodeByString.GetTagValue(System.String,System.String,System.Int32,System.Int32)">
+  GetTagValue(string, string, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>extract value between tag</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetTagValue(string tagName, string xsdString, int startIdx = 0, int endIdx = -1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tagName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xsdString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>startIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>endIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_ParseXsdString_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ParseXsdString*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_ParseXsdString_System_String_System_Int32_System_Boolean_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ParseXsdString(System.String,System.Int32,System.Boolean)">
+  ParseXsdString(string, int, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ParseXsdString(string xsdString = &quot;&quot;, int startIdx = 0, bool recursive = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>xsdString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>startIdx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>recursive</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_ReadFileToString_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ReadFileToString*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_ReadFileToString_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ReadFileToString(System.String)">
+  ReadFileToString(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadFileToString(string filePath)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_ToCsFile_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ToCsFile*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_ToCsFile_System_String_NDSH_Utilities_App_XsdToCodeByString_XSDClass_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ToCsFile(System.String,NDSH.Utilities.App.XsdToCodeByString.XSDClass,System.String,System.String,System.String,System.String,System.Boolean)">
+  ToCsFile(string, XSDClass, string, string, string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToCsFile(string destinationDir, XsdToCodeByString.XSDClass xsdClass, string xmlPrefix = &quot;&quot;, string xmlNamespace = &quot;gmi&quot;, string @namespace = &quot;NDSH.Geospatial.Metadata.V19136&quot;, string author = &quot;XsdToCodeByString&quot;, bool addXmlInclude = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>destinationDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xsdClass</code> <a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.html">XsdToCodeByString</a>.<a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.XSDClass.html">XSDClass</a></dt>
+    <dd></dd>
+    <dt><code>xmlPrefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xmlNamespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>namespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>author</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>addXmlInclude</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_ToCsFiles_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ToCsFiles*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_ToCsFiles_System_String_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="NDSH.Utilities.App.XsdToCodeByString.ToCsFiles(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+  ToCsFiles(string, string, string, string, string, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L520"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterate throught <a class="xref" href="NDSH.Utilities.App.XsdToCodeByString.html#NDSH_Utilities_App_XsdToCodeByString_XsdClasses">XsdClasses</a> and write each to *.cs under the given directory.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToCsFiles(string destinationDir, string xmlPrefix, string xmlNamespace, string @namespace, string author, bool addXmlInclude = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>destinationDir</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The destination directory.</p>
+</dd>
+    <dt><code>xmlPrefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>xmlNamespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The xml namespace.</p>
+</dd>
+    <dt><code>namespace</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The namespace.</p>
+</dd>
+    <dt><code>author</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>addXmlInclude</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Indicates whether to add an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlincludeattribute">XmlIncludeAttribute</a> attribute or not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Utilities_App_XsdToCodeByString_WriteLog_" data-uid="NDSH.Utilities.App.XsdToCodeByString.WriteLog*"></a>
+
+  <h3 id="NDSH_Utilities_App_XsdToCodeByString_WriteLog_System_String_System_String_" data-uid="NDSH.Utilities.App.XsdToCodeByString.WriteLog(System.String,System.String)">
+  WriteLog(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>stupid logging function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteLog(string s, string logFilePath = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>logFilePath</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Utilities.App/src/XsdToCodeByString.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

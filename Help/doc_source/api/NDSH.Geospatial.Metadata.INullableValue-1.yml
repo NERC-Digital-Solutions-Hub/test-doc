@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.INullableValue`1
+  commentId: T:NDSH.Geospatial.Metadata.INullableValue`1
+  id: INullableValue`1
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.INullableValue`1.Value
+  langs:
+  - csharp
+  - vb
+  name: INullableValue<T>
+  nameWithType: INullableValue<T>
+  fullName: NDSH.Geospatial.Metadata.INullableValue<T>
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableValue{T}.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: INullableValue
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableValue{T}.cs
+    startLine: 42
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Represents an interface for defining a standard value property in value types for geospatial metadata.
+
+    This interface ensures that implementing classes provide a structured and serializable
+
+    mechanism for handling values in compliance with the ISO 19115 standard.
+  remarks: >-
+    <p>
+      <b>Considerations:</b>
+      <ul><li>
+          The <xref href="NDSH.Geospatial.Metadata.INullableValue%601.Value" data-throw-if-not-resolved="false"></xref> property is a value type and may require validation depending on usage.
+        </li></ul>
+    </p>
+  example: []
+  syntax:
+    content: 'public interface INullableValue<T> where T : struct'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface INullableValue(Of T As Structure)
+  nameWithType.vb: INullableValue(Of T)
+  fullName.vb: NDSH.Geospatial.Metadata.INullableValue(Of T)
+  name.vb: INullableValue(Of T)
+- uid: NDSH.Geospatial.Metadata.INullableValue`1.Value
+  commentId: P:NDSH.Geospatial.Metadata.INullableValue`1.Value
+  id: Value
+  parent: NDSH.Geospatial.Metadata.INullableValue`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: INullableValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.INullableValue<T>.Value
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableValue{T}.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Value
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/INullableValue{T}.cs
+    startLine: 47
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: Gets/Sets the value associated with a metadata entity.
+  example: []
+  syntax:
+    content: T? Value { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{{T}}
+    content.vb: Property Value As T?
+  overload: NDSH.Geospatial.Metadata.INullableValue`1.Value*
+  nameWithType.vb: INullableValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.INullableValue(Of T).Value
+references:
+- uid: NDSH.Geospatial.Metadata.INullableValue`1.Value
+  commentId: P:NDSH.Geospatial.Metadata.INullableValue`1.Value
+  href: NDSH.Geospatial.Metadata.INullableValue-1.html#NDSH_Geospatial_Metadata_INullableValue_1_Value
+  name: Value
+  nameWithType: INullableValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.INullableValue<T>.Value
+  nameWithType.vb: INullableValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.INullableValue(Of T).Value
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.INullableValue`1.Value*
+  commentId: Overload:NDSH.Geospatial.Metadata.INullableValue`1.Value
+  href: NDSH.Geospatial.Metadata.INullableValue-1.html#NDSH_Geospatial_Metadata_INullableValue_1_Value
+  name: Value
+  nameWithType: INullableValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.INullableValue<T>.Value
+  nameWithType.vb: INullableValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.INullableValue(Of T).Value
+- uid: System.Nullable{{T}}
+  commentId: T:System.Nullable{`0}
+  parent: System
+  definition: System.Nullable`1
+  name: T?
+  nameWithType: T?
+  fullName: T?
+  spec.csharp:
+  - name: T
+  - name: '?'
+  spec.vb:
+  - name: T
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,1086 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  id: MultiSurfaceType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+  langs:
+  - csharp
+  - vb
+  name: MultiSurfaceType
+  nameWithType: MultiSurfaceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MultiSurfaceType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+    startLine: 18
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("MultiSurfaceType")]
+
+      public class MultiSurfaceType : AbstractGeometricAggregateType, INotifyPropertyChanged, ISrsReference, ISrsInformation
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("MultiSurfaceType")>
+
+      Public Class MultiSurfaceType Inherits AbstractGeometricAggregateType Implements INotifyPropertyChanged, ISrsReference, ISrsInformation
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsReference
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsInformation
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.aggregationType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsName
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsDimension
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.AxisLabel
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.UomLabels
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.xmlns
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.MetaDataProperty
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Description
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.DescriptionReference
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Identifier
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Name
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Id
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: MultiSurfaceType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  langs:
+  - csharp
+  - vb
+  name: MultiSurfaceType()
+  nameWithType: MultiSurfaceType.MultiSurfaceType()
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.MultiSurfaceType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  summary: MultiSurfaceType class constructor
+  example: []
+  syntax:
+    content: public MultiSurfaceType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor*
+  nameWithType.vb: MultiSurfaceType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+  id: surfaceMember
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  langs:
+  - csharp
+  - vb
+  name: surfaceMember
+  nameWithType: MultiSurfaceType.surfaceMember
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: surfaceMember
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  syntax:
+    content: >-
+      [JsonProperty("surfaceMember", Order = 0)]
+
+      public List<SurfacePropertyType> surfaceMember { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType}
+    content.vb: >-
+      <JsonProperty("surfaceMember", Order:=0)>
+
+      Public Property surfaceMember As List(Of SurfacePropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: surfaceMember
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+  id: surfaceMembers
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType
+  langs:
+  - csharp
+  - vb
+  name: surfaceMembers
+  nameWithType: MultiSurfaceType.surfaceMembers
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: surfaceMembers
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Geometry/Aggregates/MultiSurfaceType.cs
+    startLine: 59
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  syntax:
+    content: >-
+      [JsonProperty("surfaceMembers", Order = 1)]
+
+      public SurfaceArrayPropertyType surfaceMembers { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfaceArrayPropertyType
+    content.vb: >-
+      <JsonProperty("surfaceMembers", Order:=1)>
+
+      Public Property surfaceMembers As SurfaceArrayPropertyType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: surfaceMembers
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+    name: Aggregates
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+    name: Aggregates
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Model
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html
+  name: AbstractGMLType
+  nameWithType: AbstractGMLType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.html
+  name: AbstractGeometryType
+  nameWithType: AbstractGeometryType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.html
+  name: AbstractGeometricAggregateType
+  nameWithType: AbstractGeometricAggregateType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsReference
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsReference
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsReference.html
+  name: ISrsReference
+  nameWithType: ISrsReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsReference
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsInformation
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsInformation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsInformation.html
+  name: ISrsInformation
+  nameWithType: ISrsInformation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.ISrsInformation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.aggregationType
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.aggregationType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Aggregates_AbstractGeometricAggregateType_aggregationType
+  name: aggregationType
+  nameWithType: AbstractGeometricAggregateType.aggregationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.AbstractGeometricAggregateType.aggregationType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsName
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsName
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_AbstractGeometryType_SrsName
+  name: SrsName
+  nameWithType: AbstractGeometryType.SrsName
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsName
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsDimension
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsDimension
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_AbstractGeometryType_SrsDimension
+  name: SrsDimension
+  nameWithType: AbstractGeometryType.SrsDimension
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.SrsDimension
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.AxisLabel
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.AxisLabel
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_AbstractGeometryType_AxisLabel
+  name: AxisLabel
+  nameWithType: AbstractGeometryType.AxisLabel
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.AxisLabel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.UomLabels
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.UomLabels
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Basic0D1D_AbstractGeometryType_UomLabels
+  name: UomLabels
+  nameWithType: AbstractGeometryType.UomLabels
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.AbstractGeometryType.UomLabels
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.xmlns
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_xmlns
+  name: xmlns
+  nameWithType: AbstractGMLType.xmlns
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.xmlns
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.MetaDataProperty
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.MetaDataProperty
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_MetaDataProperty
+  name: MetaDataProperty
+  nameWithType: AbstractGMLType.MetaDataProperty
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.MetaDataProperty
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Description
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Description
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_Description
+  name: Description
+  nameWithType: AbstractGMLType.Description
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Description
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.DescriptionReference
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.DescriptionReference
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_DescriptionReference
+  name: DescriptionReference
+  nameWithType: AbstractGMLType.DescriptionReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.DescriptionReference
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Identifier
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Identifier
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_Identifier
+  name: Identifier
+  nameWithType: AbstractGMLType.Identifier
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Identifier
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Name
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Name
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_Name
+  name: Name
+  nameWithType: AbstractGMLType.Name
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Name
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Base_AbstractGMLType_Id
+  name: Id
+  nameWithType: AbstractGMLType.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.AbstractGMLType.Id
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Base.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic0D1D.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Aggregates_MultiSurfaceType__ctor
+  name: MultiSurfaceType
+  nameWithType: MultiSurfaceType.MultiSurfaceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.MultiSurfaceType
+  nameWithType.vb: MultiSurfaceType.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Aggregates_MultiSurfaceType_surfaceMember
+  name: surfaceMember
+  nameWithType: MultiSurfaceType.surfaceMember
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMember
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SurfacePropertyType>
+  nameWithType: List<SurfacePropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType>
+  nameWithType.vb: List(Of SurfacePropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType)
+  name.vb: List(Of SurfacePropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType
+    name: SurfacePropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType
+    name: SurfacePropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfacePropertyType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Geometry_Aggregates_MultiSurfaceType_surfaceMembers
+  name: surfaceMembers
+  nameWithType: MultiSurfaceType.surfaceMembers
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Aggregates.MultiSurfaceType.surfaceMembers
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfaceArrayPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfaceArrayPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfaceArrayPropertyType.html
+  name: SurfaceArrayPropertyType
+  nameWithType: SurfaceArrayPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.SurfaceArrayPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+    name: Basic2D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D
+    name: Basic2D
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Basic2D.html

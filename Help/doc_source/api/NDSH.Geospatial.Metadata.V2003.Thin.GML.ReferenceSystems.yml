@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  id: ReferenceSystems
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.CRSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.DomainOfValidity
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.IdentifiedObjectType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.CRSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.CRSPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.CRSPropertyType.html
+  name: CRSPropertyType
+  nameWithType: CRSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.CRSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.DomainOfValidity
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.DomainOfValidity
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.DomainOfValidity.html
+  name: DomainOfValidity
+  nameWithType: DomainOfValidity
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.DomainOfValidity
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.IdentifiedObjectType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.IdentifiedObjectType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.IdentifiedObjectType.html
+  name: IdentifiedObjectType
+  nameWithType: IdentifiedObjectType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.IdentifiedObjectType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.ReferenceSystems.html

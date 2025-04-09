@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Tests.Content
+  id: Content
+  parent: NDSH.Geospatial.Metadata.V2003.Tests
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Tests.Content.Content
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Tests.Content
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Tests.Content.Content
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Tests.Content.Content
+  href: NDSH.Geospatial.Metadata.V2003.Tests.Content.Content.html
+  name: Content
+  nameWithType: Content
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests.Content.Content

@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common
+  id: Common
+  parent: NDSH.Geospatial.Metadata.V2005
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation
+  - NDSH.Geospatial.Metadata.V2005.Common.Extent
+  - NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.Common
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Extent
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Extent
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Extent
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Extent
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Extent
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Metadata.V2005.Common.Extent.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Metadata.V2005.Common.Extent.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+    name: SpatialSchema
+    href: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema
+    name: SpatialSchema
+    href: NDSH.Geospatial.Metadata.V2005.Common.SpatialSchema.html

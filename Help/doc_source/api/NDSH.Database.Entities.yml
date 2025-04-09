@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  id: Entities
+  parent: NDSH.Database
+  children:
+  - NDSH.Database.Entities.DbEntity
+  - NDSH.Database.Entities.IDbId
+  - NDSH.Database.Entities.IHashCode
+  - NDSH.Database.Entities.ObservableDbEntity
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  type: Namespace
+  assemblies:
+  - NDSH.Models
+references:
+- uid: NDSH.Database.Entities.DbEntity
+  commentId: T:NDSH.Database.Entities.DbEntity
+  href: NDSH.Database.Entities.DbEntity.html
+  name: DbEntity
+  nameWithType: DbEntity
+  fullName: NDSH.Database.Entities.DbEntity
+- uid: NDSH.Database.Entities.IDbId
+  commentId: T:NDSH.Database.Entities.IDbId
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IDbId.html
+  name: IDbId
+  nameWithType: IDbId
+  fullName: NDSH.Database.Entities.IDbId
+- uid: NDSH.Database.Entities.IHashCode
+  commentId: T:NDSH.Database.Entities.IHashCode
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.IHashCode.html
+  name: IHashCode
+  nameWithType: IHashCode
+  fullName: NDSH.Database.Entities.IHashCode
+- uid: NDSH.Database.Entities.ObservableDbEntity
+  commentId: T:NDSH.Database.Entities.ObservableDbEntity
+  parent: NDSH.Database.Entities
+  href: NDSH.Database.Entities.ObservableDbEntity.html
+  name: ObservableDbEntity
+  nameWithType: ObservableDbEntity
+  fullName: NDSH.Database.Entities.ObservableDbEntity
+- uid: NDSH.Database.Entities
+  commentId: N:NDSH.Database.Entities
+  href: NDSH.html
+  name: NDSH.Database.Entities
+  nameWithType: NDSH.Database.Entities
+  fullName: NDSH.Database.Entities
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Database
+    name: Database
+    href: NDSH.Database.html
+  - name: .
+  - uid: NDSH.Database.Entities
+    name: Entities
+    href: NDSH.Database.Entities.html

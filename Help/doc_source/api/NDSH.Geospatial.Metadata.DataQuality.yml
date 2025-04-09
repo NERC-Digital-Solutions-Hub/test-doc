@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality
+  id: DataQuality
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type
+  - NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Completeness
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_ConformanceResult_Type
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_QuantitativeResult_Type
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType
+  - NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  - NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  - NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  - NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.DataQuality
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality
+  fullName: NDSH.Geospatial.Metadata.DataQuality
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Completeness
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Completeness
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+    name: Completeness
+    href: NDSH.Geospatial.Metadata.DataQuality.Completeness.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Completeness
+    name: Completeness
+    href: NDSH.Geospatial.Metadata.DataQuality.Completeness.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+    name: LogicalConsistency
+    href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+    name: LogicalConsistency
+    href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+    name: PositionalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+    name: PositionalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  fullName: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+    name: TemporalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy
+    name: TemporalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.TemporalAccuracy.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  fullName: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+    name: ThematicAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy
+    name: ThematicAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.ThematicAccuracy.html
+- uid: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type.html
+  name: AbstractDQ_Element_Type
+  nameWithType: AbstractDQ_Element_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Element_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type.html
+  name: AbstractDQ_Result_Type
+  nameWithType: AbstractDQ_Result_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.AbstractDQ_Result_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_ConformanceResult_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_ConformanceResult_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_ConformanceResult_Type.html
+  name: DQ_ConformanceResult_Type
+  nameWithType: DQ_ConformanceResult_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_ConformanceResult_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type.html
+  name: DQ_DataQuality_Type
+  nameWithType: DQ_DataQuality_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_DataQuality_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList.html
+  name: DQ_EvaluationMethodTypeCode_CodeList
+  nameWithType: DQ_EvaluationMethodTypeCode_CodeList
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_QuantitativeResult_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_QuantitativeResult_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_QuantitativeResult_Type.html
+  name: DQ_QuantitativeResult_Type
+  nameWithType: DQ_QuantitativeResult_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_QuantitativeResult_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType.html
+  name: DQ_Result_PropertyType
+  nameWithType: DQ_Result_PropertyType
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_Result_PropertyType
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType.html
+  name: DQ_Scope_PropertyType
+  nameWithType: DQ_Scope_PropertyType
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_PropertyType
+- uid: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type.html
+  name: DQ_Scope_Type
+  nameWithType: DQ_Scope_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.DQ_Scope_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality
+  fullName: NDSH.Geospatial.Metadata.DataQuality
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html

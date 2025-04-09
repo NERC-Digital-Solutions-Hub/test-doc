@@ -1,0 +1,837 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  id: LevenshteinTitleComparison
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create(System.String)
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord(System.Text.StringBuilder)
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString(System.Text.StringBuilder)
+  langs:
+  - csharp
+  - vb
+  name: LevenshteinTitleComparison
+  nameWithType: LevenshteinTitleComparison
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LevenshteinTitleComparison
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 18
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: The Levenshtein titles comparisons.
+  example: []
+  syntax:
+    content: >-
+      [Table("LevenshteinTitleComparisons")]
+
+      public sealed class LevenshteinTitleComparison
+    content.vb: >-
+      <Table("LevenshteinTitleComparisons")>
+
+      Public NotInheritable Class LevenshteinTitleComparison
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.TableAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LevenshteinTitleComparisons
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  id: Id
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: LevenshteinTitleComparison.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Id
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 26
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the primary key.
+  example: []
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  id: BatchId
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: BatchId
+  nameWithType: LevenshteinTitleComparison.BatchId
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: BatchId
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the batch id of the comparisons.
+  example: []
+  syntax:
+    content: public int BatchId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BatchId As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  id: RecordId1
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: RecordId1
+  nameWithType: LevenshteinTitleComparison.RecordId1
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: RecordId1
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 40
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the record id of the first title.
+  example: []
+  syntax:
+    content: public int RecordId1 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordId1 As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  id: RecordId2
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: RecordId2
+  nameWithType: LevenshteinTitleComparison.RecordId2
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: RecordId2
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 47
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the record id of the second title.
+  example: []
+  syntax:
+    content: public int RecordId2 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordId2 As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+  id: LevenshteinDistance
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: LevenshteinDistance
+  nameWithType: LevenshteinTitleComparison.LevenshteinDistance
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LevenshteinDistance
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 54
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the Levenshtein distance of the compared titles.
+  example: []
+  syntax:
+    content: public int LevenshteinDistance { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LevenshteinDistance As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  id: Percentile
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: Percentile
+  nameWithType: LevenshteinTitleComparison.Percentile
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Percentile
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 62
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: >-
+    Gets/Sets the percentile in which this Levenshtein distance falls
+
+    in the set of all Levenshtein distances for this title.
+  example: []
+  syntax:
+    content: public int Percentile { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Percentile As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create(System.String)
+  id: Create(System.String)
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: Create(string)
+  nameWithType: LevenshteinTitleComparison.Create(string)
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create(string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Create
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 77
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Creates an <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public static LevenshteinTitleComparison Create(string record)
+    parameters:
+    - id: record
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> with the record of two titles and their Levenshtein distance.
+    return:
+      type: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+      description: A <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref> instance.
+    content.vb: Public Shared Function Create(record As String) As LevenshteinTitleComparison
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create*
+  nameWithType.vb: LevenshteinTitleComparison.Create(String)
+  fullName.vb: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create(String)
+  name.vb: Create(String)
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString
+  id: ToString
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LevenshteinTitleComparison.ToString()
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToString
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 106
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Creates a string representation of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    The string has the following form: <br />
+
+    <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile" data-throw-if-not-resolved="false"></xref>}
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref> representation.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString(System.Text.StringBuilder)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString(System.Text.StringBuilder)
+  id: ToString(System.Text.StringBuilder)
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: ToString(StringBuilder)
+  nameWithType: LevenshteinTitleComparison.ToString(StringBuilder)
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString(System.Text.StringBuilder)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToString
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 156
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Creates a string representation of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+  remarks: >-
+    The string has the following form: <br />
+
+    <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2" data-throw-if-not-resolved="false"></xref>}, <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile" data-throw-if-not-resolved="false"></xref>: {<xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile" data-throw-if-not-resolved="false"></xref>}
+  example: []
+  syntax:
+    content: public string ToString(StringBuilder stringBuilder)
+    parameters:
+    - id: stringBuilder
+      type: System.Text.StringBuilder
+      description: The <xref href="System.Text.StringBuilder" data-throw-if-not-resolved="false"></xref> used to generate the string.
+    return:
+      type: System.String
+      description: A <xref href="System.String" data-throw-if-not-resolved="false"></xref> of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref> representation.
+    content.vb: Public Function ToString(stringBuilder As StringBuilder) As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord
+  id: ToCsvRecord
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: ToCsvRecord()
+  nameWithType: LevenshteinTitleComparison.ToCsvRecord()
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToCsvRecord
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 199
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Creates a string comma separated record of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public string ToCsvRecord()
+    return:
+      type: System.String
+      description: A comma separated <xref href="System.String" data-throw-if-not-resolved="false"></xref> representing the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function ToCsvRecord() As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord(System.Text.StringBuilder)
+  commentId: M:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord(System.Text.StringBuilder)
+  id: ToCsvRecord(System.Text.StringBuilder)
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  langs:
+  - csharp
+  - vb
+  name: ToCsvRecord(StringBuilder)
+  nameWithType: LevenshteinTitleComparison.ToCsvRecord(StringBuilder)
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord(System.Text.StringBuilder)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToCsvRecord
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleComparison.cs
+    startLine: 228
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Creates a string comma separated record of the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public string ToCsvRecord(StringBuilder stringBuilder)
+    parameters:
+    - id: stringBuilder
+      type: System.Text.StringBuilder
+      description: The <xref href="System.Text.StringBuilder" data-throw-if-not-resolved="false"></xref> used to generate the string.
+    return:
+      type: System.String
+      description: A comma separated <xref href="System.String" data-throw-if-not-resolved="false"></xref> representing the <xref href="NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Function ToCsvRecord(stringBuilder As StringBuilder) As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord*
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_Id
+  name: Id
+  nameWithType: LevenshteinTitleComparison.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_BatchId
+  name: BatchId
+  nameWithType: LevenshteinTitleComparison.BatchId
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_RecordId1
+  name: RecordId1
+  nameWithType: LevenshteinTitleComparison.RecordId1
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_RecordId2
+  name: RecordId2
+  nameWithType: LevenshteinTitleComparison.RecordId2
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_LevenshteinDistance
+  name: LevenshteinDistance
+  nameWithType: LevenshteinTitleComparison.LevenshteinDistance
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.LevenshteinDistance
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_Percentile
+  name: Percentile
+  nameWithType: LevenshteinTitleComparison.Percentile
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html
+  name: LevenshteinTitleComparison
+  nameWithType: LevenshteinTitleComparison
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_Create_System_String_
+  name: Create
+  nameWithType: LevenshteinTitleComparison.Create
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Create
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_Id
+  name: Id
+  nameWithType: LevenshteinTitleComparison.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Id
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_BatchId
+  name: BatchId
+  nameWithType: LevenshteinTitleComparison.BatchId
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.BatchId
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_RecordId1
+  name: RecordId1
+  nameWithType: LevenshteinTitleComparison.RecordId1
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId1
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_RecordId2
+  name: RecordId2
+  nameWithType: LevenshteinTitleComparison.RecordId2
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.RecordId2
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_Percentile
+  name: Percentile
+  nameWithType: LevenshteinTitleComparison.Percentile
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.Percentile
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_ToString
+  name: ToString
+  nameWithType: LevenshteinTitleComparison.ToString
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToString
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.text.stringbuilder
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Text
+    name: Text
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.text
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleComparison_ToCsvRecord
+  name: ToCsvRecord
+  nameWithType: LevenshteinTitleComparison.ToCsvRecord
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleComparison.ToCsvRecord

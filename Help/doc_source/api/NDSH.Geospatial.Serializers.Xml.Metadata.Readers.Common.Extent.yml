@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  id: Extent
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.AbstractExGeographicExtentXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExExtentXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicBoundingBoxXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicDescriptionXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.AbstractExGeographicExtentXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.AbstractExGeographicExtentXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.AbstractExGeographicExtentXmlReader.html
+  name: AbstractExGeographicExtentXmlReader
+  nameWithType: AbstractExGeographicExtentXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.AbstractExGeographicExtentXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExExtentXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExExtentXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExExtentXmlReader.html
+  name: ExExtentXmlReader
+  nameWithType: ExExtentXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExExtentXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicBoundingBoxXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicBoundingBoxXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicBoundingBoxXmlReader.html
+  name: ExGeographicBoundingBoxXmlReader
+  nameWithType: ExGeographicBoundingBoxXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicBoundingBoxXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicDescriptionXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicDescriptionXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicDescriptionXmlReader.html
+  name: ExGeographicDescriptionXmlReader
+  nameWithType: ExGeographicDescriptionXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.ExGeographicDescriptionXmlReader

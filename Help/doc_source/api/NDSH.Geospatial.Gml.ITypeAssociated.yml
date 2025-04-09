@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.ITypeAssociated
+  commentId: T:NDSH.Geospatial.Gml.ITypeAssociated
+  id: ITypeAssociated
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation
+  langs:
+  - csharp
+  - vb
+  name: ITypeAssociated
+  nameWithType: ITypeAssociated
+  fullName: NDSH.Geospatial.Gml.ITypeAssociated
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/ITypeAssociated.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ITypeAssociated
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/ITypeAssociated.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: >-
+    Indicates if a <xref href="NDSH.Geospatial.Gml.GmlObject" data-throw-if-not-resolved="false"></xref> provides a
+
+    <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata?text=union+association" data-throw-if-not-resolved="false"></xref> of
+
+    <xref href="NDSH.Geospatial.Gml.AssociationEntity" data-throw-if-not-resolved="false"></xref> or <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public interface ITypeAssociated
+    content.vb: Public Interface ITypeAssociated
+- uid: NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation
+  commentId: P:NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation
+  id: TypeAssociation
+  parent: NDSH.Geospatial.Gml.ITypeAssociated
+  langs:
+  - csharp
+  - vb
+  name: TypeAssociation
+  nameWithType: ITypeAssociated.TypeAssociation
+  fullName: NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/ITypeAssociated.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TypeAssociation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/ITypeAssociated.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: Gets/Set the <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata?text=union+association" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: TypeAssociationMetadata? TypeAssociation { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    content.vb: Property TypeAssociation As TypeAssociationMetadata
+  overload: NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation*
+references:
+- uid: NDSH.Geospatial.Gml.GmlObject
+  commentId: T:NDSH.Geospatial.Gml.GmlObject
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.GmlObject.html
+  name: GmlObject
+  nameWithType: GmlObject
+  fullName: NDSH.Geospatial.Gml.GmlObject
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata
+  nameWithType: TypeAssociationMetadata
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata
+- uid: NDSH.Geospatial.Gml.AssociationEntity
+  commentId: T:NDSH.Geospatial.Gml.AssociationEntity
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.AssociationEntity.html
+  name: AssociationEntity
+  nameWithType: AssociationEntity
+  fullName: NDSH.Geospatial.Gml.AssociationEntity
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceEntity
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ReferenceEntity.html
+  name: ReferenceEntity
+  nameWithType: ReferenceEntity
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation*
+  commentId: Overload:NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation
+  href: NDSH.Geospatial.Gml.ITypeAssociated.html#NDSH_Geospatial_Gml_ITypeAssociated_TypeAssociation
+  name: TypeAssociation
+  nameWithType: ITypeAssociated.TypeAssociation
+  fullName: NDSH.Geospatial.Gml.ITypeAssociated.TypeAssociation

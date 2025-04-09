@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  commentId: N:NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  id: ChrisXsdToCodeTests
+  parent: NDSH.Utilities.App.Tests
+  children:
+  - NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.ChrisXsdToCodeTests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  nameWithType: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  fullName: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests
+  type: Namespace
+  assemblies:
+  - NDSH.Utilities.App.Tests
+references:
+- uid: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.ChrisXsdToCodeTests
+  commentId: T:NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.ChrisXsdToCodeTests
+  href: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.ChrisXsdToCodeTests.html
+  name: ChrisXsdToCodeTests
+  nameWithType: ChrisXsdToCodeTests
+  fullName: NDSH.Utilities.App.Tests.ChrisXsdToCodeTests.ChrisXsdToCodeTests

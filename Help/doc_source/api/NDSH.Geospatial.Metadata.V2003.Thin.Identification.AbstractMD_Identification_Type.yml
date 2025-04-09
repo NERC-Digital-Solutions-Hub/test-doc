@@ -1,0 +1,1953 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  id: AbstractMD_Identification_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.xmlns
+  langs:
+  - csharp
+  - vb
+  name: AbstractMD_Identification_Type
+  nameWithType: AbstractMD_Identification_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AbstractMD_Identification_Type
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 39
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Basic information about data.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("AbstractMD_Identification")]
+
+      public abstract class AbstractMD_Identification_Type : AbstractObject_Type, INotifyPropertyChanged, IObjectIdentification, IId, IUuid
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("AbstractMD_Identification")>
+
+      Public MustInherit Class AbstractMD_Identification_Type Inherits AbstractObject_Type Implements INotifyPropertyChanged, IObjectIdentification, IId, IUuid
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  derivedClasses:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_DataIdentification_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Service.Metadata.SV_ServiceIdentification_Type
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Id
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Uuid
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: AbstractMD_Identification
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: AbstractMD_Identification_Type()
+  nameWithType: AbstractMD_Identification_Type.AbstractMD_Identification_Type()
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AbstractMD_Identification_Type()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 52
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: Initializes the <xref href="NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public AbstractMD_Identification_Type()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor*
+  nameWithType.vb: AbstractMD_Identification_Type.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.xmlns
+  id: xmlns
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: xmlns
+  nameWithType: AbstractMD_Identification_Type.xmlns
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.xmlns
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: xmlns
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 81
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: public XmlSerializerNamespaces xmlns
+    return:
+      type: System.Xml.Serialization.XmlSerializerNamespaces
+    content.vb: Public xmlns As XmlSerializerNamespaces
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+  id: Citation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: Citation
+  nameWithType: AbstractMD_Identification_Type.Citation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Citation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("citation", Order = 0)]
+
+      public CI_Citation_Type Citation { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_Citation_Type
+    content.vb: >-
+      <JsonProperty("citation", Order:=0)>
+
+      Public Property Citation As CI_Citation_Type
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: citation
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+  id: Abstract
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: AbstractMD_Identification_Type.Abstract
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Abstract
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 114
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("abstract", Order = 1)]
+
+      public CharacterString Abstract { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("abstract", Order:=1)>
+
+      Public Property Abstract As CharacterString
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: abstract
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+  id: Purpose
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: Purpose
+  nameWithType: AbstractMD_Identification_Type.Purpose
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Purpose
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 136
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("purpose", Order = 2)]
+
+      public CharacterString Purpose { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+    content.vb: >-
+      <JsonProperty("purpose", Order:=2)>
+
+      Public Property Purpose As CharacterString
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: purpose
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+  id: Credit
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: Credit
+  nameWithType: AbstractMD_Identification_Type.Credit
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Credit
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 158
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("credit", Order = 3)]
+
+      public List<CharacterString> Credit { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString}
+    content.vb: >-
+      <JsonProperty("credit", Order:=3)>
+
+      Public Property Credit As List(Of CharacterString)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: credit
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+  id: Status
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: AbstractMD_Identification_Type.Status
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Status
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 180
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("status", Order = 4)]
+
+      public List<MD_ProgressCode_PropertyType> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType}
+    content.vb: >-
+      <JsonProperty("status", Order:=4)>
+
+      Public Property Status As List(Of MD_ProgressCode_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: status
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+  id: PointOfContact
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: PointOfContact
+  nameWithType: AbstractMD_Identification_Type.PointOfContact
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: PointOfContact
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 202
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("pointOfContact", Order = 5)]
+
+      public List<CI_ResponsibleParty_PropertyType> PointOfContact { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType}
+    content.vb: >-
+      <JsonProperty("pointOfContact", Order:=5)>
+
+      Public Property PointOfContact As List(Of CI_ResponsibleParty_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: pointOfContact
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 5
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  id: ResourceMaintenance
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: ResourceMaintenance
+  nameWithType: AbstractMD_Identification_Type.ResourceMaintenance
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ResourceMaintenance
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 224
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("resourceMaintenance", Order = 6)]
+
+      public List<MD_MaintenanceInformation_PropertyType> ResourceMaintenance { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType}
+    content.vb: >-
+      <JsonProperty("resourceMaintenance", Order:=6)>
+
+      Public Property ResourceMaintenance As List(Of MD_MaintenanceInformation_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceMaintenance
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 6
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+  id: GraphicOverview
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: GraphicOverview
+  nameWithType: AbstractMD_Identification_Type.GraphicOverview
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: GraphicOverview
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 246
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("graphicOverview", Order = 7)]
+
+      public List<MD_BrowseGraphic_PropertyType> GraphicOverview { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType}
+    content.vb: >-
+      <JsonProperty("graphicOverview", Order:=7)>
+
+      Public Property GraphicOverview As List(Of MD_BrowseGraphic_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: graphicOverview
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 7
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+  id: ResourceFormat
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: ResourceFormat
+  nameWithType: AbstractMD_Identification_Type.ResourceFormat
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ResourceFormat
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 268
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("resourceFormat", Order = 8)]
+
+      public List<MD_Format_PropertyType> ResourceFormat { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType}
+    content.vb: >-
+      <JsonProperty("resourceFormat", Order:=8)>
+
+      Public Property ResourceFormat As List(Of MD_Format_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceFormat
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 8
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  id: DescriptiveKeywords
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: DescriptiveKeywords
+  nameWithType: AbstractMD_Identification_Type.DescriptiveKeywords
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DescriptiveKeywords
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 290
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("descriptiveKeywords", Order = 9)]
+
+      public List<MD_Keywords_PropertyType> DescriptiveKeywords { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType}
+    content.vb: >-
+      <JsonProperty("descriptiveKeywords", Order:=9)>
+
+      Public Property DescriptiveKeywords As List(Of MD_Keywords_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: descriptiveKeywords
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 9
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  id: ResourceSpecificUsage
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: ResourceSpecificUsage
+  nameWithType: AbstractMD_Identification_Type.ResourceSpecificUsage
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ResourceSpecificUsage
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 312
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("resourceSpecificUsage", Order = 10)]
+
+      public List<MD_Usage_PropertyType> ResourceSpecificUsage { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType}
+    content.vb: >-
+      <JsonProperty("resourceSpecificUsage", Order:=10)>
+
+      Public Property ResourceSpecificUsage As List(Of MD_Usage_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceSpecificUsage
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 10
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  id: ResourceConstraints
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: ResourceConstraints
+  nameWithType: AbstractMD_Identification_Type.ResourceConstraints
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ResourceConstraints
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 334
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("resourceConstraints", Order = 11)]
+
+      public List<MD_Constraints_PropertyType> ResourceConstraints { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType}
+    content.vb: >-
+      <JsonProperty("resourceConstraints", Order:=11)>
+
+      Public Property ResourceConstraints As List(Of MD_Constraints_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: resourceConstraints
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 11
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+  id: AggregationInfo
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  langs:
+  - csharp
+  - vb
+  name: AggregationInfo
+  nameWithType: AbstractMD_Identification_Type.AggregationInfo
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AggregationInfo
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/Identification/AbstractMD_Identification_Type.cs
+    startLine: 356
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("aggregationInfo", Order = 12)]
+
+      public List<MD_AggregateInformation_PropertyType> AggregationInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType}
+    content.vb: >-
+      <JsonProperty("aggregationInfo", Order:=12)>
+
+      Public Property AggregationInfo As List(Of MD_AggregateInformation_PropertyType)
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: aggregationInfo
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 12
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Model
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.html
+  name: AbstractObject_Type
+  nameWithType: AbstractObject_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.html
+  name: IUuid
+  nameWithType: IUuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_AbstractObject_Type_Id
+  name: Id
+  nameWithType: AbstractObject_Type.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Id
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Uuid
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Uuid
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_AbstractObject_Type_Uuid
+  name: Uuid
+  nameWithType: AbstractObject_Type.Uuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.Uuid
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html
+  name: AbstractMD_Identification_Type
+  nameWithType: AbstractMD_Identification_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type__ctor
+  name: AbstractMD_Identification_Type
+  nameWithType: AbstractMD_Identification_Type.AbstractMD_Identification_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AbstractMD_Identification_Type
+  nameWithType.vb: AbstractMD_Identification_Type.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.New
+  name.vb: New
+- uid: System.Xml.Serialization.XmlSerializerNamespaces
+  commentId: T:System.Xml.Serialization.XmlSerializerNamespaces
+  parent: System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlserializernamespaces
+  name: XmlSerializerNamespaces
+  nameWithType: XmlSerializerNamespaces
+  fullName: System.Xml.Serialization.XmlSerializerNamespaces
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Xml
+    name: Xml
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml
+  - name: .
+  - uid: System.Xml.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.xml.serialization
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_Citation
+  name: Citation
+  nameWithType: AbstractMD_Identification_Type.Citation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Citation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_Citation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_Citation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_Citation_Type.html
+  name: CI_Citation_Type
+  nameWithType: CI_Citation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_Citation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_Abstract
+  name: Abstract
+  nameWithType: AbstractMD_Identification_Type.Abstract
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Abstract
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString.html
+  name: CharacterString
+  nameWithType: CharacterString
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text
+    name: Text
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_Purpose
+  name: Purpose
+  nameWithType: AbstractMD_Identification_Type.Purpose
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Purpose
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_Credit
+  name: Credit
+  nameWithType: AbstractMD_Identification_Type.Credit
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Credit
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CharacterString>
+  nameWithType: List<CharacterString>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString>
+  nameWithType.vb: List(Of CharacterString)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString)
+  name.vb: List(Of CharacterString)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString
+    name: CharacterString
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ConceptualSchema.Primitive.Text.CharacterString.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_Status
+  name: Status
+  nameWithType: AbstractMD_Identification_Type.Status
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.Status
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_ProgressCode_PropertyType>
+  nameWithType: List<MD_ProgressCode_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType>
+  nameWithType.vb: List(Of MD_ProgressCode_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType)
+  name.vb: List(Of MD_ProgressCode_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType
+    name: MD_ProgressCode_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType
+    name: MD_ProgressCode_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_ProgressCode_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_PointOfContact
+  name: PointOfContact
+  nameWithType: AbstractMD_Identification_Type.PointOfContact
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.PointOfContact
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<CI_ResponsibleParty_PropertyType>
+  nameWithType: List<CI_ResponsibleParty_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType>
+  nameWithType.vb: List(Of CI_ResponsibleParty_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType)
+  name.vb: List(Of CI_ResponsibleParty_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType
+    name: CI_ResponsibleParty_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType
+    name: CI_ResponsibleParty_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.CI_ResponsibleParty_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_ResourceMaintenance
+  name: ResourceMaintenance
+  nameWithType: AbstractMD_Identification_Type.ResourceMaintenance
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceMaintenance
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_MaintenanceInformation_PropertyType>
+  nameWithType: List<MD_MaintenanceInformation_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType>
+  nameWithType.vb: List(Of MD_MaintenanceInformation_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType)
+  name.vb: List(Of MD_MaintenanceInformation_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType
+    name: MD_MaintenanceInformation_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType
+    name: MD_MaintenanceInformation_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Maintenance.MD_MaintenanceInformation_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_GraphicOverview
+  name: GraphicOverview
+  nameWithType: AbstractMD_Identification_Type.GraphicOverview
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.GraphicOverview
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_BrowseGraphic_PropertyType>
+  nameWithType: List<MD_BrowseGraphic_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType>
+  nameWithType.vb: List(Of MD_BrowseGraphic_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType)
+  name.vb: List(Of MD_BrowseGraphic_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType
+    name: MD_BrowseGraphic_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType
+    name: MD_BrowseGraphic_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_BrowseGraphic_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_ResourceFormat
+  name: ResourceFormat
+  nameWithType: AbstractMD_Identification_Type.ResourceFormat
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceFormat
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_Format_PropertyType>
+  nameWithType: List<MD_Format_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType>
+  nameWithType.vb: List(Of MD_Format_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType)
+  name.vb: List(Of MD_Format_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType
+    name: MD_Format_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType
+    name: MD_Format_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Distribution.MD_Format_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_DescriptiveKeywords
+  name: DescriptiveKeywords
+  nameWithType: AbstractMD_Identification_Type.DescriptiveKeywords
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.DescriptiveKeywords
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_Keywords_PropertyType>
+  nameWithType: List<MD_Keywords_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType>
+  nameWithType.vb: List(Of MD_Keywords_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType)
+  name.vb: List(Of MD_Keywords_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType
+    name: MD_Keywords_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType
+    name: MD_Keywords_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Keywords_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_ResourceSpecificUsage
+  name: ResourceSpecificUsage
+  nameWithType: AbstractMD_Identification_Type.ResourceSpecificUsage
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceSpecificUsage
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_Usage_PropertyType>
+  nameWithType: List<MD_Usage_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType>
+  nameWithType.vb: List(Of MD_Usage_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType)
+  name.vb: List(Of MD_Usage_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType
+    name: MD_Usage_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType
+    name: MD_Usage_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_Usage_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_ResourceConstraints
+  name: ResourceConstraints
+  nameWithType: AbstractMD_Identification_Type.ResourceConstraints
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.ResourceConstraints
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_Constraints_PropertyType>
+  nameWithType: List<MD_Constraints_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType>
+  nameWithType.vb: List(Of MD_Constraints_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType)
+  name.vb: List(Of MD_Constraints_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType
+    name: MD_Constraints_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType
+    name: MD_Constraints_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Constraint.MD_Constraints_PropertyType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.html#NDSH_Geospatial_Metadata_V2003_Thin_Identification_AbstractMD_Identification_Type_AggregationInfo
+  name: AggregationInfo
+  nameWithType: AbstractMD_Identification_Type.AggregationInfo
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Identification.AbstractMD_Identification_Type.AggregationInfo
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MD_AggregateInformation_PropertyType>
+  nameWithType: List<MD_AggregateInformation_PropertyType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType>
+  nameWithType.vb: List(Of MD_AggregateInformation_PropertyType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType)
+  name.vb: List(Of MD_AggregateInformation_PropertyType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType
+    name: MD_AggregateInformation_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType
+    name: MD_AggregateInformation_PropertyType
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Identification.MD_AggregateInformation_PropertyType.html
+  - name: )

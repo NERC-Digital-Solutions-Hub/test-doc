@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  id: IProjectedCoordinateReferenceSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IProjectedCoordinateReferenceSystem
+  nameWithType: IProjectedCoordinateReferenceSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Coordinate/ReferenceSystems/IProjectedCoordinateReferenceSystem.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IProjectedCoordinateReferenceSystem
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Coordinate/ReferenceSystems/IProjectedCoordinateReferenceSystem.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  summary: >-
+    The <xref href="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem" data-throw-if-not-resolved="false"></xref> represents a two-dimensional coordinate reference system
+
+    derived from a geodetic or geographic base coordinate reference system CRS by applying a map projection.
+  remarks: >-
+    <p>
+      A projected coordinate reference system is used to represent the curved surface of the Earth
+      on a planar surface with controlled distortion. It defines how geographic coordinates
+      (latitude and longitude) are transformed into projected coordinates (easting and northing),
+      typically using a <xref href="NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType" data-throw-if-not-resolved="false"></xref>.
+    </p>
+
+    <p>
+      This interface is intended to be implemented by types that model projected coordinate reference
+      systems as defined in ISO 19111 and encoded in GML (e.g., <xref href="NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType" data-throw-if-not-resolved="false"></xref>
+      The base coordinate reference system may be either a geodetic or geographic coordinate reference system,
+      and it is associated usually with a <xref href="NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType" data-throw-if-not-resolved="false"></xref>.
+    </p>
+  example: []
+  syntax:
+    content: public interface IProjectedCoordinateReferenceSystem
+    content.vb: Public Interface IProjectedCoordinateReferenceSystem
+references:
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem.html
+  name: IProjectedCoordinateReferenceSystem
+  nameWithType: IProjectedCoordinateReferenceSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType.html
+  name: CartesianCSType
+  nameWithType: CartesianCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType.html
+  name: ProjectedCRSType
+  nameWithType: ProjectedCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.html
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Systems
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html

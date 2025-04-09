@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.IValue`1
+  commentId: T:NDSH.Geospatial.Metadata.IValue`1
+  id: IValue`1
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.IValue`1.Value
+  langs:
+  - csharp
+  - vb
+  name: IValue<T>
+  nameWithType: IValue<T>
+  fullName: NDSH.Geospatial.Metadata.IValue<T>
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/IValue{T}.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IValue
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/IValue{T}.cs
+    startLine: 40
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    Represents an interface for defining a standard value property in geospatial metadata.
+
+    This interface ensures that implementing classes provide a structured and serializable
+
+    mechanism for handling values in compliance with the ISO 19115 standard.
+  remarks: >-
+    <p>
+      <b>Considerations:</b>
+      <ul><li>
+          The <xref href="NDSH.Geospatial.Metadata.IValue%601.Value" data-throw-if-not-resolved="false"></xref> property is a value type and may require validation depending on usage.
+        </li></ul>
+    </p>
+  example: []
+  syntax:
+    content: public interface IValue<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IValue(Of T)
+  nameWithType.vb: IValue(Of T)
+  fullName.vb: NDSH.Geospatial.Metadata.IValue(Of T)
+  name.vb: IValue(Of T)
+- uid: NDSH.Geospatial.Metadata.IValue`1.Value
+  commentId: P:NDSH.Geospatial.Metadata.IValue`1.Value
+  id: Value
+  parent: NDSH.Geospatial.Metadata.IValue`1
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.IValue<T>.Value
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/IValue{T}.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Value
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/IValue{T}.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata
+  summary: Gets/Sets the value associated with a metadata entity.
+  example: []
+  syntax:
+    content: T Value { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Property Value As T
+  overload: NDSH.Geospatial.Metadata.IValue`1.Value*
+  nameWithType.vb: IValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.IValue(Of T).Value
+references:
+- uid: NDSH.Geospatial.Metadata.IValue`1.Value
+  commentId: P:NDSH.Geospatial.Metadata.IValue`1.Value
+  href: NDSH.Geospatial.Metadata.IValue-1.html#NDSH_Geospatial_Metadata_IValue_1_Value
+  name: Value
+  nameWithType: IValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.IValue<T>.Value
+  nameWithType.vb: IValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.IValue(Of T).Value
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.IValue`1.Value*
+  commentId: Overload:NDSH.Geospatial.Metadata.IValue`1.Value
+  href: NDSH.Geospatial.Metadata.IValue-1.html#NDSH_Geospatial_Metadata_IValue_1_Value
+  name: Value
+  nameWithType: IValue<T>.Value
+  fullName: NDSH.Geospatial.Metadata.IValue<T>.Value
+  nameWithType.vb: IValue(Of T).Value
+  fullName.vb: NDSH.Geospatial.Metadata.IValue(Of T).Value
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

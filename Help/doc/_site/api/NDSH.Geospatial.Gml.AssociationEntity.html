@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AssociationEntity | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AssociationEntity | NDSH ">
+      
+      <meta name="description" content="Represents a generalized association in GML, providing an XLink-based mechanism for referencing external or internal resources within geospatial metadata. This abstract class implements the GML AssociationAttributeGroup pattern from gmlBase.xsd, enabling a standard approach for linking GML objects and facilitating interoperability with ISO 19115:2003 metadata structures.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/test-doc/new/dev/apiSpec/new?filename=NDSH_Geospatial_Gml_AssociationEntity.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Gml.AssociationEntity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Gml.AssociationEntity">
+
+
+
+  <h1 id="NDSH_Geospatial_Gml_AssociationEntity" data-uid="NDSH.Geospatial.Gml.AssociationEntity" class="text-break">
+Class AssociationEntity  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Gml.html">Gml</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.ISO19115.Ed2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a generalized association in GML, providing an XLink-based mechanism for referencing
+external or internal resources within geospatial metadata. This abstract class implements the
+GML <code>AssociationAttributeGroup</code> pattern from <code>gmlBase.xsd</code>, enabling a standard approach
+for linking GML objects and facilitating interoperability with ISO 19115:2003 metadata structures.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IsoType(&quot;AssociationAttributeGroup&quot;, IsoType = IsoTypes.AttributeGroup)]
+[JsonObject(&quot;Association&quot;)]
+public class AssociationEntity : ObservableDbEntity, IModel, IObservableModel, INotifyPropertyChanged, IDbId, IAssociation, ISimpleLink, IType, IHref, IRole, IArcRole, ITitle, IShow, IActuate, INilReason, ITypeMetadata, IRemoteSchema</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html">ObservableDbEntity</a></div>
+      <div><span class="xref">AssociationEntity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.IDbId.html">IDbId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IAssociation.html">IAssociation</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ISimpleLink.html">ISimpleLink</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IType.html">IType</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IHref.html">IHref</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IRole.html">IRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IArcRole.html">IArcRole</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.ITitle.html">ITitle</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IShow.html">IShow</a></div>
+      <div><a class="xref" href="NDSH.Xml.XLink.IActuate.html">IActuate</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.INilReason.html">INilReason</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.ITypeMetadata.html">ITypeMetadata</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.IRemoteSchema.html">IRemoteSchema</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.AssociationAndOwnership.html">AssociationAndOwnership</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.Coordinate.Operations.CoordinateOperationAccuracy.html">CoordinateOperationAccuracy</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.MetaDataPropertyType.html">MetaDataPropertyType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.StringOrRefType.html">StringOrRefType</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Gml.ValueObjects.GmlBoolean.html">GmlBoolean</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.ReferenceEntity.html">ReferenceEntity</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId">ObservableDbEntity.DbId</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Gml_AssociationEntity_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  In practice, GML uses “association” elements or properties to capture relationships between
+  metadata objects or geospatial features—often expressed through the <code>xlink</code> attributes
+  (<code>href</code>, <code>role</code>, <code>arcrole</code>, <code>title</code>, <code>show</code>, and <code>actuate</code>).
+  By abstracting these attributes into a single class, <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html">AssociationEntity</a> enables a
+  consistent mechanism for referencing remote or local resources.
+</p>
+<p>
+  The class also supports a <code>nilReason</code> attribute (based on GML’s <code>NilReasonType</code>) to
+  indicate missing or inapplicable data, reflecting the requirements of ISO 19115:2003 for
+  managing incomplete or unknown metadata values. Additionally, a <code>remoteSchema</code> attribute
+  is provided to reference an external schema, though it is marked as deprecated in GML.
+</p>
+<p>
+  In ISO 19115 applications, leveraging this association pattern can help decompose or link
+  metadata elements effectively, fostering modular metadata design and allowing distributed
+  systems to reference shared resources rather than duplicating content.
+</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Actuate_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Actuate*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Actuate" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Actuate">
+  Actuate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Gets/Sets the Actuate attribute which is used to communicate the desired timing
+  of traversal from the starting resource to the ending resource.
+</p>
+<p>
+  Use the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours">ActuateBehaviours</a> static property to access all valid string values
+  used in the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Actuate">Actuate</a> property.
+  Select a valid value using as a key an <a class="xref" href="NDSH.Xml.XLink.ActuateBehaviour.html">ActuateBehaviour</a> enumerated value.
+</p>
+<p>
+<b>Example:</b>
+<example>
+  <pre><code class="lang-csharp">= []</code></pre>
+</example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;actuate&quot;)]
+public string? Actuate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>The exception is thrown when the property is attempted to be set to a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+value that is not in the list of the accepted values.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_ActuateBehaviours" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ActuateBehaviours">
+  ActuateBehaviours
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary&lt;TKey, TValue&gt;</a> of valid values
+used for the <b>Actuate attribute</b> (<a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Actuate">Actuate</a> property),
+which determines how a link is triggered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyDictionary&lt;ActuateBehaviour, string&gt; ActuateBehaviours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="NDSH.Xml.XLink.ActuateBehaviour.html">ActuateBehaviour</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_ArcRole_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ArcRole*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_ArcRole" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ArcRole">
+  ArcRole
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets a more detailed function of the link,
+similar to the value of <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Role">Role</a> but more specialized.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;arcrole&quot;)]
+public string? ArcRole { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Href_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Href*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Href" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Href">
+  Href
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets a reference to a remote resource via a URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;href&quot;)]
+public string? Href { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_NilReason_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.NilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_NilReason" data-uid="NDSH.Geospatial.Gml.AssociationEntity.NilReason">
+  NilReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Gets/Sets an explanation for why a value is missing.
+</p>
+<p>
+  The NilReason is a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of one of the following three options:
+</p>
+<p>
+  <ol><li>
+      The value is a low case <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representation of one of the
+      values of the <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a>,
+      except the value <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html#NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_Other">Other</a>
+    </li><li>
+      The value is a combination of the low case <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> representation of the
+      value <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html#NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_Other">Other</a> followed by <b>"<code>:</code>"</b>
+      and then by a string providing a brief explanation,
+      where text is a string of two or more characters with no included spaces.
+      <br>
+      <b>Example:</b><br>
+      <example>
+      <b><code>other:brief explanation goes here</code></b>
+      </example>
+      <br>
+      The entire <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> must be valid against the following regular expression:
+      <br>
+      <b><code>other:\w{2,}</code></b>
+    </li><li>
+      The value is a Uniform Resource Identifier <b>(URI)</b>.
+      A particular community may choose to assign more detailed semantics to the
+      standard values provided by the <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a>.
+      Alternatively, the URI method enables a specific or more complete explanation
+      for the absence of a value to be provided elsewhere and indicated by-reference
+      in an instance document.
+    </li></ol>
+
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(NilReasonEnumeration.Missing);
+NilReason = INilReason.GetNilReason(NilReasonEnumeration.Other, &quot;Example reason give here&quot;);
+NilReason = INilReason.GetNilReason(&quot;http://www.example.com/a-detailed-explanation-for-nilreason/&quot;;&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;nilReason&quot;)]
+public string? NilReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_AssociationEntity_NilReason_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <b>default</b> <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">NilReason</a> value is: <code>&quot;unknown&quot;</code>,
+the XML enum value of the <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html#NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_Unknown">Unknown</a>.</p>
+</div>
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_NilReasons_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.NilReasons*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_NilReasons" data-uid="NDSH.Geospatial.Gml.AssociationEntity.NilReasons">
+  NilReasons
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary&lt;TKey, TValue&gt;</a> where each
+<a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a> key maps to an explanatory string used by the
+<a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">NilReason</a> property to describe missing or voided metadata values in XML files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyDictionary&lt;NilReasonEnumeration, string&gt; NilReasons { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema" data-uid="NDSH.Geospatial.Gml.AssociationEntity.RemoteSchema">
+  RemoteSchema
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets a reference to an external remote schema.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Marked &#39;deprecated&#39; in /gml/gmlBase.xsd&quot;)]
+[JsonProperty(&quot;remoteSchema&quot;)]
+[JsonIgnore]
+public string? RemoteSchema { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_AssociationEntity_RemoteSchema_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This is an obsolete property. (Marked deprecated in gml/gmlBase.xsd)</p>
+</div>
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Role_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Role*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Role" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Role">
+  Role
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the role of the link, specifying its function within an association.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;role&quot;)]
+public string? Role { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Show_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Show*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Show" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Show">
+  Show
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Gets/Sets the Show attribute which is used to communicate the desired presentation
+  of the ending resource on traversal from the starting resource.
+</p>
+<p>
+  Use the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours">ShowBehaviours</a> static property to access all valid string values
+  used in the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Show">Show</a> property.
+  Select a valid value using as a key an <a class="xref" href="NDSH.Xml.XLink.ShowBehaviour.html">ShowBehaviour</a> enumerated value.
+</p>
+<p>
+<b>Example:</b>
+<example>
+  <pre><code class="lang-csharp">= []</code></pre>
+</example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;show&quot;)]
+public string? Show { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></dt>
+    <dd><p>The exception is thrown when the property is attempted to be set to a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+value that is not in the list of the accepted values.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_ShowBehaviours" data-uid="NDSH.Geospatial.Gml.AssociationEntity.ShowBehaviours">
+  ShowBehaviours
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary&lt;TKey, TValue&gt;</a> of valid values
+used for the <b>Show attribute</b> (<a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_Show">Show</a> property),
+which determines how a linked resource should be displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyDictionary&lt;ShowBehaviour, string&gt; ShowBehaviours { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="NDSH.Xml.XLink.ShowBehaviour.html">ShowBehaviour</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Title_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Title*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Title" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Title">
+  Title
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the descriptive title of the linked resource.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;title&quot;)]
+public string? Title { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_Type_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Type*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_Type" data-uid="NDSH.Geospatial.Gml.AssociationEntity.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the type of the reference, which is always <code>&quot;simple&quot;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;type&quot;)]
+public string Type { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.GetNilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_System_String_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration,System.String)">
+  GetNilReason(NilReasonEnumeration, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Generates a NilReason <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> based on a predefined enumeration value.
+  The method can be used to set the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">NilReason</a> property.
+</p>
+<p>
+  The procedure makes sure that rules for setting the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>
+  are observed and should be preferably used rather than setting the
+  <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value using the property's setter. The reason for having a
+  public setter in the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">NilReason</a> property is to allow for XML deserialization.
+</p>
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(NilReasonEnumeration.Missing);
+NilReason = INilReason.GetNilReason(NilReasonEnumeration.Other, &quot;Example reason given here&quot;);&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNilReason(NilReasonEnumeration nilReasonEnum, string otherAdditionalReason = &quot;Reason not in list&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>nilReasonEnum</code> <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a></dt>
+    <dd><p>The <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a> value.</p>
+</dd>
+    <dt><code>otherAdditionalReason</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Allows a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value providing a brief reason to be appended after the
+<a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html#NDSH_Geospatial_Gml_BasicTypes_NilReasonEnumeration_Other">Other</a>. The argument's value will be used only if
+the enumerated value provided is <a class="xref" href="NDSH.Geospatial.Gml.BasicTypes.NilReasonEnumeration.html">NilReasonEnumeration</a>; in all other cases
+the argument's value will be omitted.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A properly formatted <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> with the NilReason.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.GetNilReason*"></a>
+
+  <h3 id="NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String_" data-uid="NDSH.Geospatial.Gml.AssociationEntity.GetNilReason(System.String)">
+  GetNilReason(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+  Generates a NilReason <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> based on a URI reference.
+  The method can be used to set the <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> value of the <a class="xref" href="NDSH.Geospatial.Gml.AssociationEntity.html#NDSH_Geospatial_Gml_AssociationEntity_NilReason">NilReason</a> property.
+</p>
+<p>
+  <b>Example:</b>
+  <example>
+<pre><code>&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;NilReason = INilReason.GetNilReason(&quot;http://www.example.com/a-detailed-explanation-for-nilreason/&quot;;&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+  </example>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNilReason(string uriString)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>uriString</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> holding a <code>URI</code> describing in detail the reason for a
+<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> / <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.void">void</a> or exception.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> with the Nil Reason.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDSH_Geospatial_Gml_AssociationEntity_GetNilReason_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The URI method enables a specific or more complete explanation for the absence
+of a value to be provided elsewhere and indicated by-reference in an instance document.</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/AssociationEntity.cs/#L122" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

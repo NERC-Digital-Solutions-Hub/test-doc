@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Extension
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Extension
+  id: Extension
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Extension
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Extension
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType.html
+  name: MD_DatatypeCode_PropertyType
+  nameWithType: MD_DatatypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_DatatypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_PropertyType.html
+  name: MD_ExtendedElementInformation_PropertyType
+  nameWithType: MD_ExtendedElementInformation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type.html
+  name: MD_ExtendedElementInformation_Type
+  nameWithType: MD_ExtendedElementInformation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_PropertyType.html
+  name: MD_MetadataExtensionInformation_PropertyType
+  nameWithType: MD_MetadataExtensionInformation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type.html
+  name: MD_MetadataExtensionInformation_Type
+  nameWithType: MD_MetadataExtensionInformation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType.html
+  name: MD_ObligationCode_PropertyType
+  nameWithType: MD_ObligationCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_Type.html
+  name: MD_ObligationCode_Type
+  nameWithType: MD_ObligationCode_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension.MD_ObligationCode_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Extension
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Extension
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Extension
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Extension
+  fullName: NDSH.Geospatial.Metadata.V2003.Extension
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Extension
+    name: Extension
+    href: NDSH.Geospatial.Metadata.V2003.Extension.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Extension
+    name: Extension
+    href: NDSH.Geospatial.Metadata.V2003.Extension.html

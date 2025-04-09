@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Lineage
+  id: Lineage
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+  - NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type.html
+  name: LI_Lineage_Type
+  nameWithType: LI_Lineage_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Lineage_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type.html
+  name: LI_ProcessStep_Type
+  nameWithType: LI_ProcessStep_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_ProcessStep_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type.html
+  name: LI_Source_Type
+  nameWithType: LI_Source_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage.LI_Source_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.Lineage
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  fullName: NDSH.Geospatial.Metadata.DataQuality.Lineage
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.Lineage
+    name: Lineage
+    href: NDSH.Geospatial.Metadata.DataQuality.Lineage.html

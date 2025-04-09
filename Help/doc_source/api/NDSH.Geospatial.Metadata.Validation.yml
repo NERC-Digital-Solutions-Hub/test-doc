@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Validation
+  commentId: N:NDSH.Geospatial.Metadata.Validation
+  id: Validation
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Validation.FractionDigitsAttribute
+  - NDSH.Geospatial.Metadata.Validation.MaxDigitsAttribute
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Validation
+  nameWithType: NDSH.Geospatial.Metadata.Validation
+  fullName: NDSH.Geospatial.Metadata.Validation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Validation.FractionDigitsAttribute
+  commentId: T:NDSH.Geospatial.Metadata.Validation.FractionDigitsAttribute
+  href: NDSH.Geospatial.Metadata.Validation.FractionDigitsAttribute.html
+  name: FractionDigitsAttribute
+  nameWithType: FractionDigitsAttribute
+  fullName: NDSH.Geospatial.Metadata.Validation.FractionDigitsAttribute
+- uid: NDSH.Geospatial.Metadata.Validation.MaxDigitsAttribute
+  commentId: T:NDSH.Geospatial.Metadata.Validation.MaxDigitsAttribute
+  href: NDSH.Geospatial.Metadata.Validation.MaxDigitsAttribute.html
+  name: MaxDigitsAttribute
+  nameWithType: MaxDigitsAttribute
+  fullName: NDSH.Geospatial.Metadata.Validation.MaxDigitsAttribute

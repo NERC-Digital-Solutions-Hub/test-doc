@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes
+  id: Complexes
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeCurveType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSolidType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSurfaceType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeCurveType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeCurveType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeCurveType.html
+  name: CompositeCurveType
+  nameWithType: CompositeCurveType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeCurveType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSolidType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSolidType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSolidType.html
+  name: CompositeSolidType
+  nameWithType: CompositeSolidType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSolidType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSurfaceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSurfaceType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSurfaceType.html
+  name: CompositeSurfaceType
+  nameWithType: CompositeSurfaceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.CompositeSurfaceType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexPropertyType.html
+  name: GeometricComplexPropertyType
+  nameWithType: GeometricComplexPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexType.html
+  name: GeometricComplexType
+  nameWithType: GeometricComplexType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Geometry.Complexes.GeometricComplexType

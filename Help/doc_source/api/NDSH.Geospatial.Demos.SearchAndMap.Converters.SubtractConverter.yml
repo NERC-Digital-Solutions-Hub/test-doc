@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter
+  id: SubtractConverter
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert(System.Object,Type,System.Object,CultureInfo)
+  - NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack(System.Object,Type,System.Object,CultureInfo)
+  langs:
+  - csharp
+  - vb
+  name: SubtractConverter
+  nameWithType: SubtractConverter
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SubtractConverter
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  summary: ''
+  example: []
+  syntax:
+    content: 'public class SubtractConverter : IValueConverter'
+    content.vb: Public Class SubtractConverter Inherits IValueConverter
+  inheritance:
+  - System.Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert(System.Object,Type,System.Object,CultureInfo)
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert(System.Object,Type,System.Object,CultureInfo)
+  id: Convert(System.Object,Type,System.Object,CultureInfo)
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter
+  langs:
+  - csharp
+  - vb
+  name: Convert(object, Type, object, CultureInfo)
+  nameWithType: SubtractConverter.Convert(object, Type, object, CultureInfo)
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert(object, Type, object, CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Convert
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  summary: ''
+  example: []
+  syntax:
+    content: public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+      description: ''
+    - id: targetType
+      type: Type
+      description: ''
+    - id: parameter
+      type: System.Object
+      description: ''
+    - id: culture
+      type: CultureInfo
+      description: ''
+    return:
+      type: System.Object
+      description: ''
+    content.vb: Public Function Convert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert*
+  nameWithType.vb: SubtractConverter.Convert(Object, Type, Object, CultureInfo)
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert(Object, Type, Object, CultureInfo)
+  name.vb: Convert(Object, Type, Object, CultureInfo)
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack(System.Object,Type,System.Object,CultureInfo)
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack(System.Object,Type,System.Object,CultureInfo)
+  id: ConvertBack(System.Object,Type,System.Object,CultureInfo)
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter
+  langs:
+  - csharp
+  - vb
+  name: ConvertBack(object, Type, object, CultureInfo)
+  nameWithType: SubtractConverter.ConvertBack(object, Type, object, CultureInfo)
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack(object, Type, object, CultureInfo)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ConvertBack
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Converters/SubtractCoverter.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  summary: ''
+  example: []
+  syntax:
+    content: public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+    parameters:
+    - id: value
+      type: System.Object
+      description: ''
+    - id: targetType
+      type: Type
+      description: ''
+    - id: parameter
+      type: System.Object
+      description: ''
+    - id: culture
+      type: CultureInfo
+      description: ''
+    return:
+      type: System.Object
+      description: ''
+    content.vb: Public Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack*
+  nameWithType.vb: SubtractConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack(Object, Type, Object, CultureInfo)
+  name.vb: ConvertBack(Object, Type, Object, CultureInfo)
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Converters
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+    name: Converters
+    href: NDSH.Geospatial.Demos.SearchAndMap.Converters.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+    name: Converters
+    href: NDSH.Geospatial.Demos.SearchAndMap.Converters.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert
+  href: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.html#NDSH_Geospatial_Demos_SearchAndMap_Converters_SubtractConverter_Convert_System_Object_Type_System_Object_CultureInfo_
+  name: Convert
+  nameWithType: SubtractConverter.Convert
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.Convert
+- uid: Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: CultureInfo
+  isExternal: true
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: CultureInfo
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack
+  href: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.html#NDSH_Geospatial_Demos_SearchAndMap_Converters_SubtractConverter_ConvertBack_System_Object_Type_System_Object_CultureInfo_
+  name: ConvertBack
+  nameWithType: SubtractConverter.ConvertBack
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters.SubtractConverter.ConvertBack

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Hashing.Tests.Models
+  commentId: N:NDSH.Hashing.Tests.Models
+  id: Models
+  parent: NDSH.Hashing.Tests
+  children:
+  - NDSH.Hashing.Tests.Models.ModelA
+  - NDSH.Hashing.Tests.Models.ModelB
+  - NDSH.Hashing.Tests.Models.ModelC
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Hashing.Tests.Models
+  nameWithType: NDSH.Hashing.Tests.Models
+  fullName: NDSH.Hashing.Tests.Models
+  type: Namespace
+  assemblies:
+  - NDSH.Hashing.Tests
+references:
+- uid: NDSH.Hashing.Tests.Models.ModelA
+  commentId: T:NDSH.Hashing.Tests.Models.ModelA
+  parent: NDSH.Hashing.Tests.Models
+  href: NDSH.Hashing.Tests.Models.ModelA.html
+  name: ModelA
+  nameWithType: ModelA
+  fullName: NDSH.Hashing.Tests.Models.ModelA
+- uid: NDSH.Hashing.Tests.Models.ModelB
+  commentId: T:NDSH.Hashing.Tests.Models.ModelB
+  parent: NDSH.Hashing.Tests.Models
+  href: NDSH.Hashing.Tests.Models.ModelB.html
+  name: ModelB
+  nameWithType: ModelB
+  fullName: NDSH.Hashing.Tests.Models.ModelB
+- uid: NDSH.Hashing.Tests.Models.ModelC
+  commentId: T:NDSH.Hashing.Tests.Models.ModelC
+  href: NDSH.Hashing.Tests.Models.ModelC.html
+  name: ModelC
+  nameWithType: ModelC
+  fullName: NDSH.Hashing.Tests.Models.ModelC
+- uid: NDSH.Hashing.Tests.Models
+  commentId: N:NDSH.Hashing.Tests.Models
+  href: NDSH.html
+  name: NDSH.Hashing.Tests.Models
+  nameWithType: NDSH.Hashing.Tests.Models
+  fullName: NDSH.Hashing.Tests.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  - name: .
+  - uid: NDSH.Hashing.Tests.Models
+    name: Models
+    href: NDSH.Hashing.Tests.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  - name: .
+  - uid: NDSH.Hashing.Tests.Models
+    name: Models
+    href: NDSH.Hashing.Tests.Models.html

@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  id: Common
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.CodeListValue_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeList
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeListValue
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.INilReason
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectReference
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.IValue
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.NilReasonModel
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ObjectReference_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.Extent.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+    name: SpatialSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema
+    name: SpatialSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.SpatialSchema.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type.html
+  name: AbstractObject_Type
+  nameWithType: AbstractObject_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.AbstractObject_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.CodeListValue_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.CodeListValue_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.CodeListValue_Type.html
+  name: CodeListValue_Type
+  nameWithType: CodeListValue_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.CodeListValue_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeList
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeList
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeList.html
+  name: ICodeList
+  nameWithType: ICodeList
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeList
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeListValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeListValue
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeListValue.html
+  name: ICodeListValue
+  nameWithType: ICodeListValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeListValue
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.html
+  name: ICodeSpace
+  nameWithType: ICodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId.html
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IId
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.INilReason
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.INilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.INilReason.html
+  name: INilReason
+  nameWithType: INilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.INilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification.html
+  name: IObjectIdentification
+  nameWithType: IObjectIdentification
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectIdentification
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectReference
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectReference
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectReference.html
+  name: IObjectReference
+  nameWithType: IObjectReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IObjectReference
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid.html
+  name: IUuid
+  nameWithType: IUuid
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuid
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef.html
+  name: IUuidRef
+  nameWithType: IUuidRef
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IUuidRef
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.IValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.IValue
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.IValue.html
+  name: IValue
+  nameWithType: IValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.IValue
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.NilReasonModel
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.NilReasonModel
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.NilReasonModel.html
+  name: NilReasonModel
+  nameWithType: NilReasonModel
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.NilReasonModel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ObjectReference_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ObjectReference_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ObjectReference_PropertyType.html
+  name: ObjectReference_PropertyType
+  nameWithType: ObjectReference_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ObjectReference_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html

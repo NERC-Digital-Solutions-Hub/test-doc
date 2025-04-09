@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  id: Measure
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived
+  children:
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Angle
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.AngularVelocity
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Area
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Currency
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Distance
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Length
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Measure
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureType
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureTypeValue
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Scale
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Time
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Velocity
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Volume
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Weight
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Angle
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Angle
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Angle.html
+  name: Angle
+  nameWithType: Angle
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Angle
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.AngularVelocity
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.AngularVelocity
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.AngularVelocity.html
+  name: AngularVelocity
+  nameWithType: AngularVelocity
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.AngularVelocity
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Area
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Area
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Area.html
+  name: Area
+  nameWithType: Area
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Area
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Currency
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Currency
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Currency.html
+  name: Currency
+  nameWithType: Currency
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Currency
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Distance
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Distance
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Distance.html
+  name: Distance
+  nameWithType: Distance
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Distance
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Length
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Length
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Length.html
+  name: Length
+  nameWithType: Length
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Length
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Measure
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Measure
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Measure.html
+  name: Measure
+  nameWithType: Measure
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Measure
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureType
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureType
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureType.html
+  name: MeasureType
+  nameWithType: MeasureType
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureType
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureTypeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureTypeValue
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureTypeValue.html
+  name: MeasureTypeValue
+  nameWithType: MeasureTypeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.MeasureTypeValue
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Scale
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Scale
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Scale.html
+  name: Scale
+  nameWithType: Scale
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Scale
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Time
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Time
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Time.html
+  name: Time
+  nameWithType: Time
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Time
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Velocity
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Velocity
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Velocity.html
+  name: Velocity
+  nameWithType: Velocity
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Velocity
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Volume
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Volume
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Volume.html
+  name: Volume
+  nameWithType: Volume
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Volume
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Weight
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Weight
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Weight.html
+  name: Weight
+  nameWithType: Weight
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.Weight
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived
+    name: Derived
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+    name: Measure
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived
+    name: Derived
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure
+    name: Measure
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Derived.Measure.html

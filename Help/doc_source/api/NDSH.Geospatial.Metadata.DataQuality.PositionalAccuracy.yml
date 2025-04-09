@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  id: PositionalAccuracy
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.AbstractDQ_PositionalAccuracy_Type
+  - NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_AbsoluteExternalPositionalAccuracy_Type
+  - NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_GriddedDataPositionalAccuracy_Type
+  - NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_RelativeInternalPositionalAccuracy_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.AbstractDQ_PositionalAccuracy_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.AbstractDQ_PositionalAccuracy_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.AbstractDQ_PositionalAccuracy_Type.html
+  name: AbstractDQ_PositionalAccuracy_Type
+  nameWithType: AbstractDQ_PositionalAccuracy_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.AbstractDQ_PositionalAccuracy_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_AbsoluteExternalPositionalAccuracy_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_AbsoluteExternalPositionalAccuracy_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_AbsoluteExternalPositionalAccuracy_Type.html
+  name: DQ_AbsoluteExternalPositionalAccuracy_Type
+  nameWithType: DQ_AbsoluteExternalPositionalAccuracy_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_AbsoluteExternalPositionalAccuracy_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_GriddedDataPositionalAccuracy_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_GriddedDataPositionalAccuracy_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_GriddedDataPositionalAccuracy_Type.html
+  name: DQ_GriddedDataPositionalAccuracy_Type
+  nameWithType: DQ_GriddedDataPositionalAccuracy_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_GriddedDataPositionalAccuracy_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_RelativeInternalPositionalAccuracy_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_RelativeInternalPositionalAccuracy_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_RelativeInternalPositionalAccuracy_Type.html
+  name: DQ_RelativeInternalPositionalAccuracy_Type
+  nameWithType: DQ_RelativeInternalPositionalAccuracy_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.DQ_RelativeInternalPositionalAccuracy_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  fullName: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+    name: PositionalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy
+    name: PositionalAccuracy
+    href: NDSH.Geospatial.Metadata.DataQuality.PositionalAccuracy.html

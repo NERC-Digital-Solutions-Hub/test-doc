@@ -1,0 +1,595 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType
+  commentId: T:NDSH.Geospatial.Metadata.OffsetCurveType
+  id: OffsetCurveType
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.OffsetCurveType.#ctor
+  - NDSH.Geospatial.Metadata.OffsetCurveType.distance
+  - NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+  - NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+  langs:
+  - csharp
+  - vb
+  name: OffsetCurveType
+  nameWithType: OffsetCurveType
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: OffsetCurveType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 7658
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class OffsetCurveType : AbstractCurveSegmentType, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class OffsetCurveType Inherits AbstractCurveSegmentType Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtStart
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtEnd
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativeInterior
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType.PropertyChanged
+  - NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.OffsetCurveType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.OffsetCurveType
+  langs:
+  - csharp
+  - vb
+  name: OffsetCurveType()
+  nameWithType: OffsetCurveType.OffsetCurveType()
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.OffsetCurveType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 7674
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: OffsetCurveType class constructor
+  example: []
+  syntax:
+    content: public OffsetCurveType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.OffsetCurveType.#ctor*
+  nameWithType.vb: OffsetCurveType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.OffsetCurveType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+  commentId: P:NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+  id: offsetBase
+  parent: NDSH.Geospatial.Metadata.OffsetCurveType
+  langs:
+  - csharp
+  - vb
+  name: offsetBase
+  nameWithType: OffsetCurveType.offsetBase
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: offsetBase
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 7681
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public CurvePropertyType offsetBase { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.CurvePropertyType
+    content.vb: Public Property offsetBase As CurvePropertyType
+  overload: NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase*
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.distance
+  commentId: P:NDSH.Geospatial.Metadata.OffsetCurveType.distance
+  id: distance
+  parent: NDSH.Geospatial.Metadata.OffsetCurveType
+  langs:
+  - csharp
+  - vb
+  name: distance
+  nameWithType: OffsetCurveType.distance
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.distance
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: distance
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 7703
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public LengthType distance { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.LengthType
+    content.vb: Public Property distance As LengthType
+  overload: NDSH.Geospatial.Metadata.OffsetCurveType.distance*
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+  commentId: P:NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+  id: refDirection
+  parent: NDSH.Geospatial.Metadata.OffsetCurveType
+  langs:
+  - csharp
+  - vb
+  name: refDirection
+  nameWithType: OffsetCurveType.refDirection
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: refDirection
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 7725
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public VectorType refDirection { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.VectorType
+    content.vb: Public Property refDirection As VectorType
+  overload: NDSH.Geospatial.Metadata.OffsetCurveType.refDirection*
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  commentId: T:NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html
+  name: AbstractCurveSegmentType
+  nameWithType: AbstractCurveSegmentType
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtStart
+  commentId: P:NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtStart
+  parent: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_numDerivativesAtStart
+  name: numDerivativesAtStart
+  nameWithType: AbstractCurveSegmentType.numDerivativesAtStart
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtStart
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtEnd
+  commentId: P:NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtEnd
+  parent: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_numDerivativesAtEnd
+  name: numDerivativesAtEnd
+  nameWithType: AbstractCurveSegmentType.numDerivativesAtEnd
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativesAtEnd
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativeInterior
+  commentId: P:NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativeInterior
+  parent: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_numDerivativeInterior
+  name: numDerivativeInterior
+  nameWithType: AbstractCurveSegmentType.numDerivativeInterior
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.numDerivativeInterior
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.AbstractCurveSegmentType.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_PropertyChanged
+  name: PropertyChanged
+  nameWithType: AbstractCurveSegmentType.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.AbstractCurveSegmentType
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: AbstractCurveSegmentType.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(string)
+  nameWithType.vb: AbstractCurveSegmentType.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractCurveSegmentType.html#NDSH_Geospatial_Metadata_AbstractCurveSegmentType_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.OffsetCurveType.#ctor
+  href: NDSH.Geospatial.Metadata.OffsetCurveType.html#NDSH_Geospatial_Metadata_OffsetCurveType__ctor
+  name: OffsetCurveType
+  nameWithType: OffsetCurveType.OffsetCurveType
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.OffsetCurveType
+  nameWithType.vb: OffsetCurveType.New
+  fullName.vb: NDSH.Geospatial.Metadata.OffsetCurveType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase*
+  commentId: Overload:NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+  href: NDSH.Geospatial.Metadata.OffsetCurveType.html#NDSH_Geospatial_Metadata_OffsetCurveType_offsetBase
+  name: offsetBase
+  nameWithType: OffsetCurveType.offsetBase
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.offsetBase
+- uid: NDSH.Geospatial.Metadata.CurvePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.CurvePropertyType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.CurvePropertyType.html
+  name: CurvePropertyType
+  nameWithType: CurvePropertyType
+  fullName: NDSH.Geospatial.Metadata.CurvePropertyType
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.distance*
+  commentId: Overload:NDSH.Geospatial.Metadata.OffsetCurveType.distance
+  href: NDSH.Geospatial.Metadata.OffsetCurveType.html#NDSH_Geospatial_Metadata_OffsetCurveType_distance
+  name: distance
+  nameWithType: OffsetCurveType.distance
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.distance
+- uid: NDSH.Geospatial.Metadata.LengthType
+  commentId: T:NDSH.Geospatial.Metadata.LengthType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.LengthType.html
+  name: LengthType
+  nameWithType: LengthType
+  fullName: NDSH.Geospatial.Metadata.LengthType
+- uid: NDSH.Geospatial.Metadata.OffsetCurveType.refDirection*
+  commentId: Overload:NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+  href: NDSH.Geospatial.Metadata.OffsetCurveType.html#NDSH_Geospatial_Metadata_OffsetCurveType_refDirection
+  name: refDirection
+  nameWithType: OffsetCurveType.refDirection
+  fullName: NDSH.Geospatial.Metadata.OffsetCurveType.refDirection
+- uid: NDSH.Geospatial.Metadata.VectorType
+  commentId: T:NDSH.Geospatial.Metadata.VectorType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.VectorType.html
+  name: VectorType
+  nameWithType: VectorType
+  fullName: NDSH.Geospatial.Metadata.VectorType

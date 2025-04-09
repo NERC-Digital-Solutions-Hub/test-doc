@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CodeListValue_Type | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CodeListValue_Type | NDSH ">
+      
+      <meta name="description" content="Represents a specific value within a registered code list, ensuring standardized categorization and reference. This class implements multiple metadata interfaces to provide comprehensive code list support as per the ISO 19115 metadata standard.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/test-doc/new/dev/apiSpec/new?filename=NDSH_Geospatial_Metadata_CodeListValue_Type.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Metadata.CodeListValue_Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type">
+
+
+
+  <h1 id="NDSH_Geospatial_Metadata_CodeListValue_Type" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type" class="text-break">
+Class CodeListValue_Type  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Metadata.html">Metadata</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.ISO19115.Ed2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a specific value within a registered code list, ensuring standardized
+categorization and reference. This class implements multiple metadata interfaces
+to provide comprehensive code list support as per the ISO 19115 metadata standard.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IsoType(&quot;CodeListValue_Type&quot;, IsoType = IsoTypes.ComplexType)]
+[JsonObject(&quot;CodeListValue_Type&quot;)]
+public class CodeListValue_Type : CharacterString, IModel, IObservableModel, INotifyPropertyChanged, IDbId, INullableRefValue&lt;string&gt;, INilReasoned, IComparable&lt;CharacterString&gt;, IEquatable&lt;CharacterString&gt;, ICodeList, ICodeListValue, INullableCodeSpace, IComparable&lt;CodeListValue_Type&gt;, IEquatable&lt;CodeListValue_Type&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html">ObservableDbEntity</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></div>
+      <div><span class="xref">CodeListValue_Type</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Database.Entities.IDbId.html">IDbId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.INullableRefValue-1.html">INullableRefValue</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.INilReasoned.html">INilReasoned</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a>&gt;</div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.ICodeList.html">ICodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.ICodeListValue.html">ICodeListValue</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.INullableCodeSpace.html">INullableCodeSpace</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Citation.CI_DateTypeCode_CodeList.html">CI_DateTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Citation.CI_OnLineFunctionCode_CodeList.html">CI_OnLineFunctionCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Citation.CI_PresentationFormCode_CodeList.html">CI_PresentationFormCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Citation.CI_RoleCode_CodeList.html">CI_RoleCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Constraint.MD_ClassificationCode_CodeList.html">MD_ClassificationCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Constraint.MD_RestrictionCode_CodeList.html">MD_RestrictionCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Content.MD_CoverageContentTypeCode_CodeList.html">MD_CoverageContentTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Content.MD_ImagingConditionCode_CodeList.html">MD_ImagingConditionCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.DataQuality.DQ_EvaluationMethodTypeCode_CodeList.html">DQ_EvaluationMethodTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Distribution.MD_DistributionUnits_CodeList.html">MD_DistributionUnits_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Distribution.MD_MediumFormatCode_CodeList.html">MD_MediumFormatCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Distribution.MD_MediumNameCode_CodeList.html">MD_MediumNameCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Extension.MD_DatatypeCode_CodeList.html">MD_DatatypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.DS_AssociationTypeCode_CodeList.html">DS_AssociationTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.DS_InitiativeTypeCode_CodeList.html">DS_InitiativeTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.MD_CharacterSetCode_CodeList.html">MD_CharacterSetCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.MD_KeywordTypeCode_CodeList.html">MD_KeywordTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.MD_ProgressCode_CodeList.html">MD_ProgressCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Identification.MD_SpatialRepresentationTypeCode_CodeList.html">MD_SpatialRepresentationTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_ContextCode_CodeList.html">MI_ContextCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_GeometryTypeCode_CodeList.html">MI_GeometryTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_ObjectiveTypeCode_CodeList.html">MI_ObjectiveTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_OperationTypeCode_CodeList.html">MI_OperationTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_PriorityCode_CodeList.html">MI_PriorityCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_SensorTypeCode_CodeList.html">MI_SensorTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_SequenceCode_CodeList.html">MI_SequenceCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Acquisition.MI_TriggerCode_CodeList.html">MI_TriggerCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Content.MI_BandDefinition_CodeList.html">MI_BandDefinition_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Content.MI_PolarisationOrientationCode_CodeList.html">MI_PolarisationOrientationCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.Content.MI_TransferFunctionTypeCode_CodeList.html">MI_TransferFunctionTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Imagery.DataQuality.LE_NominalResolution_CodeList.html">LE_NominalResolution_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Localisation.Country_CodeList.html">Country_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Localisation.LanguageCode_CodeList.html">LanguageCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList.html">MD_MaintenanceFrequencyCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList.html">MD_ScopeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList.html">DCPList_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList.html">SV_CouplingType_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList.html">SV_ServiceType_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_CellGeometryCode_CodeList.html">MD_CellGeometryCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_DimensionNameTypeCode_CodeList.html">MD_DimensionNameTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_GeometricObjectTypeCode_CodeList.html">MD_GeometricObjectTypeCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.SpatialRepresentation.MD_TopologyLevelCode_CodeList.html">MD_TopologyLevelCode_CodeList</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.XmlSchema.MX_ScopeCode_CodeList.html">MX_ScopeCode_CodeList</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html#NDSH_Geospatial_Common_BasicTypes_Primitive_Text_CharacterString_Value">CharacterString.Value</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html#NDSH_Geospatial_Common_BasicTypes_Primitive_Text_CharacterString_NilReason">CharacterString.NilReason</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Database.Entities.ObservableDbEntity.html#NDSH_Database_Entities_ObservableDbEntity_DbId">ObservableDbEntity.DbId</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Metadata_CodeListValue_Type_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  The <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a> class allows referencing an external code list value,
+  supporting interoperability across metadata systems. It provides attributes to store the
+  code list URI, the selected value within the list, and an optional code space.
+</p>
+<p>
+  <b>Considerations:</b>
+  <ul><li>
+      The <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html#NDSH_Geospatial_Metadata_CodeListValue_Type_CodeList">CodeList</a> and <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html#NDSH_Geospatial_Metadata_CodeListValue_Type_CodeListValue">CodeListValue</a> properties are required attributes.
+    </li><li>
+      The <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html#NDSH_Geospatial_Metadata_CodeListValue_Type_CodeSpace">CodeSpace</a> property is optional but recommended for unambiguous referencing.
+    </li></ul>
+
+<p>
+   Maps to: <code>CodeListValue_Type</code> ( /2005/gco/gcoBase.xsd )
+</p>
+</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_xmlns" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.xmlns">
+  xmlns
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L601"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlSerializerNamespaces xmlns</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.xml.serialization.xmlserializernamespaces">XmlSerializerNamespaces</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeList_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeList*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeList" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeList">
+  CodeList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the URI reference to the external code list.
+This property is required and ensures compliance with the metadata schema.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;codeList&quot;)]
+[Required]
+public required string CodeList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown when the property is set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or whitespace.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeListValue_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeListValue*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeListValue" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeListValue">
+  CodeListValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the URI reference to a specific value in the external code list.
+This property is required and must be a valid URI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;codeListValue&quot;)]
+[Required]
+public required string CodeListValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown when the property is set to <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> or whitespace.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeSpace_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeSpace*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_CodeSpace" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CodeSpace">
+  CodeSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets or sets the URI reference for the code space, defining the authority for the code list.
+This property is optional but recommended for metadata traceability.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;codeSpace&quot;)]
+public string? CodeSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_Value_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Value*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_Value" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L670"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeList_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeList*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeList" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeList">
+  codeList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L604"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string codeList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeListValue_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeListValue*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeListValue" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeListValue">
+  codeListValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L626"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string codeListValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeSpace_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeSpace*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_codeSpace" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.codeSpace">
+  codeSpace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L648"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string codeSpace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_CompareTo_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CompareTo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_CompareTo_NDSH_Geospatial_Common_BasicTypes_Primitive_Text_CharacterString_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CompareTo(NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString)">
+  CompareTo(CharacterString?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares this instance to another <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a> instance.
+<br>
+The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int CompareTo(CharacterString? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd><p>The other <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> showing the result of the comparison.</p>
+<ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_CompareTo_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CompareTo*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_CompareTo_NDSH_Geospatial_Metadata_CodeListValue_Type_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.CompareTo(NDSH.Geospatial.Metadata.CodeListValue_Type)">
+  CompareTo(CodeListValue_Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Compares this instance to another <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a> instance.
+<br>
+The two instances are considered <b>Equal</b> if their properties are <b>Equal</b>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(CodeListValue_Type? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a></dt>
+    <dd><p>The other <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>An <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> showing the result of the comparison.</p>
+<ul><li><span class="term">0</span></li><li><span class="term">1</span></li></ul>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_NDSH_Geospatial_Common_BasicTypes_Primitive_Text_CharacterString_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals(NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString)">
+  Equals(CharacterString?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a> is equal to the current <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(CharacterString? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a></dt>
+    <dd><p>The <a class="xref" href="NDSH.Geospatial.Common.BasicTypes.Primitive.Text.CharacterString.html">CharacterString</a> to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_NDSH_Geospatial_Metadata_CodeListValue_Type_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals(NDSH.Geospatial.Metadata.CodeListValue_Type)">
+  Equals(CodeListValue_Type?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>
+is equal to the current <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(CodeListValue_Type? other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a></dt>
+    <dd><p>The <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a> to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">other</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_Equals_System_Object_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.Equals(System.Object)">
+  Equals(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> is equal to the current <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a> to compare.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if equal to <code class="paramref">obj</code>; <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_GetHashCode_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.GetHashCode*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_GetHashCode" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.GetHashCode">
+  GetHashCode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the hash code for the <a class="xref" href="NDSH.Geospatial.Metadata.CodeListValue_Type.html">CodeListValue_Type</a> using <a class="xref" href="NDSH.Hashing.NdshHashCode.html">NdshHashCode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The hash code.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_CodeListValue_Type_OnPropertyChanged_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.OnPropertyChanged*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_OnPropertyChanged_System_String_" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.OnPropertyChanged(System.String)">
+  OnPropertyChanged(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L694"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnPropertyChanged(string propertyName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>propertyName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="NDSH_Geospatial_Metadata_CodeListValue_Type_PropertyChanged" data-uid="NDSH.Geospatial.Metadata.CodeListValue_Type.PropertyChanged">
+  PropertyChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs/#L692"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/CodeListValue_Type.cs/#L69" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

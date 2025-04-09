@@ -1,0 +1,624 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  id: NgdcDataset
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+  - NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+  langs:
+  - csharp
+  - vb
+  name: NgdcDataset
+  nameWithType: NgdcDataset
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: NgdcDataset
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 17
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Table("NgdcDatasets")]
+
+      public class NgdcDataset
+    content.vb: >-
+      <Table("NgdcDatasets")>
+
+      Public Class NgdcDataset
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.TableAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: NgdcDatasets
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+  id: Id
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: NgdcDataset.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Id
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 23
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+  id: FileIdentifier
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: FileIdentifier
+  nameWithType: NgdcDataset.FileIdentifier
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: FileIdentifier
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string FileIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileIdentifier As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+  id: DatasetTitle
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: DatasetTitle
+  nameWithType: NgdcDataset.DatasetTitle
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DatasetTitle
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string DatasetTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DatasetTitle As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+  id: DatasetAuthors
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: DatasetAuthors
+  nameWithType: NgdcDataset.DatasetAuthors
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DatasetAuthors
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string DatasetAuthors { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DatasetAuthors As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+  id: DigitalObjectIdentifier
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: DigitalObjectIdentifier
+  nameWithType: NgdcDataset.DigitalObjectIdentifier
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DigitalObjectIdentifier
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 51
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string DigitalObjectIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DigitalObjectIdentifier As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+  id: DiscoveryLink
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: DiscoveryLink
+  nameWithType: NgdcDataset.DiscoveryLink
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DiscoveryLink
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string DiscoveryLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DiscoveryLink As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink
+  id: DoiPageLink
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset
+  langs:
+  - csharp
+  - vb
+  name: DoiPageLink
+  nameWithType: NgdcDataset.DoiPageLink
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DoiPageLink
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/NgdcDataset.cs
+    startLine: 65
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public string DoiPageLink { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DoiPageLink As String
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink*
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_Id
+  name: Id
+  nameWithType: NgdcDataset.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_FileIdentifier
+  name: FileIdentifier
+  nameWithType: NgdcDataset.FileIdentifier
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.FileIdentifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_DatasetTitle
+  name: DatasetTitle
+  nameWithType: NgdcDataset.DatasetTitle
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetTitle
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_DatasetAuthors
+  name: DatasetAuthors
+  nameWithType: NgdcDataset.DatasetAuthors
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DatasetAuthors
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_DigitalObjectIdentifier
+  name: DigitalObjectIdentifier
+  nameWithType: NgdcDataset.DigitalObjectIdentifier
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DigitalObjectIdentifier
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_DiscoveryLink
+  name: DiscoveryLink
+  nameWithType: NgdcDataset.DiscoveryLink
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DiscoveryLink
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink
+  href: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.html#NDSH_Geospatial_Metadata_Utilities_Models_NgdcDataset_DoiPageLink
+  name: DoiPageLink
+  nameWithType: NgdcDataset.DoiPageLink
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.NgdcDataset.DoiPageLink

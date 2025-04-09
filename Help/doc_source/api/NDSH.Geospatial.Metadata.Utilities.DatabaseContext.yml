@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  id: DatabaseContext
+  parent: NDSH.Geospatial.Metadata.Utilities
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+  - NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+  - NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContextGraphApi
+  - NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataDbContext
+  - NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataThinContext
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+  parent: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption.html
+  name: DatabaseOption
+  nameWithType: DatabaseOption
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.DatabaseOption
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+  parent: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext.html
+  name: MetadataContext
+  nameWithType: MetadataContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContext
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContextGraphApi
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContextGraphApi
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContextGraphApi.html
+  name: MetadataContextGraphApi
+  nameWithType: MetadataContextGraphApi
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataContextGraphApi
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataDbContext
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataDbContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataDbContext.html
+  name: MetadataDbContext
+  nameWithType: MetadataDbContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataDbContext
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataThinContext
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataThinContext
+  href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataThinContext.html
+  name: MetadataThinContext
+  nameWithType: MetadataThinContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.MetadataThinContext
+- uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  fullName: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+    name: DatabaseContext
+    href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.DatabaseContext
+    name: DatabaseContext
+    href: NDSH.Geospatial.Metadata.Utilities.DatabaseContext.html

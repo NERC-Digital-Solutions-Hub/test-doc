@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet
+  id: EntitySet
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet.MdMetadataXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet.MdMetadataXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet.MdMetadataXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet.MdMetadataXmlReader.html
+  name: MdMetadataXmlReader
+  nameWithType: MdMetadataXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.EntitySet.MdMetadataXmlReader

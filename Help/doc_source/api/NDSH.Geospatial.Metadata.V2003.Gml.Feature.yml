@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  id: Feature
+  parent: NDSH.Geospatial.Metadata.V2003.Gml
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureCollectionType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureMemberType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundedFeatureType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundingShapeType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.EnvelopeWithTimePeriodType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureArrayPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureCollectionType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeaturePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.LocationPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Feature.PriorityLocationPropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+    name: Dynamic
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic
+    name: Dynamic
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.Dynamic.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureCollectionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureCollectionType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureCollectionType.html
+  name: AbstractFeatureCollectionType
+  nameWithType: AbstractFeatureCollectionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureCollectionType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureMemberType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureMemberType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureMemberType.html
+  name: AbstractFeatureMemberType
+  nameWithType: AbstractFeatureMemberType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureMemberType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureType.html
+  name: AbstractFeatureType
+  nameWithType: AbstractFeatureType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.AbstractFeatureType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundedFeatureType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundedFeatureType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundedFeatureType.html
+  name: BoundedFeatureType
+  nameWithType: BoundedFeatureType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundedFeatureType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundingShapeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundingShapeType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundingShapeType.html
+  name: BoundingShapeType
+  nameWithType: BoundingShapeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.BoundingShapeType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.EnvelopeWithTimePeriodType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.EnvelopeWithTimePeriodType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.EnvelopeWithTimePeriodType.html
+  name: EnvelopeWithTimePeriodType
+  nameWithType: EnvelopeWithTimePeriodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.EnvelopeWithTimePeriodType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureArrayPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureArrayPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureArrayPropertyType.html
+  name: FeatureArrayPropertyType
+  nameWithType: FeatureArrayPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureArrayPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureCollectionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureCollectionType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureCollectionType.html
+  name: FeatureCollectionType
+  nameWithType: FeatureCollectionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeatureCollectionType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeaturePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeaturePropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeaturePropertyType.html
+  name: FeaturePropertyType
+  nameWithType: FeaturePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.FeaturePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.LocationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.LocationPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.LocationPropertyType.html
+  name: LocationPropertyType
+  nameWithType: LocationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.LocationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature.PriorityLocationPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Feature.PriorityLocationPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.PriorityLocationPropertyType.html
+  name: PriorityLocationPropertyType
+  nameWithType: PriorityLocationPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature.PriorityLocationPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Feature
+    name: Feature
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Feature.html

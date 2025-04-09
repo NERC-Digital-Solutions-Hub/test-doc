@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Apps.Benchmarks.Models
+  commentId: N:NDSH.Apps.Benchmarks.Models
+  id: Models
+  parent: NDSH.Apps.Benchmarks
+  children:
+  - NDSH.Apps.Benchmarks.Models.CI_Address_Type1
+  - NDSH.Apps.Benchmarks.Models.CI_Address_Type2
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Apps.Benchmarks.Models
+  nameWithType: NDSH.Apps.Benchmarks.Models
+  fullName: NDSH.Apps.Benchmarks.Models
+  type: Namespace
+  assemblies:
+  - NDSH.Apps.Benchmarks
+references:
+- uid: NDSH.Apps.Benchmarks.Models.CI_Address_Type1
+  commentId: T:NDSH.Apps.Benchmarks.Models.CI_Address_Type1
+  href: NDSH.Apps.Benchmarks.Models.CI_Address_Type1.html
+  name: CI_Address_Type1
+  nameWithType: CI_Address_Type1
+  fullName: NDSH.Apps.Benchmarks.Models.CI_Address_Type1
+- uid: NDSH.Apps.Benchmarks.Models.CI_Address_Type2
+  commentId: T:NDSH.Apps.Benchmarks.Models.CI_Address_Type2
+  href: NDSH.Apps.Benchmarks.Models.CI_Address_Type2.html
+  name: CI_Address_Type2
+  nameWithType: CI_Address_Type2
+  fullName: NDSH.Apps.Benchmarks.Models.CI_Address_Type2

@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  id: IAlternative
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IAlternative
+  nameWithType: IAlternative
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/XmlSchema/Catalogues/CRS/Multilingual/IAlternative.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IAlternative
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/XmlSchema/Catalogues/CRS/Multilingual/IAlternative.cs
+    startLine: 32
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  summary: ''
+  example: []
+  syntax:
+    content: 'public interface IAlternative : ILocale_PropertyType, ICodeSpace'
+    content.vb: Public Interface IAlternative Inherits ILocale_PropertyType, ICodeSpace
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.Locale
+  - NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.Locale
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.Locale
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_Localisation_ILocale_PropertyType_Locale
+  name: Locale
+  nameWithType: ILocale_PropertyType.Locale
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.Locale
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.html#NDSH_Geospatial_Metadata_V2003_Thin_Common_ICodeSpace_CodeSpace
+  name: CodeSpace
+  nameWithType: ICodeSpace.CodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.CodeSpace
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.html
+  name: ILocale_PropertyType
+  nameWithType: ILocale_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace.html
+  name: ICodeSpace
+  nameWithType: ICodeSpace
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common.ICodeSpace
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Common.html

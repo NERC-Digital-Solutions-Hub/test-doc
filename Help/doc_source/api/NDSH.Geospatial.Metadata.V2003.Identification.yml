@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Identification
+  id: Identification
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Identification_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_Type
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Identification
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type.html
+  name: AbstractMD_Identification_Type
+  nameWithType: AbstractMD_Identification_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType.html
+  name: DS_AssociationTypeCode_PropertyType
+  nameWithType: DS_AssociationTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.DS_AssociationTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_PropertyType.html
+  name: DS_Association_PropertyType
+  nameWithType: DS_Association_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type.html
+  name: DS_Association_Type
+  nameWithType: DS_Association_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType.html
+  name: DS_InitiativeTypeCode_PropertyType
+  nameWithType: DS_InitiativeTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.DS_InitiativeTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_PropertyType.html
+  name: MD_AggregateInformation_PropertyType
+  nameWithType: MD_AggregateInformation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type.html
+  name: MD_AggregateInformation_Type
+  nameWithType: MD_AggregateInformation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_PropertyType.html
+  name: MD_BrowseGraphic_PropertyType
+  nameWithType: MD_BrowseGraphic_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type.html
+  name: MD_BrowseGraphic_Type
+  nameWithType: MD_BrowseGraphic_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType.html
+  name: MD_CharacterSetCode_PropertyType
+  nameWithType: MD_CharacterSetCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_CharacterSetCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_PropertyType.html
+  name: MD_DataIdentification_PropertyType
+  nameWithType: MD_DataIdentification_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_Type.html
+  name: MD_DataIdentification_Type
+  nameWithType: MD_DataIdentification_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_DataIdentification_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Identification_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Identification_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Identification_PropertyType.html
+  name: MD_Identification_PropertyType
+  nameWithType: MD_Identification_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Identification_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType.html
+  name: MD_KeywordTypeCode_PropertyType
+  nameWithType: MD_KeywordTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_KeywordTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_PropertyType.html
+  name: MD_Keywords_PropertyType
+  nameWithType: MD_Keywords_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type.html
+  name: MD_Keywords_Type
+  nameWithType: MD_Keywords_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType.html
+  name: MD_ProgressCode_PropertyType
+  nameWithType: MD_ProgressCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_ProgressCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_PropertyType.html
+  name: MD_RepresentativeFraction_PropertyType
+  nameWithType: MD_RepresentativeFraction_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type.html
+  name: MD_RepresentativeFraction_Type
+  nameWithType: MD_RepresentativeFraction_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType.html
+  name: MD_Resolution_PropertyType
+  nameWithType: MD_Resolution_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_Type.html
+  name: MD_Resolution_Type
+  nameWithType: MD_Resolution_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Resolution_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType.html
+  name: MD_SpatialRepresentationTypeCode_PropertyType
+  nameWithType: MD_SpatialRepresentationTypeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_SpatialRepresentationTypeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType.html
+  name: MD_TopicCategoryCode_PropertyType
+  nameWithType: MD_TopicCategoryCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_Type.html
+  name: MD_TopicCategoryCode_Type
+  nameWithType: MD_TopicCategoryCode_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_PropertyType.html
+  name: MD_Usage_PropertyType
+  nameWithType: MD_Usage_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type.html
+  name: MD_Usage_Type
+  nameWithType: MD_Usage_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Identification
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Identification
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Identification
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Identification
+  fullName: NDSH.Geospatial.Metadata.V2003.Identification
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Identification.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Identification
+    name: Identification
+    href: NDSH.Geospatial.Metadata.V2003.Identification.html

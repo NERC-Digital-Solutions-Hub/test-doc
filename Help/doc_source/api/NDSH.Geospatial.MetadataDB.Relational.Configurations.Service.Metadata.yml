@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata
+  id: Service.Metadata
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvCoupledResourceConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvOperationMetadataConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvServiceIdentificationConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvCoupledResourceConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvCoupledResourceConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvCoupledResourceConfiguration.html
+  name: SvCoupledResourceConfiguration
+  nameWithType: SvCoupledResourceConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvCoupledResourceConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvOperationMetadataConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvOperationMetadataConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvOperationMetadataConfiguration.html
+  name: SvOperationMetadataConfiguration
+  nameWithType: SvOperationMetadataConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvOperationMetadataConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvServiceIdentificationConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvServiceIdentificationConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvServiceIdentificationConfiguration.html
+  name: SvServiceIdentificationConfiguration
+  nameWithType: SvServiceIdentificationConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Service.Metadata.SvServiceIdentificationConfiguration

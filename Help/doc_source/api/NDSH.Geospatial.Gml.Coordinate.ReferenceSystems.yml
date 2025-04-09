@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  id: ReferenceSystems
+  parent: NDSH.Geospatial.Gml.Coordinate
+  children:
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType
+  - NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType.html
+  name: AbstractGeneralDerivedCRSType
+  nameWithType: AbstractGeneralDerivedCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractGeneralDerivedCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS.html
+  name: AbstractSingleCRS
+  nameWithType: AbstractSingleCRS
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.AbstractSingleCRS
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType.html
+  name: CompoundCRSType
+  nameWithType: CompoundCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.CompoundCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType.html
+  name: DerivedCRSType
+  nameWithType: DerivedCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.DerivedCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType.html
+  name: EngineeringCRSType
+  nameWithType: EngineeringCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.EngineeringCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType.html
+  name: GeocentricCRSType
+  nameWithType: GeocentricCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeocentricCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType.html
+  name: GeodeticCRSType
+  nameWithType: GeodeticCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeodeticCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType.html
+  name: GeographicCRSType
+  nameWithType: GeographicCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.GeographicCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem.html
+  name: IProjectedCoordinateReferenceSystem
+  nameWithType: IProjectedCoordinateReferenceSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.IProjectedCoordinateReferenceSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS.html
+  name: ISingleCRS
+  nameWithType: ISingleCRS
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ISingleCRS
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType.html
+  name: ImageCRSType
+  nameWithType: ImageCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ImageCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType.html
+  name: ProjectedCRSType
+  nameWithType: ProjectedCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.ProjectedCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType.html
+  name: TemporalCRSType
+  nameWithType: TemporalCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.TemporalCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType
+  parent: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType.html
+  name: VerticalCRSType
+  nameWithType: VerticalCRSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.VerticalCRSType
+- uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  fullName: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Gml.Coordinate.ReferenceSystems.html

@@ -1,0 +1,713 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  commentId: T:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  id: LevenshteinTitleStatistics
+  parent: NDSH.Geospatial.Metadata.Utilities.Models
+  children:
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+  - NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+  langs:
+  - csharp
+  - vb
+  name: LevenshteinTitleStatistics
+  nameWithType: LevenshteinTitleStatistics
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LevenshteinTitleStatistics
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Table("LevenshteinTitleStatistics")]
+
+      public sealed class LevenshteinTitleStatistics
+    content.vb: >-
+      <Table("LevenshteinTitleStatistics")>
+
+      Public NotInheritable Class LevenshteinTitleStatistics
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.ComponentModel.DataAnnotations.Schema.TableAttribute
+    ctor: System.ComponentModel.DataAnnotations.Schema.TableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: LevenshteinTitleStatistics
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+  id: Id
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: LevenshteinTitleStatistics.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Id
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the primary key.
+  example: []
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+  id: RecordId
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: LevenshteinTitleStatistics.RecordId
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: RecordId
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the titles record id.
+  example: []
+  syntax:
+    content: public int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecordId As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+  id: Min
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Min
+  nameWithType: LevenshteinTitleStatistics.Min
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Min
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 50
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the minimum Levenshtein distance for this title.
+  example: []
+  syntax:
+    content: public int Min { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Min As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+  id: Max
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: LevenshteinTitleStatistics.Max
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Max
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 64
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the maximum Levenshtein distance for this title.
+  example: []
+  syntax:
+    content: public int Max { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Max As Integer
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+  id: Mean
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Mean
+  nameWithType: LevenshteinTitleStatistics.Mean
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Mean
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 78
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the mean of the Levenshtein distance for this title.
+  example: []
+  syntax:
+    content: public double Mean { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Mean As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+  id: Median
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Median
+  nameWithType: LevenshteinTitleStatistics.Median
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Median
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the median of the Levenshtein distances for this title.
+  example: []
+  syntax:
+    content: public double Median { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Median As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+  id: Variance
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Variance
+  nameWithType: LevenshteinTitleStatistics.Variance
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Variance
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 106
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the variance of the Levenshtein distances for this title.
+  example: []
+  syntax:
+    content: public double Variance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Variance As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+  id: StDev
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: StDev
+  nameWithType: LevenshteinTitleStatistics.StDev
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: StDev
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 120
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: Gets/Sets the standard deviation of the Levenshtein distances for this title.
+  example: []
+  syntax:
+    content: public double StDev { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property StDev As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+  id: Kurtosis
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Kurtosis
+  nameWithType: LevenshteinTitleStatistics.Kurtosis
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Kurtosis
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public double Kurtosis { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Kurtosis As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis*
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness
+  commentId: P:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness
+  id: Skewness
+  parent: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics
+  langs:
+  - csharp
+  - vb
+  name: Skewness
+  nameWithType: LevenshteinTitleStatistics.Skewness
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Skewness
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Geospatial/Metadata/Utilities/Models/LevenshteinTitleStatistics.cs
+    startLine: 148
+  assemblies:
+  - NDSH.Geospatial.Metadata.Utilities
+  namespace: NDSH.Geospatial.Metadata.Utilities.Models
+  summary: ''
+  example: []
+  syntax:
+    content: public double Skewness { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Skewness As Double
+  overload: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness*
+references:
+- uid: NDSH.Geospatial.Metadata.Utilities.Models
+  commentId: N:NDSH.Geospatial.Metadata.Utilities.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Utilities.Models
+  nameWithType: NDSH.Geospatial.Metadata.Utilities.Models
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities
+    name: Utilities
+    href: NDSH.Geospatial.Metadata.Utilities.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Utilities.Models
+    name: Models
+    href: NDSH.Geospatial.Metadata.Utilities.Models.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Id
+  name: Id
+  nameWithType: LevenshteinTitleStatistics.Id
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_RecordId
+  name: RecordId
+  nameWithType: LevenshteinTitleStatistics.RecordId
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.RecordId
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Min
+  name: Min
+  nameWithType: LevenshteinTitleStatistics.Min
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Min
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Max
+  name: Max
+  nameWithType: LevenshteinTitleStatistics.Max
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Max
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Mean
+  name: Mean
+  nameWithType: LevenshteinTitleStatistics.Mean
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Mean
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Median
+  name: Median
+  nameWithType: LevenshteinTitleStatistics.Median
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Median
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Variance
+  name: Variance
+  nameWithType: LevenshteinTitleStatistics.Variance
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Variance
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_StDev
+  name: StDev
+  nameWithType: LevenshteinTitleStatistics.StDev
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.StDev
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Kurtosis
+  name: Kurtosis
+  nameWithType: LevenshteinTitleStatistics.Kurtosis
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Kurtosis
+- uid: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness*
+  commentId: Overload:NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness
+  href: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.html#NDSH_Geospatial_Metadata_Utilities_Models_LevenshteinTitleStatistics_Skewness
+  name: Skewness
+  nameWithType: LevenshteinTitleStatistics.Skewness
+  fullName: NDSH.Geospatial.Metadata.Utilities.Models.LevenshteinTitleStatistics.Skewness

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AbstractObject_Type | NDSH </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AbstractObject_Type | NDSH ">
+      
+      <meta name="description" content="The AbstractObject_Type class serves as an abstract base type for geospatial metadata objects in compliance with the ISO 19115 standard. It implements the  interface, which provides unique identification attributes such as id and uuid.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/NERC-Digital-Solutions-Hub/test-doc/new/dev/apiSpec/new?filename=NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type.md&amp;value=---%0Auid%3A%20NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="NDSH">
+            NDSH
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type">
+
+
+
+  <h1 id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type" data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type" class="text-break">
+Class AbstractObject_Type  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/AbstractObject_Type.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDSH.html">NDSH</a>.<a class="xref" href="NDSH.Geospatial.html">Geospatial</a>.<a class="xref" href="NDSH.Geospatial.Metadata.html">Metadata</a>.<a class="xref" href="NDSH.Geospatial.Metadata.V2003.html">V2003</a>.<a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.html">Common</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDSH.Geospatial.Metadata.V2003.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The AbstractObject_Type class serves as an abstract base type for geospatial metadata objects
+in compliance with the ISO 19115 standard. It implements the <a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification.html">IObjectIdentification</a>
+interface, which provides unique identification attributes such as id and uuid.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[JsonObject(&quot;AbstractObject&quot;)]
+public abstract class AbstractObject_Type : ObservableModel, IModel, IObservableModel, INotifyPropertyChanged, IObjectIdentification, IId, IUuid</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="NDSH.Apps.Model.html">Model</a></div>
+      <div><a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a></div>
+      <div><span class="xref">AbstractObject_Type</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Apps.IModel.html">IModel</a></div>
+      <div><a class="xref" href="NDSH.Apps.IObservableModel.html">IObservableModel</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.IObjectIdentification.html">IObjectIdentification</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.IId.html">IId</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.IUuid.html">IUuid</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Application.AbstractDS_Aggregate_Type.html">AbstractDS_Aggregate_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Application.DS_DataSet_Type.html">DS_DataSet_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ApplicationSchema.MD_ApplicationSchemaInformation_Type.html">MD_ApplicationSchemaInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Address_Type.html">CI_Address_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Citation_Type.html">CI_Citation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Contact_Type.html">CI_Contact_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Date_Type.html">CI_Date_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_OnlineResource_Type.html">CI_OnlineResource_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_ResponsibleParty_Type.html">CI_ResponsibleParty_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Series_Type.html">CI_Series_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Citation.CI_Telephone_Type.html">CI_Telephone_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Extent.AbstractEX_GeographicExtent_Type.html">AbstractEX_GeographicExtent_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Extent.EX_Extent_Type.html">EX_Extent_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Extent.EX_TemporalExtent_Type.html">EX_TemporalExtent_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Common.Extent.EX_VerticalExtent_Type.html">EX_VerticalExtent_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Names.MemberName_Type.html">MemberName_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Implementation.Names.TypeName_Type.html">TypeName_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Multiplicities.MultiplicityRange_Type.html">MultiplicityRange_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ConceptualSchema.Primitive.Multiplicities.Multiplicity_Type.html">Multiplicity_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type.html">MD_Constraints_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Content.AbstractMD_ContentInformation_Type.html">AbstractMD_ContentInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Content.MD_RangeDimension_Type.html">MD_RangeDimension_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.AbstractDQ_Element_Type.html">AbstractDQ_Element_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.AbstractDQ_Result_Type.html">AbstractDQ_Result_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.DQ_DataQuality_Type.html">DQ_DataQuality_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.DQ_Scope_Type.html">DQ_Scope_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.Lineage.LI_Lineage_Type.html">LI_Lineage_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.Lineage.LI_ProcessStep_Type.html">LI_ProcessStep_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.DataQuality.Lineage.LI_Source_Type.html">LI_Source_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_DigitalTransferOptions_Type.html">MD_DigitalTransferOptions_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_Distribution_Type.html">MD_Distribution_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_Distributor_Type.html">MD_Distributor_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_Format_Type.html">MD_Format_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_Medium_Type.html">MD_Medium_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Distribution.MD_StandardOrderProcess_Type.html">MD_StandardOrderProcess_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.EntitySet.MD_Metadata_Type.html">MD_Metadata_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Extension.MD_ExtendedElementInformation_Type.html">MD_ExtendedElementInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Extension.MD_MetadataExtensionInformation_Type.html">MD_MetadataExtensionInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.AbstractMD_Identification_Type.html">AbstractMD_Identification_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.DS_Association_Type.html">DS_Association_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_AggregateInformation_Type.html">MD_AggregateInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_BrowseGraphic_Type.html">MD_BrowseGraphic_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_Keywords_Type.html">MD_Keywords_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_RepresentativeFraction_Type.html">MD_RepresentativeFraction_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Identification.MD_Usage_Type.html">MD_Usage_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_AcquisitionInformation_Type.html">MI_AcquisitionInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_EnvironmentalRecord_Type.html">MI_EnvironmentalRecord_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Event_Type.html">MI_Event_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Instrument_Type.html">MI_Instrument_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Objective_Type.html">MI_Objective_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Operation_Type.html">MI_Operation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Plan_Type.html">MI_Plan_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_PlatformPass_Type.html">MI_PlatformPass_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Platform_Type.html">MI_Platform_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_RequestedDate_Type.html">MI_RequestedDate_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.MI_Requirement_Type.html">MI_Requirement_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.Content.MI_RangeElementDescription_Type.html">MI_RangeElementDescription_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.LE_Algorithm_Type.html">LE_Algorithm_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.LE_NominalResolution_Type.html">LE_NominalResolution_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.LE_ProcessStepReport_Type.html">LE_ProcessStepReport_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.LE_Processing_Type.html">LE_Processing_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.MX_ImgDataFile_Type.html">MX_ImgDataFile_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type.html">AbstractMI_GeolocationInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation.MI_GCP_Type.html">MI_GCP_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Localisation.PT_FreeText_Type.html">PT_FreeText_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Localisation.PT_Locale_Type.html">PT_Locale_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Maintenance.MD_MaintenanceInformation_Type.html">MD_MaintenanceInformation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type.html">MD_PortrayalCatalogueReference_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ReferenceSystem.AbstractRS_ReferenceSystem_Type.html">AbstractRS_ReferenceSystem_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ReferenceSystem.MD_Identifier_Type.html">MD_Identifier_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.ReferenceSystem.MD_ReferenceSystem_Type.html">MD_ReferenceSystem_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_CoupledResource_Type.html">SV_CoupledResource_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_OperationChainMetadata_Type.html">SV_OperationChainMetadata_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_OperationChain_Type.html">SV_OperationChain_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_OperationMetadata_Type.html">SV_OperationMetadata_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Metadata.SV_Parameter_Type.html">SV_Parameter_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.AbstractSV_AbstractServiceSpecification_Type.html">AbstractSV_AbstractServiceSpecification_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_Interface_Type.html">SV_Interface_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_Operation_Type.html">SV_Operation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_PortSpecification_Type.html">SV_PortSpecification_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_Port_Type.html">SV_Port_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.Service.Model.SV_Service_Type.html">SV_Service_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.AbstractMD_SpatialRepresentation_Type.html">AbstractMD_SpatialRepresentation_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_Dimension_Type.html">MD_Dimension_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.SpatialRepresentation.MD_GeometricObjects_Type.html">MD_GeometricObjects_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.AbstractMX_File_Type.html">AbstractMX_File_Type</a></div>
+      <div><a class="xref" href="NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.AbstractCT_Catalogue_Type.html">AbstractCT_Catalogue_Type</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_">ObservableModel.SetProperty&lt;T&gt;(ref T, T, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged">ObservableModel.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_">ObservableModel.OnPropertyChanged(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues">Model.GetPropertyKeyValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings">Model.GetPropertyKeyValuesAsStrings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <b>Usage:</b>
+  <ul><li>Used as a base class for other metadata objects that require identification attributes.</li></ul>
+
+<p>
+  <b>Key Features:</b>
+  <ul><li>Ensures change notifications through the <a class="xref" href="NDSH.Apps.ObservableModel.html">ObservableModel</a> base class.</li><li>
+      The class cannot be instantiated directly but provides a foundation for other metadata objects.
+    </li><li>
+      Global Unique Identifiers:
+      The id and uuid properties ensure each object instance can be uniquely referenced.
+    </li></ul>
+
+<p>
+  <b>Considerations:</b>
+  <ul><li>The id attribute follows XML ID constraints and must be unique within a document.</li><li>
+      The uuid should be a globally unique identifier and is represented as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.
+    </li><li>As an abstract type, this class must be subclassed before use.</li></ul>
+
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Id_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Id" data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/AbstractObject_Type.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the unique identifier for the object.
+This attribute's type is defined in the schema as <code>ID</code> and must be unique within an XML document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;id&quot;)]
+public string? Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Uuid_" data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid*"></a>
+
+  <h3 id="NDSH_Geospatial_Metadata_V2003_Common_AbstractObject_Type_Uuid" data-uid="NDSH.Geospatial.Metadata.V2003.Common.AbstractObject_Type.Uuid">
+  Uuid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/AbstractObject_Type.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets/Sets the universally unique identifier (UUID) for the object.
+This ensures the object can be referenced uniquely across different datasets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;uuid&quot;)]
+public string? Uuid { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/NERC-Digital-Solutions-Hub/test-doc/blob/dev/Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/AbstractObject_Type.cs/#L73" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

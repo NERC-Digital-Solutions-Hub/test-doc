@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  id: Demos.SearchAndMap
+  parent: NDSH.Geospatial
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  - NDSH.Geospatial.Demos.SearchAndMap.Binders
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  - NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  - NDSH.Geospatial.Demos.SearchAndMap.Commands
+  - NDSH.Geospatial.Demos.SearchAndMap.Converters
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  - NDSH.Geospatial.Demos.SearchAndMap.IModel
+  - NDSH.Geospatial.Demos.SearchAndMap.Model
+  - NDSH.Geospatial.Demos.SearchAndMap.Models
+  - NDSH.Geospatial.Demos.SearchAndMap.Views
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+    name: AgPro
+    href: NDSH.Geospatial.Demos.SearchAndMap.AgPro.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.AgPro
+    name: AgPro
+    href: NDSH.Geospatial.Demos.SearchAndMap.AgPro.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Binders
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Binders
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Binders.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Binders
+    name: Binders
+    href: NDSH.Geospatial.Demos.SearchAndMap.Binders.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+  isExternal: true
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Commands
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Commands
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Commands
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Commands
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Commands
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Commands
+    name: Commands
+    href: NDSH.Geospatial.Demos.SearchAndMap.Commands.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Commands
+    name: Commands
+    href: NDSH.Geospatial.Demos.SearchAndMap.Commands.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Converters
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Converters
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+    name: Converters
+    href: NDSH.Geospatial.Demos.SearchAndMap.Converters.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Converters
+    name: Converters
+    href: NDSH.Geospatial.Demos.SearchAndMap.Converters.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Views
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Views
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Views
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+  href: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper.html
+  name: Bootstrapper
+  nameWithType: Bootstrapper
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Bootstrapper
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html
+  name: IBinder
+  nameWithType: IBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Model
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Model
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Model
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html

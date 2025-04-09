@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  id: Basic2D
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractSurfaceType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.PolygonType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfaceArrayPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfacePropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingPropertyType.html
+  name: AbstractRingPropertyType
+  nameWithType: AbstractRingPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingType.html
+  name: AbstractRingType
+  nameWithType: AbstractRingType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractRingType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractSurfaceType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractSurfaceType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractSurfaceType.html
+  name: AbstractSurfaceType
+  nameWithType: AbstractSurfaceType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.AbstractSurfaceType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingPropertyType.html
+  name: LinearRingPropertyType
+  nameWithType: LinearRingPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingType.html
+  name: LinearRingType
+  nameWithType: LinearRingType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.LinearRingType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.PolygonType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.PolygonType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.PolygonType.html
+  name: PolygonType
+  nameWithType: PolygonType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.PolygonType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfaceArrayPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfaceArrayPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfaceArrayPropertyType.html
+  name: SurfaceArrayPropertyType
+  nameWithType: SurfaceArrayPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfaceArrayPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfacePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfacePropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfacePropertyType.html
+  name: SurfacePropertyType
+  nameWithType: SurfacePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.SurfacePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+    name: Basic2D
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D
+    name: Basic2D
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Geometry.Basic2D.html

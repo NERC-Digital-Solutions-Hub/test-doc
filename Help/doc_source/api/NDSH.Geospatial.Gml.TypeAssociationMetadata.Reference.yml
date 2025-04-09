@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  id: TypeAssociationMetadata.Reference
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor(NDSH.Geospatial.Metadata.ReferenceEntity)
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value
+  langs:
+  - csharp
+  - vb
+  name: TypeAssociationMetadata.Reference
+  nameWithType: TypeAssociationMetadata.Reference
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Reference
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+    startLine: 191
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: Represents a <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata" data-throw-if-not-resolved="false"></xref> instance of type <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed record TypeAssociationMetadata.Reference : TypeAssociationMetadata, IEquatable<TypeAssociationMetadata>, IEquatable<TypeAssociationMetadata.Reference>'
+    content.vb: Public NotInheritable Class TypeAssociationMetadata.Reference Inherits TypeAssociationMetadata Implements IEquatable(Of TypeAssociationMetadata), IEquatable(Of TypeAssociationMetadata.Reference)
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Gml.TypeAssociationMetadata
+  implements:
+  - System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata}
+  - System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor(NDSH.Geospatial.Metadata.ReferenceEntity)
+  commentId: M:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor(NDSH.Geospatial.Metadata.ReferenceEntity)
+  id: '#ctor(NDSH.Geospatial.Metadata.ReferenceEntity)'
+  parent: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  langs:
+  - csharp
+  - vb
+  name: Reference(ReferenceEntity)
+  nameWithType: TypeAssociationMetadata.Reference.Reference(ReferenceEntity)
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Reference(NDSH.Geospatial.Metadata.ReferenceEntity)
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+    startLine: 191
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: Represents a <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata" data-throw-if-not-resolved="false"></xref> instance of type <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public Reference(ReferenceEntity Value)
+    parameters:
+    - id: Value
+      type: NDSH.Geospatial.Metadata.ReferenceEntity
+      description: The <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref> value used to create the <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(Value As ReferenceEntity)
+  overload: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor*
+  nameWithType.vb: TypeAssociationMetadata.Reference.New(ReferenceEntity)
+  fullName.vb: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.New(NDSH.Geospatial.Metadata.ReferenceEntity)
+  name.vb: New(ReferenceEntity)
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value
+  commentId: P:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value
+  id: Value
+  parent: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TypeAssociationMetadata.Reference.Value
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Value
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/TypeAssociationMetadata.cs
+    startLine: 191
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml
+  summary: The <xref href="NDSH.Geospatial.Metadata.ReferenceEntity" data-throw-if-not-resolved="false"></xref> value used to create the <xref href="NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ReferenceEntity Value { get; init; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.ReferenceEntity
+    content.vb: Public Property Value As ReferenceEntity
+  overload: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value*
+references:
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata
+  parent: NDSH.Geospatial.Gml
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata
+  nameWithType: TypeAssociationMetadata
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata
+- uid: NDSH.Geospatial.Metadata.ReferenceEntity
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceEntity
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ReferenceEntity.html
+  name: ReferenceEntity
+  nameWithType: ReferenceEntity
+  fullName: NDSH.Geospatial.Metadata.ReferenceEntity
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  commentId: T:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  name: TypeAssociationMetadata.Reference
+  nameWithType: TypeAssociationMetadata.Reference
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+  spec.csharp:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+  spec.vb:
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TypeAssociationMetadata>
+  nameWithType: IEquatable<TypeAssociationMetadata>
+  fullName: System.IEquatable<NDSH.Geospatial.Gml.TypeAssociationMetadata>
+  nameWithType.vb: IEquatable(Of TypeAssociationMetadata)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Gml.TypeAssociationMetadata)
+  name.vb: IEquatable(Of TypeAssociationMetadata)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: )
+- uid: System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference}
+  commentId: T:System.IEquatable{NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TypeAssociationMetadata.Reference>
+  nameWithType: IEquatable<TypeAssociationMetadata.Reference>
+  fullName: System.IEquatable<NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference>
+  nameWithType.vb: IEquatable(Of TypeAssociationMetadata.Reference)
+  fullName.vb: System.IEquatable(Of NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference)
+  name.vb: IEquatable(Of TypeAssociationMetadata.Reference)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata
+    name: TypeAssociationMetadata
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference
+    name: Reference
+    href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor*
+  commentId: Overload:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.#ctor
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html#NDSH_Geospatial_Gml_TypeAssociationMetadata_Reference__ctor_NDSH_Geospatial_Metadata_ReferenceEntity_
+  name: Reference
+  nameWithType: TypeAssociationMetadata.Reference.Reference
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Reference
+  nameWithType.vb: TypeAssociationMetadata.Reference.New
+  fullName.vb: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.New
+  name.vb: New
+- uid: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value*
+  commentId: Overload:NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value
+  href: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.html#NDSH_Geospatial_Gml_TypeAssociationMetadata_Reference_Value
+  name: Value
+  nameWithType: TypeAssociationMetadata.Reference.Value
+  fullName: NDSH.Geospatial.Gml.TypeAssociationMetadata.Reference.Value

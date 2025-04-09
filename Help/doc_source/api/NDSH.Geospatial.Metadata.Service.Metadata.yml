@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata
+  commentId: N:NDSH.Geospatial.Metadata.Service.Metadata
+  id: Metadata
+  parent: NDSH.Geospatial.Metadata.Service
+  children:
+  - NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirection_PropertyType
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type
+  - NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Service.Metadata
+  nameWithType: NDSH.Geospatial.Metadata.Service.Metadata
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList.html
+  name: DCPList_CodeList
+  nameWithType: DCPList_CodeList
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.DCPList_CodeList
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type.html
+  name: SV_CoupledResource_Type
+  nameWithType: SV_CoupledResource_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_CoupledResource_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList.html
+  name: SV_CouplingType_CodeList
+  nameWithType: SV_CouplingType_CodeList
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_CouplingType_CodeList
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type.html
+  name: SV_OperationChainMetadata_Type
+  nameWithType: SV_OperationChainMetadata_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChainMetadata_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type.html
+  name: SV_OperationChain_Type
+  nameWithType: SV_OperationChain_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationChain_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type.html
+  name: SV_OperationMetadata_Type
+  nameWithType: SV_OperationMetadata_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_OperationMetadata_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirection_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirection_PropertyType
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirection_PropertyType.html
+  name: SV_ParameterDirection_PropertyType
+  nameWithType: SV_ParameterDirection_PropertyType
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirection_PropertyType
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections.html
+  name: SV_ParameterDirections
+  nameWithType: SV_ParameterDirections
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ParameterDirections
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type.html
+  name: SV_Parameter_Type
+  nameWithType: SV_Parameter_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_Parameter_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type.html
+  name: SV_ServiceIdentification_Type
+  nameWithType: SV_ServiceIdentification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata.SV_ServiceIdentification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Metadata
+  commentId: N:NDSH.Geospatial.Metadata.Service.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Service.Metadata
+  nameWithType: NDSH.Geospatial.Metadata.Service.Metadata
+  fullName: NDSH.Geospatial.Metadata.Service.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.Service.Metadata.html

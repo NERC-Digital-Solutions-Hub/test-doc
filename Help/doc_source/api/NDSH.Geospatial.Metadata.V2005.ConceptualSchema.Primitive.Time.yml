@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  id: Time
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive
+  children:
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.TM_PeriodDuration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.TM_PeriodDuration
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.TM_PeriodDuration
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.TM_PeriodDuration.html
+  name: TM_PeriodDuration
+  nameWithType: TM_PeriodDuration
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.TM_PeriodDuration
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+    name: Time
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema
+    name: ConceptualSchema
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time
+    name: Time
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Primitive.Time.html

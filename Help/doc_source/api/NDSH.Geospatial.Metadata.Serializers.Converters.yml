@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Serializers.Converters
+  commentId: N:NDSH.Geospatial.Metadata.Serializers.Converters
+  id: Converters
+  parent: NDSH.Geospatial.Metadata.Serializers
+  children:
+  - NDSH.Geospatial.Metadata.Serializers.Converters.IsoGmdXElementConverter
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Serializers.Converters
+  nameWithType: NDSH.Geospatial.Metadata.Serializers.Converters
+  fullName: NDSH.Geospatial.Metadata.Serializers.Converters
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.Serializers
+references:
+- uid: NDSH.Geospatial.Metadata.Serializers.Converters.IsoGmdXElementConverter
+  commentId: T:NDSH.Geospatial.Metadata.Serializers.Converters.IsoGmdXElementConverter
+  href: NDSH.Geospatial.Metadata.Serializers.Converters.IsoGmdXElementConverter.html
+  name: IsoGmdXElementConverter
+  nameWithType: IsoGmdXElementConverter
+  fullName: NDSH.Geospatial.Metadata.Serializers.Converters.IsoGmdXElementConverter

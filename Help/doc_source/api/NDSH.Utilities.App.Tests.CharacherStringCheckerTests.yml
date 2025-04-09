@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  commentId: T:NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  id: CharacherStringCheckerTests
+  parent: NDSH.Utilities.App.Tests
+  children:
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest
+  - NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+  langs:
+  - csharp
+  - vb
+  name: CharacherStringCheckerTests
+  nameWithType: CharacherStringCheckerTests
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CharacherStringCheckerTests
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 9
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class CharacherStringCheckerTests
+    content.vb: >-
+      <TestClass>
+
+      Public Class CharacherStringCheckerTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+  id: GetMdV2003PublicTypesTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: GetMdV2003PublicTypesTest()
+  nameWithType: CharacherStringCheckerTests.GetMdV2003PublicTypesTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: GetMdV2003PublicTypesTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 11
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GetMdV2003PublicTypesTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GetMdV2003PublicTypesTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+  id: GetCharacterStringPropertiesTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: GetCharacterStringPropertiesTest()
+  nameWithType: CharacherStringCheckerTests.GetCharacterStringPropertiesTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: GetCharacterStringPropertiesTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GetCharacterStringPropertiesTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GetCharacterStringPropertiesTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+  id: ClassWithCharaterStringProptiesTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: ClassWithCharaterStringProptiesTest()
+  nameWithType: CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ClassWithCharaterStringProptiesTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void ClassWithCharaterStringProptiesTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub ClassWithCharaterStringProptiesTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest
+  id: CapFirstCharTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: CapFirstCharTest()
+  nameWithType: CharacherStringCheckerTests.CapFirstCharTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CapFirstCharTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 36
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void CapFirstCharTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub CapFirstCharTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest
+  id: LowFirstCharTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: LowFirstCharTest()
+  nameWithType: CharacherStringCheckerTests.LowFirstCharTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LowFirstCharTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 44
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void LowFirstCharTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub LowFirstCharTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+  id: XmlCharacterStringSubsubitionTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: XmlCharacterStringSubsubitionTest()
+  nameWithType: CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: XmlCharacterStringSubsubitionTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 52
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void XmlCharacterStringSubsubitionTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub XmlCharacterStringSubsubitionTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest
+  commentId: M:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest
+  id: GetPublicClassXmlRootNameTest
+  parent: NDSH.Utilities.App.Tests.CharacherStringCheckerTests
+  langs:
+  - csharp
+  - vb
+  name: GetPublicClassXmlRootNameTest()
+  nameWithType: CharacherStringCheckerTests.GetPublicClassXmlRootNameTest()
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: GetPublicClassXmlRootNameTest
+    path: ../../Proj/src/src/NDSH.Utilities.App/tests/CharacherStringCheckerTests.cs
+    startLine: 74
+  assemblies:
+  - NDSH.Utilities.App.Tests
+  namespace: NDSH.Utilities.App.Tests
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void GetPublicClassXmlRootNameTest()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub GetPublicClassXmlRootNameTest()
+  overload: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Utilities.App.Tests
+  commentId: N:NDSH.Utilities.App.Tests
+  href: NDSH.html
+  name: NDSH.Utilities.App.Tests
+  nameWithType: NDSH.Utilities.App.Tests
+  fullName: NDSH.Utilities.App.Tests
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Utilities
+    name: Utilities
+    href: NDSH.Utilities.html
+  - name: .
+  - uid: NDSH.Utilities.App
+    name: App
+    href: NDSH.Utilities.App.html
+  - name: .
+  - uid: NDSH.Utilities.App.Tests
+    name: Tests
+    href: NDSH.Utilities.App.Tests.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_GetMdV2003PublicTypesTest
+  name: GetMdV2003PublicTypesTest
+  nameWithType: CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetMdV2003PublicTypesTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_GetCharacterStringPropertiesTest
+  name: GetCharacterStringPropertiesTest
+  nameWithType: CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetCharacterStringPropertiesTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_ClassWithCharaterStringProptiesTest
+  name: ClassWithCharaterStringProptiesTest
+  nameWithType: CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.ClassWithCharaterStringProptiesTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_CapFirstCharTest
+  name: CapFirstCharTest
+  nameWithType: CharacherStringCheckerTests.CapFirstCharTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.CapFirstCharTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_LowFirstCharTest
+  name: LowFirstCharTest
+  nameWithType: CharacherStringCheckerTests.LowFirstCharTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.LowFirstCharTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_XmlCharacterStringSubsubitionTest
+  name: XmlCharacterStringSubsubitionTest
+  nameWithType: CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.XmlCharacterStringSubsubitionTest
+- uid: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest*
+  commentId: Overload:NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest
+  href: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.html#NDSH_Utilities_App_Tests_CharacherStringCheckerTests_GetPublicClassXmlRootNameTest
+  name: GetPublicClassXmlRootNameTest
+  nameWithType: CharacherStringCheckerTests.GetPublicClassXmlRootNameTest
+  fullName: NDSH.Utilities.App.Tests.CharacherStringCheckerTests.GetPublicClassXmlRootNameTest

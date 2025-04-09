@@ -1,0 +1,43 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections
+  commentId: N:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections
+  id: Collections
+  parent: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation
+  children:
+  - NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set`1
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections
+  nameWithType: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set`1
+  commentId: T:NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set`1
+  href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set-1.html
+  name: Set<T>
+  nameWithType: Set<T>
+  fullName: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set<T>
+  nameWithType.vb: Set(Of T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set(Of T)
+  name.vb: Set(Of T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set`1
+    name: Set
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set`1
+    name: Set
+    href: NDSH.Geospatial.Metadata.V2005.ConceptualSchema.Implementation.Collections.Set-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

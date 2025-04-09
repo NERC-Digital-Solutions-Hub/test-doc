@@ -1,0 +1,546 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  id: Multilingual
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+  children:
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+    name: CoordinateOperations
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+    name: CoordinateOperations
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+    name: CoordinateReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+    name: CoordinateReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+    name: CoordinateSystems
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems
+    name: CoordinateSystems
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystems.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.html
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_PropertyType.html
+  name: CoordinateSystemAlt_PropertyType
+  nameWithType: CoordinateSystemAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_Type.html
+  name: CoordinateSystemAlt_Type
+  nameWithType: CoordinateSystemAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_PropertyType.html
+  name: CoordinateSystemAxisAlt_PropertyType
+  nameWithType: CoordinateSystemAxisAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_Type.html
+  name: CoordinateSystemAxisAlt_Type
+  nameWithType: CoordinateSystemAxisAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CoordinateSystemAxisAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_PropertyType.html
+  name: CrsAlt_PropertyType
+  nameWithType: CrsAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_Type.html
+  name: CrsAlt_Type
+  nameWithType: CrsAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.CrsAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_PropertyType.html
+  name: DatumAlt_PropertyType
+  nameWithType: DatumAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_Type.html
+  name: DatumAlt_Type
+  nameWithType: DatumAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.DatumAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_PropertyType.html
+  name: EllipsoidAlt_PropertyType
+  nameWithType: EllipsoidAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type.html
+  name: EllipsoidAlt_Type
+  nameWithType: EllipsoidAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.IAlternative.html
+  name: IAlternative
+  nameWithType: IAlternative
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.IAlternative
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_PropertyType.html
+  name: OperationAlt_PropertyType
+  nameWithType: OperationAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_Type.html
+  name: OperationAlt_Type
+  nameWithType: OperationAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_PropertyType.html
+  name: OperationMethodAlt_PropertyType
+  nameWithType: OperationMethodAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_Type.html
+  name: OperationMethodAlt_Type
+  nameWithType: OperationMethodAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationMethodAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_PropertyType.html
+  name: OperationParameterAlt_PropertyType
+  nameWithType: OperationParameterAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_Type.html
+  name: OperationParameterAlt_Type
+  nameWithType: OperationParameterAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.OperationParameterAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_PropertyType.html
+  name: PrimeMeridianAlt_PropertyType
+  nameWithType: PrimeMeridianAlt_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_Type.html
+  name: PrimeMeridianAlt_Type
+  nameWithType: PrimeMeridianAlt_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.PrimeMeridianAlt_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html

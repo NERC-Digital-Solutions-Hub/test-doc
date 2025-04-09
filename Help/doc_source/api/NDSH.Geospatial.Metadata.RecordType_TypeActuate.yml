@@ -1,0 +1,486 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  commentId: T:NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  id: RecordType_TypeActuate
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.none
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.onLoad
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.onRequest
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.other
+  langs:
+  - csharp
+  - vb
+  name: RecordType_TypeActuate
+  nameWithType: RecordType_TypeActuate
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: RecordType_TypeActuate
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30818
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum RecordType_TypeActuate
+    content.vb: >-
+      <Serializable>
+
+      Public Enum RecordType_TypeActuate
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.onLoad
+  commentId: F:NDSH.Geospatial.Metadata.RecordType_TypeActuate.onLoad
+  id: onLoad
+  parent: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  langs:
+  - csharp
+  - vb
+  name: onLoad
+  nameWithType: RecordType_TypeActuate.onLoad
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate.onLoad
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: onLoad
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30823
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: onLoad = 0
+    return:
+      type: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.onRequest
+  commentId: F:NDSH.Geospatial.Metadata.RecordType_TypeActuate.onRequest
+  id: onRequest
+  parent: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  langs:
+  - csharp
+  - vb
+  name: onRequest
+  nameWithType: RecordType_TypeActuate.onRequest
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate.onRequest
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: onRequest
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30824
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: onRequest = 1
+    return:
+      type: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.other
+  commentId: F:NDSH.Geospatial.Metadata.RecordType_TypeActuate.other
+  id: other
+  parent: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  langs:
+  - csharp
+  - vb
+  name: other
+  nameWithType: RecordType_TypeActuate.other
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate.other
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: other
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30825
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: other = 2
+    return:
+      type: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.none
+  commentId: F:NDSH.Geospatial.Metadata.RecordType_TypeActuate.none
+  id: none
+  parent: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  langs:
+  - csharp
+  - vb
+  name: none
+  nameWithType: RecordType_TypeActuate.none
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate.none
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: none
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30826
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: none = 3
+    return:
+      type: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<RecordType_TypeActuate>(RecordType_TypeActuate)
+  nameWithType: ExtensionMethods.GetXmlEnumName<RecordType_TypeActuate>(RecordType_TypeActuate)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.RecordType_TypeActuate>(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.RecordType_TypeActuate)(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  name.vb: GetXmlEnumName(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<RecordType_TypeActuate>(RecordType_TypeActuate)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<RecordType_TypeActuate>(RecordType_TypeActuate)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.RecordType_TypeActuate>(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.RecordType_TypeActuate)(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  name.vb: GetXmlEnumAttributeOrName(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<RecordType_TypeActuate>(RecordType_TypeActuate)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<RecordType_TypeActuate>(RecordType_TypeActuate)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.RecordType_TypeActuate>(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.RecordType_TypeActuate)(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+  name.vb: GetXmlEnumAttribute(Of RecordType_TypeActuate)(RecordType_TypeActuate)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.RecordType_TypeActuate)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+    name: RecordType_TypeActuate
+    href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  commentId: T:NDSH.Geospatial.Metadata.RecordType_TypeActuate
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.RecordType_TypeActuate.html
+  name: RecordType_TypeActuate
+  nameWithType: RecordType_TypeActuate
+  fullName: NDSH.Geospatial.Metadata.RecordType_TypeActuate

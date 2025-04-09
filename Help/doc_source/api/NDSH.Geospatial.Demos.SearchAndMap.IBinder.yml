@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  id: IBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  langs:
+  - csharp
+  - vb
+  name: IBinder
+  nameWithType: IBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/IBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IBinder
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/IBinder.cs
+    startLine: 16
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap
+  summary: The interface which denotes a binder.
+  example: []
+  syntax:
+    content: public interface IBinder
+    content.vb: Public Interface IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  id: BinderName
+  parent: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  langs:
+  - csharp
+  - vb
+  name: BinderName
+  nameWithType: IBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/IBinder.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: BinderName
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/IBinder.cs
+    startLine: 23
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap
+  summary: Gets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.IBinder" data-throw-if-not-resolved="false"></xref> name.
+  example: []
+  syntax:
+    content: string BinderName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property BinderName As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName*
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IBinder
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html
+  name: IBinder
+  nameWithType: IBinder
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+  href: NDSH.Geospatial.Demos.SearchAndMap.IBinder.html#NDSH_Geospatial_Demos_SearchAndMap_IBinder_BinderName
+  name: BinderName
+  nameWithType: IBinder.BinderName
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IBinder.BinderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

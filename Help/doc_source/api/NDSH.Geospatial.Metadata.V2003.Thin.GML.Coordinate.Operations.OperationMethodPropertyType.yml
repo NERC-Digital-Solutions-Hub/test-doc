@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  id: OperationMethodPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema
+  langs:
+  - csharp
+  - vb
+  name: OperationMethodPropertyType
+  nameWithType: OperationMethodPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: OperationMethodPropertyType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+    startLine: 19
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  summary: gml:OperationMethodPropertyType is a property type for association roles to a concrete general-purpose operation method, either referencing or containing the definition of that method.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("OperationMethodPropertyType")]
+
+      public class OperationMethodPropertyType : Model, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("OperationMethodPropertyType")>
+
+      Public Class OperationMethodPropertyType Inherits Model Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OperationMethodPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  langs:
+  - csharp
+  - vb
+  name: OperationMethodPropertyType()
+  nameWithType: OperationMethodPropertyType.OperationMethodPropertyType()
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethodPropertyType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  summary: OperationMethodPropertyType class constructor
+  example: []
+  syntax:
+    content: public OperationMethodPropertyType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor*
+  nameWithType.vb: OperationMethodPropertyType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+  id: OperationMethod
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  langs:
+  - csharp
+  - vb
+  name: OperationMethod
+  nameWithType: OperationMethodPropertyType.OperationMethod
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: OperationMethod
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  syntax:
+    content: >-
+      [JsonProperty("OperationMethod", Order = 0)]
+
+      public OperationMethodType OperationMethod { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodType
+    content.vb: >-
+      <JsonProperty("OperationMethod", Order:=0)>
+
+      Public Property OperationMethod As OperationMethodType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OperationMethod
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+  id: nilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  langs:
+  - csharp
+  - vb
+  name: nilReason
+  nameWithType: OperationMethodPropertyType.nilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: nilReason
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  syntax:
+    content: >-
+      [JsonProperty("nilReason")]
+
+      public string nilReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("nilReason")>
+
+      Public Property nilReason As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema
+  id: remoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType
+  langs:
+  - csharp
+  - vb
+  name: remoteSchema
+  nameWithType: OperationMethodPropertyType.remoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: remoteSchema
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Coordinate/Operations/OperationMethodPropertyType.cs
+    startLine: 82
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  syntax:
+    content: >-
+      [JsonProperty("remoteSchema")]
+
+      public string remoteSchema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("remoteSchema")>
+
+      Public Property remoteSchema As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: remoteSchema
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+    name: Operations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Model
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Coordinate_Operations_OperationMethodPropertyType__ctor
+  name: OperationMethodPropertyType
+  nameWithType: OperationMethodPropertyType.OperationMethodPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethodPropertyType
+  nameWithType.vb: OperationMethodPropertyType.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Coordinate_Operations_OperationMethodPropertyType_OperationMethod
+  name: OperationMethod
+  nameWithType: OperationMethodPropertyType.OperationMethod
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.OperationMethod
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodType.html
+  name: OperationMethodType
+  nameWithType: OperationMethodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Coordinate_Operations_OperationMethodPropertyType_nilReason
+  name: nilReason
+  nameWithType: OperationMethodPropertyType.nilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.nilReason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Coordinate_Operations_OperationMethodPropertyType_remoteSchema
+  name: remoteSchema
+  nameWithType: OperationMethodPropertyType.remoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Operations.OperationMethodPropertyType.remoteSchema

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  commentId: N:NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  id: PortrayalCatalogue
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  nameWithType: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  fullName: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_PropertyType.html
+  name: MD_PortrayalCatalogueReference_PropertyType
+  nameWithType: MD_PortrayalCatalogueReference_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type
+  parent: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  href: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type.html
+  name: MD_PortrayalCatalogueReference_Type
+  nameWithType: MD_PortrayalCatalogueReference_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.MD_PortrayalCatalogueReference_Type
+- uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  commentId: N:NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  nameWithType: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  fullName: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+    name: PortrayalCatalogue
+    href: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue
+    name: PortrayalCatalogue
+    href: NDSH.Geospatial.Metadata.V2003.PortrayalCatalogue.html

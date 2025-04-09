@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Hashing.Tests
+  commentId: N:NDSH.Hashing.Tests
+  id: Tests
+  parent: NDSH.Hashing
+  children:
+  - NDSH.Hashing.Tests.Models
+  - NDSH.Hashing.Tests.NdshHashCodeTests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Hashing.Tests
+  nameWithType: NDSH.Hashing.Tests
+  fullName: NDSH.Hashing.Tests
+  type: Namespace
+  assemblies:
+  - NDSH.Hashing.Tests
+references:
+- uid: NDSH.Hashing.Tests.Models
+  commentId: N:NDSH.Hashing.Tests.Models
+  href: NDSH.html
+  name: NDSH.Hashing.Tests.Models
+  nameWithType: NDSH.Hashing.Tests.Models
+  fullName: NDSH.Hashing.Tests.Models
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  - name: .
+  - uid: NDSH.Hashing.Tests.Models
+    name: Models
+    href: NDSH.Hashing.Tests.Models.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Hashing
+    name: Hashing
+    href: NDSH.Hashing.html
+  - name: .
+  - uid: NDSH.Hashing.Tests
+    name: Tests
+    href: NDSH.Hashing.Tests.html
+  - name: .
+  - uid: NDSH.Hashing.Tests.Models
+    name: Models
+    href: NDSH.Hashing.Tests.Models.html
+- uid: NDSH.Hashing.Tests.NdshHashCodeTests
+  commentId: T:NDSH.Hashing.Tests.NdshHashCodeTests
+  href: NDSH.Hashing.Tests.NdshHashCodeTests.html
+  name: NdshHashCodeTests
+  nameWithType: NdshHashCodeTests
+  fullName: NDSH.Hashing.Tests.NdshHashCodeTests

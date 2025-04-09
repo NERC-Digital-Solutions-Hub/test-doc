@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  id: MD_TopicCategoryCode_Type
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.biota
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.boundaries
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.climatologyMeteorologyAtmosphere
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.economy
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.elevation
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.environment
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.farming
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.geoscientificInformation
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.health
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.imageryBaseMapsEarthCover
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.inlandWaters
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.intelligenceMilitary
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.location
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.oceans
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.planningCadastre
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.society
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.structure
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.transportation
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.utilitiesCommunication
+  langs:
+  - csharp
+  - vb
+  name: MD_TopicCategoryCode_Type
+  nameWithType: MD_TopicCategoryCode_Type
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MD_TopicCategoryCode_Type
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30204
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: High-level geospatial data thematic classification to assist in the grouping and search of available geospatial datasets
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MD_TopicCategoryCode_Type
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MD_TopicCategoryCode_Type
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.farming
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.farming
+  id: farming
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: farming
+  nameWithType: MD_TopicCategoryCode_Type.farming
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.farming
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: farming
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30209
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: farming = 0
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.biota
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.biota
+  id: biota
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: biota
+  nameWithType: MD_TopicCategoryCode_Type.biota
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.biota
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: biota
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30210
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: biota = 1
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.boundaries
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.boundaries
+  id: boundaries
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: boundaries
+  nameWithType: MD_TopicCategoryCode_Type.boundaries
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.boundaries
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: boundaries
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30211
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: boundaries = 2
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.climatologyMeteorologyAtmosphere
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.climatologyMeteorologyAtmosphere
+  id: climatologyMeteorologyAtmosphere
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: climatologyMeteorologyAtmosphere
+  nameWithType: MD_TopicCategoryCode_Type.climatologyMeteorologyAtmosphere
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.climatologyMeteorologyAtmosphere
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: climatologyMeteorologyAtmosphere
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30212
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: climatologyMeteorologyAtmosphere = 3
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.economy
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.economy
+  id: economy
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: economy
+  nameWithType: MD_TopicCategoryCode_Type.economy
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.economy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: economy
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30213
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: economy = 4
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.elevation
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.elevation
+  id: elevation
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: elevation
+  nameWithType: MD_TopicCategoryCode_Type.elevation
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.elevation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: elevation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30214
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: elevation = 5
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.environment
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.environment
+  id: environment
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: environment
+  nameWithType: MD_TopicCategoryCode_Type.environment
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.environment
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: environment
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30215
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: environment = 6
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.geoscientificInformation
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.geoscientificInformation
+  id: geoscientificInformation
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: geoscientificInformation
+  nameWithType: MD_TopicCategoryCode_Type.geoscientificInformation
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.geoscientificInformation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: geoscientificInformation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30216
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: geoscientificInformation = 7
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.health
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.health
+  id: health
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: health
+  nameWithType: MD_TopicCategoryCode_Type.health
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.health
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: health
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30217
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: health = 8
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.imageryBaseMapsEarthCover
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.imageryBaseMapsEarthCover
+  id: imageryBaseMapsEarthCover
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: imageryBaseMapsEarthCover
+  nameWithType: MD_TopicCategoryCode_Type.imageryBaseMapsEarthCover
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.imageryBaseMapsEarthCover
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: imageryBaseMapsEarthCover
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30218
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: imageryBaseMapsEarthCover = 9
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.intelligenceMilitary
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.intelligenceMilitary
+  id: intelligenceMilitary
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: intelligenceMilitary
+  nameWithType: MD_TopicCategoryCode_Type.intelligenceMilitary
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.intelligenceMilitary
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: intelligenceMilitary
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30219
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: intelligenceMilitary = 10
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.inlandWaters
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.inlandWaters
+  id: inlandWaters
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: inlandWaters
+  nameWithType: MD_TopicCategoryCode_Type.inlandWaters
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.inlandWaters
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: inlandWaters
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30220
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: inlandWaters = 11
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.location
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.location
+  id: location
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: location
+  nameWithType: MD_TopicCategoryCode_Type.location
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.location
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: location
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30221
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: location = 12
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.oceans
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.oceans
+  id: oceans
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: oceans
+  nameWithType: MD_TopicCategoryCode_Type.oceans
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.oceans
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: oceans
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30222
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: oceans = 13
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.planningCadastre
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.planningCadastre
+  id: planningCadastre
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: planningCadastre
+  nameWithType: MD_TopicCategoryCode_Type.planningCadastre
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.planningCadastre
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: planningCadastre
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30223
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: planningCadastre = 14
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.society
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.society
+  id: society
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: society
+  nameWithType: MD_TopicCategoryCode_Type.society
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.society
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: society
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30224
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: society = 15
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.structure
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.structure
+  id: structure
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: structure
+  nameWithType: MD_TopicCategoryCode_Type.structure
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.structure
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: structure
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30225
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: structure = 16
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.transportation
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.transportation
+  id: transportation
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: transportation
+  nameWithType: MD_TopicCategoryCode_Type.transportation
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.transportation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: transportation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30226
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: transportation = 17
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.utilitiesCommunication
+  commentId: F:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.utilitiesCommunication
+  id: utilitiesCommunication
+  parent: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  langs:
+  - csharp
+  - vb
+  name: utilitiesCommunication
+  nameWithType: MD_TopicCategoryCode_Type.utilitiesCommunication
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.utilitiesCommunication
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: utilitiesCommunication
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 30227
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: utilitiesCommunication = 18
+    return:
+      type: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumAttributeOrName(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<MD_TopicCategoryCode_Type>(MD_TopicCategoryCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type>(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+  name.vb: GetXmlEnumAttribute(Of MD_TopicCategoryCode_Type)(MD_TopicCategoryCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+    name: MD_TopicCategoryCode_Type
+    href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type.html
+  name: MD_TopicCategoryCode_Type
+  nameWithType: MD_TopicCategoryCode_Type
+  fullName: NDSH.Geospatial.Metadata.MD_TopicCategoryCode_Type

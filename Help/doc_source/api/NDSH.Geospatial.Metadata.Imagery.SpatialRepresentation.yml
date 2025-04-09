@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  commentId: N:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  id: SpatialRepresentation
+  parent: NDSH.Geospatial.Metadata.Imagery
+  children:
+  - NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type
+  - NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCPCollection_Type
+  - NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type
+  - NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georectified_Type
+  - NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georeferenceable_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  nameWithType: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type
+  parent: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type.html
+  name: AbstractMI_GeolocationInformation_Type
+  nameWithType: AbstractMI_GeolocationInformation_Type
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.AbstractMI_GeolocationInformation_Type
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCPCollection_Type
+  commentId: T:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCPCollection_Type
+  href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCPCollection_Type.html
+  name: MI_GCPCollection_Type
+  nameWithType: MI_GCPCollection_Type
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCPCollection_Type
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type
+  commentId: T:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type
+  href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type.html
+  name: MI_GCP_Type
+  nameWithType: MI_GCP_Type
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_GCP_Type
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georectified_Type
+  commentId: T:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georectified_Type
+  href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georectified_Type.html
+  name: MI_Georectified_Type
+  nameWithType: MI_Georectified_Type
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georectified_Type
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georeferenceable_Type
+  commentId: T:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georeferenceable_Type
+  href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georeferenceable_Type.html
+  name: MI_Georeferenceable_Type
+  nameWithType: MI_Georeferenceable_Type
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.MI_Georeferenceable_Type
+- uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  commentId: N:NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  nameWithType: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  fullName: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.Imagery.SpatialRepresentation.html

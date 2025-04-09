@@ -1,0 +1,1366 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  id: TopoComplexType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+  langs:
+  - csharp
+  - vb
+  name: TopoComplexType
+  nameWithType: TopoComplexType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TopoComplexType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 12
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("TopoComplexType")]
+
+      public class TopoComplexType : AbstractTopologyType, IModel, IObservableModel, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("TopoComplexType")>
+
+      Public Class TopoComplexType Inherits AbstractTopologyType Implements IModel, IObservableModel, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Apps.Model
+  - NDSH.Apps.ObservableModel
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Topology.AbstractTopologyType
+  implements:
+  - NDSH.Apps.IModel
+  - NDSH.Apps.IObservableModel
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.xmlns
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.MetaDataProperty
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Description
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.DescriptionReference
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Identifier
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Name
+  - NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Id
+  - NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  - NDSH.Apps.ObservableModel.PropertyChanged
+  - NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  - NDSH.Apps.Model.GetPropertyKeyValues
+  - NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TopoComplexType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: TopoComplexType()
+  nameWithType: TopoComplexType.TopoComplexType()
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoComplexType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  summary: TopoComplexType class constructor
+  example: []
+  syntax:
+    content: public TopoComplexType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor*
+  nameWithType.vb: TopoComplexType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+  id: MaximalComplex
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: MaximalComplex
+  nameWithType: TopoComplexType.MaximalComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MaximalComplex
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 39
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("maximalComplex", Order = 0)]
+
+      public TopoComplexMemberType MaximalComplex { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+    content.vb: >-
+      <JsonProperty("maximalComplex", Order:=0)>
+
+      Public Property MaximalComplex As TopoComplexMemberType
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: maximalComplex
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+  id: SuperComplex
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: SuperComplex
+  nameWithType: TopoComplexType.SuperComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SuperComplex
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 56
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("superComplex", Order = 1)]
+
+      public List<TopoComplexMemberType> SuperComplex { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType}
+    content.vb: >-
+      <JsonProperty("superComplex", Order:=1)>
+
+      Public Property SuperComplex As List(Of TopoComplexMemberType)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: superComplex
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 1
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+  id: SubComplex
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: SubComplex
+  nameWithType: TopoComplexType.SubComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: SubComplex
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 73
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("subComplex", Order = 2)]
+
+      public List<TopoComplexMemberType> SubComplex { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType}
+    content.vb: >-
+      <JsonProperty("subComplex", Order:=2)>
+
+      Public Property SubComplex As List(Of TopoComplexMemberType)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: subComplex
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 2
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+  id: TopoPrimitiveMember
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: TopoPrimitiveMember
+  nameWithType: TopoComplexType.TopoPrimitiveMember
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TopoPrimitiveMember
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 90
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("topoPrimitiveMember", Order = 3)]
+
+      public List<TopoPrimitiveMemberType> TopoPrimitiveMember { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType}
+    content.vb: >-
+      <JsonProperty("topoPrimitiveMember", Order:=3)>
+
+      Public Property TopoPrimitiveMember As List(Of TopoPrimitiveMemberType)
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: topoPrimitiveMember
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 3
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+  id: TopoPrimitiveMembers
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: TopoPrimitiveMembers
+  nameWithType: TopoComplexType.TopoPrimitiveMembers
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TopoPrimitiveMembers
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 107
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("topoPrimitiveMembers", Order = 4)]
+
+      public TopoPrimitiveArrayAssociationType TopoPrimitiveMembers { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveArrayAssociationType
+    content.vb: >-
+      <JsonProperty("topoPrimitiveMembers", Order:=4)>
+
+      Public Property TopoPrimitiveMembers As TopoPrimitiveArrayAssociationType
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: topoPrimitiveMembers
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 4
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+  id: IsMaximal
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: IsMaximal
+  nameWithType: TopoComplexType.IsMaximal
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IsMaximal
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 124
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("isMaximal")]
+
+      public bool IsMaximal { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonProperty("isMaximal")>
+
+      Public Property IsMaximal As Boolean
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: isMaximal
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+  id: AggregationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType
+  langs:
+  - csharp
+  - vb
+  name: AggregationType
+  nameWithType: TopoComplexType.AggregationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AggregationType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Gml/Topology/TopoComplexType.cs
+    startLine: 139
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  syntax:
+    content: >-
+      [JsonProperty("aggregationType")]
+
+      public AggregationType AggregationType { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+    content.vb: >-
+      <JsonProperty("aggregationType")>
+
+      Public Property AggregationType As AggregationType
+  overload: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: aggregationType
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Apps.Model
+  commentId: T:NDSH.Apps.Model
+  parent: NDSH.Apps
+  href: NDSH.Apps.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Apps.Model
+- uid: NDSH.Apps.ObservableModel
+  commentId: T:NDSH.Apps.ObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.ObservableModel.html
+  name: ObservableModel
+  nameWithType: ObservableModel
+  fullName: NDSH.Apps.ObservableModel
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html
+  name: AbstractGMLType
+  nameWithType: AbstractGMLType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.AbstractTopologyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Topology.AbstractTopologyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.AbstractTopologyType.html
+  name: AbstractTopologyType
+  nameWithType: AbstractTopologyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.AbstractTopologyType
+- uid: NDSH.Apps.IModel
+  commentId: T:NDSH.Apps.IModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Apps.IModel
+- uid: NDSH.Apps.IObservableModel
+  commentId: T:NDSH.Apps.IObservableModel
+  parent: NDSH.Apps
+  href: NDSH.Apps.IObservableModel.html
+  name: IObservableModel
+  nameWithType: IObservableModel
+  fullName: NDSH.Apps.IObservableModel
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.xmlns
+  commentId: F:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.xmlns
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_xmlns
+  name: xmlns
+  nameWithType: AbstractGMLType.xmlns
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.xmlns
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.MetaDataProperty
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.MetaDataProperty
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_MetaDataProperty
+  name: MetaDataProperty
+  nameWithType: AbstractGMLType.MetaDataProperty
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.MetaDataProperty
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Description
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Description
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_Description
+  name: Description
+  nameWithType: AbstractGMLType.Description
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Description
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.DescriptionReference
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.DescriptionReference
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_DescriptionReference
+  name: DescriptionReference
+  nameWithType: AbstractGMLType.DescriptionReference
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.DescriptionReference
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Identifier
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Identifier
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_Identifier
+  name: Identifier
+  nameWithType: AbstractGMLType.Identifier
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Identifier
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Name
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Name
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_Name
+  name: Name
+  nameWithType: AbstractGMLType.Name
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Name
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Id
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.html#NDSH_Geospatial_Metadata_V2003_Gml_Base_AbstractGMLType_Id
+  name: Id
+  nameWithType: AbstractGMLType.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base.AbstractGMLType.Id
+- uid: NDSH.Apps.ObservableModel.SetProperty``1({T}@,{T},System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  parent: NDSH.Apps.ObservableModel
+  definition: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.ObservableModel.PropertyChanged
+  commentId: E:NDSH.Apps.ObservableModel.PropertyChanged
+  parent: NDSH.Apps.ObservableModel
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_PropertyChanged
+  name: PropertyChanged
+  nameWithType: ObservableModel.PropertyChanged
+  fullName: NDSH.Apps.ObservableModel.PropertyChanged
+- uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+  parent: NDSH.Apps.ObservableModel
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: ObservableModel.OnPropertyChanged(string)
+  fullName: NDSH.Apps.ObservableModel.OnPropertyChanged(string)
+  nameWithType.vb: ObservableModel.OnPropertyChanged(String)
+  fullName.vb: NDSH.Apps.ObservableModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValues
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValues
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  name: GetPropertyKeyValues()
+  nameWithType: Model.GetPropertyKeyValues()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValues()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValues
+    name: GetPropertyKeyValues
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValues
+  - name: (
+  - name: )
+- uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  commentId: M:NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+  parent: NDSH.Apps.Model
+  href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  name: GetPropertyKeyValuesAsStrings()
+  nameWithType: Model.GetPropertyKeyValuesAsStrings()
+  fullName: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings()
+  spec.csharp:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.Model.GetPropertyKeyValuesAsStrings
+    name: GetPropertyKeyValuesAsStrings
+    href: NDSH.Apps.Model.html#NDSH_Apps_Model_GetPropertyKeyValuesAsStrings
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Apps
+  commentId: N:NDSH.Apps
+  href: NDSH.html
+  name: NDSH.Apps
+  nameWithType: NDSH.Apps
+  fullName: NDSH.Apps
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Apps
+    name: Apps
+    href: NDSH.Apps.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Base
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Base
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Base
+    name: Base
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Base.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  commentId: M:NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+  isExternal: true
+  href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  name: SetProperty<T>(ref T, T, string)
+  nameWithType: ObservableModel.SetProperty<T>(ref T, T, string)
+  fullName: NDSH.Apps.ObservableModel.SetProperty<T>(ref T, T, string)
+  nameWithType.vb: ObservableModel.SetProperty(Of T)(T, T, String)
+  fullName.vb: NDSH.Apps.ObservableModel.SetProperty(Of T)(T, T, String)
+  name.vb: SetProperty(Of T)(T, T, String)
+  spec.csharp:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: ref
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Apps.ObservableModel.SetProperty``1(``0@,``0,System.String)
+    name: SetProperty
+    href: NDSH.Apps.ObservableModel.html#NDSH_Apps_ObservableModel_SetProperty__1___0____0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType__ctor
+  name: TopoComplexType
+  nameWithType: TopoComplexType.TopoComplexType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoComplexType
+  nameWithType.vb: TopoComplexType.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_MaximalComplex
+  name: MaximalComplex
+  nameWithType: TopoComplexType.MaximalComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.MaximalComplex
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType.html
+  name: TopoComplexMemberType
+  nameWithType: TopoComplexMemberType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_SuperComplex
+  name: SuperComplex
+  nameWithType: TopoComplexType.SuperComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SuperComplex
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<TopoComplexMemberType>
+  nameWithType: List<TopoComplexMemberType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType>
+  nameWithType.vb: List(Of TopoComplexMemberType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType)
+  name.vb: List(Of TopoComplexMemberType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+    name: TopoComplexMemberType
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType
+    name: TopoComplexMemberType
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexMemberType.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_SubComplex
+  name: SubComplex
+  nameWithType: TopoComplexType.SubComplex
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.SubComplex
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_TopoPrimitiveMember
+  name: TopoPrimitiveMember
+  nameWithType: TopoComplexType.TopoPrimitiveMember
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMember
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<TopoPrimitiveMemberType>
+  nameWithType: List<TopoPrimitiveMemberType>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType>
+  nameWithType.vb: List(Of TopoPrimitiveMemberType)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType)
+  name.vb: List(Of TopoPrimitiveMemberType)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType
+    name: TopoPrimitiveMemberType
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType
+    name: TopoPrimitiveMemberType
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveMemberType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_TopoPrimitiveMembers
+  name: TopoPrimitiveMembers
+  nameWithType: TopoComplexType.TopoPrimitiveMembers
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.TopoPrimitiveMembers
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveArrayAssociationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveArrayAssociationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveArrayAssociationType.html
+  name: TopoPrimitiveArrayAssociationType
+  nameWithType: TopoPrimitiveArrayAssociationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoPrimitiveArrayAssociationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_IsMaximal
+  name: IsMaximal
+  nameWithType: TopoComplexType.IsMaximal
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.IsMaximal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.html#NDSH_Geospatial_Metadata_V2003_Gml_Topology_TopoComplexType_AggregationType
+  name: AggregationType
+  nameWithType: TopoComplexType.AggregationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Topology.TopoComplexType.AggregationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType.html
+  name: AggregationType
+  nameWithType: AggregationType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.AggregationType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+    name: GmlBase
+    href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase
+    name: GmlBase
+    href: NDSH.Geospatial.Metadata.V2003.Gml.GmlBase.html
