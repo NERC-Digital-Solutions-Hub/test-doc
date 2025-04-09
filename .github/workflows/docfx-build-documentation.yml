@@ -12,13 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
-
-      - name: Build docfx metadata
-        uses: nunit/docfx-action@v2.4.0
-        with:
-          args: "metadata Help/doc_source/docfx.json"
-
+        
       - name: Build docfx html
         uses: nunit/docfx-action @v2.4.0
         with:
-          args: "build Help/doc_source/docfx.json"
+          args: "Help/doc_source/docfx.json"
