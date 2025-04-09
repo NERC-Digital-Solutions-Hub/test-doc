@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  id: Extent
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.AbstractExGeographicExtentConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExExtentConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicBoundingBoxConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicDescriptionConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.AbstractExGeographicExtentConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.AbstractExGeographicExtentConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.AbstractExGeographicExtentConfiguration.html
+  name: AbstractExGeographicExtentConfiguration
+  nameWithType: AbstractExGeographicExtentConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.AbstractExGeographicExtentConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExExtentConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExExtentConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExExtentConfiguration.html
+  name: ExExtentConfiguration
+  nameWithType: ExExtentConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExExtentConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicBoundingBoxConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicBoundingBoxConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicBoundingBoxConfiguration.html
+  name: ExGeographicBoundingBoxConfiguration
+  nameWithType: ExGeographicBoundingBoxConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicBoundingBoxConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicDescriptionConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicDescriptionConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicDescriptionConfiguration.html
+  name: ExGeographicDescriptionConfiguration
+  nameWithType: ExGeographicDescriptionConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Common.Extent.ExGeographicDescriptionConfiguration

@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  id: CoordinateReferenceSystems
+  parent: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual
+  children:
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_CompoundCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_DerivedCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_EngineeringCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_GeodeticCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ImageCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ProjectedCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_TemporalCRS_Type
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_VerticalCRS_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_CompoundCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_CompoundCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_CompoundCRS_Type.html
+  name: ML_CompoundCRS_Type
+  nameWithType: ML_CompoundCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_CompoundCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_DerivedCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_DerivedCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_DerivedCRS_Type.html
+  name: ML_DerivedCRS_Type
+  nameWithType: ML_DerivedCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_DerivedCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_EngineeringCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_EngineeringCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_EngineeringCRS_Type.html
+  name: ML_EngineeringCRS_Type
+  nameWithType: ML_EngineeringCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_EngineeringCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_GeodeticCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_GeodeticCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_GeodeticCRS_Type.html
+  name: ML_GeodeticCRS_Type
+  nameWithType: ML_GeodeticCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_GeodeticCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ImageCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ImageCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ImageCRS_Type.html
+  name: ML_ImageCRS_Type
+  nameWithType: ML_ImageCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ImageCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ProjectedCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ProjectedCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ProjectedCRS_Type.html
+  name: ML_ProjectedCRS_Type
+  nameWithType: ML_ProjectedCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_ProjectedCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_TemporalCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_TemporalCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_TemporalCRS_Type.html
+  name: ML_TemporalCRS_Type
+  nameWithType: ML_TemporalCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_TemporalCRS_Type
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_VerticalCRS_Type
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_VerticalCRS_Type
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_VerticalCRS_Type.html
+  name: ML_VerticalCRS_Type
+  nameWithType: ML_VerticalCRS_Type
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.CoordinateReferenceSystems.ML_VerticalCRS_Type

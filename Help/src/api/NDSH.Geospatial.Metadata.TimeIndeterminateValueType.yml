@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  commentId: T:NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  id: TimeIndeterminateValueType
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.after
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.before
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.now
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.unknown
+  langs:
+  - csharp
+  - vb
+  name: TimeIndeterminateValueType
+  nameWithType: TimeIndeterminateValueType
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TimeIndeterminateValueType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 1947
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: >-
+    These values are interpreted as follows:
+
+    -	“unknown” indicates that no specific value for temporal position is provided.
+
+    -	“now” indicates that the specified value shall be replaced with the current temporal position whenever the value is accessed.
+
+    -	“before” indicates that the actual temporal position is unknown, but it is known to be before the specified value.
+
+    -	“after” indicates that the actual temporal position is unknown, but it is known to be after the specified value.
+
+    A value for indeterminatePosition may
+
+    -	be used either alone, or
+
+    -	qualify a specific value for temporal position.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum TimeIndeterminateValueType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum TimeIndeterminateValueType
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.after
+  commentId: F:NDSH.Geospatial.Metadata.TimeIndeterminateValueType.after
+  id: after
+  parent: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  langs:
+  - csharp
+  - vb
+  name: after
+  nameWithType: TimeIndeterminateValueType.after
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.after
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: after
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 1952
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: after = 0
+    return:
+      type: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.before
+  commentId: F:NDSH.Geospatial.Metadata.TimeIndeterminateValueType.before
+  id: before
+  parent: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  langs:
+  - csharp
+  - vb
+  name: before
+  nameWithType: TimeIndeterminateValueType.before
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.before
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: before
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 1953
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: before = 1
+    return:
+      type: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.now
+  commentId: F:NDSH.Geospatial.Metadata.TimeIndeterminateValueType.now
+  id: now
+  parent: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  langs:
+  - csharp
+  - vb
+  name: now
+  nameWithType: TimeIndeterminateValueType.now
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.now
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: now
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 1954
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: now = 2
+    return:
+      type: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.unknown
+  commentId: F:NDSH.Geospatial.Metadata.TimeIndeterminateValueType.unknown
+  id: unknown
+  parent: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  langs:
+  - csharp
+  - vb
+  name: unknown
+  nameWithType: TimeIndeterminateValueType.unknown
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.unknown
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: unknown
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 1955
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: unknown = 3
+    return:
+      type: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  nameWithType: ExtensionMethods.GetXmlEnumName<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.TimeIndeterminateValueType>(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.TimeIndeterminateValueType)(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  name.vb: GetXmlEnumName(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.TimeIndeterminateValueType>(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.TimeIndeterminateValueType)(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  name.vb: GetXmlEnumAttributeOrName(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<TimeIndeterminateValueType>(TimeIndeterminateValueType)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.TimeIndeterminateValueType>(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.TimeIndeterminateValueType)(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+  name.vb: GetXmlEnumAttribute(Of TimeIndeterminateValueType)(TimeIndeterminateValueType)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.TimeIndeterminateValueType)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+    name: TimeIndeterminateValueType
+    href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  commentId: T:NDSH.Geospatial.Metadata.TimeIndeterminateValueType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.TimeIndeterminateValueType.html
+  name: TimeIndeterminateValueType
+  nameWithType: TimeIndeterminateValueType
+  fullName: NDSH.Geospatial.Metadata.TimeIndeterminateValueType

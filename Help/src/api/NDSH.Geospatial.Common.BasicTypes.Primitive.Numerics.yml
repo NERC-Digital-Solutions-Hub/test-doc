@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  id: Numerics
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.DecimalDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.IntegerDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.NumberDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.RealDbEntity
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.UnlimitedIntegerDbEntity
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.DecimalDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.DecimalDbEntity
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.DecimalDbEntity.html
+  name: DecimalDbEntity
+  nameWithType: DecimalDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.DecimalDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.IntegerDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.IntegerDbEntity
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.IntegerDbEntity.html
+  name: IntegerDbEntity
+  nameWithType: IntegerDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.IntegerDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.NumberDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.NumberDbEntity
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.NumberDbEntity.html
+  name: NumberDbEntity
+  nameWithType: NumberDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.NumberDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.RealDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.RealDbEntity
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.RealDbEntity.html
+  name: RealDbEntity
+  nameWithType: RealDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.RealDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.UnlimitedIntegerDbEntity
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.UnlimitedIntegerDbEntity
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.UnlimitedIntegerDbEntity.html
+  name: UnlimitedIntegerDbEntity
+  nameWithType: UnlimitedIntegerDbEntity
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.UnlimitedIntegerDbEntity
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+    name: Numerics
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics
+    name: Numerics
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.Numerics.html

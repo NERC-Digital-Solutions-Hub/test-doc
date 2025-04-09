@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Accord.Math.Distances.LevenshteinAccord
+  commentId: T:NDSH.Accord.Math.Distances.LevenshteinAccord
+  id: LevenshteinAccord
+  parent: NDSH.Accord.Math.Distances
+  children:
+  - NDSH.Accord.Math.Distances.LevenshteinAccord.Distance(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: LevenshteinAccord
+  nameWithType: LevenshteinAccord
+  fullName: NDSH.Accord.Math.Distances.LevenshteinAccord
+  type: Struct
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Accord/Math/Distances/LevenshteinAccord.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: LevenshteinAccord
+    path: ../../Proj/src/src/NDSH/src/Accord/Math/Distances/LevenshteinAccord.cs
+    startLine: 53
+  assemblies:
+  - NDSH
+  namespace: NDSH.Accord.Math.Distances
+  summary: Levenshtein distance.
+  remarks: >-
+    <p>
+      In information theory and computer science, the Levenshtein distance is a
+      string metric for measuring the difference between two sequences. Informally,
+      the Levenshtein distance between two words is the minimum number of single-character 
+      edits (i.e. insertions, deletions or substitutions) required to change one 
+      word into the other. It is named after Vladimir Levenshtein, who considered 
+      this distance in 1965.</p>
+
+    <p>
+      Levenshtein distance may also be referred to as edit distance, although that 
+      may also denote a larger family of distance metrics. It is closely related to
+      pairwise string alignments.</p>
+
+    <p>
+      References:
+      <ul><li><a href="https://en.wikipedia.org/wiki/Levenshtein_distance">
+          https://en.wikipedia.org/wiki/Levenshtein_distance </a></li></ul></p>
+  example: []
+  syntax:
+    content: 'public struct LevenshteinAccord : IMetric<string>, IDistance<string>, IDistance<string, string>'
+    content.vb: Public Structure LevenshteinAccord Implements IMetric(Of String), IDistance(Of String), IDistance(Of String, String)
+  implements:
+  - NDSH.Accord.Math.Distances.IMetric{System.String}
+  - NDSH.Accord.Math.Distances.IDistance{System.String}
+  - NDSH.Accord.Math.Distances.IDistance{System.String,System.String}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance(System.String,System.String)
+  commentId: M:NDSH.Accord.Math.Distances.LevenshteinAccord.Distance(System.String,System.String)
+  id: Distance(System.String,System.String)
+  parent: NDSH.Accord.Math.Distances.LevenshteinAccord
+  langs:
+  - csharp
+  - vb
+  name: Distance(string, string)
+  nameWithType: LevenshteinAccord.Distance(string, string)
+  fullName: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance(string, string)
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Accord/Math/Distances/LevenshteinAccord.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Distance
+    path: ../../Proj/src/src/NDSH/src/Accord/Math/Distances/LevenshteinAccord.cs
+    startLine: 66
+  assemblies:
+  - NDSH
+  namespace: NDSH.Accord.Math.Distances
+  summary: >-
+    Computes the distance <code>d(x,y)</code> between points
+
+    <code class="paramref">x</code> and <code class="paramref">y</code>.
+  example: []
+  syntax:
+    content: public readonly double Distance(string x, string y)
+    parameters:
+    - id: x
+      type: System.String
+      description: The first point <code>x</code>.
+    - id: y
+      type: System.String
+      description: The second point <code>y</code>.
+    return:
+      type: System.Double
+      description: >-
+        A double-precision value representing the distance <code>d(x,y)</code>
+
+        between <code class="paramref">x</code> and <code class="paramref">y</code> according 
+
+        to the distance function implemented by this class.
+    content.vb: Public Function Distance(x As String, y As String) As Double
+  overload: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance*
+  implements:
+  - NDSH.Accord.Math.Distances.IDistance{System.String,System.String}.Distance(System.String,System.String)
+  nameWithType.vb: LevenshteinAccord.Distance(String, String)
+  fullName.vb: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance(String, String)
+  name.vb: Distance(String, String)
+references:
+- uid: NDSH.Accord.Math.Distances
+  commentId: N:NDSH.Accord.Math.Distances
+  href: NDSH.html
+  name: NDSH.Accord.Math.Distances
+  nameWithType: NDSH.Accord.Math.Distances
+  fullName: NDSH.Accord.Math.Distances
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Accord
+    name: Accord
+    href: NDSH.Accord.html
+  - name: .
+  - uid: NDSH.Accord.Math
+    name: Math
+    href: NDSH.Accord.Math.html
+  - name: .
+  - uid: NDSH.Accord.Math.Distances
+    name: Distances
+    href: NDSH.Accord.Math.Distances.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Accord
+    name: Accord
+    href: NDSH.Accord.html
+  - name: .
+  - uid: NDSH.Accord.Math
+    name: Math
+    href: NDSH.Accord.Math.html
+  - name: .
+  - uid: NDSH.Accord.Math.Distances
+    name: Distances
+    href: NDSH.Accord.Math.Distances.html
+- uid: NDSH.Accord.Math.Distances.IMetric{System.String}
+  commentId: T:NDSH.Accord.Math.Distances.IMetric{System.String}
+  parent: NDSH.Accord.Math.Distances
+  definition: NDSH.Accord.Math.Distances.IMetric`1
+  href: NDSH.Accord.Math.Distances.IMetric-1.html
+  name: IMetric<string>
+  nameWithType: IMetric<string>
+  fullName: NDSH.Accord.Math.Distances.IMetric<string>
+  nameWithType.vb: IMetric(Of String)
+  fullName.vb: NDSH.Accord.Math.Distances.IMetric(Of String)
+  name.vb: IMetric(Of String)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance{System.String}
+  commentId: T:NDSH.Accord.Math.Distances.IDistance{System.String}
+  parent: NDSH.Accord.Math.Distances
+  definition: NDSH.Accord.Math.Distances.IDistance`1
+  href: NDSH.Accord.Math.Distances.IDistance-1.html
+  name: IDistance<string>
+  nameWithType: IDistance<string>
+  fullName: NDSH.Accord.Math.Distances.IDistance<string>
+  nameWithType.vb: IDistance(Of String)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of String)
+  name.vb: IDistance(Of String)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance{System.String,System.String}
+  commentId: T:NDSH.Accord.Math.Distances.IDistance{System.String,System.String}
+  parent: NDSH.Accord.Math.Distances
+  definition: NDSH.Accord.Math.Distances.IDistance`2
+  href: NDSH.Accord.Math.Distances.IDistance-2.html
+  name: IDistance<string, string>
+  nameWithType: IDistance<string, string>
+  fullName: NDSH.Accord.Math.Distances.IDistance<string, string>
+  nameWithType.vb: IDistance(Of String, String)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of String, String)
+  name.vb: IDistance(Of String, String)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IMetric`1
+  commentId: T:NDSH.Accord.Math.Distances.IMetric`1
+  href: NDSH.Accord.Math.Distances.IMetric-1.html
+  name: IMetric<T>
+  nameWithType: IMetric<T>
+  fullName: NDSH.Accord.Math.Distances.IMetric<T>
+  nameWithType.vb: IMetric(Of T)
+  fullName.vb: NDSH.Accord.Math.Distances.IMetric(Of T)
+  name.vb: IMetric(Of T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance`1
+  commentId: T:NDSH.Accord.Math.Distances.IDistance`1
+  href: NDSH.Accord.Math.Distances.IDistance-1.html
+  name: IDistance<T>
+  nameWithType: IDistance<T>
+  fullName: NDSH.Accord.Math.Distances.IDistance<T>
+  nameWithType.vb: IDistance(Of T)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T)
+  name.vb: IDistance(Of T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance`2
+  commentId: T:NDSH.Accord.Math.Distances.IDistance`2
+  href: NDSH.Accord.Math.Distances.IDistance-2.html
+  name: IDistance<T, U>
+  nameWithType: IDistance<T, U>
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, U>
+  nameWithType.vb: IDistance(Of T, U)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, U)
+  name.vb: IDistance(Of T, U)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance*
+  commentId: Overload:NDSH.Accord.Math.Distances.LevenshteinAccord.Distance
+  href: NDSH.Accord.Math.Distances.LevenshteinAccord.html#NDSH_Accord_Math_Distances_LevenshteinAccord_Distance_System_String_System_String_
+  name: Distance
+  nameWithType: LevenshteinAccord.Distance
+  fullName: NDSH.Accord.Math.Distances.LevenshteinAccord.Distance
+- uid: NDSH.Accord.Math.Distances.IDistance{System.String,System.String}.Distance(System.String,System.String)
+  commentId: M:NDSH.Accord.Math.Distances.IDistance{System.String,System.String}.Distance(System.String,System.String)
+  parent: NDSH.Accord.Math.Distances.IDistance{System.String,System.String}
+  definition: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  name: Distance(string, string)
+  nameWithType: IDistance<string, string>.Distance(string, string)
+  fullName: NDSH.Accord.Math.Distances.IDistance<string, string>.Distance(string, string)
+  nameWithType.vb: IDistance(Of String, String).Distance(String, String)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of String, String).Distance(String, String)
+  name.vb: Distance(String, String)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance{System.String,System.String}.Distance(System.String,System.String)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance{System.String,System.String}.Distance(System.String,System.String)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  commentId: M:NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  name: Distance(T, U)
+  nameWithType: IDistance<T, U>.Distance(T, U)
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, U>.Distance(T, U)
+  nameWithType.vb: IDistance(Of T, U).Distance(T, U)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, U).Distance(T, U)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )

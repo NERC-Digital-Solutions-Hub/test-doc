@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  id: CoordinateOperations
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationMethodsAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationParametersAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationsAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationMethodsAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationMethodsAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationMethodsAlternativeExpression.html
+  name: IOperationMethodsAlternativeExpression
+  nameWithType: IOperationMethodsAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationMethodsAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationParametersAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationParametersAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationParametersAlternativeExpression.html
+  name: IOperationParametersAlternativeExpression
+  nameWithType: IOperationParametersAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationParametersAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationsAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationsAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationsAlternativeExpression.html
+  name: IOperationsAlternativeExpression
+  nameWithType: IOperationsAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.IOperationsAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_PropertyType.html
+  name: ML_ConcatenatedOperation_PropertyType
+  nameWithType: ML_ConcatenatedOperation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_Type.html
+  name: ML_ConcatenatedOperation_Type
+  nameWithType: ML_ConcatenatedOperation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_ConcatenatedOperation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_PropertyType.html
+  name: ML_Conversion_PropertyType
+  nameWithType: ML_Conversion_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_Type.html
+  name: ML_Conversion_Type
+  nameWithType: ML_Conversion_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Conversion_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_PropertyType.html
+  name: ML_OperationMethod_PropertyType
+  nameWithType: ML_OperationMethod_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_Type.html
+  name: ML_OperationMethod_Type
+  nameWithType: ML_OperationMethod_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationMethod_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_PropertyType.html
+  name: ML_OperationParameterGroup_PropertyType
+  nameWithType: ML_OperationParameterGroup_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_Type.html
+  name: ML_OperationParameterGroup_Type
+  nameWithType: ML_OperationParameterGroup_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameterGroup_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_PropertyType.html
+  name: ML_OperationParameter_PropertyType
+  nameWithType: ML_OperationParameter_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_Type.html
+  name: ML_OperationParameter_Type
+  nameWithType: ML_OperationParameter_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_OperationParameter_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_PropertyType.html
+  name: ML_PassThroughOperation_PropertyType
+  nameWithType: ML_PassThroughOperation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_Type.html
+  name: ML_PassThroughOperation_Type
+  nameWithType: ML_PassThroughOperation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_PassThroughOperation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_PropertyType.html
+  name: ML_Transformation_PropertyType
+  nameWithType: ML_Transformation_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_Type.html
+  name: ML_Transformation_Type
+  nameWithType: ML_Transformation_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.ML_Transformation_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+    name: CoordinateOperations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations
+    name: CoordinateOperations
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.CRS.Multilingual.CoordinateOperations.html

@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  id: Services.MetadataSemanticSearch
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Encoding
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Result
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content.html
+  name: Content
+  nameWithType: Content
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Content
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Encoding
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Encoding
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Encoding.html
+  name: Encoding
+  nameWithType: Encoding
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Encoding
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html
+  name: Record
+  nameWithType: Record
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request.html
+  name: Request
+  nameWithType: Request
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Request
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Result
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Result
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Result.html
+  name: Result
+  nameWithType: Result
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Result
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service.html
+  name: Service
+  nameWithType: Service
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Service
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services
+    name: Services
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+    name: MetadataSemanticSearch
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services
+    name: Services
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+    name: MetadataSemanticSearch
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.html

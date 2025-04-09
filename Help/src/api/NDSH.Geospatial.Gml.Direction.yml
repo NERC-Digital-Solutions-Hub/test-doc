@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Direction
+  commentId: N:NDSH.Geospatial.Gml.Direction
+  id: Direction
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.Direction.CompassPointEnumeration
+  - NDSH.Geospatial.Gml.Direction.DirectionDescriptionType
+  - NDSH.Geospatial.Gml.Direction.DirectionPropertyType
+  - NDSH.Geospatial.Gml.Direction.DirectionVectorEnumeration
+  - NDSH.Geospatial.Gml.Direction.DirectionVectorType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Direction
+  nameWithType: NDSH.Geospatial.Gml.Direction
+  fullName: NDSH.Geospatial.Gml.Direction
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Direction.CompassPointEnumeration
+  commentId: T:NDSH.Geospatial.Gml.Direction.CompassPointEnumeration
+  parent: NDSH.Geospatial.Gml.Direction
+  href: NDSH.Geospatial.Gml.Direction.CompassPointEnumeration.html
+  name: CompassPointEnumeration
+  nameWithType: CompassPointEnumeration
+  fullName: NDSH.Geospatial.Gml.Direction.CompassPointEnumeration
+- uid: NDSH.Geospatial.Gml.Direction.DirectionDescriptionType
+  commentId: T:NDSH.Geospatial.Gml.Direction.DirectionDescriptionType
+  href: NDSH.Geospatial.Gml.Direction.DirectionDescriptionType.html
+  name: DirectionDescriptionType
+  nameWithType: DirectionDescriptionType
+  fullName: NDSH.Geospatial.Gml.Direction.DirectionDescriptionType
+- uid: NDSH.Geospatial.Gml.Direction.DirectionPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Direction.DirectionPropertyType
+  parent: NDSH.Geospatial.Gml.Direction
+  href: NDSH.Geospatial.Gml.Direction.DirectionPropertyType.html
+  name: DirectionPropertyType
+  nameWithType: DirectionPropertyType
+  fullName: NDSH.Geospatial.Gml.Direction.DirectionPropertyType
+- uid: NDSH.Geospatial.Gml.Direction.DirectionVectorEnumeration
+  commentId: T:NDSH.Geospatial.Gml.Direction.DirectionVectorEnumeration
+  parent: NDSH.Geospatial.Gml.Direction
+  href: NDSH.Geospatial.Gml.Direction.DirectionVectorEnumeration.html
+  name: DirectionVectorEnumeration
+  nameWithType: DirectionVectorEnumeration
+  fullName: NDSH.Geospatial.Gml.Direction.DirectionVectorEnumeration
+- uid: NDSH.Geospatial.Gml.Direction.DirectionVectorType
+  commentId: T:NDSH.Geospatial.Gml.Direction.DirectionVectorType
+  href: NDSH.Geospatial.Gml.Direction.DirectionVectorType.html
+  name: DirectionVectorType
+  nameWithType: DirectionVectorType
+  fullName: NDSH.Geospatial.Gml.Direction.DirectionVectorType
+- uid: NDSH.Geospatial.Gml.Direction
+  commentId: N:NDSH.Geospatial.Gml.Direction
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Direction
+  nameWithType: NDSH.Geospatial.Gml.Direction
+  fullName: NDSH.Geospatial.Gml.Direction
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Gml.Direction.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Direction
+    name: Direction
+    href: NDSH.Geospatial.Gml.Direction.html

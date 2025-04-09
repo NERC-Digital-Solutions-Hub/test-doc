@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Utilities.App.Tests.XSDClassElementTests
+  commentId: N:NDSH.Utilities.App.Tests.XSDClassElementTests
+  id: XSDClassElementTests
+  parent: NDSH.Utilities.App.Tests
+  children:
+  - NDSH.Utilities.App.Tests.XSDClassElementTests.XSDClassElementTests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Utilities.App.Tests.XSDClassElementTests
+  nameWithType: NDSH.Utilities.App.Tests.XSDClassElementTests
+  fullName: NDSH.Utilities.App.Tests.XSDClassElementTests
+  type: Namespace
+  assemblies:
+  - NDSH.Utilities.App.Tests
+references:
+- uid: NDSH.Utilities.App.Tests.XSDClassElementTests.XSDClassElementTests
+  commentId: T:NDSH.Utilities.App.Tests.XSDClassElementTests.XSDClassElementTests
+  href: NDSH.Utilities.App.Tests.XSDClassElementTests.XSDClassElementTests.html
+  name: XSDClassElementTests
+  nameWithType: XSDClassElementTests
+  fullName: NDSH.Utilities.App.Tests.XSDClassElementTests.XSDClassElementTests

@@ -1,0 +1,1188 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  id: MD_MediumNameCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3480
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3490
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3580
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape1QuarterInch
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape4mm
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape8mm
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CdRom
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DigitalLinearTape
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Dvd
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DvdRom
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy3HalfInch
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy5QuartherInch
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Hardcopy
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Online
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Satellite
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape7Track
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape9Track
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.TelephoneLink
+  langs:
+  - csharp
+  - vb
+  name: MD_MediumNameCodeValue
+  nameWithType: MD_MediumNameCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MD_MediumNameCodeValue
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Name of the medium.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MD_MediumNameCodeValue
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MD_MediumNameCodeValue
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CdRom
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CdRom
+  id: CdRom
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: CdRom
+  nameWithType: MD_MediumNameCodeValue.CdRom
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CdRom
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CdRom
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Read-only optical disk.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "cdRom")]
+
+      CdRom = 0
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="cdRom")>
+
+      CdRom = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: cdRom
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Dvd
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Dvd
+  id: Dvd
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Dvd
+  nameWithType: MD_MediumNameCodeValue.Dvd
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Dvd
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Dvd
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 50
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Digital versatile disk.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "dvd")]
+
+      Dvd = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="dvd")>
+
+      Dvd = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: dvd
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DvdRom
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DvdRom
+  id: DvdRom
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: DvdRom
+  nameWithType: MD_MediumNameCodeValue.DvdRom
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DvdRom
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DvdRom
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 57
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Digital versatile disk, read only.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "dvdRom")]
+
+      DvdRom = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="dvdRom")>
+
+      DvdRom = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: dvdRom
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy3HalfInch
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy3HalfInch
+  id: Floppy3HalfInch
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Floppy3HalfInch
+  nameWithType: MD_MediumNameCodeValue.Floppy3HalfInch
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy3HalfInch
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Floppy3HalfInch
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 64
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 3,5 inch magnetic disk.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "3halfInchFloppy")]
+
+      Floppy3HalfInch = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="3halfInchFloppy")>
+
+      Floppy3HalfInch = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 3halfInchFloppy
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy5QuartherInch
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy5QuartherInch
+  id: Floppy5QuartherInch
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Floppy5QuartherInch
+  nameWithType: MD_MediumNameCodeValue.Floppy5QuartherInch
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Floppy5QuartherInch
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Floppy5QuartherInch
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 71
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 5,25 inch magnetic disk.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "5quartherInchFloppy")]
+
+      Floppy5QuartherInch = 4
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="5quartherInchFloppy")>
+
+      Floppy5QuartherInch = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 5quartherInchFloppy
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape7Track
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape7Track
+  id: Tape7Track
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Tape7Track
+  nameWithType: MD_MediumNameCodeValue.Tape7Track
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape7Track
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Tape7Track
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 78
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 7 track magnetic tape.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "7trackTape")]
+
+      Tape7Track = 5
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="7trackTape")>
+
+      Tape7Track = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 7trackTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape9Track
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape9Track
+  id: Tape9Track
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Tape9Track
+  nameWithType: MD_MediumNameCodeValue.Tape9Track
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Tape9Track
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Tape9Track
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 85
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 9 track magnetic tape.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "9trackTape")]
+
+      Tape9Track = 6
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="9trackTape")>
+
+      Tape9Track = 6
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 9trackTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3480
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3480
+  id: Cartridge3480
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Cartridge3480
+  nameWithType: MD_MediumNameCodeValue.Cartridge3480
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3480
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Cartridge3480
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 92
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 3480 cartridge tape drive.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "3480Cartridge")]
+
+      Cartridge3480 = 7
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="3480Cartridge")>
+
+      Cartridge3480 = 7
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 3480Cartridge
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3490
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3490
+  id: Cartridge3490
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Cartridge3490
+  nameWithType: MD_MediumNameCodeValue.Cartridge3490
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3490
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Cartridge3490
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 99
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 3490 cartridge tape drive.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "3490Cartridge")]
+
+      Cartridge3490 = 8
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="3490Cartridge")>
+
+      Cartridge3490 = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 3490Cartridge
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3580
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3580
+  id: Cartridge3580
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Cartridge3580
+  nameWithType: MD_MediumNameCodeValue.Cartridge3580
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Cartridge3580
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Cartridge3580
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 106
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 3580 cartridge tape drive.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "3580Cartridge")]
+
+      Cartridge3580 = 9
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="3580Cartridge")>
+
+      Cartridge3580 = 9
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 3580Cartridge
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape4mm
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape4mm
+  id: CartridgeTape4mm
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: CartridgeTape4mm
+  nameWithType: MD_MediumNameCodeValue.CartridgeTape4mm
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape4mm
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CartridgeTape4mm
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 113
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 4 millimetre magnetic tape.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "4mmCartridgeTape")]
+
+      CartridgeTape4mm = 10
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="4mmCartridgeTape")>
+
+      CartridgeTape4mm = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 4mmCartridgeTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape8mm
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape8mm
+  id: CartridgeTape8mm
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: CartridgeTape8mm
+  nameWithType: MD_MediumNameCodeValue.CartridgeTape8mm
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape8mm
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CartridgeTape8mm
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 120
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 8 millimetre magnetic tape.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "8mmCartridgeTape")]
+
+      CartridgeTape8mm = 11
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="8mmCartridgeTape")>
+
+      CartridgeTape8mm = 11
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 8mmCartridgeTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape1QuarterInch
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape1QuarterInch
+  id: CartridgeTape1QuarterInch
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: CartridgeTape1QuarterInch
+  nameWithType: MD_MediumNameCodeValue.CartridgeTape1QuarterInch
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.CartridgeTape1QuarterInch
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CartridgeTape1QuarterInch
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 127
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: 0,25 inch magnetic tape.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "1quarterInchCartridgeTape")]
+
+      CartridgeTape1QuarterInch = 12
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="1quarterInchCartridgeTape")>
+
+      CartridgeTape1QuarterInch = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: 1quarterInchCartridgeTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DigitalLinearTape
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DigitalLinearTape
+  id: DigitalLinearTape
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: DigitalLinearTape
+  nameWithType: MD_MediumNameCodeValue.DigitalLinearTape
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.DigitalLinearTape
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DigitalLinearTape
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 134
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Half inch cartridge streaming tape drive.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "digitalLinearTape")]
+
+      DigitalLinearTape = 13
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="digitalLinearTape")>
+
+      DigitalLinearTape = 13
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: digitalLinearTape
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Online
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Online
+  id: Online
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Online
+  nameWithType: MD_MediumNameCodeValue.Online
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Online
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Online
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 141
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Direct computer linkage.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "online")]
+
+      Online = 14
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="online")>
+
+      Online = 14
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: online
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Satellite
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Satellite
+  id: Satellite
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Satellite
+  nameWithType: MD_MediumNameCodeValue.Satellite
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Satellite
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Satellite
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 148
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Llinkage through a satellite communication system.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "satellite")]
+
+      Satellite = 15
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="satellite")>
+
+      Satellite = 15
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: satellite
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.TelephoneLink
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.TelephoneLink
+  id: TelephoneLink
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: TelephoneLink
+  nameWithType: MD_MediumNameCodeValue.TelephoneLink
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.TelephoneLink
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TelephoneLink
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 155
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Communication through a telephone network.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "telephoneLink")]
+
+      TelephoneLink = 16
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="telephoneLink")>
+
+      TelephoneLink = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: telephoneLink
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Hardcopy
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Hardcopy
+  id: Hardcopy
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Hardcopy
+  nameWithType: MD_MediumNameCodeValue.Hardcopy
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.Hardcopy
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Hardcopy
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Distribution/MD_MediumNameCodeValue.cs
+    startLine: 162
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Distribution
+  summary: Pamphlet or leaflet giving descriptive information.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "hardcopy")]
+
+      Hardcopy = 17
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    content.vb: >-
+      <EnumMember(Value:="hardcopy")>
+
+      Hardcopy = 17
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: hardcopy
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Distribution
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Distribution
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Distribution
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution
+    name: Distribution
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.html
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumName<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue>(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  name.vb: GetXmlEnumName(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue>(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  name.vb: GetXmlEnumAttributeOrName(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<MD_MediumNameCodeValue>(MD_MediumNameCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue>(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+  name.vb: GetXmlEnumAttribute(Of MD_MediumNameCodeValue)(MD_MediumNameCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+    name: MD_MediumNameCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Distribution
+  href: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue.html
+  name: MD_MediumNameCodeValue
+  nameWithType: MD_MediumNameCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Distribution.MD_MediumNameCodeValue

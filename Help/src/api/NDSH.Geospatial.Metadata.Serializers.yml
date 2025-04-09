@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Serializers
+  commentId: N:NDSH.Geospatial.Metadata.Serializers
+  id: Serializers
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Serializers.Converters
+  - NDSH.Geospatial.Metadata.Serializers.GeoNetworkGmd2005Serializer
+  - NDSH.Geospatial.Metadata.Serializers.JsonSerializer
+  - NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Serializers
+  nameWithType: NDSH.Geospatial.Metadata.Serializers
+  fullName: NDSH.Geospatial.Metadata.Serializers
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.Serializers
+references:
+- uid: NDSH.Geospatial.Metadata.Serializers.Converters
+  commentId: N:NDSH.Geospatial.Metadata.Serializers.Converters
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Serializers.Converters
+  nameWithType: NDSH.Geospatial.Metadata.Serializers.Converters
+  fullName: NDSH.Geospatial.Metadata.Serializers.Converters
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Metadata.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Converters
+    name: Converters
+    href: NDSH.Geospatial.Metadata.Serializers.Converters.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Metadata.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Converters
+    name: Converters
+    href: NDSH.Geospatial.Metadata.Serializers.Converters.html
+- uid: NDSH.Geospatial.Metadata.Serializers.GeoNetworkGmd2005Serializer
+  commentId: T:NDSH.Geospatial.Metadata.Serializers.GeoNetworkGmd2005Serializer
+  href: NDSH.Geospatial.Metadata.Serializers.GeoNetworkGmd2005Serializer.html
+  name: GeoNetworkGmd2005Serializer
+  nameWithType: GeoNetworkGmd2005Serializer
+  fullName: NDSH.Geospatial.Metadata.Serializers.GeoNetworkGmd2005Serializer
+- uid: NDSH.Geospatial.Metadata.Serializers.JsonSerializer
+  commentId: T:NDSH.Geospatial.Metadata.Serializers.JsonSerializer
+  href: NDSH.Geospatial.Metadata.Serializers.JsonSerializer.html
+  name: JsonSerializer
+  nameWithType: JsonSerializer
+  fullName: NDSH.Geospatial.Metadata.Serializers.JsonSerializer
+- uid: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  commentId: N:NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  nameWithType: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  fullName: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Metadata.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Tests
+    name: Tests
+    href: NDSH.Geospatial.Metadata.Serializers.Tests.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+    name: GeoNetworkGmd2005
+    href: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Metadata.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Tests
+    name: Tests
+    href: NDSH.Geospatial.Metadata.Serializers.Tests.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005
+    name: GeoNetworkGmd2005
+    href: NDSH.Geospatial.Metadata.Serializers.Tests.GeoNetworkGmd2005.html

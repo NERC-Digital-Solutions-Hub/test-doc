@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Resources
+  commentId: N:NDSH.Resources
+  id: Resources
+  parent: NDSH
+  children:
+  - NDSH.Resources.Exceptions
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Resources
+  nameWithType: NDSH.Resources
+  fullName: NDSH.Resources
+  type: Namespace
+  assemblies:
+  - NDSH.Resources
+references:
+- uid: NDSH.Resources.Exceptions
+  commentId: T:NDSH.Resources.Exceptions
+  href: NDSH.Resources.Exceptions.html
+  name: Exceptions
+  nameWithType: Exceptions
+  fullName: NDSH.Resources.Exceptions

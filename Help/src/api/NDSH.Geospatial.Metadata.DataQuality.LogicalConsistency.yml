@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  id: LogicalConsistency
+  parent: NDSH.Geospatial.Metadata.DataQuality
+  children:
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.AbstractDQ_LogicalConsistency_Type
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_ConceptualConsistency_Type
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_DomainConsistency_Type
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_FormatConsistency_Type
+  - NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_TopologicalConsistency_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.AbstractDQ_LogicalConsistency_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.AbstractDQ_LogicalConsistency_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.AbstractDQ_LogicalConsistency_Type.html
+  name: AbstractDQ_LogicalConsistency_Type
+  nameWithType: AbstractDQ_LogicalConsistency_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.AbstractDQ_LogicalConsistency_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_ConceptualConsistency_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_ConceptualConsistency_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_ConceptualConsistency_Type.html
+  name: DQ_ConceptualConsistency_Type
+  nameWithType: DQ_ConceptualConsistency_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_ConceptualConsistency_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_DomainConsistency_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_DomainConsistency_Type
+  parent: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_DomainConsistency_Type.html
+  name: DQ_DomainConsistency_Type
+  nameWithType: DQ_DomainConsistency_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_DomainConsistency_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_FormatConsistency_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_FormatConsistency_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_FormatConsistency_Type.html
+  name: DQ_FormatConsistency_Type
+  nameWithType: DQ_FormatConsistency_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_FormatConsistency_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_TopologicalConsistency_Type
+  commentId: T:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_TopologicalConsistency_Type
+  href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_TopologicalConsistency_Type.html
+  name: DQ_TopologicalConsistency_Type
+  nameWithType: DQ_TopologicalConsistency_Type
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.DQ_TopologicalConsistency_Type
+- uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  commentId: N:NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  nameWithType: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  fullName: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+    name: LogicalConsistency
+    href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.DataQuality.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency
+    name: LogicalConsistency
+    href: NDSH.Geospatial.Metadata.DataQuality.LogicalConsistency.html

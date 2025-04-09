@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  id: Datums
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+  children:
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IDatumsAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IPrimeMeridiansAlternativeExpression
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_Type
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IDatumsAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IDatumsAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IDatumsAlternativeExpression.html
+  name: IDatumsAlternativeExpression
+  nameWithType: IDatumsAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IDatumsAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.html
+  name: IEllipsoidsAlternativeExpression
+  nameWithType: IEllipsoidsAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IPrimeMeridiansAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IPrimeMeridiansAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IPrimeMeridiansAlternativeExpression.html
+  name: IPrimeMeridiansAlternativeExpression
+  nameWithType: IPrimeMeridiansAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.IPrimeMeridiansAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_PropertyType.html
+  name: ML_Ellipsoid_PropertyType
+  nameWithType: ML_Ellipsoid_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_Type.html
+  name: ML_Ellipsoid_Type
+  nameWithType: ML_Ellipsoid_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_Ellipsoid_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_PropertyType.html
+  name: ML_EngineeringDatum_PropertyType
+  nameWithType: ML_EngineeringDatum_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_Type.html
+  name: ML_EngineeringDatum_Type
+  nameWithType: ML_EngineeringDatum_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_EngineeringDatum_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_PropertyType.html
+  name: ML_GeodeticDatum_PropertyType
+  nameWithType: ML_GeodeticDatum_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_Type.html
+  name: ML_GeodeticDatum_Type
+  nameWithType: ML_GeodeticDatum_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_GeodeticDatum_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_PropertyType.html
+  name: ML_ImageDatum_PropertyType
+  nameWithType: ML_ImageDatum_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_Type.html
+  name: ML_ImageDatum_Type
+  nameWithType: ML_ImageDatum_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_ImageDatum_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_PropertyType.html
+  name: ML_PrimeMeridian_PropertyType
+  nameWithType: ML_PrimeMeridian_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_Type.html
+  name: ML_PrimeMeridian_Type
+  nameWithType: ML_PrimeMeridian_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_PrimeMeridian_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_PropertyType.html
+  name: ML_TemporalDatum_PropertyType
+  nameWithType: ML_TemporalDatum_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_Type.html
+  name: ML_TemporalDatum_Type
+  nameWithType: ML_TemporalDatum_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_TemporalDatum_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_PropertyType.html
+  name: ML_VerticalDatum_PropertyType
+  nameWithType: ML_VerticalDatum_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_Type
+  parent: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_Type.html
+  name: ML_VerticalDatum_Type
+  nameWithType: ML_VerticalDatum_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.ML_VerticalDatum_Type
+- uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  commentId: N:NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  nameWithType: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  fullName: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.V2003.XmlSchema.Catalogues.CRS.Multilingual.Datums.html

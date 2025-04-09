@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial
+  commentId: N:NDSH.Geospatial
+  id: Geospatial
+  parent: NDSH
+  children:
+  - NDSH.Geospatial.Common.BasicTypes
+  - NDSH.Geospatial.Demos.SearchAndMap
+  - NDSH.Geospatial.EnumerableExtensions
+  - NDSH.Geospatial.Gml
+  - NDSH.Geospatial.ITypeMetadata
+  - NDSH.Geospatial.IsoTypeAttribute
+  - NDSH.Geospatial.IsoTypes
+  - NDSH.Geospatial.Metadata
+  - NDSH.Geospatial.MetadataDB.Relational
+  - NDSH.Geospatial.Schema
+  - NDSH.Geospatial.Serializers
+  - NDSH.Geospatial.UriReference
+  - NDSH.Geospatial.XmlValidator
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial
+  nameWithType: NDSH.Geospatial
+  fullName: NDSH.Geospatial
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml
+  commentId: N:NDSH.Geospatial.Gml
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml
+  nameWithType: NDSH.Geospatial.Gml
+  fullName: NDSH.Geospatial.Gml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Schema
+  commentId: N:NDSH.Geospatial.Schema
+  href: NDSH.html
+  name: NDSH.Geospatial.Schema
+  nameWithType: NDSH.Geospatial.Schema
+  fullName: NDSH.Geospatial.Schema
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Schema
+    name: Schema
+    href: NDSH.Geospatial.Schema.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Schema
+    name: Schema
+    href: NDSH.Geospatial.Schema.html
+- uid: NDSH.Geospatial.Serializers
+  isExternal: true
+- uid: NDSH.Geospatial.EnumerableExtensions
+  commentId: T:NDSH.Geospatial.EnumerableExtensions
+  href: NDSH.Geospatial.EnumerableExtensions.html
+  name: EnumerableExtensions
+  nameWithType: EnumerableExtensions
+  fullName: NDSH.Geospatial.EnumerableExtensions
+- uid: NDSH.Geospatial.ITypeMetadata
+  commentId: T:NDSH.Geospatial.ITypeMetadata
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.ITypeMetadata.html
+  name: ITypeMetadata
+  nameWithType: ITypeMetadata
+  fullName: NDSH.Geospatial.ITypeMetadata
+- uid: NDSH.Geospatial.IsoTypeAttribute
+  commentId: T:NDSH.Geospatial.IsoTypeAttribute
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.IsoTypeAttribute.html
+  name: IsoTypeAttribute
+  nameWithType: IsoTypeAttribute
+  fullName: NDSH.Geospatial.IsoTypeAttribute
+- uid: NDSH.Geospatial.IsoTypes
+  commentId: T:NDSH.Geospatial.IsoTypes
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.IsoTypes.html
+  name: IsoTypes
+  nameWithType: IsoTypes
+  fullName: NDSH.Geospatial.IsoTypes
+- uid: NDSH.Geospatial.UriReference
+  commentId: T:NDSH.Geospatial.UriReference
+  parent: NDSH.Geospatial
+  href: NDSH.Geospatial.UriReference.html
+  name: UriReference
+  nameWithType: UriReference
+  fullName: NDSH.Geospatial.UriReference
+- uid: NDSH.Geospatial.XmlValidator
+  commentId: T:NDSH.Geospatial.XmlValidator
+  href: NDSH.Geospatial.XmlValidator.html
+  name: XmlValidator
+  nameWithType: XmlValidator
+  fullName: NDSH.Geospatial.XmlValidator
+- uid: NDSH.Geospatial.Common.BasicTypes
+  isExternal: true
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: NDSH.Geospatial.MetadataDB.Relational
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational
+  href: NDSH.html
+  name: NDSH.Geospatial.MetadataDB.Relational
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational
+  fullName: NDSH.Geospatial.MetadataDB.Relational
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB
+    name: MetadataDB
+    href: NDSH.Geospatial.MetadataDB.html
+  - name: .
+  - uid: NDSH.Geospatial.MetadataDB.Relational
+    name: Relational
+    href: NDSH.Geospatial.MetadataDB.Relational.html
+- uid: NDSH.Geospatial
+  commentId: N:NDSH.Geospatial
+  href: NDSH.html
+  name: NDSH.Geospatial
+  nameWithType: NDSH.Geospatial
+  fullName: NDSH.Geospatial
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Tests
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Tests
+  id: Tests
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Tests.Content
+  - NDSH.Geospatial.Metadata.V2003.Tests.Helper
+  - NDSH.Geospatial.Metadata.V2003.Tests.InitializationTests
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Tests
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Tests
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Tests
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Tests.Content
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests.Content
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Tests
+    name: Tests
+    href: NDSH.Geospatial.Metadata.V2003.Tests.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Tests.Content
+    name: Content
+    href: NDSH.Geospatial.Metadata.V2003.Tests.Content.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Tests
+    name: Tests
+    href: NDSH.Geospatial.Metadata.V2003.Tests.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Tests.Content
+    name: Content
+    href: NDSH.Geospatial.Metadata.V2003.Tests.Content.html
+- uid: NDSH.Geospatial.Metadata.V2003.Tests.Helper
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Tests.Helper
+  href: NDSH.Geospatial.Metadata.V2003.Tests.Helper.html
+  name: Helper
+  nameWithType: Helper
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests.Helper
+- uid: NDSH.Geospatial.Metadata.V2003.Tests.InitializationTests
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Tests.InitializationTests
+  href: NDSH.Geospatial.Metadata.V2003.Tests.InitializationTests.html
+  name: InitializationTests
+  nameWithType: InitializationTests
+  fullName: NDSH.Geospatial.Metadata.V2003.Tests.InitializationTests

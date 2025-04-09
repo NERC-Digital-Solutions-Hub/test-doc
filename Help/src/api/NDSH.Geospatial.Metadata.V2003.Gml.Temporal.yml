@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  id: Temporal
+  parent: NDSH.Geospatial.Metadata.V2003.Gml
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeComplexType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeGeometricPrimitiveType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeObjectType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimePrimitiveType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeTypeRelativePosition
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIndeterminateValueType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIntervalLengthType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePositionType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePrimitivePropertyType
+  - NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems
+    name: ReferenceSystems
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.ReferenceSystems.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.Topology.html
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeComplexType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeComplexType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeComplexType.html
+  name: AbstractTimeComplexType
+  nameWithType: AbstractTimeComplexType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeComplexType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeGeometricPrimitiveType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeGeometricPrimitiveType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeGeometricPrimitiveType.html
+  name: AbstractTimeGeometricPrimitiveType
+  nameWithType: AbstractTimeGeometricPrimitiveType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeGeometricPrimitiveType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeObjectType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeObjectType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeObjectType.html
+  name: AbstractTimeObjectType
+  nameWithType: AbstractTimeObjectType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimeObjectType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimePrimitiveType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimePrimitiveType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimePrimitiveType.html
+  name: AbstractTimePrimitiveType
+  nameWithType: AbstractTimePrimitiveType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.AbstractTimePrimitiveType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeType
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeType.html
+  name: RelatedTimeType
+  nameWithType: RelatedTimeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeTypeRelativePosition
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeTypeRelativePosition
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeTypeRelativePosition.html
+  name: RelatedTimeTypeRelativePosition
+  nameWithType: RelatedTimeTypeRelativePosition
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.RelatedTimeTypeRelativePosition
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIndeterminateValueType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIndeterminateValueType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIndeterminateValueType.html
+  name: TimeIndeterminateValueType
+  nameWithType: TimeIndeterminateValueType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIndeterminateValueType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantPropertyType.html
+  name: TimeInstantPropertyType
+  nameWithType: TimeInstantPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantType.html
+  name: TimeInstantType
+  nameWithType: TimeInstantType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeInstantType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIntervalLengthType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIntervalLengthType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIntervalLengthType.html
+  name: TimeIntervalLengthType
+  nameWithType: TimeIntervalLengthType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimeIntervalLengthType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodPropertyType.html
+  name: TimePeriodPropertyType
+  nameWithType: TimePeriodPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodType.html
+  name: TimePeriodType
+  nameWithType: TimePeriodType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePeriodType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePositionType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePositionType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePositionType.html
+  name: TimePositionType
+  nameWithType: TimePositionType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePositionType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePrimitivePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePrimitivePropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePrimitivePropertyType.html
+  name: TimePrimitivePropertyType
+  nameWithType: TimePrimitivePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.TimePrimitivePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  fullName: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml
+    name: Gml
+    href: NDSH.Geospatial.Metadata.V2003.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Gml.Temporal
+    name: Temporal
+    href: NDSH.Geospatial.Metadata.V2003.Gml.Temporal.html

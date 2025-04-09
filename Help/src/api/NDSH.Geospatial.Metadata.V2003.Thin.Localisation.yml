@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  id: Localisation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.Country_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCodeValue
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.Country_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.Country_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.Country_PropertyType.html
+  name: Country_PropertyType
+  nameWithType: Country_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.Country_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType.html
+  name: ILocale_PropertyType
+  nameWithType: ILocale_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.ILocale_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode.html
+  name: LanguageCode
+  nameWithType: LanguageCode
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCodeValue
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCodeValue.html
+  name: LanguageCodeValue
+  nameWithType: LanguageCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCodeValue
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode_PropertyType.html
+  name: LanguageCode_PropertyType
+  nameWithType: LanguageCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LanguageCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_PropertyType.html
+  name: LocalisedCharacterString_PropertyType
+  nameWithType: LocalisedCharacterString_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_Type.html
+  name: LocalisedCharacterString_Type
+  nameWithType: LocalisedCharacterString_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.LocalisedCharacterString_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_PropertyType.html
+  name: PT_FreeText_PropertyType
+  nameWithType: PT_FreeText_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_Type.html
+  name: PT_FreeText_Type
+  nameWithType: PT_FreeText_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_FreeText_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_PropertyType.html
+  name: PT_LocaleContainer_PropertyType
+  nameWithType: PT_LocaleContainer_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_Type.html
+  name: PT_LocaleContainer_Type
+  nameWithType: PT_LocaleContainer_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_LocaleContainer_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_PropertyType.html
+  name: PT_Locale_PropertyType
+  nameWithType: PT_Locale_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_Type.html
+  name: PT_Locale_Type
+  nameWithType: PT_Locale_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.PT_Locale_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Localisation
+    name: Localisation
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Localisation.html

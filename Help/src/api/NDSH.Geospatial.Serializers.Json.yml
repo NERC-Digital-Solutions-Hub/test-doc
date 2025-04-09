@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Json
+  commentId: N:NDSH.Geospatial.Serializers.Json
+  id: Json
+  parent: NDSH.Geospatial.Serializers
+  children:
+  - NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  - NDSH.Geospatial.Serializers.Json.XmlToJsonConverter
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Json
+  nameWithType: NDSH.Geospatial.Serializers.Json
+  fullName: NDSH.Geospatial.Serializers.Json
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Json.XmlToJsonConverter
+  commentId: T:NDSH.Geospatial.Serializers.Json.XmlToJsonConverter
+  href: NDSH.Geospatial.Serializers.Json.XmlToJsonConverter.html
+  name: XmlToJsonConverter
+  nameWithType: XmlToJsonConverter
+  fullName: NDSH.Geospatial.Serializers.Json.XmlToJsonConverter
+- uid: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  commentId: N:NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  nameWithType: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  fullName: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json
+    name: Json
+    href: NDSH.Geospatial.Serializers.Json.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Json.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+    name: EntitySet
+    href: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json
+    name: Json
+    href: NDSH.Geospatial.Serializers.Json.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Json.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet
+    name: EntitySet
+    href: NDSH.Geospatial.Serializers.Json.Metadata.EntitySet.html

@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  id: Derived.UnitsOfMeasure
+  parent: NDSH.Geospatial.Common.BasicTypes
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Angle_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Distance_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Length_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Measure_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Scale_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UnitOfMeasure_PropertyType
+  - NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UomLength_PropertyType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Angle_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Angle_PropertyType
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Angle_PropertyType.html
+  name: Angle_PropertyType
+  nameWithType: Angle_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Angle_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Distance_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Distance_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Distance_PropertyType.html
+  name: Distance_PropertyType
+  nameWithType: Distance_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Distance_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Length_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Length_PropertyType
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Length_PropertyType.html
+  name: Length_PropertyType
+  nameWithType: Length_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Length_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Measure_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Measure_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Measure_PropertyType.html
+  name: Measure_PropertyType
+  nameWithType: Measure_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Measure_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Scale_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Scale_PropertyType
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Scale_PropertyType.html
+  name: Scale_PropertyType
+  nameWithType: Scale_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.Scale_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UnitOfMeasure_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UnitOfMeasure_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UnitOfMeasure_PropertyType.html
+  name: UnitOfMeasure_PropertyType
+  nameWithType: UnitOfMeasure_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UnitOfMeasure_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UomLength_PropertyType
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UomLength_PropertyType
+  parent: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UomLength_PropertyType.html
+  name: UomLength_PropertyType
+  nameWithType: UomLength_PropertyType
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.UomLength_PropertyType
+- uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  fullName: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived
+    name: Derived
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived
+    name: Derived
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure
+    name: UnitsOfMeasure
+    href: NDSH.Geospatial.Common.BasicTypes.Derived.UnitsOfMeasure.html

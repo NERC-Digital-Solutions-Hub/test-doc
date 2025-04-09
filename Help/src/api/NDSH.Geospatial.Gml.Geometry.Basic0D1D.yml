@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  commentId: N:NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  id: Basic0D1D
+  parent: NDSH.Geospatial.Gml.Geometry
+  children:
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint
+  - NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  nameWithType: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType.html
+  name: AbstractCurveType
+  nameWithType: AbstractCurveType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractCurveType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType.html
+  name: AbstractGeometricPrimitiveType
+  nameWithType: AbstractGeometricPrimitiveType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometricPrimitiveType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType.html
+  name: AbstractGeometryType
+  nameWithType: AbstractGeometryType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.AbstractGeometryType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration.html
+  name: CoordinatesOrPositionEnumeration
+  nameWithType: CoordinatesOrPositionEnumeration
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CoordinatesOrPositionEnumeration
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType.html
+  name: CurveArrayPropertyType
+  nameWithType: CurveArrayPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurveArrayPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType.html
+  name: CurvePropertyType
+  nameWithType: CurvePropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.CurvePropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType.html
+  name: DirectPositionListType
+  nameWithType: DirectPositionListType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionListType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType.html
+  name: DirectPositionType
+  nameWithType: DirectPositionType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.DirectPositionType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType.html
+  name: EnvelopeType
+  nameWithType: EnvelopeType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.EnvelopeType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType.html
+  name: GeometricPrimitivePropertyType
+  nameWithType: GeometricPrimitivePropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometricPrimitivePropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType.html
+  name: GeometryArrayPropertyType
+  nameWithType: GeometryArrayPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryArrayPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType.html
+  name: GeometryPropertyType
+  nameWithType: GeometryPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.GeometryPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation.html
+  name: ISrsInformation
+  nameWithType: ISrsInformation
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsInformation
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference.html
+  name: ISrsReference
+  nameWithType: ISrsReference
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.ISrsReference
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType.html
+  name: LineStringType
+  nameWithType: LineStringType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.LineStringType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType.html
+  name: PointArrayPropertyType
+  nameWithType: PointArrayPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointArrayPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType.html
+  name: PointPropertyType
+  nameWithType: PointPropertyType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointPropertyType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType.html
+  name: PointType
+  nameWithType: PointType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.PointType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType.html
+  name: SurfaceInterpolationType
+  nameWithType: SurfaceInterpolationType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.SurfaceInterpolationType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint.html
+  name: TinTypeControlPoint
+  nameWithType: TinTypeControlPoint
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.TinTypeControlPoint
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType
+  commentId: T:NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType
+  parent: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType.html
+  name: VectorType
+  nameWithType: VectorType
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D.VectorType
+- uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  commentId: N:NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  nameWithType: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  fullName: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry
+    name: Geometry
+    href: NDSH.Geospatial.Gml.Geometry.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Geometry.Basic0D1D
+    name: Basic0D1D
+    href: NDSH.Geospatial.Gml.Geometry.Basic0D1D.html

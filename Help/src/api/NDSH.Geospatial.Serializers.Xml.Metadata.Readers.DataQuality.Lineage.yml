@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage
+  id: Lineage
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage.LiLineageXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage.LiLineageXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage.LiLineageXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage.LiLineageXmlReader.html
+  name: LiLineageXmlReader
+  nameWithType: LiLineageXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.DataQuality.Lineage.LiLineageXmlReader

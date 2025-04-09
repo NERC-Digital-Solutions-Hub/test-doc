@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Common.IId
+  id: IId
+  parent: NDSH.Geospatial.Metadata.V2003.Common
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  langs:
+  - csharp
+  - vb
+  name: IId
+  nameWithType: IId
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IId.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IId
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IId.cs
+    startLine: 24
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Defines a contract for objects that require a unique identifier within an XML document.
+
+    This interface aligns with the ISO 19115 metadata standard and ensures compliance with
+
+    the gcoBase schema's ID attribute definition.
+  example: []
+  syntax:
+    content: public interface IId
+    content.vb: Public Interface IId
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  id: Id
+  parent: NDSH.Geospatial.Metadata.V2003.Common.IId
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IId.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IId.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Id
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003/src/Common/IId.cs
+    startLine: 33
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+  namespace: NDSH.Geospatial.Metadata.V2003.Common
+  summary: >-
+    Gets/Sets the unique identifier for the object.
+
+    This attribute is defined in the schema as <code>ID</code> and must be unique within an XML document.
+  example: []
+  syntax:
+    content: string? Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Id As String
+  overload: NDSH.Geospatial.Metadata.V2003.Common.IId.Id*
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Common
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Common
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Common
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Common
+  fullName: NDSH.Geospatial.Metadata.V2003.Common
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2003.Common.html
+- uid: NDSH.Geospatial.Metadata.V2003.Common.IId.Id*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+  href: NDSH.Geospatial.Metadata.V2003.Common.IId.html#NDSH_Geospatial_Metadata_V2003_Common_IId_Id
+  name: Id
+  nameWithType: IId.Id
+  fullName: NDSH.Geospatial.Metadata.V2003.Common.IId.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

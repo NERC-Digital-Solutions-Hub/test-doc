@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType
+  commentId: T:NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType
+  id: DirectedObservationAtDistanceType
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor
+  - NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+  langs:
+  - csharp
+  - vb
+  name: DirectedObservationAtDistanceType
+  nameWithType: DirectedObservationAtDistanceType
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DirectedObservationAtDistanceType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 13320
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DirectedObservationAtDistanceType : DirectedObservationType, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class DirectedObservationAtDistanceType Inherits DirectedObservationType Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.AbstractGMLType
+  - NDSH.Geospatial.Metadata.AbstractFeatureType
+  - NDSH.Geospatial.Metadata.ObservationType
+  - NDSH.Geospatial.Metadata.DirectedObservationType
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.DirectedObservationType.direction
+  - NDSH.Geospatial.Metadata.ObservationType.validTime
+  - NDSH.Geospatial.Metadata.ObservationType.using
+  - NDSH.Geospatial.Metadata.ObservationType.target
+  - NDSH.Geospatial.Metadata.ObservationType.resultOf
+  - NDSH.Geospatial.Metadata.AbstractFeatureType.boundedBy
+  - NDSH.Geospatial.Metadata.AbstractFeatureType.location
+  - NDSH.Geospatial.Metadata.AbstractGMLType.metaDataProperty
+  - NDSH.Geospatial.Metadata.AbstractGMLType.description
+  - NDSH.Geospatial.Metadata.AbstractGMLType.descriptionReference
+  - NDSH.Geospatial.Metadata.AbstractGMLType.identifier
+  - NDSH.Geospatial.Metadata.AbstractGMLType.name
+  - NDSH.Geospatial.Metadata.AbstractGMLType.id
+  - NDSH.Geospatial.Metadata.AbstractGMLType.PropertyChanged
+  - NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType
+  langs:
+  - csharp
+  - vb
+  name: DirectedObservationAtDistanceType()
+  nameWithType: DirectedObservationAtDistanceType.DirectedObservationAtDistanceType()
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.DirectedObservationAtDistanceType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 13334
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  summary: DirectedObservationAtDistanceType class constructor
+  example: []
+  syntax:
+    content: public DirectedObservationAtDistanceType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor*
+  nameWithType.vb: DirectedObservationAtDistanceType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+  commentId: P:NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+  id: distance
+  parent: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType
+  langs:
+  - csharp
+  - vb
+  name: distance
+  nameWithType: DirectedObservationAtDistanceType.distance
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: distance
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 13339
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public MeasureType distance { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.MeasureType
+    content.vb: Public Property distance As MeasureType
+  overload: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance*
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType
+  commentId: T:NDSH.Geospatial.Metadata.AbstractGMLType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html
+  name: AbstractGMLType
+  nameWithType: AbstractGMLType
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType
+- uid: NDSH.Geospatial.Metadata.AbstractFeatureType
+  commentId: T:NDSH.Geospatial.Metadata.AbstractFeatureType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.AbstractFeatureType.html
+  name: AbstractFeatureType
+  nameWithType: AbstractFeatureType
+  fullName: NDSH.Geospatial.Metadata.AbstractFeatureType
+- uid: NDSH.Geospatial.Metadata.ObservationType
+  commentId: T:NDSH.Geospatial.Metadata.ObservationType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ObservationType.html
+  name: ObservationType
+  nameWithType: ObservationType
+  fullName: NDSH.Geospatial.Metadata.ObservationType
+- uid: NDSH.Geospatial.Metadata.DirectedObservationType
+  commentId: T:NDSH.Geospatial.Metadata.DirectedObservationType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.DirectedObservationType.html
+  name: DirectedObservationType
+  nameWithType: DirectedObservationType
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationType
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.DirectedObservationType.direction
+  commentId: P:NDSH.Geospatial.Metadata.DirectedObservationType.direction
+  parent: NDSH.Geospatial.Metadata.DirectedObservationType
+  href: NDSH.Geospatial.Metadata.DirectedObservationType.html#NDSH_Geospatial_Metadata_DirectedObservationType_direction
+  name: direction
+  nameWithType: DirectedObservationType.direction
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationType.direction
+- uid: NDSH.Geospatial.Metadata.ObservationType.validTime
+  commentId: P:NDSH.Geospatial.Metadata.ObservationType.validTime
+  parent: NDSH.Geospatial.Metadata.ObservationType
+  href: NDSH.Geospatial.Metadata.ObservationType.html#NDSH_Geospatial_Metadata_ObservationType_validTime
+  name: validTime
+  nameWithType: ObservationType.validTime
+  fullName: NDSH.Geospatial.Metadata.ObservationType.validTime
+- uid: NDSH.Geospatial.Metadata.ObservationType.using
+  commentId: P:NDSH.Geospatial.Metadata.ObservationType.using
+  parent: NDSH.Geospatial.Metadata.ObservationType
+  href: NDSH.Geospatial.Metadata.ObservationType.html#NDSH_Geospatial_Metadata_ObservationType_using
+  name: using
+  nameWithType: ObservationType.using
+  fullName: NDSH.Geospatial.Metadata.ObservationType.using
+- uid: NDSH.Geospatial.Metadata.ObservationType.target
+  commentId: P:NDSH.Geospatial.Metadata.ObservationType.target
+  parent: NDSH.Geospatial.Metadata.ObservationType
+  href: NDSH.Geospatial.Metadata.ObservationType.html#NDSH_Geospatial_Metadata_ObservationType_target
+  name: target
+  nameWithType: ObservationType.target
+  fullName: NDSH.Geospatial.Metadata.ObservationType.target
+- uid: NDSH.Geospatial.Metadata.ObservationType.resultOf
+  commentId: P:NDSH.Geospatial.Metadata.ObservationType.resultOf
+  parent: NDSH.Geospatial.Metadata.ObservationType
+  href: NDSH.Geospatial.Metadata.ObservationType.html#NDSH_Geospatial_Metadata_ObservationType_resultOf
+  name: resultOf
+  nameWithType: ObservationType.resultOf
+  fullName: NDSH.Geospatial.Metadata.ObservationType.resultOf
+- uid: NDSH.Geospatial.Metadata.AbstractFeatureType.boundedBy
+  commentId: P:NDSH.Geospatial.Metadata.AbstractFeatureType.boundedBy
+  parent: NDSH.Geospatial.Metadata.AbstractFeatureType
+  href: NDSH.Geospatial.Metadata.AbstractFeatureType.html#NDSH_Geospatial_Metadata_AbstractFeatureType_boundedBy
+  name: boundedBy
+  nameWithType: AbstractFeatureType.boundedBy
+  fullName: NDSH.Geospatial.Metadata.AbstractFeatureType.boundedBy
+- uid: NDSH.Geospatial.Metadata.AbstractFeatureType.location
+  commentId: P:NDSH.Geospatial.Metadata.AbstractFeatureType.location
+  parent: NDSH.Geospatial.Metadata.AbstractFeatureType
+  href: NDSH.Geospatial.Metadata.AbstractFeatureType.html#NDSH_Geospatial_Metadata_AbstractFeatureType_location
+  name: location
+  nameWithType: AbstractFeatureType.location
+  fullName: NDSH.Geospatial.Metadata.AbstractFeatureType.location
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.metaDataProperty
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.metaDataProperty
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_metaDataProperty
+  name: metaDataProperty
+  nameWithType: AbstractGMLType.metaDataProperty
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.metaDataProperty
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.description
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.description
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_description
+  name: description
+  nameWithType: AbstractGMLType.description
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.description
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.descriptionReference
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.descriptionReference
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_descriptionReference
+  name: descriptionReference
+  nameWithType: AbstractGMLType.descriptionReference
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.descriptionReference
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.identifier
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.identifier
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_identifier
+  name: identifier
+  nameWithType: AbstractGMLType.identifier
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.identifier
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.name
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.name
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_name
+  name: name
+  nameWithType: AbstractGMLType.name
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.name
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.id
+  commentId: P:NDSH.Geospatial.Metadata.AbstractGMLType.id
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_id
+  name: id
+  nameWithType: AbstractGMLType.id
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.id
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.AbstractGMLType.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_PropertyChanged
+  name: PropertyChanged
+  nameWithType: AbstractGMLType.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.AbstractGMLType
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: AbstractGMLType.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(string)
+  nameWithType.vb: AbstractGMLType.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.AbstractGMLType.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.AbstractGMLType.html#NDSH_Geospatial_Metadata_AbstractGMLType_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.#ctor
+  href: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.html#NDSH_Geospatial_Metadata_DirectedObservationAtDistanceType__ctor
+  name: DirectedObservationAtDistanceType
+  nameWithType: DirectedObservationAtDistanceType.DirectedObservationAtDistanceType
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.DirectedObservationAtDistanceType
+  nameWithType.vb: DirectedObservationAtDistanceType.New
+  fullName.vb: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance*
+  commentId: Overload:NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+  href: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.html#NDSH_Geospatial_Metadata_DirectedObservationAtDistanceType_distance
+  name: distance
+  nameWithType: DirectedObservationAtDistanceType.distance
+  fullName: NDSH.Geospatial.Metadata.DirectedObservationAtDistanceType.distance
+- uid: NDSH.Geospatial.Metadata.MeasureType
+  commentId: T:NDSH.Geospatial.Metadata.MeasureType
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MeasureType.html
+  name: MeasureType
+  nameWithType: MeasureType
+  fullName: NDSH.Geospatial.Metadata.MeasureType

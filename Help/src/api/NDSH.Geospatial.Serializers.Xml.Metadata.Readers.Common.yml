@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  id: Common
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader`1
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+    name: Common
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+    name: Common
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Citation.html
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  href: NDSH.html
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+    name: Common
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers
+    name: Serializers
+    href: NDSH.Geospatial.Serializers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml
+    name: Xml
+    href: NDSH.Geospatial.Serializers.Xml.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+    name: Readers
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common
+    name: Common
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent
+    name: Extent
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.Extent.html
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader`1
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader`1
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader-1.html
+  name: CodeListValueXmlReader<TCodeListValue>
+  nameWithType: CodeListValueXmlReader<TCodeListValue>
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader<TCodeListValue>
+  nameWithType.vb: CodeListValueXmlReader(Of TCodeListValue)
+  fullName.vb: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader(Of TCodeListValue)
+  name.vb: CodeListValueXmlReader(Of TCodeListValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader`1
+    name: CodeListValueXmlReader
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader-1.html
+  - name: <
+  - name: TCodeListValue
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader`1
+    name: CodeListValueXmlReader
+    href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Common.CodeListValueXmlReader-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCodeListValue
+  - name: )

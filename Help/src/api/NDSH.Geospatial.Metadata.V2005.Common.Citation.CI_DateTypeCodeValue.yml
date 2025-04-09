@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  id: CI_DateTypeCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  children:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Creation
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Publication
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Revision
+  langs:
+  - csharp
+  - vb
+  name: CI_DateTypeCodeValue
+  nameWithType: CI_DateTypeCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: CI_DateTypeCodeValue
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Identification of when a given event occurred.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum CI_DateTypeCodeValue
+    content.vb: >-
+      <Serializable>
+
+      Public Enum CI_DateTypeCodeValue
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Creation
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Creation
+  id: Creation
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Creation
+  nameWithType: CI_DateTypeCodeValue.Creation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Creation
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Creation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Date identifies when the resource was brought into existence.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "creation")]
+
+      Creation = 1
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="creation")>
+
+      Creation = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: creation
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Publication
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Publication
+  id: Publication
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Publication
+  nameWithType: CI_DateTypeCodeValue.Publication
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Publication
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Publication
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+    startLine: 52
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Date identifies when the resource was issued.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "publication")]
+
+      Publication = 2
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="publication")>
+
+      Publication = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: publication
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Revision
+  commentId: F:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Revision
+  id: Revision
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  langs:
+  - csharp
+  - vb
+  name: Revision
+  nameWithType: CI_DateTypeCodeValue.Revision
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.Revision
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Revision
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2005/src/Common/Citation/CI_DateTypeCodeValue.cs
+    startLine: 59
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2005
+  namespace: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  summary: Date identifies when the resource was examined or re-examined and improved or amended.
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "revision")]
+
+      Revision = 3
+    return:
+      type: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    content.vb: >-
+      <EnumMember(Value:="revision")>
+
+      Revision = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: revision
+references:
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  commentId: N:NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  nameWithType: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005
+    name: V2005
+    href: NDSH.Geospatial.Metadata.V2005.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common
+    name: Common
+    href: NDSH.Geospatial.Metadata.V2005.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation
+    name: Citation
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumName<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  name.vb: GetXmlEnumName(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  name.vb: GetXmlEnumAttributeOrName(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<CI_DateTypeCodeValue>(CI_DateTypeCodeValue)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue>(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+  name.vb: GetXmlEnumAttribute(Of CI_DateTypeCodeValue)(CI_DateTypeCodeValue)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+    name: CI_DateTypeCodeValue
+    href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  commentId: T:NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue
+  parent: NDSH.Geospatial.Metadata.V2005.Common.Citation
+  href: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue.html
+  name: CI_DateTypeCodeValue
+  nameWithType: CI_DateTypeCodeValue
+  fullName: NDSH.Geospatial.Metadata.V2005.Common.Citation.CI_DateTypeCodeValue

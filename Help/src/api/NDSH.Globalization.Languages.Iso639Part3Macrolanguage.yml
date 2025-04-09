@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  commentId: T:NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  id: Iso639Part3Macrolanguage
+  parent: NDSH.Globalization.Languages
+  children:
+  - NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+  - NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+  - NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+  langs:
+  - csharp
+  - vb
+  name: Iso639Part3Macrolanguage
+  nameWithType: Iso639Part3Macrolanguage
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Iso639Part3Macrolanguage
+    path: ../../Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+    startLine: 18
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: A macrolanguage and its members of ISO 639-3 codes.
+  example: []
+  syntax:
+    content: 'public sealed class Iso639Part3Macrolanguage : IIso639'
+    content.vb: Public NotInheritable Class Iso639Part3Macrolanguage Implements IIso639
+  inheritance:
+  - System.Object
+  implements:
+  - NDSH.Globalization.Languages.IIso639
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+  commentId: P:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+  id: MacrolanguageCodeId
+  parent: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  langs:
+  - csharp
+  - vb
+  name: MacrolanguageCodeId
+  nameWithType: Iso639Part3Macrolanguage.MacrolanguageCodeId
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MacrolanguageCodeId
+    path: ../../Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+    startLine: 25
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The three-letter ISO 639-3 identifier for a macrolanguage.
+  example: []
+  syntax:
+    content: public required string MacrolanguageCodeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MacrolanguageCodeId As String
+  overload: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId*
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+  commentId: P:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+  id: MemberCodeId
+  parent: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  langs:
+  - csharp
+  - vb
+  name: MemberCodeId
+  nameWithType: Iso639Part3Macrolanguage.MemberCodeId
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MemberCodeId
+    path: ../../Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+    startLine: 35
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The three-letter ISO 639-3 identifier for a member of the macrolanguage.
+  example: []
+  syntax:
+    content: public required string MemberCodeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MemberCodeId As String
+  overload: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId*
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+  commentId: P:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+  id: MemberCodeStatus
+  parent: NDSH.Globalization.Languages.Iso639Part3Macrolanguage
+  langs:
+  - csharp
+  - vb
+  name: MemberCodeStatus
+  nameWithType: Iso639Part3Macrolanguage.MemberCodeStatus
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MemberCodeStatus
+    path: ../../Proj/src/src/NDSH.Globalization/src/Globalization/Languages/Iso639Part3Macrolanguage.cs
+    startLine: 43
+  assemblies:
+  - NDSH.Globalization
+  namespace: NDSH.Globalization.Languages
+  summary: The status of the member in the macrolanguage. Either active or retired.
+  example: []
+  syntax:
+    content: public required CodeStatus MemberCodeStatus { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Globalization.Languages.CodeStatus
+    content.vb: Public Property MemberCodeStatus As CodeStatus
+  overload: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus*
+references:
+- uid: NDSH.Globalization.Languages
+  commentId: N:NDSH.Globalization.Languages
+  href: NDSH.html
+  name: NDSH.Globalization.Languages
+  nameWithType: NDSH.Globalization.Languages
+  fullName: NDSH.Globalization.Languages
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Globalization
+    name: Globalization
+    href: NDSH.Globalization.html
+  - name: .
+  - uid: NDSH.Globalization.Languages
+    name: Languages
+    href: NDSH.Globalization.Languages.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Globalization.Languages.IIso639
+  commentId: T:NDSH.Globalization.Languages.IIso639
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.IIso639.html
+  name: IIso639
+  nameWithType: IIso639
+  fullName: NDSH.Globalization.Languages.IIso639
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId*
+  commentId: Overload:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+  href: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.html#NDSH_Globalization_Languages_Iso639Part3Macrolanguage_MacrolanguageCodeId
+  name: MacrolanguageCodeId
+  nameWithType: Iso639Part3Macrolanguage.MacrolanguageCodeId
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MacrolanguageCodeId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId*
+  commentId: Overload:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+  href: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.html#NDSH_Globalization_Languages_Iso639Part3Macrolanguage_MemberCodeId
+  name: MemberCodeId
+  nameWithType: Iso639Part3Macrolanguage.MemberCodeId
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeId
+- uid: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus*
+  commentId: Overload:NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+  href: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.html#NDSH_Globalization_Languages_Iso639Part3Macrolanguage_MemberCodeStatus
+  name: MemberCodeStatus
+  nameWithType: Iso639Part3Macrolanguage.MemberCodeStatus
+  fullName: NDSH.Globalization.Languages.Iso639Part3Macrolanguage.MemberCodeStatus
+- uid: NDSH.Globalization.Languages.CodeStatus
+  commentId: T:NDSH.Globalization.Languages.CodeStatus
+  parent: NDSH.Globalization.Languages
+  href: NDSH.Globalization.Languages.CodeStatus.html
+  name: CodeStatus
+  nameWithType: CodeStatus
+  fullName: NDSH.Globalization.Languages.CodeStatus

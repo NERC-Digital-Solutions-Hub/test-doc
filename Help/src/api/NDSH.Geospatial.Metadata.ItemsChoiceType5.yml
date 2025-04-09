@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  commentId: T:NDSH.Geospatial.Metadata.ItemsChoiceType5
+  id: ItemsChoiceType5
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.coordinates
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.pointProperty
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.pointRep
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.pos
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.posList
+  langs:
+  - csharp
+  - vb
+  name: ItemsChoiceType5
+  nameWithType: ItemsChoiceType5
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ItemsChoiceType5
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8075
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum ItemsChoiceType5
+    content.vb: >-
+      <Serializable>
+
+      Public Enum ItemsChoiceType5
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.coordinates
+  commentId: F:NDSH.Geospatial.Metadata.ItemsChoiceType5.coordinates
+  id: coordinates
+  parent: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  langs:
+  - csharp
+  - vb
+  name: coordinates
+  nameWithType: ItemsChoiceType5.coordinates
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5.coordinates
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: coordinates
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8080
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: coordinates = 0
+    return:
+      type: NDSH.Geospatial.Metadata.ItemsChoiceType5
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.pointProperty
+  commentId: F:NDSH.Geospatial.Metadata.ItemsChoiceType5.pointProperty
+  id: pointProperty
+  parent: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  langs:
+  - csharp
+  - vb
+  name: pointProperty
+  nameWithType: ItemsChoiceType5.pointProperty
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5.pointProperty
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: pointProperty
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8081
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: pointProperty = 1
+    return:
+      type: NDSH.Geospatial.Metadata.ItemsChoiceType5
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.pointRep
+  commentId: F:NDSH.Geospatial.Metadata.ItemsChoiceType5.pointRep
+  id: pointRep
+  parent: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  langs:
+  - csharp
+  - vb
+  name: pointRep
+  nameWithType: ItemsChoiceType5.pointRep
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5.pointRep
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: pointRep
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8082
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: pointRep = 2
+    return:
+      type: NDSH.Geospatial.Metadata.ItemsChoiceType5
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.pos
+  commentId: F:NDSH.Geospatial.Metadata.ItemsChoiceType5.pos
+  id: pos
+  parent: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  langs:
+  - csharp
+  - vb
+  name: pos
+  nameWithType: ItemsChoiceType5.pos
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5.pos
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: pos
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8083
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: pos = 3
+    return:
+      type: NDSH.Geospatial.Metadata.ItemsChoiceType5
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.posList
+  commentId: F:NDSH.Geospatial.Metadata.ItemsChoiceType5.posList
+  id: posList
+  parent: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  langs:
+  - csharp
+  - vb
+  name: posList
+  nameWithType: ItemsChoiceType5.posList
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5.posList
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: posList
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 8084
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: posList = 4
+    return:
+      type: NDSH.Geospatial.Metadata.ItemsChoiceType5
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<ItemsChoiceType5>(ItemsChoiceType5)
+  nameWithType: ExtensionMethods.GetXmlEnumName<ItemsChoiceType5>(ItemsChoiceType5)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.ItemsChoiceType5>(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of ItemsChoiceType5)(ItemsChoiceType5)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.ItemsChoiceType5)(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  name.vb: GetXmlEnumName(Of ItemsChoiceType5)(ItemsChoiceType5)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<ItemsChoiceType5>(ItemsChoiceType5)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<ItemsChoiceType5>(ItemsChoiceType5)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.ItemsChoiceType5>(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of ItemsChoiceType5)(ItemsChoiceType5)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.ItemsChoiceType5)(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  name.vb: GetXmlEnumAttributeOrName(Of ItemsChoiceType5)(ItemsChoiceType5)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<ItemsChoiceType5>(ItemsChoiceType5)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<ItemsChoiceType5>(ItemsChoiceType5)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.ItemsChoiceType5>(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of ItemsChoiceType5)(ItemsChoiceType5)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.ItemsChoiceType5)(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+  name.vb: GetXmlEnumAttribute(Of ItemsChoiceType5)(ItemsChoiceType5)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.ItemsChoiceType5)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+    name: ItemsChoiceType5
+    href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.ItemsChoiceType5
+  commentId: T:NDSH.Geospatial.Metadata.ItemsChoiceType5
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.ItemsChoiceType5.html
+  name: ItemsChoiceType5
+  nameWithType: ItemsChoiceType5
+  fullName: NDSH.Geospatial.Metadata.ItemsChoiceType5

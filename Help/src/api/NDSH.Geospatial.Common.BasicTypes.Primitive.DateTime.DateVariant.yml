@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  id: DateVariant
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  children:
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.DateAndTime
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.FullDate
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.Year
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.YearMonth
+  langs:
+  - csharp
+  - vb
+  name: DateVariant
+  nameWithType: DateVariant
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DateVariant
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+    startLine: 48
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  summary: Specifies the date/time granularity in alignment with the ISO 19115 <code>Date_PropertyType</code> definitions.
+  remarks: >-
+    This enumeration distinguishes whether only the year is set (<code>gYear</code>), 
+
+    the year and month (<code>gYearMonth</code>), a complete date (<code>xs:date</code>), 
+
+    or both date and time (<code>xs:dateTime</code>).
+  example: []
+  syntax:
+    content: public enum DateVariant
+    content.vb: Public Enum DateVariant
+  extensionMethods:
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.FullDate
+  commentId: F:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.FullDate
+  id: FullDate
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  langs:
+  - csharp
+  - vb
+  name: FullDate
+  nameWithType: DateVariant.FullDate
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.FullDate
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: FullDate
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  summary: Represents the full date (year, month, and day).
+  example: []
+  syntax:
+    content: FullDate = 0
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.Year
+  commentId: F:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.Year
+  id: Year
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: DateVariant.Year
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.Year
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Year
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  summary: Represents only the year (gYear).
+  example: []
+  syntax:
+    content: Year = 1
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.YearMonth
+  commentId: F:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.YearMonth
+  id: YearMonth
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  langs:
+  - csharp
+  - vb
+  name: YearMonth
+  nameWithType: DateVariant.YearMonth
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.YearMonth
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: YearMonth
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+    startLine: 63
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  summary: Represents the year and month (gYearMonth).
+  example: []
+  syntax:
+    content: YearMonth = 2
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.DateAndTime
+  commentId: F:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.DateAndTime
+  id: DateAndTime
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  langs:
+  - csharp
+  - vb
+  name: DateAndTime
+  nameWithType: DateVariant.DateAndTime
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.DateAndTime
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DateAndTime
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Common/BasicTypes/Primitive/DateTime/DateVariant.cs
+    startLine: 68
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  summary: Represents the full date and time.
+  example: []
+  syntax:
+    content: DateAndTime = 3
+    return:
+      type: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+references:
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  commentId: N:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.html
+  name: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  nameWithType: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Common
+    name: Common
+    href: NDSH.Geospatial.Common.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Common.BasicTypes.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive
+    name: Primitive
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.html
+  - name: .
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+    name: DateTime
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.html
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<DateVariant>(DateVariant)
+  nameWithType: ExtensionMethods.GetXmlEnumName<DateVariant>(DateVariant)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant>(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of DateVariant)(DateVariant)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  name.vb: GetXmlEnumName(Of DateVariant)(DateVariant)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<DateVariant>(DateVariant)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<DateVariant>(DateVariant)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant>(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of DateVariant)(DateVariant)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  name.vb: GetXmlEnumAttributeOrName(Of DateVariant)(DateVariant)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<DateVariant>(DateVariant)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<DateVariant>(DateVariant)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant>(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of DateVariant)(DateVariant)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+  name.vb: GetXmlEnumAttribute(Of DateVariant)(DateVariant)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+    name: DateVariant
+    href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  commentId: T:NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant
+  parent: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime
+  href: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant.html
+  name: DateVariant
+  nameWithType: DateVariant
+  fullName: NDSH.Geospatial.Common.BasicTypes.Primitive.DateTime.DateVariant

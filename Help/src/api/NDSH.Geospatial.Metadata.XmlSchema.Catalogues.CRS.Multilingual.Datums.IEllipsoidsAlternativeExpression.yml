@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  commentId: T:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  id: IEllipsoidsAlternativeExpression
+  parent: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  children:
+  - NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+  langs:
+  - csharp
+  - vb
+  name: IEllipsoidsAlternativeExpression
+  nameWithType: IEllipsoidsAlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/XmlSchema/Catalogues/CRS/Multilingual/Datums/IEllipsoidsAlternativeExpression.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IEllipsoidsAlternativeExpression
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/XmlSchema/Catalogues/CRS/Multilingual/Datums/IEllipsoidsAlternativeExpression.cs
+    startLine: 55
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  syntax:
+    content: public interface IEllipsoidsAlternativeExpression
+    content.vb: Public Interface IEllipsoidsAlternativeExpression
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+  commentId: P:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+  id: AlternativeExpression
+  parent: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression
+  langs:
+  - csharp
+  - vb
+  name: AlternativeExpression
+  nameWithType: IEllipsoidsAlternativeExpression.AlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/XmlSchema/Catalogues/CRS/Multilingual/Datums/IEllipsoidsAlternativeExpression.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AlternativeExpression
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Metadata/XmlSchema/Catalogues/CRS/Multilingual/Datums/IEllipsoidsAlternativeExpression.cs
+    startLine: 58
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  syntax:
+    content: >-
+      [JsonProperty("alternativeExpression", Order = 0)]
+
+      List<EllipsoidAlt_Type> AlternativeExpression { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type}
+    content.vb: >-
+      <JsonProperty("alternativeExpression", Order:=0)>
+
+      Property AlternativeExpression As List(Of EllipsoidAlt_Type)
+  overload: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alternativeExpression
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+references:
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  commentId: N:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  nameWithType: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS
+    name: CRS
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual
+    name: Multilingual
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums
+    name: Datums
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.html
+- uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression*
+  commentId: Overload:NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+  href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.html#NDSH_Geospatial_Metadata_XmlSchema_Catalogues_CRS_Multilingual_Datums_IEllipsoidsAlternativeExpression_AlternativeExpression
+  name: AlternativeExpression
+  nameWithType: IEllipsoidsAlternativeExpression.AlternativeExpression
+  fullName: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.Datums.IEllipsoidsAlternativeExpression.AlternativeExpression
+- uid: System.Collections.Generic.List{NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type}
+  commentId: T:System.Collections.Generic.List{NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<EllipsoidAlt_Type>
+  nameWithType: List<EllipsoidAlt_Type>
+  fullName: System.Collections.Generic.List<NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type>
+  nameWithType.vb: List(Of EllipsoidAlt_Type)
+  fullName.vb: System.Collections.Generic.List(Of NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type)
+  name.vb: List(Of EllipsoidAlt_Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+    name: EllipsoidAlt_Type
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type
+    name: EllipsoidAlt_Type
+    href: NDSH.Geospatial.Metadata.XmlSchema.Catalogues.CRS.Multilingual.EllipsoidAlt_Type.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

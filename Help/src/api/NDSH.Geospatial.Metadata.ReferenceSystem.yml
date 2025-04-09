@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.ReferenceSystem
+  id: ReferenceSystem
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  - NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+  - NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+  - NDSH.Geospatial.Metadata.ReferenceSystem.RS_Identifier_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+  href: NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type.html
+  name: AbstractRS_ReferenceSystem_Type
+  nameWithType: AbstractRS_ReferenceSystem_Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem.AbstractRS_ReferenceSystem_Type
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+  parent: NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type.html
+  name: MD_Identifier_Type
+  nameWithType: MD_Identifier_Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem.MD_Identifier_Type
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+  parent: NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type.html
+  name: MD_ReferenceSystem_Type
+  nameWithType: MD_ReferenceSystem_Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem.MD_ReferenceSystem_Type
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem.RS_Identifier_Type
+  commentId: T:NDSH.Geospatial.Metadata.ReferenceSystem.RS_Identifier_Type
+  parent: NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.Geospatial.Metadata.ReferenceSystem.RS_Identifier_Type.html
+  name: RS_Identifier_Type
+  nameWithType: RS_Identifier_Type
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem.RS_Identifier_Type
+- uid: NDSH.Geospatial.Metadata.ReferenceSystem
+  commentId: N:NDSH.Geospatial.Metadata.ReferenceSystem
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.ReferenceSystem
+  nameWithType: NDSH.Geospatial.Metadata.ReferenceSystem
+  fullName: NDSH.Geospatial.Metadata.ReferenceSystem
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.ReferenceSystem
+    name: ReferenceSystem
+    href: NDSH.Geospatial.Metadata.ReferenceSystem.html

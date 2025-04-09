@@ -1,0 +1,871 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  id: DirectedNodePropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+  langs:
+  - csharp
+  - vb
+  name: DirectedNodePropertyType
+  nameWithType: DirectedNodePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: DirectedNodePropertyType
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 16
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [Serializable]
+
+      [JsonObject("DirectedNodePropertyType")]
+
+      public class DirectedNodePropertyType : Model, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      <JsonObject("DirectedNodePropertyType")>
+
+      Public Class DirectedNodePropertyType Inherits Model Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  - NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: Newtonsoft.Json.JsonObjectAttribute
+    ctor: Newtonsoft.Json.JsonObjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DirectedNodePropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: DirectedNodePropertyType()
+  nameWithType: DirectedNodePropertyType.DirectedNodePropertyType()
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.DirectedNodePropertyType()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 31
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  summary: DirectedNodePropertyType class constructor
+  example: []
+  syntax:
+    content: public DirectedNodePropertyType()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor*
+  nameWithType.vb: DirectedNodePropertyType.New()
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+  id: Node
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: DirectedNodePropertyType.Node
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Node
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 37
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [JsonProperty("Node", Order = 0)]
+
+      public NodeType Node { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.NodeType
+    content.vb: >-
+      <JsonProperty("Node", Order:=0)>
+
+      Public Property Node As NodeType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Node
+    namedArguments:
+    - name: Order
+      type: System.Int32
+      value: 0
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+  id: orientation
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: orientation
+  nameWithType: DirectedNodePropertyType.orientation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: orientation
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 54
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [JsonProperty("orientation")]
+
+      public SignType orientation { get; set; }
+    parameters: []
+    return:
+      type: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+    content.vb: >-
+      <JsonProperty("orientation")>
+
+      Public Property orientation As SignType
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: orientation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+  id: nilReason
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: nilReason
+  nameWithType: DirectedNodePropertyType.nilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: nilReason
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 69
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [JsonProperty("nilReason")]
+
+      public string nilReason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("nilReason")>
+
+      Public Property nilReason As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nilReason
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+  id: remoteSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: remoteSchema
+  nameWithType: DirectedNodePropertyType.remoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: remoteSchema
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 86
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [JsonProperty("remoteSchema")]
+
+      public string remoteSchema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("remoteSchema")>
+
+      Public Property remoteSchema As String
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: remoteSchema
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+  commentId: P:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+  id: owns
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType
+  langs:
+  - csharp
+  - vb
+  name: owns
+  nameWithType: DirectedNodePropertyType.owns
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: owns
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.V2003.Thin/src/GML/Topology/DirectedNodePropertyType.cs
+    startLine: 103
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+  namespace: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  syntax:
+    content: >-
+      [JsonProperty("owns")]
+
+      public bool owns { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <JsonProperty("owns")>
+
+      Public Property owns As Boolean
+  overload: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: owns
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+    name: Topology
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.Model
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.PropertyChanged
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.Model
+  isExternal: true
+  href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  name: OnPropertyChanged(string)
+  nameWithType: Model.OnPropertyChanged(string)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(string)
+  nameWithType.vb: Model.OnPropertyChanged(String)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.Model.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    href: NDSH.Geospatial.Metadata.V2003.Thin.Model.html#NDSH_Geospatial_Metadata_V2003_Thin_Model_OnPropertyChanged_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.#ctor
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType__ctor
+  name: DirectedNodePropertyType
+  nameWithType: DirectedNodePropertyType.DirectedNodePropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.DirectedNodePropertyType
+  nameWithType.vb: DirectedNodePropertyType.New
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.New
+  name.vb: New
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType_Node
+  name: Node
+  nameWithType: DirectedNodePropertyType.Node
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.Node
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.NodeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.NodeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.NodeType.html
+  name: NodeType
+  nameWithType: NodeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.NodeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType_orientation
+  name: orientation
+  nameWithType: DirectedNodePropertyType.orientation
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.orientation
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType.html
+  name: SignType
+  nameWithType: SignType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.SignType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes
+    name: BasicTypes
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.BasicTypes.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType_nilReason
+  name: nilReason
+  nameWithType: DirectedNodePropertyType.nilReason
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.nilReason
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType_remoteSchema
+  name: remoteSchema
+  nameWithType: DirectedNodePropertyType.remoteSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.remoteSchema
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns*
+  commentId: Overload:NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.html#NDSH_Geospatial_Metadata_V2003_Thin_GML_Topology_DirectedNodePropertyType_owns
+  name: owns
+  nameWithType: DirectedNodePropertyType.owns
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Topology.DirectedNodePropertyType.owns
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

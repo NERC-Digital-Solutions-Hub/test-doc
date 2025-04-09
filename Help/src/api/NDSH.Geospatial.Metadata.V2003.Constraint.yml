@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Constraint
+  id: Constraint
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_Type
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Constraint
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Constraint
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Constraint
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType.html
+  name: MD_ClassificationCode_PropertyType
+  nameWithType: MD_ClassificationCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_ClassificationCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_PropertyType.html
+  name: MD_Constraints_PropertyType
+  nameWithType: MD_Constraints_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Constraint
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type.html
+  name: MD_Constraints_Type
+  nameWithType: MD_Constraints_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_Constraints_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_PropertyType.html
+  name: MD_LegalConstraints_PropertyType
+  nameWithType: MD_LegalConstraints_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Constraint
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_Type.html
+  name: MD_LegalConstraints_Type
+  nameWithType: MD_LegalConstraints_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_LegalConstraints_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType.html
+  name: MD_RestrictionCode_PropertyType
+  nameWithType: MD_RestrictionCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_RestrictionCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_PropertyType.html
+  name: MD_SecurityConstraints_PropertyType
+  nameWithType: MD_SecurityConstraints_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Constraint
+  href: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_Type.html
+  name: MD_SecurityConstraints_Type
+  nameWithType: MD_SecurityConstraints_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint.MD_SecurityConstraints_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Constraint
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Constraint
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Constraint
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Constraint
+  fullName: NDSH.Geospatial.Metadata.V2003.Constraint
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Constraint
+    name: Constraint
+    href: NDSH.Geospatial.Metadata.V2003.Constraint.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Constraint
+    name: Constraint
+    href: NDSH.Geospatial.Metadata.V2003.Constraint.html

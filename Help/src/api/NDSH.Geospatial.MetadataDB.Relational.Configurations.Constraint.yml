@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint
+  id: Constraint
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdConstraintsConfiguration
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdLegalConstraintsConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdConstraintsConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdConstraintsConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdConstraintsConfiguration.html
+  name: MdConstraintsConfiguration
+  nameWithType: MdConstraintsConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdConstraintsConfiguration
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdLegalConstraintsConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdLegalConstraintsConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdLegalConstraintsConfiguration.html
+  name: MdLegalConstraintsConfiguration
+  nameWithType: MdLegalConstraintsConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.Constraint.MdLegalConstraintsConfiguration

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text
+  commentId: N:NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text
+  id: Primitive.Text
+  parent: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema
+  children:
+  - NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text.CharacterStringConfiguration
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text
+  nameWithType: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.DB
+references:
+- uid: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text.CharacterStringConfiguration
+  commentId: T:NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text.CharacterStringConfiguration
+  href: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text.CharacterStringConfiguration.html
+  name: CharacterStringConfiguration
+  nameWithType: CharacterStringConfiguration
+  fullName: NDSH.Geospatial.MetadataDB.Relational.Configurations.ConceptualSchema.Primitive.Text.CharacterStringConfiguration

@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  id: XmlSchema
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.AbstractMX_File_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_Type
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_File_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_ScopeCode_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_PropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues
+    name: Catalogues
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Catalogues.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+    name: Extended
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended
+    name: Extended
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.Extended.html
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.AbstractMX_File_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.AbstractMX_File_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.AbstractMX_File_Type.html
+  name: AbstractMX_File_Type
+  nameWithType: AbstractMX_File_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.AbstractMX_File_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_PropertyType.html
+  name: MX_Aggregate_PropertyType
+  nameWithType: MX_Aggregate_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_Type.html
+  name: MX_Aggregate_Type
+  nameWithType: MX_Aggregate_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_Aggregate_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_PropertyType.html
+  name: MX_DataFile_PropertyType
+  nameWithType: MX_DataFile_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_Type.html
+  name: MX_DataFile_Type
+  nameWithType: MX_DataFile_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataFile_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_PropertyType.html
+  name: MX_DataSet_PropertyType
+  nameWithType: MX_DataSet_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_Type.html
+  name: MX_DataSet_Type
+  nameWithType: MX_DataSet_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_DataSet_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_File_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_File_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_File_PropertyType.html
+  name: MX_File_PropertyType
+  nameWithType: MX_File_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_File_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_ScopeCode_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_ScopeCode_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_ScopeCode_PropertyType.html
+  name: MX_ScopeCode_PropertyType
+  nameWithType: MX_ScopeCode_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_ScopeCode_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_PropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_PropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_PropertyType.html
+  name: MX_SupportFile_PropertyType
+  nameWithType: MX_SupportFile_PropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_PropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_Type
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_Type
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_Type.html
+  name: MX_SupportFile_Type
+  nameWithType: MX_SupportFile_Type
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.MX_SupportFile_Type
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema
+    name: XmlSchema
+    href: NDSH.Geospatial.Metadata.V2003.Thin.XmlSchema.html

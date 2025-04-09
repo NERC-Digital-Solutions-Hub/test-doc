@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  id: Presentation
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.MetadataSearchModel
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ResultRecord
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Blazor
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.MetadataSearchModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.MetadataSearchModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.MetadataSearchModel.html
+  name: MetadataSearchModel
+  nameWithType: MetadataSearchModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.MetadataSearchModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ResultRecord
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ResultRecord
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ResultRecord.html
+  name: ResultRecord
+  nameWithType: ResultRecord
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ResultRecord
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel.html
+  name: ShellModel
+  nameWithType: ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.ShellModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor
+    name: Blazor
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Blazor.Models.Presentation.html

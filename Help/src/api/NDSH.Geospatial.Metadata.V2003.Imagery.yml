@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery
+  id: Imagery
+  parent: NDSH.Geospatial.Metadata.V2003
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  - NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  - NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  - NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  - NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Imagery
+  type: Namespace
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  fullName: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+    name: Acquisition
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition
+    name: Acquisition
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.Acquisition.html
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  fullName: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+    name: Content
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.Content.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.Content
+    name: Content
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.Content.html
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  fullName: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality
+    name: DataQuality
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.DataQuality.html
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  fullName: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+    name: EntitySet
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet
+    name: EntitySet
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.EntitySet.html
+- uid: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  fullName: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery
+    name: Imagery
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation
+    name: SpatialRepresentation
+    href: NDSH.Geospatial.Metadata.V2003.Imagery.SpatialRepresentation.html

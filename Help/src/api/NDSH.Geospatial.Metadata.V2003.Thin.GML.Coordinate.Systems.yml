@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  id: Systems
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AbstractCoordinateSystemType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSPropertyType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AbstractCoordinateSystemType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AbstractCoordinateSystemType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AbstractCoordinateSystemType.html
+  name: AbstractCoordinateSystemType
+  nameWithType: AbstractCoordinateSystemType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AbstractCoordinateSystemType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSPropertyType.html
+  name: AffineCSPropertyType
+  nameWithType: AffineCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSType.html
+  name: AffineCSType
+  nameWithType: AffineCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.AffineCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSPropertyType.html
+  name: CartesianCSPropertyType
+  nameWithType: CartesianCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSType.html
+  name: CartesianCSType
+  nameWithType: CartesianCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CartesianCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisPropertyType.html
+  name: CoordinateSystemAxisPropertyType
+  nameWithType: CoordinateSystemAxisPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisType.html
+  name: CoordinateSystemAxisType
+  nameWithType: CoordinateSystemAxisType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemAxisType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemPropertyType.html
+  name: CoordinateSystemPropertyType
+  nameWithType: CoordinateSystemPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CoordinateSystemPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSPropertyType.html
+  name: CylindricalCSPropertyType
+  nameWithType: CylindricalCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSType.html
+  name: CylindricalCSType
+  nameWithType: CylindricalCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.CylindricalCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSPropertyType.html
+  name: EllipsoidalCSPropertyType
+  nameWithType: EllipsoidalCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSType.html
+  name: EllipsoidalCSType
+  nameWithType: EllipsoidalCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.EllipsoidalCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSPropertyType.html
+  name: LinearCSPropertyType
+  nameWithType: LinearCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSType.html
+  name: LinearCSType
+  nameWithType: LinearCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.LinearCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSPropertyType.html
+  name: ObliqueCartesianCSPropertyType
+  nameWithType: ObliqueCartesianCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSType.html
+  name: ObliqueCartesianCSType
+  nameWithType: ObliqueCartesianCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.ObliqueCartesianCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSPropertyType.html
+  name: PolarCSPropertyType
+  nameWithType: PolarCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSType.html
+  name: PolarCSType
+  nameWithType: PolarCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.PolarCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSPropertyType.html
+  name: SphericalCSPropertyType
+  nameWithType: SphericalCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSType.html
+  name: SphericalCSType
+  nameWithType: SphericalCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.SphericalCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSPropertyType.html
+  name: TemporalCSPropertyType
+  nameWithType: TemporalCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSType.html
+  name: TemporalCSType
+  nameWithType: TemporalCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TemporalCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSPropertyType.html
+  name: TimeCSPropertyType
+  nameWithType: TimeCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSType.html
+  name: TimeCSType
+  nameWithType: TimeCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.TimeCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSPropertyType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSPropertyType.html
+  name: UserDefinedCSPropertyType
+  nameWithType: UserDefinedCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSType.html
+  name: UserDefinedCSType
+  nameWithType: UserDefinedCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.UserDefinedCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSPropertyType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSPropertyType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSPropertyType.html
+  name: VerticalCSPropertyType
+  nameWithType: VerticalCSPropertyType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSPropertyType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSType.html
+  name: VerticalCSType
+  nameWithType: VerticalCSType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.VerticalCSType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Coordinate.Systems.html

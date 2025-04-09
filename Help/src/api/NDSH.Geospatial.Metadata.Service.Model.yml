@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Service.Model
+  commentId: N:NDSH.Geospatial.Metadata.Service.Model
+  id: Model
+  parent: NDSH.Geospatial.Metadata.Service
+  children:
+  - NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_OperationModel_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_PlatformNeutralServiceSpecification_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_PlatformSpecificServiceSpecification_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_ServiceSpecification_Type
+  - NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList
+  - NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Service.Model
+  nameWithType: NDSH.Geospatial.Metadata.Service.Model
+  fullName: NDSH.Geospatial.Metadata.Service.Model
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type.html
+  name: AbstractSV_AbstractServiceSpecification_Type
+  nameWithType: AbstractSV_AbstractServiceSpecification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.AbstractSV_AbstractServiceSpecification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type.html
+  name: SV_Interface_Type
+  nameWithType: SV_Interface_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_Interface_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_OperationModel_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_OperationModel_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_OperationModel_Type.html
+  name: SV_OperationModel_Type
+  nameWithType: SV_OperationModel_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_OperationModel_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type.html
+  name: SV_Operation_Type
+  nameWithType: SV_Operation_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_Operation_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformNeutralServiceSpecification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_PlatformNeutralServiceSpecification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformNeutralServiceSpecification_Type.html
+  name: SV_PlatformNeutralServiceSpecification_Type
+  nameWithType: SV_PlatformNeutralServiceSpecification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformNeutralServiceSpecification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformSpecificServiceSpecification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_PlatformSpecificServiceSpecification_Type
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformSpecificServiceSpecification_Type.html
+  name: SV_PlatformSpecificServiceSpecification_Type
+  nameWithType: SV_PlatformSpecificServiceSpecification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_PlatformSpecificServiceSpecification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type.html
+  name: SV_PortSpecification_Type
+  nameWithType: SV_PortSpecification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_PortSpecification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type.html
+  name: SV_Port_Type
+  nameWithType: SV_Port_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_Port_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceSpecification_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_ServiceSpecification_Type
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceSpecification_Type.html
+  name: SV_ServiceSpecification_Type
+  nameWithType: SV_ServiceSpecification_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceSpecification_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList
+  parent: NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList.html
+  name: SV_ServiceType_CodeList
+  nameWithType: SV_ServiceType_CodeList
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_ServiceType_CodeList
+- uid: NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type
+  commentId: T:NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type
+  href: NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type.html
+  name: SV_Service_Type
+  nameWithType: SV_Service_Type
+  fullName: NDSH.Geospatial.Metadata.Service.Model.SV_Service_Type
+- uid: NDSH.Geospatial.Metadata.Service.Model
+  commentId: N:NDSH.Geospatial.Metadata.Service.Model
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Service.Model
+  nameWithType: NDSH.Geospatial.Metadata.Service.Model
+  fullName: NDSH.Geospatial.Metadata.Service.Model
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.Service.Model.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service
+    name: Service
+    href: NDSH.Geospatial.Metadata.Service.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Service.Model
+    name: Model
+    href: NDSH.Geospatial.Metadata.Service.Model.html

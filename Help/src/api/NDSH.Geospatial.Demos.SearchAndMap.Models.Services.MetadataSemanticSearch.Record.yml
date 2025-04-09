@@ -1,0 +1,801 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  id: Record
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+  langs:
+  - csharp
+  - vb
+  name: Record
+  nameWithType: Record
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Record
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 17
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: The record returned by the metadata semantic search service.
+  example: []
+  syntax:
+    content: public sealed class Record
+    content.vb: Public NotInheritable Class Record
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+  id: Identifier
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: Record.Identifier
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Identifier
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 22
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record identifier.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("identifier")]
+
+      public string Identifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("identifier")>
+
+      Public Property Identifier As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: identifier
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+  id: Id
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Record.Id
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Id
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 30
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record id.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("recordId")]
+
+      public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonProperty("recordId")>
+
+      Public Property Id As Integer
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: recordId
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+  id: Title
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Record.Title
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Title
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 38
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record title.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("title")]
+
+      public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("title")>
+
+      Public Property Title As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: title
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+  id: TitleVectorEmbedding
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: TitleVectorEmbedding
+  nameWithType: Record.TitleVectorEmbedding
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: TitleVectorEmbedding
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record title vector embedding.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("title_emb")]
+
+      public List<double> TitleVectorEmbedding { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Double}
+    content.vb: >-
+      <JsonProperty("title_emb")>
+
+      Public Property TitleVectorEmbedding As List(Of Double)
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: title_emb
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+  id: Abstract
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: Abstract
+  nameWithType: Record.Abstract
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Abstract
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 54
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record abstract.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("abstract")]
+
+      public string Abstract { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("abstract")>
+
+      Public Property Abstract As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: abstract
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+  id: AbstractVectorEmbedding
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: AbstractVectorEmbedding
+  nameWithType: Record.AbstractVectorEmbedding
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AbstractVectorEmbedding
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 62
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: Gets/Sets the metadata record abstract vector embedding.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("abstract_emb")]
+
+      public List<double> AbstractVectorEmbedding { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Double}
+    content.vb: >-
+      <JsonProperty("abstract_emb")>
+
+      Public Property AbstractVectorEmbedding As List(Of Double)
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: abstract_emb
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+  id: Score
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: Record.Score
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Score
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap/src/Models/Services/MetadataSemanticSearch/Record.cs
+    startLine: 71
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  summary: >-
+    Gets/Sets the similarity score of the metadata record when its
+
+    title or abstract is compared with the provide query question.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("scores")]
+
+      public double Score { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: >-
+      <JsonProperty("scores")>
+
+      Public Property Score As Double
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: scores
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services
+    name: Services
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+    name: MetadataSemanticSearch
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services
+    name: Services
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch
+    name: MetadataSemanticSearch
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_Identifier
+  name: Identifier
+  nameWithType: Record.Identifier
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Identifier
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_Id
+  name: Id
+  nameWithType: Record.Id
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_Title
+  name: Title
+  nameWithType: Record.Title
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Title
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_TitleVectorEmbedding
+  name: TitleVectorEmbedding
+  nameWithType: Record.TitleVectorEmbedding
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.TitleVectorEmbedding
+- uid: System.Collections.Generic.List{System.Double}
+  commentId: T:System.Collections.Generic.List{System.Double}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<double>
+  nameWithType: List<double>
+  fullName: System.Collections.Generic.List<double>
+  nameWithType.vb: List(Of Double)
+  fullName.vb: System.Collections.Generic.List(Of Double)
+  name.vb: List(Of Double)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Double
+    name: double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Double
+    name: Double
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.double
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_Abstract
+  name: Abstract
+  nameWithType: Record.Abstract
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Abstract
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_AbstractVectorEmbedding
+  name: AbstractVectorEmbedding
+  nameWithType: Record.AbstractVectorEmbedding
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.AbstractVectorEmbedding
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Services_MetadataSemanticSearch_Record_Score
+  name: Score
+  nameWithType: Record.Score
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Services.MetadataSemanticSearch.Record.Score
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

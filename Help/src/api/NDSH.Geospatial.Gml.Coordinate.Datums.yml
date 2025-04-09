@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Datums
+  id: Datums
+  parent: NDSH.Geospatial.Gml.Coordinate
+  children:
+  - NDSH.Geospatial.Gml.Coordinate.Datums.AbstractDatumType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.EllipsoidType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.EngineeringDatumType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.GeodeticDatumType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.ImageDatumType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.InverseFlatteningParameter
+  - NDSH.Geospatial.Gml.Coordinate.Datums.IsSphereParameter
+  - NDSH.Geospatial.Gml.Coordinate.Datums.PrimeMeridianType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameter
+  - NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameters
+  - NDSH.Geospatial.Gml.Coordinate.Datums.SemiMinorAxisParameter
+  - NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumBaseType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumType
+  - NDSH.Geospatial.Gml.Coordinate.Datums.VerticalDatumType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Coordinate.Datums
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Datums
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.AbstractDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.AbstractDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.AbstractDatumType.html
+  name: AbstractDatumType
+  nameWithType: AbstractDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.AbstractDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.EllipsoidType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.EllipsoidType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.EllipsoidType.html
+  name: EllipsoidType
+  nameWithType: EllipsoidType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.EllipsoidType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.EngineeringDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.EngineeringDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.EngineeringDatumType.html
+  name: EngineeringDatumType
+  nameWithType: EngineeringDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.EngineeringDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.GeodeticDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.GeodeticDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.GeodeticDatumType.html
+  name: GeodeticDatumType
+  nameWithType: GeodeticDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.GeodeticDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.ImageDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.ImageDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.ImageDatumType.html
+  name: ImageDatumType
+  nameWithType: ImageDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.ImageDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.InverseFlatteningParameter
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.InverseFlatteningParameter
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.InverseFlatteningParameter.html
+  name: InverseFlatteningParameter
+  nameWithType: InverseFlatteningParameter
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.InverseFlatteningParameter
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.IsSphereParameter
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.IsSphereParameter
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.IsSphereParameter.html
+  name: IsSphereParameter
+  nameWithType: IsSphereParameter
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.IsSphereParameter
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.PrimeMeridianType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.PrimeMeridianType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.PrimeMeridianType.html
+  name: PrimeMeridianType
+  nameWithType: PrimeMeridianType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.PrimeMeridianType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameter
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameter
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameter.html
+  name: SecondDefiningParameter
+  nameWithType: SecondDefiningParameter
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameter
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameters
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameters
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameters.html
+  name: SecondDefiningParameters
+  nameWithType: SecondDefiningParameters
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.SecondDefiningParameters
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.SemiMinorAxisParameter
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.SemiMinorAxisParameter
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.SemiMinorAxisParameter.html
+  name: SemiMinorAxisParameter
+  nameWithType: SemiMinorAxisParameter
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.SemiMinorAxisParameter
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumBaseType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumBaseType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumBaseType.html
+  name: TemporalDatumBaseType
+  nameWithType: TemporalDatumBaseType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumBaseType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumType.html
+  name: TemporalDatumType
+  nameWithType: TemporalDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.TemporalDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums.VerticalDatumType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Datums.VerticalDatumType
+  parent: NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.Geospatial.Gml.Coordinate.Datums.VerticalDatumType.html
+  name: VerticalDatumType
+  nameWithType: VerticalDatumType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums.VerticalDatumType
+- uid: NDSH.Geospatial.Gml.Coordinate.Datums
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Datums
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.Datums
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Datums
+  fullName: NDSH.Geospatial.Gml.Coordinate.Datums
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Datums
+    name: Datums
+    href: NDSH.Geospatial.Gml.Coordinate.Datums.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Datums
+    name: Datums
+    href: NDSH.Geospatial.Gml.Coordinate.Datums.html

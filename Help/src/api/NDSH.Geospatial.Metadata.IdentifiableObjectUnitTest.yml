@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest
+  commentId: T:NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest
+  id: IdentifiableObjectUnitTest
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test
+  - NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test
+  langs:
+  - csharp
+  - vb
+  name: IdentifiableObjectUnitTest
+  nameWithType: IdentifiableObjectUnitTest
+  fullName: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IdentifiableObjectUnitTest
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Tests
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: public class IdentifiableObjectUnitTest
+    content.vb: Public Class IdentifiableObjectUnitTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test
+  commentId: M:NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test
+  id: MD_Format_Type_Test
+  parent: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest
+  langs:
+  - csharp
+  - vb
+  name: MD_Format_Type_Test()
+  nameWithType: IdentifiableObjectUnitTest.MD_Format_Type_Test()
+  fullName: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MD_Format_Type_Test
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+    startLine: 29
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Tests
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MD_Format_Type_Test()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MD_Format_Type_Test()
+  overload: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test
+  commentId: M:NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test
+  id: MD_Resolution_PropertyType_Test
+  parent: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest
+  langs:
+  - csharp
+  - vb
+  name: MD_Resolution_PropertyType_Test()
+  nameWithType: IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test()
+  fullName: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test()
+  type: Method
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MD_Resolution_PropertyType_Test
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/tests/Geospatial/Metadata/IdentifiableObjectUnitTest.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Tests
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Fact]
+
+      public void MD_Resolution_PropertyType_Test()
+    content.vb: >-
+      <Fact>
+
+      Public Sub MD_Resolution_PropertyType_Test()
+  overload: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test*
+  attributes:
+  - type: Xunit.FactAttribute
+    ctor: Xunit.FactAttribute.#ctor
+    arguments: []
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test*
+  commentId: Overload:NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test
+  href: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.html#NDSH_Geospatial_Metadata_IdentifiableObjectUnitTest_MD_Format_Type_Test
+  name: MD_Format_Type_Test
+  nameWithType: IdentifiableObjectUnitTest.MD_Format_Type_Test
+  fullName: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Format_Type_Test
+- uid: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test*
+  commentId: Overload:NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test
+  href: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.html#NDSH_Geospatial_Metadata_IdentifiableObjectUnitTest_MD_Resolution_PropertyType_Test
+  name: MD_Resolution_PropertyType_Test
+  nameWithType: IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test
+  fullName: NDSH.Geospatial.Metadata.IdentifiableObjectUnitTest.MD_Resolution_PropertyType_Test

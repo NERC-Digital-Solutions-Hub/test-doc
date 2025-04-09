@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.Maintenance
+  commentId: N:NDSH.Geospatial.Metadata.Maintenance
+  id: Maintenance
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.Maintenance.AttributeInstancesScopeDescription
+  - NDSH.Geospatial.Metadata.Maintenance.AttributesScopeDescription
+  - NDSH.Geospatial.Metadata.Maintenance.DatasetScopeDescription
+  - NDSH.Geospatial.Metadata.Maintenance.FeatureInstancesScopeDescription
+  - NDSH.Geospatial.Metadata.Maintenance.FeaturesScopeDescription
+  - NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList
+  - NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type
+  - NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList
+  - NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Enum
+  - NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Type
+  - NDSH.Geospatial.Metadata.Maintenance.OtherScopeDescription
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.Maintenance
+  nameWithType: NDSH.Geospatial.Metadata.Maintenance
+  fullName: NDSH.Geospatial.Metadata.Maintenance
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Metadata.Maintenance.AttributeInstancesScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.AttributeInstancesScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.AttributeInstancesScopeDescription.html
+  name: AttributeInstancesScopeDescription
+  nameWithType: AttributeInstancesScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.AttributeInstancesScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance.AttributesScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.AttributesScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.AttributesScopeDescription.html
+  name: AttributesScopeDescription
+  nameWithType: AttributesScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.AttributesScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance.DatasetScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.DatasetScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.DatasetScopeDescription.html
+  name: DatasetScopeDescription
+  nameWithType: DatasetScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.DatasetScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance.FeatureInstancesScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.FeatureInstancesScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.FeatureInstancesScopeDescription.html
+  name: FeatureInstancesScopeDescription
+  nameWithType: FeatureInstancesScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.FeatureInstancesScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance.FeaturesScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.FeaturesScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.FeaturesScopeDescription.html
+  name: FeaturesScopeDescription
+  nameWithType: FeaturesScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.FeaturesScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList.html
+  name: MD_MaintenanceFrequencyCode_CodeList
+  nameWithType: MD_MaintenanceFrequencyCode_CodeList
+  fullName: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceFrequencyCode_CodeList
+- uid: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type.html
+  name: MD_MaintenanceInformation_Type
+  nameWithType: MD_MaintenanceInformation_Type
+  fullName: NDSH.Geospatial.Metadata.Maintenance.MD_MaintenanceInformation_Type
+- uid: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList.html
+  name: MD_ScopeCode_CodeList
+  nameWithType: MD_ScopeCode_CodeList
+  fullName: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeCode_CodeList
+- uid: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Enum
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Enum
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Enum.html
+  name: MD_ScopeDescription_Enum
+  nameWithType: MD_ScopeDescription_Enum
+  fullName: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Enum
+- uid: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Type
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Type
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Type.html
+  name: MD_ScopeDescription_Type
+  nameWithType: MD_ScopeDescription_Type
+  fullName: NDSH.Geospatial.Metadata.Maintenance.MD_ScopeDescription_Type
+- uid: NDSH.Geospatial.Metadata.Maintenance.OtherScopeDescription
+  commentId: T:NDSH.Geospatial.Metadata.Maintenance.OtherScopeDescription
+  parent: NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.Geospatial.Metadata.Maintenance.OtherScopeDescription.html
+  name: OtherScopeDescription
+  nameWithType: OtherScopeDescription
+  fullName: NDSH.Geospatial.Metadata.Maintenance.OtherScopeDescription
+- uid: NDSH.Geospatial.Metadata.Maintenance
+  commentId: N:NDSH.Geospatial.Metadata.Maintenance
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.Maintenance
+  nameWithType: NDSH.Geospatial.Metadata.Maintenance
+  fullName: NDSH.Geospatial.Metadata.Maintenance
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Maintenance
+    name: Maintenance
+    href: NDSH.Geospatial.Metadata.Maintenance.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.Maintenance
+    name: Maintenance
+    href: NDSH.Geospatial.Metadata.Maintenance.html

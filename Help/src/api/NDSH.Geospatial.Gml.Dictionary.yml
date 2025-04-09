@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Dictionary
+  commentId: N:NDSH.Geospatial.Gml.Dictionary
+  id: Dictionary
+  parent: NDSH.Geospatial.Gml
+  children:
+  - NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType
+  - NDSH.Geospatial.Gml.Dictionary.DefinitionProxyType
+  - NDSH.Geospatial.Gml.Dictionary.DefinitionType
+  - NDSH.Geospatial.Gml.Dictionary.DictionaryEntryType
+  - NDSH.Geospatial.Gml.Dictionary.DictionaryType
+  - NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  - NDSH.Geospatial.Gml.Dictionary.IndirectEntryType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Dictionary
+  nameWithType: NDSH.Geospatial.Gml.Dictionary
+  fullName: NDSH.Geospatial.Gml.Dictionary
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType.html
+  name: DefinitionBaseType
+  nameWithType: DefinitionBaseType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DefinitionBaseType
+- uid: NDSH.Geospatial.Gml.Dictionary.DefinitionProxyType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DefinitionProxyType
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.DefinitionProxyType.html
+  name: DefinitionProxyType
+  nameWithType: DefinitionProxyType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DefinitionProxyType
+- uid: NDSH.Geospatial.Gml.Dictionary.DefinitionType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DefinitionType
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.DefinitionType.html
+  name: DefinitionType
+  nameWithType: DefinitionType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DefinitionType
+- uid: NDSH.Geospatial.Gml.Dictionary.DictionaryEntryType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DictionaryEntryType
+  href: NDSH.Geospatial.Gml.Dictionary.DictionaryEntryType.html
+  name: DictionaryEntryType
+  nameWithType: DictionaryEntryType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DictionaryEntryType
+- uid: NDSH.Geospatial.Gml.Dictionary.DictionaryType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.DictionaryType
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.DictionaryType.html
+  name: DictionaryType
+  nameWithType: DictionaryType
+  fullName: NDSH.Geospatial.Gml.Dictionary.DictionaryType
+- uid: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+  parent: NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry.html
+  name: IDictionaryEntry
+  nameWithType: IDictionaryEntry
+  fullName: NDSH.Geospatial.Gml.Dictionary.IDictionaryEntry
+- uid: NDSH.Geospatial.Gml.Dictionary.IndirectEntryType
+  commentId: T:NDSH.Geospatial.Gml.Dictionary.IndirectEntryType
+  href: NDSH.Geospatial.Gml.Dictionary.IndirectEntryType.html
+  name: IndirectEntryType
+  nameWithType: IndirectEntryType
+  fullName: NDSH.Geospatial.Gml.Dictionary.IndirectEntryType
+- uid: NDSH.Geospatial.Gml.Dictionary
+  commentId: N:NDSH.Geospatial.Gml.Dictionary
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Dictionary
+  nameWithType: NDSH.Geospatial.Gml.Dictionary
+  fullName: NDSH.Geospatial.Gml.Dictionary
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Dictionary
+    name: Dictionary
+    href: NDSH.Geospatial.Gml.Dictionary.html

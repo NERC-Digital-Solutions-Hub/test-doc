@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  id: Grids
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML
+  children:
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.AxisEnumeration
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridEnvelopeType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridLimitsType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridType
+  - NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.RectifiedGridType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.V2003.Thin
+references:
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.AxisEnumeration
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.AxisEnumeration
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.AxisEnumeration.html
+  name: AxisEnumeration
+  nameWithType: AxisEnumeration
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.AxisEnumeration
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridEnvelopeType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridEnvelopeType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridEnvelopeType.html
+  name: GridEnvelopeType
+  nameWithType: GridEnvelopeType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridEnvelopeType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridLimitsType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridLimitsType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridLimitsType.html
+  name: GridLimitsType
+  nameWithType: GridLimitsType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridLimitsType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridType
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridType.html
+  name: GridType
+  nameWithType: GridType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.GridType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.RectifiedGridType
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.RectifiedGridType
+  href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.RectifiedGridType.html
+  name: RectifiedGridType
+  nameWithType: RectifiedGridType
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.RectifiedGridType
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+    name: Grids
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML
+    name: GML
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids
+    name: Grids
+    href: NDSH.Geospatial.Metadata.V2003.Thin.GML.Grids.html

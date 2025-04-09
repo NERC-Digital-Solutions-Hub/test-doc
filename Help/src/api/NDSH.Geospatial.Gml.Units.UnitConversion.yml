@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion
+  commentId: T:NDSH.Geospatial.Gml.Units.UnitConversion
+  id: UnitConversion
+  parent: NDSH.Geospatial.Gml.Units
+  children:
+  - NDSH.Geospatial.Gml.Units.UnitConversion.ConversionToPreferredUnit
+  - NDSH.Geospatial.Gml.Units.UnitConversion.RoughConversionToPreferredUnit
+  langs:
+  - csharp
+  - vb
+  name: UnitConversion
+  nameWithType: UnitConversion
+  fullName: NDSH.Geospatial.Gml.Units.UnitConversion
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: UnitConversion
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+    startLine: 46
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Units
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum UnitConversion
+    content.vb: >-
+      <Serializable>
+
+      Public Enum UnitConversion
+  extensionMethods:
+  - NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion.ConversionToPreferredUnit
+  commentId: F:NDSH.Geospatial.Gml.Units.UnitConversion.ConversionToPreferredUnit
+  id: ConversionToPreferredUnit
+  parent: NDSH.Geospatial.Gml.Units.UnitConversion
+  langs:
+  - csharp
+  - vb
+  name: ConversionToPreferredUnit
+  nameWithType: UnitConversion.ConversionToPreferredUnit
+  fullName: NDSH.Geospatial.Gml.Units.UnitConversion.ConversionToPreferredUnit
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ConversionToPreferredUnit
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+    startLine: 53
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Units
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "conversionToPreferredUnit")]
+
+      ConversionToPreferredUnit = 0
+    return:
+      type: NDSH.Geospatial.Gml.Units.UnitConversion
+    content.vb: >-
+      <EnumMember(Value:="conversionToPreferredUnit")>
+
+      ConversionToPreferredUnit = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: conversionToPreferredUnit
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion.RoughConversionToPreferredUnit
+  commentId: F:NDSH.Geospatial.Gml.Units.UnitConversion.RoughConversionToPreferredUnit
+  id: RoughConversionToPreferredUnit
+  parent: NDSH.Geospatial.Gml.Units.UnitConversion
+  langs:
+  - csharp
+  - vb
+  name: RoughConversionToPreferredUnit
+  nameWithType: UnitConversion.RoughConversionToPreferredUnit
+  fullName: NDSH.Geospatial.Gml.Units.UnitConversion.RoughConversionToPreferredUnit
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: RoughConversionToPreferredUnit
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.ISO19115.Ed2003/src/Geospatial/Gml/Units/UnitConversion.cs
+    startLine: 60
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+  namespace: NDSH.Geospatial.Gml.Units
+  summary: ''
+  example: []
+  syntax:
+    content: >-
+      [EnumMember(Value = "roughConversionToPreferredUnit")]
+
+      RoughConversionToPreferredUnit = 1
+    return:
+      type: NDSH.Geospatial.Gml.Units.UnitConversion
+    content.vb: >-
+      <EnumMember(Value:="roughConversionToPreferredUnit")>
+
+      RoughConversionToPreferredUnit = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Value
+      type: System.String
+      value: roughConversionToPreferredUnit
+references:
+- uid: NDSH.Geospatial.Gml.Units
+  commentId: N:NDSH.Geospatial.Gml.Units
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Units
+  nameWithType: NDSH.Geospatial.Gml.Units
+  fullName: NDSH.Geospatial.Gml.Units
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Units
+    name: Units
+    href: NDSH.Geospatial.Gml.Units.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Units
+    name: Units
+    href: NDSH.Geospatial.Gml.Units.html
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<UnitConversion>(UnitConversion)
+  nameWithType: ExtensionMethods.GetXmlEnumName<UnitConversion>(UnitConversion)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Gml.Units.UnitConversion>(NDSH.Geospatial.Gml.Units.UnitConversion)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of UnitConversion)(UnitConversion)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Gml.Units.UnitConversion)(NDSH.Geospatial.Gml.Units.UnitConversion)
+  name.vb: GetXmlEnumName(Of UnitConversion)(UnitConversion)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<UnitConversion>(UnitConversion)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<UnitConversion>(UnitConversion)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Gml.Units.UnitConversion>(NDSH.Geospatial.Gml.Units.UnitConversion)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of UnitConversion)(UnitConversion)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Gml.Units.UnitConversion)(NDSH.Geospatial.Gml.Units.UnitConversion)
+  name.vb: GetXmlEnumAttributeOrName(Of UnitConversion)(UnitConversion)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<UnitConversion>(UnitConversion)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<UnitConversion>(UnitConversion)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Gml.Units.UnitConversion>(NDSH.Geospatial.Gml.Units.UnitConversion)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of UnitConversion)(UnitConversion)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Gml.Units.UnitConversion)(NDSH.Geospatial.Gml.Units.UnitConversion)
+  name.vb: GetXmlEnumAttribute(Of UnitConversion)(UnitConversion)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Gml.Units.UnitConversion)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Gml.Units.UnitConversion
+    name: UnitConversion
+    href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Gml.Units.UnitConversion
+  commentId: T:NDSH.Geospatial.Gml.Units.UnitConversion
+  parent: NDSH.Geospatial.Gml.Units
+  href: NDSH.Geospatial.Gml.Units.UnitConversion.html
+  name: UnitConversion
+  nameWithType: UnitConversion
+  fullName: NDSH.Geospatial.Gml.Units.UnitConversion

@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Systems
+  id: Systems
+  parent: NDSH.Geospatial.Gml.Coordinate
+  children:
+  - NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.AffineCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.CoordinateSystemAxisType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.CylindricalCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.EllipsoidalCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.IGeocentricCoordinateSystem
+  - NDSH.Geospatial.Gml.Coordinate.Systems.IGeodeticCoordinateSystem
+  - NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  - NDSH.Geospatial.Gml.Coordinate.Systems.ITemporalCoordinateSystem
+  - NDSH.Geospatial.Gml.Coordinate.Systems.LinearCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.ObliqueCartesianCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.PolarCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.SphericalCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.TemporalCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.TimeCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.UserDefinedCSType
+  - NDSH.Geospatial.Gml.Coordinate.Systems.VerticalCSType
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Gml.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Systems
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003
+references:
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType.html
+  name: AbstractCoordinateSystemType
+  nameWithType: AbstractCoordinateSystemType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.AbstractCoordinateSystemType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.AffineCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.AffineCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.AffineCSType.html
+  name: AffineCSType
+  nameWithType: AffineCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.AffineCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType.html
+  name: CartesianCSType
+  nameWithType: CartesianCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.CartesianCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.CoordinateSystemAxisType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.CoordinateSystemAxisType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.CoordinateSystemAxisType.html
+  name: CoordinateSystemAxisType
+  nameWithType: CoordinateSystemAxisType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.CoordinateSystemAxisType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.CylindricalCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.CylindricalCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.CylindricalCSType.html
+  name: CylindricalCSType
+  nameWithType: CylindricalCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.CylindricalCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.EllipsoidalCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.EllipsoidalCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.EllipsoidalCSType.html
+  name: EllipsoidalCSType
+  nameWithType: EllipsoidalCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.EllipsoidalCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.IGeocentricCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.IGeocentricCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.IGeocentricCoordinateSystem.html
+  name: IGeocentricCoordinateSystem
+  nameWithType: IGeocentricCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.IGeocentricCoordinateSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.IGeodeticCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.IGeodeticCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.IGeodeticCoordinateSystem.html
+  name: IGeodeticCoordinateSystem
+  nameWithType: IGeodeticCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.IGeodeticCoordinateSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem.html
+  name: IImageCoordinateSystem
+  nameWithType: IImageCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.IImageCoordinateSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.ITemporalCoordinateSystem
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.ITemporalCoordinateSystem
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.ITemporalCoordinateSystem.html
+  name: ITemporalCoordinateSystem
+  nameWithType: ITemporalCoordinateSystem
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.ITemporalCoordinateSystem
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.LinearCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.LinearCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.LinearCSType.html
+  name: LinearCSType
+  nameWithType: LinearCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.LinearCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.ObliqueCartesianCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.ObliqueCartesianCSType
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.ObliqueCartesianCSType.html
+  name: ObliqueCartesianCSType
+  nameWithType: ObliqueCartesianCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.ObliqueCartesianCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.PolarCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.PolarCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.PolarCSType.html
+  name: PolarCSType
+  nameWithType: PolarCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.PolarCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.SphericalCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.SphericalCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.SphericalCSType.html
+  name: SphericalCSType
+  nameWithType: SphericalCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.SphericalCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.TemporalCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.TemporalCSType
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.TemporalCSType.html
+  name: TemporalCSType
+  nameWithType: TemporalCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.TemporalCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.TimeCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.TimeCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.TimeCSType.html
+  name: TimeCSType
+  nameWithType: TimeCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.TimeCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.UserDefinedCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.UserDefinedCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.UserDefinedCSType.html
+  name: UserDefinedCSType
+  nameWithType: UserDefinedCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.UserDefinedCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems.VerticalCSType
+  commentId: T:NDSH.Geospatial.Gml.Coordinate.Systems.VerticalCSType
+  parent: NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.Geospatial.Gml.Coordinate.Systems.VerticalCSType.html
+  name: VerticalCSType
+  nameWithType: VerticalCSType
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems.VerticalCSType
+- uid: NDSH.Geospatial.Gml.Coordinate.Systems
+  commentId: N:NDSH.Geospatial.Gml.Coordinate.Systems
+  href: NDSH.html
+  name: NDSH.Geospatial.Gml.Coordinate.Systems
+  nameWithType: NDSH.Geospatial.Gml.Coordinate.Systems
+  fullName: NDSH.Geospatial.Gml.Coordinate.Systems
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml
+    name: Gml
+    href: NDSH.Geospatial.Gml.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate
+    name: Coordinate
+    href: NDSH.Geospatial.Gml.Coordinate.html
+  - name: .
+  - uid: NDSH.Geospatial.Gml.Coordinate.Systems
+    name: Systems
+    href: NDSH.Geospatial.Gml.Coordinate.Systems.html

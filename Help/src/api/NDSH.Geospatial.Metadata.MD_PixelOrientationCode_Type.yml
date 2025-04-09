@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  id: MD_PixelOrientationCode_Type
+  parent: NDSH.Geospatial.Metadata
+  children:
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.center
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerLeft
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerRight
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperLeft
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperRight
+  langs:
+  - csharp
+  - vb
+  name: MD_PixelOrientationCode_Type
+  nameWithType: MD_PixelOrientationCode_Type
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  type: Enum
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MD_PixelOrientationCode_Type
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 22994
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MD_PixelOrientationCode_Type
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MD_PixelOrientationCode_Type
+  extensionMethods:
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  - NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.center
+  commentId: F:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.center
+  id: center
+  parent: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: center
+  nameWithType: MD_PixelOrientationCode_Type.center
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.center
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: center
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 22999
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: center = 0
+    return:
+      type: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerLeft
+  commentId: F:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerLeft
+  id: lowerLeft
+  parent: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: lowerLeft
+  nameWithType: MD_PixelOrientationCode_Type.lowerLeft
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerLeft
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: lowerLeft
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 23000
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: lowerLeft = 1
+    return:
+      type: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerRight
+  commentId: F:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerRight
+  id: lowerRight
+  parent: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: lowerRight
+  nameWithType: MD_PixelOrientationCode_Type.lowerRight
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.lowerRight
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: lowerRight
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 23001
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: lowerRight = 2
+    return:
+      type: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperRight
+  commentId: F:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperRight
+  id: upperRight
+  parent: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: upperRight
+  nameWithType: MD_PixelOrientationCode_Type.upperRight
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperRight
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: upperRight
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 23002
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: upperRight = 3
+    return:
+      type: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperLeft
+  commentId: F:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperLeft
+  id: upperLeft
+  parent: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  langs:
+  - csharp
+  - vb
+  name: upperLeft
+  nameWithType: MD_PixelOrientationCode_Type.upperLeft
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.upperLeft
+  type: Field
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: upperLeft
+    path: ../../Proj/src/src/NDSH.Geospatial.Metadata.XSD/src/ISO19136/aaGenerated/gmx-no01.Designer.cs
+    startLine: 23003
+  assemblies:
+  - NDSH.Geospatial.Metadata.XSD
+  namespace: NDSH.Geospatial.Metadata
+  syntax:
+    content: upperLeft = 4
+    return:
+      type: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+references:
+- uid: NDSH.Geospatial.Metadata
+  commentId: N:NDSH.Geospatial.Metadata
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata
+  nameWithType: NDSH.Geospatial.Metadata
+  fullName: NDSH.Geospatial.Metadata
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  parent: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  definition: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumName<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type>(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  name.vb: GetXmlEnumName(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type>(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  name.vb: GetXmlEnumAttributeOrName(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  parent: NDSH.Xml.ExtensionMethods
+  definition: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<MD_PixelOrientationCode_Type>(MD_PixelOrientationCode_Type)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type>(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+  name.vb: GetXmlEnumAttribute(Of MD_PixelOrientationCode_Type)(MD_PixelOrientationCode_Type)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: '>'
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+  - name: (
+  - uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+    name: MD_PixelOrientationCode_Type
+    href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  commentId: M:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  name: GetXmlEnumName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumName<T>(T)
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumName(Of T)(T)
+  fullName.vb: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName(Of T)(T)
+  name.vb: GetXmlEnumName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.GetXmlEnumName``1(``0)
+    name: GetXmlEnumName
+    href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html#NDSH_Geospatial_Metadata_V2003_Thin_ExtensionMethods_GetXmlEnumName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  commentId: T:NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+  parent: NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  name: GetXmlEnumAttributeOrName<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName(Of T)(T)
+  name.vb: GetXmlEnumAttributeOrName(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttributeOrName``1(``0)
+    name: GetXmlEnumAttributeOrName
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttributeOrName__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Xml.ExtensionMethods
+  commentId: T:NDSH.Xml.ExtensionMethods
+  parent: NDSH.Xml
+  href: NDSH.Xml.ExtensionMethods.html
+  name: ExtensionMethods
+  nameWithType: ExtensionMethods
+  fullName: NDSH.Xml.ExtensionMethods
+- uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  commentId: M:NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+  href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  name: GetXmlEnumAttribute<T>(T)
+  nameWithType: ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  fullName: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute<T>(T)
+  nameWithType.vb: ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  fullName.vb: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute(Of T)(T)
+  name.vb: GetXmlEnumAttribute(Of T)(T)
+  spec.csharp:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Xml.ExtensionMethods.GetXmlEnumAttribute``1(``0)
+    name: GetXmlEnumAttribute
+    href: NDSH.Xml.ExtensionMethods.html#NDSH_Xml_ExtensionMethods_GetXmlEnumAttribute__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: NDSH.Geospatial.Metadata.V2003.Thin
+  commentId: N:NDSH.Geospatial.Metadata.V2003.Thin
+  href: NDSH.html
+  name: NDSH.Geospatial.Metadata.V2003.Thin
+  nameWithType: NDSH.Geospatial.Metadata.V2003.Thin
+  fullName: NDSH.Geospatial.Metadata.V2003.Thin
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata
+    name: Metadata
+    href: NDSH.Geospatial.Metadata.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003
+    name: V2003
+    href: NDSH.Geospatial.Metadata.V2003.html
+  - name: .
+  - uid: NDSH.Geospatial.Metadata.V2003.Thin
+    name: Thin
+    href: NDSH.Geospatial.Metadata.V2003.Thin.html
+- uid: NDSH.Xml
+  commentId: N:NDSH.Xml
+  href: NDSH.html
+  name: NDSH.Xml
+  nameWithType: NDSH.Xml
+  fullName: NDSH.Xml
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Xml
+    name: Xml
+    href: NDSH.Xml.html
+- uid: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  commentId: T:NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type
+  parent: NDSH.Geospatial.Metadata
+  href: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type.html
+  name: MD_PixelOrientationCode_Type
+  nameWithType: MD_PixelOrientationCode_Type
+  fullName: NDSH.Geospatial.Metadata.MD_PixelOrientationCode_Type

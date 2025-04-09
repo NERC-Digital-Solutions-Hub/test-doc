@@ -1,0 +1,31 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance
+  commentId: N:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance
+  id: Maintenance
+  parent: NDSH.Geospatial.Serializers.Xml.Metadata.Readers
+  children:
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdMaintenanceInformationXmlReader
+  - NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdScopeDescriptionXmlReader
+  langs:
+  - csharp
+  - vb
+  name: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance
+  nameWithType: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance
+  type: Namespace
+  assemblies:
+  - NDSH.Geospatial.Metadata.ISO19115.Ed2003.Serialization
+references:
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdMaintenanceInformationXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdMaintenanceInformationXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdMaintenanceInformationXmlReader.html
+  name: MdMaintenanceInformationXmlReader
+  nameWithType: MdMaintenanceInformationXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdMaintenanceInformationXmlReader
+- uid: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdScopeDescriptionXmlReader
+  commentId: T:NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdScopeDescriptionXmlReader
+  href: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdScopeDescriptionXmlReader.html
+  name: MdScopeDescriptionXmlReader
+  nameWithType: MdScopeDescriptionXmlReader
+  fullName: NDSH.Geospatial.Serializers.Xml.Metadata.Readers.Maintenance.MdScopeDescriptionXmlReader

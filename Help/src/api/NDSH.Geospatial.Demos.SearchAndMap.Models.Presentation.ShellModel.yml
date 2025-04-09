@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  id: ShellModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  children:
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+  - NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText
+  langs:
+  - csharp
+  - vb
+  name: ShellModel
+  nameWithType: ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  type: Class
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ShellModel
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 20
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: The <xref href="NDSH.Geospatial.Demos.SearchAndMap.Model" data-throw-if-not-resolved="false"></xref> used by the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: 'public sealed class ShellModel : Model, IModel, INotifyPropertyChanged'
+    content.vb: Public NotInheritable Class ShellModel Inherits Model Implements IModel, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - NDSH.Geospatial.Demos.SearchAndMap.Model
+  implements:
+  - NDSH.Geospatial.Demos.SearchAndMap.IModel
+  - INotifyPropertyChanged
+  inheritedMembers:
+  - NDSH.Geospatial.Demos.SearchAndMap.Model.PropertyChanged
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor
+  commentId: M:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor
+  id: '#ctor'
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: ShellModel()
+  nameWithType: ShellModel.ShellModel()
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ShellModel()
+  type: Constructor
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: .ctor
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 27
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Initializes the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public ShellModel()
+    content.vb: Public Sub New()
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor*
+  nameWithType.vb: ShellModel.New()
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.New()
+  name.vb: New()
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+  id: Title
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: ShellModel.Title
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Title
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 45
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets the title of the application.
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  id: Map
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: Map
+  nameWithType: ShellModel.Map
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: Map
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 62
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets the <xref href="NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map" data-throw-if-not-resolved="false"></xref> of the application.
+  example: []
+  syntax:
+    content: public Map Map { get; set; }
+    parameters: []
+    return:
+      type: Map
+    content.vb: Public Property Map As Map
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+  id: IsAppconfigurationWindowVisible
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: IsAppconfigurationWindowVisible
+  nameWithType: ShellModel.IsAppconfigurationWindowVisible
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IsAppconfigurationWindowVisible
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 79
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets whether the application configuration window is visible or not.
+  example: []
+  syntax:
+    content: public bool IsAppconfigurationWindowVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAppconfigurationWindowVisible As Boolean
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+  id: AppConfigurationWindowVisibility
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: AppConfigurationWindowVisibility
+  nameWithType: ShellModel.AppConfigurationWindowVisibility
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: AppConfigurationWindowVisibility
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 97
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets the Visibility of the application configuration window.
+  example: []
+  syntax:
+    content: public Visibility AppConfigurationWindowVisibility { get; set; }
+    parameters: []
+    return:
+      type: Visibility
+    content.vb: Public Property AppConfigurationWindowVisibility As Visibility
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+  id: ToggleAppConfigurationWindowIsChecked
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: ToggleAppConfigurationWindowIsChecked
+  nameWithType: ShellModel.ToggleAppConfigurationWindowIsChecked
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToggleAppConfigurationWindowIsChecked
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 112
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets whether the toggle application configuration button is checked or not.
+  example: []
+  syntax:
+    content: public bool ToggleAppConfigurationWindowIsChecked { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property ToggleAppConfigurationWindowIsChecked As Boolean
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+  id: IsMetadataSearchWindowVisible
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: IsMetadataSearchWindowVisible
+  nameWithType: ShellModel.IsMetadataSearchWindowVisible
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IsMetadataSearchWindowVisible
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 123
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets whether the the metadata search window is visible or not.
+  example: []
+  syntax:
+    content: public bool IsMetadataSearchWindowVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsMetadataSearchWindowVisible As Boolean
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+  id: MetadataSearchWindowVisibility
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: MetadataSearchWindowVisibility
+  nameWithType: ShellModel.MetadataSearchWindowVisibility
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: MetadataSearchWindowVisibility
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 140
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets/Sets the Visibility of the metadata search window.
+  example: []
+  syntax:
+    content: public Visibility MetadataSearchWindowVisibility { get; set; }
+    parameters: []
+    return:
+      type: Visibility
+    content.vb: Public Property MetadataSearchWindowVisibility As Visibility
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility*
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText
+  id: ToggleMetadataSearchWindowButtonText
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  langs:
+  - csharp
+  - vb
+  name: ToggleMetadataSearchWindowButtonText
+  nameWithType: ShellModel.ToggleMetadataSearchWindowButtonText
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText
+  type: Property
+  source:
+    remote:
+      path: Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: ToggleMetadataSearchWindowButtonText
+    path: ../../Proj/src/src/NDSH.Geospatial.Demos.SearchAndMap.Wpf/src/Models/Presentation/ShellModel.cs
+    startLine: 155
+  assemblies:
+  - NDSH.Geospatial.Demos.SearchAndMap.Wpf
+  namespace: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  summary: Gets the text of the toggle search metadata window button.
+  example: []
+  syntax:
+    content: public string ToggleMetadataSearchWindowButtonText { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ToggleMetadataSearchWindowButtonText As String
+  overload: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText*
+references:
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Model
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Model
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.Model.html
+  name: Model
+  nameWithType: Model
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Model
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Views
+  href: NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView.html
+  name: ShellView
+  nameWithType: ShellView
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views.ShellView
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models
+    name: Models
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+    name: Presentation
+    href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: NDSH.Geospatial.Demos.SearchAndMap.IModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.IModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.Geospatial.Demos.SearchAndMap.IModel.html
+  name: IModel
+  nameWithType: IModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.IModel
+- uid: INotifyPropertyChanged
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: INotifyPropertyChanged
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Model.PropertyChanged
+  commentId: E:NDSH.Geospatial.Demos.SearchAndMap.Model.PropertyChanged
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Model
+  href: NDSH.Geospatial.Demos.SearchAndMap.Model.html#NDSH_Geospatial_Demos_SearchAndMap_Model_PropertyChanged
+  name: PropertyChanged
+  nameWithType: Model.PropertyChanged
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Model.PropertyChanged
+- uid: NDSH.Geospatial.Demos.SearchAndMap
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap
+  fullName: NDSH.Geospatial.Demos.SearchAndMap
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+  commentId: N:NDSH.Geospatial.Demos.SearchAndMap.Views
+  href: NDSH.html
+  name: NDSH.Geospatial.Demos.SearchAndMap.Views
+  nameWithType: NDSH.Geospatial.Demos.SearchAndMap.Views
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Views
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Geospatial
+    name: Geospatial
+    href: NDSH.Geospatial.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos
+    name: Demos
+    href: NDSH.Geospatial.Demos.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap
+    name: SearchAndMap
+    href: NDSH.Geospatial.Demos.SearchAndMap.html
+  - name: .
+  - uid: NDSH.Geospatial.Demos.SearchAndMap.Views
+    name: Views
+    href: NDSH.Geospatial.Demos.SearchAndMap.Views.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  commentId: T:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+  parent: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html
+  name: ShellModel
+  nameWithType: ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.#ctor
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel__ctor
+  name: ShellModel
+  nameWithType: ShellModel.ShellModel
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ShellModel
+  nameWithType.vb: ShellModel.New
+  fullName.vb: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.New
+  name.vb: New
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_Title
+  name: Title
+  nameWithType: ShellModel.Title
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  commentId: P:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_Map
+  name: Map
+  nameWithType: ShellModel.Map
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_Map
+  name: Map
+  nameWithType: ShellModel.Map
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.Map
+- uid: Map
+  commentId: '!:Map'
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: Map
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_IsAppconfigurationWindowVisible
+  name: IsAppconfigurationWindowVisible
+  nameWithType: ShellModel.IsAppconfigurationWindowVisible
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsAppconfigurationWindowVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_AppConfigurationWindowVisibility
+  name: AppConfigurationWindowVisibility
+  nameWithType: ShellModel.AppConfigurationWindowVisibility
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.AppConfigurationWindowVisibility
+- uid: Visibility
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: Visibility
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_ToggleAppConfigurationWindowIsChecked
+  name: ToggleAppConfigurationWindowIsChecked
+  nameWithType: ShellModel.ToggleAppConfigurationWindowIsChecked
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleAppConfigurationWindowIsChecked
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_IsMetadataSearchWindowVisible
+  name: IsMetadataSearchWindowVisible
+  nameWithType: ShellModel.IsMetadataSearchWindowVisible
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.IsMetadataSearchWindowVisible
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_MetadataSearchWindowVisibility
+  name: MetadataSearchWindowVisibility
+  nameWithType: ShellModel.MetadataSearchWindowVisibility
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.MetadataSearchWindowVisibility
+- uid: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText*
+  commentId: Overload:NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText
+  href: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.html#NDSH_Geospatial_Demos_SearchAndMap_Models_Presentation_ShellModel_ToggleMetadataSearchWindowButtonText
+  name: ToggleMetadataSearchWindowButtonText
+  nameWithType: ShellModel.ToggleMetadataSearchWindowButtonText
+  fullName: NDSH.Geospatial.Demos.SearchAndMap.Models.Presentation.ShellModel.ToggleMetadataSearchWindowButtonText

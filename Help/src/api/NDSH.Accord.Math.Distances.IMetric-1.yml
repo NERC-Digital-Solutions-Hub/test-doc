@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: NDSH.Accord.Math.Distances.IMetric`1
+  commentId: T:NDSH.Accord.Math.Distances.IMetric`1
+  id: IMetric`1
+  parent: NDSH.Accord.Math.Distances
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IMetric<T>
+  nameWithType: IMetric<T>
+  fullName: NDSH.Accord.Math.Distances.IMetric<T>
+  type: Interface
+  source:
+    remote:
+      path: Proj/src/src/NDSH/src/Accord/Math/Distances/IMetric.cs
+      branch: dev
+      repo: https://github.com/NERC-Digital-Solutions-Hub/test-doc.git
+    id: IMetric
+    path: ../../Proj/src/src/NDSH/src/Accord/Math/Distances/IMetric.cs
+    startLine: 45
+  assemblies:
+  - NDSH
+  namespace: NDSH.Accord.Math.Distances
+  summary: Common interface for Metric distance functions.
+  remarks: >-
+    <p>
+      The framework distinguishes between metrics and distances by using different
+      types for them. This makes it possible to let the compiler figure out logic
+      problems such as the specification of a non-metric for a method that requires
+      a proper metric (i.e. that respects the triangle inequality).</p>
+
+    <p>
+      The objective of this technique is to make it harder to make some mistakes.
+      However, it is generally possible to bypass this mechanism by using named constructors
+      available at each of the classes, such as Minkowski's Minkowski.Nonmetric 
+      method, to create distances implementing the <xref href="NDSH.Accord.Math.Distances.IMetric%601" data-throw-if-not-resolved="false"></xref> interface that are not
+      really metrics. Use at your own risk.</p>
+  example: []
+  syntax:
+    content: 'public interface IMetric<in T> : IDistance<T>, IDistance<T, T>'
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IMetric(Of In T) Inherits IDistance(Of T), IDistance(Of T, T)
+  seealso:
+  - linkId: NDSH.Accord.Math.Distances.IDistance`1
+    commentId: T:NDSH.Accord.Math.Distances.IDistance`1
+  inheritedMembers:
+  - NDSH.Accord.Math.Distances.IDistance{{T},{T}}.Distance({T},{T})
+  nameWithType.vb: IMetric(Of T)
+  fullName.vb: NDSH.Accord.Math.Distances.IMetric(Of T)
+  name.vb: IMetric(Of T)
+references:
+- uid: NDSH.Accord.Math.Distances.IDistance`1
+  commentId: T:NDSH.Accord.Math.Distances.IDistance`1
+  href: NDSH.Accord.Math.Distances.IDistance-1.html
+  name: IDistance<T>
+  nameWithType: IDistance<T>
+  fullName: NDSH.Accord.Math.Distances.IDistance<T>
+  nameWithType.vb: IDistance(Of T)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T)
+  name.vb: IDistance(Of T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`1
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IMetric`1
+  commentId: T:NDSH.Accord.Math.Distances.IMetric`1
+  href: NDSH.Accord.Math.Distances.IMetric-1.html
+  name: IMetric<T>
+  nameWithType: IMetric<T>
+  fullName: NDSH.Accord.Math.Distances.IMetric<T>
+  nameWithType.vb: IMetric(Of T)
+  fullName.vb: NDSH.Accord.Math.Distances.IMetric(Of T)
+  name.vb: IMetric(Of T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IMetric`1
+    name: IMetric
+    href: NDSH.Accord.Math.Distances.IMetric-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances
+  commentId: N:NDSH.Accord.Math.Distances
+  href: NDSH.html
+  name: NDSH.Accord.Math.Distances
+  nameWithType: NDSH.Accord.Math.Distances
+  fullName: NDSH.Accord.Math.Distances
+  spec.csharp:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Accord
+    name: Accord
+    href: NDSH.Accord.html
+  - name: .
+  - uid: NDSH.Accord.Math
+    name: Math
+    href: NDSH.Accord.Math.html
+  - name: .
+  - uid: NDSH.Accord.Math.Distances
+    name: Distances
+    href: NDSH.Accord.Math.Distances.html
+  spec.vb:
+  - uid: NDSH
+    name: NDSH
+    href: NDSH.html
+  - name: .
+  - uid: NDSH.Accord
+    name: Accord
+    href: NDSH.Accord.html
+  - name: .
+  - uid: NDSH.Accord.Math
+    name: Math
+    href: NDSH.Accord.Math.html
+  - name: .
+  - uid: NDSH.Accord.Math.Distances
+    name: Distances
+    href: NDSH.Accord.Math.Distances.html
+- uid: NDSH.Accord.Math.Distances.IDistance{{T},{T}}.Distance({T},{T})
+  commentId: M:NDSH.Accord.Math.Distances.IDistance{`0,`0}.Distance(`0,`0)
+  parent: NDSH.Accord.Math.Distances.IDistance{{T},{T}}
+  definition: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  name: Distance(T, T)
+  nameWithType: IDistance<T, T>.Distance(T, T)
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, T>.Distance(T, T)
+  nameWithType.vb: IDistance(Of T, T).Distance(T, T)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, T).Distance(T, T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance{`0,`0}.Distance(`0,`0)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance{`0,`0}.Distance(`0,`0)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  commentId: M:NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+  href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  name: Distance(T, U)
+  nameWithType: IDistance<T, U>.Distance(T, U)
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, U>.Distance(T, U)
+  nameWithType.vb: IDistance(Of T, U).Distance(T, U)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, U).Distance(T, U)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2.Distance(`0,`1)
+    name: Distance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html#NDSH_Accord_Math_Distances_IDistance_2_Distance__0__1_
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance{{T},{T}}
+  commentId: T:NDSH.Accord.Math.Distances.IDistance{`0,`0}
+  parent: NDSH.Accord.Math.Distances
+  definition: NDSH.Accord.Math.Distances.IDistance`2
+  href: NDSH.Accord.Math.Distances.IDistance-2.html
+  name: IDistance<T, T>
+  nameWithType: IDistance<T, T>
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, T>
+  nameWithType.vb: IDistance(Of T, T)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, T)
+  name.vb: IDistance(Of T, T)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: NDSH.Accord.Math.Distances.IDistance`2
+  commentId: T:NDSH.Accord.Math.Distances.IDistance`2
+  href: NDSH.Accord.Math.Distances.IDistance-2.html
+  name: IDistance<T, U>
+  nameWithType: IDistance<T, U>
+  fullName: NDSH.Accord.Math.Distances.IDistance<T, U>
+  nameWithType.vb: IDistance(Of T, U)
+  fullName.vb: NDSH.Accord.Math.Distances.IDistance(Of T, U)
+  name.vb: IDistance(Of T, U)
+  spec.csharp:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  spec.vb:
+  - uid: NDSH.Accord.Math.Distances.IDistance`2
+    name: IDistance
+    href: NDSH.Accord.Math.Distances.IDistance-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
