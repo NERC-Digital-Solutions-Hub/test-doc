@@ -16,4 +16,10 @@ jobs:
       - name: Build docfx html
         uses: nunit/docfx-action @v4.0.0
         with:
-          args: "Help/doc_source/docfx.json"
+          args: "Help/src/docfx.json"
+
+      - name: Upload DocFX site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docfx-site
+          path: Help/doc
