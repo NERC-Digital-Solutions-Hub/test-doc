@@ -51,5 +51,9 @@ obj
 
 /Proj/src/src/NDSH.Geospatial.Metadata.Utilities/src/Properties/Secret.txt
 
-/Help/doc/src/*
+/Help/src/api/*
+!/Help/src/api/index.md
+!/Help/src/docfx.json
+
 /Help/doc/*
+!/Help/doc/.gitkeep
