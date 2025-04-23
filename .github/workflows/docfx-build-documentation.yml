@@ -21,4 +21,4 @@ jobs:
       - name: Upload DocFX site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Help/doc
+          path: Help/doc/api
