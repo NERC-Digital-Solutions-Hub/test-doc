@@ -1,19 +1,20 @@
 name: Deploy Documentation to GitHub Pages
 
 on:
-  workflow_run:
-    workflows:
-      - "Build Documentation"
-    types:
-      - completed
+  push:
+    branches:
+      - main
 
 permissions:
+  contents: read
   pages: write
   id-token: write
 
 jobs:
+  call-build-docs:
+    uses: ./.github/workflows/docfx-build-documentation.yml
   deploy:
-    if: ${{ github.event.workflow_run.head_branch == 'main' }}
+    needs: call-build-docs
     name: Deploy Documentation to GitHub Pages
     runs-on: ubuntu-latest
     environment:
