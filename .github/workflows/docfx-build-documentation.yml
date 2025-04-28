@@ -16,6 +16,9 @@ jobs:
         with:
           args: "Help/src/docfx.json"
 
+      - name: Copy global index to docs
+        run: cp Help/src/index.html Help/doc
+
       - name: Upload DocFX site artifact
         uses: actions/upload-pages-artifact@v3
         with:
