@@ -2,8 +2,6 @@
 
 Welcome to the NDSH documentation!
 
-Please follow the below links for the:
+Please follow the below link for the:
 
-[README](../../../README.md)
-
-[API documentation - NDSH](../../doc/api/NDSH.html)
+[API documentation - NDSH](NDSH.html)
